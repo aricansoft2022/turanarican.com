@@ -10,6 +10,8 @@ type TextFragment = {
 
 const englishSignalPattern =
   /\b(?:the|and|with|from|then|number|numbers|expression|expressions|equation|equations|multiple|multiples|factor|factors|prime|composite|find|identify|determine|using|following|exercises|answer|solution|table|figure|step|each|given|counting|substitute|simplify|solve)\b/i;
+const englishSignalTokenPattern =
+  /\b(?:the|and|with|from|then|number|numbers|expression|expressions|equation|equations|multiple|multiples|factor|factors|prime|composite|find|identify|determine|using|following|exercises|answer|solution|table|figure|step|each|given|counting|substitute|simplify|solve)\b/gi;
 
 async function main() {
   const fixture = await readSeedFixture();
@@ -48,6 +50,7 @@ async function main() {
         fragments: fragments.length,
         englishSignalFragments: flagged.length,
         englishSignalRatio: ratio(flagged.length, fragments.length),
+        topSignals: summarizeTopSignals(flagged),
         byLesson,
       },
       null,
@@ -171,6 +174,22 @@ function ratio(part: number, total: number) {
 
 function truncate(text: string) {
   return text.length > 180 ? `${text.slice(0, 177)}...` : text;
+}
+
+function summarizeTopSignals(fragments: TextFragment[]) {
+  const counts = new Map<string, number>();
+
+  for (const fragment of fragments) {
+    for (const match of fragment.text.matchAll(englishSignalTokenPattern)) {
+      const key = match[0].toLowerCase();
+      counts.set(key, (counts.get(key) ?? 0) + 1);
+    }
+  }
+
+  return [...counts.entries()]
+    .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+    .slice(0, 20)
+    .map(([signal, count]) => ({ signal, count }));
 }
 
 main().catch((error) => {

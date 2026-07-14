@@ -14,9 +14,9 @@ import {
   type ParsedLessonContent,
 } from "./lesson-content";
 import {
-  adaptContentBlocksToTurkish,
-  adaptExercisePromptToTurkish,
-} from "./turkish-adaptation";
+  localizeContentBlocksForTurkish,
+  localizeExercisePromptForTurkish,
+} from "./turkish-localization";
 
 type LessonBuildInput = {
   book: Pick<Book, "id" | "slug" | "license">;
@@ -71,7 +71,7 @@ function buildLessonSection(
     heading,
     slug,
     level: 2,
-    blocks: adaptContentBlocksToTurkish(
+    blocks: localizeContentBlocksForTurkish(
       parsedLessonBlocksToContentBlocks(section.blocks),
     ),
   };
@@ -88,7 +88,7 @@ function buildAnsweredExercises(
       id: `exercise-${exercise.number}`,
       number: exercise.number,
       sectionSlug: exerciseSectionSlugs[exercise.number] ?? "",
-      prompt: adaptExercisePromptToTurkish(exercise.prompt),
+      prompt: localizeExercisePromptForTurkish(exercise.prompt),
       answer: exerciseAnswers[exercise.number],
       sortOrder: Number(exercise.number.replace(/\D+$/g, "")),
     }));

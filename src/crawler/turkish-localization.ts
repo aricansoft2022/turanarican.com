@@ -1,6 +1,6 @@
 import type { ContentBlock, InlineContent } from "@/src/content/types";
 
-export function adaptContentBlocksToTurkish(
+export function localizeContentBlocksForTurkish(
   blocks: ContentBlock[],
 ): ContentBlock[] {
   return blocks.map((block) => {
@@ -19,7 +19,7 @@ export function adaptContentBlocksToTurkish(
       return {
         ...block,
         prompt: adaptInlineContentToTurkish(block.prompt),
-        solution: adaptContentBlocksToTurkish(block.solution),
+        solution: localizeContentBlocksForTurkish(block.solution),
       };
     }
 
@@ -33,7 +33,7 @@ export function adaptContentBlocksToTurkish(
     }
 
     if (block.type === "callout") {
-      return { ...block, blocks: adaptContentBlocksToTurkish(block.blocks) };
+      return { ...block, blocks: localizeContentBlocksForTurkish(block.blocks) };
     }
 
     if (block.type === "table") {
@@ -48,7 +48,7 @@ export function adaptContentBlocksToTurkish(
   });
 }
 
-export function adaptExercisePromptToTurkish(
+export function localizeExercisePromptForTurkish(
   prompt: InlineContent[],
 ): InlineContent[] {
   const normalizedPrompt = adaptInlineContentToTurkish(prompt);

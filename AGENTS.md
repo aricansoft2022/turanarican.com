@@ -132,11 +132,29 @@ and `2,5`.
 - This is both an ingestion/adaptation concern and a render safety net; see
   `src/content/number-localization.ts`.
 - Current seed lessons may still render substantial English source text until
-  the Turkish adaptation/translation layer is implemented. This is temporary,
-  but should be treated as a product gap before real launch/content expansion.
+  Turkish editorial content is added. This is temporary, but should be treated
+  as a product gap before real launch/content expansion.
 - Use `npm run content:language-report` to measure English-looking text in the
   generated seed fixture. The report is informational for now; convert it into
-  a failing gate when Turkish adaptation becomes the active milestone.
+  a failing gate when Turkish editorial adaptation becomes the active milestone.
+
+## Translation and Editorial Model
+
+Do not design the ingestion scripts as a full automatic translator. New books
+and lessons should not be fetched, machine-translated, and published by script
+alone. The intended workflow is:
+
+1. Scripts fetch, clean, structure, attribute, and validate source lessons.
+2. Scripts may apply narrow deterministic localization cleanup such as numeric
+   separators, obvious KaTeX `\text{...}` connector words, and source chrome
+   removal.
+3. The Turkish lesson text itself is added editorially in Codex sessions while
+   the user is connected to the repo.
+4. Validation and language reports surface remaining English text, broken math,
+   attribution gaps, and parser mistakes.
+
+Treat `src/crawler/turkish-localization.ts` as cleanup/localization support, not
+as a general translation engine.
 
 ## Data Model Direction
 
@@ -191,8 +209,8 @@ Recommended pipeline:
    enough. If a recreated asset is visually broken or too ambiguous, keep and
    serve the original asset with attribution.
 10. Normalize math delimiters and render with KaTeX in the app.
-11. Apply Turkish adaptation layer, including English-to-Turkish numeric
-    separator localization.
+11. Apply narrow Turkish localization cleanup, including English-to-Turkish
+    numeric separator localization. Do not attempt full automatic translation.
 12. Store structured content in Turso through Drizzle.
 13. Upload production assets to Cloudflare R2/bucket once credentials and bucket
    naming are configured. Until then, keep stable local/R2 keys in manifests.
@@ -273,8 +291,8 @@ Expected first build milestones:
    lessons now build end-to-end for Prealgebra 2.3, 2.4, and 2.5.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
-11. Add informational language coverage report and initial Turkish adaptation
-    hooks for exercise prompts/math text. Started.
+11. Add informational language coverage report and initial Turkish localization
+    cleanup hooks for exercise prompts/math text. Started.
 
 ## Quality Gates
 
