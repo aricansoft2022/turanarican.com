@@ -3834,7 +3834,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "We will use a model to help you understand how the process of solving an equation is like solving a puzzle. An envelope represents the variable – since its contents are unknown – and each counter represents one."
+                    "value": "Denklem çözmenin bir bulmaca çözmeye nasıl benzediğini görmek için bir model kullanacağız. Zarf, içindeki sayı bilinmediği için değişkeni temsil eder; her sayaç da bir birimi temsil eder."
                   }
                 ]
               },
@@ -3843,7 +3843,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Suppose a desk has an imaginary line dividing it in half. We place three counters and an envelope on the left side of desk, and eight counters on the right side of the desk as in Figure 2.3. Both sides of the desk have the same number of counters, but some counters are hidden in the envelope. Can you tell how many counters are in the envelope?"
+                    "value": "Bir masanın ortasından geçtiğini düşündüğümüz hayali bir çizgi olsun. Masanın sol tarafına üç sayaç ve bir zarf, sağ tarafına da sekiz sayaç koyuyoruz. İki tarafta da aynı sayıda sayaç var, fakat bazı sayaçlar zarfın içinde gizli. Zarfta kaç sayaç olduğunu söyleyebilir misiniz?"
                   }
                 ]
               },
@@ -3853,7 +3853,7 @@
                 "caption": [
                   {
                     "type": "text",
-                    "value": "Figure 2.3"
+                    "value": "Şekil 2.3"
                   }
                 ]
               },
@@ -3862,11 +3862,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "What steps are you taking in your mind to figure out how many counters are in the envelope? Perhaps you are thinking “I need to remove the "
-                  },
-                  {
-                    "type": "math",
-                    "value": "3Figure 2.4 shows this process."
+                    "value": "Zarfta kaç sayaç olduğunu bulurken zihninizde hangi adımları izliyorsunuz? Büyük olasılıkla, iki tarafta da eşitlik bozulmadan sol taraftaki üç sayacı ve sağ taraftan da üç sayacı kaldırmayı düşünüyorsunuz. Bu işlemden sonra sağ tarafta beş sayaç kalır; demek ki zarfın içinde beş sayaç vardır."
                   }
                 ]
               },
@@ -3876,7 +3872,7 @@
                 "caption": [
                   {
                     "type": "text",
-                    "value": "Figure 2.4"
+                    "value": "Şekil 2.4"
                   }
                 ]
               },
@@ -3885,31 +3881,15 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "What algebraic equation is modeled by this situation? Each side of the desk represents an expression and the center line takes the place of the equal sign. We will call the contents of the envelope "
+                    "value": "Bu durum hangi cebirsel denklemle modellenir? Masanın her tarafı bir ifadeyi, ortadaki çizgi de eşittir işaretini temsil eder. Zarfın içindekilere "
                   },
                   {
                     "type": "math",
-                    "value": "x,"
+                    "value": "x"
                   },
                   {
                     "type": "text",
-                    "value": " so the number of counters on the left side of the desk is "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x+3."
-                  },
-                  {
-                    "type": "text",
-                    "value": " On the right side of the desk are "
-                  },
-                  {
-                    "type": "math",
-                    "value": "8"
-                  },
-                  {
-                    "type": "text",
-                    "value": " counters. We are told that "
+                    "value": " diyelim. Sol taraftaki sayaç sayısı "
                   },
                   {
                     "type": "math",
@@ -3917,7 +3897,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " is equal to "
+                    "value": ", sağ taraftaki sayaç sayısı ise "
                   },
                   {
                     "type": "math",
@@ -3925,11 +3905,31 @@
                   },
                   {
                     "type": "text",
-                    "value": " so our equation is"
+                    "value": " olur. Bize "
                   },
                   {
                     "type": "math",
-                    "value": "x+3=8."
+                    "value": "x+3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesinin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " değerine eşit olduğu söyleniyor; bu yüzden denklemimiz "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x+3=8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
                   }
                 ]
               },
@@ -3939,7 +3939,7 @@
                 "caption": [
                   {
                     "type": "text",
-                    "value": "Figure 2.5"
+                    "value": "Şekil 2.5"
                   }
                 ]
               },
@@ -3948,7 +3948,8 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "x+3=8"
+                    "value": "x+3=8",
+                    "display": true
                   }
                 ]
               },
@@ -3957,7 +3958,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Let’s write algebraically the steps we took to discover how many counters were in the envelope."
+                    "value": "Zarfta kaç sayaç olduğunu bulmak için yaptığımız adımları şimdi cebirsel olarak yazalım."
                   }
                 ]
               },
@@ -3966,10 +3967,10 @@
                 "columns": [],
                 "rows": [
                   [
-                    "First, we took away three from each side."
+                    "Önce her iki taraftan da üç çıkarırız."
                   ],
                   [
-                    "Then we were left with five."
+                    "Böylece zarfta beş sayaç kaldığını görürüz."
                   ]
                 ]
               },
@@ -3978,15 +3979,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Now let’s check our solution. We substitute "
-                  },
-                  {
-                    "type": "math",
-                    "value": "5"
-                  },
-                  {
-                    "type": "text",
-                    "value": " for "
+                    "value": "Şimdi çözümümüzü kontrol edelim. Başlangıç denkleminde "
                   },
                   {
                     "type": "math",
@@ -3994,7 +3987,25 @@
                   },
                   {
                     "type": "text",
-                    "value": " in the original equation and see if we get a true statement."
+                    "value": " yerine "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yazar ve doğru bir ifade elde edip etmediğimize bakarız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}x+3&=8 \\\\ 5+3&\\stackrel{?}{=}8 \\\\ 8&=8\\checkmark\\end{aligned}",
+                    "display": true
                   }
                 ]
               },
@@ -4003,16 +4014,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "The image shows the original equation, x plus 3 equal to 8. Substitute 5 in for x to check. The equation becomes 5 plus 3 equal to 8. Is this true? The left side simplifies by adding 5 and 3 to get 8. Both sides of the equal symbol are 8."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Our solution is correct. Five counters in the envelope plus three more equals eight."
+                    "value": "Çözümümüz doğru. Zarftaki beş sayaç ile dışarıdaki üç sayaç birlikte sekiz sayaç eder."
                   }
                 ]
               },
@@ -4022,7 +4024,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Write the equation modeled by the envelopes and counters, and then solve the equation: The image is divided in half vertically. On the left side is an envelope with one counter below it. On the right side is 7 counters."
+                    "value": "Zarflar ve sayaçlarla modellenen denklemi yazın, sonra denklemi çözün: Şekil dikey olarak ikiye ayrılmıştır. Sol tarafta bir zarf ve altında bir sayaç, sağ tarafta ise yedi sayaç vardır."
                   }
                 ],
                 "solution": []
@@ -4033,7 +4035,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Write the equation modeled by the envelopes and counters, and then solve the equation: The image is divided in half vertically. On the left side is an envelope with three counters below it. On the right side is 4 counters."
+                    "value": "Zarflar ve sayaçlarla modellenen denklemi yazın, sonra denklemi çözün: Şekil dikey olarak ikiye ayrılmıştır. Sol tarafta bir zarf ve altında üç sayaç, sağ tarafta ise dört sayaç vardır."
                   }
                 ],
                 "solution": []

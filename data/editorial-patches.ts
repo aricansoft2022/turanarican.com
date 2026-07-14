@@ -53,6 +53,248 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
     sourceNumber: "2.4",
     sections: [
       {
+        sectionSlug: "esitligin-cikarma-ozelligini-modelleme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Denklem çözmenin bir bulmaca çözmeye nasıl benzediğini görmek için bir model kullanacağız. Zarf, içindeki sayı bilinmediği için değişkeni temsil eder; her sayaç da bir birimi temsil eder.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bir masanın ortasından geçtiğini düşündüğümüz hayali bir çizgi olsun. Masanın sol tarafına üç sayaç ve bir zarf, sağ tarafına da sekiz sayaç koyuyoruz. İki tarafta da aynı sayıda sayaç var, fakat bazı sayaçlar zarfın içinde gizli. Zarfta kaç sayaç olduğunu söyleyebilir misiniz?",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "figure",
+                assetId: "010-48c0b3e4b7da3bb7",
+                caption: [{ type: "text", value: "Şekil 2.3" }],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Zarfta kaç sayaç olduğunu bulurken zihninizde hangi adımları izliyorsunuz? Büyük olasılıkla, iki tarafta da eşitlik bozulmadan sol taraftaki üç sayacı ve sağ taraftan da üç sayacı kaldırmayı düşünüyorsunuz. Bu işlemden sonra sağ tarafta beş sayaç kalır; demek ki zarfın içinde beş sayaç vardır.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "figure",
+                assetId: "012-b22f3d320dfd26f0",
+                caption: [{ type: "text", value: "Şekil 2.4" }],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bu durum hangi cebirsel denklemle modellenir? Masanın her tarafı bir ifadeyi, ortadaki çizgi de eşittir işaretini temsil eder. Zarfın içindekilere ",
+                  },
+                  { type: "math", value: "x" },
+                  {
+                    type: "text",
+                    value: " diyelim. Sol taraftaki sayaç sayısı ",
+                  },
+                  { type: "math", value: "x+3" },
+                  {
+                    type: "text",
+                    value: ", sağ taraftaki sayaç sayısı ise ",
+                  },
+                  { type: "math", value: "8" },
+                  { type: "text", value: " olur. Bize " },
+                  { type: "math", value: "x+3" },
+                  { type: "text", value: " ifadesinin " },
+                  { type: "math", value: "8" },
+                  {
+                    type: "text",
+                    value: " değerine eşit olduğu söyleniyor; bu yüzden denklemimiz ",
+                  },
+                  { type: "math", value: "x+3=8" },
+                  { type: "text", value: " olur." },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "figure",
+                assetId: "014-2feaf77b56bfe8af",
+                caption: [{ type: "text", value: "Şekil 2.5" }],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  { type: "math", value: "x+3=8", display: true },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Zarfta kaç sayaç olduğunu bulmak için yaptığımız adımları şimdi cebirsel olarak yazalım.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "table",
+                columns: [],
+                rows: [
+                  ["Önce her iki taraftan da üç çıkarırız."],
+                  ["Böylece zarfta beş sayaç kaldığını görürüz."],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value: "Şimdi çözümümüzü kontrol edelim. Başlangıç denkleminde ",
+                  },
+                  { type: "math", value: "x" },
+                  { type: "text", value: " yerine " },
+                  { type: "math", value: "5" },
+                  {
+                    type: "text",
+                    value:
+                      " yazar ve doğru bir ifade elde edip etmediğimize bakarız.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 12,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "math",
+                    value:
+                      "\\begin{aligned}x+3&=8 \\\\ 5+3&\\stackrel{?}{=}8 \\\\ 8&=8\\checkmark\\end{aligned}",
+                    display: true,
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 13,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Çözümümüz doğru. Zarftaki beş sayaç ile dışarıdaki üç sayaç birlikte sekiz sayaç eder.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 14,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.59",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Zarflar ve sayaçlarla modellenen denklemi yazın, sonra denklemi çözün: Şekil dikey olarak ikiye ayrılmıştır. Sol tarafta bir zarf ve altında bir sayaç, sağ tarafta ise yedi sayaç vardır.",
+                  },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 15,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.60",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Zarflar ve sayaçlarla modellenen denklemi yazın, sonra denklemi çözün: Şekil dikey olarak ikiye ayrılmıştır. Sol tarafta bir zarf ve altında üç sayaç, sağ tarafta ise dört sayaç vardır.",
+                  },
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
         sectionSlug: "bir-sayinin-denklemin-cozumu-olup-olmadigini-belirleme",
         replaceBlocks: [
           {
