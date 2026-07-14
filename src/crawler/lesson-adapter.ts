@@ -3,6 +3,7 @@ import type {
   Chapter,
   EditorialSectionPatch,
   Exercise,
+  ContentBlock,
   InlineContent,
   Lesson,
   LessonSection,
@@ -26,6 +27,7 @@ type LessonBuildInput = {
   parsedLesson: ParsedLessonContent;
   objectives?: string[];
   sectionTitles?: Record<string, string>;
+  tryItSolutions?: Record<string, ContentBlock[]>;
   exerciseAnswers?: Record<string, InlineContent[]>;
   exerciseSectionSlugs?: Record<string, string>;
   editorialPatches?: EditorialSectionPatch[];
@@ -38,6 +40,7 @@ export function buildLessonFromParsedContent({
   parsedLesson,
   objectives,
   sectionTitles = {},
+  tryItSolutions = {},
   exerciseAnswers = {},
   exerciseSectionSlugs = {},
   editorialPatches = [],
@@ -53,13 +56,33 @@ export function buildLessonFromParsedContent({
     chapterSlug: chapter.slug,
     license: book.license,
     objectives: objectives ?? parsedLesson.objectives,
-    sections: applyEditorialPatches(sections, editorialPatches),
+    sections: applyExampleSolutions(
+      applyEditorialPatches(sections, editorialPatches),
+      tryItSolutions,
+    ),
     exercises: buildAnsweredExercises(
       parsedLesson,
       exerciseAnswers,
       exerciseSectionSlugs,
     ),
   };
+}
+
+function applyExampleSolutions(
+  sections: LessonSection[],
+  solutions: Record<string, ContentBlock[]>,
+): LessonSection[] {
+  if (!Object.keys(solutions).length) return sections;
+
+  return sections.map((section) => ({
+    ...section,
+    blocks: section.blocks.map((block) => {
+      if (block.type !== "example") return block;
+
+      const solution = solutions[block.label];
+      return solution ? { ...block, solution } : block;
+    }),
+  }));
 }
 
 function applyEditorialPatches(

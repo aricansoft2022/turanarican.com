@@ -6173,7 +6173,7 @@
         "examples": 8,
         "tryIts": 16,
         "sourceExercises": 25,
-        "exercises": 4,
+        "exercises": 25,
         "mathTokens": 256,
         "assets": 25
       },
@@ -6735,7 +6735,17 @@
                     "value": "21.493"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2'nin katları çift sayılardır. 678 çift olduğu için 2'nin katıdır; 21.493 tek olduğu için 2'nin katı değildir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -6766,7 +6776,17 @@
                     "value": "17.780"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Son basamağa bakarız. 979 tek olduğu için 2'nin katı değildir; 17.780 çift olduğu için 2'nin katıdır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "paragraph",
@@ -7047,7 +7067,17 @@
                     "value": "1.578"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5'in katları 0 veya 5 ile biter. 675, 5 ile bittiği için 5'in katıdır; 1.578, 8 ile bittiği için 5'in katı değildir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -7078,7 +7108,17 @@
                     "value": "2.690"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 421, 0 veya 5 ile bitmediği için 5'in katı değildir. 2.690 ise 0 ile bittiği için 5'in katıdır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "paragraph",
@@ -7282,7 +7322,17 @@
                     "value": "3.540"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 10'un katları 0 ile biter. 179, 0 ile bitmediği için 10'un katı değildir; 3.540, 0 ile bittiği için 10'un katıdır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -7313,7 +7363,17 @@
                     "value": "7.595"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 110 son basamağı 0 olduğu için 10'un katıdır. 7.595 son basamağı 5 olduğu için 10'un katı değildir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "paragraph",
@@ -7732,7 +7792,17 @@
                     "value": "3.742"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3'e bölünebilme için rakamlar toplamına bakarız. 954 için 9+5+4=18 olduğundan 3'ün katıdır; 3.742 için 3+7+4+2=16 olduğundan 3'ün katı değildir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -7763,7 +7833,17 @@
                     "value": "8.379"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 643 için rakamlar toplamı 6+4+3=13 olduğu için 3'ün katı değildir. 8.379 için 8+3+7+9=27 olduğu için 3'ün katıdır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "paragraph",
@@ -8175,7 +8255,17 @@
                     "value": "6240"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6240 çift olduğu için 2'ye, rakamları toplamı 12 olduğu için 3'e, son basamağı 0 olduğu için 5 ve 10'a bölünür."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -8206,7 +8296,17 @@
                     "value": "7248"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7248 çift olduğu için 2'ye bölünür. Rakamları toplamı 21 olduğu için 3'e bölünür. Son basamağı 0 veya 5 olmadığı için 5'e, 0 olmadığı için 10'a bölünmez."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -8403,7 +8503,17 @@
                     "value": "4962"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4962 çift olduğu için 2'ye bölünür. Rakamları toplamı 21 olduğu için 3'e bölünür. Son basamağı 0 veya 5 olmadığı için 5'e, 0 olmadığı için 10'a bölünmez."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -8434,7 +8544,17 @@
                     "value": "3765"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3765 tek olduğu için 2'ye bölünmez. Rakamları toplamı 21 olduğu için 3'e bölünür. Son basamağı 5 olduğu için 5'e bölünür, 0 olmadığı için 10'a bölünmez."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -8810,7 +8930,17 @@
                     "value": "96"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 96'nın çarpan çiftleri 1·96, 2·48, 3·32, 4·24, 6·16 ve 8·12'dir. Bu nedenle çarpanlar 1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48 ve 96'dır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -8825,7 +8955,17 @@
                     "value": "80"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 80'in çarpan çiftleri 1·80, 2·40, 4·20, 5·16 ve 8·10'dur. Bu nedenle çarpanlar 1, 2, 4, 5, 8, 10, 16, 20, 40 ve 80'dir."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -9104,7 +9244,17 @@
                     "value": "91"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 91 sayısı 7·13 olarak yazılabilir. 1 ve kendisi dışında çarpanı olduğu için bileşik sayıdır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -9119,7 +9269,17 @@
                     "value": "137"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 137 sayısı 2, 3, 5, 7 veya 11'e bölünmez; karekökünden küçük asal bölen kalmadığı için 137 asal sayıdır."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -9160,6 +9320,78 @@
             "sortOrder": 215
           },
           {
+            "id": "exercise-217",
+            "number": "217",
+            "sectionSlug": "kat-kavrami-ve-katlari-belirleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "4"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4'ün katlarını bulmak için 4'er 4'er sayarız. 50'den küçük katlar 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44 ve 48'dir."
+              }
+            ],
+            "sortOrder": 217
+          },
+          {
+            "id": "exercise-219",
+            "number": "219",
+            "sectionSlug": "kat-kavrami-ve-katlari-belirleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "6"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6'nın katları 6 ile sayma sayılarının çarpımlarıdır. 50'den küçük katlar 6, 12, 18, 24, 30, 36, 42 ve 48'dir."
+              }
+            ],
+            "sortOrder": 219
+          },
+          {
+            "id": "exercise-221",
+            "number": "221",
+            "sectionSlug": "kat-kavrami-ve-katlari-belirleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "8"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8'er 8'er sayarsak 50'den küçük katlar 8, 16, 24, 32, 40 ve 48 olur."
+              }
+            ],
+            "sortOrder": 221
+          },
+          {
+            "id": "exercise-223",
+            "number": "223",
+            "sectionSlug": "kat-kavrami-ve-katlari-belirleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "10"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 10'un 50'den küçük katları 10, 20, 30 ve 40'tır; 50 dahil değildir çünkü soru 50'den küçük katları ister."
+              }
+            ],
+            "sortOrder": 223
+          },
+          {
             "id": "exercise-225",
             "number": "225",
             "sectionSlug": "bolunebilme-kurallari",
@@ -9194,6 +9426,278 @@
             "sortOrder": 225
           },
           {
+            "id": "exercise-227",
+            "number": "227",
+            "sectionSlug": "bolunebilme-kurallari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "75"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 75 tek olduğu için 2'ye bölünmez. Rakamları toplamı 12 olduğu için 3'e bölünür. Son iki basamağı 75 olduğu için 4'e bölünmez. Son basamağı 5 olduğu için 5'e bölünür; 2'ye bölünmediği için 6'ya, 0 ile bitmediği için 10'a bölünmez."
+              }
+            ],
+            "sortOrder": 227
+          },
+          {
+            "id": "exercise-229",
+            "number": "229",
+            "sectionSlug": "bolunebilme-kurallari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "168"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 168 çift olduğu için 2'ye bölünür. Rakamları toplamı 15 olduğu için 3'e bölünür. Son iki basamağı 68 olduğu için 4'e bölünür. Hem 2'ye hem 3'e bölündüğü için 6'ya bölünür; 5 ve 10'a bölünmez."
+              }
+            ],
+            "sortOrder": 229
+          },
+          {
+            "id": "exercise-231",
+            "number": "231",
+            "sectionSlug": "bolunebilme-kurallari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "900"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 900 çift olduğu için 2'ye, rakamları toplamı 9 olduğu için 3'e, son iki basamağı 00 olduğu için 4'e bölünür. Son basamağı 0 olduğundan 5 ve 10'a da bölünür; 2 ve 3'e bölündüğü için 6'ya bölünür."
+              }
+            ],
+            "sortOrder": 231
+          },
+          {
+            "id": "exercise-233",
+            "number": "233",
+            "sectionSlug": "bolunebilme-kurallari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "896"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 896 çift olduğu için 2'ye bölünür. Rakamları toplamı 23 olduğu için 3'e bölünmez. Son iki basamağı 96 olduğu için 4'e bölünür. 3'e bölünmediği için 6'ya, son basamağı 0 veya 5 olmadığı için 5 ve 10'a bölünmez."
+              }
+            ],
+            "sortOrder": 233
+          },
+          {
+            "id": "exercise-235",
+            "number": "235",
+            "sectionSlug": "bolunebilme-kurallari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "375"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 375 tek olduğu için 2'ye bölünmez. Rakamları toplamı 15 olduğu için 3'e bölünür. Son iki basamağı 75 olduğu için 4'e bölünmez. Son basamağı 5 olduğu için 5'e bölünür; 2'ye bölünmediği için 6'ya, 0 ile bitmediği için 10'a bölünmez."
+              }
+            ],
+            "sortOrder": 235
+          },
+          {
+            "id": "exercise-237",
+            "number": "237",
+            "sectionSlug": "bolunebilme-kurallari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "350"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 350 çift olduğu için 2'ye bölünür. Rakamları toplamı 8 olduğu için 3'e bölünmez. Son iki basamağı 50 olduğu için 4'e bölünmez. Son basamağı 0 olduğu için 5 ve 10'a bölünür; 3'e bölünmediği için 6'ya bölünmez."
+              }
+            ],
+            "sortOrder": 237
+          },
+          {
+            "id": "exercise-239",
+            "number": "239",
+            "sectionSlug": "bolunebilme-kurallari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "1430"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1430 çift olduğu için 2'ye bölünür. Rakamları toplamı 8 olduğu için 3'e bölünmez. Son iki basamağı 30 olduğu için 4'e bölünmez. Son basamağı 0 olduğundan 5 ve 10'a bölünür; 3'e bölünmediği için 6'ya bölünmez."
+              }
+            ],
+            "sortOrder": 239
+          },
+          {
+            "id": "exercise-241",
+            "number": "241",
+            "sectionSlug": "bolunebilme-kurallari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "22,335"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 22.335 tek olduğu için 2'ye bölünmez. Rakamları toplamı 15 olduğu için 3'e bölünür. Son iki basamağı 35 olduğu için 4'e bölünmez. Son basamağı 5 olduğu için 5'e bölünür; 2'ye bölünmediği için 6'ya, 0 ile bitmediği için 10'a bölünmez."
+              }
+            ],
+            "sortOrder": 241
+          },
+          {
             "id": "exercise-243",
             "number": "243",
             "sectionSlug": "dogal-sayilarin-carpanlarini-bulma",
@@ -9220,6 +9724,84 @@
             "sortOrder": 243
           },
           {
+            "id": "exercise-245",
+            "number": "245",
+            "sectionSlug": "dogal-sayilarin-carpanlarini-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sayının tüm çarpanlarını bulun."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "60"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 60'ın çarpan çiftleri 1·60, 2·30, 3·20, 4·15, 5·12 ve 6·10'dur. Bu nedenle çarpanlar 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 ve 60'tır."
+              }
+            ],
+            "sortOrder": 245
+          },
+          {
+            "id": "exercise-247",
+            "number": "247",
+            "sectionSlug": "dogal-sayilarin-carpanlarini-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sayının tüm çarpanlarını bulun."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "144"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 144'ün çarpan çiftleri 1·144, 2·72, 3·48, 4·36, 6·24, 8·18, 9·16 ve 12·12'dir. Çarpanlar 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 36, 48, 72 ve 144'tür."
+              }
+            ],
+            "sortOrder": 247
+          },
+          {
+            "id": "exercise-249",
+            "number": "249",
+            "sectionSlug": "dogal-sayilarin-carpanlarini-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sayının tüm çarpanlarını bulun."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "588"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 588 = 2·294 = 3·196 = 4·147 = 6·98 = 7·84 = 12·49 = 14·42 = 21·28 olarak eşleşir. Çarpanlar 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 49, 84, 98, 147, 196, 294 ve 588'dir."
+              }
+            ],
+            "sortOrder": 249
+          },
+          {
             "id": "exercise-251",
             "number": "251",
             "sectionSlug": "asal-ve-bilesik-sayilar",
@@ -9244,6 +9826,154 @@
               }
             ],
             "sortOrder": 251
+          },
+          {
+            "id": "exercise-253",
+            "number": "253",
+            "sectionSlug": "asal-ve-bilesik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sayının asal mı bileşik mi olduğunu belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "39"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 39 sayısı 3·13 olarak yazılabilir. 1 ve kendisi dışında çarpanı olduğu için bileşik sayıdır."
+              }
+            ],
+            "sortOrder": 253
+          },
+          {
+            "id": "exercise-255",
+            "number": "255",
+            "sectionSlug": "asal-ve-bilesik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sayının asal mı bileşik mi olduğunu belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "71"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 71 sayısı 2, 3, 5 veya 7'ye bölünmez. Karekökünden küçük başka asal bölen kalmadığı için 71 asal sayıdır."
+              }
+            ],
+            "sortOrder": 255
+          },
+          {
+            "id": "exercise-257",
+            "number": "257",
+            "sectionSlug": "asal-ve-bilesik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sayının asal mı bileşik mi olduğunu belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "481"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 481 sayısı 13·37 olarak yazılabilir. Bu yüzden 1 ve kendisi dışında çarpanı vardır; bileşik sayıdır."
+              }
+            ],
+            "sortOrder": 257
+          },
+          {
+            "id": "exercise-259",
+            "number": "259",
+            "sectionSlug": "asal-ve-bilesik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sayının asal mı bileşik mi olduğunu belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "209"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 209 sayısı 11·19 olarak yazılabilir. 1 ve kendisi dışında çarpanı olduğu için bileşik sayıdır."
+              }
+            ],
+            "sortOrder": 259
+          },
+          {
+            "id": "exercise-261",
+            "number": "261",
+            "sectionSlug": "asal-ve-bilesik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sayının asal mı bileşik mi olduğunu belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "667"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 667 sayısı 23·29 olarak yazılabilir. Bu nedenle asal değildir; bileşik sayıdır."
+              }
+            ],
+            "sortOrder": 261
+          },
+          {
+            "id": "exercise-263",
+            "number": "263",
+            "sectionSlug": "kat-kavrami-ve-katlari-belirleme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bankacılık: Frank'in büyükannesi lise mezuniyetinde ona 100 dolar verdi. Frank bu parayı harcamak yerine bir banka hesabı açtı ve her hafta hesaba 15 dolar ekledi. Tablo, her haftanın sonunda hesaba toplam kaç dolar koyduğunu gösteriyor. Eksik yerleri tamamlayın: 0. hafta 100 dolar, 1. hafta 115 dolar, 2. hafta 130 dolar; 3, 4, 5 ve 6. haftalar için toplamları bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Başlangıçta 100 dolar vardır ve her hafta 15 dolar eklenir. Bu yüzden toplam 100+15·hafta sayısı ile bulunur: 3. hafta 145, 4. hafta 160, 5. hafta 175 ve 6. hafta 190 dolardır."
+              }
+            ],
+            "sortOrder": 263
           }
         ]
       }

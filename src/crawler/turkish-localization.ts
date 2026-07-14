@@ -56,6 +56,7 @@ export function localizeExercisePromptForTurkish(
   return (
     adaptMultiplesInstruction(normalizedPrompt) ??
     adaptDivisibilityInstruction(normalizedPrompt) ??
+    adaptBankingSavingsExercise(normalizedPrompt) ??
     adaptInsuranceDeductibleExercise(normalizedPrompt) ??
     adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
     adaptPlainInstruction(
@@ -105,6 +106,24 @@ export function localizeExercisePromptForTurkish(
     ) ??
     normalizedPrompt
   );
+}
+
+function adaptBankingSavingsExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+
+  if (!text.startsWith("Banking Frank’s grandmother gave him")) {
+    return null;
+  }
+
+  return [
+    {
+      type: "text",
+      value:
+        "Bankacılık: Frank'in büyükannesi lise mezuniyetinde ona 100 dolar verdi. Frank bu parayı harcamak yerine bir banka hesabı açtı ve her hafta hesaba 15 dolar ekledi. Tablo, her haftanın sonunda hesaba toplam kaç dolar koyduğunu gösteriyor. Eksik yerleri tamamlayın: 0. hafta 100 dolar, 1. hafta 115 dolar, 2. hafta 130 dolar; 3, 4, 5 ve 6. haftalar için toplamları bulun.",
+    },
+  ] satisfies InlineContent[];
 }
 
 function adaptInsuranceDeductibleExercise(
@@ -186,6 +205,10 @@ function adaptAlgebraicWordPhraseExercise(
 
 function adaptInlineContentToTurkish(items: InlineContent[]): InlineContent[] {
   return items.map(adaptMathTextToTurkish);
+}
+
+function inlineText(items: InlineContent[]) {
+  return items.map((item) => item.value).join(" ").replace(/\s+/g, " ").trim();
 }
 
 function adaptMathTextToTurkish(item: InlineContent): InlineContent {
