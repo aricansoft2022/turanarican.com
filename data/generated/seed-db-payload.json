@@ -2935,33 +2935,6 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the following exercises, list the terms in the given expression."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "In the following exercises, identify the coefficient of the given term."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "In the following exercises, identify all sets of like terms."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
                 "value": "Simplify Expressions by Combining Like Terms"
               }
             ]
@@ -2971,34 +2944,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the following exercises, simplify the given expression by combining like terms."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
                 "value": "Translate English Phrases into Algebraic Expressions"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "In the following exercises, translate the given word phrase into an algebraic expression."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "In the following exercises, write an algebraic expression."
               }
             ]
           }
@@ -4797,25 +4743,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the following exercises, write the equation modeled by the envelopes and counters and then solve using the subtraction property of equality."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
                 "value": "Solve Equations using the Subtraction Property of Equality"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "In the following exercises, solve each equation using the subtraction property of equality."
               }
             ]
           },
@@ -4833,15 +4761,6 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the following exercises, solve each equation using the addition property of equality."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
                 "value": "Translate Word Phrase to Algebraic Equations"
               }
             ]
@@ -4851,25 +4770,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the following exercises, translate the given sentence into an algebraic equation."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
                 "value": "Translate to an Equation and Solve"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "In the following exercises, translate the given sentence into an algebraic equation and then solve it."
               }
             ]
           }
@@ -7452,19 +7353,6 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the following exercises, use the divisibility tests to determine whether each number is divisible by "
-              },
-              {
-                "type": "math",
-                "value": "2,3,4,5,6,\\text{and} 10."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
                 "value": "Find All the Factors of a Number"
               }
             ]
@@ -7474,25 +7362,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the following exercises, find all the factors of the given number."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
                 "value": "Identify Prime and Composite Numbers"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "In the following exercises, determine if the given number is prime or composite."
               }
             ]
           }

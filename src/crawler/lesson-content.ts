@@ -256,6 +256,7 @@ function parseSectionBlocks(
 
       const text = normalizeElementText($, node);
       if (!text) return;
+      if (isSourceExerciseInstruction(text)) return;
 
       if (node.is("p")) {
         blocks.push({
@@ -413,6 +414,10 @@ function findExerciseInstruction(
   return instructionParagraph
     ? normalizeElementInlineContent($, $(instructionParagraph))
     : [];
+}
+
+function isSourceExerciseInstruction(text: string) {
+  return /^In the following exercises\b/i.test(text);
 }
 
 function getDirectHeading($: cheerio.CheerioAPI, node: CheerioNode) {

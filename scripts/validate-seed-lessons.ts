@@ -191,14 +191,19 @@ function assertBlocks(
   for (const block of blocks) {
     if (block.type === "paragraph") {
       assertInlineContent(block.text, `paragraph in ${context}`);
+      assertNoSourceExerciseInstruction(block.text, `paragraph in ${context}`);
       continue;
     }
 
     if (block.type === "list") {
       if (!block.items.length) throw new Error(`Empty list in ${context}.`);
-      block.items.forEach((item, index) =>
-        assertInlineContent(item, `list item ${index + 1} in ${context}`),
-      );
+      block.items.forEach((item, index) => {
+        assertInlineContent(item, `list item ${index + 1} in ${context}`);
+        assertNoSourceExerciseInstruction(
+          item,
+          `list item ${index + 1} in ${context}`,
+        );
+      });
       continue;
     }
 
@@ -228,6 +233,7 @@ function assertBlocks(
       throw new Error(`Unlocalized example label in ${context}: ${block.label}`);
     }
     assertInlineContent(block.prompt, `example prompt in ${context}`);
+    assertNoSourceExerciseInstruction(block.prompt, `example prompt in ${context}`);
     if (/^Örnek\b/i.test(block.label) && !block.solution.length) {
       throw new Error(`Example solution is empty in ${context}.`);
     }
@@ -240,6 +246,20 @@ function assertInlineContent(items: InlineContent[], context: string) {
 
   for (const item of items) {
     assertRequired(item.value, `inline ${item.type} in ${context}`);
+  }
+}
+
+function assertNoSourceExerciseInstruction(
+  items: InlineContent[],
+  context: string,
+) {
+  const text = items
+    .filter((item) => item.type === "text")
+    .map((item) => item.value)
+    .join(" ");
+
+  if (/^In the following exercises\b/i.test(text.trim())) {
+    throw new Error(`Source exercise instruction leaked into ${context}.`);
   }
 }
 
