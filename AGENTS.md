@@ -24,7 +24,12 @@ navigation, SEO, attribution, and ingestion workflows.
 ## Current Repository State
 
 - Current branch after the last handoff: `main`.
-- Recent production commits include `c1cffee Track LibreTexts source assets`.
+- Recent local-only production commits include:
+  - `f4eeedb Add third Prealgebra seed lesson`
+  - `102ee6b Add seed language coverage report`
+  - `8f6ef21 Adapt seed exercise prompts to Turkish`
+  - `efe23f7 Filter source exercise chrome from parsed lessons`
+  - `1712cfb Adapt math text across seed content`
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -264,10 +269,12 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. One seed lesson
-   started; expand it next.
+8. Seed one or two lessons end-to-end before mass ingestion. Done; three seed
+   lessons now build end-to-end for Prealgebra 2.3, 2.4, and 2.5.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
+11. Add informational language coverage report and initial Turkish adaptation
+    hooks for exercise prompts/math text. Started.
 
 ## Quality Gates
 
@@ -276,7 +283,8 @@ Before finalizing any implementation turn:
 - `git status` is understood.
 - Formatting/lint/type checks run if configured.
 - Build runs if feasible.
-- Desktop and mobile screenshots checked for layout regressions.
+- Desktop and mobile screenshots checked only when frontend/layout work is
+  explicitly requested or when the new design implementation begins.
 - No double scrollbar regression.
 - No broken Turkish characters.
 - No empty example boxes.
