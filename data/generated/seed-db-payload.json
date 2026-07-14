@@ -3300,7 +3300,7 @@
           },
           {
             "type": "figure",
-            "assetId": "source-figure-03",
+            "assetId": "010-48c0b3e4b7da3bb7",
             "caption": [
               {
                 "type": "text",
@@ -3323,7 +3323,7 @@
           },
           {
             "type": "figure",
-            "assetId": "source-figure-05",
+            "assetId": "012-b22f3d320dfd26f0",
             "caption": [
               {
                 "type": "text",
@@ -3386,7 +3386,7 @@
           },
           {
             "type": "figure",
-            "assetId": "source-figure-07",
+            "assetId": "014-2feaf77b56bfe8af",
             "caption": [
               {
                 "type": "text",
@@ -4888,7 +4888,7 @@
       {
         "id": "lesson-evaluate-simplify-translate-exercise-101",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "sectionId": null,
+        "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-03",
         "number": "101",
         "promptJson": [
           {

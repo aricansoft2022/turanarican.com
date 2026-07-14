@@ -48,7 +48,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
     exerciseSectionSlugs: {
       "69": "cebirsel-ifadeleri-degerlendirme",
       "79": "cebirsel-ifadeleri-degerlendirme",
-      "101": "benzer-terimleri-birlestirme",
+      "101": "benzer-terimleri-birlestirerek-ifadeleri-sadelestirme",
       "135": "sozcuk-obeklerini-cebirsel-ifadelere-cevirme",
     },
   },

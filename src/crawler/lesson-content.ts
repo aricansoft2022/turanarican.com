@@ -17,7 +17,7 @@ export type ParsedLessonBlock =
   | { type: "paragraph"; text: string; content: InlineContent[] }
   | { type: "list"; items: string[]; contentItems: InlineContent[][] }
   | { type: "table"; text: string; columns: string[]; rows: string[][] }
-  | { type: "figure"; text: string; caption: InlineContent[] }
+  | { type: "figure"; text: string; assetId?: string; caption: InlineContent[] }
   | ({ type: "example"; kind: "example" | "try_it" } & ParsedLessonBox);
 
 export type ParsedLessonSection = {
@@ -85,11 +85,14 @@ export function parseLessonContent(
 
   const title = cleanText($("h1").first().text() || $("title").text());
   const objectives = parseObjectives($, root);
-  const sections = parseMainSections($, root);
   const examples: ParsedLessonBox[] = parseBoxes($, root, "section.box-example");
   const tryIts: ParsedLessonBox[] = parseTryIts($, root);
   const exercises: ParsedSourceExercise[] = parseExercises($, root);
   const assets = parseLessonAssetManifest(html, sourceUrl, context);
+  const assetIdBySourceUrl = new Map(
+    assets.map((asset) => [asset.sourceUrl, asset.id]),
+  );
+  const sections = parseMainSections($, root, sourceUrl, assetIdBySourceUrl);
 
   return {
     title,
@@ -141,7 +144,8 @@ export function parsedLessonBlocksToContentBlocks(
       return [
         {
           type: "figure",
-          assetId: `source-figure-${String(index + 1).padStart(2, "0")}`,
+          assetId:
+            block.assetId ?? `source-figure-${String(index + 1).padStart(2, "0")}`,
           caption: block.caption,
         },
       ];
@@ -179,7 +183,12 @@ function parseObjectives($: cheerio.CheerioAPI, root: CheerioNode) {
     .filter(Boolean);
 }
 
-function parseMainSections($: cheerio.CheerioAPI, root: CheerioNode) {
+function parseMainSections(
+  $: cheerio.CheerioAPI,
+  root: CheerioNode,
+  sourceUrl: string,
+  assetIdBySourceUrl: ReadonlyMap<string, string>,
+) {
   return root
     .find(".mt-section[id^='section_']")
     .toArray()
@@ -200,11 +209,16 @@ function parseMainSections($: cheerio.CheerioAPI, root: CheerioNode) {
       heading,
       slug: slugify(heading),
       sourceAnchor: section.children("span[id]").first().attr("id"),
-      blocks: parseSectionBlocks($, section),
+      blocks: parseSectionBlocks($, section, sourceUrl, assetIdBySourceUrl),
     }));
 }
 
-function parseSectionBlocks($: cheerio.CheerioAPI, section: CheerioNode) {
+function parseSectionBlocks(
+  $: cheerio.CheerioAPI,
+  section: CheerioNode,
+  sourceUrl: string,
+  assetIdBySourceUrl: ReadonlyMap<string, string>,
+) {
   const sectionClone = section.clone();
   sectionClone.find(".os-section-exercises-container").remove();
 
@@ -260,6 +274,7 @@ function parseSectionBlocks($: cheerio.CheerioAPI, section: CheerioNode) {
         blocks.push({
           type: "figure",
           text,
+          assetId: resolveFigureAssetId($, node, sourceUrl, assetIdBySourceUrl),
           caption: normalizeElementInlineContent(
             $,
             node.find("figcaption, .mt-caption, .caption").first(),
@@ -269,6 +284,24 @@ function parseSectionBlocks($: cheerio.CheerioAPI, section: CheerioNode) {
     });
 
   return blocks;
+}
+
+function resolveFigureAssetId(
+  $: cheerio.CheerioAPI,
+  node: CheerioNode,
+  sourceUrl: string,
+  assetIdBySourceUrl: ReadonlyMap<string, string>,
+) {
+  const image = node.find("img").first();
+  const rawSrc =
+    image.attr("src") ??
+    image.attr("data-src") ??
+    image.attr("data-deki-src") ??
+    image.attr("data-lazy-src");
+
+  if (!rawSrc || rawSrc.startsWith("data:")) return undefined;
+
+  return assetIdBySourceUrl.get(new URL(rawSrc, sourceUrl).toString());
 }
 
 function parseBoxes(

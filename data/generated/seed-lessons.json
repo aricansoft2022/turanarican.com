@@ -3156,7 +3156,7 @@
           {
             "id": "exercise-101",
             "number": "101",
-            "sectionSlug": "benzer-terimleri-birlestirme",
+            "sectionSlug": "benzer-terimleri-birlestirerek-ifadeleri-sadelestirme",
             "prompt": [
               {
                 "type": "math",
@@ -3860,7 +3860,7 @@
               },
               {
                 "type": "figure",
-                "assetId": "source-figure-03",
+                "assetId": "010-48c0b3e4b7da3bb7",
                 "caption": [
                   {
                     "type": "text",
@@ -3883,7 +3883,7 @@
               },
               {
                 "type": "figure",
-                "assetId": "source-figure-05",
+                "assetId": "012-b22f3d320dfd26f0",
                 "caption": [
                   {
                     "type": "text",
@@ -3946,7 +3946,7 @@
               },
               {
                 "type": "figure",
-                "assetId": "source-figure-07",
+                "assetId": "014-2feaf77b56bfe8af",
                 "caption": [
                   {
                     "type": "text",
