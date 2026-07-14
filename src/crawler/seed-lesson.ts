@@ -1,0 +1,92 @@
+import type { books as catalogBooks } from "@/data/catalog";
+import type { seedLessonConfigs } from "@/data/seed-lessons";
+import type { sourceBooks } from "@/data/source-plans";
+import type { Book, Chapter, Lesson, LessonSummary } from "@/src/content/types";
+
+import { buildLessonFromParsedContent } from "./lesson-adapter";
+import { fetchLessonContent, type ParsedLessonContent } from "./lesson-content";
+import { discoverPlannedLessons, type PlannedLesson } from "./lesson-plan";
+
+type SourceBook = (typeof sourceBooks)[number];
+type CatalogBook = (typeof catalogBooks)[number];
+type SeedLessonConfig = (typeof seedLessonConfigs)[number];
+
+export type SeedLessonBuildResult = {
+  sourceBook: SourceBook;
+  plannedLesson: PlannedLesson;
+  catalogBook: Book;
+  catalogChapter: Chapter;
+  catalogLesson: LessonSummary;
+  parsedLesson: ParsedLessonContent;
+  lesson: Lesson;
+};
+
+export async function fetchSeedLessonContent({
+  seedConfig,
+  sourceBookPlans,
+  catalog,
+}: {
+  seedConfig: SeedLessonConfig;
+  sourceBookPlans: readonly SourceBook[];
+  catalog: readonly CatalogBook[];
+}): Promise<SeedLessonBuildResult> {
+  const sourceBook = sourceBookPlans.find(
+    (book) => book.slug === seedConfig.sourceBookSlug,
+  );
+
+  if (!sourceBook) {
+    throw new Error(`Source book is not configured: ${seedConfig.sourceBookSlug}`);
+  }
+
+  const plannedBook = await discoverPlannedLessons(sourceBook);
+  const plannedLesson = plannedBook.lessons.find(
+    (lesson) => lesson.sourceNumber === seedConfig.sourceNumber,
+  );
+
+  if (!plannedLesson) {
+    throw new Error(
+      `Seed lesson was not found in the planned lesson set: ${seedConfig.sourceNumber}`,
+    );
+  }
+
+  const catalogBook = catalog.find(
+    (book) => book.slug === seedConfig.catalogBookSlug,
+  );
+  const catalogChapter = catalogBook?.chapters.find(
+    (chapter) => chapter.slug === seedConfig.catalogChapterSlug,
+  );
+  const catalogLesson = catalogChapter?.lessons.find(
+    (lesson) => lesson.sourceNumber === seedConfig.sourceNumber,
+  );
+
+  if (!catalogBook || !catalogChapter || !catalogLesson) {
+    throw new Error(
+      `Seed lesson is not configured in the catalog: ${seedConfig.sourceNumber}`,
+    );
+  }
+
+  const parsedLesson = await fetchLessonContent(plannedLesson.href, {
+    bookSlug: sourceBook.slug,
+    lessonSlug: plannedLesson.displaySlug,
+  });
+  const lesson = buildLessonFromParsedContent({
+    book: catalogBook,
+    chapter: catalogChapter,
+    lesson: catalogLesson,
+    parsedLesson,
+    objectives: seedConfig.objectives,
+    sectionTitles: seedConfig.sectionTitles,
+    exerciseAnswers: seedConfig.exerciseAnswers,
+    exerciseSectionSlugs: seedConfig.exerciseSectionSlugs,
+  });
+
+  return {
+    sourceBook,
+    plannedLesson,
+    catalogBook,
+    catalogChapter,
+    catalogLesson,
+    parsedLesson,
+    lesson,
+  };
+}

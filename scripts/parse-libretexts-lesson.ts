@@ -1,12 +1,8 @@
 import { books as catalogBooks } from "@/data/catalog";
 import { seedLessonConfigs } from "@/data/seed-lessons";
 import { sourceBooks } from "@/data/source-plans";
-import { buildLessonFromParsedContent } from "@/src/crawler/lesson-adapter";
-import {
-  fetchLessonContent,
-  parsedLessonBlocksToContentBlocks,
-} from "@/src/crawler/lesson-content";
-import { discoverPlannedLessons } from "@/src/crawler/lesson-plan";
+import { parsedLessonBlocksToContentBlocks } from "@/src/crawler/lesson-content";
+import { fetchSeedLessonContent } from "@/src/crawler/seed-lesson";
 import type { ContentBlock, InlineContent, Lesson } from "@/src/content/types";
 
 async function main() {
@@ -20,56 +16,21 @@ async function main() {
     throw new Error("Sample lesson 2.3 seed config is not configured.");
   }
 
-  const sourceBook = sourceBooks.find(
-    (book) => book.slug === seedConfig.sourceBookSlug,
-  );
+  const { plannedLesson, parsedLesson, lesson: seedLesson } =
+    await fetchSeedLessonContent({
+      seedConfig,
+      sourceBookPlans: sourceBooks,
+      catalog: catalogBooks,
+    });
+  assertRenderableLesson(seedLesson);
 
-  if (!sourceBook) {
-    throw new Error("Prealgebra source book is not configured.");
-  }
-
-  const plannedBook = await discoverPlannedLessons(sourceBook);
-  const lesson = plannedBook.lessons.find(
-    (plannedLesson) => plannedLesson.sourceNumber === seedConfig.sourceNumber,
-  );
-  const catalogBook = catalogBooks.find(
-    (book) => book.slug === seedConfig.catalogBookSlug,
-  );
-  const catalogChapter = catalogBook?.chapters.find(
-    (chapter) => chapter.slug === seedConfig.catalogChapterSlug,
-  );
-  const catalogLesson = catalogChapter?.lessons.find(
-    (lessonSummary) => lessonSummary.sourceNumber === seedConfig.sourceNumber,
-  );
-
-  if (!lesson) {
-    throw new Error("Sample lesson 2.3 was not found in the planned lesson set.");
-  }
-
-  if (!catalogBook || !catalogChapter || !catalogLesson) {
-    throw new Error("Sample lesson 2.3 is not configured in the catalog.");
-  }
-
-  const parsedLesson = await fetchLessonContent(lesson.href, {
-    bookSlug: sourceBook.slug,
-    lessonSlug: lesson.displaySlug,
-  });
   const renderBlocks = parsedLesson.sections.flatMap((section) =>
     parsedLessonBlocksToContentBlocks(section.blocks),
   );
-  const seedLesson = buildLessonFromParsedContent({
-    book: catalogBook,
-    chapter: catalogChapter,
-    lesson: catalogLesson,
-    parsedLesson,
-    objectives: seedConfig.objectives,
-    sectionTitles: seedConfig.sectionTitles,
-    exerciseAnswers: seedConfig.exerciseAnswers,
-    exerciseSectionSlugs: seedConfig.exerciseSectionSlugs,
-  });
-  assertRenderableLesson(seedLesson);
 
-  console.log(`${lesson.sourceNumber} -> ${lesson.displayNumber} ${lesson.title}`);
+  console.log(
+    `${plannedLesson.sourceNumber} -> ${plannedLesson.displayNumber} ${plannedLesson.title}`,
+  );
   console.log(`hash: ${parsedLesson.contentHash.slice(0, 16)}`);
   console.log(`objectives: ${parsedLesson.objectives.length}`);
   console.log(`sections: ${parsedLesson.sections.length}`);
