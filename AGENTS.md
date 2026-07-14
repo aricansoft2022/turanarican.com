@@ -252,6 +252,7 @@ Expected first build milestones:
 8. Seed one or two lessons end-to-end before mass ingestion. One seed lesson
    started; expand it next.
 9. Add target range lesson planner and shifted display numbering. Done.
+10. Add first structured LibreTexts lesson parser. Done.
 
 ## Quality Gates
 

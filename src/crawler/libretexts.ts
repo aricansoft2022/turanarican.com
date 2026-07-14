@@ -211,7 +211,7 @@ export async function fetchLessonAssetManifest(
   };
 }
 
-async function fetchLibreTextsHtml(sourceUrl: string) {
+export async function fetchLibreTextsHtml(sourceUrl: string) {
   const response = await fetch(sourceUrl, {
     headers: {
       "user-agent":
@@ -226,7 +226,7 @@ async function fetchLibreTextsHtml(sourceUrl: string) {
   return response.text();
 }
 
-function hashText(text: string) {
+export function hashText(text: string) {
   return createHash("sha256").update(text).digest("hex");
 }
 
@@ -270,11 +270,11 @@ function extensionFromUrl(url: string) {
   return extension === "jpeg" ? "jpg" : extension;
 }
 
-function cleanText(input: string) {
+export function cleanText(input: string) {
   return input.replace(/\s+/g, " ").trim();
 }
 
-function selectLessonContentRoot($: cheerio.CheerioAPI) {
+export function selectLessonContentRoot($: cheerio.CheerioAPI) {
   const selectors = [
     ".mt-content-container",
     "#elm-main-content .mt-content-container",
