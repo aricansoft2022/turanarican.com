@@ -1,4 +1,4 @@
-import type { books as catalogBooks } from "@/data/catalog";
+import type { books as catalogBooks } from "@/data/book-catalog";
 import type { seedLessonConfigs } from "@/data/seed-lessons";
 import type { sourceBooks } from "@/data/source-plans";
 import type { Book, Chapter, Lesson, LessonSummary } from "@/src/content/types";

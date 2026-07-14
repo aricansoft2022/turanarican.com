@@ -1,4 +1,4 @@
-import { books as catalogBooks } from "@/data/catalog";
+import { books as catalogBooks } from "@/data/book-catalog";
 import { seedLessonConfigs } from "@/data/seed-lessons";
 import { sourceBooks } from "@/data/source-plans";
 import { parsedLessonBlocksToContentBlocks } from "@/src/crawler/lesson-content";

@@ -30,16 +30,23 @@ async function assertStaticSource() {
     throw new Error(`Static content source expected 1 book, got ${bookParams.length}.`);
   }
 
-  if (params.length !== 1) {
-    throw new Error(`Static content source expected 1 lesson, got ${params.length}.`);
+  if (params.length !== 2) {
+    throw new Error(`Static content source expected 2 lessons, got ${params.length}.`);
   }
 
-  const entry = await getContentLesson(params[0]);
-  if (!entry) {
-    throw new Error("Static content source could not read its listed lesson.");
+  const entries = await Promise.all(params.map((item) => getContentLesson(item)));
+  for (const entry of entries) {
+    if (!entry) {
+      throw new Error("Static content source could not read a listed lesson.");
+    }
+
+    assertLessonEntry(entry, "static");
   }
 
-  assertLessonEntry(entry, "static");
+  const book = await getContentBook("prealgebra-2e");
+  if (!book || book.chapters[0]?.lessons.length !== 2) {
+    throw new Error("Static content source did not expose the seeded book tree.");
+  }
 }
 
 async function assertDatabaseSource() {
@@ -89,7 +96,7 @@ async function assertDatabaseSource() {
       JSON.stringify(
         {
           staticBooks: 1,
-          staticLessons: 1,
+          staticLessons: 2,
           databaseBooks: bookParams.length,
           databaseLessons: params.length,
           databaseBookLessons: book.chapters[0].lessons.length,

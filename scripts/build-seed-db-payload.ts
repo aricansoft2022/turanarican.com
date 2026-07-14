@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-import { books as catalogBooks } from "@/data/catalog";
+import { books as catalogBooks } from "@/data/book-catalog";
 
 import {
   validateSeedFixture,

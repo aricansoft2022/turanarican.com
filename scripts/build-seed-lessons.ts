@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-import { books as catalogBooks } from "@/data/catalog";
+import { books as catalogBooks } from "@/data/book-catalog";
 import { seedLessonConfigs } from "@/data/seed-lessons";
 import { sourceBooks } from "@/data/source-plans";
 import { fetchSeedLessonContent } from "@/src/crawler/seed-lesson";
