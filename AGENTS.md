@@ -4,6 +4,10 @@ This file is the handoff anchor for future Codex sessions. When the user says
 "repodaki uretimi devam et", read this file first, then inspect the current
 git status and continue from the next unfinished item.
 
+Current workflow preference: continue locally from `main` and do not push to
+remote until the user explicitly asks or a genuinely important milestone is
+reached and confirmed.
+
 For deploy, dashboard, Turso, Cloudflare, or R2 bucket steps, also read
 `docs/OPERATIONS.md` and update it when the operational workflow changes.
 
@@ -125,6 +129,9 @@ and `2,5`.
 - Current seed lessons may still render substantial English source text until
   the Turkish adaptation/translation layer is implemented. This is temporary,
   but should be treated as a product gap before real launch/content expansion.
+- Use `npm run content:language-report` to measure English-looking text in the
+  generated seed fixture. The report is informational for now; convert it into
+  a failing gate when Turkish adaptation becomes the active milestone.
 
 ## Data Model Direction
 

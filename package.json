@@ -24,6 +24,7 @@
     "content:verify": "tsx scripts/verify-content-source.ts",
     "content:build": "tsx scripts/verify-database-build.ts",
     "seed:db-apply": "tsx scripts/apply-seed-db-payload.ts",
+    "content:language-report": "tsx scripts/report-language-coverage.ts",
     "cf:build": "opennextjs-cloudflare build",
     "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
