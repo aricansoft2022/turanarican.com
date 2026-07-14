@@ -53,6 +53,268 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
     sourceNumber: "2.4",
     sections: [
       {
+        sectionSlug: "esitligin-cikarma-ozelligiyle-denklemleri-cozme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bulmaca modelimiz, bir denklemi çözmek için ne yapmamız gerektiğine dair fikir verdi. Amaç, değişkeni denklemin bir tarafında tek başına bırakmaktır. Önceki örneklerde eşitliğin çıkarma özelliğini kullandık: Bir denklemin iki tarafından da aynı niceliği çıkarırsak eşitlik bozulmaz.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value: "İkiz kardeşler Andy ve Bobby'yi düşünün. İkisi de ",
+                  },
+                  { type: "math", value: "17" },
+                  {
+                    type: "text",
+                    value: " yaşında olsun. Andy ",
+                  },
+                  { type: "math", value: "3" },
+                  {
+                    type: "text",
+                    value: " yıl önce kaç yaşındaydı? ",
+                  },
+                  { type: "math", value: "17" },
+                  {
+                    type: "text",
+                    value: " yaşından ",
+                  },
+                  { type: "math", value: "3" },
+                  {
+                    type: "text",
+                    value: " eksikti; yani yaşı ",
+                  },
+                  { type: "math", value: "17-3" },
+                  {
+                    type: "text",
+                    value: ", başka bir deyişle ",
+                  },
+                  { type: "math", value: "14" },
+                  {
+                    type: "text",
+                    value:
+                      " idi. Bobby de aynı şekilde 14 yaşındaydı. Yaşları şimdi eşit olduğuna göre, ikisinden de aynı miktarı çıkarmak üç yıl önce de eşit yaşlar verir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "math",
+                    value: "\\begin{aligned}a&=b \\\\ a-3&=b-3\\end{aligned}",
+                    display: true,
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.31",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "x+8=17" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Değişkeni yalnız bırakmak için eşitliğin çıkarma özelliğini kullanırız; iki taraftan da ",
+                      },
+                      { type: "math", value: "8" },
+                      { type: "text", value: " çıkarırız." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}x+8&=17 \\\\ x+8-8&=17-8 \\\\ x&=9\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "x=9" },
+                      {
+                        type: "text",
+                        value: " değeri ",
+                      },
+                      { type: "math", value: "x+8=17" },
+                      {
+                        type: "text",
+                        value:
+                          " denklemini doğru yaptığı için denklemin çözümü ",
+                      },
+                      { type: "math", value: "9" },
+                      { type: "text", value: "'dur." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.61",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "x+6=19" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.62",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "x+9=14" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.32",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "100=y+74" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Bir denklemi çözerken değişkeni yalnız bırakırız; değişkenin hangi tarafta olduğu önemli değildir. ",
+                      },
+                      { type: "math", value: "y" },
+                      {
+                        type: "text",
+                        value: " değişkenini yalnız bırakmak için iki taraftan da ",
+                      },
+                      { type: "math", value: "74" },
+                      { type: "text", value: " çıkarırız." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}100&=y+74 \\\\ 100-74&=y+74-74 \\\\ 26&=y\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value: "Kontrol edersek: ",
+                      },
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}100&\\stackrel{?}{=}26+74 \\\\ 100&=100\\checkmark\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "y=26" },
+                      {
+                        type: "text",
+                        value: " değeri denklemi doğru yaptığı için çözüm ",
+                      },
+                      { type: "math", value: "26" },
+                      { type: "text", value: "'dır." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.63",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "95=y+67" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.64",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "91=y+45" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
         sectionSlug: "esitligin-cikarma-ozelligini-modelleme",
         replaceBlocks: [
           {

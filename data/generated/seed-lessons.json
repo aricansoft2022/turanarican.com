@@ -4053,7 +4053,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Our puzzle has given us an idea of what we need to do to solve an equation. The goal is to isolate the variable by itself on one side of the equations. In the previous examples, we used the Subtraction Property of Equality, which states that when we subtract the same quantity from both sides of an equation, we still have equality."
+                    "value": "Bulmaca modelimiz, bir denklemi çözmek için ne yapmamız gerektiğine dair fikir verdi. Amaç, değişkeni denklemin bir tarafında tek başına bırakmaktır. Önceki örneklerde eşitliğin çıkarma özelliğini kullandık: Bir denklemin iki tarafından da aynı niceliği çıkarırsak eşitlik bozulmaz."
                   }
                 ]
               },
@@ -4062,7 +4062,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Think about twin brothers Andy and Bobby. They are "
+                    "value": "İkiz kardeşler Andy ve Bobby'yi düşünün. İkisi de "
                   },
                   {
                     "type": "math",
@@ -4070,7 +4070,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " years old. How old was Andy "
+                    "value": " yaşında olsun. Andy "
                   },
                   {
                     "type": "math",
@@ -4078,7 +4078,15 @@
                   },
                   {
                     "type": "text",
-                    "value": " years ago? He was "
+                    "value": " yıl önce kaç yaşındaydı? "
+                  },
+                  {
+                    "type": "math",
+                    "value": "17"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yaşından "
                   },
                   {
                     "type": "math",
@@ -4086,39 +4094,15 @@
                   },
                   {
                     "type": "text",
-                    "value": " years less than "
+                    "value": " eksikti; yani yaşı "
                   },
                   {
                     "type": "math",
-                    "value": "17,"
+                    "value": "17-3"
                   },
                   {
                     "type": "text",
-                    "value": " so his age was "
-                  },
-                  {
-                    "type": "math",
-                    "value": "17-3,"
-                  },
-                  {
-                    "type": "text",
-                    "value": " or "
-                  },
-                  {
-                    "type": "math",
-                    "value": "14."
-                  },
-                  {
-                    "type": "text",
-                    "value": " What about Bobby’s age "
-                  },
-                  {
-                    "type": "math",
-                    "value": "3"
-                  },
-                  {
-                    "type": "text",
-                    "value": " years ago? Of course, he was "
+                    "value": ", başka bir deyişle "
                   },
                   {
                     "type": "math",
@@ -4126,15 +4110,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " also. Their ages are equal now, and subtracting the same quantity from both of them resulted in equal ages "
-                  },
-                  {
-                    "type": "math",
-                    "value": "3"
-                  },
-                  {
-                    "type": "text",
-                    "value": " years ago."
+                    "value": " idi. Bobby de aynı şekilde 14 yaşındaydı. Yaşları şimdi eşit olduğuna göre, ikisinden de aynı miktarı çıkarmak üç yıl önce de eşit yaşlar verir."
                   }
                 ]
               },
@@ -4143,7 +4119,8 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}a=b \\\\ a-3=b-3\\end{array}"
+                    "value": "\\begin{aligned}a&=b \\\\ a-3&=b-3\\end{aligned}",
+                    "display": true
                   }
                 ]
               },
@@ -4153,11 +4130,11 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
-                    "value": "x+8=17."
+                    "value": "x+8=17"
                   }
                 ],
                 "solution": [
@@ -4166,40 +4143,38 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "We will use the Subtraction Property of Equality to isolate "
+                        "value": "Değişkeni yalnız bırakmak için eşitliğin çıkarma özelliğini kullanırız; iki taraftan da "
                       },
                       {
                         "type": "math",
-                        "value": "x."
+                        "value": "8"
+                      },
+                      {
+                        "type": "text",
+                        "value": " çıkarırız."
                       }
-                    ]
-                  },
-                  {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Subtract 8 from both sides."
-                      ],
-                      [
-                        "Simplify."
-                      ]
                     ]
                   },
                   {
                     "type": "paragraph",
                     "text": [
                       {
-                        "type": "text",
-                        "value": "Since "
-                      },
+                        "type": "math",
+                        "value": "\\begin{aligned}x+8&=17 \\\\ x+8-8&=17-8 \\\\ x&=9\\end{aligned}",
+                        "display": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
                       {
                         "type": "math",
                         "value": "x=9"
                       },
                       {
                         "type": "text",
-                        "value": " makes "
+                        "value": " değeri "
                       },
                       {
                         "type": "math",
@@ -4207,7 +4182,7 @@
                       },
                       {
                         "type": "text",
-                        "value": " a true statement, we know "
+                        "value": " denklemini doğru yaptığı için denklemin çözümü "
                       },
                       {
                         "type": "math",
@@ -4215,7 +4190,7 @@
                       },
                       {
                         "type": "text",
-                        "value": " is the solution to the equation."
+                        "value": "'dur."
                       }
                     ]
                   }
@@ -4227,7 +4202,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
@@ -4242,7 +4217,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
@@ -4257,11 +4232,11 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
-                    "value": "100=y+74."
+                    "value": "100=y+74"
                   }
                 ],
                 "solution": [
@@ -4270,15 +4245,15 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "To solve an equation, we must always isolate the variable—it doesn’t matter which side it is on. To isolate "
+                        "value": "Bir denklemi çözerken değişkeni yalnız bırakırız; değişkenin hangi tarafta olduğu önemli değildir. "
                       },
                       {
                         "type": "math",
-                        "value": "y,"
+                        "value": "y"
                       },
                       {
                         "type": "text",
-                        "value": " we will subtract "
+                        "value": " değişkenini yalnız bırakmak için iki taraftan da "
                       },
                       {
                         "type": "math",
@@ -4286,23 +4261,18 @@
                       },
                       {
                         "type": "text",
-                        "value": " from both sides."
+                        "value": " çıkarırız."
                       }
                     ]
                   },
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Subtract 74 from both sides."
-                      ],
-                      [
-                        "Simplify."
-                      ],
-                      [
-                        "Substitute 26 for y to check. The image shows the original equation,100 equal to y plus 74. Substitute 26 in for y to check. The equation becomes 100 equal to 26 plus 74. Is this true? The right side simplifies by adding 26 and 74 to get 100. Both sides of the equal symbol are 100."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "math",
+                        "value": "\\begin{aligned}100&=y+74 \\\\ 100-74&=y+74-74 \\\\ 26&=y\\end{aligned}",
+                        "display": true
+                      }
                     ]
                   },
                   {
@@ -4310,23 +4280,33 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "Since "
+                        "value": "Kontrol edersek: "
                       },
+                      {
+                        "type": "math",
+                        "value": "\\begin{aligned}100&\\stackrel{?}{=}26+74 \\\\ 100&=100\\checkmark\\end{aligned}",
+                        "display": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
                       {
                         "type": "math",
                         "value": "y=26"
                       },
                       {
                         "type": "text",
-                        "value": " makes "
+                        "value": " değeri denklemi doğru yaptığı için çözüm "
                       },
                       {
                         "type": "math",
-                        "value": "100=y+74"
+                        "value": "26"
                       },
                       {
                         "type": "text",
-                        "value": " a true statement, we have found the solution to this equation."
+                        "value": "'dır."
                       }
                     ]
                   }
@@ -4338,7 +4318,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
@@ -4353,7 +4333,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
