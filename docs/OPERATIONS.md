@@ -467,6 +467,13 @@ Tek komutluk repo içi seed kalite kapısı:
 npm run seed:pipeline
 ```
 
+Sıradaki seed adayını ve parse/editoryal iş yükünü görmek için:
+
+```bash
+npm run content:seed-coverage
+npm run content:next-seed
+```
+
 Not: `seed:db-payload` fixture validation'ı kendisi de çalıştırır; bozuk seed
 fixture DB payload'a çevrilmez. `seed:db-read`, migration uygulanmış geçici
 SQLite veritabanına seed yazar ve uygulamanın `Book`/`Lesson` okuma modeline

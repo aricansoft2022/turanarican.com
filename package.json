@@ -30,6 +30,7 @@
     "content:solution-coverage": "tsx scripts/report-solution-coverage.ts",
     "content:solution-check": "tsx scripts/report-solution-coverage.ts --fail-on-missing",
     "content:seed-coverage": "tsx scripts/report-seed-coverage.ts",
+    "content:next-seed": "tsx scripts/report-next-seed-candidate.ts",
     "content:inspect-lesson": "tsx scripts/inspect-planned-lesson.ts",
     "cf:build": "opennextjs-cloudflare build",
     "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
