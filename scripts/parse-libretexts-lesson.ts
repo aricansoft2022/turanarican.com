@@ -6,14 +6,15 @@ import { fetchSeedLessonContent } from "@/src/crawler/seed-lesson";
 import type { ContentBlock, InlineContent, Lesson } from "@/src/content/types";
 
 async function main() {
+  const sourceNumber = process.argv[2] ?? "2.3";
   const seedConfig = seedLessonConfigs.find(
     (config) =>
       config.sourceBookSlug === "prealgebra-2e-openstax" &&
-      config.sourceNumber === "2.3",
+      config.sourceNumber === sourceNumber,
   );
 
   if (!seedConfig) {
-    throw new Error("Sample lesson 2.3 seed config is not configured.");
+    throw new Error(`Sample lesson ${sourceNumber} seed config is not configured.`);
   }
 
   const { plannedLesson, parsedLesson, lesson: seedLesson } =

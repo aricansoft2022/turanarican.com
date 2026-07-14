@@ -55,13 +55,32 @@ export async function fetchSeedLessonContent({
   const catalogChapter = catalogBook?.chapters.find(
     (chapter) => chapter.slug === seedConfig.catalogChapterSlug,
   );
-  const catalogLesson = catalogChapter?.lessons.find(
+  const configuredCatalogLesson = catalogChapter?.lessons.find(
     (lesson) => lesson.sourceNumber === seedConfig.sourceNumber,
   );
 
-  if (!catalogBook || !catalogChapter || !catalogLesson) {
+  if (!catalogBook || !catalogChapter) {
     throw new Error(
       `Seed lesson is not configured in the catalog: ${seedConfig.sourceNumber}`,
+    );
+  }
+
+  const catalogLesson =
+    configuredCatalogLesson ??
+    (seedConfig.catalogLesson
+      ? {
+          ...seedConfig.catalogLesson,
+          chapterId: catalogChapter.id,
+          sourceNumber: plannedLesson.sourceNumber,
+          displayNumber: plannedLesson.displayNumber,
+          sourceTitle: plannedLesson.title,
+          sourceUrl: plannedLesson.href,
+        }
+      : undefined);
+
+  if (!catalogLesson) {
+    throw new Error(
+      `Seed lesson metadata is not configured: ${seedConfig.sourceNumber}`,
     );
   }
 
