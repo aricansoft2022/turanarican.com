@@ -315,6 +315,286 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
+        sectionSlug: "esitligin-toplama-ozelligiyle-denklemleri-cozme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Şimdiye kadar çözdüğümüz denklemlerde, denklemin bir tarafında değişkene bir sayı eklenmişti. Değişkeni yalnız bırakmak için bu eklemeyi geri almak üzere çıkarma kullandık.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Peki değişkenden bir sayı çıkarılmışsa ne yaparız? Örneğin ",
+                  },
+                  { type: "math", value: "x-5=8" },
+                  {
+                    type: "text",
+                    value:
+                      " denklemini düşünelim. Değişkeni yalnız bırakmak için çıkarmayı geri alır, yani iki tarafa da aynı sayıyı ekleriz.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bunun için eşitliğin toplama özelliğini kullanırız. Bu özellik, bir denklemin iki tarafına da aynı sayıyı eklediğimizde eşitliğin değişmediğini söyler. Çıkarma özelliğinin tam karşılığı gibi çalıştığına dikkat edin.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value: "17 yaşındaki ikizler Andy ve Bobby'yi hatırlayın. ",
+                  },
+                  {
+                    type: "math",
+                    value: "10",
+                  },
+                  {
+                    type: "text",
+                    value:
+                      " yıl sonra Andy'nin yaşı yine Bobby'nin yaşına eşit olacaktır. İkisi de ",
+                  },
+                  {
+                    type: "math",
+                    value: "27",
+                  },
+                  {
+                    type: "text",
+                    value: " yaşında olur.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "math",
+                    value: "\\begin{aligned}a&=b \\\\ a+10&=b+10\\end{aligned}",
+                    display: true,
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "İki tarafa da aynı sayıyı ekleyebilir ve eşitliği koruyabiliriz.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.33",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "x-5=8" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Değişkeni yalnız bırakmak için eşitliğin toplama özelliğini kullanırız; iki tarafa da ",
+                      },
+                      { type: "math", value: "5" },
+                      { type: "text", value: " ekleriz." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}x-5&=8 \\\\ x-5+5&=8+5 \\\\ x&=13\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.65",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "x-9=13" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.66",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "y-1=3" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.34",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "27=a-16" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value: "a",
+                      },
+                      {
+                        type: "text",
+                        value:
+                          " değişkenini yalnız bırakmak için iki tarafa da ",
+                      },
+                      {
+                        type: "math",
+                        value: "16",
+                      },
+                      {
+                        type: "text",
+                        value: " ekleriz.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}27&=a-16 \\\\ 27+16&=a-16+16 \\\\ 43&=a\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value: "27=a-16",
+                      },
+                      {
+                        type: "text",
+                        value: " denkleminin çözümü ",
+                      },
+                      {
+                        type: "math",
+                        value: "a=43",
+                      },
+                      {
+                        type: "text",
+                        value: "'tür.",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.67",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "19=a-18" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 12,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.68",
+                prompt: [
+                  { type: "text", value: "Çözün: " },
+                  { type: "math", value: "27=n-14" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
         sectionSlug: "esitligin-cikarma-ozelligini-modelleme",
         replaceBlocks: [
           {

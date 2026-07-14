@@ -3446,7 +3446,7 @@
         "examples": 11,
         "tryIts": 24,
         "exercises": 6,
-        "mathTokens": 121,
+        "mathTokens": 125,
         "assets": 28
       },
       "lesson": {
@@ -4355,7 +4355,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "In all the equations we have solved so far, a number was added to the variable on one side of the equation. We used subtraction to “undo” the addition in order to isolate the variable."
+                    "value": "Şimdiye kadar çözdüğümüz denklemlerde, denklemin bir tarafında değişkene bir sayı eklenmişti. Değişkeni yalnız bırakmak için bu eklemeyi geri almak üzere çıkarma kullandık."
                   }
                 ]
               },
@@ -4364,15 +4364,15 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "But suppose we have an equation with a number subtracted from the variable, such as "
+                    "value": "Peki değişkenden bir sayı çıkarılmışsa ne yaparız? Örneğin "
                   },
                   {
                     "type": "math",
-                    "value": "x-5=8."
+                    "value": "x-5=8"
                   },
                   {
                     "type": "text",
-                    "value": " We want to isolate the variable, so to “undo” the subtraction we will add the number to both sides."
+                    "value": " denklemini düşünelim. Değişkeni yalnız bırakmak için çıkarmayı geri alır, yani iki tarafa da aynı sayıyı ekleriz."
                   }
                 ]
               },
@@ -4381,7 +4381,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "We use the Addition Property of Equality, which says we can add the same number to both sides of the equation without changing the equality. Notice how it mirrors the Subtraction Property of Equality."
+                    "value": "Bunun için eşitliğin toplama özelliğini kullanırız. Bu özellik, bir denklemin iki tarafına da aynı sayıyı eklediğimizde eşitliğin değişmediğini söyler. Çıkarma özelliğinin tam karşılığı gibi çalıştığına dikkat edin."
                   }
                 ]
               },
@@ -4390,19 +4390,23 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Remember the "
-                  },
-                  {
-                    "type": "math",
-                    "value": "17\\text{-year-old}"
-                  },
-                  {
-                    "type": "text",
-                    "value": " twins, Andy and Bobby? In ten years, Andy’s age will still equal Bobby’s age. They will both be "
+                    "value": "17 yaşındaki ikizler Andy ve Bobby'yi hatırlayın. "
                   },
                   {
                     "type": "math",
-                    "value": "27."
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yıl sonra Andy'nin yaşı yine Bobby'nin yaşına eşit olacaktır. İkisi de "
+                  },
+                  {
+                    "type": "math",
+                    "value": "27"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yaşında olur."
                   }
                 ]
               },
@@ -4411,7 +4415,8 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}a=b \\\\ a+10=b+10\\end{array}"
+                    "value": "\\begin{aligned}a&=b \\\\ a+10&=b+10\\end{aligned}",
+                    "display": true
                   }
                 ]
               },
@@ -4420,7 +4425,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "We can add the same number to both sides and still keep the equality."
+                    "value": "İki tarafa da aynı sayıyı ekleyebilir ve eşitliği koruyabiliriz."
                   }
                 ]
               },
@@ -4430,11 +4435,11 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
-                    "value": "x-5=8."
+                    "value": "x-5=8"
                   }
                 ],
                 "solution": [
@@ -4443,20 +4448,26 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "We will use the Addition Property of Equality to isolate the variable."
+                        "value": "Değişkeni yalnız bırakmak için eşitliğin toplama özelliğini kullanırız; iki tarafa da "
+                      },
+                      {
+                        "type": "math",
+                        "value": "5"
+                      },
+                      {
+                        "type": "text",
+                        "value": " ekleriz."
                       }
                     ]
                   },
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Add 5 to both sides."
-                      ],
-                      [
-                        "Simplify."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "math",
+                        "value": "\\begin{aligned}x-5&=8 \\\\ x-5+5&=8+5 \\\\ x&=13\\end{aligned}",
+                        "display": true
+                      }
                     ]
                   }
                 ]
@@ -4467,7 +4478,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
@@ -4482,7 +4493,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
@@ -4497,11 +4508,11 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
-                    "value": "27=a-16."
+                    "value": "27=a-16"
                   }
                 ],
                 "solution": [
@@ -4509,8 +4520,12 @@
                     "type": "paragraph",
                     "text": [
                       {
+                        "type": "math",
+                        "value": "a"
+                      },
+                      {
                         "type": "text",
-                        "value": "We will add "
+                        "value": " değişkenini yalnız bırakmak için iki tarafa da "
                       },
                       {
                         "type": "math",
@@ -4518,40 +4533,38 @@
                       },
                       {
                         "type": "text",
-                        "value": " to each side to isolate the variable."
+                        "value": " ekleriz."
                       }
-                    ]
-                  },
-                  {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Add 16 to each side."
-                      ],
-                      [
-                        "Simplify."
-                      ]
                     ]
                   },
                   {
                     "type": "paragraph",
                     "text": [
                       {
-                        "type": "text",
-                        "value": "The solution to "
-                      },
+                        "type": "math",
+                        "value": "\\begin{aligned}27&=a-16 \\\\ 27+16&=a-16+16 \\\\ 43&=a\\end{aligned}",
+                        "display": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
                       {
                         "type": "math",
                         "value": "27=a-16"
                       },
                       {
                         "type": "text",
-                        "value": " is "
+                        "value": " denkleminin çözümü "
                       },
                       {
                         "type": "math",
-                        "value": "a=43."
+                        "value": "a=43"
+                      },
+                      {
+                        "type": "text",
+                        "value": "'tür."
                       }
                     ]
                   }
@@ -4563,7 +4576,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
@@ -4578,7 +4591,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Solve: "
+                    "value": "Çözün: "
                   },
                   {
                     "type": "math",
