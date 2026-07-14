@@ -56,6 +56,7 @@ export function localizeExercisePromptForTurkish(
   return (
     adaptMultiplesInstruction(normalizedPrompt) ??
     adaptDivisibilityInstruction(normalizedPrompt) ??
+    adaptInsuranceDeductibleExercise(normalizedPrompt) ??
     adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
     adaptPlainInstruction(
       normalizedPrompt,
@@ -104,6 +105,45 @@ export function localizeExercisePromptForTurkish(
     ) ??
     normalizedPrompt
   );
+}
+
+function adaptInsuranceDeductibleExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const [prefix, deductible, middle, variable, claimPrefix, claim, suffix, equation] =
+    prompt;
+
+  if (
+    prefix?.type !== "text" ||
+    prefix.value !== "Insurance Vince’s car insurance has a " ||
+    deductible?.type !== "math" ||
+    middle?.type !== "text" ||
+    middle.value !==
+      " deductible. Find the amount the insurance company will pay, " ||
+    variable?.type !== "math" ||
+    claimPrefix?.type !== "text" ||
+    claimPrefix.value !== " for an " ||
+    claim?.type !== "math" ||
+    suffix?.type !== "text" ||
+    suffix.value !== " claim by solving the equation " ||
+    equation?.type !== "math"
+  ) {
+    return null;
+  }
+
+  return [
+    {
+      type: "text",
+      value:
+        "Sigorta: Vince'in araç sigortasında 500 dolarlık muafiyet vardır. 1.800 dolarlık bir hasar için sigorta şirketinin ödeyeceği tutarı, ",
+    },
+    { ...variable, value: variable.value.replace(/,$/, "") },
+    {
+      type: "text",
+      value: ", denklemi çözerek bulun: ",
+    },
+    { ...equation, value: equation.value.replace(/\.$/, "") },
+  ] satisfies InlineContent[];
 }
 
 function adaptAlgebraicWordPhraseExercise(

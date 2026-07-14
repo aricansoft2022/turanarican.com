@@ -3762,6 +3762,216 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
           },
         ],
       },
+      {
+        sectionSlug: "denkleme-cevirme-ve-cozme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Şimdi cümleleri cebirsel denklemlere çevirip sonra bu denklemleri çözmeye çalışalım. Denklemleri eşitliğin çıkarma ve toplama özelliklerini kullanarak çözeceğiz.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.38",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Çevirin ve çözün: ",
+                  },
+                  { type: "math", value: "x" },
+                  { type: "text", value: "'ten üç fazla " },
+                  { type: "math", value: "47" },
+                  { type: "text", value: "'ye eşittir." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Cümleyi denkleme çevirelim. “Üç fazla” ifadesi değişkene 3 eklemeyi, “eşittir” sözü de eşittir işaretini gösterir.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}x+3&=47\\\\x+3-3&=47-3\\\\x&=44\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value: "Kontrol edersek ",
+                      },
+                      { type: "math", value: "44+3=47" },
+                      {
+                        type: "text",
+                        value: " doğru olduğundan çözüm ",
+                      },
+                      { type: "math", value: "x=44" },
+                      { type: "text", value: "'tür." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.75",
+                prompt: [
+                  { type: "text", value: "Çevirin ve çözün: " },
+                  { type: "math", value: "x" },
+                  { type: "text", value: "'ten yedi fazla " },
+                  { type: "math", value: "37" },
+                  { type: "text", value: "'ye eşittir." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.76",
+                prompt: [
+                  { type: "text", value: "Çevirin ve çözün: " },
+                  { type: "math", value: "y" },
+                  { type: "text", value: "'den on bir fazla " },
+                  { type: "math", value: "28" },
+                  { type: "text", value: "'e eşittir." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.39",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Çevirin ve çözün: ",
+                  },
+                  { type: "math", value: "y" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "14" },
+                  { type: "text", value: "'ün farkı " },
+                  { type: "math", value: "18" },
+                  { type: "text", value: "'dir." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "“Fark” çıkarma işlemini, “...dir” sözü eşitliği gösterir. Cümleyi denkleme çevirip iki tarafa da 14 ekleyelim.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}y-14&=18\\\\y-14+14&=18+14\\\\y&=32\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value: "Kontrol edersek ",
+                      },
+                      { type: "math", value: "32-14=18" },
+                      {
+                        type: "text",
+                        value: " doğru olduğundan çözüm ",
+                      },
+                      { type: "math", value: "y=32" },
+                      { type: "text", value: "'dir." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.77",
+                prompt: [
+                  { type: "text", value: "Çevirin ve çözün: " },
+                  { type: "math", value: "z" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "17" },
+                  { type: "text", value: "'nin farkı " },
+                  { type: "math", value: "37" },
+                  { type: "text", value: "'ye eşittir." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.78",
+                prompt: [
+                  { type: "text", value: "Çevirin ve çözün: " },
+                  { type: "math", value: "x" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "19" },
+                  { type: "text", value: "'un farkı " },
+                  { type: "math", value: "45" },
+                  { type: "text", value: "'e eşittir." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   {

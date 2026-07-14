@@ -4806,7 +4806,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Now let’s practice translating sentences into algebraic equations and then solving them. We will solve the equations by using the Subtraction and Addition Properties of Equality."
+                "value": "Şimdi cümleleri cebirsel denklemlere çevirip sonra bu denklemleri çözmeye çalışalım. Denklemleri eşitliğin çıkarma ve toplama özelliklerini kullanarak çözeceğiz."
               }
             ]
           },
@@ -4816,7 +4816,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate and solve: Three more than "
+                "value": "Çevirin ve çözün: "
               },
               {
                 "type": "math",
@@ -4824,33 +4824,35 @@
               },
               {
                 "type": "text",
-                "value": " is equal to "
+                "value": "'ten üç fazla "
               },
               {
                 "type": "math",
-                "value": "47."
+                "value": "47"
+              },
+              {
+                "type": "text",
+                "value": "'ye eşittir."
               }
             ],
             "solution": [
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Three more than x is equal to 47."
-                  ],
-                  [
-                    "Translate."
-                  ],
-                  [
-                    "Subtract 3 from both sides of the equation."
-                  ],
-                  [
-                    "Simplify."
-                  ],
-                  [
-                    "We can check. Let x=44 ."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Cümleyi denkleme çevirelim. “Üç fazla” ifadesi değişkene 3 eklemeyi, “eşittir” sözü de eşittir işaretini gösterir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}x+3&=47\\\\x+3-3&=47-3\\\\x&=44\\end{aligned}",
+                    "display": true
+                  }
                 ]
               },
               {
@@ -4858,15 +4860,23 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "So "
+                    "value": "Kontrol edersek "
                   },
                   {
                     "type": "math",
-                    "value": "x=\\text{} 44"
+                    "value": "44+3=47"
                   },
                   {
                     "type": "text",
-                    "value": " is the solution."
+                    "value": " doğru olduğundan çözüm "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=44"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'tür."
                   }
                 ]
               }
@@ -4878,7 +4888,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate and solve: Seven more than "
+                "value": "Çevirin ve çözün: "
               },
               {
                 "type": "math",
@@ -4886,11 +4896,15 @@
               },
               {
                 "type": "text",
-                "value": " is equal to "
+                "value": "'ten yedi fazla "
               },
               {
                 "type": "math",
-                "value": "37."
+                "value": "37"
+              },
+              {
+                "type": "text",
+                "value": "'ye eşittir."
               }
             ],
             "solution": []
@@ -4901,7 +4915,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate and solve: Eleven more than "
+                "value": "Çevirin ve çözün: "
               },
               {
                 "type": "math",
@@ -4909,11 +4923,15 @@
               },
               {
                 "type": "text",
-                "value": " is equal to "
+                "value": "'den on bir fazla "
               },
               {
                 "type": "math",
-                "value": "28."
+                "value": "28"
+              },
+              {
+                "type": "text",
+                "value": "'e eşittir."
               }
             ],
             "solution": []
@@ -4924,7 +4942,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate and solve: The difference of "
+                "value": "Çevirin ve çözün: "
               },
               {
                 "type": "math",
@@ -4932,7 +4950,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4940,33 +4958,35 @@
               },
               {
                 "type": "text",
-                "value": " is "
+                "value": "'ün farkı "
               },
               {
                 "type": "math",
-                "value": "18."
+                "value": "18"
+              },
+              {
+                "type": "text",
+                "value": "'dir."
               }
             ],
             "solution": [
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "The difference of y and 14 is 18."
-                  ],
-                  [
-                    "Translate."
-                  ],
-                  [
-                    "Add 14 to both sides."
-                  ],
-                  [
-                    "Simplify."
-                  ],
-                  [
-                    "We can check. Let y=32 ."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "“Fark” çıkarma işlemini, “...dir” sözü eşitliği gösterir. Cümleyi denkleme çevirip iki tarafa da 14 ekleyelim."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}y-14&=18\\\\y-14+14&=18+14\\\\y&=32\\end{aligned}",
+                    "display": true
+                  }
                 ]
               },
               {
@@ -4974,7 +4994,15 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "So "
+                    "value": "Kontrol edersek "
+                  },
+                  {
+                    "type": "math",
+                    "value": "32-14=18"
+                  },
+                  {
+                    "type": "text",
+                    "value": " doğru olduğundan çözüm "
                   },
                   {
                     "type": "math",
@@ -4982,7 +5010,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " is the solution."
+                    "value": "'dir."
                   }
                 ]
               }
@@ -4994,7 +5022,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate and solve: The difference of "
+                "value": "Çevirin ve çözün: "
               },
               {
                 "type": "math",
@@ -5002,7 +5030,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -5010,11 +5038,15 @@
               },
               {
                 "type": "text",
-                "value": " is equal to "
+                "value": "'nin farkı "
               },
               {
                 "type": "math",
-                "value": "37."
+                "value": "37"
+              },
+              {
+                "type": "text",
+                "value": "'ye eşittir."
               }
             ],
             "solution": []
@@ -5025,7 +5057,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate and solve: The difference of "
+                "value": "Çevirin ve çözün: "
               },
               {
                 "type": "math",
@@ -5033,7 +5065,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -5041,11 +5073,15 @@
               },
               {
                 "type": "text",
-                "value": " is equal to "
+                "value": "'un farkı "
               },
               {
                 "type": "math",
-                "value": "45."
+                "value": "45"
+              },
+              {
+                "type": "text",
+                "value": "'e eşittir."
               }
             ],
             "solution": []
@@ -7940,35 +7976,19 @@
         "promptJson": [
           {
             "type": "text",
-            "value": "Insurance Vince’s car insurance has a "
+            "value": "Sigorta: Vince'in araç sigortasında 500 dolarlık muafiyet vardır. 1.800 dolarlık bir hasar için sigorta şirketinin ödeyeceği tutarı, "
           },
           {
             "type": "math",
-            "value": "\\text{$500}"
+            "value": "p"
           },
           {
             "type": "text",
-            "value": " deductible. Find the amount the insurance company will pay, "
+            "value": ", denklemi çözerek bulun: "
           },
           {
             "type": "math",
-            "value": "p,"
-          },
-          {
-            "type": "text",
-            "value": " for an "
-          },
-          {
-            "type": "math",
-            "value": "\\text{$1800}"
-          },
-          {
-            "type": "text",
-            "value": " claim by solving the equation "
-          },
-          {
-            "type": "math",
-            "value": "500+p=1800."
+            "value": "500+p=1800"
           }
         ],
         "answerJson": [
