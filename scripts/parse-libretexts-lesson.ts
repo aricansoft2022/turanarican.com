@@ -44,8 +44,10 @@ async function main() {
   console.log(`empty try its: ${parsedLesson.validation.emptyTryIts.length}`);
   console.log(`empty exercises: ${parsedLesson.validation.emptyExercises.length}`);
   console.log(`renderable blocks: ${renderBlocks.length}`);
-  console.log(`renderable examples: ${countBlocksByLabel(renderBlocks, /^Example/i)}`);
-  console.log(`renderable try its: ${countBlocksByLabel(renderBlocks, /^Try It/i)}`);
+  console.log(`renderable examples: ${countBlocksByLabel(renderBlocks, /^Örnek\b/i)}`);
+  console.log(
+    `renderable try its: ${countBlocksByLabel(renderBlocks, /^Sıra Sizde\b/i)}`,
+  );
   console.log(`math tokens: ${countMathTokens(renderBlocks)}`);
   console.log(
     `example solutions: ${parsedLesson.examples.filter((example) => example.solution.length > 0).length}`,

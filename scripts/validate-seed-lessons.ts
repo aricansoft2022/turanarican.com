@@ -224,8 +224,11 @@ function assertBlocks(
     }
 
     assertRequired(block.label, `example label in ${context}`);
+    if (/^(Example|Try It)\b/i.test(block.label)) {
+      throw new Error(`Unlocalized example label in ${context}: ${block.label}`);
+    }
     assertInlineContent(block.prompt, `example prompt in ${context}`);
-    if (/^Example/i.test(block.label) && !block.solution.length) {
+    if (/^Örnek\b/i.test(block.label) && !block.solution.length) {
       throw new Error(`Example solution is empty in ${context}.`);
     }
     assertBlocks(block.solution, assetIds, context);
@@ -246,8 +249,8 @@ function assertMetrics(entry: SeedFixtureLesson) {
     objectives: lesson.objectives.length,
     sections: lesson.sections.length,
     blocks: countLessonBlocks(lesson),
-    examples: countBlocksByLabel(lesson, /^Example/i),
-    tryIts: countBlocksByLabel(lesson, /^Try It/i),
+    examples: countBlocksByLabel(lesson, /^Örnek\b/i),
+    tryIts: countBlocksByLabel(lesson, /^Sıra Sizde\b/i),
     exercises: lesson.exercises.length,
     mathTokens: countMathTokens(
       lesson.sections.flatMap((section) => section.blocks),

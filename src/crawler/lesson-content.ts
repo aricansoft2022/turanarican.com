@@ -158,10 +158,20 @@ export function parsedLessonBlocksToContentBlocks(
 export function parsedBoxToExampleBlock(box: ParsedLessonBox): ContentBlock {
   return {
     type: "example",
-    label: box.label,
+    label: localizeExampleLabel(box.label),
     prompt: box.prompt,
     solution: box.solution,
   };
+}
+
+function localizeExampleLabel(label: string) {
+  const exampleMatch = /^Example\s+(.+)$/i.exec(label);
+  if (exampleMatch) return `Örnek ${exampleMatch[1]}`;
+
+  const tryItMatch = /^Try It\s+(.+)$/i.exec(label);
+  if (tryItMatch) return `Sıra Sizde ${tryItMatch[1]}`;
+
+  return label;
 }
 
 function removeSourceChrome($: cheerio.CheerioAPI, root: CheerioNode) {

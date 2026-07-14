@@ -39,8 +39,8 @@ async function main() {
         objectives: result.lesson.objectives.length,
         sections: result.lesson.sections.length,
         blocks: countLessonBlocks(result.lesson),
-        examples: countBlocksByLabel(result.lesson, /^Example/i),
-        tryIts: countBlocksByLabel(result.lesson, /^Try It/i),
+        examples: countBlocksByLabel(result.lesson, /^Örnek\b/i),
+        tryIts: countBlocksByLabel(result.lesson, /^Sıra Sizde\b/i),
         exercises: result.lesson.exercises.length,
         mathTokens: countMathTokens(
           result.lesson.sections.flatMap((section) => section.blocks),
