@@ -7,6 +7,6 @@ dist
 .env.local
 local.db
 local.db-*
-db/migrations
+source-assets
 tsconfig.tsbuildinfo
 npm-debug.log*

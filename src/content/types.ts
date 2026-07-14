@@ -66,6 +66,7 @@ export type ContentBlock =
   | { type: "paragraph"; text: InlineContent[] }
   | { type: "callout"; label: string; tone: "red" | "soft"; blocks: ContentBlock[] }
   | { type: "example"; label: string; prompt: InlineContent[]; solution: ContentBlock[] }
+  | { type: "figure"; assetId: string; caption?: InlineContent[] }
   | { type: "list"; items: InlineContent[][] }
   | { type: "table"; columns: string[]; rows: string[][] };
 
@@ -82,3 +83,18 @@ export type Exercise = {
   sortOrder: number;
 };
 
+export type SourceAsset = {
+  id: string;
+  sourceUrl: string;
+  type: "image" | "figure" | "table" | "svg";
+  altText?: string;
+  caption?: string;
+  contentHash?: string;
+  localKey: string;
+  r2Key: string;
+  preferredTreatment:
+    | "redraw_tr_preferred"
+    | "rebuild_html_tr"
+    | "reuse_original";
+  status: "discovered" | "downloaded" | "redrawn" | "uploaded" | "fallback_original";
+};

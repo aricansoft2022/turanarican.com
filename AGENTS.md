@@ -129,9 +129,12 @@ Suggested core entities:
 - `source_snapshots`
   - source_url, fetched_at, http_status, content_hash, raw_html_path_or_blob,
     parser_version
+- `source_assets`
+  - lesson_id/source_snapshot_id, source_url, asset_type, alt_text, caption,
+    local_key/r2_key, content_hash, preferred_treatment, status
 
 Content should be a typed JSON AST that can render paragraphs, math, lists,
-tables, callouts, examples, exercises, images, and attribution blocks.
+tables, callouts, examples, exercises, images, figures, and attribution blocks.
 
 ## Crawl and Ingestion Workflow
 
@@ -149,10 +152,16 @@ Recommended pipeline:
 7. Remove "Self Check" / "Oz Kontrol" sections for this product.
 8. Extract headings, examples, try-it blocks, exercises, answers, tables,
    figures, and math.
-9. Normalize math delimiters and render with KaTeX in the app.
-10. Apply Turkish adaptation layer.
-11. Store structured content in Turso through Drizzle.
-12. Run validation: missing headings, broken math, empty examples, unpaired
+9. Extract image/figure/table assets into an asset manifest. Prefer rebuilding
+   diagrams, charts, graphs, and tables in Turkish when the source is simple
+   enough. If a recreated asset is visually broken or too ambiguous, keep and
+   serve the original asset with attribution.
+10. Normalize math delimiters and render with KaTeX in the app.
+11. Apply Turkish adaptation layer.
+12. Store structured content in Turso through Drizzle.
+13. Upload production assets to Cloudflare R2/bucket once credentials and bucket
+   naming are configured. Until then, keep stable local/R2 keys in manifests.
+14. Run validation: missing headings, broken math, empty examples, unpaired
     answers, orphaned images, source attribution.
 
 Before large crawls, check source access rules and use conservative throttling.

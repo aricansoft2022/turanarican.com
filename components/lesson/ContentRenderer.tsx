@@ -54,6 +54,24 @@ export function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
           );
         }
 
+        if (block.type === "figure") {
+          return (
+            <figure
+              key={index}
+              className="my-6 border border-ink/15 bg-white p-4 shadow-[7px_7px_0_#ffe1e1]"
+            >
+              <div className="flex aspect-[16/9] items-center justify-center border border-dashed border-brand-red/40 bg-brand-soft text-sm font-bold uppercase text-brand-red">
+                Görsel asset: {block.assetId}
+              </div>
+              {block.caption ? (
+                <figcaption className="mt-3 text-sm text-ink/65">
+                  <MathText items={block.caption} />
+                </figcaption>
+              ) : null}
+            </figure>
+          );
+        }
+
         if (block.type === "callout") {
           return (
             <section
@@ -93,4 +111,3 @@ export function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
     </>
   );
 }
-

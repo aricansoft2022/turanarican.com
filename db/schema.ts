@@ -146,6 +146,37 @@ export const sourceSnapshots = sqliteTable(
   }),
 );
 
+export const sourceAssets = sqliteTable(
+  "source_assets",
+  {
+    id: text("id").primaryKey(),
+    lessonId: text("lesson_id").references(() => lessons.id, {
+      onDelete: "cascade",
+    }),
+    sourceSnapshotId: text("source_snapshot_id").references(
+      () => sourceSnapshots.id,
+      { onDelete: "set null" },
+    ),
+    sourceUrl: text("source_url").notNull(),
+    assetType: text("asset_type").notNull(),
+    altText: text("alt_text"),
+    caption: text("caption"),
+    localKey: text("local_key").notNull(),
+    r2Key: text("r2_key").notNull(),
+    contentHash: text("content_hash"),
+    preferredTreatment: text("preferred_treatment").notNull(),
+    status: text("status").notNull().default("discovered"),
+    createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+  },
+  (table) => ({
+    sourceUrlIdx: index("source_assets_source_url_idx").on(table.sourceUrl),
+    lessonAssetIdx: index("source_assets_lesson_asset_idx").on(
+      table.lessonId,
+      table.assetType,
+    ),
+  }),
+);
+
 export const booksRelations = relations(books, ({ many }) => ({
   chapters: many(chapters),
 }));
@@ -165,6 +196,7 @@ export const lessonsRelations = relations(lessons, ({ one, many }) => ({
   }),
   sections: many(lessonSections),
   exercises: many(exercises),
+  sourceAssets: many(sourceAssets),
 }));
 
 export const lessonSectionsRelations = relations(
@@ -189,3 +221,17 @@ export const exercisesRelations = relations(exercises, ({ one }) => ({
   }),
 }));
 
+export const sourceSnapshotsRelations = relations(sourceSnapshots, ({ many }) => ({
+  sourceAssets: many(sourceAssets),
+}));
+
+export const sourceAssetsRelations = relations(sourceAssets, ({ one }) => ({
+  lesson: one(lessons, {
+    fields: [sourceAssets.lessonId],
+    references: [lessons.id],
+  }),
+  sourceSnapshot: one(sourceSnapshots, {
+    fields: [sourceAssets.sourceSnapshotId],
+    references: [sourceSnapshots.id],
+  }),
+}));
