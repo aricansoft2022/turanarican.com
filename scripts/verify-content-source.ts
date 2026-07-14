@@ -3,6 +3,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 
 import { createClient } from "@libsql/client";
+import sitemap from "@/app/sitemap";
 
 import {
   getContentBook,
@@ -47,6 +48,11 @@ async function assertStaticSource() {
   if (!book || book.chapters[0]?.lessons.length !== 2) {
     throw new Error("Static content source did not expose the seeded book tree.");
   }
+
+  await assertSitemap("static", {
+    books: bookParams.length,
+    lessons: params.length,
+  });
 }
 
 async function assertDatabaseSource() {
@@ -91,6 +97,11 @@ async function assertDatabaseSource() {
       throw new Error("Database content source did not expose the seeded book tree.");
     }
 
+    await assertSitemap("database", {
+      books: bookParams.length,
+      lessons: params.length,
+    });
+
     console.log("Verified content source abstraction.");
     console.log(
       JSON.stringify(
@@ -107,6 +118,32 @@ async function assertDatabaseSource() {
     );
   } finally {
     await rm(tempDir, { recursive: true, force: true });
+  }
+}
+
+async function assertSitemap(
+  source: string,
+  expected: { books: number; lessons: number },
+) {
+  const entries = await sitemap();
+  const urls = new Set(entries.map((entry) => entry.url));
+  const expectedCount = 1 + expected.books + expected.lessons;
+
+  if (entries.length !== expectedCount) {
+    throw new Error(
+      `${source} sitemap expected ${expectedCount} URLs, got ${entries.length}.`,
+    );
+  }
+
+  for (const url of [
+    "https://www.turanarican.com",
+    "https://www.turanarican.com/kitap/prealgebra-2e",
+    "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme",
+    "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
+  ]) {
+    if (!urls.has(url)) {
+      throw new Error(`${source} sitemap is missing URL: ${url}`);
+    }
   }
 }
 
