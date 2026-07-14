@@ -453,6 +453,7 @@ npm run seed:db-payload
 npm run seed:db-verify
 npm run seed:db-read
 npm run content:verify
+npm run content:build
 ```
 
 Tek komutluk repo içi seed kalite kapısı:
@@ -466,7 +467,9 @@ fixture DB payload'a çevrilmez. `seed:db-read`, migration uygulanmış geçici
 SQLite veritabanına seed yazar ve uygulamanın `Book`/`Lesson` okuma modeline
 geri çevrilebildiğini doğrular. `content:verify`, hem varsayılan statik içerik
 kaynağını hem de geçici SQLite üstünden `CONTENT_SOURCE=database` akışını
-uygulamanın kullandığı içerik fonksiyonlarıyla test eder.
+uygulamanın kullandığı içerik fonksiyonlarıyla test eder. `content:build`,
+geçici SQLite seed DB ile `CONTENT_SOURCE=database` build'i çalıştırır ve iki
+seed lesson route'unun prerender edildiğini kontrol eder.
 
 Migration uygulanmış bir Turso veya lokal SQLite hedefine seed payload'ı yazmak
 için önce kuru koşuyu kontrol et:
