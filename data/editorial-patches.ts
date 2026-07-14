@@ -1,10 +1,22 @@
-import type { EditorialSectionPatch } from "@/src/content/types";
+import type {
+  ContentBlock,
+  EditorialSectionPatch,
+  InlineContent,
+} from "@/src/content/types";
 
 export type EditorialLessonPatchSet = {
   sourceBookSlug: string;
   sourceNumber: string;
   sections: EditorialSectionPatch[];
 };
+
+const t = (value: string): InlineContent => ({ type: "text", value });
+const m = (value: string, display?: boolean): InlineContent => ({
+  type: "math",
+  value,
+  ...(display === undefined ? {} : { display }),
+});
+const p = (text: InlineContent[]): ContentBlock => ({ type: "paragraph", text });
 
 export const editorialLessonPatches: EditorialLessonPatchSet[] = [
   {
@@ -4299,6 +4311,38 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
             ],
           },
           {
+            sourceBlockIndex: 9,
+            blocks: [
+              p([
+                t("Şekil 2.6, "),
+                m("1"),
+                t(" ile "),
+                m("50"),
+                t(" arasındaki sayma sayılarını gösterir. "),
+                m("2"),
+                t("'nin katları vurgulanmıştır. Bir örüntü fark ediyor musunuz?"),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "figure",
+                assetId: "000-0f70eee58f280cb3",
+                caption: [
+                  t("Şekil 2.6 "),
+                  m("1"),
+                  t(" ile "),
+                  m("50"),
+                  t(" arasındaki "),
+                  m("2"),
+                  t("'nin katları"),
+                ],
+              },
+            ],
+          },
+          {
             sourceBlockIndex: 11,
             blocks: [
               {
@@ -4511,6 +4555,1006 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
                     type: "math",
                     value: "17.780",
                   },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 15,
+            blocks: [
+              p([
+                t("Şimdi "),
+                m("5"),
+                t("'in katlarına bakalım. Şekil 2.7, "),
+                m("1"),
+                t(" ile "),
+                m("50"),
+                t(" arasındaki "),
+                m("5"),
+                t("'in katlarını vurgular. "),
+                m("5"),
+                t("'in katlarıyla ilgili ne fark ediyorsunuz?"),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 16,
+            blocks: [
+              {
+                type: "figure",
+                assetId: "002-739a8813f29dddb0",
+                caption: [
+                  t("Şekil 2.7 "),
+                  m("1"),
+                  t(" ile "),
+                  m("50"),
+                  t(" arasındaki "),
+                  m("5"),
+                  t("'in katları"),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 17,
+            blocks: [
+              p([
+                m("5"),
+                t("'in tüm katları "),
+                m("5"),
+                t(" veya "),
+                m("0"),
+                t(" ile biter. "),
+                m("2"),
+                t("'nin katlarını son basamağa bakarak belirlediğimiz gibi, "),
+                m("5"),
+                t("'in katlarını da son basamağa bakarak belirleyebiliriz."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 18,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.41",
+                prompt: [
+                  t("Aşağıdakilerin "),
+                  m("5"),
+                  t("'in katı olup olmadığını belirleyin: ⓐ "),
+                  m("579"),
+                  t(" ⓑ "),
+                  m("880"),
+                ],
+                solution: [
+                  p([
+                    t("ⓐ "),
+                    m("579"),
+                    t("'un son basamağı "),
+                    m("5"),
+                    t(" veya "),
+                    m("0"),
+                    t(" değildir. Bu nedenle "),
+                    m("579"),
+                    t(", "),
+                    m("5"),
+                    t("'in katı değildir."),
+                  ]),
+                  p([
+                    t("ⓑ "),
+                    m("880"),
+                    t("'in son basamağı "),
+                    m("0"),
+                    t(" olduğu için "),
+                    m("880"),
+                    t(", "),
+                    m("5"),
+                    t("'in katıdır."),
+                  ]),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 19,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.81",
+                prompt: [
+                  t("Her sayının "),
+                  m("5"),
+                  t("'in katı olup olmadığını belirleyin: ⓐ "),
+                  m("675"),
+                  t(" ⓑ "),
+                  m("1.578"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 20,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.82",
+                prompt: [
+                  t("Her sayının "),
+                  m("5"),
+                  t("'in katı olup olmadığını belirleyin: ⓐ "),
+                  m("421"),
+                  t(" ⓑ "),
+                  m("2.690"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 21,
+            blocks: [
+              p([
+                t("Şekil 2.8, "),
+                m("1"),
+                t(" ile "),
+                m("50"),
+                t(" arasındaki "),
+                m("10"),
+                t("'un katlarını vurgular. "),
+                m("10"),
+                t("'un tüm katları sıfır ile biter."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 22,
+            blocks: [
+              {
+                type: "figure",
+                assetId: "004-a24bc5bbdf112687",
+                caption: [
+                  t("Şekil 2.8 "),
+                  m("1"),
+                  t(" ile "),
+                  m("50"),
+                  t(" arasındaki "),
+                  m("10"),
+                  t("'un katları"),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 23,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.42",
+                prompt: [
+                  t("Aşağıdakilerin "),
+                  m("10"),
+                  t("'un katı olup olmadığını belirleyin: ⓐ "),
+                  m("425"),
+                  t(" ⓑ "),
+                  m("350"),
+                ],
+                solution: [
+                  p([
+                    t("ⓐ "),
+                    m("425"),
+                    t("'in son basamağı sıfır değildir; bu nedenle "),
+                    m("425"),
+                    t(", "),
+                    m("10"),
+                    t("'un katı değildir."),
+                  ]),
+                  p([
+                    t("ⓑ "),
+                    m("350"),
+                    t("'nin son basamağı sıfırdır; bu nedenle "),
+                    m("350"),
+                    t(", "),
+                    m("10"),
+                    t("'un katıdır."),
+                  ]),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 24,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.83",
+                prompt: [
+                  t("Her sayının "),
+                  m("10"),
+                  t("'un katı olup olmadığını belirleyin: ⓐ "),
+                  m("179"),
+                  t(" ⓑ "),
+                  m("3.540"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 25,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.84",
+                prompt: [
+                  t("Her sayının "),
+                  m("10"),
+                  t("'un katı olup olmadığını belirleyin: ⓐ "),
+                  m("110"),
+                  t(" ⓑ "),
+                  m("7.595"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 26,
+            blocks: [
+              p([
+                t("Şekil 2.9, "),
+                m("3"),
+                t("'ün katlarını vurgular. "),
+                m("3"),
+                t("'ün katlarındaki örüntü, "),
+                m("2"),
+                t(", "),
+                m("5"),
+                t(" ve "),
+                m("10"),
+                t("'un katlarındaki örüntüler kadar açık değildir."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 27,
+            blocks: [
+              {
+                type: "figure",
+                assetId: "006-2eabce1a9328161c",
+                caption: [
+                  t("Şekil 2.9 "),
+                  m("1"),
+                  t(" ile "),
+                  m("50"),
+                  t(" arasındaki "),
+                  m("3"),
+                  t("'ün katları"),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 28,
+            blocks: [
+              p([
+                t("Buradaki örüntü son basamağa bağlı değildir. "),
+                m("3"),
+                t("'ün katları için rakamlar toplamına bakarız; tablo bu ilişkiyi gösterir."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 30,
+            blocks: [
+              p([
+                m("42"),
+                t(" sayısını düşünelim. Rakamları "),
+                m("4"),
+                t(" ve "),
+                m("2"),
+                t("'dir; toplamları "),
+                m("4+2=6"),
+                t("'dır. "),
+                m("6"),
+                t(", "),
+                m("3"),
+                t("'ün katı olduğu için "),
+                m("42"),
+                t(" de "),
+                m("3"),
+                t("'ün katıdır."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 31,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.43",
+                prompt: [
+                  t("Verilen sayıların "),
+                  m("3"),
+                  t("'ün katı olup olmadığını belirleyin: ⓐ "),
+                  m("645"),
+                  t(" ⓑ "),
+                  m("10.519"),
+                ],
+                solution: [
+                  p([
+                    t("ⓐ "),
+                    m("645"),
+                    t(" için rakamlar toplamı "),
+                    m("6+4+5=15"),
+                    t("'tir. "),
+                    m("15"),
+                    t(", "),
+                    m("3"),
+                    t("'ün katı olduğundan "),
+                    m("645"),
+                    t(" de "),
+                    m("3"),
+                    t("'ün katıdır."),
+                  ]),
+                  p([
+                    t("ⓑ "),
+                    m("10.519"),
+                    t(" için rakamlar toplamı "),
+                    m("1+0+5+1+9=16"),
+                    t("'dır. "),
+                    m("16"),
+                    t(", "),
+                    m("3"),
+                    t("'ün katı olmadığından "),
+                    m("10.519"),
+                    t(" de "),
+                    m("3"),
+                    t("'ün katı değildir."),
+                  ]),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 32,
+            blocks: [
+              p([
+                m("10.519"),
+                t("'u "),
+                m("3"),
+                t("'e böldüğümüzde bir sayma sayısı elde etmeyiz. Bu yüzden "),
+                m("10.519"),
+                t(", bir sayma sayısı ile "),
+                m("3"),
+                t("'ün çarpımı değildir; yani "),
+                m("3"),
+                t("'ün katı değildir."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 33,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.85",
+                prompt: [
+                  t("Her sayının "),
+                  m("3"),
+                  t("'ün katı olup olmadığını belirleyin: ⓐ "),
+                  m("954"),
+                  t(" ⓑ "),
+                  m("3.742"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 34,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.86",
+                prompt: [
+                  t("Her sayının "),
+                  m("3"),
+                  t("'ün katı olup olmadığını belirleyin: ⓐ "),
+                  m("643"),
+                  t(" ⓑ "),
+                  m("8.379"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 35,
+            blocks: [
+              p([
+                m("2"),
+                t(", "),
+                m("5"),
+                t(" ve "),
+                m("10"),
+                t(" katları için oluşturduğunuz çizelgelere tekrar bakın. "),
+                m("10"),
+                t("'un katları hem "),
+                m("2"),
+                t("'nin hem de "),
+                m("5"),
+                t("'in katı olan sayılardır; çünkü "),
+                m("10=2\\cdot5"),
+                t("'tir. Benzer biçimde "),
+                m("6=2\\cdot3"),
+                t(" olduğundan, "),
+                m("6"),
+                t("'nın katları hem "),
+                m("2"),
+                t("'nin hem de "),
+                m("3"),
+                t("'ün katı olan sayılardır."),
+              ]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "yaygin-bolunebilme-testlerini-kullanma",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Bir sayının "),
+                m("3"),
+                t("'e bölünebilir olduğunu söylemek, o sayının "),
+                m("3"),
+                t("'ün katı olduğunu söylemenin başka bir yoludur. Örnek 2.43'te "),
+                m("10.519"),
+                t("'un "),
+                m("3"),
+                t("'ün katı olmadığını gördük. "),
+                m("10.519"),
+                t("'u "),
+                m("3"),
+                t("'e böldüğümüzde bir sayma sayısı elde etmediğimiz için "),
+                m("10.519"),
+                t(", "),
+                m("3"),
+                t("'e bölünebilir değildir."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              p([
+                t("Çarpma ve bölme ters işlemler olduğundan, bulduğumuz kat örüntülerini bölünebilme testleri olarak kullanabiliriz. Tablo 2.10, "),
+                m("1"),
+                t(" ile "),
+                m("10"),
+                t(" arasındaki bazı sayma sayıları için bölünebilme testlerini özetler."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "table",
+                columns: ["Bölünebilme Testleri"],
+                rows: [
+                  ["Bir sayı şu sayıya bölünebilir", "Test"],
+                  ["2", "Son basamak 0, 2, 4, 6 veya 8 ise"],
+                  ["3", "Rakamlar toplamı 3'e bölünebiliyorsa"],
+                  ["5", "Son basamak 5 veya 0 ise"],
+                  ["6", "Hem 2'ye hem de 3'e bölünebiliyorsa"],
+                  ["10", "Son basamak 0 ise"],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.44",
+                prompt: [
+                  m("1.290"),
+                  t(" sayısının "),
+                  m("2,3,5"),
+                  t(" ve "),
+                  m("10"),
+                  t("'a bölünüp bölünmediğini belirleyin."),
+                ],
+                solution: [
+                  p([
+                    m("1.290"),
+                    t("'ın son basamağı "),
+                    m("0"),
+                    t(" olduğu için "),
+                    m("2"),
+                    t(", "),
+                    m("5"),
+                    t(" ve "),
+                    m("10"),
+                    t("'a bölünebilir. Rakamlar toplamı "),
+                    m("1+2+9+0=12"),
+                    t(" ve "),
+                    m("12"),
+                    t(", "),
+                    m("3"),
+                    t("'e bölünebildiği için "),
+                    m("1.290"),
+                    t(" aynı zamanda "),
+                    m("3"),
+                    t("'e de bölünebilir."),
+                  ]),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              p([
+                t("Böylece "),
+                m("1.290"),
+                t(" sayısının "),
+                m("2,3,5"),
+                t(" ve "),
+                m("10"),
+                t("'a bölünebildiğini görürüz."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.87",
+                prompt: [
+                  t("Verilen sayının "),
+                  m("2,3,5"),
+                  t(" ve "),
+                  m("10"),
+                  t("'a bölünüp bölünmediğini belirleyin: "),
+                  m("6240"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.88",
+                prompt: [
+                  t("Verilen sayının "),
+                  m("2,3,5"),
+                  t(" ve "),
+                  m("10"),
+                  t("'a bölünüp bölünmediğini belirleyin: "),
+                  m("7248"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.45",
+                prompt: [
+                  m("5.625"),
+                  t(" sayısının "),
+                  m("2,3,5"),
+                  t(" ve "),
+                  m("10"),
+                  t("'a bölünüp bölünmediğini belirleyin."),
+                ],
+                solution: [
+                  p([
+                    m("5.625"),
+                    t("'in son basamağı "),
+                    m("5"),
+                    t(" olduğu için sayı "),
+                    m("5"),
+                    t("'e bölünebilir; ancak son basamak çift veya "),
+                    m("0"),
+                    t(" olmadığı için "),
+                    m("2"),
+                    t(" ve "),
+                    m("10"),
+                    t("'a bölünemez. Rakamlar toplamı "),
+                    m("5+6+2+5=18"),
+                    t(" olduğundan ve "),
+                    m("18"),
+                    t(", "),
+                    m("3"),
+                    t("'e bölünebildiğinden sayı "),
+                    m("3"),
+                    t("'e de bölünebilir."),
+                  ]),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              p([
+                t("Dolayısıyla "),
+                m("5.625"),
+                t(" sayısı "),
+                m("3"),
+                t(" ve "),
+                m("5"),
+                t("'e bölünebilir; "),
+                m("2"),
+                t(" veya "),
+                m("10"),
+                t("'a bölünemez."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.89",
+                prompt: [
+                  t("Verilen sayının "),
+                  m("2,3,5"),
+                  t(" ve "),
+                  m("10"),
+                  t("'a bölünüp bölünmediğini belirleyin: "),
+                  m("4962"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.90",
+                prompt: [
+                  t("Verilen sayının "),
+                  m("2,3,5"),
+                  t(" ve "),
+                  m("10"),
+                  t("'a bölünüp bölünmediğini belirleyin: "),
+                  m("3765"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "bir-sayinin-tum-carpanlarini-bulma",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Aynı fikri anlatmanın çoğu zaman birkaç yolu vardır. Eğer "),
+                m("m"),
+                t(", "),
+                m("n"),
+                t("'nin katıysa, "),
+                m("m"),
+                t("'nin "),
+                m("n"),
+                t("'ye bölünebilir olduğunu da söyleyebiliriz. "),
+                m("72=8\\cdot9"),
+                t(" olduğundan "),
+                m("72"),
+                t(", hem "),
+                m("8"),
+                t("'in hem de "),
+                m("9"),
+                t("'un katıdır; aynı zamanda "),
+                m("8"),
+                t(" ve "),
+                m("9"),
+                t(", "),
+                m("72"),
+                t("'nin çarpanlarıdır."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              p([
+                t("Diyagramda "),
+                m("8\\cdot9=72"),
+                t(" eşitliği gösterilir. "),
+                m("8"),
+                t(" ve "),
+                m("9"),
+                t(" çarpan, "),
+                m("72"),
+                t(" ise çarpım olarak etiketlenir."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              p([
+                t("Cebirde bir sayının tüm çarpanlarını belirlemek yararlıdır. Buna sayıyı çarpanlarına ayırmak denir ve birçok problem türünü çözmemize yardımcı olur."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              p([
+                t("Örneğin bir koreografın bale gösterisi için bir dans hazırladığını düşünelim. "),
+                m("24"),
+                t(" dansçı vardır ve koreograf belirli bir sahnede dansçıları eşit büyüklükte gruplar halinde yerleştirmek ister."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              p([
+                t("Dansçılar eşit büyüklükte kaç farklı şekilde gruplandırılabilir? Bu soruyu yanıtlamak, "),
+                m("24"),
+                t("'ün çarpanlarını belirlemekle aynıdır. Tablo 2.13, koreografın dansçıları düzenleyebileceği farklı yolları özetler."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "table",
+                columns: ["Grup Sayısı", "Gruptaki Dansçı Sayısı", "Toplam Dansçı"],
+                rows: [
+                  ["1", "24", "1\\cdot24=24"],
+                  ["2", "12", "2\\cdot12=24"],
+                  ["3", "8", "3\\cdot8=24"],
+                  ["4", "6", "4\\cdot6=24"],
+                  ["6", "4", "6\\cdot4=24"],
+                  ["8", "3", "8\\cdot3=24"],
+                  ["12", "2", "12\\cdot2=24"],
+                  ["24", "1", "24\\cdot1=24"],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              p([
+                t("Tablo 2.13'te hangi örüntüleri görüyorsunuz? Grup sayısı ile gruptaki dansçı sayısının çarpımının her zaman "),
+                m("24"),
+                t(" olduğuna dikkat ettiniz mi? Bu doğaldır, çünkü toplamda her zaman "),
+                m("24"),
+                t(" dansçı vardır."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              p([
+                t("İlk iki sütuna dikkatle bakarsanız başka bir örüntü görürsünüz. Bu sütunlar aynı sayı kümesini ters sırada içerir. Birbirinin aynası gibidirler ve ikisi birlikte "),
+                m("24"),
+                t("'ün tüm çarpanlarını listeler:"),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              p([
+                t("Herhangi bir sayma sayısının tüm çarpanlarını bulmak için sayıyı sistemli olarak "),
+                m("1"),
+                t("'den başlayarak sayma sayılarına böleriz. Bölüm de bir sayma sayısıysa, bölen ve bölüm o sayının çarpan çiftidir. Bölüm bölen sayıdan küçük olduğunda durabiliriz; sonrasında aynı çarpan çiftleri ters sırada tekrar eder."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.46",
+                prompt: [m("72"), t("'nin tüm çarpanlarını bulun.")],
+                solution: [
+                  p([
+                    m("72"),
+                    t("'yi "),
+                    m("1"),
+                    t("'den başlayarak sayma sayılarına böleriz. Bölüm bir tam sayı olduğunda bölen ve bölüm bir çarpan çiftidir."),
+                  ]),
+                  p([
+                    t("Çarpanları küçükten büyüğe sıralarsak şunları elde ederiz: "),
+                    m("1,2,3,4,6,8,9,12,18,24,36,\\text{ ve }72"),
+                    t("."),
+                  ]),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 12,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.91",
+                prompt: [t("Verilen sayının tüm çarpanlarını bulun: "), m("96")],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 13,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.92",
+                prompt: [t("Verilen sayının tüm çarpanlarını bulun: "), m("80")],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "asal-ve-bilesik-sayilari-belirleme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Bazı sayıların, örneğin "),
+                m("72"),
+                t("'nin, birçok çarpanı vardır. "),
+                m("7"),
+                t(" gibi bazı sayıların ise yalnızca iki çarpanı vardır: "),
+                m("1"),
+                t(" ve sayının kendisi. Yalnızca iki çarpanı olan sayıya asal sayı denir. İkiden fazla çarpanı olan sayıya bileşik sayı denir. "),
+                m("1"),
+                t(" ne asal ne de bileşik sayıdır."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              p([
+                t("Şekil 2.10, "),
+                m("2"),
+                t("'den "),
+                m("20"),
+                t("'ye kadar sayma sayılarını çarpanlarıyla birlikte listeler. Vurgulanan sayılar asaldır; çünkü her birinin yalnızca iki çarpanı vardır."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "figure",
+                assetId: "010-7540c720ed4ebe61",
+                caption: [
+                  t("Şekil 2.10 "),
+                  m("2"),
+                  t("'den "),
+                  m("20"),
+                  t("'ye kadar sayma sayılarının çarpanları; asal sayılar vurgulanmıştır."),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              p([
+                m("20"),
+                t("'den küçük asal sayılar "),
+                m("2,3,5,7,11,13,17"),
+                t(" ve "),
+                m("19"),
+                t("'dur. Daha büyük birçok asal sayı da vardır. Bir sayının asal mı bileşik mi olduğunu belirlemek için "),
+                m("1"),
+                t(" ve kendisi dışında çarpanı olup olmadığını kontrol ederiz. Bunun için küçük asal sayıları sırayla deneyebiliriz."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.47",
+                prompt: [
+                  t("Her sayının asal mı bileşik mi olduğunu belirleyin: ⓐ "),
+                  m("83"),
+                  t(" ⓑ "),
+                  m("77"),
+                ],
+                solution: [
+                  p([
+                    t("ⓐ "),
+                    m("83"),
+                    t(" sayısı "),
+                    m("2,3,5,7"),
+                    t(" veya "),
+                    m("11"),
+                    t(" ile bölünmez. Bu nedenle yalnızca "),
+                    m("1"),
+                    t(" ve "),
+                    m("83"),
+                    t(" çarpanlarına sahiptir; asal sayıdır."),
+                  ]),
+                  p([
+                    t("ⓑ "),
+                    m("77=7\\cdot11"),
+                    t(" olduğundan "),
+                    m("77"),
+                    t("'nin "),
+                    m("1"),
+                    t(" ve kendisi dışında çarpanları vardır; bileşik sayıdır."),
+                  ]),
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              p([
+                m("77"),
+                t(", "),
+                m("7"),
+                t("'ye bölünebildiği için asal sayı değildir. Bileşik sayıdır."),
+              ]),
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.93",
+                prompt: [
+                  t("Sayının asal mı bileşik mi olduğunu belirleyin: "),
+                  m("91"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.94",
+                prompt: [
+                  t("Sayının asal mı bileşik mi olduğunu belirleyin: "),
+                  m("137"),
                 ],
                 solution: [],
               },

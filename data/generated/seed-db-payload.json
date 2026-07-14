@@ -5400,7 +5400,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Figure 2.6 shows the counting numbers from "
+                "value": "Şekil 2.6, "
               },
               {
                 "type": "math",
@@ -5408,15 +5408,15 @@
               },
               {
                 "type": "text",
-                "value": " to "
+                "value": " ile "
               },
               {
                 "type": "math",
-                "value": "50."
+                "value": "50"
               },
               {
                 "type": "text",
-                "value": " Multiples of "
+                "value": " arasındaki sayma sayılarını gösterir. "
               },
               {
                 "type": "math",
@@ -5424,7 +5424,7 @@
               },
               {
                 "type": "text",
-                "value": " are highlighted. Do you notice a pattern?"
+                "value": "'nin katları vurgulanmıştır. Bir örüntü fark ediyor musunuz?"
               }
             ]
           },
@@ -5434,15 +5434,7 @@
             "caption": [
               {
                 "type": "text",
-                "value": "Figure 2.6 Multiples of "
-              },
-              {
-                "type": "math",
-                "value": "2"
-              },
-              {
-                "type": "text",
-                "value": " between "
+                "value": "Şekil 2.6 "
               },
               {
                 "type": "math",
@@ -5450,11 +5442,23 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
                 "value": "50"
+              },
+              {
+                "type": "text",
+                "value": " arasındaki "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": "'nin katları"
               }
             ]
           },
@@ -5656,11 +5660,47 @@
             "text": [
               {
                 "type": "text",
-                "value": "Now let’s look at multiples of "
+                "value": "Şimdi "
               },
               {
                 "type": "math",
-                "value": "5.Figure 2.7 highlights all of the multiples of 5 between 1 and 50. What do you notice about the multiples of 5?"
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": "'in katlarına bakalım. Şekil 2.7, "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "50"
+              },
+              {
+                "type": "text",
+                "value": " arasındaki "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": "'in katlarını vurgular. "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": "'in katlarıyla ilgili ne fark ediyorsunuz?"
               }
             ]
           },
@@ -5670,15 +5710,7 @@
             "caption": [
               {
                 "type": "text",
-                "value": "Figure 2.7 Multiples of "
-              },
-              {
-                "type": "math",
-                "value": "5"
-              },
-              {
-                "type": "text",
-                "value": " between "
+                "value": "Şekil 2.7 "
               },
               {
                 "type": "math",
@@ -5686,11 +5718,23 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
                 "value": "50"
+              },
+              {
+                "type": "text",
+                "value": " arasındaki "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": "'in katları"
               }
             ]
           },
@@ -5698,8 +5742,12 @@
             "type": "paragraph",
             "text": [
               {
+                "type": "math",
+                "value": "5"
+              },
+              {
                 "type": "text",
-                "value": "All multiples of "
+                "value": "'in tüm katları "
               },
               {
                 "type": "math",
@@ -5707,23 +5755,15 @@
               },
               {
                 "type": "text",
-                "value": " end with either "
+                "value": " veya "
               },
               {
                 "type": "math",
-                "value": "5"
+                "value": "0"
               },
               {
                 "type": "text",
-                "value": " or "
-              },
-              {
-                "type": "math",
-                "value": "0."
-              },
-              {
-                "type": "text",
-                "value": " Just like we identify multiples of "
+                "value": " ile biter. "
               },
               {
                 "type": "math",
@@ -5731,7 +5771,7 @@
               },
               {
                 "type": "text",
-                "value": " by looking at the last digit, we can identify multiples of "
+                "value": "'nin katlarını son basamağa bakarak belirlediğimiz gibi, "
               },
               {
                 "type": "math",
@@ -5739,7 +5779,7 @@
               },
               {
                 "type": "text",
-                "value": " by looking at the last digit."
+                "value": "'in katlarını da son basamağa bakarak belirleyebiliriz."
               }
             ]
           },
@@ -5749,15 +5789,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each of the following is a multiple of "
+                "value": "Aşağıdakilerin "
               },
               {
                 "type": "math",
-                "value": "5\\text{:}"
+                "value": "5"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'in katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -5774,41 +5814,93 @@
             ],
             "solution": [
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "ⓐ"
-                  ],
-                  [
-                    "Is 579 a multiple of 5?"
-                  ],
-                  [
-                    "Is the last digit 5 or 0?",
-                    "No."
-                  ],
-                  [
-                    "579 is not a multiple of 5."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "579"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'un son basamağı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " veya "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0"
+                  },
+                  {
+                    "type": "text",
+                    "value": " değildir. Bu nedenle "
+                  },
+                  {
+                    "type": "math",
+                    "value": "579"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in katı değildir."
+                  }
                 ]
               },
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "ⓑ"
-                  ],
-                  [
-                    "Is 880 a multiple of 5?"
-                  ],
-                  [
-                    "Is the last digit 5 or 0?",
-                    "Yes."
-                  ],
-                  [
-                    "880 is a multiple of 5."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "880"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in son basamağı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olduğu için "
+                  },
+                  {
+                    "type": "math",
+                    "value": "880"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in katıdır."
+                  }
                 ]
               }
             ]
@@ -5819,15 +5911,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each number is a multiple of "
+                "value": "Her sayının "
               },
               {
                 "type": "math",
-                "value": "5."
+                "value": "5"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'in katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -5839,7 +5931,7 @@
               },
               {
                 "type": "math",
-                "value": "1,578"
+                "value": "1.578"
               }
             ],
             "solution": []
@@ -5850,15 +5942,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each number is a multiple of "
+                "value": "Her sayının "
               },
               {
                 "type": "math",
-                "value": "5."
+                "value": "5"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'in katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -5870,7 +5962,7 @@
               },
               {
                 "type": "math",
-                "value": "2,690"
+                "value": "2.690"
               }
             ],
             "solution": []
@@ -5880,15 +5972,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Figure 2.8 highlights the multiples of "
-              },
-              {
-                "type": "math",
-                "value": "10"
-              },
-              {
-                "type": "text",
-                "value": " between "
+                "value": "Şekil 2.8, "
               },
               {
                 "type": "math",
@@ -5896,15 +5980,15 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
-                "value": "50."
+                "value": "50"
               },
               {
                 "type": "text",
-                "value": " All multiples of "
+                "value": " arasındaki "
               },
               {
                 "type": "math",
@@ -5912,7 +5996,15 @@
               },
               {
                 "type": "text",
-                "value": " all end with a zero."
+                "value": "'un katlarını vurgular. "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'un tüm katları sıfır ile biter."
               }
             ]
           },
@@ -5922,15 +6014,7 @@
             "caption": [
               {
                 "type": "text",
-                "value": "Figure 2.8 Multiples of "
-              },
-              {
-                "type": "math",
-                "value": "10"
-              },
-              {
-                "type": "text",
-                "value": " between "
+                "value": "Şekil 2.8 "
               },
               {
                 "type": "math",
@@ -5938,11 +6022,23 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
                 "value": "50"
+              },
+              {
+                "type": "text",
+                "value": " arasındaki "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'un katları"
               }
             ]
           },
@@ -5952,15 +6048,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each of the following is a multiple of "
+                "value": "Aşağıdakilerin "
               },
               {
                 "type": "math",
-                "value": "10\\text{:}"
+                "value": "10"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'un katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -5977,41 +6073,69 @@
             ],
             "solution": [
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "ⓐ"
-                  ],
-                  [
-                    "Is 425 a multiple of 10?"
-                  ],
-                  [
-                    "Is the last digit zero?",
-                    "No."
-                  ],
-                  [
-                    "425 is not a multiple of 10."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "425"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in son basamağı sıfır değildir; bu nedenle "
+                  },
+                  {
+                    "type": "math",
+                    "value": "425"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'un katı değildir."
+                  }
                 ]
               },
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "ⓑ"
-                  ],
-                  [
-                    "Is 350 a multiple of 10?"
-                  ],
-                  [
-                    "Is the last digit zero?",
-                    "Yes."
-                  ],
-                  [
-                    "350 is a multiple of 10."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "350"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin son basamağı sıfırdır; bu nedenle "
+                  },
+                  {
+                    "type": "math",
+                    "value": "350"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'un katıdır."
+                  }
                 ]
               }
             ]
@@ -6022,15 +6146,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each number is a multiple of "
+                "value": "Her sayının "
               },
               {
                 "type": "math",
-                "value": "10\\text{:}"
+                "value": "10"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'un katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -6042,7 +6166,7 @@
               },
               {
                 "type": "math",
-                "value": "3,540"
+                "value": "3.540"
               }
             ],
             "solution": []
@@ -6053,15 +6177,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each number is a multiple of "
+                "value": "Her sayının "
               },
               {
                 "type": "math",
-                "value": "10\\text{:}"
+                "value": "10"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'un katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -6073,7 +6197,7 @@
               },
               {
                 "type": "math",
-                "value": "7,595"
+                "value": "7.595"
               }
             ],
             "solution": []
@@ -6083,15 +6207,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Figure 2.9 highlights multiples of "
-              },
-              {
-                "type": "math",
-                "value": "3."
-              },
-              {
-                "type": "text",
-                "value": " The pattern for multiples of "
+                "value": "Şekil 2.9, "
               },
               {
                 "type": "math",
@@ -6099,11 +6215,39 @@
               },
               {
                 "type": "text",
-                "value": " is not as obvious as the patterns for multiples of "
+                "value": "'ün katlarını vurgular. "
               },
               {
                 "type": "math",
-                "value": "2,5,\\text{ve} 10."
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün katlarındaki örüntü, "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'un katlarındaki örüntüler kadar açık değildir."
               }
             ]
           },
@@ -6113,15 +6257,7 @@
             "caption": [
               {
                 "type": "text",
-                "value": "Figure 2.9 Multiples of "
-              },
-              {
-                "type": "math",
-                "value": "3"
-              },
-              {
-                "type": "text",
-                "value": " between "
+                "value": "Şekil 2.9 "
               },
               {
                 "type": "math",
@@ -6129,11 +6265,23 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
                 "value": "50"
+              },
+              {
+                "type": "text",
+                "value": " arasındaki "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün katları"
               }
             ]
           },
@@ -6142,11 +6290,15 @@
             "text": [
               {
                 "type": "text",
-                "value": "Unlike the other patterns we’ve examined so far, this pattern does not involve the last digit. The pattern for multiples of "
+                "value": "Buradaki örüntü son basamağa bağlı değildir. "
               },
               {
                 "type": "math",
-                "value": "3Table 2.9."
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün katları için rakamlar toplamına bakarız; tablo bu ilişkiyi gösterir."
               }
             ]
           },
@@ -6182,16 +6334,12 @@
             "type": "paragraph",
             "text": [
               {
-                "type": "text",
-                "value": "Consider the number "
-              },
-              {
                 "type": "math",
-                "value": "42."
+                "value": "42"
               },
               {
                 "type": "text",
-                "value": " The digits are "
+                "value": " sayısını düşünelim. Rakamları "
               },
               {
                 "type": "math",
@@ -6199,23 +6347,23 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ve "
               },
               {
                 "type": "math",
-                "value": "2,"
+                "value": "2"
               },
               {
                 "type": "text",
-                "value": " and their sum is "
+                "value": "'dir; toplamları "
               },
               {
                 "type": "math",
-                "value": "4+2=6."
+                "value": "4+2=6"
               },
               {
                 "type": "text",
-                "value": " Since "
+                "value": "'dır. "
               },
               {
                 "type": "math",
@@ -6223,15 +6371,15 @@
               },
               {
                 "type": "text",
-                "value": " is a multiple of "
+                "value": ", "
               },
               {
                 "type": "math",
-                "value": "3,"
+                "value": "3"
               },
               {
                 "type": "text",
-                "value": " we know that "
+                "value": "'ün katı olduğu için "
               },
               {
                 "type": "math",
@@ -6239,11 +6387,15 @@
               },
               {
                 "type": "text",
-                "value": " is also a multiple of "
+                "value": " de "
               },
               {
                 "type": "math",
-                "value": "3."
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün katıdır."
               }
             ]
           },
@@ -6253,15 +6405,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each of the given numbers is a multiple of "
+                "value": "Verilen sayıların "
               },
               {
                 "type": "math",
-                "value": "3\\text{:}"
+                "value": "3"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'ün katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -6273,7 +6425,7 @@
               },
               {
                 "type": "math",
-                "value": "10,519"
+                "value": "10.519"
               }
             ],
             "solution": [
@@ -6282,7 +6434,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓐ Is "
+                    "value": "ⓐ "
                   },
                   {
                     "type": "math",
@@ -6290,34 +6442,48 @@
                   },
                   {
                     "type": "text",
-                    "value": " a multiple of "
+                    "value": " için rakamlar toplamı "
                   },
                   {
                     "type": "math",
-                    "value": "3?"
+                    "value": "6+4+5=15"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'tir. "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ün katı olduğundan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "645"
+                  },
+                  {
+                    "type": "text",
+                    "value": " de "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ün katıdır."
                   }
-                ]
-              },
-              {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Find the sum of the digits.",
-                    "6+4+5=15"
-                  ],
-                  [
-                    "Is 15 a multiple of 3?",
-                    "Yes."
-                  ],
-                  [
-                    "If we're not sure, we could add its digits to find out. We can check it by dividing 645 by 3.",
-                    "645\\div3"
-                  ],
-                  [
-                    "The quotient is 215.",
-                    "3\\cdot215=645"
-                  ]
                 ]
               },
               {
@@ -6325,42 +6491,56 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓑ Is "
+                    "value": "ⓑ "
                   },
                   {
                     "type": "math",
-                    "value": "10,519"
+                    "value": "10.519"
                   },
                   {
                     "type": "text",
-                    "value": " a multiple of "
+                    "value": " için rakamlar toplamı "
                   },
                   {
                     "type": "math",
-                    "value": "3?"
+                    "value": "1+0+5+1+9=16"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dır. "
+                  },
+                  {
+                    "type": "math",
+                    "value": "16"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ün katı olmadığından "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10.519"
+                  },
+                  {
+                    "type": "text",
+                    "value": " de "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ün katı değildir."
                   }
-                ]
-              },
-              {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Find the sum of the digits.",
-                    "1+0+5+1+9=16"
-                  ],
-                  [
-                    "Is 16 a multiple of 3?",
-                    "No."
-                  ],
-                  [
-                    "So 10,519 is not a multiple of 3 either..",
-                    "645\\div3"
-                  ],
-                  [
-                    "We can check this by dividing by 10,519 by 3.",
-                    "\\begin{array}{l}3,506\\text{R}1 \\\\ 310,519\\end{array}"
-                  ]
                 ]
               }
             ]
@@ -6369,44 +6549,44 @@
             "type": "paragraph",
             "text": [
               {
-                "type": "text",
-                "value": "When we divide "
-              },
-              {
                 "type": "math",
-                "value": "10,519"
+                "value": "10.519"
               },
               {
                 "type": "text",
-                "value": " by "
+                "value": "'u "
               },
               {
                 "type": "math",
-                "value": "3,"
+                "value": "3"
               },
               {
                 "type": "text",
-                "value": " we do not get a counting number, so "
+                "value": "'e böldüğümüzde bir sayma sayısı elde etmeyiz. Bu yüzden "
               },
               {
                 "type": "math",
-                "value": "10,519"
+                "value": "10.519"
               },
               {
                 "type": "text",
-                "value": " is not the product of a counting number and "
+                "value": ", bir sayma sayısı ile "
               },
               {
                 "type": "math",
-                "value": "3."
+                "value": "3"
               },
               {
                 "type": "text",
-                "value": " It is not a multiple of "
+                "value": "'ün çarpımı değildir; yani "
               },
               {
                 "type": "math",
-                "value": "3."
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün katı değildir."
               }
             ]
           },
@@ -6416,15 +6596,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each number is a multiple of "
+                "value": "Her sayının "
               },
               {
                 "type": "math",
-                "value": "3\\text{:}"
+                "value": "3"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'ün katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -6436,7 +6616,7 @@
               },
               {
                 "type": "math",
-                "value": "3,742"
+                "value": "3.742"
               }
             ],
             "solution": []
@@ -6447,15 +6627,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether each number is a multiple of "
+                "value": "Her sayının "
               },
               {
                 "type": "math",
-                "value": "3\\text{:}"
+                "value": "3"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": "'ün katı olup olmadığını belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -6467,7 +6647,7 @@
               },
               {
                 "type": "math",
-                "value": "8,379"
+                "value": "8.379"
               }
             ],
             "solution": []
@@ -6476,32 +6656,20 @@
             "type": "paragraph",
             "text": [
               {
+                "type": "math",
+                "value": "2"
+              },
+              {
                 "type": "text",
-                "value": "Look back at the charts where you highlighted the multiples of "
+                "value": ", "
               },
               {
                 "type": "math",
-                "value": "2,"
+                "value": "5"
               },
               {
                 "type": "text",
-                "value": " of "
-              },
-              {
-                "type": "math",
-                "value": "5,"
-              },
-              {
-                "type": "text",
-                "value": " and of "
-              },
-              {
-                "type": "math",
-                "value": "10."
-              },
-              {
-                "type": "text",
-                "value": " Notice that the multiples of "
+                "value": " ve "
               },
               {
                 "type": "math",
@@ -6509,7 +6677,15 @@
               },
               {
                 "type": "text",
-                "value": " are the numbers that are multiples of both "
+                "value": " katları için oluşturduğunuz çizelgelere tekrar bakın. "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'un katları hem "
               },
               {
                 "type": "math",
@@ -6517,31 +6693,31 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": "'nin hem de "
               },
               {
                 "type": "math",
-                "value": "5."
+                "value": "5"
               },
               {
                 "type": "text",
-                "value": " That is because "
+                "value": "'in katı olan sayılardır; çünkü "
               },
               {
                 "type": "math",
-                "value": "10=2\\cdot5."
+                "value": "10=2\\cdot5"
               },
               {
                 "type": "text",
-                "value": " Likewise, since "
+                "value": "'tir. Benzer biçimde "
               },
               {
                 "type": "math",
-                "value": "6=2\\cdot3,"
+                "value": "6=2\\cdot3"
               },
               {
                 "type": "text",
-                "value": " the multiples of "
+                "value": " olduğundan, "
               },
               {
                 "type": "math",
@@ -6549,7 +6725,7 @@
               },
               {
                 "type": "text",
-                "value": " are the numbers that are multiples of both "
+                "value": "'nın katları hem "
               },
               {
                 "type": "math",
@@ -6557,11 +6733,15 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": "'nin hem de "
               },
               {
                 "type": "math",
-                "value": "3."
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün katı olan sayılardır."
               }
             ]
           }
@@ -6580,11 +6760,71 @@
             "text": [
               {
                 "type": "text",
-                "value": "Another way to say that "
+                "value": "Bir sayının "
               },
               {
                 "type": "math",
-                "value": "375Example 2.43 that 10,519 is not a multiple 3. When we divided 10,519 by 3 we did not get a counting number, so 10,519 is not divisible by 3."
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'e bölünebilir olduğunu söylemek, o sayının "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün katı olduğunu söylemenin başka bir yoludur. Örnek 2.43'te "
+              },
+              {
+                "type": "math",
+                "value": "10.519"
+              },
+              {
+                "type": "text",
+                "value": "'un "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün katı olmadığını gördük. "
+              },
+              {
+                "type": "math",
+                "value": "10.519"
+              },
+              {
+                "type": "text",
+                "value": "'u "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'e böldüğümüzde bir sayma sayısı elde etmediğimiz için "
+              },
+              {
+                "type": "math",
+                "value": "10.519"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'e bölünebilir değildir."
               }
             ]
           },
@@ -6593,38 +6833,55 @@
             "text": [
               {
                 "type": "text",
-                "value": "Since multiplication and division are inverse operations, the patterns of multiples that we found can be used as divisibility tests. Table 2.10 summarizes divisibility tests for some of the counting numbers between one and ten."
+                "value": "Çarpma ve bölme ters işlemler olduğundan, bulduğumuz kat örüntülerini bölünebilme testleri olarak kullanabiliriz. Tablo 2.10, "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": " arasındaki bazı sayma sayıları için bölünebilme testlerini özetler."
               }
             ]
           },
           {
             "type": "table",
             "columns": [
-              "Divisibility Tests"
+              "Bölünebilme Testleri"
             ],
             "rows": [
               [
-                "A number is divisible by"
+                "Bir sayı şu sayıya bölünebilir",
+                "Test"
               ],
               [
                 "2",
-                "if the last digit is 0, 2, 4, 6, \\text{veya} 8"
+                "Son basamak 0, 2, 4, 6 veya 8 ise"
               ],
               [
                 "3",
-                "if the sum of the digits is divisible by 3"
+                "Rakamlar toplamı 3'e bölünebiliyorsa"
               ],
               [
                 "5",
-                "if the last digit is 5 or 0"
+                "Son basamak 5 veya 0 ise"
               ],
               [
                 "6",
-                "if divisible by both 2 and 3"
+                "Hem 2'ye hem de 3'e bölünebiliyorsa"
               ],
               [
                 "10",
-                "if the last digit is 0"
+                "Son basamak 0 ise"
               ]
             ]
           },
@@ -6633,20 +6890,28 @@
             "label": "Örnek 2.44",
             "prompt": [
               {
-                "type": "text",
-                "value": "Determine whether "
-              },
-              {
                 "type": "math",
-                "value": "1,290"
+                "value": "1.290"
               },
               {
                 "type": "text",
-                "value": " is divisible by "
+                "value": " sayısının "
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{ve} 10."
+                "value": "2,3,5"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'a bölünüp bölünmediğini belirleyin."
               }
             ],
             "solution": [
@@ -6654,52 +6919,85 @@
                 "type": "paragraph",
                 "text": [
                   {
+                    "type": "math",
+                    "value": "1.290"
+                  },
+                  {
                     "type": "text",
-                    "value": "Table 2.11 applies the divisibility tests to "
+                    "value": "'ın son basamağı "
                   },
                   {
                     "type": "math",
-                    "value": "1,290."
+                    "value": "0"
                   },
                   {
                     "type": "text",
-                    "value": " In the far right column, we check the results of the divisibility tests by seeing if the quotient is a whole number."
+                    "value": " olduğu için "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'a bölünebilir. Rakamlar toplamı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1+2+9+0=12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "12"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'e bölünebildiği için "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1.290"
+                  },
+                  {
+                    "type": "text",
+                    "value": " aynı zamanda "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'e de bölünebilir."
                   }
-                ]
-              },
-              {
-                "type": "table",
-                "columns": [
-                  "Divisible by…?",
-                  "Test",
-                  "Divisible?",
-                  "Check"
-                ],
-                "rows": [
-                  [
-                    "2",
-                    "Is last digit 0, 2, 4, 6, \\text{veya} 8? Yes.",
-                    "yes",
-                    "1290\\div2=645"
-                  ],
-                  [
-                    "3",
-                    "\\text{Rakamlar toplamı bölünebilir mi} 3? 1+2+9+0=12 Yes.",
-                    "yes",
-                    "1290\\div3=430"
-                  ],
-                  [
-                    "5",
-                    "Is last digit 5 or 0? Yes.",
-                    "yes",
-                    "1290\\div5=258"
-                  ],
-                  [
-                    "10",
-                    "Is last digit 0? Yes.",
-                    "yes",
-                    "1290\\div10=129"
-                  ]
                 ]
               }
             ]
@@ -6709,19 +7007,31 @@
             "text": [
               {
                 "type": "text",
-                "value": "Thus, "
+                "value": "Böylece "
               },
               {
                 "type": "math",
-                "value": "1,290"
+                "value": "1.290"
               },
               {
                 "type": "text",
-                "value": " is divisible by "
+                "value": " sayısının "
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{ve} 10."
+                "value": "2,3,5"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'a bölünebildiğini görürüz."
               }
             ]
           },
@@ -6731,11 +7041,23 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether the given number is divisible by "
+                "value": "Verilen sayının "
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{ve} 10."
+                "value": "2,3,5"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'a bölünüp bölünmediğini belirleyin: "
               },
               {
                 "type": "math",
@@ -6750,11 +7072,23 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether the given number is divisible by "
+                "value": "Verilen sayının "
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{ve} 10."
+                "value": "2,3,5"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'a bölünüp bölünmediğini belirleyin: "
               },
               {
                 "type": "math",
@@ -6768,20 +7102,28 @@
             "label": "Örnek 2.45",
             "prompt": [
               {
-                "type": "text",
-                "value": "Determine whether "
-              },
-              {
                 "type": "math",
-                "value": "5,625"
+                "value": "5.625"
               },
               {
                 "type": "text",
-                "value": " is divisible by "
+                "value": " sayısının "
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{ve} 10."
+                "value": "2,3,5"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'a bölünüp bölünmediğini belirleyin."
               }
             ],
             "solution": [
@@ -6789,52 +7131,85 @@
                 "type": "paragraph",
                 "text": [
                   {
+                    "type": "math",
+                    "value": "5.625"
+                  },
+                  {
                     "type": "text",
-                    "value": "Table 2.12 applies the divisibility tests to "
+                    "value": "'in son basamağı "
                   },
                   {
                     "type": "math",
-                    "value": "5,625"
+                    "value": "5"
                   },
                   {
                     "type": "text",
-                    "value": " and tests the results by finding the quotients."
+                    "value": " olduğu için sayı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'e bölünebilir; ancak son basamak çift veya "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olmadığı için "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'a bölünemez. Rakamlar toplamı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5+6+2+5=18"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olduğundan ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "18"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'e bölünebildiğinden sayı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'e de bölünebilir."
                   }
-                ]
-              },
-              {
-                "type": "table",
-                "columns": [
-                  "Divisible by…?",
-                  "Test",
-                  "Divisible?",
-                  "Check"
-                ],
-                "rows": [
-                  [
-                    "2",
-                    "Is last digit 0, 2, 4, 6, \\text{veya} 8? No.",
-                    "no",
-                    "5625\\div2=2812.5"
-                  ],
-                  [
-                    "3",
-                    "\\text{Rakamlar toplamı bölünebilir mi} 3? 5+6+2+5=18 Yes.",
-                    "yes",
-                    "5625\\div3=1875"
-                  ],
-                  [
-                    "5",
-                    "Is last digit is 5 or 0? Yes.",
-                    "yes",
-                    "5625\\div5=1125"
-                  ],
-                  [
-                    "10",
-                    "Is last digit 0? No.",
-                    "no",
-                    "5625\\div10=562.5"
-                  ]
                 ]
               }
             ]
@@ -6844,15 +7219,15 @@
             "text": [
               {
                 "type": "text",
-                "value": "Thus, "
+                "value": "Dolayısıyla "
               },
               {
                 "type": "math",
-                "value": "5,625"
+                "value": "5.625"
               },
               {
                 "type": "text",
-                "value": " is divisible by "
+                "value": " sayısı "
               },
               {
                 "type": "math",
@@ -6860,27 +7235,31 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ve "
               },
               {
                 "type": "math",
-                "value": "5,"
+                "value": "5"
               },
               {
                 "type": "text",
-                "value": " but not "
+                "value": "'e bölünebilir; "
               },
               {
                 "type": "math",
-                "value": "2,"
+                "value": "2"
               },
               {
                 "type": "text",
-                "value": " or "
+                "value": " veya "
               },
               {
                 "type": "math",
-                "value": "10."
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'a bölünemez."
               }
             ]
           },
@@ -6890,11 +7269,23 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether the given number is divisible "
+                "value": "Verilen sayının "
               },
               {
                 "type": "math",
-                "value": "\\text{ile} 2,3,5,\\text{ve} 10."
+                "value": "2,3,5"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'a bölünüp bölünmediğini belirleyin: "
               },
               {
                 "type": "math",
@@ -6909,11 +7300,23 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Determine whether the given number is divisible "
+                "value": "Verilen sayının "
               },
               {
                 "type": "math",
-                "value": "\\text{ile} 2,3,5,\\text{ve} 10."
+                "value": "2,3,5"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'a bölünüp bölünmediğini belirleyin: "
               },
               {
                 "type": "math",
@@ -6937,7 +7340,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "There are often several ways to talk about the same idea. So far, we’ve seen that if "
+                "value": "Aynı fikri anlatmanın çoğu zaman birkaç yolu vardır. Eğer "
               },
               {
                 "type": "math",
@@ -6945,15 +7348,15 @@
               },
               {
                 "type": "text",
-                "value": " is a multiple of "
+                "value": ", "
               },
               {
                 "type": "math",
-                "value": "n,"
+                "value": "n"
               },
               {
                 "type": "text",
-                "value": " we can say that "
+                "value": "'nin katıysa, "
               },
               {
                 "type": "math",
@@ -6961,119 +7364,15 @@
               },
               {
                 "type": "text",
-                "value": " is divisible by "
+                "value": "'nin "
               },
               {
                 "type": "math",
-                "value": "n."
+                "value": "n"
               },
               {
                 "type": "text",
-                "value": " We know that "
-              },
-              {
-                "type": "math",
-                "value": "72"
-              },
-              {
-                "type": "text",
-                "value": " is the product of "
-              },
-              {
-                "type": "math",
-                "value": "8"
-              },
-              {
-                "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "math",
-                "value": "9,"
-              },
-              {
-                "type": "text",
-                "value": " so we can say "
-              },
-              {
-                "type": "math",
-                "value": "72"
-              },
-              {
-                "type": "text",
-                "value": " is a multiple of "
-              },
-              {
-                "type": "math",
-                "value": "8"
-              },
-              {
-                "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "math",
-                "value": "72"
-              },
-              {
-                "type": "text",
-                "value": " is a multiple of "
-              },
-              {
-                "type": "math",
-                "value": "9."
-              },
-              {
-                "type": "text",
-                "value": " We can also say "
-              },
-              {
-                "type": "math",
-                "value": "72"
-              },
-              {
-                "type": "text",
-                "value": " is divisible by "
-              },
-              {
-                "type": "math",
-                "value": "8"
-              },
-              {
-                "type": "text",
-                "value": " and by "
-              },
-              {
-                "type": "math",
-                "value": "9."
-              },
-              {
-                "type": "text",
-                "value": " Another way to talk about this is to say that "
-              },
-              {
-                "type": "math",
-                "value": "8"
-              },
-              {
-                "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "math",
-                "value": "9"
-              },
-              {
-                "type": "text",
-                "value": " are factors of "
-              },
-              {
-                "type": "math",
-                "value": "72."
-              },
-              {
-                "type": "text",
-                "value": " When we write "
+                "value": "'ye bölünebilir olduğunu da söyleyebiliriz. "
               },
               {
                 "type": "math",
@@ -7081,11 +7380,55 @@
               },
               {
                 "type": "text",
-                "value": " we can say that we have factored "
+                "value": " olduğundan "
               },
               {
                 "type": "math",
-                "value": "72."
+                "value": "72"
+              },
+              {
+                "type": "text",
+                "value": ", hem "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": "'in hem de "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": "'un katıdır; aynı zamanda "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "72"
+              },
+              {
+                "type": "text",
+                "value": "'nin çarpanlarıdır."
               }
             ]
           },
@@ -7094,7 +7437,39 @@
             "text": [
               {
                 "type": "text",
-                "value": "The image shows the equation 8 times 9 equals 72. The 8 and 9 are labeled as factors and the 72 is labeled product."
+                "value": "Diyagramda "
+              },
+              {
+                "type": "math",
+                "value": "8\\cdot9=72"
+              },
+              {
+                "type": "text",
+                "value": " eşitliği gösterilir. "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": " çarpan, "
+              },
+              {
+                "type": "math",
+                "value": "72"
+              },
+              {
+                "type": "text",
+                "value": " ise çarpım olarak etiketlenir."
               }
             ]
           },
@@ -7103,7 +7478,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "In algebra, it can be useful to determine all of the factors of a number. This is called factoring a number, and it can help us solve many kinds of problems."
+                "value": "Cebirde bir sayının tüm çarpanlarını belirlemek yararlıdır. Buna sayıyı çarpanlarına ayırmak denir ve birçok problem türünü çözmemize yardımcı olur."
               }
             ]
           },
@@ -7112,7 +7487,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "For example, suppose a choreographer is planning a dance for a ballet recital. There are "
+                "value": "Örneğin bir koreografın bale gösterisi için bir dans hazırladığını düşünelim. "
               },
               {
                 "type": "math",
@@ -7120,7 +7495,7 @@
               },
               {
                 "type": "text",
-                "value": " dancers, and for a certain scene, the choreographer wants to arrange the dancers in groups of equal sizes on stage."
+                "value": " dansçı vardır ve koreograf belirli bir sahnede dansçıları eşit büyüklükte gruplar halinde yerleştirmek ister."
               }
             ]
           },
@@ -7129,24 +7504,24 @@
             "text": [
               {
                 "type": "text",
-                "value": "In how many ways can the dancers be put into groups of equal size? Answering this question is the same as identifying the factors of "
+                "value": "Dansçılar eşit büyüklükte kaç farklı şekilde gruplandırılabilir? Bu soruyu yanıtlamak, "
               },
               {
                 "type": "math",
-                "value": "24."
+                "value": "24"
               },
               {
                 "type": "text",
-                "value": " Table 2.13 summarizes the different ways that the choreographer can arrange the dancers."
+                "value": "'ün çarpanlarını belirlemekle aynıdır. Tablo 2.13, koreografın dansçıları düzenleyebileceği farklı yolları özetler."
               }
             ]
           },
           {
             "type": "table",
             "columns": [
-              "Number of Groups",
-              "Dancers per Group",
-              "Total Dancers"
+              "Grup Sayısı",
+              "Gruptaki Dansçı Sayısı",
+              "Toplam Dansçı"
             ],
             "rows": [
               [
@@ -7196,15 +7571,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "What patterns do you see in Table 2.13? Did you notice that the number of groups times the number of dancers per group is always "
-              },
-              {
-                "type": "math",
-                "value": "24?"
-              },
-              {
-                "type": "text",
-                "value": " This makes sense, since there are always "
+                "value": "Tablo 2.13'te hangi örüntüleri görüyorsunuz? Grup sayısı ile gruptaki dansçı sayısının çarpımının her zaman "
               },
               {
                 "type": "math",
@@ -7212,7 +7579,15 @@
               },
               {
                 "type": "text",
-                "value": " dancers."
+                "value": " olduğuna dikkat ettiniz mi? Bu doğaldır, çünkü toplamda her zaman "
+              },
+              {
+                "type": "math",
+                "value": "24"
+              },
+              {
+                "type": "text",
+                "value": " dansçı vardır."
               }
             ]
           },
@@ -7221,15 +7596,15 @@
             "text": [
               {
                 "type": "text",
-                "value": "You may notice another pattern if you look carefully at the first two columns. These two columns contain the exact same set of numbers—but in reverse order. They are mirrors of one another, and in fact, both columns list all of the factors of "
+                "value": "İlk iki sütuna dikkatle bakarsanız başka bir örüntü görürsünüz. Bu sütunlar aynı sayı kümesini ters sırada içerir. Birbirinin aynası gibidirler ve ikisi birlikte "
               },
               {
                 "type": "math",
-                "value": "24,"
+                "value": "24"
               },
               {
                 "type": "text",
-                "value": " which are:"
+                "value": "'ün tüm çarpanlarını listeler:"
               }
             ]
           },
@@ -7247,15 +7622,15 @@
             "text": [
               {
                 "type": "text",
-                "value": "We can find all the factors of any counting number by systematically dividing the number by each counting number, starting with "
+                "value": "Herhangi bir sayma sayısının tüm çarpanlarını bulmak için sayıyı sistemli olarak "
               },
               {
                 "type": "math",
-                "value": "1."
+                "value": "1"
               },
               {
                 "type": "text",
-                "value": " If the quotient is also a counting number, then the divisor and the quotient are factors of the number. We can stop when the quotient becomes smaller than the divisor."
+                "value": "'den başlayarak sayma sayılarına böleriz. Bölüm de bir sayma sayısıysa, bölen ve bölüm o sayının çarpan çiftidir. Bölüm bölen sayıdan küçük olduğunda durabiliriz; sonrasında aynı çarpan çiftleri ters sırada tekrar eder."
               }
             ]
           },
@@ -7264,12 +7639,12 @@
             "label": "Örnek 2.46",
             "prompt": [
               {
-                "type": "text",
-                "value": "Find all the factors of "
+                "type": "math",
+                "value": "72"
               },
               {
-                "type": "math",
-                "value": "72."
+                "type": "text",
+                "value": "'nin tüm çarpanlarını bulun."
               }
             ],
             "solution": [
@@ -7277,24 +7652,20 @@
                 "type": "paragraph",
                 "text": [
                   {
-                    "type": "text",
-                    "value": "Divide "
-                  },
-                  {
                     "type": "math",
                     "value": "72"
                   },
                   {
                     "type": "text",
-                    "value": " by each of the counting numbers starting with "
+                    "value": "'yi "
                   },
                   {
                     "type": "math",
-                    "value": "1."
+                    "value": "1"
                   },
                   {
                     "type": "text",
-                    "value": " If the quotient is a whole number, the divisor and quotient are a pair of factors."
+                    "value": "'den başlayarak sayma sayılarına böleriz. Bölüm bir tam sayı olduğunda bölen ve bölüm bir çarpan çiftidir."
                   }
                 ]
               },
@@ -7303,32 +7674,15 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "The next line would have a divisor of "
+                    "value": "Çarpanları küçükten büyüğe sıralarsak şunları elde ederiz: "
                   },
                   {
                     "type": "math",
-                    "value": "9"
+                    "value": "1,2,3,4,6,8,9,12,18,24,36,\\text{ ve }72"
                   },
                   {
                     "type": "text",
-                    "value": " and a quotient of "
-                  },
-                  {
-                    "type": "math",
-                    "value": "8."
-                  },
-                  {
-                    "type": "text",
-                    "value": " The quotient would be smaller than the divisor, so we stop. If we continued, we would end up only listing the same factors again in reverse order. Listing all the factors from smallest to greatest, we have"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "math",
-                    "value": "1,2,3,4,6,8,9,12,18,24,36,\\text{ve} 72"
+                    "value": "."
                   }
                 ]
               }
@@ -7340,7 +7694,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Find all the factors of the given number: "
+                "value": "Verilen sayının tüm çarpanlarını bulun: "
               },
               {
                 "type": "math",
@@ -7355,7 +7709,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Find all the factors of the given number: "
+                "value": "Verilen sayının tüm çarpanlarını bulun: "
               },
               {
                 "type": "math",
@@ -7379,31 +7733,23 @@
             "text": [
               {
                 "type": "text",
-                "value": "Some numbers, like "
+                "value": "Bazı sayıların, örneğin "
               },
               {
                 "type": "math",
-                "value": "72,"
+                "value": "72"
               },
               {
                 "type": "text",
-                "value": " have many factors. Other numbers, such as "
+                "value": "'nin, birçok çarpanı vardır. "
               },
               {
                 "type": "math",
-                "value": "7,"
+                "value": "7"
               },
               {
                 "type": "text",
-                "value": " have only two factors: "
-              },
-              {
-                "type": "math",
-                "value": "1"
-              },
-              {
-                "type": "text",
-                "value": " and the number. A number with only two factors is called a prime number. A number with more than two factors is called a composite number. The number "
+                "value": " gibi bazı sayıların ise yalnızca iki çarpanı vardır: "
               },
               {
                 "type": "math",
@@ -7411,7 +7757,15 @@
               },
               {
                 "type": "text",
-                "value": " is neither prime nor composite. It has only one factor, itself."
+                "value": " ve sayının kendisi. Yalnızca iki çarpanı olan sayıya asal sayı denir. İkiden fazla çarpanı olan sayıya bileşik sayı denir. "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " ne asal ne de bileşik sayıdır."
               }
             ]
           },
@@ -7420,7 +7774,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Figure 2.10 lists the counting numbers from "
+                "value": "Şekil 2.10, "
               },
               {
                 "type": "math",
@@ -7428,7 +7782,7 @@
               },
               {
                 "type": "text",
-                "value": " through "
+                "value": "'den "
               },
               {
                 "type": "math",
@@ -7436,7 +7790,7 @@
               },
               {
                 "type": "text",
-                "value": " along with their factors. The highlighted numbers are prime, since each has only two factors."
+                "value": "'ye kadar sayma sayılarını çarpanlarıyla birlikte listeler. Vurgulanan sayılar asaldır; çünkü her birinin yalnızca iki çarpanı vardır."
               }
             ]
           },
@@ -7446,7 +7800,7 @@
             "caption": [
               {
                 "type": "text",
-                "value": "Figure 2.10 Factors of the counting numbers from "
+                "value": "Şekil 2.10 "
               },
               {
                 "type": "math",
@@ -7454,24 +7808,7 @@
               },
               {
                 "type": "text",
-                "value": " through "
-              },
-              {
-                "type": "math",
-                "value": "20,"
-              },
-              {
-                "type": "text",
-                "value": " with prime numbers highlighted"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "The prime numbers less than "
+                "value": "'den "
               },
               {
                 "type": "math",
@@ -7479,15 +7816,36 @@
               },
               {
                 "type": "text",
-                "value": " are "
-              },
+                "value": "'ye kadar sayma sayılarının çarpanları; asal sayılar vurgulanmıştır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
               {
                 "type": "math",
-                "value": "2,3,5,7,11,13,17,\\text{ve} 19."
+                "value": "20"
               },
               {
                 "type": "text",
-                "value": " There are many larger prime numbers too. In order to determine whether a number is prime or composite, we need to see if the number has any factors other than "
+                "value": "'den küçük asal sayılar "
+              },
+              {
+                "type": "math",
+                "value": "2,3,5,7,11,13,17"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "19"
+              },
+              {
+                "type": "text",
+                "value": "'dur. Daha büyük birçok asal sayı da vardır. Bir sayının asal mı bileşik mi olduğunu belirlemek için "
               },
               {
                 "type": "math",
@@ -7495,7 +7853,7 @@
               },
               {
                 "type": "text",
-                "value": " and itself. To do this, we can test each of the smaller prime numbers in order to see if it is a factor of the number. If none of the prime numbers are factors, then that number is also prime."
+                "value": " ve kendisi dışında çarpanı olup olmadığını kontrol ederiz. Bunun için küçük asal sayıları sırayla deneyebiliriz."
               }
             ]
           },
@@ -7505,7 +7863,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Identify each number as prime or composite:  ⓐ "
+                "value": "Her sayının asal mı bileşik mi olduğunu belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -7526,7 +7884,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓐ Test each prime, in order, to see if it is a factor of "
+                    "value": "ⓐ "
                   },
                   {
                     "type": "math",
@@ -7534,76 +7892,73 @@
                   },
                   {
                     "type": "text",
-                    "value": ", starting with "
+                    "value": " sayısı "
                   },
                   {
                     "type": "math",
-                    "value": "2,"
+                    "value": "2,3,5,7"
                   },
                   {
                     "type": "text",
-                    "value": " as shown. We will stop when the quotient is smaller than the divisor."
+                    "value": " veya "
+                  },
+                  {
+                    "type": "math",
+                    "value": "11"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile bölünmez. Bu nedenle yalnızca "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "83"
+                  },
+                  {
+                    "type": "text",
+                    "value": " çarpanlarına sahiptir; asal sayıdır."
                   }
                 ]
               },
               {
-                "type": "table",
-                "columns": [
-                  "Prime",
-                  "Test",
-                  "Factor of 83?"
-                ],
-                "rows": [
-                  [
-                    "2",
-                    "Last digit of 83 is not 0,2,4,6,\\text{veya} 8.",
-                    "No."
-                  ],
-                  [
-                    "3",
-                    "8+3=11, and 11 is not divisible by 3.",
-                    "No."
-                  ],
-                  [
-                    "5",
-                    "The last digit of 83 is not 5 or 0.",
-                    "No."
-                  ],
-                  [
-                    "7",
-                    "83\\div7=11.857\\text{….}",
-                    "No."
-                  ],
-                  [
-                    "11",
-                    "83\\div11=7.545\\text{…}",
-                    "No."
-                  ],
-                  [
-                    "Prime",
-                    "Test",
-                    "Factor of 77?"
-                  ],
-                  [
-                    "2",
-                    "Last digit is not 0,2,4,6,\\text{veya} 8.",
-                    "No."
-                  ],
-                  [
-                    "3",
-                    "7+7=14, and 14 is not divisible by 3.",
-                    "No."
-                  ],
-                  [
-                    "5",
-                    "the last digit is not 5 or 0.",
-                    "No."
-                  ],
-                  [
-                    "7",
-                    "77\\div7=11",
-                    "Yes."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "77=7\\cdot11"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olduğundan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "77"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve kendisi dışında çarpanları vardır; bileşik sayıdır."
+                  }
                 ]
               }
             ]
@@ -7612,24 +7967,20 @@
             "type": "paragraph",
             "text": [
               {
-                "type": "text",
-                "value": "Since "
-              },
-              {
                 "type": "math",
                 "value": "77"
               },
               {
                 "type": "text",
-                "value": " is divisible by "
+                "value": ", "
               },
               {
                 "type": "math",
-                "value": "7,"
+                "value": "7"
               },
               {
                 "type": "text",
-                "value": " we know it is not a prime number. It is composite."
+                "value": "'ye bölünebildiği için asal sayı değildir. Bileşik sayıdır."
               }
             ]
           },
@@ -7639,7 +7990,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Identify the number as prime or composite: "
+                "value": "Sayının asal mı bileşik mi olduğunu belirleyin: "
               },
               {
                 "type": "math",
@@ -7654,7 +8005,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Identify the number as prime or composite: "
+                "value": "Sayının asal mı bileşik mi olduğunu belirleyin: "
               },
               {
                 "type": "math",
