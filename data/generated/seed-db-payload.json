@@ -2920,33 +2920,6 @@
               }
             ],
             "solution": []
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Identify Terms, Coefficients, and Like Terms"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Simplify Expressions by Combining Like Terms"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Translate English Phrases into Algebraic Expressions"
-              }
-            ]
           }
         ]
       },
@@ -4728,51 +4701,6 @@
               }
             ],
             "solution": []
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Model the Subtraction Property of Equality"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Solve Equations using the Subtraction Property of Equality"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Solve Equations using the Addition Property of Equality"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Translate Word Phrase to Algebraic Equations"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Translate to an Equation and Solve"
-              }
-            ]
           }
         ]
       },
@@ -7338,33 +7266,6 @@
               }
             ],
             "solution": []
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Use Common Divisibility Tests"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Find All the Factors of a Number"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              {
-                "type": "text",
-                "value": "Identify Prime and Composite Numbers"
-              }
-            ]
           }
         ]
       }

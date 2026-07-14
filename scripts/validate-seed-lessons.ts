@@ -192,6 +192,7 @@ function assertBlocks(
     if (block.type === "paragraph") {
       assertInlineContent(block.text, `paragraph in ${context}`);
       assertNoSourceExerciseInstruction(block.text, `paragraph in ${context}`);
+      assertNoSourceExerciseChrome(block.text, `paragraph in ${context}`);
       continue;
     }
 
@@ -203,6 +204,7 @@ function assertBlocks(
           item,
           `list item ${index + 1} in ${context}`,
         );
+        assertNoSourceExerciseChrome(item, `list item ${index + 1} in ${context}`);
       });
       continue;
     }
@@ -253,14 +255,34 @@ function assertNoSourceExerciseInstruction(
   items: InlineContent[],
   context: string,
 ) {
+  const text = inlineText(items);
+
+  if (/^In the following exercises\b/i.test(text)) {
+    throw new Error(`Source exercise instruction leaked into ${context}.`);
+  }
+}
+
+function assertNoSourceExerciseChrome(items: InlineContent[], context: string) {
+  const text = inlineText(items);
+
+  if (isSourceExerciseChrome(text)) {
+    throw new Error(`Source exercise chrome leaked into ${context}.`);
+  }
+}
+
+function inlineText(items: InlineContent[]) {
   const text = items
     .filter((item) => item.type === "text")
     .map((item) => item.value)
     .join(" ");
 
-  if (/^In the following exercises\b/i.test(text.trim())) {
-    throw new Error(`Source exercise instruction leaked into ${context}.`);
-  }
+  return text.trim();
+}
+
+function isSourceExerciseChrome(text: string) {
+  return /^(?:In the following exercises|Identify Terms|Simplify Expressions|Translate English|Model the Subtraction|Solve Equations using|Translate Word|Translate to an Equation|Use Common Divisibility Tests|Find All the Factors|Identify Prime and Composite)\b/i.test(
+    text,
+  );
 }
 
 function assertMetrics(entry: SeedFixtureLesson) {

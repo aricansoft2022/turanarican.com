@@ -182,7 +182,7 @@
       "metrics": {
         "objectives": 4,
         "sections": 4,
-        "blocks": 82,
+        "blocks": 79,
         "examples": 15,
         "tryIts": 30,
         "exercises": 4,
@@ -3031,33 +3031,6 @@
                   }
                 ],
                 "solution": []
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Identify Terms, Coefficients, and Like Terms"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Simplify Expressions by Combining Like Terms"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Translate English Phrases into Algebraic Expressions"
-                  }
-                ]
               }
             ]
           }
@@ -3469,7 +3442,7 @@
       "metrics": {
         "objectives": 6,
         "sections": 6,
-        "blocks": 72,
+        "blocks": 67,
         "examples": 11,
         "tryIts": 24,
         "exercises": 6,
@@ -5270,51 +5243,6 @@
                   }
                 ],
                 "solution": []
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Model the Subtraction Property of Equality"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Solve Equations using the Subtraction Property of Equality"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Solve Equations using the Addition Property of Equality"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Translate Word Phrase to Algebraic Equations"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Translate to an Equation and Solve"
-                  }
-                ]
               }
             ]
           }
@@ -5791,7 +5719,7 @@
       "metrics": {
         "objectives": 4,
         "sections": 4,
-        "blocks": 70,
+        "blocks": 67,
         "examples": 8,
         "tryIts": 16,
         "exercises": 4,
@@ -8378,33 +8306,6 @@
                   }
                 ],
                 "solution": []
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Use Common Divisibility Tests"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Find All the Factors of a Number"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Identify Prime and Composite Numbers"
-                  }
-                ]
               }
             ]
           }
