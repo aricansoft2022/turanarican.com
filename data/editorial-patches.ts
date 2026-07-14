@@ -7008,6 +7008,505 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "3.4",
+    sections: [
+      {
+        sectionSlug: "tam-sayilarla-cikarmayi-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(30),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Tam sayılarla çıkarma yaparken sayaç modelini kullanmaya devam ederiz. Pozitif sayaç +1'i, negatif sayaç -1'i temsil eder.",
+              ),
+              pt(
+                "Çıkarma işlemini “verilen sayaçları ortamdan alma” olarak düşünebiliriz. Almak istediğimiz renkten sayaç yoksa, değeri değiştirmeyen nötr çiftler ekleriz.",
+              ),
+              ex(
+                "Örnek 3.30",
+                [t("Modelleyin: "), m("5-3"), t(".")],
+                sol("Çözüm: 5 pozitif sayaçla başlarız ve 3 pozitif sayacı çıkarırız. Geriye 2 pozitif sayaç kalır; bu nedenle 5-3=2."),
+              ),
+              ex("Sıra Sizde 3.59", [t("Modelleyin: "), m("6-4")]),
+              ex("Sıra Sizde 3.60", [t("Modelleyin: "), m("7-4")]),
+              ex(
+                "Örnek 3.31",
+                [t("Modelleyin: "), m("-5-(-3)"), t(".")],
+                sol("Çözüm: 5 negatif sayaçla başlarız ve 3 negatif sayacı çıkarırız. Geriye 2 negatif sayaç kalır; sonuç -2'dir."),
+              ),
+              ex("Sıra Sizde 3.61", [t("Modelleyin: "), m("-6-(-4)")]),
+              ex("Sıra Sizde 3.62", [t("Modelleyin: "), m("-7-(-4)")]),
+              pt(
+                "Aynı tür sayaçlar çıkarıldığında model doğrudandır. Farklı türden sayaç çıkarmak gerektiğinde nötr çiftler eklemek işimizi kolaylaştırır.",
+              ),
+              ex(
+                "Örnek 3.32",
+                [t("Modelleyin: "), m("-5-3"), t(".")],
+                sol("Çözüm: -5 ile başlarız. 3 pozitif sayaç çıkarmak için 3 nötr çift ekleriz. 3 pozitif sayacı kaldırınca geriye 8 negatif sayaç kalır; -5-3=-8."),
+              ),
+              ex("Sıra Sizde 3.63", [t("Modelleyin: "), m("-6-4")]),
+              ex("Sıra Sizde 3.64", [t("Modelleyin: "), m("-7-4")]),
+              ex(
+                "Örnek 3.33",
+                [t("Modelleyin: "), m("5-(-3)"), t(".")],
+                sol("Çözüm: 5 pozitif sayaçla başlarız. 3 negatif sayaç çıkarabilmek için 3 nötr çift ekleriz. 3 negatif sayacı kaldırınca 8 pozitif sayaç kalır; 5-(-3)=8."),
+              ),
+              ex("Sıra Sizde 3.65", [t("Modelleyin: "), m("6-(-4)")]),
+              ex("Sıra Sizde 3.66", [t("Modelleyin: "), m("7-(-4)")]),
+              pt(
+                "Bu modeller bizi önemli kurala götürür: Bir tam sayıyı çıkarmak, o tam sayının zıttını eklemekle aynı sonucu verir.",
+              ),
+              ex(
+                "Örnek 3.34",
+                [
+                  t("Her çıkarmayı modelleyin: ⓐ "),
+                  m("8-2"),
+                  t(" ⓑ "),
+                  m("-5-4"),
+                  t(" ⓒ "),
+                  m("6-(-6)"),
+                  t(" ⓓ "),
+                  m("-8-(-3)"),
+                ],
+                sol("Çözüm: ⓐ 8-2=6. ⓑ -5-4=-9. ⓒ 6-(-6)=12. ⓓ -8-(-3)=-5."),
+              ),
+              ex(
+                "Sıra Sizde 3.67",
+                [
+                  t("Her çıkarmayı modelleyin: ⓐ "),
+                  m("7-(-8)"),
+                  t(" ⓑ "),
+                  m("-7-(-2)"),
+                  t(" ⓒ "),
+                  m("4-1"),
+                  t(" ⓓ "),
+                  m("-6-8"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.68",
+                [
+                  t("Her çıkarmayı modelleyin: ⓐ "),
+                  m("4-(-6)"),
+                  t(" ⓑ "),
+                  m("-8-(-1)"),
+                  t(" ⓒ "),
+                  m("7-3"),
+                  t(" ⓓ "),
+                  m("-4-2"),
+                ],
+              ),
+              ex(
+                "Örnek 3.35",
+                [
+                  t("Her çıkarma ifadesini modelleyin: ⓐ "),
+                  m("2-8"),
+                  t(" ⓑ "),
+                  m("-3-(-8)"),
+                ],
+                sol("Çözüm: ⓐ 2'den 8 çıkarmak için 6 nötr çift gerekir; sonuç -6'dır. ⓑ -3'ten -8 çıkarmak için 5 nötr çift gerekir; 8 negatif çıkarılınca 5 pozitif kalır."),
+              ),
+              ex(
+                "Sıra Sizde 3.69",
+                [t("Her çıkarma ifadesini modelleyin: ⓐ "), m("7-9"), t(" ⓑ "), m("-5-(-9)")],
+              ),
+              ex(
+                "Sıra Sizde 3.70",
+                [t("Her çıkarma ifadesini modelleyin: ⓐ "), m("4-7"), t(" ⓑ "), m("-7-(-10)")],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilarla-cikarma-islemi",
+        replaceBlocks: [
+          ...removeBlocks(28),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sayaç modeliyle gördüğümüz kuralı artık doğrudan kullanabiliriz: Bir sayıyı çıkarmak, o sayının zıttını eklemektir.",
+              ),
+              p([m("a-b=a+(-b)"), t(" kuralı her tam sayı için geçerlidir.")]),
+              pt(
+                "Örneğin 6-4 ile 6+(-4) aynı sonucu verir. Benzer biçimde 8-(-5), 8+5 ile aynı anlama gelir.",
+              ),
+              ex(
+                "Örnek 3.36",
+                [
+                  t("Sadeleştirin: ⓐ "),
+                  m("13-8"),
+                  t(" ve "),
+                  m("13+(-8)"),
+                  t(" ⓑ "),
+                  m("-17-9"),
+                  t(" ve "),
+                  m("-17+(-9)"),
+                ],
+                sol("Çözüm: ⓐ 13-8=5 ve 13+(-8)=5. ⓑ -17-9=-26 ve -17+(-9)=-26. Çıkarma, zıttını ekleme ile aynı sonucu verir."),
+              ),
+              ex(
+                "Sıra Sizde 3.71",
+                [
+                  t("Her ifadeyi sadeleştirin: ⓐ "),
+                  m("21-13"),
+                  t(" ve "),
+                  m("21+(-13)"),
+                  t(" ⓑ "),
+                  m("-11-7"),
+                  t(" ve "),
+                  m("-11+(-7)"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.72",
+                [
+                  t("Her ifadeyi sadeleştirin: ⓐ "),
+                  m("15-7"),
+                  t(" ve "),
+                  m("15+(-7)"),
+                  t(" ⓑ "),
+                  m("-14-8"),
+                  t(" ve "),
+                  m("-14+(-8)"),
+                ],
+              ),
+              ex(
+                "Örnek 3.37",
+                [
+                  t("Sadeleştirin: ⓐ "),
+                  m("9-(-15)"),
+                  t(" ve "),
+                  m("9+15"),
+                  t(" ⓑ "),
+                  m("-7-(-4)"),
+                  t(" ve "),
+                  m("-7+4"),
+                ],
+                sol("Çözüm: ⓐ 9-(-15)=24 ve 9+15=24. ⓑ -7-(-4)=-3 ve -7+4=-3."),
+              ),
+              ex(
+                "Sıra Sizde 3.73",
+                [
+                  t("Her ifadeyi sadeleştirin: ⓐ "),
+                  m("6-(-13)"),
+                  t(" ve "),
+                  m("6+13"),
+                  t(" ⓑ "),
+                  m("-5-(-1)"),
+                  t(" ve "),
+                  m("-5+1"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.74",
+                [
+                  t("Her ifadeyi sadeleştirin: ⓐ "),
+                  m("4-(-19)"),
+                  t(" ve "),
+                  m("4+19"),
+                  t(" ⓑ "),
+                  m("-4-(-7)"),
+                  t(" ve "),
+                  m("-4+7"),
+                ],
+              ),
+              ex(
+                "Örnek 3.38",
+                [t("Sadeleştirin: "), m("-74-(-58)"), t(".")],
+                sol("Çözüm: -58'i çıkarmak 58 eklemek demektir. -74+58=-16 olur."),
+              ),
+              ex("Sıra Sizde 3.75", [t("Sadeleştirin: "), m("-67-(-38)")]),
+              ex("Sıra Sizde 3.76", [t("Sadeleştirin: "), m("-83-(-57)")]),
+              pt(
+                "Daha uzun ifadelerde işlem önceliği değişmez: önce parantez, sonra üs ve çarpma işlemleri, en son toplama ve çıkarma yapılır.",
+              ),
+              ex(
+                "Örnek 3.39",
+                [t("Sadeleştirin: "), m("7-(-4-3)-9"), t(".")],
+                sol("Çözüm: Önce parantez içi: -4-3=-7. Sonra 7-(-7)-9=7+7-9=5 olur."),
+              ),
+              ex("Sıra Sizde 3.77", [t("Sadeleştirin: "), m("8-(-3-1)-9")]),
+              ex("Sıra Sizde 3.78", [t("Sadeleştirin: "), m("12-(-9-6)-14")]),
+              ex(
+                "Örnek 3.40",
+                [t("Sadeleştirin: "), m("3\\cdot7-4\\cdot7-5\\cdot8"), t(".")],
+                sol("Çözüm: Önce çarpmalar yapılır: 21-28-40. Sonra soldan sağa ilerleriz: 21-28=-7 ve -7-40=-47."),
+              ),
+              ex("Sıra Sizde 3.79", [t("Sadeleştirin: "), m("6\\cdot2-9\\cdot1-8\\cdot9")]),
+              ex("Sıra Sizde 3.80", [t("Sadeleştirin: "), m("2\\cdot5-3\\cdot7-4\\cdot9")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "degiskenli-ifadeleri-degerlendirme",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Değişkenli ifadeleri değerlendirirken değişken yerine verilen değeri yazar, sonra tam sayılarla işlem kurallarını uygularız.",
+              ),
+              ex(
+                "Örnek 3.41",
+                [
+                  m("x-4"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("x=3"),
+                  t(" iken ⓑ "),
+                  m("x=-6"),
+                  t(" iken."),
+                ],
+                sol("Çözüm: ⓐ x=3 yazılırsa 3-4=-1. ⓑ x=-6 yazılırsa -6-4=-10 olur."),
+              ),
+              ex(
+                "Sıra Sizde 3.81",
+                [
+                  m("y-7"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("y=5"),
+                  t(" iken ⓑ "),
+                  m("y=-8"),
+                  t(" iken."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.82",
+                [
+                  m("m-3"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("m=1"),
+                  t(" iken ⓑ "),
+                  m("m=-4"),
+                  t(" iken."),
+                ],
+              ),
+              ex(
+                "Örnek 3.42",
+                [
+                  m("20-z"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("z=12"),
+                  t(" iken ⓑ "),
+                  m("z=-12"),
+                  t(" iken."),
+                ],
+                sol("Çözüm: ⓐ z=12 yazılırsa 20-12=8. ⓑ z=-12 yazılırsa 20-(-12)=32 olur."),
+              ),
+              ex(
+                "Sıra Sizde 3.83",
+                [
+                  m("17-k"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("k=19"),
+                  t(" iken ⓑ "),
+                  m("k=-19"),
+                  t(" iken."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.84",
+                [
+                  m("-5-b"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("b=14"),
+                  t(" iken ⓑ "),
+                  m("b=-14"),
+                  t(" iken."),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+        replaceBlocks: [
+          ...removeBlocks(6),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Fark, eksik, çıkarmak ve çıkarılmış gibi ifadeler çıkarma işlemini anlatır. Sıralamaya dikkat ederiz; “a ile b'nin farkı” ifadesi a-b şeklinde yazılır.",
+              ),
+              ex(
+                "Örnek 3.43",
+                [
+                  t("Çevirin ve sadeleştirin: ⓐ "),
+                  m("13"),
+                  t(" ile "),
+                  m("-21"),
+                  t("'in farkı ⓑ "),
+                  m("-19"),
+                  t("'dan "),
+                  m("24"),
+                  t(" çıkarın."),
+                ],
+                sol("Çözüm: ⓐ 13-(-21)=34. ⓑ -19'dan 24 çıkarmak -19-24=-43 demektir."),
+              ),
+              ex(
+                "Sıra Sizde 3.85",
+                [
+                  t("Çevirin ve sadeleştirin: ⓐ "),
+                  m("14"),
+                  t(" ile "),
+                  m("-23"),
+                  t("'ün farkı ⓑ "),
+                  m("-17"),
+                  t("'den "),
+                  m("21"),
+                  t(" çıkarın."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.86",
+                [
+                  t("Çevirin ve sadeleştirin: ⓐ "),
+                  m("11"),
+                  t(" ile "),
+                  m("-19"),
+                  t("'un farkı ⓑ "),
+                  m("-11"),
+                  t("'den "),
+                  m("18"),
+                  t(" çıkarın."),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilarla-problem-cozme",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Uygulama problemlerinde önce hangi farkı aradığımızı belirleriz. Sonra büyüklükleri tam sayılarla yazar, çıkarma işlemini zıttını ekleyerek sadeleştiririz.",
+              ),
+              ex(
+                "Örnek 3.44",
+                [
+                  t("Urbana, Illinois'te sabah sıcaklık "),
+                  m("11"),
+                  t("°F idi. Öğleden sonra sıcaklık "),
+                  m("-9"),
+                  t("°F'ye düştü. Sabah ve öğleden sonra sıcaklıkları arasındaki fark kaç derecedir?"),
+                ],
+                sol("Çözüm: Fark 11-(-9) ile bulunur. Negatif sayı çıkarmak pozitif eklemek demektir: 11+9=20°F."),
+              ),
+              ex(
+                "Sıra Sizde 3.87",
+                [
+                  t("Anchorage, Alaska'da sabah sıcaklık "),
+                  m("15"),
+                  t("°F idi. Öğleden sonra sıcaklık sıfırın "),
+                  m("30"),
+                  t(" derece altına düştü. Sıcaklık farkı kaç derecedir?"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.88",
+                [
+                  t("Denver'da öğle sıcaklığı "),
+                  m("-6"),
+                  t("°F idi. Gün batımında sıcaklık "),
+                  m("-15"),
+                  t("°F oldu. İki sıcaklık arasındaki fark kaç derecedir?"),
+                ],
+              ),
+              pt(
+                "Yükseklik ve derinlik problemlerinde deniz seviyesi sıfır kabul edilir; üstü pozitif, altı negatif yazılır.",
+              ),
+              ex(
+                "Örnek 3.45",
+                [
+                  t("California'da Mt. Whitney deniz seviyesinin "),
+                  m("14.497"),
+                  t(" feet üstündedir. Death Valley deniz seviyesinin "),
+                  m("282"),
+                  t(" feet altındadır. İki yer arasındaki yükseklik farkı nedir?"),
+                ],
+                sol("Çözüm: Mt. Whitney 14.497, Death Valley -282 ile gösterilir. Fark 14.497-(-282)=14.779 feet olur."),
+              ),
+              ex(
+                "Sıra Sizde 3.89",
+                [
+                  t("John bir gün Hawaii'deki Haleakala yanardağının "),
+                  m("10.023"),
+                  t(" feet yüksekliğindeki zirvesine çıktı. Ertesi gün deniz seviyesinin "),
+                  m("80"),
+                  t(" feet altındaki bir mağaraya daldı. Zirve ile mağara arasındaki fark nedir?"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.90",
+                [
+                  t("Nautilus denizaltısı yüzeyin "),
+                  m("340"),
+                  t(" feet altında, Explorer denizaltısı yüzeyin "),
+                  m("573"),
+                  t(" feet altındadır. Konumları arasındaki fark nedir?"),
+                ],
+              ),
+              pt(
+                "Banka hesabı problemlerinde para yatırmak pozitif, çek yazmak veya borç negatif değişim olarak düşünülebilir.",
+              ),
+              ex(
+                "Örnek 3.46",
+                [
+                  t("Leslie'nin hesabında "),
+                  m("25"),
+                  t(" dolar var ve "),
+                  m("8"),
+                  t(" dolarlık çek yazıyor. Sonra "),
+                  m("20"),
+                  t(" dolarlık ikinci bir çek yazıyor. Daha sonra arkadaşının "),
+                  m("10"),
+                  t(" dolarlık çeki kaybettiği anlaşılıyor. Bakiyeleri bulun."),
+                ],
+                sol("Çözüm: İlk çekten sonra 25-8=17 dolar kalır. İkinci çekten sonra 17-20=-3 dolar olur. Kaybolan 10 dolarlık çek hesaptan çıkmayacağı için -3+10=7 dolar kalır."),
+              ),
+              ex(
+                "Sıra Sizde 3.91",
+                [
+                  t("Araceli'nin hesabında "),
+                  m("75"),
+                  t(" dolar var ve "),
+                  m("27"),
+                  t(" dolarlık çek yazıyor. Sonra "),
+                  m("50"),
+                  t(" dolarlık ikinci bir çek yazıyor. Hayır kurumuna gönderdiği "),
+                  m("20"),
+                  t(" dolarlık çek bozulmuyor. Son bakiyeyi bulun."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.92",
+                [
+                  t("Genevieve'in hesabı eksi bakiyededir: "),
+                  m("-78"),
+                  t(" dolar. Önce "),
+                  m("24"),
+                  t(" dolar, sonra "),
+                  m("49"),
+                  t(" dolar yatırıyor. Borçtan çıkıp çıkmadığını ve yeni bakiyeyi bulun."),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

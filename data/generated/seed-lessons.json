@@ -20381,6 +20381,3457 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "3.4",
+      "displayNumber": "3.3",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers",
+      "contentHash": "ccce15e278e7975ba33c47bb727bdf0bdf3125aaba0c392527c091ac7759244e",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "006-3d7e55fd9245cd52",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104802/c4d76bf1f21b9c40e2c38eb86149958daae502bf?revision=1",
+          "type": "image",
+          "altText": "This figure has a row of 5 blue circles. The first three are circled. Above the row is 5 minus 3 equals 2. Next to this is a row of 5 red circles. The first three are circled. Above the row is negative 5 minus negative 3 equals negative 2.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/006-3d7e55fd9245cd52.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/006-3d7e55fd9245cd52.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "037-7186e706c23eb041",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104850/a5651eb40175b50b49ceb1fb68b75443b915b251?revision=1",
+          "type": "image",
+          "altText": "This figure has two columns. The first column has 6 minus 4. Underneath, there is a row of 6 blue circles, with the first 4 separated from the last 2. The first 4 are circled. Under this row there is 2. The second column has 6 plus negative 4. Underneath there is a row of 6 blue circles with the first 4 separated from the last 2. The first 4 are circled. Under the first four is a row of 4 red circles. Under this there is 2.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/037-7186e706c23eb041.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/037-7186e706c23eb041.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "038-12be0d27d9394390",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104854/7a8c2b8071a18df7b80ee5495b37c2a0e2475943?revision=1",
+          "type": "image",
+          "altText": "This figure has two columns. The first column has 8 minus negative 5. Underneath, there is a row of 13 blue circles. The first 8 are separated from the next 5. Under the last 5 blue circles there is a row of 5 red circles. They are circled. Under this there is 13. The second column has 8 plus 5. Underneath there is a row of 13 blue circles. The first 8 are separated from the last 5. Under this there is 13.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/038-12be0d27d9394390.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/038-12be0d27d9394390.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "063-9dbfcd7388581cca",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104894/f1fde5bcaa0f2a356d9da3d913f3b2ee8dfc4284?revision=1",
+          "type": "figure",
+          "altText": "This table has six rows. The first row has a - b. The second row states a minus b. The third row states the difference of a and b. The fourth row states subtract b from a. The fifth row states b subtracted from a. The sixth row states b less than a.",
+          "caption": "Figure 3.18",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/063-9dbfcd7388581cca.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/063-9dbfcd7388581cca.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "e4c4e7c5ac151923",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/e4c4e7c5ac151923.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/e4c4e7c5ac151923.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "bdbb7c1827dafd8f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/bdbb7c1827dafd8f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/bdbb7c1827dafd8f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d099bb0596b16805",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/d099bb0596b16805.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/d099bb0596b16805.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1c3c82143bd0d2ee",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/1c3c82143bd0d2ee.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/1c3c82143bd0d2ee.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "837f7bce1d9c1d5b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/837f7bce1d9c1d5b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/837f7bce1d9c1d5b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "59e8541aaf17a074",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/59e8541aaf17a074.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/59e8541aaf17a074.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "56bd532ebdfad2f7",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/56bd532ebdfad2f7.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/56bd532ebdfad2f7.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "fc5386ee83782c68",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/fc5386ee83782c68.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/fc5386ee83782c68.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "abb11d1612c89dd5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/abb11d1612c89dd5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/abb11d1612c89dd5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b293bd038b4af85c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/b293bd038b4af85c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/b293bd038b4af85c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "0a247d1cc9d965ee",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/0a247d1cc9d965ee.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/0a247d1cc9d965ee.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "53e3f05137e9cf54",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/53e3f05137e9cf54.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/53e3f05137e9cf54.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "793e1fb193e446d8",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-12",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/793e1fb193e446d8.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/793e1fb193e446d8.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "cff6f79c73bbfc94",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/cff6f79c73bbfc94.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/cff6f79c73bbfc94.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "cc254ee67a6444f1",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/cc254ee67a6444f1.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/cc254ee67a6444f1.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ed643fb1076c4a0d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-15",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/ed643fb1076c4a0d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/ed643fb1076c4a0d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "afb99cfe2bcfb225",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-16",
+          "type": "table",
+          "caption": "We use the order of operations to simplify this expression, performing operations inside the parentheses first. Then we subtract from left to right.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/afb99cfe2bcfb225.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/afb99cfe2bcfb225.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "94cfa20aa84ab90a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-17",
+          "type": "table",
+          "caption": "We use the order of operations to simplify this expression. First we multiply, and then subtract from left to right.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/94cfa20aa84ab90a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/94cfa20aa84ab90a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c5789a1ab74c51f7",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-18",
+          "type": "table",
+          "caption": "ⓐ To evaluate x−4x−4 when x=3x=3, substitute 33 for xx in the expression.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/c5789a1ab74c51f7.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/c5789a1ab74c51f7.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b96b092748463005",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-19",
+          "type": "table",
+          "caption": "ⓑ To evaluate x−4x−4 when x=−6,x=−6, substitute −6−6 for xx in the expression.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/b96b092748463005.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/b96b092748463005.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e50f3e2da69c2953",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-20",
+          "type": "table",
+          "caption": "ⓐ To evaluate 20−zwhenz=12,20−zwhenz=12, substitute 1212 for zz in the expression.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/e50f3e2da69c2953.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/e50f3e2da69c2953.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "136b5d7adac2204a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-21",
+          "type": "table",
+          "caption": "ⓑ To evaluate 20−zwhenz=−12,substitute−12forzin the expression.20−zwhenz=−12,substitute−12forzin the expression.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/136b5d7adac2204a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/136b5d7adac2204a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "46a2f3d85c88b011",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-22",
+          "type": "table",
+          "caption": "ⓐ A difference means subtraction. Subtract the numbers in the order they are given.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/46a2f3d85c88b011.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/46a2f3d85c88b011.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5f975da7545e6cd6",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-23",
+          "type": "table",
+          "caption": "ⓑ Subtract means to take 2424 away from −19.−19.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/5f975da7545e6cd6.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/5f975da7545e6cd6.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "f82a68ca9cf146e3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-24",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/f82a68ca9cf146e3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/f82a68ca9cf146e3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a3a976d41c342491",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-25",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/a3a976d41c342491.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/a3a976d41c342491.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "2c518dad1d9bb9a7",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-26",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/2c518dad1d9bb9a7.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/2c518dad1d9bb9a7.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "48144eba2870cb9e",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-27",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/48144eba2870cb9e.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/48144eba2870cb9e.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ab278ef2f0283c12",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers#table-28",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/ab278ef2f0283c12.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/ab278ef2f0283c12.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 5,
+        "sections": 5,
+        "blocks": 64,
+        "examples": 17,
+        "tryIts": 34,
+        "sourceExercises": 42,
+        "exercises": 42,
+        "mathTokens": 117,
+        "assets": 33
+      },
+      "lesson": {
+        "id": "lesson-subtract-integers",
+        "slug": "tam-sayilarla-cikarma",
+        "displayTitle": "Tam Sayılarla Çıkarma",
+        "summary": "Tam sayılarla çıkarmayı sayaç modeliyle anlamlandırın, zıttını ekleme kuralını kullanın ve uygulama problemlerini çözün.",
+        "sortOrder": 4,
+        "chapterId": "chapter-integers",
+        "sourceNumber": "3.4",
+        "displayNumber": "3.3",
+        "sourceTitle": "Subtract Integers",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "tam-sayilar",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Tam sayılarla çıkarmayı modelleyebileceksiniz.",
+          "Tam sayılar içeren çıkarma ifadelerini sadeleştirebileceksiniz.",
+          "Tam sayılarla verilen değişkenli ifadeleri değerlendirebileceksiniz.",
+          "Sözel ifadeleri cebirsel ifadelere çevirebileceksiniz.",
+          "Tam sayılarla çıkarma gerektiren problemleri çözebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "tam-sayilarla-cikarma-section-01",
+            "heading": "Tam Sayılarla Çıkarmayı Modelleme",
+            "slug": "tam-sayilarla-cikarmayi-modelleme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Tam sayılarla çıkarma yaparken sayaç modelini kullanmaya devam ederiz. Pozitif sayaç +1'i, negatif sayaç -1'i temsil eder."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarma işlemini “verilen sayaçları ortamdan alma” olarak düşünebiliriz. Almak istediğimiz renkten sayaç yoksa, değeri değiştirmeyen nötr çiftler ekleriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.30",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5-3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 pozitif sayaçla başlarız ve 3 pozitif sayacı çıkarırız. Geriye 2 pozitif sayaç kalır; bu nedenle 5-3=2."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.59",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6-4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6 pozitif sayaçtan 4 pozitif sayaç çıkarılır; geriye 2 pozitif sayaç kalır. Bu nedenle 6-4=2."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.60",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7-4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7 pozitif sayaçtan 4 pozitif sayaç çıkarılır ve geriye 3 pozitif sayaç kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.31",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5-(-3)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 negatif sayaçla başlarız ve 3 negatif sayacı çıkarırız. Geriye 2 negatif sayaç kalır; sonuç -2'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.61",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-6-(-4)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -6 sayacıyla başlayıp 4 negatif sayaç çıkarırız; geriye 2 negatif sayaç kalır. Sonuç -2'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.62",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-7-(-4)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -7'den -4 çıkarmak 4 negatif sayacı kaldırmak demektir; geriye 3 negatif sayaç kalır. Sonuç -3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Aynı tür sayaçlar çıkarıldığında model doğrudandır. Farklı türden sayaç çıkarmak gerektiğinde nötr çiftler eklemek işimizi kolaylaştırır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.32",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5-3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -5 ile başlarız. 3 pozitif sayaç çıkarmak için 3 nötr çift ekleriz. 3 pozitif sayacı kaldırınca geriye 8 negatif sayaç kalır; -5-3=-8."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.63",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-6-4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -6'dan 4 pozitif çıkarmak için 4 nötr çift eklenir, 4 pozitif sayaç kaldırılır ve geriye 10 negatif sayaç kalır. Sonuç -10'dur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.64",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-7-4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -7-4 işlemi -7+(-4) ile aynıdır. Aynı işaretli negatifler toplandığı için sonuç -11 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.33",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5-(-3)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 pozitif sayaçla başlarız. 3 negatif sayaç çıkarabilmek için 3 nötr çift ekleriz. 3 negatif sayacı kaldırınca 8 pozitif sayaç kalır; 5-(-3)=8."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.65",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6-(-4)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6'dan -4 çıkarmak, 4 eklemekle aynıdır. 6-(-4)=6+4=10."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.66",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7-(-4)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Negatif bir sayıyı çıkarmak zıttını eklemek demektir: 7-(-4)=7+4=11."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bu modeller bizi önemli kurala götürür: Bir tam sayıyı çıkarmak, o tam sayının zıttını eklemekle aynı sonucu verir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.34",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her çıkarmayı modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8-2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5-4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6-(-6)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-8-(-3)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 8-2=6. ⓑ -5-4=-9. ⓒ 6-(-6)=12. ⓓ -8-(-3)=-5."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.67",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her çıkarmayı modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7-(-8)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-7-(-2)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4-1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-6-8"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 7-(-8)=15. ⓑ -7-(-2)=-5. ⓒ 4-1=3. ⓓ -6-8=-14."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.68",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her çıkarmayı modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4-(-6)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-8-(-1)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7-3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-4-2"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 4-(-6)=10. ⓑ -8-(-1)=-7. ⓒ 7-3=4. ⓓ -4-2=-6."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.35",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her çıkarma ifadesini modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-3-(-8)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 2'den 8 çıkarmak için 6 nötr çift gerekir; sonuç -6'dır. ⓑ -3'ten -8 çıkarmak için 5 nötr çift gerekir; 8 negatif çıkarılınca 5 pozitif kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.69",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her çıkarma ifadesini modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7-9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5-(-9)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 7-9=-2. ⓑ -5-(-9)=-5+9=4."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.70",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her çıkarma ifadesini modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4-7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-7-(-10)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 4-7=-3. ⓑ -7-(-10)=-7+10=3."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilarla-cikarma-section-02",
+            "heading": "Tam Sayılarla Çıkarma İşlemi",
+            "slug": "tam-sayilarla-cikarma-islemi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sayaç modeliyle gördüğümüz kuralı artık doğrudan kullanabiliriz: Bir sayıyı çıkarmak, o sayının zıttını eklemektir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "a-b=a+(-b)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " kuralı her tam sayı için geçerlidir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin 6-4 ile 6+(-4) aynı sonucu verir. Benzer biçimde 8-(-5), 8+5 ile aynı anlama gelir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.36",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "13-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "13+(-8)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-17-9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-17+(-9)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 13-8=5 ve 13+(-8)=5. ⓑ -17-9=-26 ve -17+(-9)=-26. Çıkarma, zıttını ekleme ile aynı sonucu verir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.71",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ifadeyi sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "21-13"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "21+(-13)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-11-7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-11+(-7)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 21-13=8 ve 21+(-13)=8. ⓑ -11-7=-18 ve -11+(-7)=-18."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.72",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ifadeyi sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15-7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15+(-7)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-14-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-14+(-8)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 15-7=8 ve 15+(-7)=8. ⓑ -14-8=-22 ve -14+(-8)=-22."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.37",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9-(-15)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9+15"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-7-(-4)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-7+4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 9-(-15)=24 ve 9+15=24. ⓑ -7-(-4)=-3 ve -7+4=-3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.73",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ifadeyi sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6-(-13)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6+13"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5-(-1)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5+1"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 6-(-13)=19 ve 6+13=19. ⓑ -5-(-1)=-4 ve -5+1=-4."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.74",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ifadeyi sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4-(-19)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4+19"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-4-(-7)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-4+7"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 4-(-19)=23 ve 4+19=23. ⓑ -4-(-7)=3 ve -4+7=3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.38",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-74-(-58)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -58'i çıkarmak 58 eklemek demektir. -74+58=-16 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.75",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-67-(-38)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -67-(-38) işleminde -38'in zıttı eklenir: -67+38=-29."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.76",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-83-(-57)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -83-(-57)=-83+57=-26 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Daha uzun ifadelerde işlem önceliği değişmez: önce parantez, sonra üs ve çarpma işlemleri, en son toplama ve çıkarma yapılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.39",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7-(-4-3)-9"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce parantez içi: -4-3=-7. Sonra 7-(-7)-9=7+7-9=5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.77",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8-(-3-1)-9"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce parantez içi -3-1=-4 olur. Sonra 8-(-4)-9=8+4-9=3 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.78",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "12-(-9-6)-14"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Parantez içi -9-6=-15'tir. 12-(-15)-14=12+15-14=13 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.40",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\cdot7-4\\cdot7-5\\cdot8"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce çarpmalar yapılır: 21-28-40. Sonra soldan sağa ilerleriz: 21-28=-7 ve -7-40=-47."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.79",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6\\cdot2-9\\cdot1-8\\cdot9"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce çarpma yapılır: 6·2=12, 9·1=9, 8·9=72. Sonra 12-9-72=-69 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.80",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\cdot5-3\\cdot7-4\\cdot9"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce çarpımlar: 2·5=10, 3·7=21, 4·9=36. Sonra 10-21-36=-47 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilarla-cikarma-section-03",
+            "heading": "Değişkenli İfadeleri Değerlendirme",
+            "slug": "degiskenli-ifadeleri-degerlendirme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Değişkenli ifadeleri değerlendirirken değişken yerine verilen değeri yazar, sonra tam sayılarla işlem kurallarını uygularız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.41",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "x-4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=-6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ x=3 yazılırsa 3-4=-1. ⓑ x=-6 yazılırsa -6-4=-10 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.81",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "y-7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y=5 iken y-7=5-7=-2. y=-8 iken y-7=-8-7=-15."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.82",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "m-3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m=1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m=-4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: m=1 iken m-3=1-3=-2. m=-4 iken m-3=-4-3=-7."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.42",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "20-z"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "z=12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "z=-12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ z=12 yazılırsa 20-12=8. ⓑ z=-12 yazılırsa 20-(-12)=32 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.83",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "17-k"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "k=19"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "k=-19"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: k=19 iken 17-k=17-19=-2. k=-19 iken 17-k=17-(-19)=36."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.84",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "-5-b"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b=14"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b=-14"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: b=14 iken -5-b=-5-14=-19. b=-14 iken -5-b=-5-(-14)=9."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilarla-cikarma-section-04",
+            "heading": "Sözel İfadeleri Cebirsel İfadeye Çevirme",
+            "slug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Fark, eksik, çıkarmak ve çıkarılmış gibi ifadeler çıkarma işlemini anlatır. Sıralamaya dikkat ederiz; “a ile b'nin farkı” ifadesi a-b şeklinde yazılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.43",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "13"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-21"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in farkı ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-19"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "24"
+                  },
+                  {
+                    "type": "text",
+                    "value": " çıkarın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 13-(-21)=34. ⓑ -19'dan 24 çıkarmak -19-24=-43 demektir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.85",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "14"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-23"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ün farkı ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-17"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'den "
+                  },
+                  {
+                    "type": "math",
+                    "value": "21"
+                  },
+                  {
+                    "type": "text",
+                    "value": " çıkarın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 14 ile -23'ün farkı 14-(-23)=37'dir. ⓑ -17'den 21 çıkarmak -17-21=-38 verir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.86",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "11"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-19"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'un farkı ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-11"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'den "
+                  },
+                  {
+                    "type": "math",
+                    "value": "18"
+                  },
+                  {
+                    "type": "text",
+                    "value": " çıkarın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 11-(-19)=30. ⓑ -11'den 18 çıkarmak -11-18=-29 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilarla-cikarma-section-05",
+            "heading": "Tam Sayılarla Problem Çözme",
+            "slug": "tam-sayilarla-problem-cozme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Uygulama problemlerinde önce hangi farkı aradığımızı belirleriz. Sonra büyüklükleri tam sayılarla yazar, çıkarma işlemini zıttını ekleyerek sadeleştiririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.44",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Urbana, Illinois'te sabah sıcaklık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "11"
+                  },
+                  {
+                    "type": "text",
+                    "value": "°F idi. Öğleden sonra sıcaklık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-9"
+                  },
+                  {
+                    "type": "text",
+                    "value": "°F'ye düştü. Sabah ve öğleden sonra sıcaklıkları arasındaki fark kaç derecedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Fark 11-(-9) ile bulunur. Negatif sayı çıkarmak pozitif eklemek demektir: 11+9=20°F."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.87",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Anchorage, Alaska'da sabah sıcaklık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15"
+                  },
+                  {
+                    "type": "text",
+                    "value": "°F idi. Öğleden sonra sıcaklık sıfırın "
+                  },
+                  {
+                    "type": "math",
+                    "value": "30"
+                  },
+                  {
+                    "type": "text",
+                    "value": " derece altına düştü. Sıcaklık farkı kaç derecedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sabah 15°F, öğleden sonra -30°F. Fark 15-(-30)=45°F olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.88",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Denver'da öğle sıcaklığı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-6"
+                  },
+                  {
+                    "type": "text",
+                    "value": "°F idi. Gün batımında sıcaklık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-15"
+                  },
+                  {
+                    "type": "text",
+                    "value": "°F oldu. İki sıcaklık arasındaki fark kaç derecedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Öğle sıcaklığı -6°F, gün batımı -15°F. Aradaki fark -6-(-15)=9°F'tır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yükseklik ve derinlik problemlerinde deniz seviyesi sıfır kabul edilir; üstü pozitif, altı negatif yazılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.45",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "California'da Mt. Whitney deniz seviyesinin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "14.497"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet üstündedir. Death Valley deniz seviyesinin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "282"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet altındadır. İki yer arasındaki yükseklik farkı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Mt. Whitney 14.497, Death Valley -282 ile gösterilir. Fark 14.497-(-282)=14.779 feet olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.89",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "John bir gün Hawaii'deki Haleakala yanardağının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10.023"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet yüksekliğindeki zirvesine çıktı. Ertesi gün deniz seviyesinin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "80"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet altındaki bir mağaraya daldı. Zirve ile mağara arasındaki fark nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Zirve 10.023 feet, mağara -80 feet kabul edilir. Fark 10.023-(-80)=10.103 feet olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.90",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Nautilus denizaltısı yüzeyin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "340"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet altında, Explorer denizaltısı yüzeyin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "573"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet altındadır. Konumları arasındaki fark nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Nautilus -340 feet, Explorer -573 feet konumundadır. Fark -340-(-573)=233 feet'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Banka hesabı problemlerinde para yatırmak pozitif, çek yazmak veya borç negatif değişim olarak düşünülebilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.46",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Leslie'nin hesabında "
+                  },
+                  {
+                    "type": "math",
+                    "value": "25"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolar var ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolarlık çek yazıyor. Sonra "
+                  },
+                  {
+                    "type": "math",
+                    "value": "20"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolarlık ikinci bir çek yazıyor. Daha sonra arkadaşının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolarlık çeki kaybettiği anlaşılıyor. Bakiyeleri bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İlk çekten sonra 25-8=17 dolar kalır. İkinci çekten sonra 17-20=-3 dolar olur. Kaybolan 10 dolarlık çek hesaptan çıkmayacağı için -3+10=7 dolar kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.91",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Araceli'nin hesabında "
+                  },
+                  {
+                    "type": "math",
+                    "value": "75"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolar var ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "27"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolarlık çek yazıyor. Sonra "
+                  },
+                  {
+                    "type": "math",
+                    "value": "50"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolarlık ikinci bir çek yazıyor. Hayır kurumuna gönderdiği "
+                  },
+                  {
+                    "type": "math",
+                    "value": "20"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolarlık çek bozulmuyor. Son bakiyeyi bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 75-27=48 dolar. ⓑ 48-50=-2 dolar. ⓒ 20 dolarlık çek bozulmadığı için 20 geri eklenir; -2+20=18 dolar."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.92",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Genevieve'in hesabı eksi bakiyededir: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-78"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolar. Önce "
+                  },
+                  {
+                    "type": "math",
+                    "value": "24"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolar, sonra "
+                  },
+                  {
+                    "type": "math",
+                    "value": "49"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolar yatırıyor. Borçtan çıkıp çıkmadığını ve yeni bakiyeyi bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ -78+24=-54 dolar. ⓑ -54+49=-5 dolar; hâlâ borçtadır ve yeni bakiye -5 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-127",
+            "number": "127",
+            "sectionSlug": "tam-sayilarla-cikarmayi-modelleme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi modelleyip sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "8-2"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8 pozitif sayaçtan 2 pozitif sayaç çıkarılır; geriye 6 kalır."
+              }
+            ],
+            "sortOrder": 127
+          },
+          {
+            "id": "exercise-129",
+            "number": "129",
+            "sectionSlug": "tam-sayilarla-cikarmayi-modelleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "−5-(−1)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Negatif bir sayıyı çıkarmak zıttını eklemektir: -5-(-1)=-5+1=-4."
+              }
+            ],
+            "sortOrder": 129
+          },
+          {
+            "id": "exercise-131",
+            "number": "131",
+            "sectionSlug": "tam-sayilarla-cikarmayi-modelleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "−5-4"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -5-4, -5+(-4) ile aynıdır. Aynı işaretli negatifler toplandığı için sonuç -9 olur."
+              }
+            ],
+            "sortOrder": 131
+          },
+          {
+            "id": "exercise-133",
+            "number": "133",
+            "sectionSlug": "tam-sayilarla-cikarmayi-modelleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "8-(−4)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8-(-4)=8+4=12; çünkü -4'ü çıkarmak 4 eklemek demektir."
+              }
+            ],
+            "sortOrder": 133
+          },
+          {
+            "id": "exercise-135",
+            "number": "135",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "15-6"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "15+(−6)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 15-6=9. ⓑ 15+(-6)=9. İki ifade aynı sonucu verir."
+              }
+            ],
+            "sortOrder": 135
+          },
+          {
+            "id": "exercise-137",
+            "number": "137",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "44-28"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "44+(−28)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 44-28=16. ⓑ 44+(-28)=16; çıkarma, zıttını eklemeye dönüştü."
+              }
+            ],
+            "sortOrder": 137
+          },
+          {
+            "id": "exercise-139",
+            "number": "139",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "8-(−9)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "8+9"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 8-(-9)=17. ⓑ 8+9=17; negatif çıkarmak pozitif eklemektir."
+              }
+            ],
+            "sortOrder": 139
+          },
+          {
+            "id": "exercise-141",
+            "number": "141",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "27-(−18)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "27+18"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 27-(-18)=45. ⓑ 27+18=45. Sonuçlar aynıdır."
+              }
+            ],
+            "sortOrder": 141
+          },
+          {
+            "id": "exercise-143",
+            "number": "143",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "15-(−12)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -12'yi çıkarmak 12 eklemek demektir. Bu nedenle 15-(-12)=15+12=27 olur."
+              }
+            ],
+            "sortOrder": 143
+          },
+          {
+            "id": "exercise-145",
+            "number": "145",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "10-(−19)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -19'u çıkarmak 19 eklemek demektir: 10-(-19)=29."
+              }
+            ],
+            "sortOrder": 145
+          },
+          {
+            "id": "exercise-147",
+            "number": "147",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "48-87"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 48-87=48+(-87)=-39; çünkü 87'nin mutlak değeri daha büyüktür."
+              }
+            ],
+            "sortOrder": 147
+          },
+          {
+            "id": "exercise-149",
+            "number": "149",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "31-79"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 79'u çıkarmak -79 eklemekle aynıdır. 31+(-79)=-48 olur."
+              }
+            ],
+            "sortOrder": 149
+          },
+          {
+            "id": "exercise-151",
+            "number": "151",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−31-11"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 11 çıkarmak -11 eklemek demektir. -31+(-11)=-42 bulunur."
+              }
+            ],
+            "sortOrder": 151
+          },
+          {
+            "id": "exercise-153",
+            "number": "153",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−17-42"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 42 çıkarmayı -42 ekleme olarak yazarız: -17+(-42)=-59 olur."
+              }
+            ],
+            "sortOrder": 153
+          },
+          {
+            "id": "exercise-155",
+            "number": "155",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−103-(−52)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -52'yi çıkarmak 52 eklemektir. -103+52=-51 bulunur."
+              }
+            ],
+            "sortOrder": 155
+          },
+          {
+            "id": "exercise-157",
+            "number": "157",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−45-(−54)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -54'ü çıkarmak 54 eklemek demektir. -45+54=9 bulunur."
+              }
+            ],
+            "sortOrder": 157
+          },
+          {
+            "id": "exercise-159",
+            "number": "159",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "8-3-7"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Soldan sağa ilerleriz: 8-3=5 ve 5-7=-2."
+              }
+            ],
+            "sortOrder": 159
+          },
+          {
+            "id": "exercise-161",
+            "number": "161",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−5-4+7"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce -5-4=-9, sonra -9+7=-2 olur."
+              }
+            ],
+            "sortOrder": 161
+          },
+          {
+            "id": "exercise-163",
+            "number": "163",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−14-(−27)+9"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -27'yi çıkarmak 27 eklemek demektir. Bu yüzden -14-(-27)+9=-14+27+9=22 bulunur."
+              }
+            ],
+            "sortOrder": 163
+          },
+          {
+            "id": "exercise-165",
+            "number": "165",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "71+(−10)-8"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Soldan sağa ilerleriz. Önce 71+(-10)=61, sonra 61-8=53 olur."
+              }
+            ],
+            "sortOrder": 165
+          },
+          {
+            "id": "exercise-167",
+            "number": "167",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−16-(−4+1)-7"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce parantez: -4+1=-3. Sonra -16-(-3)-7=-16+3-7=-20."
+              }
+            ],
+            "sortOrder": 167
+          },
+          {
+            "id": "exercise-169",
+            "number": "169",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "(2-7)-(3-8)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: (2-7)=-5 ve (3-8)=-5. Bu nedenle -5-(-5)=0."
+              }
+            ],
+            "sortOrder": 169
+          },
+          {
+            "id": "exercise-171",
+            "number": "171",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "-(6-8)-(2-4)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6-8=-2 olduğu için -(6-8)=2. Ayrıca 2-4=-2; 2-(-2)=4 bulunur."
+              }
+            ],
+            "sortOrder": 171
+          },
+          {
+            "id": "exercise-173",
+            "number": "173",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "25-[10-(3-12)]"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce 3-12=-9, sonra 10-(-9)=19 ve en son 25-19=6 olur."
+              }
+            ],
+            "sortOrder": 173
+          },
+          {
+            "id": "exercise-175",
+            "number": "175",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "6\\cdot3-4\\cdot3-7\\cdot2"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce çarpımlar: 6·3=18, 4·3=12, 7·2=14. Sonra 18-12-14=-8."
+              }
+            ],
+            "sortOrder": 175
+          },
+          {
+            "id": "exercise-177",
+            "number": "177",
+            "sectionSlug": "tam-sayilarla-cikarma-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "5^{2}-6^{2}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Üsler önce hesaplanır: 5²=25 ve 6²=36. 25-36=-11 olur."
+              }
+            ],
+            "sortOrder": 177
+          },
+          {
+            "id": "exercise-179",
+            "number": "179",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi verilen değerler için değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "x-6 \\text{iken}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "x=3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "x=−3"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=3 iken x-6=3-6=-3. x=-3 iken x-6=-3-6=-9."
+              }
+            ],
+            "sortOrder": 179
+          },
+          {
+            "id": "exercise-181",
+            "number": "181",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi verilen değerler için değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "5-y \\text{iken}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "y=2"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "y=−2"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: y=2 iken 5-y=5-2=3. y=-2 iken 5-y=5-(-2)=7."
+              }
+            ],
+            "sortOrder": 181
+          },
+          {
+            "id": "exercise-183",
+            "number": "183",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi verilen değerler için değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "4x^{2}-15x+1 \\text{iken} x=3"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=3 yazılır: 4·3²-15·3+1=4·9-45+1=36-45+1=-8."
+              }
+            ],
+            "sortOrder": 183
+          },
+          {
+            "id": "exercise-185",
+            "number": "185",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi verilen değerler için değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−12-5x^{2} \\text{iken} x=6"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=6 için -12-5x²=-12-5·36=-12-180=-192 olur."
+              }
+            ],
+            "sortOrder": 185
+          },
+          {
+            "id": "exercise-187",
+            "number": "187",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. ⓐ 3 ile -10'un farkı ⓑ 45'ten -20 çıkarın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 3 ile -10'un farkı 3-(-10)=13. ⓑ 45'ten -20 çıkarmak 45-(-20)=65 verir."
+              }
+            ],
+            "sortOrder": 187
+          },
+          {
+            "id": "exercise-189",
+            "number": "189",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. ⓐ -6 ile 9'un farkı ⓑ -16'dan -12 çıkarın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ -6 ile 9'un farkı -6-9=-15. ⓑ -16'dan -12 çıkarmak -16-(-12)=-4 verir."
+              }
+            ],
+            "sortOrder": 189
+          },
+          {
+            "id": "exercise-191",
+            "number": "191",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. ⓐ -17'den 8 eksik ⓑ -24 eksi 37."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ -17'den 8 eksik, -17-8=-25'tir. ⓑ -24-37=-61 olur."
+              }
+            ],
+            "sortOrder": 191
+          },
+          {
+            "id": "exercise-193",
+            "number": "193",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. ⓐ 6'dan 21 eksik ⓑ -19'dan 31 çıkarılmış hali."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 6'dan 21 eksik, 6-21=-15'tir. ⓑ -19'dan 31 çıkarılır: -19-31=-50."
+              }
+            ],
+            "sortOrder": 193
+          },
+          {
+            "id": "exercise-195",
+            "number": "195",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki uygulama problemlerini çözün. Sıcaklık: Urbana, Illinois'te bir sabah sıcaklık 28°F idi. Akşama kadar sıcaklık 38°F düştü. Akşam sıcaklığı kaç dereceydi?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sıcaklık 28°F iken 38°F düştüyse 28-38=-10 olur. Akşam sıcaklığı -10°F'tır."
+              }
+            ],
+            "sortOrder": 195
+          },
+          {
+            "id": "exercise-197",
+            "number": "197",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki uygulama problemlerini çözün. Sıcaklık: 15 Ocak'ta Anaheim, California'da en yüksek sıcaklık 84°F idi. Aynı gün Embarrass, Minnesota'da en yüksek sıcaklık -12°F idi. İki sıcaklık arasındaki fark kaç derecedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Anaheim 84°F, Embarrass -12°F'tır. Fark 84-(-12)=96°F olur."
+              }
+            ],
+            "sortOrder": 197
+          },
+          {
+            "id": "exercise-199",
+            "number": "199",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki uygulama problemlerini çözün. Futbol: Warriors takımı ilk hakta topu 30 yard çizgisindeydi. Sonraki üç hakta 2 yard kazandı, 7 yard kaybetti ve 4 yard kaybetti. Üçüncü hak sonunda top hangi yard çizgisindedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Başlangıç 30 yard çizgisidir. 30+2-7-4=21; top 21 yard çizgisindedir."
+              }
+            ],
+            "sortOrder": 199
+          },
+          {
+            "id": "exercise-201",
+            "number": "201",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki uygulama problemlerini çözün. Vadesiz hesap: John'un hesabında 148 dolar var. 83 dolarlık çek yazıyor. Yeni bakiyesi nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Hesapta 148 dolar vardır ve 83 dolarlık çek yazılır. Yeni bakiye 148-83=65 dolardır."
+              }
+            ],
+            "sortOrder": 201
+          },
+          {
+            "id": "exercise-203",
+            "number": "203",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki uygulama problemlerini çözün. Vadesiz hesap: Gina'nın hesabında 210 dolar var. 250 dolarlık çek yazıyor. Yeni bakiyesi nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 210 dolardan 250 dolar çıkarsa 210-250=-40 olur; hesap 40 dolar eksiye düşer."
+              }
+            ],
+            "sortOrder": 203
+          },
+          {
+            "id": "exercise-205",
+            "number": "205",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki uygulama problemlerini çözün. Vadesiz hesap: Bill'in hesabında -14 dolar bakiye var. Hesaba 40 dolar yatırıyor. Yeni bakiye nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Başlangıç bakiyesi -14 dolardır. 40 dolar yatırılınca -14+40=26 dolar olur."
+              }
+            ],
+            "sortOrder": 205
+          },
+          {
+            "id": "exercise-207",
+            "number": "207",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kamp: Rene Alpler'de yürüyüştedir. Sıcaklık -7°'dir. Uyku tulumu -20°'ye kadar konforlu kabul ediliyor. Sıcaklık Rene'nin uyku tulumu için fazla soğuk olmadan önce kaç derece daha değişebilir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sıcaklık -7° iken sınır -20°'dir. -7'den -20'ye düşüş 13 derecedir."
+              }
+            ],
+            "sortOrder": 207
+          },
+          {
+            "id": "exercise-209",
+            "number": "209",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "9 ile -6'nın farkının neden 15 olduğunu açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 9 ile -6'nın farkı 9-(-6) olarak yazılır. -6'yı çıkarmak 6 eklemek olduğu için 9+6=15 olur."
+              }
+            ],
+            "sortOrder": 209
+          }
+        ]
+      }
     }
   ]
 }

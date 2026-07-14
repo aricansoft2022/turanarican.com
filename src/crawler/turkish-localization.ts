@@ -68,9 +68,16 @@ export function localizeExercisePromptForTurkish(
     adaptIntegerCompareExercise(normalizedPrompt) ??
     adaptIntegerWordExpressionExercise(normalizedPrompt) ??
     adaptIntegerSituationExercise(normalizedPrompt) ??
+    adaptIntegerSubtractionWordProblem(normalizedPrompt) ??
+    adaptIntegerSubtractionPhraseExercise(normalizedPrompt) ??
     adaptIntegerAdditionWordProblem(normalizedPrompt) ??
     adaptIntegerAdditionPhraseExercise(normalizedPrompt) ??
     adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, model each expression and simplify.",
+      "Aşağıdaki alıştırmalarda her ifadeyi modelleyip sadeleştirin.",
+    ) ??
     adaptPlainInstruction(
       normalizedPrompt,
       "In the following exercises, model the expression to simplify.",
@@ -78,8 +85,18 @@ export function localizeExercisePromptForTurkish(
     ) ??
     adaptPlainInstruction(
       normalizedPrompt,
+      "In the following exercises, evaluate each expression for the given values.",
+      "Aşağıdaki alıştırmalarda her ifadeyi verilen değerler için değerlendirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
       "In the following exercises, evaluate each expression.",
       "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, solve the following applications.",
+      "Aşağıdaki uygulama problemlerini çözün.",
     ) ??
     adaptPlainInstruction(
       normalizedPrompt,
@@ -359,6 +376,88 @@ function adaptIntegerAdditionPhraseExercise(
     ["−10 added to −15", "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -15'e -10 eklenmiş hali."],
     ["6 more than the sum of −1 and −12", "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -1 ile -12'nin toplamından 6 fazla."],
     ["the sum of 10 and −19, increased by 4", "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. 10 ile -19'un toplamının 4 artırılmış hali."],
+  ];
+  const replacement = replacements.find(([source]) => text.includes(source))?.[1];
+
+  if (!replacement) return null;
+  return [{ type: "text", value: replacement }] satisfies InlineContent[];
+}
+
+function adaptIntegerSubtractionPhraseExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const first = prompt[0];
+
+  if (
+    first?.type !== "text" ||
+    first.value !==
+      "In the following exercises, translate each phrase into an algebraic expression and then simplify."
+  ) {
+    return null;
+  }
+
+  const text = inlineText(prompt);
+  const replacements: Array<[string, string]> = [
+    [
+      "The difference of 3 and −10",
+      "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. ⓐ 3 ile -10'un farkı ⓑ 45'ten -20 çıkarın.",
+    ],
+    [
+      "The difference of −6 and 9",
+      "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. ⓐ -6 ile 9'un farkı ⓑ -16'dan -12 çıkarın.",
+    ],
+    [
+      "8 less than −17",
+      "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. ⓐ -17'den 8 eksik ⓑ -24 eksi 37.",
+    ],
+    [
+      "21 less than 6",
+      "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. ⓐ 6'dan 21 eksik ⓑ -19'dan 31 çıkarılmış hali.",
+    ],
+  ];
+  const replacement = replacements.find(([source]) => text.includes(source))?.[1];
+
+  if (!replacement) return null;
+  return [{ type: "text", value: replacement }] satisfies InlineContent[];
+}
+
+function adaptIntegerSubtractionWordProblem(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+  const replacements: Array<[string, string]> = [
+    [
+      "Temperature One morning, the temperature in Urbana",
+      "Aşağıdaki uygulama problemlerini çözün. Sıcaklık: Urbana, Illinois'te bir sabah sıcaklık 28°F idi. Akşama kadar sıcaklık 38°F düştü. Akşam sıcaklığı kaç dereceydi?",
+    ],
+    [
+      "Temperature On January 15",
+      "Aşağıdaki uygulama problemlerini çözün. Sıcaklık: 15 Ocak'ta Anaheim, California'da en yüksek sıcaklık 84°F idi. Aynı gün Embarrass, Minnesota'da en yüksek sıcaklık -12°F idi. İki sıcaklık arasındaki fark kaç derecedir?",
+    ],
+    [
+      "Football At the first down",
+      "Aşağıdaki uygulama problemlerini çözün. Futbol: Warriors takımı ilk hakta topu 30 yard çizgisindeydi. Sonraki üç hakta 2 yard kazandı, 7 yard kaybetti ve 4 yard kaybetti. Üçüncü hak sonunda top hangi yard çizgisindedir?",
+    ],
+    [
+      "Checking Account John has",
+      "Aşağıdaki uygulama problemlerini çözün. Vadesiz hesap: John'un hesabında 148 dolar var. 83 dolarlık çek yazıyor. Yeni bakiyesi nedir?",
+    ],
+    [
+      "Checking Account Gina has",
+      "Aşağıdaki uygulama problemlerini çözün. Vadesiz hesap: Gina'nın hesabında 210 dolar var. 250 dolarlık çek yazıyor. Yeni bakiyesi nedir?",
+    ],
+    [
+      "Checking Account Bill has",
+      "Aşağıdaki uygulama problemlerini çözün. Vadesiz hesap: Bill'in hesabında -14 dolar bakiye var. Hesaba 40 dolar yatırıyor. Yeni bakiye nedir?",
+    ],
+    [
+      "Camping Rene is on an Alpine hike",
+      "Kamp: Rene Alpler'de yürüyüştedir. Sıcaklık -7°'dir. Uyku tulumu -20°'ye kadar konforlu kabul ediliyor. Sıcaklık Rene'nin uyku tulumu için fazla soğuk olmadan önce kaç derece daha değişebilir?",
+    ],
+    [
+      "Explain why the difference of 9 and −6 is 15",
+      "9 ile -6'nın farkının neden 15 olduğunu açıklayın.",
+    ],
   ];
   const replacement = replacements.find(([source]) => text.includes(source))?.[1];
 

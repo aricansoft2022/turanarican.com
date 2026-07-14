@@ -1338,4 +1338,226 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "125": "tam-sayilarla-problem-cozme",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "tam-sayilar",
+    sourceNumber: "3.4",
+    catalogLesson: {
+      id: "lesson-subtract-integers",
+      slug: "tam-sayilarla-cikarma",
+      displayTitle: "Tam Sayılarla Çıkarma",
+      summary:
+        "Tam sayılarla çıkarmayı sayaç modeliyle anlamlandırın, zıttını ekleme kuralını kullanın ve uygulama problemlerini çözün.",
+      sortOrder: 4,
+    },
+    objectives: [
+      "Tam sayılarla çıkarmayı modelleyebileceksiniz.",
+      "Tam sayılar içeren çıkarma ifadelerini sadeleştirebileceksiniz.",
+      "Tam sayılarla verilen değişkenli ifadeleri değerlendirebileceksiniz.",
+      "Sözel ifadeleri cebirsel ifadelere çevirebileceksiniz.",
+      "Tam sayılarla çıkarma gerektiren problemleri çözebileceksiniz.",
+    ],
+    sectionTitles: {
+      "Model Subtraction of Integers": "Tam Sayılarla Çıkarmayı Modelleme",
+      "Simplify Expressions with Integers": "Tam Sayılarla Çıkarma İşlemi",
+      "Evaluate Variable Expressions with Integers":
+        "Değişkenli İfadeleri Değerlendirme",
+      "Translate Word Phrases to Algebraic Expressions":
+        "Sözel İfadeleri Cebirsel İfadeye Çevirme",
+      "Subtract Integers in Applications": "Tam Sayılarla Problem Çözme",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 3.59": p(
+        "Çözüm: 6 pozitif sayaçtan 4 pozitif sayaç çıkarılır; geriye 2 pozitif sayaç kalır. Bu nedenle 6-4=2.",
+      ),
+      "Sıra Sizde 3.60": p(
+        "Çözüm: 7 pozitif sayaçtan 4 pozitif sayaç çıkarılır ve geriye 3 pozitif sayaç kalır.",
+      ),
+      "Sıra Sizde 3.61": p(
+        "Çözüm: -6 sayacıyla başlayıp 4 negatif sayaç çıkarırız; geriye 2 negatif sayaç kalır. Sonuç -2'dir.",
+      ),
+      "Sıra Sizde 3.62": p(
+        "Çözüm: -7'den -4 çıkarmak 4 negatif sayacı kaldırmak demektir; geriye 3 negatif sayaç kalır. Sonuç -3'tür.",
+      ),
+      "Sıra Sizde 3.63": p(
+        "Çözüm: -6'dan 4 pozitif çıkarmak için 4 nötr çift eklenir, 4 pozitif sayaç kaldırılır ve geriye 10 negatif sayaç kalır. Sonuç -10'dur.",
+      ),
+      "Sıra Sizde 3.64": p(
+        "Çözüm: -7-4 işlemi -7+(-4) ile aynıdır. Aynı işaretli negatifler toplandığı için sonuç -11 olur.",
+      ),
+      "Sıra Sizde 3.65": p(
+        "Çözüm: 6'dan -4 çıkarmak, 4 eklemekle aynıdır. 6-(-4)=6+4=10.",
+      ),
+      "Sıra Sizde 3.66": p(
+        "Çözüm: Negatif bir sayıyı çıkarmak zıttını eklemek demektir: 7-(-4)=7+4=11.",
+      ),
+      "Sıra Sizde 3.67": p(
+        "Çözüm: ⓐ 7-(-8)=15. ⓑ -7-(-2)=-5. ⓒ 4-1=3. ⓓ -6-8=-14.",
+      ),
+      "Sıra Sizde 3.68": p(
+        "Çözüm: ⓐ 4-(-6)=10. ⓑ -8-(-1)=-7. ⓒ 7-3=4. ⓓ -4-2=-6.",
+      ),
+      "Sıra Sizde 3.69": p(
+        "Çözüm: ⓐ 7-9=-2. ⓑ -5-(-9)=-5+9=4.",
+      ),
+      "Sıra Sizde 3.70": p(
+        "Çözüm: ⓐ 4-7=-3. ⓑ -7-(-10)=-7+10=3.",
+      ),
+      "Sıra Sizde 3.71": p(
+        "Çözüm: ⓐ 21-13=8 ve 21+(-13)=8. ⓑ -11-7=-18 ve -11+(-7)=-18.",
+      ),
+      "Sıra Sizde 3.72": p(
+        "Çözüm: ⓐ 15-7=8 ve 15+(-7)=8. ⓑ -14-8=-22 ve -14+(-8)=-22.",
+      ),
+      "Sıra Sizde 3.73": p(
+        "Çözüm: ⓐ 6-(-13)=19 ve 6+13=19. ⓑ -5-(-1)=-4 ve -5+1=-4.",
+      ),
+      "Sıra Sizde 3.74": p(
+        "Çözüm: ⓐ 4-(-19)=23 ve 4+19=23. ⓑ -4-(-7)=3 ve -4+7=3.",
+      ),
+      "Sıra Sizde 3.75": p(
+        "Çözüm: -67-(-38) işleminde -38'in zıttı eklenir: -67+38=-29.",
+      ),
+      "Sıra Sizde 3.76": p(
+        "Çözüm: -83-(-57)=-83+57=-26 olur.",
+      ),
+      "Sıra Sizde 3.77": p(
+        "Çözüm: Önce parantez içi -3-1=-4 olur. Sonra 8-(-4)-9=8+4-9=3 bulunur.",
+      ),
+      "Sıra Sizde 3.78": p(
+        "Çözüm: Parantez içi -9-6=-15'tir. 12-(-15)-14=12+15-14=13 olur.",
+      ),
+      "Sıra Sizde 3.79": p(
+        "Çözüm: Önce çarpma yapılır: 6·2=12, 9·1=9, 8·9=72. Sonra 12-9-72=-69 bulunur.",
+      ),
+      "Sıra Sizde 3.80": p(
+        "Çözüm: Önce çarpımlar: 2·5=10, 3·7=21, 4·9=36. Sonra 10-21-36=-47 olur.",
+      ),
+      "Sıra Sizde 3.81": p(
+        "Çözüm: y=5 iken y-7=5-7=-2. y=-8 iken y-7=-8-7=-15.",
+      ),
+      "Sıra Sizde 3.82": p(
+        "Çözüm: m=1 iken m-3=1-3=-2. m=-4 iken m-3=-4-3=-7.",
+      ),
+      "Sıra Sizde 3.83": p(
+        "Çözüm: k=19 iken 17-k=17-19=-2. k=-19 iken 17-k=17-(-19)=36.",
+      ),
+      "Sıra Sizde 3.84": p(
+        "Çözüm: b=14 iken -5-b=-5-14=-19. b=-14 iken -5-b=-5-(-14)=9.",
+      ),
+      "Sıra Sizde 3.85": p(
+        "Çözüm: ⓐ 14 ile -23'ün farkı 14-(-23)=37'dir. ⓑ -17'den 21 çıkarmak -17-21=-38 verir.",
+      ),
+      "Sıra Sizde 3.86": p(
+        "Çözüm: ⓐ 11-(-19)=30. ⓑ -11'den 18 çıkarmak -11-18=-29 olur.",
+      ),
+      "Sıra Sizde 3.87": p(
+        "Çözüm: Sabah 15°F, öğleden sonra -30°F. Fark 15-(-30)=45°F olur.",
+      ),
+      "Sıra Sizde 3.88": p(
+        "Çözüm: Öğle sıcaklığı -6°F, gün batımı -15°F. Aradaki fark -6-(-15)=9°F'tır.",
+      ),
+      "Sıra Sizde 3.89": p(
+        "Çözüm: Zirve 10.023 feet, mağara -80 feet kabul edilir. Fark 10.023-(-80)=10.103 feet olur.",
+      ),
+      "Sıra Sizde 3.90": p(
+        "Çözüm: Nautilus -340 feet, Explorer -573 feet konumundadır. Fark -340-(-573)=233 feet'tir.",
+      ),
+      "Sıra Sizde 3.91": p(
+        "Çözüm: ⓐ 75-27=48 dolar. ⓑ 48-50=-2 dolar. ⓒ 20 dolarlık çek bozulmadığı için 20 geri eklenir; -2+20=18 dolar.",
+      ),
+      "Sıra Sizde 3.92": p(
+        "Çözüm: ⓐ -78+24=-54 dolar. ⓑ -54+49=-5 dolar; hâlâ borçtadır ve yeni bakiye -5 dolardır.",
+      ),
+    },
+    exerciseAnswers: {
+      "127": answer("Çözüm: 8 pozitif sayaçtan 2 pozitif sayaç çıkarılır; geriye 6 kalır."),
+      "129": answer("Çözüm: Negatif bir sayıyı çıkarmak zıttını eklemektir: -5-(-1)=-5+1=-4."),
+      "131": answer("Çözüm: -5-4, -5+(-4) ile aynıdır. Aynı işaretli negatifler toplandığı için sonuç -9 olur."),
+      "133": answer("Çözüm: 8-(-4)=8+4=12; çünkü -4'ü çıkarmak 4 eklemek demektir."),
+      "135": answer("Çözüm: ⓐ 15-6=9. ⓑ 15+(-6)=9. İki ifade aynı sonucu verir."),
+      "137": answer("Çözüm: ⓐ 44-28=16. ⓑ 44+(-28)=16; çıkarma, zıttını eklemeye dönüştü."),
+      "139": answer("Çözüm: ⓐ 8-(-9)=17. ⓑ 8+9=17; negatif çıkarmak pozitif eklemektir."),
+      "141": answer("Çözüm: ⓐ 27-(-18)=45. ⓑ 27+18=45. Sonuçlar aynıdır."),
+      "143": answer("Çözüm: -12'yi çıkarmak 12 eklemek demektir. Bu nedenle 15-(-12)=15+12=27 olur."),
+      "145": answer("Çözüm: -19'u çıkarmak 19 eklemek demektir: 10-(-19)=29."),
+      "147": answer("Çözüm: 48-87=48+(-87)=-39; çünkü 87'nin mutlak değeri daha büyüktür."),
+      "149": answer("Çözüm: 79'u çıkarmak -79 eklemekle aynıdır. 31+(-79)=-48 olur."),
+      "151": answer("Çözüm: 11 çıkarmak -11 eklemek demektir. -31+(-11)=-42 bulunur."),
+      "153": answer("Çözüm: 42 çıkarmayı -42 ekleme olarak yazarız: -17+(-42)=-59 olur."),
+      "155": answer("Çözüm: -52'yi çıkarmak 52 eklemektir. -103+52=-51 bulunur."),
+      "157": answer("Çözüm: -54'ü çıkarmak 54 eklemek demektir. -45+54=9 bulunur."),
+      "159": answer("Çözüm: Soldan sağa ilerleriz: 8-3=5 ve 5-7=-2."),
+      "161": answer("Çözüm: Önce -5-4=-9, sonra -9+7=-2 olur."),
+      "163": answer("Çözüm: -27'yi çıkarmak 27 eklemek demektir. Bu yüzden -14-(-27)+9=-14+27+9=22 bulunur."),
+      "165": answer("Çözüm: Soldan sağa ilerleriz. Önce 71+(-10)=61, sonra 61-8=53 olur."),
+      "167": answer("Çözüm: Önce parantez: -4+1=-3. Sonra -16-(-3)-7=-16+3-7=-20."),
+      "169": answer("Çözüm: (2-7)=-5 ve (3-8)=-5. Bu nedenle -5-(-5)=0."),
+      "171": answer("Çözüm: 6-8=-2 olduğu için -(6-8)=2. Ayrıca 2-4=-2; 2-(-2)=4 bulunur."),
+      "173": answer("Çözüm: Önce 3-12=-9, sonra 10-(-9)=19 ve en son 25-19=6 olur."),
+      "175": answer("Çözüm: Önce çarpımlar: 6·3=18, 4·3=12, 7·2=14. Sonra 18-12-14=-8."),
+      "177": answer("Çözüm: Üsler önce hesaplanır: 5²=25 ve 6²=36. 25-36=-11 olur."),
+      "179": answer("Çözüm: x=3 iken x-6=3-6=-3. x=-3 iken x-6=-3-6=-9."),
+      "181": answer("Çözüm: y=2 iken 5-y=5-2=3. y=-2 iken 5-y=5-(-2)=7."),
+      "183": answer("Çözüm: x=3 yazılır: 4·3²-15·3+1=4·9-45+1=36-45+1=-8."),
+      "185": answer("Çözüm: x=6 için -12-5x²=-12-5·36=-12-180=-192 olur."),
+      "187": answer("Çözüm: ⓐ 3 ile -10'un farkı 3-(-10)=13. ⓑ 45'ten -20 çıkarmak 45-(-20)=65 verir."),
+      "189": answer("Çözüm: ⓐ -6 ile 9'un farkı -6-9=-15. ⓑ -16'dan -12 çıkarmak -16-(-12)=-4 verir."),
+      "191": answer("Çözüm: ⓐ -17'den 8 eksik, -17-8=-25'tir. ⓑ -24-37=-61 olur."),
+      "193": answer("Çözüm: ⓐ 6'dan 21 eksik, 6-21=-15'tir. ⓑ -19'dan 31 çıkarılır: -19-31=-50."),
+      "195": answer("Çözüm: Sıcaklık 28°F iken 38°F düştüyse 28-38=-10 olur. Akşam sıcaklığı -10°F'tır."),
+      "197": answer("Çözüm: Anaheim 84°F, Embarrass -12°F'tır. Fark 84-(-12)=96°F olur."),
+      "199": answer("Çözüm: Başlangıç 30 yard çizgisidir. 30+2-7-4=21; top 21 yard çizgisindedir."),
+      "201": answer("Çözüm: Hesapta 148 dolar vardır ve 83 dolarlık çek yazılır. Yeni bakiye 148-83=65 dolardır."),
+      "203": answer("Çözüm: 210 dolardan 250 dolar çıkarsa 210-250=-40 olur; hesap 40 dolar eksiye düşer."),
+      "205": answer("Çözüm: Başlangıç bakiyesi -14 dolardır. 40 dolar yatırılınca -14+40=26 dolar olur."),
+      "207": answer("Çözüm: Sıcaklık -7° iken sınır -20°'dir. -7'den -20'ye düşüş 13 derecedir."),
+      "209": answer("Çözüm: 9 ile -6'nın farkı 9-(-6) olarak yazılır. -6'yı çıkarmak 6 eklemek olduğu için 9+6=15 olur."),
+    },
+    exerciseSectionSlugs: {
+      "127": "tam-sayilarla-cikarmayi-modelleme",
+      "129": "tam-sayilarla-cikarmayi-modelleme",
+      "131": "tam-sayilarla-cikarmayi-modelleme",
+      "133": "tam-sayilarla-cikarmayi-modelleme",
+      "135": "tam-sayilarla-cikarma-islemi",
+      "137": "tam-sayilarla-cikarma-islemi",
+      "139": "tam-sayilarla-cikarma-islemi",
+      "141": "tam-sayilarla-cikarma-islemi",
+      "143": "tam-sayilarla-cikarma-islemi",
+      "145": "tam-sayilarla-cikarma-islemi",
+      "147": "tam-sayilarla-cikarma-islemi",
+      "149": "tam-sayilarla-cikarma-islemi",
+      "151": "tam-sayilarla-cikarma-islemi",
+      "153": "tam-sayilarla-cikarma-islemi",
+      "155": "tam-sayilarla-cikarma-islemi",
+      "157": "tam-sayilarla-cikarma-islemi",
+      "159": "tam-sayilarla-cikarma-islemi",
+      "161": "tam-sayilarla-cikarma-islemi",
+      "163": "tam-sayilarla-cikarma-islemi",
+      "165": "tam-sayilarla-cikarma-islemi",
+      "167": "tam-sayilarla-cikarma-islemi",
+      "169": "tam-sayilarla-cikarma-islemi",
+      "171": "tam-sayilarla-cikarma-islemi",
+      "173": "tam-sayilarla-cikarma-islemi",
+      "175": "tam-sayilarla-cikarma-islemi",
+      "177": "tam-sayilarla-cikarma-islemi",
+      "179": "degiskenli-ifadeleri-degerlendirme",
+      "181": "degiskenli-ifadeleri-degerlendirme",
+      "183": "degiskenli-ifadeleri-degerlendirme",
+      "185": "degiskenli-ifadeleri-degerlendirme",
+      "187": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "189": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "191": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "193": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "195": "tam-sayilarla-problem-cozme",
+      "197": "tam-sayilarla-problem-cozme",
+      "199": "tam-sayilarla-problem-cozme",
+      "201": "tam-sayilarla-problem-cozme",
+      "203": "tam-sayilarla-problem-cozme",
+      "205": "tam-sayilarla-problem-cozme",
+      "207": "tam-sayilarla-problem-cozme",
+      "209": "tam-sayilarla-problem-cozme",
+    },
+  },
 ];
