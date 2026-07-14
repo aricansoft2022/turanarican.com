@@ -1,0 +1,3309 @@
+{
+  "schemaVersion": 1,
+  "sourceFixture": "data/generated/seed-lessons.json",
+  "rows": {
+    "books": [
+      {
+        "id": "book-prealgebra-2e",
+        "slug": "prealgebra-2e",
+        "title": "Ön Cebir 2e",
+        "subtitle": "Cebir diline güçlü bir başlangıç",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)",
+        "sourcePlatform": "LibreTexts",
+        "licenseName": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "attributionText": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir.",
+        "language": "tr",
+        "numberingPolicy": "skip_intro_shift",
+        "status": "draft"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "chapter-language-of-algebra",
+        "bookId": "book-prealgebra-2e",
+        "slug": "cebir-diline-giris",
+        "sourceNumber": "2",
+        "displayNumber": "2",
+        "sourceTitle": "Introduction to the Language of Algebra",
+        "displayTitle": "Cebir Diline Giriş",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra",
+        "sortOrder": 2
+      }
+    ],
+    "lessons": [
+      {
+        "id": "lesson-evaluate-simplify-translate",
+        "chapterId": "chapter-language-of-algebra",
+        "slug": "ifadeleri-degerlendirme-sadelestirme-cevirme",
+        "sourceNumber": "2.3",
+        "displayNumber": "2.2",
+        "sourceTitle": "Evaluate, Simplify, and Translate Expressions",
+        "displayTitle": "İfadeleri Değerlendirme, Sadeleştirme ve Çevirme",
+        "summary": "Değişkenleri sayılarla değiştirin, benzer terimleri birleştirin ve sözcük öbeklerini cebirsel ifadelere çevirin.",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions",
+        "sortOrder": 3,
+        "status": "draft",
+        "rawHash": "6d7017f814d22bb79dbe0d49f1a6a4868ca3cab2c4152139b0317cbd3b171ec6"
+      }
+    ],
+    "lessonSections": [
+      {
+        "id": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-01",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "heading": "Cebirsel İfadeleri Değerlendirme",
+        "slug": "cebirsel-ifadeleri-degerlendirme",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the last section, we simplified expressions using the order of operations. In this section, we’ll evaluate expressions—again following the order of operations."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "To evaluate an algebraic expression means to find the value of the expression when the variable is replaced by a given number. To evaluate an expression, we substitute the given number for the variable in the expression and then simplify the expression using the order of operations."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Example 2.13",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate "
+              },
+              {
+                "type": "math",
+                "value": "x+7"
+              },
+              {
+                "type": "text",
+                "value": " when  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=12"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ To evaluate, substitute "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " for "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " in the expression, and then simplify."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Substitute."
+                  ],
+                  [
+                    "Add."
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "When "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=3,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " the expression "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x+7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " has a value of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ To evaluate, substitute "
+                  },
+                  {
+                    "type": "math",
+                    "value": "12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " for "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " in the expression, and then simplify."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Substitute."
+                  ],
+                  [
+                    "Add."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "When "
+              },
+              {
+                "type": "math",
+                "value": "x=12,"
+              },
+              {
+                "type": "text",
+                "value": " the expression "
+              },
+              {
+                "type": "math",
+                "value": "x+7"
+              },
+              {
+                "type": "text",
+                "value": " has a value of "
+              },
+              {
+                "type": "math",
+                "value": "19."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Notice that we got different results for parts ⓐ and ⓑ even though we started with the same expression. This is because the values used for "
+              },
+              {
+                "type": "math",
+                "value": "x"
+              },
+              {
+                "type": "text",
+                "value": " were different. When we evaluate an expression, the value varies depending on the value used for the variable."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.25",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "y+4 \\text{when}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "y=6"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "y=15"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.26",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "a-5 \\text{when}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "a=9"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "a=17"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Example 2.14",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate "
+              },
+              {
+                "type": "math",
+                "value": "9x-2,\\text{when}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "x=5"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=1"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Remember "
+                  },
+                  {
+                    "type": "math",
+                    "value": "ab"
+                  },
+                  {
+                    "type": "text",
+                    "value": " means "
+                  },
+                  {
+                    "type": "math",
+                    "value": "a"
+                  },
+                  {
+                    "type": "text",
+                    "value": " times "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " so "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " means "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " times "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ To evaluate the expression when "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=5,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " we substitute "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " for "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and then simplify."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Multiply."
+                  ],
+                  [
+                    "Subtract."
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ To evaluate the expression when "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=1,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " we substitute "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " for "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and then simplify."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Multiply."
+                  ],
+                  [
+                    "Subtract."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Notice that in part ⓐ that we wrote "
+              },
+              {
+                "type": "math",
+                "value": "9\\cdot5"
+              },
+              {
+                "type": "text",
+                "value": " and in part ⓑ we wrote "
+              },
+              {
+                "type": "math",
+                "value": "9(1)."
+              },
+              {
+                "type": "text",
+                "value": " Both the dot and the parentheses tell us to multiply."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.27",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "8x-3,\\text{when}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "x=2"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=1"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.28",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "4y-4,\\text{when}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "y=3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "y=5"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Example 2.15",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate "
+              },
+              {
+                "type": "math",
+                "value": "x^{2}"
+              },
+              {
+                "type": "text",
+                "value": " when "
+              },
+              {
+                "type": "math",
+                "value": "x=10."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "We substitute "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " for "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and then simplify the expression."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Use the definition of exponent."
+                  ],
+                  [
+                    "Multiply."
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "When "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=10,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " the expression "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " has a value of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "100."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.29",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "x^{2} \\text{when} x=8."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.30",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "x^{3} \\text{when} x=6."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Example 2.16",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\text{Evaluate} 2^{x} \\text{when} x=5."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "In this expression, the variable is an exponent."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Use the definition of exponent."
+                  ],
+                  [
+                    "Multiply."
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "When "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=5,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " the expression "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2^{x}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " has a value of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "32."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.31",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "2^{x} \\text{when} x=6."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.32",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "3^{x} \\text{when} x=4."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Example 2.17",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\text{Evaluate} 3x+4y-6 \\text{when} x=10 \\text{and} y=2."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "This expression contains two variables, so we must make two substitutions."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Multiply."
+                  ],
+                  [
+                    "Add and subtract left to right."
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "When "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=2,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " the expression "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3x+4y-6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " has a value of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "32."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.33",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "2x+5y-4 \\text{when} x=11 \\text{and} y=3"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.34",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "5x-2y-9 \\text{when} x=7 \\text{and} y=8"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Example 2.18",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\text{Evaluate} 2x^{2}+3x+8 \\text{when} x=4."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "We need to be careful when an expression has a variable with an exponent. In this expression, "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2x^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " means "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\cdotx\\cdotx"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and is different from the expression "
+                  },
+                  {
+                    "type": "math",
+                    "value": "{(2x)}^{2},"
+                  },
+                  {
+                    "type": "text",
+                    "value": " which means "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2x\\cdot2x."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Simplify 4^{2} ."
+                  ],
+                  [
+                    "Multiply."
+                  ],
+                  [
+                    "Add."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.35",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "3x^{2}+4x+1 \\text{when} x=3."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.36",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Evaluate: "
+              },
+              {
+                "type": "math",
+                "value": "6x^{2}-4x-7 \\text{when} x=2."
+              }
+            ],
+            "solution": []
+          }
+        ]
+      },
+      {
+        "id": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-02",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "heading": "Terimleri, Katsayıları ve Benzer Terimleri Belirleme",
+        "slug": "terimleri-katsayilari-ve-benzer-terimleri-belirleme",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Algebraic expressions are made up of terms. A term is a constant or the product of a constant and one or more variables. Some examples of terms are "
+              },
+              {
+                "type": "math",
+                "value": "7,y,5x^{2},9a,\\text{and} 13xy."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "The constant that multiplies the variable(s) in a term is called the coefficient. We can think of the coefficient as the number in front of the variable. The coefficient of the term "
+              },
+              {
+                "type": "math",
+                "value": "3xTable 2.5 gives the coefficients for each of the terms in the left column."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Term",
+              "Coefficient"
+            ],
+            "rows": [
+              [
+                "9a",
+                "9"
+              ],
+              [
+                "y",
+                "1"
+              ],
+              [
+                "5x^{2}",
+                "5"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "An algebraic expression may consist of one or more terms added or subtracted. In this chapter, we will only work with terms that are added together. Table 2.6 gives some examples of algebraic expressions with various numbers of terms. Notice that we include the operation before a term with it."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Expression",
+              "Terms"
+            ],
+            "rows": [
+              [
+                "7",
+                "7"
+              ],
+              [
+                "y",
+                "y"
+              ],
+              [
+                "x+7",
+                "x,7"
+              ],
+              [
+                "2x+7y+4",
+                "2x,7y,4"
+              ],
+              [
+                "3x^{2}+4x^{2}+5y+3",
+                "3x^{2},4x^{2},5y,3"
+              ]
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Example 2.19",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify each term in the expression "
+              },
+              {
+                "type": "math",
+                "value": "9b+15x^{2}+a+6."
+              },
+              {
+                "type": "text",
+                "value": " Then identify the coefficient of each term."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The expression has four terms. They are "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9b,15x^{2},a,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The coefficient of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9b"
+                  },
+                  {
+                    "type": "text",
+                    "value": " is "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The coefficient of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15x^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " is "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Remember that if no number is written before a variable, the coefficient is "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1."
+                  },
+                  {
+                    "type": "text",
+                    "value": " So the coefficient of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "a"
+                  },
+                  {
+                    "type": "text",
+                    "value": " is "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The coefficient of a constant is the constant, so the coefficient of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " is "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.37",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify all terms in the given expression, and their coefficients: "
+              },
+              {
+                "type": "math",
+                "value": "4x+3b+2"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.38",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify all terms in the given expression, and their coefficients: "
+              },
+              {
+                "type": "math",
+                "value": "9a+13a^{2}+a^{3}"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Some terms share common traits. Look at the following terms. Which ones seem to have traits in common?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "5x,7,n^{2},4,3x,9n^{2}"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Which of these terms are like terms?"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              [
+                {
+                  "type": "text",
+                  "value": "The terms "
+                },
+                {
+                  "type": "math",
+                  "value": "7"
+                },
+                {
+                  "type": "text",
+                  "value": " and "
+                },
+                {
+                  "type": "math",
+                  "value": "4"
+                },
+                {
+                  "type": "text",
+                  "value": " are both constant terms."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "value": "The terms "
+                },
+                {
+                  "type": "math",
+                  "value": "5x"
+                },
+                {
+                  "type": "text",
+                  "value": " and "
+                },
+                {
+                  "type": "math",
+                  "value": "3x"
+                },
+                {
+                  "type": "text",
+                  "value": " are both terms with "
+                },
+                {
+                  "type": "math",
+                  "value": "x."
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "value": "The terms "
+                },
+                {
+                  "type": "math",
+                  "value": "n^{2}"
+                },
+                {
+                  "type": "text",
+                  "value": " and "
+                },
+                {
+                  "type": "math",
+                  "value": "9n^{2}"
+                },
+                {
+                  "type": "text",
+                  "value": " both have "
+                },
+                {
+                  "type": "math",
+                  "value": "n^{2}."
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Terms are called like terms if they have the same variables and exponents. All constant terms are also like terms. So among the terms "
+              },
+              {
+                "type": "math",
+                "value": "5x,7,n^{2},4,3x,9n^{2},"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "7 \\text{and} 4 \\text{are like terms.}"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "5x \\text{and} 3x \\text{are like terms.}"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "n^{2} \\text{and} 9n^{2} \\text{are like terms.}"
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Example 2.20",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify the like terms:  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "y^{3},7x^{2},14,23,4y^{3},9x,5x^{2}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "4x^{2}+2x+5x^{2}+6x+40x+8xy"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y^{3},7x^{2},14,23,4y^{3},9x,5x^{2}"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Look at the variables and exponents. The expression contains "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y^{3},x^{2},x,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and constants."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The terms "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y^{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4y^{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " are like terms because they both have "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y^{3}."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The terms "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7x^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5x^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " are like terms because they both have "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x^{2}."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The terms "
+                  },
+                  {
+                    "type": "math",
+                    "value": "14"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "23"
+                  },
+                  {
+                    "type": "text",
+                    "value": " are like terms because they are both constants."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The term "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " does not have any like terms in this list since no other terms have the variable "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " raised to the power of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4x^{2}+2x+5x^{2}+6x+40x+8xy"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Look at the variables and exponents. The expression contains the terms "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4x^{2},2x,5x^{2},6x,40x,\\text{and} 8xy"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The terms "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4x^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5x^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " are like terms because they both have "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x^{2}."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The terms "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2x,6x,\\text{and} 40x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " are like terms because they all have "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The term "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8xy"
+                  },
+                  {
+                    "type": "text",
+                    "value": " has no like terms in the given expression because no other terms contain the two variables "
+                  },
+                  {
+                    "type": "math",
+                    "value": "xy."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.39",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify the like terms in the list or the expression: "
+              },
+              {
+                "type": "math",
+                "value": "9,2x^{3},y^{2},8x^{3},15,9y,11y^{2}"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.40",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify the like terms in the list or the expression: "
+              },
+              {
+                "type": "math",
+                "value": "4x^{3}+8x^{2}+19+3x^{2}+24+6x^{3}"
+              }
+            ],
+            "solution": []
+          }
+        ]
+      },
+      {
+        "id": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-03",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "heading": "Benzer Terimleri Birleştirerek İfadeleri Sadeleştirme",
+        "slug": "benzer-terimleri-birlestirerek-ifadeleri-sadelestirme",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "We can simplify an expression by combining the like terms. What do you think "
+              },
+              {
+                "type": "math",
+                "value": "3x+6x"
+              },
+              {
+                "type": "text",
+                "value": " would simplify to? If you thought "
+              },
+              {
+                "type": "math",
+                "value": "9x,"
+              },
+              {
+                "type": "text",
+                "value": " you would be right!"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "We can see why this works by writing both terms as addition problems."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "The image shows the expression 3 x plus 6 x. The 3 x represents x plus x plus x. The 6 x represents x plus x plus x plus x plus x plus x. The expression 3 x plus 6 x becomes x plus x plus x plus x plus x plus x plus x plus x plus x. This simplifies to a total of 9 x's or the term 9 x."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Add the coefficients and keep the same variable. It doesn’t matter what "
+              },
+              {
+                "type": "math",
+                "value": "x"
+              },
+              {
+                "type": "text",
+                "value": " is. If you have "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": " of something and add "
+              },
+              {
+                "type": "math",
+                "value": "6"
+              },
+              {
+                "type": "text",
+                "value": " more of the same thing, the result is "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": " of them. For example, "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": " oranges plus "
+              },
+              {
+                "type": "math",
+                "value": "6"
+              },
+              {
+                "type": "text",
+                "value": " oranges is "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": " oranges. We will discuss the mathematical properties behind this later."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "The expression "
+              },
+              {
+                "type": "math",
+                "value": "3x+6x"
+              },
+              {
+                "type": "text",
+                "value": " has only two terms. When an expression contains more terms, it may be helpful to rearrange the terms so that like terms are together. The Commutative Property of Addition says that we can change the order of addends without changing the sum. So we could rearrange the following expression before combining like terms."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "The image shows the expression 3 x plus 4 y plus 2 x plus 6 y. The position of the middle terms, 4 y and 2 x, can be switched so that the expression becomes 3 x plus 2 x plus 4 y plus 6 y. Now the terms containing x are together and the terms containing y are together."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Now it is easier to see the like terms to be combined."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Example 2.21",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Simplify the expression: "
+              },
+              {
+                "type": "math",
+                "value": "3x+7+4x+5."
+              }
+            ],
+            "solution": [
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Identify the like terms."
+                  ],
+                  [
+                    "Rearrange the expression, so the like terms are together."
+                  ],
+                  [
+                    "Add the coefficients of the like terms."
+                  ],
+                  [
+                    "The original expression is simplified to..."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.41",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Simplify: "
+              },
+              {
+                "type": "math",
+                "value": "7x+9+9x+8"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.42",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Simplify: "
+              },
+              {
+                "type": "math",
+                "value": "5y+2+8y+4y+5"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "When any of the terms have negative coefficients, the procedure is the same, except that you have to subtract instead of adding to combine like terms."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Example 2.22",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Simplify the expression: "
+              },
+              {
+                "type": "math",
+                "value": "7x^{2}+8x–x^{2}–4x."
+              }
+            ],
+            "solution": [
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Identify the like terms."
+                  ],
+                  [
+                    "Rearrange the expression so like terms are together."
+                  ],
+                  [
+                    "Add the coefficients of the like terms."
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "These are not like terms and cannot be combined. So "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6x^{2}+4x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " is in simplest form."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.43",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Simplify: "
+              },
+              {
+                "type": "math",
+                "value": "3x^{2}+9x+x^{2}+5x"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.44",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Simplify: "
+              },
+              {
+                "type": "math",
+                "value": "11y^{2}+8y+y^{2}+7y"
+              }
+            ],
+            "solution": []
+          }
+        ]
+      },
+      {
+        "id": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-04",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "heading": "Sözcük Öbeklerini Cebirsel İfadelere Çevirme",
+        "slug": "sozcuk-obeklerini-cebirsel-ifadelere-cevirme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the previous section, we listed many operation symbols that are used in algebra, and then we translated expressions and equations into word phrases and sentences. Now we’ll reverse the process and translate word phrases into algebraic expressions. The symbols and variables we’ve talked about will help us do that. They are summarized in Table 2.7."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Operation",
+              "Phrase",
+              "Expression"
+            ],
+            "rows": [
+              [
+                "Addition",
+                "a plus b the sum of a and b a increased by b b more than a the total of a and b b added to a",
+                "a+b"
+              ],
+              [
+                "Subtraction",
+                "a minus b the difference of a and b b subtracted from a a decreased by b b less than a",
+                "a-b"
+              ],
+              [
+                "Multiplication",
+                "a times b the product of a and b",
+                "a\\cdotb , ab , a(b) , (a)(b)"
+              ],
+              [
+                "Division",
+                "a divided by b the quotient of a and b the ratio of a and b b divided into a",
+                "a\\divb , a/b , \\frac{a}{b} , ba"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Look closely at these phrases using the four operations:"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              [
+                {
+                  "type": "text",
+                  "value": "the sum of "
+                },
+                {
+                  "type": "math",
+                  "value": "a"
+                },
+                {
+                  "type": "text",
+                  "value": " and "
+                },
+                {
+                  "type": "math",
+                  "value": "b"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "value": "the difference of "
+                },
+                {
+                  "type": "math",
+                  "value": "a"
+                },
+                {
+                  "type": "text",
+                  "value": " and "
+                },
+                {
+                  "type": "math",
+                  "value": "b"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "value": "the product of "
+                },
+                {
+                  "type": "math",
+                  "value": "a"
+                },
+                {
+                  "type": "text",
+                  "value": " and "
+                },
+                {
+                  "type": "math",
+                  "value": "b"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "value": "the quotient of "
+                },
+                {
+                  "type": "math",
+                  "value": "a"
+                },
+                {
+                  "type": "text",
+                  "value": " and "
+                },
+                {
+                  "type": "math",
+                  "value": "b"
+                }
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Each phrase tells you to operate on two numbers. Look for the words of and and to find the numbers."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Example 2.23",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate each word phrase into an algebraic expression:  ⓐ the difference of "
+              },
+              {
+                "type": "math",
+                "value": "20"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "4"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ the quotient of "
+              },
+              {
+                "type": "math",
+                "value": "10x"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ The key word is difference, which tells us the operation is subtraction. Look for the words of and and to find the numbers to subtract."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{array}{l}\\text{the difference} \\text{of} 20 and 4 \\\\ 20 \\text{minus} 4 \\\\ 20-4\\end{array}"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ The key word is quotient, which tells us the operation is division."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{array}{l}\\text{the quotient of} 10x \\text{and} 3 \\\\ \\text{divide} 10x \\text{by} 3 \\\\ 10x\\div3\\end{array}"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "This can also be written as "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\begin{array}{l}10x/3 \\text{or} \\frac{10x}{3}\\end{array}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.45",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate the given word phrase into an algebraic expression:  ⓐ the difference of "
+              },
+              {
+                "type": "math",
+                "value": "47"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "41"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ the quotient of "
+              },
+              {
+                "type": "math",
+                "value": "5x"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.46",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate the given word phrase into an algebraic expression:  ⓐ the sum of "
+              },
+              {
+                "type": "math",
+                "value": "17"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "19"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ the product of "
+              },
+              {
+                "type": "math",
+                "value": "7"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "x"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "How old will you be in eight years? What age is eight more years than your age now? Did you add "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " to your present age? Eight more than means eight added to your present age."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "How old were you seven years ago? This is seven years less than your age now. You subtract "
+              },
+              {
+                "type": "math",
+                "value": "7"
+              },
+              {
+                "type": "text",
+                "value": " from your present age. Seven less than means seven subtracted from your present age."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Example 2.24",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate each word phrase into an algebraic expression:  ⓐ Eight more than "
+              },
+              {
+                "type": "math",
+                "value": "y"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ Seven less than "
+              },
+              {
+                "type": "math",
+                "value": "9z"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ The key words are more than. They tell us the operation is addition. More than means “added to”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{array}{l}\\text{Eight more than} y \\\\ \\text{Eight added to} y \\\\ y+8\\end{array}"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ The key words are less than. They tell us the operation is subtraction. Less than means “subtracted from”."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{array}{l}\\text{Seven less than} 9z \\\\ \\text{Seven subtracted from} 9z \\\\ 9z-7\\end{array}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.47",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate each word phrase into an algebraic expression:  ⓐ Eleven more than "
+              },
+              {
+                "type": "math",
+                "value": "x"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ Fourteen less than "
+              },
+              {
+                "type": "math",
+                "value": "11a"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.48",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate each word phrase into an algebraic expression:  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "19"
+              },
+              {
+                "type": "text",
+                "value": " more than "
+              },
+              {
+                "type": "math",
+                "value": "j"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "21"
+              },
+              {
+                "type": "text",
+                "value": " less than "
+              },
+              {
+                "type": "math",
+                "value": "2x"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Example 2.25",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate each word phrase into an algebraic expression:  ⓐ five times the sum of "
+              },
+              {
+                "type": "math",
+                "value": "m"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "n"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ the sum of five times "
+              },
+              {
+                "type": "math",
+                "value": "m"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "n"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ There are two operation words: times tells us to multiply and sum tells us to add. Because we are multiplying "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " times the sum, we need parentheses around the sum of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "five times the sum of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n"
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\begin{array}{l}5(m+n)\\end{array}"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ To take a sum, we look for the words of and and to see what is being added. Here we are taking the sum of five times "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "the sum of five times "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n"
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\begin{array}{l}5m+n\\end{array}"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Notice how the use of parentheses changes the result. In part ⓐ, we add first and in part ⓑ, we multiply first."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.49",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate the word phrase into an algebraic expression:  ⓐ four times the sum of "
+              },
+              {
+                "type": "math",
+                "value": "p"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "q"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ the sum of four times "
+              },
+              {
+                "type": "math",
+                "value": "p"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "q"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.50",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Translate the word phrase into an algebraic expression:  ⓐ the difference of two times "
+              },
+              {
+                "type": "math",
+                "value": "x \\text{and 8}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ two times the difference of "
+              },
+              {
+                "type": "math",
+                "value": "x \\text{and} 8"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Later in this course, we’ll apply our skills in algebra to solving equations. We’ll usually start by translating a word phrase to an algebraic expression. We’ll need to be clear about what the expression will represent. We’ll see how to do this in the next two examples."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Example 2.26",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "The height of a rectangular window is "
+              },
+              {
+                "type": "math",
+                "value": "6"
+              },
+              {
+                "type": "text",
+                "value": " inches less than the width. Let "
+              },
+              {
+                "type": "math",
+                "value": "w"
+              },
+              {
+                "type": "text",
+                "value": " represent the width of the window. Write an expression for the height of the window."
+              }
+            ],
+            "solution": [
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Write a phrase about the height.",
+                    "6 less than the width"
+                  ],
+                  [
+                    "Substitute w for the width.",
+                    "6 less than w"
+                  ],
+                  [
+                    "Rewrite 'less than' as 'subtracted from'.",
+                    "6 subtracted from w"
+                  ],
+                  [
+                    "Translate the phrase into algebra.",
+                    "w-6"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.51",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "The length of a rectangle is "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": " inches less than the width. Let "
+              },
+              {
+                "type": "math",
+                "value": "w"
+              },
+              {
+                "type": "text",
+                "value": " represent the width of the rectangle. Write an expression for the length of the rectangle."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.52",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "The width of a rectangle is "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " meters greater than the length. Let "
+              },
+              {
+                "type": "math",
+                "value": "l"
+              },
+              {
+                "type": "text",
+                "value": " represent the length of the rectangle. Write an expression for the width of the rectangle."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Example 2.27",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Blanca has dimes and quarters in her purse. The number of dimes is "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " less than "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": " times the number of quarters. Let "
+              },
+              {
+                "type": "math",
+                "value": "q"
+              },
+              {
+                "type": "text",
+                "value": " represent the number of quarters. Write an expression for the number of dimes."
+              }
+            ],
+            "solution": [
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Write a phrase about the number of dimes.",
+                    "two less than five times the number of quarters"
+                  ],
+                  [
+                    "Substitute q for the number of quarters.",
+                    "2 less than five times q"
+                  ],
+                  [
+                    "Translate 5 times q .",
+                    "2 less than 5q"
+                  ],
+                  [
+                    "Translate the phrase into algebra.",
+                    "5q-2"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.53",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Geoffrey has dimes and quarters in his pocket. The number of dimes is seven less than six times the number of quarters. Let "
+              },
+              {
+                "type": "math",
+                "value": "q"
+              },
+              {
+                "type": "text",
+                "value": " represent the number of quarters. Write an expression for the number of dimes."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Try It 2.54",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Lauren has dimes and nickels in her purse. The number of dimes is eight more than four times the number of nickels. Let "
+              },
+              {
+                "type": "math",
+                "value": "n"
+              },
+              {
+                "type": "text",
+                "value": " represent the number of nickels. Write an expression for the number of dimes."
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Identify Terms, Coefficients, and Like Terms"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, list the terms in the given expression."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, identify the coefficient of the given term."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, identify all sets of like terms."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Simplify Expressions by Combining Like Terms"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, simplify the given expression by combining like terms."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Translate English Phrases into Algebraic Expressions"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, translate the given word phrase into an algebraic expression."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, write an algebraic expression."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "id": "lesson-evaluate-simplify-translate-exercise-69",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-01",
+        "number": "69",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "7x+8 \\text{when} x=2"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "math",
+            "value": "22"
+          }
+        ],
+        "sortOrder": 69,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-exercise-79",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-01",
+        "number": "79",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "x^{2}+3x-7 \\text{when} x=4"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "math",
+            "value": "21"
+          }
+        ],
+        "sortOrder": 79,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-exercise-101",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sectionId": null,
+        "number": "101",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "10x+3x"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "math",
+            "value": "13x"
+          }
+        ],
+        "sortOrder": 101,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-exercise-135",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-04",
+        "number": "135",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Five times the sum of "
+          },
+          {
+            "type": "math",
+            "value": "x"
+          },
+          {
+            "type": "text",
+            "value": " and "
+          },
+          {
+            "type": "math",
+            "value": "y"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "math",
+            "value": "5(x+y)"
+          }
+        ],
+        "sortOrder": 135,
+        "difficulty": null,
+        "tagsJson": null
+      }
+    ],
+    "sourceSnapshots": [
+      {
+        "id": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions",
+        "httpStatus": 200,
+        "contentHash": "6d7017f814d22bb79dbe0d49f1a6a4868ca3cab2c4152139b0317cbd3b171ec6",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      }
+    ],
+    "sourceAssets": [
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-037-8ccda13f538d4cb7",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102586/370f941ea7aba7878b7265f7080b65423d8a2d4a?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the expression 3 x plus 6 x. The 3 x represents x plus x plus x. The 6 x represents x plus x plus x plus x plus x plus x. The expression 3 x plus 6 x becomes x plus x plus x plus x plus x plus x plus x plus x plus x. This simplifies to a total of 9 x's or the term 9 x.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/037-8ccda13f538d4cb7.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/037-8ccda13f538d4cb7.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-038-2fa9df1aa449b98d",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102589/6b8fe5a43393eec2de6f317a1df31979c58711e6?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the expression 3 x plus 4 y plus 2 x plus 6 y. The position of the middle terms, 4 y and 2 x, can be switched so that the expression becomes 3 x plus 2 x plus 4 y plus 6 y. Now the terms containing x are together and the terms containing y are together.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/038-2fa9df1aa449b98d.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/038-2fa9df1aa449b98d.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-bb9f8b80e6cf81eb",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓐ To evaluate, substitute 33 for xx in the expression, and then simplify.",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/bb9f8b80e6cf81eb.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/bb9f8b80e6cf81eb.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-8765006324c207d1",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓑ To evaluate, substitute 1212 for xx in the expression, and then simplify.",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/8765006324c207d1.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/8765006324c207d1.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-a56f2944255908d1",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓐ To evaluate the expression when x=5,x=5, we substitute 55 for x,x, and then simplify.",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/a56f2944255908d1.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/a56f2944255908d1.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-5d105c76742c5c81",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓑ To evaluate the expression when x=1,x=1, we substitute 11 for x,x, and then simplify.",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/5d105c76742c5c81.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/5d105c76742c5c81.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-568fa18bbc0c48f8",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We substitute 1010 for x,x, and then simplify the expression.",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/568fa18bbc0c48f8.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/568fa18bbc0c48f8.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-1ebdc0eeba94788a",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": "In this expression, the variable is an exponent.",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/1ebdc0eeba94788a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/1ebdc0eeba94788a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-17351c21bdceaf3c",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": "This expression contains two variables, so we must make two substitutions.",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/17351c21bdceaf3c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/17351c21bdceaf3c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-27e3139e2809f37d",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We need to be careful when an expression has a variable with an exponent. In this expression, 2x22x2 means 2⋅x⋅x2⋅x⋅x and is different from the expression (2x)2,(2x)2, which means 2x⋅2x.2x⋅2x.",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/27e3139e2809f37d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/27e3139e2809f37d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-3b5ffd03ae25a6ca",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/3b5ffd03ae25a6ca.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/3b5ffd03ae25a6ca.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-b315b9b9b15051fb",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/b315b9b9b15051fb.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/b315b9b9b15051fb.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-0d6ca4037f64867f",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/0d6ca4037f64867f.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/0d6ca4037f64867f.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-8d64611d5db8a176",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/8d64611d5db8a176.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/8d64611d5db8a176.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-a7bdbbe0b65a375a",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/a7bdbbe0b65a375a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/a7bdbbe0b65a375a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-1a3abb334761c963",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/1a3abb334761c963.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/1a3abb334761c963.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-evaluate-simplify-translate-asset-260752fcbf38f81b",
+        "lessonId": "lesson-evaluate-simplify-translate",
+        "sourceSnapshotId": "snapshot-6d7017f814d22bb7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/260752fcbf38f81b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/260752fcbf38f81b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      }
+    ]
+  }
+}
