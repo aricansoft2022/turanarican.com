@@ -1,6 +1,11 @@
 import { sourceBooks } from "@/data/source-plans";
-import { fetchLessonContent } from "@/src/crawler/lesson-content";
+import {
+  fetchLessonContent,
+  parsedBoxToExampleBlock,
+  parsedLessonBlocksToContentBlocks,
+} from "@/src/crawler/lesson-content";
 import { discoverPlannedLessons } from "@/src/crawler/lesson-plan";
+import type { ContentBlock, InlineContent } from "@/src/content/types";
 
 async function main() {
   const sourceBook = sourceBooks.find(
@@ -24,6 +29,12 @@ async function main() {
     bookSlug: sourceBook.slug,
     lessonSlug: lesson.displaySlug,
   });
+  const renderBlocks = parsedLesson.sections.flatMap((section) =>
+    parsedLessonBlocksToContentBlocks(section.blocks),
+  );
+  const exampleBlocks = parsedLesson.examples.map(parsedBoxToExampleBlock);
+  const tryItBlocks = parsedLesson.tryIts.map(parsedBoxToExampleBlock);
+  const renderableBlocks = [...renderBlocks, ...exampleBlocks, ...tryItBlocks];
 
   console.log(`${lesson.sourceNumber} -> ${lesson.displayNumber} ${lesson.title}`);
   console.log(`hash: ${parsedLesson.contentHash.slice(0, 16)}`);
@@ -37,10 +48,40 @@ async function main() {
   console.log(`empty examples: ${parsedLesson.validation.emptyExamples.length}`);
   console.log(`empty try its: ${parsedLesson.validation.emptyTryIts.length}`);
   console.log(`empty exercises: ${parsedLesson.validation.emptyExercises.length}`);
+  console.log(`renderable blocks: ${renderableBlocks.length}`);
+  console.log(`math tokens: ${countMathTokens(renderableBlocks)}`);
+  console.log(
+    `example solutions: ${parsedLesson.examples.filter((example) => example.solution.length > 0).length}`,
+  );
 
   for (const section of parsedLesson.sections) {
     console.log(`- ${section.heading} (${section.blocks.length} blocks)`);
   }
+}
+
+function countMathTokens(blocks: ContentBlock[]) {
+  return blocks.reduce((total, block) => total + countBlockMathTokens(block), 0);
+}
+
+function countBlockMathTokens(block: ContentBlock): number {
+  if (block.type === "paragraph") return countInlineMathTokens(block.text);
+  if (block.type === "list") {
+    return block.items.reduce(
+      (total, item) => total + countInlineMathTokens(item),
+      0,
+    );
+  }
+  if (block.type === "callout") return countMathTokens(block.blocks);
+  if (block.type === "example") {
+    return countInlineMathTokens(block.prompt) + countMathTokens(block.solution);
+  }
+  if (block.type === "figure") return countInlineMathTokens(block.caption ?? []);
+
+  return 0;
+}
+
+function countInlineMathTokens(items: InlineContent[]) {
+  return items.filter((item) => item.type === "math").length;
 }
 
 main().catch((error) => {

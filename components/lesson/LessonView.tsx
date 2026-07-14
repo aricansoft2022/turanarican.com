@@ -25,7 +25,9 @@ export function LessonView({ book, lesson }: { book: Book; lesson: Lesson }) {
         </div>
         <div className="issue-card">
           <span>Cebir</span>
-          <span>Sayı {lesson.displayNumber}</span>
+          <span>
+            Sayı <span className="ml-2 inline-block">{lesson.displayNumber}</span>
+          </span>
         </div>
       </header>
 
@@ -93,4 +95,3 @@ export function LessonView({ book, lesson }: { book: Book; lesson: Lesson }) {
     </article>
   );
 }
-
