@@ -714,6 +714,452 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
           },
         ],
       },
+      {
+        sectionSlug: "terimleri-katsayilari-ve-benzer-terimleri-belirleme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Cebirsel ifadeler terimlerden oluşur. Terim, bir sabit ya da bir sabit ile bir veya daha fazla değişkenin çarpımıdır. Örneğin ",
+                  },
+                  { type: "math", value: "7,y,5x^{2},9a" },
+                  { type: "text", value: " ve " },
+                  { type: "math", value: "13xy" },
+                  { type: "text", value: " birer terimdir." },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bir terimde değişkeni çarpan sabite katsayı denir. Katsayıyı, değişkenin önündeki sayı olarak düşünebiliriz. Örneğin ",
+                  },
+                  { type: "math", value: "3x" },
+                  {
+                    type: "text",
+                    value:
+                      " teriminin katsayısı 3'tür. Tablo 2.5, bazı terimlerin katsayılarını gösterir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "table",
+                columns: ["Terim", "Katsayı"],
+                rows: [
+                  ["9a", "9"],
+                  ["y", "1"],
+                  ["5x^{2}", "5"],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bir cebirsel ifade, bir veya daha fazla terimin toplanması ya da çıkarılmasıyla oluşabilir. Bu bölümde yalnızca toplama biçiminde yazılmış terimlerle çalışacağız. Tablo 2.6, farklı sayıda terime sahip cebirsel ifade örnekleri verir. Bir terimin önündeki işlemi de o terimle birlikte düşündüğümüze dikkat edin.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "table",
+                columns: ["İfade", "Terimler"],
+                rows: [
+                  ["7", "7"],
+                  ["y", "y"],
+                  ["x+7", "x, 7"],
+                  ["2x+7y+4", "2x, 7y, 4"],
+                  ["3x^{2}+4x^{2}+5y+3", "3x^{2}, 4x^{2}, 5y, 3"],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.19",
+                prompt: [
+                  { type: "math", value: "9b+15x^{2}+a+6" },
+                  {
+                    type: "text",
+                    value:
+                      " ifadesindeki her terimi belirleyin. Sonra her terimin katsayısını bulun.",
+                  },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value: "İfadenin dört terimi vardır: ",
+                      },
+                      { type: "math", value: "9b,15x^{2},a" },
+                      { type: "text", value: " ve " },
+                      { type: "math", value: "6" },
+                      { type: "text", value: "." },
+                    ],
+                  },
+                  {
+                    type: "table",
+                    columns: ["Terim", "Katsayı"],
+                    rows: [
+                      ["9b", "9"],
+                      ["15x^{2}", "15"],
+                      ["a", "1"],
+                      ["6", "6"],
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Bir değişkenin önünde sayı yazmıyorsa katsayısı 1'dir. Sabit terimin katsayısı ise sabitin kendisidir.",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.37",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Verilen ifadedeki tüm terimleri ve katsayılarını belirleyin: ",
+                  },
+                  { type: "math", value: "4x+3b+2" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.38",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Verilen ifadedeki tüm terimleri ve katsayılarını belirleyin: ",
+                  },
+                  { type: "math", value: "9a+13a^{2}+a^{3}" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bazı terimler ortak özellikler taşır. Aşağıdaki terimlere bakın. Hangilerinin ortak özellikleri var?",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "math",
+                    value: "5x,7,n^{2},4,3x,9n^{2}",
+                    display: true,
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value: "Bu terimlerden hangileri benzer terimdir?",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 12,
+            blocks: [
+              {
+                type: "list",
+                items: [
+                  [
+                    { type: "math", value: "7" },
+                    { type: "text", value: " ve " },
+                    { type: "math", value: "4" },
+                    { type: "text", value: " sabit terimlerdir." },
+                  ],
+                  [
+                    { type: "math", value: "5x" },
+                    { type: "text", value: " ve " },
+                    { type: "math", value: "3x" },
+                    { type: "text", value: " aynı değişkeni içerir." },
+                  ],
+                  [
+                    { type: "math", value: "n^{2}" },
+                    { type: "text", value: " ve " },
+                    { type: "math", value: "9n^{2}" },
+                    { type: "text", value: " aynı değişken ve üssü içerir." },
+                  ],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 13,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Aynı değişkenlere ve aynı üslere sahip terimlere benzer terimler denir. Tüm sabit terimler de birbirine benzerdir. Bu yüzden ",
+                  },
+                  { type: "math", value: "5x,7,n^{2},4,3x,9n^{2}" },
+                  {
+                    type: "text",
+                    value: " terimleri arasında şu benzer terim grupları vardır:",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 14,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  { type: "math", value: "7" },
+                  { type: "text", value: " ve " },
+                  { type: "math", value: "4" },
+                  { type: "text", value: " benzer terimlerdir." },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 15,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  { type: "math", value: "5x" },
+                  { type: "text", value: " ve " },
+                  { type: "math", value: "3x" },
+                  { type: "text", value: " benzer terimlerdir." },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 16,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  { type: "math", value: "n^{2}" },
+                  { type: "text", value: " ve " },
+                  { type: "math", value: "9n^{2}" },
+                  { type: "text", value: " benzer terimlerdir." },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 17,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.20",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Benzer terimleri belirleyin: ⓐ ",
+                  },
+                  { type: "math", value: "y^{3},7x^{2},14,23,4y^{3},9x,5x^{2}" },
+                  { type: "text", value: " ⓑ " },
+                  { type: "math", value: "4x^{2}+2x+5x^{2}+6x+40x+8xy" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "ⓐ Değişkenlere ve üslere bakarız. Benzer terim grupları şunlardır:",
+                      },
+                    ],
+                  },
+                  {
+                    type: "list",
+                    items: [
+                      [
+                        { type: "math", value: "y^{3}" },
+                        { type: "text", value: " ve " },
+                        { type: "math", value: "4y^{3}" },
+                      ],
+                      [
+                        { type: "math", value: "7x^{2}" },
+                        { type: "text", value: " ve " },
+                        { type: "math", value: "5x^{2}" },
+                      ],
+                      [
+                        { type: "math", value: "14" },
+                        { type: "text", value: " ve " },
+                        { type: "math", value: "23" },
+                      ],
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "9x" },
+                      {
+                        type: "text",
+                        value:
+                          " teriminin bu listede benzer terimi yoktur; çünkü başka hiçbir terimde değişken ",
+                      },
+                      { type: "math", value: "x" },
+                      { type: "text", value: " birinci kuvvetten değildir." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value: "ⓑ İfadedeki benzer terim grupları şunlardır:",
+                      },
+                    ],
+                  },
+                  {
+                    type: "list",
+                    items: [
+                      [
+                        { type: "math", value: "4x^{2}" },
+                        { type: "text", value: " ve " },
+                        { type: "math", value: "5x^{2}" },
+                      ],
+                      [
+                        { type: "math", value: "2x" },
+                        { type: "text", value: ", " },
+                        { type: "math", value: "6x" },
+                        { type: "text", value: " ve " },
+                        { type: "math", value: "40x" },
+                      ],
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "8xy" },
+                      {
+                        type: "text",
+                        value:
+                          " teriminin bu ifadede benzer terimi yoktur.",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 18,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.39",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Listede benzer terimleri belirleyin: ",
+                  },
+                  { type: "math", value: "9,2x^{3},y^{2},8x^{3},15,9y,11y^{2}" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 19,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.40",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "İfadede benzer terimleri belirleyin: ",
+                  },
+                  { type: "math", value: "4x^{3}+8x^{2}+19+3x^{2}+24+6x^{3}" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   {

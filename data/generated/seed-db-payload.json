@@ -1262,11 +1262,23 @@
             "text": [
               {
                 "type": "text",
-                "value": "Algebraic expressions are made up of terms. A term is a constant or the product of a constant and one or more variables. Some examples of terms are "
+                "value": "Cebirsel ifadeler terimlerden oluşur. Terim, bir sabit ya da bir sabit ile bir veya daha fazla değişkenin çarpımıdır. Örneğin "
               },
               {
                 "type": "math",
-                "value": "7,y,5x^{2},9a,\\text{ve} 13xy."
+                "value": "7,y,5x^{2},9a"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "13xy"
+              },
+              {
+                "type": "text",
+                "value": " birer terimdir."
               }
             ]
           },
@@ -1275,19 +1287,23 @@
             "text": [
               {
                 "type": "text",
-                "value": "The constant that multiplies the variable(s) in a term is called the coefficient. We can think of the coefficient as the number in front of the variable. The coefficient of the term "
+                "value": "Bir terimde değişkeni çarpan sabite katsayı denir. Katsayıyı, değişkenin önündeki sayı olarak düşünebiliriz. Örneğin "
               },
               {
                 "type": "math",
-                "value": "3xTable 2.5 gives the coefficients for each of the terms in the left column."
+                "value": "3x"
+              },
+              {
+                "type": "text",
+                "value": " teriminin katsayısı 3'tür. Tablo 2.5, bazı terimlerin katsayılarını gösterir."
               }
             ]
           },
           {
             "type": "table",
             "columns": [
-              "Term",
-              "Coefficient"
+              "Terim",
+              "Katsayı"
             ],
             "rows": [
               [
@@ -1309,15 +1325,15 @@
             "text": [
               {
                 "type": "text",
-                "value": "An algebraic expression may consist of one or more terms added or subtracted. In this chapter, we will only work with terms that are added together. Table 2.6 gives some examples of algebraic expressions with various numbers of terms. Notice that we include the operation before a term with it."
+                "value": "Bir cebirsel ifade, bir veya daha fazla terimin toplanması ya da çıkarılmasıyla oluşabilir. Bu bölümde yalnızca toplama biçiminde yazılmış terimlerle çalışacağız. Tablo 2.6, farklı sayıda terime sahip cebirsel ifade örnekleri verir. Bir terimin önündeki işlemi de o terimle birlikte düşündüğümüze dikkat edin."
               }
             ]
           },
           {
             "type": "table",
             "columns": [
-              "Expression",
-              "Terms"
+              "İfade",
+              "Terimler"
             ],
             "rows": [
               [
@@ -1330,15 +1346,15 @@
               ],
               [
                 "x+7",
-                "x,7"
+                "x, 7"
               ],
               [
                 "2x+7y+4",
-                "2x,7y,4"
+                "2x, 7y, 4"
               ],
               [
                 "3x^{2}+4x^{2}+5y+3",
-                "3x^{2},4x^{2},5y,3"
+                "3x^{2}, 4x^{2}, 5y, 3"
               ]
             ]
           },
@@ -1347,16 +1363,12 @@
             "label": "Örnek 2.19",
             "prompt": [
               {
-                "type": "text",
-                "value": "Identify each term in the expression "
-              },
-              {
                 "type": "math",
-                "value": "9b+15x^{2}+a+6."
+                "value": "9b+15x^{2}+a+6"
               },
               {
                 "type": "text",
-                "value": " Then identify the coefficient of each term."
+                "value": " ifadesindeki her terimi belirleyin. Sonra her terimin katsayısını bulun."
               }
             ],
             "solution": [
@@ -1365,99 +1377,15 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "The expression has four terms. They are "
+                    "value": "İfadenin dört terimi vardır: "
                   },
                   {
                     "type": "math",
-                    "value": "9b,15x^{2},a,"
+                    "value": "9b,15x^{2},a"
                   },
                   {
                     "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "math",
-                    "value": "6."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The coefficient of "
-                  },
-                  {
-                    "type": "math",
-                    "value": "9b"
-                  },
-                  {
-                    "type": "text",
-                    "value": " is "
-                  },
-                  {
-                    "type": "math",
-                    "value": "9."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The coefficient of "
-                  },
-                  {
-                    "type": "math",
-                    "value": "15x^{2}"
-                  },
-                  {
-                    "type": "text",
-                    "value": " is "
-                  },
-                  {
-                    "type": "math",
-                    "value": "15."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Remember that if no number is written before a variable, the coefficient is "
-                  },
-                  {
-                    "type": "math",
-                    "value": "1."
-                  },
-                  {
-                    "type": "text",
-                    "value": " So the coefficient of "
-                  },
-                  {
-                    "type": "math",
-                    "value": "a"
-                  },
-                  {
-                    "type": "text",
-                    "value": " is "
-                  },
-                  {
-                    "type": "math",
-                    "value": "1."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The coefficient of a constant is the constant, so the coefficient of "
+                    "value": " ve "
                   },
                   {
                     "type": "math",
@@ -1465,11 +1393,41 @@
                   },
                   {
                     "type": "text",
-                    "value": " is "
-                  },
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [
+                  "Terim",
+                  "Katsayı"
+                ],
+                "rows": [
+                  [
+                    "9b",
+                    "9"
+                  ],
+                  [
+                    "15x^{2}",
+                    "15"
+                  ],
+                  [
+                    "a",
+                    "1"
+                  ],
+                  [
+                    "6",
+                    "6"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
                   {
-                    "type": "math",
-                    "value": "6."
+                    "type": "text",
+                    "value": "Bir değişkenin önünde sayı yazmıyorsa katsayısı 1'dir. Sabit terimin katsayısı ise sabitin kendisidir."
                   }
                 ]
               }
@@ -1481,7 +1439,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Identify all terms in the given expression, and their coefficients: "
+                "value": "Verilen ifadedeki tüm terimleri ve katsayılarını belirleyin: "
               },
               {
                 "type": "math",
@@ -1496,7 +1454,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Identify all terms in the given expression, and their coefficients: "
+                "value": "Verilen ifadedeki tüm terimleri ve katsayılarını belirleyin: "
               },
               {
                 "type": "math",
@@ -1510,7 +1468,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Some terms share common traits. Look at the following terms. Which ones seem to have traits in common?"
+                "value": "Bazı terimler ortak özellikler taşır. Aşağıdaki terimlere bakın. Hangilerinin ortak özellikleri var?"
               }
             ]
           },
@@ -1519,7 +1477,8 @@
             "text": [
               {
                 "type": "math",
-                "value": "5x,7,n^{2},4,3x,9n^{2}"
+                "value": "5x,7,n^{2},4,3x,9n^{2}",
+                "display": true
               }
             ]
           },
@@ -1528,7 +1487,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Which of these terms are like terms?"
+                "value": "Bu terimlerden hangileri benzer terimdir?"
               }
             ]
           },
@@ -1537,16 +1496,12 @@
             "items": [
               [
                 {
-                  "type": "text",
-                  "value": "The terms "
-                },
-                {
                   "type": "math",
                   "value": "7"
                 },
                 {
                   "type": "text",
-                  "value": " and "
+                  "value": " ve "
                 },
                 {
                   "type": "math",
@@ -1554,21 +1509,17 @@
                 },
                 {
                   "type": "text",
-                  "value": " are both constant terms."
+                  "value": " sabit terimlerdir."
                 }
               ],
               [
-                {
-                  "type": "text",
-                  "value": "The terms "
-                },
                 {
                   "type": "math",
                   "value": "5x"
                 },
                 {
                   "type": "text",
-                  "value": " and "
+                  "value": " ve "
                 },
                 {
                   "type": "math",
@@ -1576,25 +1527,17 @@
                 },
                 {
                   "type": "text",
-                  "value": " are both terms with "
-                },
-                {
-                  "type": "math",
-                  "value": "x."
+                  "value": " aynı değişkeni içerir."
                 }
               ],
               [
-                {
-                  "type": "text",
-                  "value": "The terms "
-                },
                 {
                   "type": "math",
                   "value": "n^{2}"
                 },
                 {
                   "type": "text",
-                  "value": " and "
+                  "value": " ve "
                 },
                 {
                   "type": "math",
@@ -1602,11 +1545,7 @@
                 },
                 {
                   "type": "text",
-                  "value": " both have "
-                },
-                {
-                  "type": "math",
-                  "value": "n^{2}."
+                  "value": " aynı değişken ve üssü içerir."
                 }
               ]
             ]
@@ -1616,11 +1555,15 @@
             "text": [
               {
                 "type": "text",
-                "value": "Terms are called like terms if they have the same variables and exponents. All constant terms are also like terms. So among the terms "
+                "value": "Aynı değişkenlere ve aynı üslere sahip terimlere benzer terimler denir. Tüm sabit terimler de birbirine benzerdir. Bu yüzden "
               },
               {
                 "type": "math",
-                "value": "5x,7,n^{2},4,3x,9n^{2},"
+                "value": "5x,7,n^{2},4,3x,9n^{2}"
+              },
+              {
+                "type": "text",
+                "value": " terimleri arasında şu benzer terim grupları vardır:"
               }
             ]
           },
@@ -1629,7 +1572,19 @@
             "text": [
               {
                 "type": "math",
-                "value": "7 \\text{ve} 4 \\text{benzer terimlerdir.}"
+                "value": "7"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "4"
+              },
+              {
+                "type": "text",
+                "value": " benzer terimlerdir."
               }
             ]
           },
@@ -1638,7 +1593,19 @@
             "text": [
               {
                 "type": "math",
-                "value": "5x \\text{ve} 3x \\text{benzer terimlerdir.}"
+                "value": "5x"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "3x"
+              },
+              {
+                "type": "text",
+                "value": " benzer terimlerdir."
               }
             ]
           },
@@ -1647,7 +1614,19 @@
             "text": [
               {
                 "type": "math",
-                "value": "n^{2} \\text{ve} 9n^{2} \\text{benzer terimlerdir.}"
+                "value": "n^{2}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "9n^{2}"
+              },
+              {
+                "type": "text",
+                "value": " benzer terimlerdir."
               }
             ]
           },
@@ -1657,7 +1636,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Identify the like terms:  ⓐ"
+                "value": "Benzer terimleri belirleyin: ⓐ "
               },
               {
                 "type": "math",
@@ -1665,7 +1644,7 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ"
+                "value": " ⓑ "
               },
               {
                 "type": "math",
@@ -1678,128 +1657,67 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓐ "
-                  },
-                  {
-                    "type": "math",
-                    "value": "y^{3},7x^{2},14,23,4y^{3},9x,5x^{2}"
+                    "value": "ⓐ Değişkenlere ve üslere bakarız. Benzer terim grupları şunlardır:"
                   }
+                ]
+              },
+              {
+                "type": "list",
+                "items": [
+                  [
+                    {
+                      "type": "math",
+                      "value": "y^{3}"
+                    },
+                    {
+                      "type": "text",
+                      "value": " ve "
+                    },
+                    {
+                      "type": "math",
+                      "value": "4y^{3}"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "math",
+                      "value": "7x^{2}"
+                    },
+                    {
+                      "type": "text",
+                      "value": " ve "
+                    },
+                    {
+                      "type": "math",
+                      "value": "5x^{2}"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "math",
+                      "value": "14"
+                    },
+                    {
+                      "type": "text",
+                      "value": " ve "
+                    },
+                    {
+                      "type": "math",
+                      "value": "23"
+                    }
+                  ]
                 ]
               },
               {
                 "type": "paragraph",
                 "text": [
-                  {
-                    "type": "text",
-                    "value": "Look at the variables and exponents. The expression contains "
-                  },
-                  {
-                    "type": "math",
-                    "value": "y^{3},x^{2},x,"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and constants."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The terms "
-                  },
-                  {
-                    "type": "math",
-                    "value": "y^{3}"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "math",
-                    "value": "4y^{3}"
-                  },
-                  {
-                    "type": "text",
-                    "value": " are like terms because they both have "
-                  },
-                  {
-                    "type": "math",
-                    "value": "y^{3}."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The terms "
-                  },
-                  {
-                    "type": "math",
-                    "value": "7x^{2}"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "math",
-                    "value": "5x^{2}"
-                  },
-                  {
-                    "type": "text",
-                    "value": " are like terms because they both have "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x^{2}."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The terms "
-                  },
-                  {
-                    "type": "math",
-                    "value": "14"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "math",
-                    "value": "23"
-                  },
-                  {
-                    "type": "text",
-                    "value": " are like terms because they are both constants."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The term "
-                  },
                   {
                     "type": "math",
                     "value": "9x"
                   },
                   {
                     "type": "text",
-                    "value": " does not have any like terms in this list since no other terms have the variable "
+                    "value": " teriminin bu listede benzer terimi yoktur; çünkü başka hiçbir terimde değişken "
                   },
                   {
                     "type": "math",
@@ -1807,11 +1725,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " raised to the power of "
-                  },
-                  {
-                    "type": "math",
-                    "value": "1."
+                    "value": " birinci kuvvetten değildir."
                   }
                 ]
               },
@@ -1820,95 +1734,61 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓑ "
-                  },
-                  {
-                    "type": "math",
-                    "value": "4x^{2}+2x+5x^{2}+6x+40x+8xy"
+                    "value": "ⓑ İfadedeki benzer terim grupları şunlardır:"
                   }
+                ]
+              },
+              {
+                "type": "list",
+                "items": [
+                  [
+                    {
+                      "type": "math",
+                      "value": "4x^{2}"
+                    },
+                    {
+                      "type": "text",
+                      "value": " ve "
+                    },
+                    {
+                      "type": "math",
+                      "value": "5x^{2}"
+                    }
+                  ],
+                  [
+                    {
+                      "type": "math",
+                      "value": "2x"
+                    },
+                    {
+                      "type": "text",
+                      "value": ", "
+                    },
+                    {
+                      "type": "math",
+                      "value": "6x"
+                    },
+                    {
+                      "type": "text",
+                      "value": " ve "
+                    },
+                    {
+                      "type": "math",
+                      "value": "40x"
+                    }
+                  ]
                 ]
               },
               {
                 "type": "paragraph",
                 "text": [
-                  {
-                    "type": "text",
-                    "value": "Look at the variables and exponents. The expression contains the terms "
-                  },
-                  {
-                    "type": "math",
-                    "value": "4x^{2},2x,5x^{2},6x,40x,\\text{ve} 8xy"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The terms "
-                  },
-                  {
-                    "type": "math",
-                    "value": "4x^{2}"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "math",
-                    "value": "5x^{2}"
-                  },
-                  {
-                    "type": "text",
-                    "value": " are like terms because they both have "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x^{2}."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The terms "
-                  },
-                  {
-                    "type": "math",
-                    "value": "2x,6x,\\text{ve} 40x"
-                  },
-                  {
-                    "type": "text",
-                    "value": " are like terms because they all have "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The term "
-                  },
                   {
                     "type": "math",
                     "value": "8xy"
                   },
                   {
                     "type": "text",
-                    "value": " has no like terms in the given expression because no other terms contain the two variables "
-                  },
-                  {
-                    "type": "math",
-                    "value": "xy."
+                    "value": " teriminin bu ifadede benzer terimi yoktur."
                   }
                 ]
               }
@@ -1920,7 +1800,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Identify the like terms in the list or the expression: "
+                "value": "Listede benzer terimleri belirleyin: "
               },
               {
                 "type": "math",
@@ -1935,7 +1815,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Identify the like terms in the list or the expression: "
+                "value": "İfadede benzer terimleri belirleyin: "
               },
               {
                 "type": "math",
