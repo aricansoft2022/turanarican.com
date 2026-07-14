@@ -12,6 +12,6 @@
     "enabled": true
   },
   "vars": {
-    "NEXT_PUBLIC_SITE_URL": "https://www.turanarican.com"
+    "NEXT_PUBLIC_SITE_URL": "https://turanarican.com"
   }
 }

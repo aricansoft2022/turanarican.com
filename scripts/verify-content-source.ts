@@ -17,10 +17,12 @@ import { buildLessonStructuredData } from "@/src/content/structured-data";
 import { applySqlMigrations } from "./lib/migrations";
 import { applySeedPayload, readSeedDatabasePayload } from "./lib/seed-db";
 
+const siteUrl = "https://turanarican.com";
+
 const expectedLessonUrls = [
-  "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme",
-  "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
-  "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/katlari-ve-carpanlari-bulma",
+  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme`,
+  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme`,
+  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/katlari-ve-carpanlari-bulma`,
 ];
 
 async function main() {
@@ -166,9 +168,9 @@ async function assertSitemap(
   }
 
   for (const url of [
-    "https://www.turanarican.com",
-    "https://www.turanarican.com/kitap/prealgebra-2e",
-    "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris",
+    siteUrl,
+    `${siteUrl}/kitap/prealgebra-2e`,
+    `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris`,
     ...expectedLessonUrls,
   ]) {
     if (!urls.has(url)) {
@@ -225,7 +227,7 @@ function assertLessonStructuredData(
     throw new Error(`${source} breadcrumb structured data must have 4 items.`);
   }
 
-  const lessonUrl = `https://www.turanarican.com/kitap/${entry.lesson.bookSlug}/${entry.lesson.chapterSlug}/${entry.lesson.slug}`;
+  const lessonUrl = `${siteUrl}/kitap/${entry.lesson.bookSlug}/${entry.lesson.chapterSlug}/${entry.lesson.slug}`;
   const lastItem = items.at(-1);
   if (
     !lastItem ||

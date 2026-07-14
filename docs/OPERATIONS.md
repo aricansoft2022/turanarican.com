@@ -13,8 +13,8 @@ Proje şu anda:
 - Turso SQLite + Drizzle için hazırlanmış durumda.
 - Crawled görsel/şekil/tablo assetleri için ileride Cloudflare R2 kullanılacak.
 - Public crawler veya admin endpoint yok.
-- Canlı canonical host şu an `https://www.turanarican.com`.
-- Apex `https://turanarican.com` Cloudflare tarafından `www` hostuna 301
+- Canlı canonical host şu an `https://turanarican.com`.
+- `https://www.turanarican.com` Cloudflare tarafından apex hosta 301
   yönleniyor.
 
 En önemli deploy kuralı:
@@ -119,7 +119,7 @@ placeholder değerleri gösterir.
 Şu an bilinen değişkenler:
 
 - `NEXT_PUBLIC_SITE_URL`: public site adresi. Production için
-  `https://www.turanarican.com`.
+  `https://turanarican.com`.
 - `CONTENT_SOURCE`: public içerik kaynağı. Varsayılan `static`; Turso içeriğine
   bilinçli geçiş için `database` yap.
 - `TURSO_DATABASE_URL`: Turso database URL.
@@ -290,23 +290,23 @@ npm run deploy
 Production hedef:
 
 ```text
-www.turanarican.com
-turanarican.com -> www.turanarican.com
+turanarican.com
+www.turanarican.com -> turanarican.com
 ```
 
 Dashboard'da kontrol edilecekler:
 
 1. Domain Cloudflare zone içinde mi?
 2. DNS kayıtları doğru Worker/route veya custom domain hedefine gidiyor mu?
-3. `turanarican.com` apex hostu `www.turanarican.com` adresine 301
+3. `www.turanarican.com` hostu `turanarican.com` apex adresine 301
    yönleniyor mu?
-4. Canonical URL uygulamada `https://www.turanarican.com` olarak kalıyor mu?
+4. Canonical URL uygulamada `https://turanarican.com` olarak kalıyor mu?
 5. SSL/TLS aktif ve hata vermiyor mu?
 
 Öneri:
 
-- Ana canonical host şu an `www.turanarican.com`.
-- Apex host `www` hostuna yönlensin.
+- Ana canonical host şu an `turanarican.com`.
+- `www` hostu apex hosta yönlensin.
 
 ## Cloudflare Güvenlik Ayarları
 
@@ -373,7 +373,7 @@ Not: Bot koruması ders okumayı engelleyecek kadar agresif olmamalı.
 - Expression:
 
 ```text
-(http.host eq "turanarican.com")
+(http.host eq "turanarican.com" or http.host eq "www.turanarican.com")
 ```
 
 - Characteristics: IP
@@ -491,15 +491,23 @@ Production Turso adımları:
 
 1. Turso dashboard'da production database oluştur.
 2. Production auth token üret.
-3. Cloudflare env vars içine `TURSO_DATABASE_URL` ve `TURSO_AUTH_TOKEN` ekle.
-4. Migration'ı production database'e bilinçli olarak uygula.
-5. Dashboard'da tablo listesini ve migration durumunu kontrol et.
+3. İlk migration/seed denemesi için ayrı Turso branch URL'i kullan.
+4. Branch üzerinde migration ve seed yazma komutlarını doğrula.
+5. Cloudflare env vars içine production `TURSO_DATABASE_URL` ve
+   `TURSO_AUTH_TOKEN` ekle.
+6. Migration'ı production database'e bilinçli olarak uygula.
+7. Dashboard'da tablo listesini ve migration durumunu kontrol et.
 
 Önemli:
 
 - Migration public app request path içinde çalışmamalı.
 - Production tokenları commitlenmemeli.
 - Token sızıntısı şüphesi varsa token rotate edilmeli.
+- Cloudflare secret değerleri sonradan okunamaz. Token'ın doğru olup olmadığı
+  dashboard'da değeri görerek değil, aynı token ile branch/prod bağlantı
+  komutlarının başarılı olmasıyla doğrulanır.
+- Turso branch URL'i production URL'den ayrıdır; branch'e yazılan migration ve
+  seed verisi production'a otomatik yansımaz.
 
 ## R2 Asset Pipeline
 
@@ -518,6 +526,11 @@ R2 üretime alınırken:
 5. `source_assets` tablosunda `r2Key`, `contentHash`, `status` güncellensin.
 6. Türkçe yeniden çizilen görseller `redrawn`, sorunlu yeniden çizimler
    `fallback_original` olarak işaretlensin.
+
+Not: Worker dashboard'daki `ASSETS` binding'i OpenNext/Workers static assets
+binding'idir. Bu binding R2 bucket değildir. R2 üzerinden ders görselleri
+okunacaksa ayrıca R2 bucket binding'i eklenmelidir. R2 bucket public access
+kapalı ve boş kalabilir; asset pipeline üretime alınana kadar bu sorun değildir.
 
 Asset statüleri:
 
@@ -561,8 +574,8 @@ source 2.3 -> display 2.2
 
 Deploy sonrası tarayıcıda kontrol et:
 
-- `https://www.turanarican.com` açılıyor.
-- `https://turanarican.com` 301 ile `https://www.turanarican.com` adresine
+- `https://turanarican.com` açılıyor.
+- `https://www.turanarican.com` 301 ile `https://turanarican.com` adresine
   gidiyor.
 - Ana sayfa mobil ve desktopta taşmıyor.
 - Ders route'u açılıyor:
@@ -581,11 +594,11 @@ Deploy sonrası tarayıcıda kontrol et:
 Komutla hızlı kontrol örnekleri:
 
 ```bash
-curl -I https://www.turanarican.com
-curl -I https://www.turanarican.com/robots.txt
-curl -I https://www.turanarican.com/sitemap.xml
-curl -I "https://www.turanarican.com/og?title=Test&label=Kontrol"
 curl -I https://turanarican.com
+curl -I https://turanarican.com/robots.txt
+curl -I https://turanarican.com/sitemap.xml
+curl -I "https://turanarican.com/og?title=Test&label=Kontrol"
+curl -I https://www.turanarican.com
 ```
 
 ## Rollback

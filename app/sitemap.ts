@@ -6,7 +6,7 @@ import {
   getContentLessonParams,
 } from "@/src/content/source";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.turanarican.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://turanarican.com";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [books, chapters, lessons] = await Promise.all([

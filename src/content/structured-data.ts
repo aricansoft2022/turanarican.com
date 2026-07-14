@@ -1,6 +1,6 @@
 import type { Book, Lesson } from "@/src/content/types";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.turanarican.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://turanarican.com";
 
 export function buildLessonStructuredData({
   book,
