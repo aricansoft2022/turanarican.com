@@ -261,6 +261,26 @@
         "sortOrder": 2,
         "status": "draft",
         "rawHash": "874d3ef1009c74000816d351fe3dfab75f5ce5cc2088bc29c639651598764097"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions",
+        "chapterId": "chapter-fractions",
+        "slug": "kesirlerle-carpma-ve-bolme",
+        "sourceNumber": "4.3",
+        "displayNumber": "4.2",
+        "sourceTitle": "Multiply and Divide Fractions",
+        "displayTitle": "Kesirlerle Çarpma ve Bölme",
+        "summary": "Kesirleri sadeleştirin, kesirlerle çarpma yapın, ters kesri bulun ve kesirlerle bölme işlemini açıklayarak çözün.",
+        "objectivesJson": [
+          "Kesirleri ortak çarpanları kullanarak sadeleştirebileceksiniz.",
+          "Kesirlerle çarpma işlemini modelleyip hesaplayabileceksiniz.",
+          "Bir sayının tersini bulabileceksiniz.",
+          "Kesirlerle bölme işlemini ters kesirle çarpma olarak çözebileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions",
+        "sortOrder": 3,
+        "status": "draft",
+        "rawHash": "d9207fe742509e067519db84e8b8afcd912e6a2d80de9fec11c466ebd99cbf47"
       }
     ],
     "lessonSections": [
@@ -19908,6 +19928,1618 @@
             ]
           }
         ]
+      },
+      {
+        "id": "kesirlerle-carpma-ve-bolme-section-01",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "heading": "Kesirleri Sadeleştirme",
+        "slug": "kesirleri-sadelestirme",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir kesri sadeleştirmek, pay ve paydayı aynı ortak çarpana bölerek kesrin denk ama daha yalın biçimini yazmaktır. Pay ve paydanın 1 dışında ortak çarpanı kalmadığında kesir en sade haldedir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "\\frac{a\\cdot c}{b\\cdot c}=\\frac{a}{b}",
+                "display": true
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.19",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{18}{24}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 18 ve 24 ortak 6'ya bölünür. 18/24=3/4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.37",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{8}{12}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8 ve 12 ortak 4'e bölünür. 8/12=2/3 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.38",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{12}{16}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 12 ve 16 ortak 4'e bölünür. 12/16=3/4 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.20",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{40}{88}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Negatif işaret korunur. 40 ve 88 ortak 8'e bölünür; sonuç -5/11'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.39",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{21}{28}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 21 ve 28 ortak 7'ye bölünür; negatif işaret korunur. Sonuç -3/4'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.40",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{16}{24}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 16 ve 24 ortak 8'e bölünür. -16/24=-2/3 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.21",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{63}{45}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 63 ve 45 ortak 9'a bölünür. -63/45=-7/5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.41",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{54}{42}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 54 ve 42 ortak 6'ya bölünür. -54/42=-9/7 olur; bileşik kesir karışık sayıya çevrilmez."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.42",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{81}{45}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 81 ve 45 ortak 9'a bölünür. -81/45=-9/5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.22",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{48}{72}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 48 ve 72 ortak 24'e bölünür. 48/72=2/3 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.43",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{69}{120}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 69 ve 120 ortak 3'e bölünür. 69/120=23/40, en sade haldir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.44",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{120}{192}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 120 ve 192 ortak 24'e bölünür. 120/192=5/8 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.23",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{11x}{11y}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay ve paydadaki ortak 11 sadeleşir. Sonuç x/y olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.45",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7x}{7y}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay ve paydadaki ortak 7 sadeleşir. Sonuç x/y olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.46",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{9a}{9b}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay ve paydadaki ortak 9 sadeleşir. Sonuç a/b'dir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirlerle-carpma-ve-bolme-section-02",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "heading": "Kesirlerle Çarpma",
+        "slug": "kesirlerle-carpma",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesirlerle çarpma yaparken paylar kendi aralarında, paydalar kendi aralarında çarpılır. Çarpımdan önce çapraz sadeleştirme yapmak işlemi çoğu zaman kolaylaştırır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}",
+                "display": true
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.24",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}\\cdot\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3/4'ün yarısını alırız. 3/4 iki eş parçaya ayrıldığında her parça 3/8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.47",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}\\cdot\\frac{3}{5}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3/5'in yarısı alınır. 3/5 iki eş parçaya ayrılırsa her parça 3/10 olur; sonuç 3/10'dur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.48",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}\\cdot\\frac{5}{6}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 5/6'nın yarısı 5/12'dir. Bu yüzden 1/2·5/6=5/12 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.25",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın ve sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2}{5}\\cdot\\frac{1}{3}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Paylar 2·1=2, paydalar 5·3=15 verir. Sonuç 2/15'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.49",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{3}\\cdot\\frac{2}{5}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Payları ve paydaları çarparız: 1·2=2 ve 3·5=15. Sonuç 2/15'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.50",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{5}\\cdot\\frac{7}{8}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3·7=21 ve 5·8=40 olduğundan sonuç 21/40'tır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.26",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{5}{6}\\cdot\\left(-\\frac{9}{10}\\right)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İki negatifin çarpımı pozitiftir. Sadeleştirme sonrası sonuç 3/4'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.51",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{4}{7}\\left(-\\frac{5}{8}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İki negatifin çarpımı pozitiftir. 4/7·5/8 işleminde 4 ile 8 sadeleşir ve sonuç 5/14 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.52",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{7}{12}\\left(-\\frac{8}{9}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İki negatifin çarpımı pozitiftir. 7/12·8/9 işleminde 8 ile 12 sadeleşir; sonuç 14/27 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.27",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{10}{21}\\cdot\\frac{7}{15}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İşaret negatiftir. 10 ile 15, 7 ile 21 sadeleşir; sonuç -2/9 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.53",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{10}{28}\\cdot\\frac{8}{15}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İşaret negatiftir. 10/28·8/15 işleminde 10 ile 15, 8 ile 28 sadeleşir. Sonuç -4/21'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.54",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{9}{20}\\cdot\\frac{5}{12}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İşaret negatiftir. 9/20·5/12 işleminde 5 ile 20, 9 ile 12 sadeleşir. Sonuç -3/16 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.28",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{6}\\cdot 42"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{4}(-8x)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 42'nin altıda biri 7'dir. ⓑ 8 ile 4 sadeleşir; sonuç -10x olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.55",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{8}\\cdot72"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{11}{3}(-9a)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 72'nin 1/8'i 9'dur. ⓑ 11/3·(-9a) işleminde -9, 3'e bölünür; sonuç -33a olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.56",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{8}\\cdot64"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "16x\\cdot\\frac{11}{12}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 64'ün 3/8'i 24'tür. ⓑ 16x·11/12 işleminde 16 ve 12 ortak 4'e bölünür; sonuç 44x/3 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirlerle-carpma-ve-bolme-section-03",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "heading": "Ters Kesir",
+        "slug": "ters-kesir",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "İki sayının çarpımı 1 ise bu sayılar birbirinin tersidir. Bir kesrin tersini bulmak için pay ile paydayı yer değiştiririz; negatif kesirde işaret negatif kalır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.29",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tersini bulun: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{8}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{9}{5}"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "-5"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay ve payda yer değiştirir. ⓐ 8/3 ⓑ -2 ⓒ 5/9 ⓓ -1/5."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.57",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tersini bulun: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{7}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{1}{8}"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{11}{4}"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "14"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ters kesir pay ve paydanın yer değiştirmesiyle bulunur. ⓐ 7/5 ⓑ -8 ⓒ -4/11 ⓓ 1/14."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.58",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tersini bulun: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{7}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{1}{12}"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{14}{9}"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "21"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay ve payda yer değiştirir; tam sayılar paydası 1 olan kesir gibi düşünülür. ⓐ 7/3 ⓑ -12 ⓒ -9/14 ⓓ 1/21."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.30",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayı için karşıtını, mutlak değerini ve tersini bulun: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{3}{8},\\frac{1}{2},\\frac{9}{5},-5"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Karşıt işareti değiştirir, mutlak değer uzaklığı verir, ters ise pay ve paydayı değiştirir. Sonuçlar sırasıyla: 3/8, 3/8, -8/3; -1/2, 1/2, 2; -9/5, 9/5, 5/9; 5, 5, -1/5."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.59",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tabloyu doldurun: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{5}{8},\\frac{1}{4},\\frac{8}{3},-8"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -5/8 için karşıt 5/8, mutlak değer 5/8, ters -8/5'tir. 1/4 için karşıt -1/4, mutlak değer 1/4, ters 4'tür. 8/3 için karşıt -8/3, mutlak değer 8/3, ters 3/8'dir. -8 için karşıt 8, mutlak değer 8, ters -1/8'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.60",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tabloyu doldurun: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{4}{7},\\frac{1}{8},\\frac{9}{4},-1"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -4/7 için karşıt 4/7, mutlak değer 4/7, ters -7/4'tür. 1/8 için karşıt -1/8, mutlak değer 1/8, ters 8'dir. 9/4 için karşıt -9/4, mutlak değer 9/4, ters 4/9'dur. -1 için karşıt 1, mutlak değer 1, ters -1'dir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirlerle-carpma-ve-bolme-section-04",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "heading": "Kesirlerle Bölme",
+        "slug": "kesirlerle-bolme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesirlerle bölme, bölen kesrin tersiyle çarpma işlemidir. Bir modelde ise bölme, verilen miktarın içinde bölen parçadan kaç tane bulunduğunu sorar."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}",
+                "display": true
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.31",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}\\div\\frac{1}{4}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Bir yarımın içinde iki tane dörtte bir vardır. Sonuç 2'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.61",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{3}\\div\\frac{1}{6}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1/3 içinde kaç tane 1/6 olduğunu buluruz. 1/3=2/6 olduğu için sonuç 2'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.62",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}\\div\\frac{1}{4}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1/2=2/4 olduğundan bir yarımın içinde iki tane dörtte bir vardır. Sonuç 2'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.32",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "2\\div\\frac{1}{4}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her bütün 4 çeyrek içerir. 2 bütün 8 çeyrek içerdiği için sonuç 8'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.63",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "2\\div\\frac{1}{3}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2 bütün, altı tane üçte bir parçadan oluşur. Bu nedenle 2÷1/3=6."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.64",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modelleyin: "
+              },
+              {
+                "type": "math",
+                "value": "3\\div\\frac{1}{2}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3 bütün, altı tane yarımdan oluşur. Bu nedenle 3÷1/2=6."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.33",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{5}\\div\\frac{2}{7}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2/7'nin tersi 7/2'dir. 3/5·7/2=21/10 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.65",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{7}\\div\\left(-\\frac{2}{3}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Bölme yerine bölen kesrin tersiyle çarparız: 3/7·(-3/2). Sonuç -9/14 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.66",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2}{3}\\div\\left(-\\frac{7}{5}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2/3÷(-7/5)=2/3·(-5/7). Sonuç -10/21'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.34",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{5}\\div\\frac{p}{7}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: p/7'nin tersi 7/p'dir. Çarpınca 21/(5p) bulunur; p sıfır olmamalıdır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.67",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{5}\\div\\frac{p}{7}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: p/7'nin tersi 7/p'dir. 3/5·7/p=21/(5p) olur; p sıfır olmamalıdır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.68",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{8}\\div\\frac{q}{3}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: q/3'ün tersi 3/q'dur. 5/8·3/q=15/(8q) olur; q sıfır olmamalıdır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.35",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{2}{3}\\div\\left(-\\frac{5}{6}\\right)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İki negatifin bölümü pozitiftir. -2/3·(-6/5)=12/15=4/5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.69",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{2}{3}\\div\\left(-\\frac{5}{6}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İki negatifin bölümü pozitiftir. -2/3·(-6/5) işleminde 2 ile 6 sadeleşmez; sonuç 12/15=4/5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.70",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{5}{6}\\div\\left(-\\frac{2}{3}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İki negatifin bölümü pozitiftir. -5/6·(-3/2)=15/12=5/4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.36",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{27}\\div\\frac{35}{36}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7/27·36/35 yapılır. 7 ile 35, 36 ile 27 sadeleşir; sonuç 4/15'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.71",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{27}\\div\\frac{35}{36}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7/27÷35/36 = 7/27·36/35. 7 ile 35, 36 ile 27 sadeleşir; sonuç 4/15'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.72",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{14}\\div\\frac{15}{28}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 5/14÷15/28 = 5/14·28/15. 28 ile 14, 5 ile 15 sadeleşir; sonuç 2/3 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -29889,6 +31521,1077 @@
         "sortOrder": 75,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-77",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "77",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin; bileşik kesirleri tam sayılı kesre çevirmeyin: 7/21."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7 ve 21 ortak 7'ye bölünür. 7/21=1/3 olur."
+          }
+        ],
+        "sortOrder": 77,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-79",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "79",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 15/20."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 15 ve 20 ortak 5'e bölünür. Sonuç 3/4'tür."
+          }
+        ],
+        "sortOrder": 79,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-81",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "81",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: -40/88."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 40 ve 88 ortak 8'e bölünür. İşaret negatif kalır; sonuç -5/11'dir."
+          }
+        ],
+        "sortOrder": 81,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-83",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "83",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: -108/63."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 108 ve 63 ortak 9'a bölünür. -108/63=-12/7 olur; bileşik kesir tam sayılı kesre çevrilmez."
+          }
+        ],
+        "sortOrder": 83,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-85",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "85",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 120/252."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 120 ve 252 ortak 12'ye bölünür. 120/252=10/21, en sade haldir."
+          }
+        ],
+        "sortOrder": 85,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-87",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "87",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: -168/192."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 168 ve 192 ortak 24'e bölünür. Sonuç -7/8 olur."
+          }
+        ],
+        "sortOrder": 87,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-89",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "89",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 11x/11y."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Pay ve paydadaki ortak 11 sadeleşir. Sonuç x/y olur."
+          }
+        ],
+        "sortOrder": 89,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-91",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "91",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: -3x/12y."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3 ve 12 ortak 3'e bölünür. Sonuç -x/(4y) olur."
+          }
+        ],
+        "sortOrder": 91,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-93",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-01",
+        "number": "93",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 14x²/21y."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 14 ve 21 ortak 7'ye bölünür. Sonuç 2x²/(3y) olur."
+          }
+        ],
+        "sortOrder": 93,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-95",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "95",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Diyagramla modelleyin: 1/2 · 2/3."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2/3'ün yarısı alınır. Bu, 2 parçanın 2'ye bölünmesi gibidir ve sonuç 1/3 olur."
+          }
+        ],
+        "sortOrder": 95,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-97",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "97",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Diyagramla modelleyin: 1/3 · 5/6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5/6'nın üçte biri 5/18 eder. Paylar ve paydalar çarpıldığında da aynı sonuç bulunur."
+          }
+        ],
+        "sortOrder": 97,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-99",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "99",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: 2/5 · 1/3."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Payları ve paydaları çarparız: 2·1=2 ve 5·3=15. Sonuç 2/15'tir."
+          }
+        ],
+        "sortOrder": 99,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-101",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "101",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: 3/4 · 9/10."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3/4·9/10 işleminde 3·9=27 ve 4·10=40 olur. Sonuç 27/40'tır."
+          }
+        ],
+        "sortOrder": 101,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-103",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "103",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: -2/3 · (-3/8)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İki negatifin çarpımı pozitiftir. 2/3·3/8 işleminde 3'ler sadeleşir; sonuç 1/4 olur."
+          }
+        ],
+        "sortOrder": 103,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-105",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "105",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: -5/9 · 3/10."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İşaret negatiftir. 5/9·3/10 işleminde 5 ile 10, 3 ile 9 sadeleşir. Sonuç -1/6'dır."
+          }
+        ],
+        "sortOrder": 105,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-107",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "107",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: 7/12 · (-8/21)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İşaret negatiftir. 7/12·8/21 işleminde 7 ile 21, 8 ile 12 sadeleşir; sonuç -2/9 olur."
+          }
+        ],
+        "sortOrder": 107,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-109",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "109",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: (-14/15) · (9/20)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İşaret negatiftir. 14/15·9/20 işleminde 14 ile 20, 9 ile 15 sadeleşir; sonuç -21/50 olur."
+          }
+        ],
+        "sortOrder": 109,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-111",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "111",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: (-63/84) · (-44/90)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İki negatifin çarpımı pozitiftir. 63/84=3/4 ve 44/90=22/45 olduğundan çarpım 66/180=11/30 olur."
+          }
+        ],
+        "sortOrder": 111,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-113",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "113",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: 4 · 5/11."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 4=4/1 yazılır. 4·5/11=20/11 olur."
+          }
+        ],
+        "sortOrder": 113,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-115",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "115",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: 3/7 · 21n."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 21 ile 7 sadeleşir. 3/7·21n=3·3n=9n olur."
+          }
+        ],
+        "sortOrder": 115,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-117",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "117",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: -28p · (-1/4)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İki negatifin çarpımı pozitiftir. 28p·1/4=7p olur."
+          }
+        ],
+        "sortOrder": 117,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-119",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "119",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: -8 · 17/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İşaret negatiftir. 8·17/4 işleminde 8 ile 4 sadeleşir; sonuç -34 olur."
+          }
+        ],
+        "sortOrder": 119,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-121",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "121",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: -1 · (-3/8)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İki negatifin çarpımı pozitiftir. Sonuç 3/8'dir."
+          }
+        ],
+        "sortOrder": 121,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-123",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "123",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: (2/3)³."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Kesrin kuvvetini alırken pay ve paydanın kuvvetini ayrı ayrı alırız. (2/3)³=2³/3³=8/27 olur."
+          }
+        ],
+        "sortOrder": 123,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-125",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "125",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çarpın ve sonucu sadeleştirilmiş biçimde yazın: (6/5)⁴."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Kesrin dördüncü kuvvetinde hem pay hem payda dördüncü kuvvete yükseltilir. (6/5)⁴=6⁴/5⁴=1296/625 olur."
+          }
+        ],
+        "sortOrder": 125,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-127",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-03",
+        "number": "127",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Tersini bulun: 3/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ters kesirde pay ve payda yer değiştirir. Bu nedenle 3/4'ün tersi 4/3'tür."
+          }
+        ],
+        "sortOrder": 127,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-129",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-03",
+        "number": "129",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Tersini bulun: -5/17."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Negatif işaret korunur, pay ve payda yer değiştirir. Ters kesir -17/5'tir."
+          }
+        ],
+        "sortOrder": 129,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-131",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-03",
+        "number": "131",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Tersini bulun: 11/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ters kesri bulmak için pay ve paydayı değiştiririz. 11/8'in tersi 8/11'dir."
+          }
+        ],
+        "sortOrder": 131,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-133",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-03",
+        "number": "133",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Tersini bulun: -19."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Tam sayıyı paydası 1 olan kesir gibi yazarız. -19=-19/1 olduğundan tersi -1/19'dur."
+          }
+        ],
+        "sortOrder": 133,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-135",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-03",
+        "number": "135",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Tersini bulun: 1."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Bir sayının tersiyle çarpımı 1 olmalıdır. 1'in tersi yine 1'dir; çünkü 1·1=1."
+          }
+        ],
+        "sortOrder": 135,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-136",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-03",
+        "number": "136",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Her sayı için karşıtını, mutlak değerini ve tersini bulun: -7/11, 4/5, 10/7, -8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -7/11 için karşıt 7/11, mutlak değer 7/11, ters -11/7'dir. 4/5 için -4/5, 4/5, 5/4. 10/7 için -10/7, 10/7, 7/10. -8 için 8, 8, -1/8."
+          }
+        ],
+        "sortOrder": 136,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-137",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-03",
+        "number": "137",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Her sayı için karşıtını, mutlak değerini ve tersini bulun: -3/13, 9/14, 15/7, -9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -3/13 için karşıt 3/13, mutlak değer 3/13, ters -13/3'tür. 9/14 için -9/14, 9/14, 14/9. 15/7 için -15/7, 15/7, 7/15. -9 için 9, 9, -1/9."
+          }
+        ],
+        "sortOrder": 137,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-139",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "139",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesir bölmesini modelleyin: 1/2 ÷ 1/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/2=4/8 olduğundan bir yarımın içinde dört tane sekizde bir vardır. Bu nedenle bölüm 4'tür."
+          }
+        ],
+        "sortOrder": 139,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-141",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "141",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesir bölmesini modelleyin: 3 ÷ 1/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her bütün 4 tane çeyrek içerir. 3 bütün 12 çeyrek içerdiği için 3÷1/4=12 olur."
+          }
+        ],
+        "sortOrder": 141,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-143",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "143",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 1/2 ÷ 1/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Kesre bölmek, o kesrin tersiyle çarpmaktır. 1/2÷1/8 = 1/2·8/1 = 4 olur."
+          }
+        ],
+        "sortOrder": 143,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-145",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "145",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 4/5 ÷ 3/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Bölen kesrin tersini alırız. 4/5÷3/4 = 4/5·4/3 = 16/15 olur."
+          }
+        ],
+        "sortOrder": 145,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-147",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "147",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: -3/4 ÷ 3/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Bölme yerine ters kesirle çarparız. -3/4÷3/5 = -3/4·5/3. 3'ler sadeleşir ve sonuç -5/4 olur."
+          }
+        ],
+        "sortOrder": 147,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-149",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "149",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: -5/6 ÷ (-5/6)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Sıfır olmayan her sayı kendisine bölündüğünde 1 verir. Aynı negatif sayı kendisine bölündüğü için sonuç 1'dir."
+          }
+        ],
+        "sortOrder": 149,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-151",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "151",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 2/5 ÷ y/9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2/5÷y/9 = 2/5·9/y = 18/(5y) olur; y sıfır olmamalıdır."
+          }
+        ],
+        "sortOrder": 151,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-153",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "153",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 5/6 ÷ c/15."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5/6÷c/15 = 5/6·15/c. 15 ile 6 ortak 3'e bölünür; sonuç 25/(2c) olur."
+          }
+        ],
+        "sortOrder": 153,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-155",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "155",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 7/18 ÷ (-14/27)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7/18÷(-14/27)=7/18·(-27/14). 7 ile 14, 27 ile 18 sadeleşir; sonuç -3/4'tür."
+          }
+        ],
+        "sortOrder": 155,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-157",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "157",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 5q/12 ÷ 15q/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5q/12÷15q/8 = 5q/12·8/(15q). q'ler, 5 ile 15 ve 8 ile 12 sadeleşir; sonuç 2/9 olur."
+          }
+        ],
+        "sortOrder": 157,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-159",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "159",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 12r/25 ÷ 18s/35."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 12r/25÷18s/35 = 12r/25·35/(18s). 12 ile 18, 35 ile 25 sadeleşir; sonuç 14r/(15s) olur."
+          }
+        ],
+        "sortOrder": 159,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-161",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "161",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: -3 ÷ 1/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/4'e bölmek, 4 ile çarpmaktır. Bu nedenle -3÷1/4 = -3·4 = -12 olur."
+          }
+        ],
+        "sortOrder": 161,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-163",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "163",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 2/5 ÷ (-10)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -10 sayısının tersi -1/10'dur. 2/5÷(-10)=2/5·(-1/10)=-2/50=-1/25 olur."
+          }
+        ],
+        "sortOrder": 163,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-165",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "165",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: -15 ÷ (-5/3)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -15÷(-5/3)=-15·(-3/5). Sonuç pozitiftir; 15 ile 5 sadeleşir ve sonuç 9 olur."
+          }
+        ],
+        "sortOrder": 165,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-167",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "167",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemi soldan sağa yapın ve sonucu sadeleştirin: 11/2 ÷ 7/8 · 2/11."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İşlem soldan sağa yapılır. 11/2÷7/8=11/2·8/7=44/7. Sonra 44/7·2/11=8/7 olur."
+          }
+        ],
+        "sortOrder": 167,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-169",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "169",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Nina, bir dinleti sonrası servis etmek için 4 tepsi şekerleme yapıyor. Her tepsi için 2/3 su bardağı yoğunlaştırılmış süt gerekiyor. ⓐ Toplam ne kadar süt gerekir? Sonucu bileşik kesir ve tam sayılı kesir olarak yazın. ⓑ 1/8, 1/4, 1/3, 1/2 ve 1 su bardağı ölçü kaplarıyla bu miktarı ölçmenin iki yolunu açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 4 tepsi için 4·2/3=8/3=2 2/3 su bardağı süt gerekir. ⓑ 2 2/3 su bardağı; 1+1+1/3+1/3 ya da 1+1/2+1/2+1/3+1/3 gibi uygun ölçü kaplarıyla oluşturulabilir."
+          }
+        ],
+        "sortOrder": 169,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-171",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-04",
+        "number": "171",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kristen'in 3/4 yarda kurdelesi var. Bunu kızının 6 bebeği için eş parçalara ayırmak istiyor. Her kurdele parçası kaç yarda olur?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3/4 yarda 6 eş parçaya ayrılır. 3/4÷6 = 3/4·1/6 = 3/24 = 1/8 yarda olur."
+          }
+        ],
+        "sortOrder": 171,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-173",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-03",
+        "number": "173",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Negatif bir kesrin tersini nasıl bulduğunuzu açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Negatif kesrin tersini bulurken pay ve payda yer değiştirir, negatif işaret korunur. Örneğin -2/5'in tersi -5/2'dir."
+          }
+        ],
+        "sortOrder": 173,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-exercise-175",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sectionId": "kesirlerle-carpma-ve-bolme-section-02",
+        "number": "175",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "1/2 · 2/3 işleminin 1/3 olduğunu gösteren günlük yaşamdan bir örnek verin."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Örneğin bir pizzanın 2/3'ü kalmış olsun. Bunun yarısını yerseniz pizzanın 1/3'ünü yemiş olursunuz; bu durum 1/2·2/3=1/3 işlemini gösterir."
+          }
+        ],
+        "sortOrder": 175,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -29969,6 +32672,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.02%3A_Visualize_Fractions",
         "httpStatus": 200,
         "contentHash": "874d3ef1009c74000816d351fe3dfab75f5ce5cc2088bc29c639651598764097",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions",
+        "httpStatus": 200,
+        "contentHash": "d9207fe742509e067519db84e8b8afcd912e6a2d80de9fec11c466ebd99cbf47",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -34128,6 +36839,524 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/bcece04de0d0fd8d.json",
         "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/bcece04de0d0fd8d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-008-5bbbf0008a0f044c",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104351/efde2bd3c2daab41c598a35a8414356a0936c198?revision=1",
+        "assetType": "image",
+        "altText": "A rectangle is divided vertically into three equal pieces. Each piece is labeled as one fourth. There is a an arrow pointing to an identical rectangle divided vertically into six equal pieces. Each piece is labeled as one eighth. There are braces showing that three of these rectangles represent three eighths.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/008-5bbbf0008a0f044c.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/008-5bbbf0008a0f044c.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-009-b2651555620e4f5d",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104352/a5a4ee5aa04b5428c3bac63a68b4d99c363e6fec?revision=1",
+        "assetType": "image",
+        "altText": "A rectangle is shown, divided vertically into four equal pieces. Three of the pieces are shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/009-b2651555620e4f5d.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/009-b2651555620e4f5d.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-010-77770b9bf1276636",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104356/08910e036e150bfd72588420fa40b2c376f7c03d?revision=1",
+        "assetType": "image",
+        "altText": "A rectangle is shown, divided vertically into four equal pieces. Three of the pieces are shaded. The rectangle is divided by a horizontal line, creating eight equal pieces. Three of the eight pieces are darkly shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/010-77770b9bf1276636.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/010-77770b9bf1276636.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-011-673cd8ab4dab6424",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104358/5b3ae236041febde02389f89a2b35985598acb3b?revision=1",
+        "assetType": "image",
+        "altText": "5b3ae236041febde02389f89a2b35985598acb3b",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/011-673cd8ab4dab6424.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/011-673cd8ab4dab6424.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-015-53e13e361d275168",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104365/8f376e3bbd9f2677b512aea940027d262f209561?revision=1",
+        "assetType": "image",
+        "altText": "“a” over “b” multiplied by “b” over “a” equals positive one.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/015-53e13e361d275168.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/015-53e13e361d275168.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-016-7f895a93d36fb873",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104369/8143e227670350c0c8f8bf2ae47fcbb7cb1ff729?revision=1",
+        "assetType": "image",
+        "altText": "Four red ovals are shown. Inside each oval are three grey circles.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/016-7f895a93d36fb873.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/016-7f895a93d36fb873.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-017-0bdb1f37e8c40c05",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104368/179c182cfeb6e53ef86bf93f36e5133d2ba7f02e?revision=1",
+        "assetType": "figure",
+        "altText": "A rectangle is shown, labeled as one half. Below it is an identical rectangle split into three equal pieces, each labeled as one sixth.",
+        "caption": "Figure 4.5",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/017-0bdb1f37e8c40c05.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/017-0bdb1f37e8c40c05.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-019-914b40a870f750e7",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104371/e12cab808b68af0994973ecc079d63dcdb9d969a?revision=1",
+        "assetType": "image",
+        "altText": "A rectangle is shown, labeled one fourth. Below it is an identical rectangle split into two equal pieces, each labeled as one eighth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/019-914b40a870f750e7.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/019-914b40a870f750e7.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-020-7a0946d37a7b34eb",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104374/b1efb97ad7ed6c21e25697140f877c82eb2958dd?revision=1",
+        "assetType": "image",
+        "altText": "Two rectangles are shown, each labeled as 1. Below it are two identical rectangle, each split into four pieces. Each of the eight pieces is labeled as one fourth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/020-7a0946d37a7b34eb.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/020-7a0946d37a7b34eb.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-021-d5798668f0559734",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104382/90f8022c5286a092f4a6c3d87105848a0b5d6cd3?revision=1",
+        "assetType": "figure",
+        "altText": "A picture of a United States quarter is shown.",
+        "caption": "Figure 4.6 The U.S. coin called a quarter is worth one-fourth of a dollar.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/021-d5798668f0559734.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/021-d5798668f0559734.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-4c3aaa8f49ef1560",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": "To simplify the fraction, we look for any common factors in the numerator and the denominator.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/4c3aaa8f49ef1560.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/4c3aaa8f49ef1560.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-32322664b594bd98",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/32322664b594bd98.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/32322664b594bd98.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-d2c22a44ea7bec6d",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/d2c22a44ea7bec6d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/d2c22a44ea7bec6d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-dd644e07ed4c148c",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/dd644e07ed4c148c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/dd644e07ed4c148c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-1c2f585769a4ba71",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/1c2f585769a4ba71.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/1c2f585769a4ba71.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-68be9ed8899f75ac",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Look at the result we got from the model in Example 4.24. We found that 12·34=38.12·34=38. Do you notice that we could have gotten the same answer by multiplying the numerators and multiplying the denominators?",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/68be9ed8899f75ac.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/68be9ed8899f75ac.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-ad52d490694cdafb",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/ad52d490694cdafb.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/ad52d490694cdafb.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-1972c994c42f1c60",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/1972c994c42f1c60.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/1972c994c42f1c60.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-af44f595fc47b5a6",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Another way to find this product involves removing common factors earlier.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/af44f595fc47b5a6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/af44f595fc47b5a6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-f28b7d3f6fd0820d",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/f28b7d3f6fd0820d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/f28b7d3f6fd0820d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-3c9c1de060c415e2",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/3c9c1de060c415e2.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/3c9c1de060c415e2.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-bdb57939c4e7ef43",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/bdb57939c4e7ef43.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/bdb57939c4e7ef43.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-65078228d091e201",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": "To find the reciprocals, we keep the sign and invert the fractions.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/65078228d091e201.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/65078228d091e201.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-9656a530e04de818",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/9656a530e04de818.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/9656a530e04de818.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-3e6f7664f7aae839",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/3e6f7664f7aae839.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/3e6f7664f7aae839.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-22da97082d3e3b82",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-15",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/22da97082d3e3b82.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/22da97082d3e3b82.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-e00396bad4aed168",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-16",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/e00396bad4aed168.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/e00396bad4aed168.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-03cf5cdb8dad9e69",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-17",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/03cf5cdb8dad9e69.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/03cf5cdb8dad9e69.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-f524e9668ebbbb0f",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-18",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/f524e9668ebbbb0f.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/f524e9668ebbbb0f.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-53ddcb214c61a70a",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-19",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/53ddcb214c61a70a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/53ddcb214c61a70a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-84720c026ecdcad9",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-20",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/84720c026ecdcad9.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/84720c026ecdcad9.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-03ad9b07f2a239a6",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-21",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/03ad9b07f2a239a6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/03ad9b07f2a239a6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-42d248a53a230928",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-22",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/42d248a53a230928.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/42d248a53a230928.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-704b49dc602bd4e8",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-23",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/704b49dc602bd4e8.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/704b49dc602bd4e8.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-cc1ff42688454af7",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-24",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/cc1ff42688454af7.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/cc1ff42688454af7.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-51eda248d68324b4",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-25",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/51eda248d68324b4.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/51eda248d68324b4.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-fractions-asset-3680ca36a7563e9a",
+        "lessonId": "lesson-multiply-divide-fractions",
+        "sourceSnapshotId": "snapshot-d9207fe742509e06",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.03%3A_Multiply_and_Divide_Fractions#table-26",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/3680ca36a7563e9a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-2-multiply-and-divide-fractions/3680ca36a7563e9a.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

@@ -8247,6 +8247,197 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "4.3",
+    sections: [
+      {
+        sectionSlug: "kesirleri-sadelestirme",
+        replaceBlocks: [
+          ...removeBlocks(26),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir kesri sadeleştirmek, pay ve paydayı aynı ortak çarpana bölerek kesrin denk ama daha yalın biçimini yazmaktır. Pay ve paydanın 1 dışında ortak çarpanı kalmadığında kesir en sade haldedir.",
+              ),
+              p([m("\\frac{a\\cdot c}{b\\cdot c}=\\frac{a}{b}", true)]),
+              ex(
+                "Örnek 4.19",
+                [t("Sadeleştirin: "), m("\\frac{18}{24}"), t(".")],
+                sol("Çözüm: 18 ve 24 ortak 6'ya bölünür. 18/24=3/4 olur."),
+              ),
+              ex("Sıra Sizde 4.37", [t("Sadeleştirin: "), m("\\frac{8}{12}")]),
+              ex("Sıra Sizde 4.38", [t("Sadeleştirin: "), m("\\frac{12}{16}")]),
+              ex(
+                "Örnek 4.20",
+                [t("Sadeleştirin: "), m("-\\frac{40}{88}"), t(".")],
+                sol("Çözüm: Negatif işaret korunur. 40 ve 88 ortak 8'e bölünür; sonuç -5/11'dir."),
+              ),
+              ex("Sıra Sizde 4.39", [t("Sadeleştirin: "), m("-\\frac{21}{28}")]),
+              ex("Sıra Sizde 4.40", [t("Sadeleştirin: "), m("-\\frac{16}{24}")]),
+              ex(
+                "Örnek 4.21",
+                [t("Sadeleştirin: "), m("-\\frac{63}{45}"), t(".")],
+                sol("Çözüm: 63 ve 45 ortak 9'a bölünür. -63/45=-7/5 olur."),
+              ),
+              ex("Sıra Sizde 4.41", [t("Sadeleştirin: "), m("-\\frac{54}{42}")]),
+              ex("Sıra Sizde 4.42", [t("Sadeleştirin: "), m("-\\frac{81}{45}")]),
+              ex(
+                "Örnek 4.22",
+                [t("Sadeleştirin: "), m("\\frac{48}{72}"), t(".")],
+                sol("Çözüm: 48 ve 72 ortak 24'e bölünür. 48/72=2/3 olur."),
+              ),
+              ex("Sıra Sizde 4.43", [t("Sadeleştirin: "), m("\\frac{69}{120}")]),
+              ex("Sıra Sizde 4.44", [t("Sadeleştirin: "), m("\\frac{120}{192}")]),
+              ex(
+                "Örnek 4.23",
+                [t("Sadeleştirin: "), m("\\frac{11x}{11y}"), t(".")],
+                sol("Çözüm: Pay ve paydadaki ortak 11 sadeleşir. Sonuç x/y olur."),
+              ),
+              ex("Sıra Sizde 4.45", [t("Sadeleştirin: "), m("\\frac{7x}{7y}")]),
+              ex("Sıra Sizde 4.46", [t("Sadeleştirin: "), m("\\frac{9a}{9b}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesirlerle-carpma",
+        replaceBlocks: [
+          ...removeBlocks(26),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Kesirlerle çarpma yaparken paylar kendi aralarında, paydalar kendi aralarında çarpılır. Çarpımdan önce çapraz sadeleştirme yapmak işlemi çoğu zaman kolaylaştırır.",
+              ),
+              p([m("\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}", true)]),
+              ex(
+                "Örnek 4.24",
+                [t("Modelleyin: "), m("\\frac{1}{2}\\cdot\\frac{3}{4}"), t(".")],
+                sol("Çözüm: 3/4'ün yarısını alırız. 3/4 iki eş parçaya ayrıldığında her parça 3/8 olur."),
+              ),
+              ex("Sıra Sizde 4.47", [t("Modelleyin: "), m("\\frac{1}{2}\\cdot\\frac{3}{5}")]),
+              ex("Sıra Sizde 4.48", [t("Modelleyin: "), m("\\frac{1}{2}\\cdot\\frac{5}{6}")]),
+              ex(
+                "Örnek 4.25",
+                [t("Çarpın ve sadeleştirin: "), m("\\frac{2}{5}\\cdot\\frac{1}{3}"), t(".")],
+                sol("Çözüm: Paylar 2·1=2, paydalar 5·3=15 verir. Sonuç 2/15'tir."),
+              ),
+              ex("Sıra Sizde 4.49", [t("Çarpın: "), m("\\frac{1}{3}\\cdot\\frac{2}{5}")]),
+              ex("Sıra Sizde 4.50", [t("Çarpın: "), m("\\frac{3}{5}\\cdot\\frac{7}{8}")]),
+              ex(
+                "Örnek 4.26",
+                [t("Çarpın: "), m("-\\frac{5}{6}\\cdot\\left(-\\frac{9}{10}\\right)"), t(".")],
+                sol("Çözüm: İki negatifin çarpımı pozitiftir. Sadeleştirme sonrası sonuç 3/4'tür."),
+              ),
+              ex("Sıra Sizde 4.51", [t("Çarpın: "), m("-\\frac{4}{7}\\left(-\\frac{5}{8}\\right)")]),
+              ex("Sıra Sizde 4.52", [t("Çarpın: "), m("-\\frac{7}{12}\\left(-\\frac{8}{9}\\right)")]),
+              ex(
+                "Örnek 4.27",
+                [t("Çarpın: "), m("-\\frac{10}{21}\\cdot\\frac{7}{15}"), t(".")],
+                sol("Çözüm: İşaret negatiftir. 10 ile 15, 7 ile 21 sadeleşir; sonuç -2/9 olur."),
+              ),
+              ex("Sıra Sizde 4.53", [t("Çarpın: "), m("-\\frac{10}{28}\\cdot\\frac{8}{15}")]),
+              ex("Sıra Sizde 4.54", [t("Çarpın: "), m("-\\frac{9}{20}\\cdot\\frac{5}{12}")]),
+              ex(
+                "Örnek 4.28",
+                [t("Çarpın: ⓐ "), m("\\frac{1}{6}\\cdot 42"), t(" ⓑ "), m("\\frac{5}{4}(-8x)")],
+                sol("Çözüm: ⓐ 42'nin altıda biri 7'dir. ⓑ 8 ile 4 sadeleşir; sonuç -10x olur."),
+              ),
+              ex("Sıra Sizde 4.55", [t("Çarpın: ⓐ "), m("\\frac{1}{8}\\cdot72"), t(" ⓑ "), m("\\frac{11}{3}(-9a)")]),
+              ex("Sıra Sizde 4.56", [t("Çarpın: ⓐ "), m("\\frac{3}{8}\\cdot64"), t(" ⓑ "), m("16x\\cdot\\frac{11}{12}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ters-kesir",
+        replaceBlocks: [
+          ...removeBlocks(15),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "İki sayının çarpımı 1 ise bu sayılar birbirinin tersidir. Bir kesrin tersini bulmak için pay ile paydayı yer değiştiririz; negatif kesirde işaret negatif kalır.",
+              ),
+              ex(
+                "Örnek 4.29",
+                [t("Tersini bulun: ⓐ "), m("\\frac{3}{8}"), t(" ⓑ "), m("-\\frac{1}{2}"), t(" ⓒ "), m("\\frac{9}{5}"), t(" ⓓ "), m("-5")],
+                sol("Çözüm: Pay ve payda yer değiştirir. ⓐ 8/3 ⓑ -2 ⓒ 5/9 ⓓ -1/5."),
+              ),
+              ex("Sıra Sizde 4.57", [t("Tersini bulun: ⓐ "), m("\\frac{5}{7}"), t(" ⓑ "), m("-\\frac{1}{8}"), t(" ⓒ "), m("-\\frac{11}{4}"), t(" ⓓ "), m("14")]),
+              ex("Sıra Sizde 4.58", [t("Tersini bulun: ⓐ "), m("\\frac{3}{7}"), t(" ⓑ "), m("-\\frac{1}{12}"), t(" ⓒ "), m("-\\frac{14}{9}"), t(" ⓓ "), m("21")]),
+              ex(
+                "Örnek 4.30",
+                [t("Her sayı için karşıtını, mutlak değerini ve tersini bulun: "), m("-\\frac{3}{8},\\frac{1}{2},\\frac{9}{5},-5")],
+                sol("Çözüm: Karşıt işareti değiştirir, mutlak değer uzaklığı verir, ters ise pay ve paydayı değiştirir. Sonuçlar sırasıyla: 3/8, 3/8, -8/3; -1/2, 1/2, 2; -9/5, 9/5, 5/9; 5, 5, -1/5."),
+              ),
+              ex("Sıra Sizde 4.59", [t("Tabloyu doldurun: "), m("-\\frac{5}{8},\\frac{1}{4},\\frac{8}{3},-8")]),
+              ex("Sıra Sizde 4.60", [t("Tabloyu doldurun: "), m("-\\frac{4}{7},\\frac{1}{8},\\frac{9}{4},-1")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesirlerle-bolme",
+        replaceBlocks: [
+          ...removeBlocks(26),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Kesirlerle bölme, bölen kesrin tersiyle çarpma işlemidir. Bir modelde ise bölme, verilen miktarın içinde bölen parçadan kaç tane bulunduğunu sorar.",
+              ),
+              p([m("\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}", true)]),
+              ex(
+                "Örnek 4.31",
+                [t("Modelleyin: "), m("\\frac{1}{2}\\div\\frac{1}{4}"), t(".")],
+                sol("Çözüm: Bir yarımın içinde iki tane dörtte bir vardır. Sonuç 2'dir."),
+              ),
+              ex("Sıra Sizde 4.61", [t("Modelleyin: "), m("\\frac{1}{3}\\div\\frac{1}{6}")]),
+              ex("Sıra Sizde 4.62", [t("Modelleyin: "), m("\\frac{1}{2}\\div\\frac{1}{4}")]),
+              ex(
+                "Örnek 4.32",
+                [t("Modelleyin: "), m("2\\div\\frac{1}{4}"), t(".")],
+                sol("Çözüm: Her bütün 4 çeyrek içerir. 2 bütün 8 çeyrek içerdiği için sonuç 8'dir."),
+              ),
+              ex("Sıra Sizde 4.63", [t("Modelleyin: "), m("2\\div\\frac{1}{3}")]),
+              ex("Sıra Sizde 4.64", [t("Modelleyin: "), m("3\\div\\frac{1}{2}")]),
+              ex(
+                "Örnek 4.33",
+                [t("Bölün: "), m("\\frac{3}{5}\\div\\frac{2}{7}"), t(".")],
+                sol("Çözüm: 2/7'nin tersi 7/2'dir. 3/5·7/2=21/10 olur."),
+              ),
+              ex("Sıra Sizde 4.65", [t("Bölün: "), m("\\frac{3}{7}\\div\\left(-\\frac{2}{3}\\right)")]),
+              ex("Sıra Sizde 4.66", [t("Bölün: "), m("\\frac{2}{3}\\div\\left(-\\frac{7}{5}\\right)")]),
+              ex(
+                "Örnek 4.34",
+                [t("Bölün: "), m("\\frac{3}{5}\\div\\frac{p}{7}"), t(".")],
+                sol("Çözüm: p/7'nin tersi 7/p'dir. Çarpınca 21/(5p) bulunur; p sıfır olmamalıdır."),
+              ),
+              ex("Sıra Sizde 4.67", [t("Bölün: "), m("\\frac{3}{5}\\div\\frac{p}{7}")]),
+              ex("Sıra Sizde 4.68", [t("Bölün: "), m("\\frac{5}{8}\\div\\frac{q}{3}")]),
+              ex(
+                "Örnek 4.35",
+                [t("Bölün: "), m("-\\frac{2}{3}\\div\\left(-\\frac{5}{6}\\right)"), t(".")],
+                sol("Çözüm: İki negatifin bölümü pozitiftir. -2/3·(-6/5)=12/15=4/5 olur."),
+              ),
+              ex("Sıra Sizde 4.69", [t("Bölün: "), m("-\\frac{2}{3}\\div\\left(-\\frac{5}{6}\\right)")]),
+              ex("Sıra Sizde 4.70", [t("Bölün: "), m("-\\frac{5}{6}\\div\\left(-\\frac{2}{3}\\right)")]),
+              ex(
+                "Örnek 4.36",
+                [t("Bölün: "), m("\\frac{7}{27}\\div\\frac{35}{36}"), t(".")],
+                sol("Çözüm: 7/27·36/35 yapılır. 7 ile 35, 36 ile 27 sadeleşir; sonuç 4/15'tir."),
+              ),
+              ex("Sıra Sizde 4.71", [t("Bölün: "), m("\\frac{7}{27}\\div\\frac{35}{36}")]),
+              ex("Sıra Sizde 4.72", [t("Bölün: "), m("\\frac{5}{14}\\div\\frac{15}{28}")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({
