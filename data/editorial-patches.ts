@@ -1536,6 +1536,771 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
           },
         ],
       },
+      {
+        sectionSlug: "sozcuk-obeklerini-cebirsel-ifadelere-cevirme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Önceki bölümde cebirde kullanılan işlem sembollerini listeledik; sonra ifadeleri ve denklemleri sözcük öbeklerine çevirdik. Şimdi işlemi tersine çevirecek, sözcük öbeklerini cebirsel ifadelere dönüştüreceğiz. Konuştuğumuz semboller ve değişkenler bu çeviride bize yardımcı olacak. Bunlar Tablo 2.7'de özetlenmiştir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              {
+                type: "table",
+                columns: ["İşlem", "Sözcük Öbeği", "İfade"],
+                rows: [
+                  [
+                    "Toplama",
+                    "a artı b; a ile b'nin toplamı; a'nın b kadar artırılmışı; a'dan b fazla; a ile b'nin toplam değeri; a'ya b eklenmiş",
+                    "a+b",
+                  ],
+                  [
+                    "Çıkarma",
+                    "a eksi b; a ile b'nin farkı; a'dan b çıkarılmış; a'nın b kadar azaltılmışı; a'dan b eksik",
+                    "a-b",
+                  ],
+                  [
+                    "Çarpma",
+                    "a çarpı b; a ile b'nin çarpımı",
+                    "a\\cdot b, ab, a(b), (a)(b)",
+                  ],
+                  [
+                    "Bölme",
+                    "a bölü b; a ile b'nin bölümü; a'nın b'ye oranı; a'nın b'ye bölünmüşü",
+                    "a\\div b, a/b, \\frac{a}{b}",
+                  ],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Dört işlemi kullanan şu sözcük öbeklerine dikkatle bakın:",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "list",
+                items: [
+                  [
+                    { type: "math", value: "a" },
+                    { type: "text", value: " ile " },
+                    { type: "math", value: "b" },
+                    { type: "text", value: "'nin toplamı" },
+                  ],
+                  [
+                    { type: "math", value: "a" },
+                    { type: "text", value: " ile " },
+                    { type: "math", value: "b" },
+                    { type: "text", value: "'nin farkı" },
+                  ],
+                  [
+                    { type: "math", value: "a" },
+                    { type: "text", value: " ile " },
+                    { type: "math", value: "b" },
+                    { type: "text", value: "'nin çarpımı" },
+                  ],
+                  [
+                    { type: "math", value: "a" },
+                    { type: "text", value: " ile " },
+                    { type: "math", value: "b" },
+                    { type: "text", value: "'nin bölümü" },
+                  ],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Her sözcük öbeği iki sayı üzerinde işlem yapmamızı ister. Hangi sayıların kullanılacağını bulmak için öbekteki ilişki sözlerine, özellikle de “ile”, “toplamı”, “farkı”, “çarpımı” ve “bölümü” ifadelerine bakın.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.23",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "20" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "4" },
+                  { type: "text", value: "'ün farkı ⓑ " },
+                  { type: "math", value: "10x" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "3" },
+                  { type: "text", value: "'ün bölümü" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "ⓐ Anahtar sözcük “fark”tır; bu bize işlemin çıkarma olduğunu söyler. Çıkarılacak sayıları bulmak için öbekteki iki niceliğe bakarız.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{array}{l}\\text{20 ile 4'ün farkı}\\\\20\\text{ eksi }4\\\\20-4\\end{array}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "ⓑ Anahtar sözcük “bölüm”dür; bu bize işlemin bölme olduğunu söyler.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{array}{l}\\text{10x ile 3'ün bölümü}\\\\10x\\div3\\end{array}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "text", value: "Bu ifade " },
+                      { type: "math", value: "10x/3" },
+                      { type: "text", value: " ya da " },
+                      { type: "math", value: "\\frac{10x}{3}" },
+                      { type: "text", value: " olarak da yazılabilir." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.45",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Verilen sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "47" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "41" },
+                  { type: "text", value: "'in farkı ⓑ " },
+                  { type: "math", value: "5x" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "2" },
+                  { type: "text", value: "'nin bölümü" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.46",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Verilen sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "17" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "19" },
+                  { type: "text", value: "'un toplamı ⓑ " },
+                  { type: "math", value: "7" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "x" },
+                  { type: "text", value: "'in çarpımı" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Sekiz yıl sonra kaç yaşında olacaksınız? Bu, şimdiki yaşınızdan sekiz fazla yaştır. Şimdiki yaşınıza ",
+                  },
+                  { type: "math", value: "8" },
+                  {
+                    type: "text",
+                    value:
+                      " eklediniz, değil mi? “Sekiz fazla” demek, var olan niceliğe sekiz eklemek demektir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Yedi yıl önce kaç yaşındaydınız? Bu, şimdiki yaşınızdan yedi eksik yaştır. Şimdiki yaşınızdan ",
+                  },
+                  { type: "math", value: "7" },
+                  {
+                    type: "text",
+                    value:
+                      " çıkarırsınız. “Yedi eksik” demek, var olan nicelikten yedi çıkarmak demektir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.24",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "y" },
+                  { type: "text", value: "'den sekiz fazla ⓑ " },
+                  { type: "math", value: "9z" },
+                  { type: "text", value: "'den yedi eksik" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "ⓐ Anahtar söz “fazla”dır; işlem toplamadır. “Sekiz fazla”, sekizin verilen niceliğe eklendiği anlamına gelir.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{array}{l}y\\text{'den sekiz fazla}\\\\y\\text{'ye sekiz eklenmiş}\\\\y+8\\end{array}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "ⓑ Anahtar söz “eksik”tir; işlem çıkarmadır. “Yedi eksik”, yedinin verilen nicelikten çıkarıldığı anlamına gelir.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{array}{l}9z\\text{'den yedi eksik}\\\\9z\\text{'den yedi çıkarılmış}\\\\9z-7\\end{array}",
+                        display: true,
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 12,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.47",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "x" },
+                  { type: "text", value: "'ten on bir fazla ⓑ " },
+                  { type: "math", value: "11a" },
+                  { type: "text", value: "'dan on dört eksik" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 13,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.48",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "j" },
+                  { type: "text", value: "'den " },
+                  { type: "math", value: "19" },
+                  { type: "text", value: " fazla ⓑ " },
+                  { type: "math", value: "2x" },
+                  { type: "text", value: "'ten " },
+                  { type: "math", value: "21" },
+                  { type: "text", value: " eksik" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 14,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.25",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "m" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "n" },
+                  {
+                    type: "text",
+                    value: "'nin toplamının beş katı ⓑ ",
+                  },
+                  { type: "math", value: "m" },
+                  {
+                    type: "text",
+                    value: "'nin beş katı ile ",
+                  },
+                  { type: "math", value: "n" },
+                  { type: "text", value: "'nin toplamı" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "ⓐ İki işlem sözü vardır: “katı” çarpmayı, “toplam” toplamayı gösterir. Beş ile toplamın tamamını çarptığımız için ",
+                      },
+                      { type: "math", value: "m" },
+                      { type: "text", value: " ile " },
+                      { type: "math", value: "n" },
+                      {
+                        type: "text",
+                        value: " toplamını parantez içine almalıyız.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{array}{l}\\text{m ile n'nin toplamının beş katı}\\\\5(m+n)\\end{array}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "ⓑ Bir toplam alırken hangi iki ifadenin toplandığını buluruz. Burada ",
+                      },
+                      { type: "math", value: "m" },
+                      {
+                        type: "text",
+                        value: "'nin beş katı ile ",
+                      },
+                      { type: "math", value: "n" },
+                      { type: "text", value: " toplanıyor." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{array}{l}\\text{m'nin beş katı ile n'nin toplamı}\\\\5m+n\\end{array}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Parantez kullanımının sonucu değiştirdiğine dikkat edin. ⓐ bölümünde önce toplarız, ⓑ bölümünde ise önce çarparız.",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 15,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.49",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "p" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "q" },
+                  {
+                    type: "text",
+                    value: "'nun toplamının dört katı ⓑ ",
+                  },
+                  { type: "math", value: "p" },
+                  {
+                    type: "text",
+                    value: "'nin dört katı ile ",
+                  },
+                  { type: "math", value: "q" },
+                  { type: "text", value: "'nun toplamı" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 16,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.50",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Sözcük öbeğini cebirsel ifadeye çevirin: ⓐ ",
+                  },
+                  { type: "math", value: "x" },
+                  {
+                    type: "text",
+                    value: "'in iki katı ile ",
+                  },
+                  { type: "math", value: "8" },
+                  {
+                    type: "text",
+                    value: "'in farkı ⓑ ",
+                  },
+                  { type: "math", value: "x" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "8" },
+                  { type: "text", value: "'in farkının iki katı" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 17,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bu dersin ilerleyen bölümlerinde cebir becerilerimizi denklem çözmek için kullanacağız. Çoğu zaman önce bir sözcük öbeğini cebirsel ifadeye çevirerek başlayacağız. İfadenin neyi temsil ettiğini açıkça belirtmemiz gerekir. Bunu nasıl yapacağımızı sonraki iki örnekte göreceğiz.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 18,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.26",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Dikdörtgen bir pencerenin yüksekliği, genişliğinden ",
+                  },
+                  { type: "math", value: "6" },
+                  {
+                    type: "text",
+                    value:
+                      " inç eksiktir. Pencerenin genişliğini ",
+                  },
+                  { type: "math", value: "w" },
+                  {
+                    type: "text",
+                    value:
+                      " temsil etsin. Pencerenin yüksekliği için bir ifade yazın.",
+                  },
+                ],
+                solution: [
+                  {
+                    type: "table",
+                    columns: ["Adım", "Çeviri"],
+                    rows: [
+                      [
+                        "Yükseklik hakkında bir sözcük öbeği yazın.",
+                        "genişlikten 6 eksik",
+                      ],
+                      ["Genişlik yerine w yazın.", "w'den 6 eksik"],
+                      [
+                        "Eksik ifadesini çıkarma olarak yazın.",
+                        "w'den 6 çıkarılmış",
+                      ],
+                      ["Sözcük öbeğini cebire çevirin.", "w-6"],
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 19,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.51",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Bir dikdörtgenin uzunluğu, genişliğinden ",
+                  },
+                  { type: "math", value: "5" },
+                  {
+                    type: "text",
+                    value:
+                      " inç eksiktir. Dikdörtgenin genişliğini ",
+                  },
+                  { type: "math", value: "w" },
+                  {
+                    type: "text",
+                    value:
+                      " temsil etsin. Dikdörtgenin uzunluğu için bir ifade yazın.",
+                  },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 20,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.52",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Bir dikdörtgenin genişliği, uzunluğundan ",
+                  },
+                  { type: "math", value: "2" },
+                  {
+                    type: "text",
+                    value:
+                      " metre fazladır. Dikdörtgenin uzunluğunu ",
+                  },
+                  { type: "math", value: "l" },
+                  {
+                    type: "text",
+                    value:
+                      " temsil etsin. Dikdörtgenin genişliği için bir ifade yazın.",
+                  },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 21,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.27",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Blanca'nın çantasında 10 sentlik ve 25 sentlik madeni paralar var. 10 sentliklerin sayısı, 25 sentliklerin sayısının ",
+                  },
+                  { type: "math", value: "5" },
+                  { type: "text", value: " katından " },
+                  { type: "math", value: "2" },
+                  {
+                    type: "text",
+                    value:
+                      " eksiktir. 25 sentliklerin sayısını ",
+                  },
+                  { type: "math", value: "q" },
+                  {
+                    type: "text",
+                    value:
+                      " temsil etsin. 10 sentliklerin sayısı için bir ifade yazın.",
+                  },
+                ],
+                solution: [
+                  {
+                    type: "table",
+                    columns: ["Adım", "Çeviri"],
+                    rows: [
+                      [
+                        "10 sentliklerin sayısı hakkında bir sözcük öbeği yazın.",
+                        "25 sentliklerin sayısının beş katından iki eksik",
+                      ],
+                      [
+                        "25 sentliklerin sayısı yerine q yazın.",
+                        "q'nun beş katından iki eksik",
+                      ],
+                      ["q'nun beş katını çevirin.", "5q'dan iki eksik"],
+                      ["Sözcük öbeğini cebire çevirin.", "5q-2"],
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 22,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.53",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Geoffrey'nin cebinde 10 sentlik ve 25 sentlik madeni paralar var. 10 sentliklerin sayısı, 25 sentliklerin sayısının altı katından yedi eksiktir. 25 sentliklerin sayısını ",
+                  },
+                  { type: "math", value: "q" },
+                  {
+                    type: "text",
+                    value:
+                      " temsil etsin. 10 sentliklerin sayısı için bir ifade yazın.",
+                  },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 23,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.54",
+                prompt: [
+                  {
+                    type: "text",
+                    value:
+                      "Lauren'ın çantasında 10 sentlik ve 5 sentlik madeni paralar var. 10 sentliklerin sayısı, 5 sentliklerin sayısının dört katından sekiz fazladır. 5 sentliklerin sayısını ",
+                  },
+                  { type: "math", value: "n" },
+                  {
+                    type: "text",
+                    value:
+                      " temsil etsin. 10 sentliklerin sayısı için bir ifade yazın.",
+                  },
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   {

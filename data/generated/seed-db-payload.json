@@ -2289,37 +2289,37 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the previous section, we listed many operation symbols that are used in algebra, and then we translated expressions and equations into word phrases and sentences. Now we’ll reverse the process and translate word phrases into algebraic expressions. The symbols and variables we’ve talked about will help us do that. They are summarized in Table 2.7."
+                "value": "Önceki bölümde cebirde kullanılan işlem sembollerini listeledik; sonra ifadeleri ve denklemleri sözcük öbeklerine çevirdik. Şimdi işlemi tersine çevirecek, sözcük öbeklerini cebirsel ifadelere dönüştüreceğiz. Konuştuğumuz semboller ve değişkenler bu çeviride bize yardımcı olacak. Bunlar Tablo 2.7'de özetlenmiştir."
               }
             ]
           },
           {
             "type": "table",
             "columns": [
-              "Operation",
-              "Phrase",
-              "Expression"
+              "İşlem",
+              "Sözcük Öbeği",
+              "İfade"
             ],
             "rows": [
               [
-                "Addition",
-                "a plus b the sum of a and b a increased by b b more than a the total of a and b b added to a",
+                "Toplama",
+                "a artı b; a ile b'nin toplamı; a'nın b kadar artırılmışı; a'dan b fazla; a ile b'nin toplam değeri; a'ya b eklenmiş",
                 "a+b"
               ],
               [
-                "Subtraction",
-                "a minus b the difference of a and b b subtracted from a a decreased by b b less than a",
+                "Çıkarma",
+                "a eksi b; a ile b'nin farkı; a'dan b çıkarılmış; a'nın b kadar azaltılmışı; a'dan b eksik",
                 "a-b"
               ],
               [
-                "Multiplication",
-                "a times b the product of a and b",
-                "a\\cdotb , ab , a(b) , (a)(b)"
+                "Çarpma",
+                "a çarpı b; a ile b'nin çarpımı",
+                "a\\cdot b, ab, a(b), (a)(b)"
               ],
               [
-                "Division",
-                "a divided by b the quotient of a and b the ratio of a and b b divided into a",
-                "a\\divb , a/b , \\frac{a}{b} , ba"
+                "Bölme",
+                "a bölü b; a ile b'nin bölümü; a'nın b'ye oranı; a'nın b'ye bölünmüşü",
+                "a\\div b, a/b, \\frac{a}{b}"
               ]
             ]
           },
@@ -2328,7 +2328,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Look closely at these phrases using the four operations:"
+                "value": "Dört işlemi kullanan şu sözcük öbeklerine dikkatle bakın:"
               }
             ]
           },
@@ -2337,74 +2337,74 @@
             "items": [
               [
                 {
-                  "type": "text",
-                  "value": "the sum of "
-                },
-                {
                   "type": "math",
                   "value": "a"
                 },
                 {
                   "type": "text",
-                  "value": " and "
+                  "value": " ile "
                 },
                 {
                   "type": "math",
                   "value": "b"
+                },
+                {
+                  "type": "text",
+                  "value": "'nin toplamı"
                 }
               ],
               [
                 {
-                  "type": "text",
-                  "value": "the difference of "
-                },
-                {
                   "type": "math",
                   "value": "a"
                 },
                 {
                   "type": "text",
-                  "value": " and "
+                  "value": " ile "
                 },
                 {
                   "type": "math",
                   "value": "b"
+                },
+                {
+                  "type": "text",
+                  "value": "'nin farkı"
                 }
               ],
               [
                 {
-                  "type": "text",
-                  "value": "the product of "
-                },
-                {
                   "type": "math",
                   "value": "a"
                 },
                 {
                   "type": "text",
-                  "value": " and "
+                  "value": " ile "
                 },
                 {
                   "type": "math",
                   "value": "b"
+                },
+                {
+                  "type": "text",
+                  "value": "'nin çarpımı"
                 }
               ],
               [
                 {
-                  "type": "text",
-                  "value": "the quotient of "
-                },
-                {
                   "type": "math",
                   "value": "a"
                 },
                 {
                   "type": "text",
-                  "value": " and "
+                  "value": " ile "
                 },
                 {
                   "type": "math",
                   "value": "b"
+                },
+                {
+                  "type": "text",
+                  "value": "'nin bölümü"
                 }
               ]
             ]
@@ -2414,7 +2414,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Each phrase tells you to operate on two numbers. Look for the words of and and to find the numbers."
+                "value": "Her sözcük öbeği iki sayı üzerinde işlem yapmamızı ister. Hangi sayıların kullanılacağını bulmak için öbekteki ilişki sözlerine, özellikle de “ile”, “toplamı”, “farkı”, “çarpımı” ve “bölümü” ifadelerine bakın."
               }
             ]
           },
@@ -2424,7 +2424,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate each word phrase into an algebraic expression:  ⓐ the difference of "
+                "value": "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
@@ -2432,7 +2432,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -2440,7 +2440,7 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ the quotient of "
+                "value": "'ün farkı ⓑ "
               },
               {
                 "type": "math",
@@ -2448,11 +2448,15 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
                 "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'ün bölümü"
               }
             ],
             "solution": [
@@ -2461,7 +2465,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓐ The key word is difference, which tells us the operation is subtraction. Look for the words of and and to find the numbers to subtract."
+                    "value": "ⓐ Anahtar sözcük “fark”tır; bu bize işlemin çıkarma olduğunu söyler. Çıkarılacak sayıları bulmak için öbekteki iki niceliğe bakarız."
                   }
                 ]
               },
@@ -2470,7 +2474,8 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}\\text{fark} \\text{} 20 and 4 \\\\ 20 \\text{eksi} 4 \\\\ 20-4\\end{array}"
+                    "value": "\\begin{array}{l}\\text{20 ile 4'ün farkı}\\\\20\\text{ eksi }4\\\\20-4\\end{array}",
+                    "display": true
                   }
                 ]
               },
@@ -2479,7 +2484,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓑ The key word is quotient, which tells us the operation is division."
+                    "value": "ⓑ Anahtar sözcük “bölüm”dür; bu bize işlemin bölme olduğunu söyler."
                   }
                 ]
               },
@@ -2488,7 +2493,8 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}\\text{bölüm} 10x \\text{ve} 3 \\\\ \\text{böl} 10x \\text{ile} 3 \\\\ 10x\\div3\\end{array}"
+                    "value": "\\begin{array}{l}\\text{10x ile 3'ün bölümü}\\\\10x\\div3\\end{array}",
+                    "display": true
                   }
                 ]
               },
@@ -2497,11 +2503,23 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "This can also be written as "
+                    "value": "Bu ifade "
                   },
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}10x/3 \\text{veya} \\frac{10x}{3}\\end{array}"
+                    "value": "10x/3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ya da "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{10x}{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olarak da yazılabilir."
                   }
                 ]
               }
@@ -2513,7 +2531,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the given word phrase into an algebraic expression:  ⓐ the difference of "
+                "value": "Verilen sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
@@ -2521,7 +2539,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -2529,7 +2547,7 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ the quotient of "
+                "value": "'in farkı ⓑ "
               },
               {
                 "type": "math",
@@ -2537,11 +2555,15 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
                 "value": "2"
+              },
+              {
+                "type": "text",
+                "value": "'nin bölümü"
               }
             ],
             "solution": []
@@ -2552,7 +2574,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the given word phrase into an algebraic expression:  ⓐ the sum of "
+                "value": "Verilen sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
@@ -2560,7 +2582,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -2568,7 +2590,7 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ the product of "
+                "value": "'un toplamı ⓑ "
               },
               {
                 "type": "math",
@@ -2576,11 +2598,15 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
                 "value": "x"
+              },
+              {
+                "type": "text",
+                "value": "'in çarpımı"
               }
             ],
             "solution": []
@@ -2590,7 +2616,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "How old will you be in eight years? What age is eight more years than your age now? Did you add "
+                "value": "Sekiz yıl sonra kaç yaşında olacaksınız? Bu, şimdiki yaşınızdan sekiz fazla yaştır. Şimdiki yaşınıza "
               },
               {
                 "type": "math",
@@ -2598,7 +2624,7 @@
               },
               {
                 "type": "text",
-                "value": " to your present age? Eight more than means eight added to your present age."
+                "value": " eklediniz, değil mi? “Sekiz fazla” demek, var olan niceliğe sekiz eklemek demektir."
               }
             ]
           },
@@ -2607,7 +2633,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "How old were you seven years ago? This is seven years less than your age now. You subtract "
+                "value": "Yedi yıl önce kaç yaşındaydınız? Bu, şimdiki yaşınızdan yedi eksik yaştır. Şimdiki yaşınızdan "
               },
               {
                 "type": "math",
@@ -2615,7 +2641,7 @@
               },
               {
                 "type": "text",
-                "value": " from your present age. Seven less than means seven subtracted from your present age."
+                "value": " çıkarırsınız. “Yedi eksik” demek, var olan nicelikten yedi çıkarmak demektir."
               }
             ]
           },
@@ -2625,7 +2651,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate each word phrase into an algebraic expression:  ⓐ Eight more than "
+                "value": "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
@@ -2633,11 +2659,15 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ Seven less than "
+                "value": "'den sekiz fazla ⓑ "
               },
               {
                 "type": "math",
                 "value": "9z"
+              },
+              {
+                "type": "text",
+                "value": "'den yedi eksik"
               }
             ],
             "solution": [
@@ -2646,7 +2676,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓐ The key words are more than. They tell us the operation is addition. More than means “added to”."
+                    "value": "ⓐ Anahtar söz “fazla”dır; işlem toplamadır. “Sekiz fazla”, sekizin verilen niceliğe eklendiği anlamına gelir."
                   }
                 ]
               },
@@ -2655,7 +2685,8 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}\\text{Sekiz fazla} y \\\\ \\text{Sekiz eklenmiş} y \\\\ y+8\\end{array}"
+                    "value": "\\begin{array}{l}y\\text{'den sekiz fazla}\\\\y\\text{'ye sekiz eklenmiş}\\\\y+8\\end{array}",
+                    "display": true
                   }
                 ]
               },
@@ -2664,7 +2695,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓑ The key words are less than. They tell us the operation is subtraction. Less than means “subtracted from”."
+                    "value": "ⓑ Anahtar söz “eksik”tir; işlem çıkarmadır. “Yedi eksik”, yedinin verilen nicelikten çıkarıldığı anlamına gelir."
                   }
                 ]
               },
@@ -2673,7 +2704,8 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}\\text{Yedi eksik} 9z \\\\ \\text{Yedi çıkarılmış} 9z \\\\ 9z-7\\end{array}"
+                    "value": "\\begin{array}{l}9z\\text{'den yedi eksik}\\\\9z\\text{'den yedi çıkarılmış}\\\\9z-7\\end{array}",
+                    "display": true
                   }
                 ]
               }
@@ -2685,7 +2717,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate each word phrase into an algebraic expression:  ⓐ Eleven more than "
+                "value": "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
@@ -2693,11 +2725,15 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ Fourteen less than "
+                "value": "'ten on bir fazla ⓑ "
               },
               {
                 "type": "math",
                 "value": "11a"
+              },
+              {
+                "type": "text",
+                "value": "'dan on dört eksik"
               }
             ],
             "solution": []
@@ -2708,15 +2744,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate each word phrase into an algebraic expression:  ⓐ"
-              },
-              {
-                "type": "math",
-                "value": "19"
-              },
-              {
-                "type": "text",
-                "value": " more than "
+                "value": "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
@@ -2724,7 +2752,23 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ "
+                "value": "'den "
+              },
+              {
+                "type": "math",
+                "value": "19"
+              },
+              {
+                "type": "text",
+                "value": " fazla ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "2x"
+              },
+              {
+                "type": "text",
+                "value": "'ten "
               },
               {
                 "type": "math",
@@ -2732,11 +2776,7 @@
               },
               {
                 "type": "text",
-                "value": " less than "
-              },
-              {
-                "type": "math",
-                "value": "2x"
+                "value": " eksik"
               }
             ],
             "solution": []
@@ -2747,7 +2787,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate each word phrase into an algebraic expression:  ⓐ five times the sum of "
+                "value": "Her sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
@@ -2755,7 +2795,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -2763,7 +2803,7 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ the sum of five times "
+                "value": "'nin toplamının beş katı ⓑ "
               },
               {
                 "type": "math",
@@ -2771,11 +2811,15 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": "'nin beş katı ile "
               },
               {
                 "type": "math",
                 "value": "n"
+              },
+              {
+                "type": "text",
+                "value": "'nin toplamı"
               }
             ],
             "solution": [
@@ -2784,15 +2828,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓐ There are two operation words: times tells us to multiply and sum tells us to add. Because we are multiplying "
-                  },
-                  {
-                    "type": "math",
-                    "value": "5"
-                  },
-                  {
-                    "type": "text",
-                    "value": " times the sum, we need parentheses around the sum of "
+                    "value": "ⓐ İki işlem sözü vardır: “katı” çarpmayı, “toplam” toplamayı gösterir. Beş ile toplamın tamamını çarptığımız için "
                   },
                   {
                     "type": "math",
@@ -2800,36 +2836,25 @@
                   },
                   {
                     "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "math",
-                    "value": "n."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "five times the sum of "
-                  },
-                  {
-                    "type": "math",
-                    "value": "m"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and "
+                    "value": " ile "
                   },
                   {
                     "type": "math",
                     "value": "n"
                   },
                   {
+                    "type": "text",
+                    "value": " toplamını parantez içine almalıyız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
                     "type": "math",
-                    "value": "\\begin{array}{l}5(m+n)\\end{array}"
+                    "value": "\\begin{array}{l}\\text{m ile n'nin toplamının beş katı}\\\\5(m+n)\\end{array}",
+                    "display": true
                   }
                 ]
               },
@@ -2838,7 +2863,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓑ To take a sum, we look for the words of and and to see what is being added. Here we are taking the sum of five times "
+                    "value": "ⓑ Bir toplam alırken hangi iki ifadenin toplandığını buluruz. Burada "
                   },
                   {
                     "type": "math",
@@ -2846,36 +2871,25 @@
                   },
                   {
                     "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "math",
-                    "value": "n."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "the sum of five times "
-                  },
-                  {
-                    "type": "math",
-                    "value": "m"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and "
+                    "value": "'nin beş katı ile "
                   },
                   {
                     "type": "math",
                     "value": "n"
                   },
                   {
+                    "type": "text",
+                    "value": " toplanıyor."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
                     "type": "math",
-                    "value": "\\begin{array}{l}5m+n\\end{array}"
+                    "value": "\\begin{array}{l}\\text{m'nin beş katı ile n'nin toplamı}\\\\5m+n\\end{array}",
+                    "display": true
                   }
                 ]
               },
@@ -2884,7 +2898,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Notice how the use of parentheses changes the result. In part ⓐ, we add first and in part ⓑ, we multiply first."
+                    "value": "Parantez kullanımının sonucu değiştirdiğine dikkat edin. ⓐ bölümünde önce toplarız, ⓑ bölümünde ise önce çarparız."
                   }
                 ]
               }
@@ -2896,7 +2910,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the word phrase into an algebraic expression:  ⓐ four times the sum of "
+                "value": "Sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
@@ -2904,7 +2918,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -2912,7 +2926,7 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ the sum of four times "
+                "value": "'nun toplamının dört katı ⓑ "
               },
               {
                 "type": "math",
@@ -2920,11 +2934,15 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": "'nin dört katı ile "
               },
               {
                 "type": "math",
                 "value": "q"
+              },
+              {
+                "type": "text",
+                "value": "'nun toplamı"
               }
             ],
             "solution": []
@@ -2935,19 +2953,39 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the word phrase into an algebraic expression:  ⓐ the difference of two times "
+                "value": "Sözcük öbeğini cebirsel ifadeye çevirin: ⓐ "
               },
               {
                 "type": "math",
-                "value": "x \\text{ve 8}"
+                "value": "x"
               },
               {
                 "type": "text",
-                "value": " ⓑ two times the difference of "
+                "value": "'in iki katı ile "
               },
               {
                 "type": "math",
-                "value": "x \\text{ve} 8"
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": "'in farkı ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": "'in farkının iki katı"
               }
             ],
             "solution": []
@@ -2957,7 +2995,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Later in this course, we’ll apply our skills in algebra to solving equations. We’ll usually start by translating a word phrase to an algebraic expression. We’ll need to be clear about what the expression will represent. We’ll see how to do this in the next two examples."
+                "value": "Bu dersin ilerleyen bölümlerinde cebir becerilerimizi denklem çözmek için kullanacağız. Çoğu zaman önce bir sözcük öbeğini cebirsel ifadeye çevirerek başlayacağız. İfadenin neyi temsil ettiğini açıkça belirtmemiz gerekir. Bunu nasıl yapacağımızı sonraki iki örnekte göreceğiz."
               }
             ]
           },
@@ -2967,7 +3005,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "The height of a rectangular window is "
+                "value": "Dikdörtgen bir pencerenin yüksekliği, genişliğinden "
               },
               {
                 "type": "math",
@@ -2975,7 +3013,7 @@
               },
               {
                 "type": "text",
-                "value": " inches less than the width. Let "
+                "value": " inç eksiktir. Pencerenin genişliğini "
               },
               {
                 "type": "math",
@@ -2983,28 +3021,31 @@
               },
               {
                 "type": "text",
-                "value": " represent the width of the window. Write an expression for the height of the window."
+                "value": " temsil etsin. Pencerenin yüksekliği için bir ifade yazın."
               }
             ],
             "solution": [
               {
                 "type": "table",
-                "columns": [],
+                "columns": [
+                  "Adım",
+                  "Çeviri"
+                ],
                 "rows": [
                   [
-                    "Write a phrase about the height.",
-                    "6 less than the width"
+                    "Yükseklik hakkında bir sözcük öbeği yazın.",
+                    "genişlikten 6 eksik"
                   ],
                   [
-                    "Substitute w for the width.",
-                    "6 less than w"
+                    "Genişlik yerine w yazın.",
+                    "w'den 6 eksik"
                   ],
                   [
-                    "Rewrite 'less than' as 'subtracted from'.",
-                    "6 subtracted from w"
+                    "Eksik ifadesini çıkarma olarak yazın.",
+                    "w'den 6 çıkarılmış"
                   ],
                   [
-                    "Translate the phrase into algebra.",
+                    "Sözcük öbeğini cebire çevirin.",
                     "w-6"
                   ]
                 ]
@@ -3017,7 +3058,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "The length of a rectangle is "
+                "value": "Bir dikdörtgenin uzunluğu, genişliğinden "
               },
               {
                 "type": "math",
@@ -3025,7 +3066,7 @@
               },
               {
                 "type": "text",
-                "value": " inches less than the width. Let "
+                "value": " inç eksiktir. Dikdörtgenin genişliğini "
               },
               {
                 "type": "math",
@@ -3033,7 +3074,7 @@
               },
               {
                 "type": "text",
-                "value": " represent the width of the rectangle. Write an expression for the length of the rectangle."
+                "value": " temsil etsin. Dikdörtgenin uzunluğu için bir ifade yazın."
               }
             ],
             "solution": []
@@ -3044,7 +3085,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "The width of a rectangle is "
+                "value": "Bir dikdörtgenin genişliği, uzunluğundan "
               },
               {
                 "type": "math",
@@ -3052,7 +3093,7 @@
               },
               {
                 "type": "text",
-                "value": " meters greater than the length. Let "
+                "value": " metre fazladır. Dikdörtgenin uzunluğunu "
               },
               {
                 "type": "math",
@@ -3060,7 +3101,7 @@
               },
               {
                 "type": "text",
-                "value": " represent the length of the rectangle. Write an expression for the width of the rectangle."
+                "value": " temsil etsin. Dikdörtgenin genişliği için bir ifade yazın."
               }
             ],
             "solution": []
@@ -3071,15 +3112,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Blanca has dimes and quarters in her purse. The number of dimes is "
-              },
-              {
-                "type": "math",
-                "value": "2"
-              },
-              {
-                "type": "text",
-                "value": " less than "
+                "value": "Blanca'nın çantasında 10 sentlik ve 25 sentlik madeni paralar var. 10 sentliklerin sayısı, 25 sentliklerin sayısının "
               },
               {
                 "type": "math",
@@ -3087,7 +3120,15 @@
               },
               {
                 "type": "text",
-                "value": " times the number of quarters. Let "
+                "value": " katından "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " eksiktir. 25 sentliklerin sayısını "
               },
               {
                 "type": "math",
@@ -3095,28 +3136,31 @@
               },
               {
                 "type": "text",
-                "value": " represent the number of quarters. Write an expression for the number of dimes."
+                "value": " temsil etsin. 10 sentliklerin sayısı için bir ifade yazın."
               }
             ],
             "solution": [
               {
                 "type": "table",
-                "columns": [],
+                "columns": [
+                  "Adım",
+                  "Çeviri"
+                ],
                 "rows": [
                   [
-                    "Write a phrase about the number of dimes.",
-                    "two less than five times the number of quarters"
+                    "10 sentliklerin sayısı hakkında bir sözcük öbeği yazın.",
+                    "25 sentliklerin sayısının beş katından iki eksik"
                   ],
                   [
-                    "Substitute q for the number of quarters.",
-                    "2 less than five times q"
+                    "25 sentliklerin sayısı yerine q yazın.",
+                    "q'nun beş katından iki eksik"
                   ],
                   [
-                    "Translate 5 times q .",
-                    "2 less than 5q"
+                    "q'nun beş katını çevirin.",
+                    "5q'dan iki eksik"
                   ],
                   [
-                    "Translate the phrase into algebra.",
+                    "Sözcük öbeğini cebire çevirin.",
                     "5q-2"
                   ]
                 ]
@@ -3129,7 +3173,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Geoffrey has dimes and quarters in his pocket. The number of dimes is seven less than six times the number of quarters. Let "
+                "value": "Geoffrey'nin cebinde 10 sentlik ve 25 sentlik madeni paralar var. 10 sentliklerin sayısı, 25 sentliklerin sayısının altı katından yedi eksiktir. 25 sentliklerin sayısını "
               },
               {
                 "type": "math",
@@ -3137,7 +3181,7 @@
               },
               {
                 "type": "text",
-                "value": " represent the number of quarters. Write an expression for the number of dimes."
+                "value": " temsil etsin. 10 sentliklerin sayısı için bir ifade yazın."
               }
             ],
             "solution": []
@@ -3148,7 +3192,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Lauren has dimes and nickels in her purse. The number of dimes is eight more than four times the number of nickels. Let "
+                "value": "Lauren'ın çantasında 10 sentlik ve 5 sentlik madeni paralar var. 10 sentliklerin sayısı, 5 sentliklerin sayısının dört katından sekiz fazladır. 5 sentliklerin sayısını "
               },
               {
                 "type": "math",
@@ -3156,7 +3200,7 @@
               },
               {
                 "type": "text",
-                "value": " represent the number of nickels. Write an expression for the number of dimes."
+                "value": " temsil etsin. 10 sentliklerin sayısı için bir ifade yazın."
               }
             ],
             "solution": []
@@ -7658,20 +7702,20 @@
             "value": " "
           },
           {
-            "type": "text",
-            "value": "Five times the sum of "
-          },
-          {
             "type": "math",
             "value": "x"
           },
           {
             "type": "text",
-            "value": " and "
+            "value": " ile "
           },
           {
             "type": "math",
             "value": "y"
+          },
+          {
+            "type": "text",
+            "value": "'nin toplamının beş katı"
           }
         ],
         "answerJson": [

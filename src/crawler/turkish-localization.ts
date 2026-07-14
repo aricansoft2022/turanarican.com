@@ -56,6 +56,7 @@ export function localizeExercisePromptForTurkish(
   return (
     adaptMultiplesInstruction(normalizedPrompt) ??
     adaptDivisibilityInstruction(normalizedPrompt) ??
+    adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
     adaptPlainInstruction(
       normalizedPrompt,
       "In the following exercises, evaluate the expression for the given value.",
@@ -103,6 +104,44 @@ export function localizeExercisePromptForTurkish(
     ) ??
     normalizedPrompt
   );
+}
+
+function adaptAlgebraicWordPhraseExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const instruction = adaptPlainInstruction(
+    prompt,
+    "In the following exercises, translate the given word phrase into an algebraic expression.",
+    "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin.",
+  );
+
+  if (!instruction) return null;
+
+  const phrase = instruction.slice(1);
+  const [space, prefix, first, joiner, second, ...rest] = phrase;
+
+  if (
+    space?.type === "text" &&
+    space.value.trim() === "" &&
+    prefix?.type === "text" &&
+    prefix.value === "Five times the sum of " &&
+    first?.type === "math" &&
+    joiner?.type === "text" &&
+    joiner.value === " and " &&
+    second?.type === "math"
+  ) {
+    return [
+      instruction[0],
+      { type: "text", value: " " },
+      first,
+      { type: "text", value: " ile " },
+      second,
+      { type: "text", value: "'nin toplamının beş katı" },
+      ...rest,
+    ] satisfies InlineContent[];
+  }
+
+  return instruction;
 }
 
 function adaptInlineContentToTurkish(items: InlineContent[]): InlineContent[] {
