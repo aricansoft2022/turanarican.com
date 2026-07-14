@@ -3763,7 +3763,7 @@
         "examples": 11,
         "tryIts": 24,
         "sourceExercises": 33,
-        "exercises": 6,
+        "exercises": 33,
         "mathTokens": 132,
         "assets": 28
       },
@@ -4020,7 +4020,17 @@
                     "value": "\\text{} x=3 \\text{denklemin çözümü mü} 4x-7=16\\text{?}"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x yerine 3 yazınca sol taraf 4·3-7=12-7=5 olur. Sağ taraf 16 olduğundan eşitlik doğru değildir; x=3 bu denklemin çözümü değildir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4031,7 +4041,17 @@
                     "value": "\\text{} x=2 \\text{denklemin çözümü mü} 6x-2=10\\text{?}"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x yerine 2 yazınca 6·2-2=12-2=10 bulunur. Sol taraf sağ tarafa eşit olduğu için x=2 denklemin çözümüdür."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4126,7 +4146,17 @@
                     "value": "\\text{} y=3 \\text{denklemin çözümü mü} 9y-2=8y+1\\text{?}"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y=3 için sol taraf 9·3-2=25, sağ taraf 8·3+1=25 olur. İki taraf eşit olduğundan y=3 çözümdür."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4137,7 +4167,17 @@
                     "value": "\\text{} y=4 \\text{denklemin çözümü mü} 5y-3=3y+5\\text{?}"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y=4 için sol taraf 5·4-3=17, sağ taraf 3·4+5=17 olur. Eşitlik sağlandığı için y=4 denklemin çözümüdür."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -4345,7 +4385,17 @@
                     "value": "Zarflar ve sayaçlarla modellenen denklemi yazın, sonra denklemi çözün: Şekil dikey olarak ikiye ayrılmıştır. Sol tarafta bir zarf ve altında bir sayaç, sağ tarafta ise yedi sayaç vardır."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Zarf bilinmeyeni gösterir. Model x+1=7 denklemini verir. İki taraftan 1 sayaç çıkarınca x=6 kalır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4356,7 +4406,17 @@
                     "value": "Zarflar ve sayaçlarla modellenen denklemi yazın, sonra denklemi çözün: Şekil dikey olarak ikiye ayrılmıştır. Sol tarafta bir zarf ve altında üç sayaç, sağ tarafta ise dört sayaç vardır."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Model x+3=4 denklemini gösterir. Eşitliği korumak için iki taraftan 3 çıkarırız; böylece x=1 bulunur."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -4527,7 +4587,17 @@
                     "value": "x+6=19"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x+6=19 denkleminde x'i yalnız bırakmak için iki taraftan 6 çıkarırız. x=13 bulunur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4542,7 +4612,17 @@
                     "value": "x+9=14"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x+9=14 denkleminde iki taraftan 9 çıkarırız. 14-9=5 olduğu için x=5'tir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4643,7 +4723,17 @@
                     "value": "95=y+67"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 95=y+67 denkleminde y'yi yalnız bırakmak için iki taraftan 67 çıkarırız. 95-67=28 olduğundan y=28 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4658,7 +4748,17 @@
                     "value": "91=y+45"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 91=y+45 denkleminde iki taraftan 45 çıkarırız. 91-45=46 olduğu için y=46'dır."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -4803,7 +4903,17 @@
                     "value": "x-9=13"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x-9=13 denkleminde çıkarılan 9'u dengelemek için iki tarafa 9 ekleriz. x=22 bulunur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4818,7 +4928,17 @@
                     "value": "y-1=3"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y-1=3 denkleminde iki tarafa 1 ekleriz. Böylece y=4 elde edilir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4901,7 +5021,17 @@
                     "value": "19=a-18"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 19=a-18 denkleminde a'yı yalnız bırakmak için iki tarafa 18 ekleriz. 19+18=37 olduğundan a=37'dir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -4916,7 +5046,17 @@
                     "value": "27=n-14"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 27=n-14 denkleminde iki tarafa 14 ekleriz. 27+14=41 olduğu için n=41 olur."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -5082,7 +5222,17 @@
                     "value": " verir."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “7 ile 6'nın toplamı” ifadesi 7+6 olarak yazılır. “13 verir” ifadesi eşitliği gösterir; denklem 7+6=13'tür."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -5117,7 +5267,17 @@
                     "value": "'tür."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam sözü toplama işlemini, “14'tür” sözü eşitliği anlatır. Bu nedenle denklem 8+6=14 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -5207,7 +5367,17 @@
                     "value": "'tür."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “6 ile 9'un çarpımı” 6·9 demektir. Sonuç 54 olduğuna göre denklem 6·9=54'tür."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -5242,7 +5412,17 @@
                     "value": " verir."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “21 ile 3'ün çarpımı 63 verir” cümlesi doğrudan 21·3=63 denklemiyle gösterilir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -5332,7 +5512,17 @@
                     "value": " verir."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce x ile 5'in farkı x-5'tir. Bu farkın iki katı 2(x-5) olur ve 30'a eşittir; denklem 2(x-5)=30'dur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -5367,7 +5557,17 @@
                     "value": " verir."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y ile 4'ün farkı y-4'tür. Farkın iki katı 16 verdiği için denklem 2(y-4)=16 olur."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -5483,7 +5683,17 @@
                     "value": "'ye eşittir."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “x'ten yedi fazla” x+7 olarak yazılır. x+7=37 denkleminde iki taraftan 7 çıkarınca x=30 bulunur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -5510,7 +5720,17 @@
                     "value": "'e eşittir."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Cümle y+11=28 denklemini verir. İki taraftan 11 çıkarınca y=17 elde edilir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -5625,7 +5845,17 @@
                     "value": "'ye eşittir."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “z ile 17'nin farkı” z-17 demektir. z-17=37 denkleminde iki tarafa 17 ekleriz ve z=54 buluruz."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -5660,7 +5890,17 @@
                     "value": "'e eşittir."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Cümle x-19=45 denklemini verir. İki tarafa 19 eklenirse x=64 olur."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -5703,7 +5943,7 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Her aday değeri denklemde değişkenin yerine yazarız. Eşitlik doğruysa çözüm olur. Kontrol sonunda ⓐ çözüm, ⓑ çözüm değildir."
+                "value": "Çözüm: x=8 için x+13=21 olur ve eşitlik sağlanır. x=34 için 34+13=47 olduğundan eşitlik sağlanmaz. Bu nedenle ⓐ çözüm, ⓑ çözüm değildir."
               }
             ],
             "sortOrder": 147
@@ -5737,10 +5977,182 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Verilen değerleri tek tek yerine koyduğumuzda yalnızca eşitliği doğru yapan değer çözüm olur. Bu nedenle ⓐ çözüm değil, ⓑ çözümdür."
+                "value": "Çözüm: m=9 için m-4=5 olur ve 13'e eşit değildir. m=17 için 17-4=13 olur. Bu nedenle ⓐ çözüm değil, ⓑ çözümdür."
               }
             ],
             "sortOrder": 149
+          },
+          {
+            "id": "exercise-151",
+            "number": "151",
+            "sectionSlug": "denklemin-cozumunu-kontrol-etme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "3p+6=15"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "p=3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "p=7"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: p=3 için 3·3+6=15 olduğundan eşitlik sağlanır. p=7 için 3·7+6=27 olur. Bu nedenle ⓐ çözüm, ⓑ çözüm değildir."
+              }
+            ],
+            "sortOrder": 151
+          },
+          {
+            "id": "exercise-153",
+            "number": "153",
+            "sectionSlug": "denklemin-cozumunu-kontrol-etme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "18d-9=27"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "d=1"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "d=2"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: d=1 için 18·1-9=9 olur; 27 değildir. d=2 için 18·2-9=27 olur. Bu nedenle ⓐ çözüm değil, ⓑ çözümdür."
+              }
+            ],
+            "sortOrder": 153
+          },
+          {
+            "id": "exercise-155",
+            "number": "155",
+            "sectionSlug": "denklemin-cozumunu-kontrol-etme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "8u-4=4u+40"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "u=3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "u=11"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: u=3 için sol taraf 20, sağ taraf 52 olur; eşitlik sağlanmaz. u=11 için iki taraf da 84 olur. Bu nedenle ⓐ çözüm değil, ⓑ çözümdür."
+              }
+            ],
+            "sortOrder": 155
+          },
+          {
+            "id": "exercise-157",
+            "number": "157",
+            "sectionSlug": "denklemin-cozumunu-kontrol-etme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "20h-5=15h+35"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "h=6"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "h=8"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: h=6 için sol taraf 115, sağ taraf 125 olur; eşitlik sağlanmaz. h=8 için iki taraf da 155 olur. Bu nedenle ⓐ çözüm değil, ⓑ çözümdür."
+              }
+            ],
+            "sortOrder": 157
+          },
+          {
+            "id": "exercise-159",
+            "number": "159",
+            "sectionSlug": "esitligin-korunumu-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda zarf ve sayaç modelinin gösterdiği denklemi yazın ve eşitliğin çıkarma özelliğini kullanarak çözün. Modelde sol tarafta bir zarf ve 2 sayaç, sağ tarafta 5 vardır."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Modelde sol tarafta bir zarf ve 2 sayaç, sağ tarafta 5 sayaç vardır; denklem x+2=5 olur. İki taraftan 2 çıkarınca x=3 bulunur."
+              }
+            ],
+            "sortOrder": 159
+          },
+          {
+            "id": "exercise-161",
+            "number": "161",
+            "sectionSlug": "esitligin-korunumu-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda zarf ve sayaç modelinin gösterdiği denklemi yazın ve eşitliğin çıkarma özelliğini kullanarak çözün. Modelde sol tarafta bir zarf ve 3 sayaç, sağ tarafta 6 vardır."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Model x+3=6 denklemini gösterir. Eşitliği korumak için iki taraftan 3 sayaç çıkarırız; geriye x=3 kalır."
+              }
+            ],
+            "sortOrder": 161
           },
           {
             "id": "exercise-163",
@@ -5763,18 +6175,140 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Değişkeni yalnız bırakmak için denklemin iki tarafından aynı sayı çıkarılır. Eşitlik korunur ve "
-              },
-              {
-                "type": "math",
-                "value": "a=16"
-              },
-              {
-                "type": "text",
-                "value": " bulunur."
+                "value": "Çözüm: a+2=18 denkleminde değişkeni yalnız bırakmak için iki taraftan 2 çıkarılır. Böylece a=16 bulunur."
               }
             ],
             "sortOrder": 163
+          },
+          {
+            "id": "exercise-165",
+            "number": "165",
+            "sectionSlug": "cikarma-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin çıkarma özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "p+18=23"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: p+18=23 denkleminde iki taraftan 18 çıkarırız. 23-18=5 olduğu için p=5'tir."
+              }
+            ],
+            "sortOrder": 165
+          },
+          {
+            "id": "exercise-167",
+            "number": "167",
+            "sectionSlug": "cikarma-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin çıkarma özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "r+76=100"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: r+76=100 denkleminde iki taraftan 76 çıkarılır. 100-76=24 olduğundan r=24 olur."
+              }
+            ],
+            "sortOrder": 167
+          },
+          {
+            "id": "exercise-169",
+            "number": "169",
+            "sectionSlug": "cikarma-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin çıkarma özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "16=x+9"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 16=x+9 denkleminde x'i yalnız bırakmak için iki taraftan 9 çıkarırız. 16-9=7 olduğu için x=7'dir."
+              }
+            ],
+            "sortOrder": 169
+          },
+          {
+            "id": "exercise-171",
+            "number": "171",
+            "sectionSlug": "cikarma-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin çıkarma özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "93=p+24"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 93=p+24 denkleminde iki taraftan 24 çıkarılır. 93-24=69 olduğundan p=69 bulunur."
+              }
+            ],
+            "sortOrder": 171
+          },
+          {
+            "id": "exercise-173",
+            "number": "173",
+            "sectionSlug": "cikarma-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin çıkarma özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "465=d+398"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 465=d+398 denkleminde iki taraftan 398 çıkarırız. 465-398=67 olduğu için d=67'dir."
+              }
+            ],
+            "sortOrder": 173
           },
           {
             "id": "exercise-175",
@@ -5797,23 +6331,421 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Değişkenin yanındaki sayı çıkarma ile gelmişse ters işlem olarak iki tarafa aynı sayı eklenir. Böylece "
-              },
-              {
-                "type": "math",
-                "value": "y=22"
-              },
-              {
-                "type": "text",
-                "value": " elde edilir."
+                "value": "Çözüm: y-3=19 denkleminde çıkarılan 3'ü dengelemek için iki tarafa 3 eklenir. Böylece y=22 elde edilir."
               }
             ],
             "sortOrder": 175
           },
           {
+            "id": "exercise-177",
+            "number": "177",
+            "sectionSlug": "toplama-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin toplama özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "u-6=24"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: u-6=24 denkleminde iki tarafa 6 ekleriz. 24+6=30 olduğundan u=30'dur."
+              }
+            ],
+            "sortOrder": 177
+          },
+          {
+            "id": "exercise-179",
+            "number": "179",
+            "sectionSlug": "toplama-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin toplama özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "f-55=123"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: f-55=123 denkleminde iki tarafa 55 eklenir. 123+55=178 olduğu için f=178 bulunur."
+              }
+            ],
+            "sortOrder": 179
+          },
+          {
+            "id": "exercise-181",
+            "number": "181",
+            "sectionSlug": "toplama-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin toplama özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "19=n-13"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 19=n-13 denkleminde iki tarafa 13 ekleriz. 19+13=32 olduğundan n=32'dir."
+              }
+            ],
+            "sortOrder": 181
+          },
+          {
+            "id": "exercise-183",
+            "number": "183",
+            "sectionSlug": "toplama-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin toplama özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "10=p-38"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 10=p-38 denkleminde iki tarafa 38 eklenir. 10+38=48 olduğu için p=48 olur."
+              }
+            ],
+            "sortOrder": 183
+          },
+          {
+            "id": "exercise-185",
+            "number": "185",
+            "sectionSlug": "toplama-islemiyle-denklem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin toplama özelliğini kullanarak çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "268=y-199"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 268=y-199 denkleminde iki tarafa 199 ekleriz. 268+199=467 olduğundan y=467 bulunur."
+              }
+            ],
+            "sortOrder": 185
+          },
+          {
+            "id": "exercise-187",
+            "number": "187",
+            "sectionSlug": "sozel-durumlari-denklem-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": "'nin toplamı "
+              },
+              {
+                "type": "math",
+                "value": "17"
+              },
+              {
+                "type": "text",
+                "value": "'ye eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “8 ve 9'un toplamı” 8+9, “17'ye eşittir” ise =17 demektir. Denklem 8+9=17 şeklinde yazılır."
+              }
+            ],
+            "sortOrder": 187
+          },
+          {
+            "id": "exercise-189",
+            "number": "189",
+            "sectionSlug": "sozel-durumlari-denklem-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "23"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "19"
+              },
+              {
+                "type": "text",
+                "value": "'nin farkı "
+              },
+              {
+                "type": "math",
+                "value": "4"
+              },
+              {
+                "type": "text",
+                "value": "'ye eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “23 ve 19'un farkı” 23-19 olarak yazılır. Sonuç 4'e eşit olduğundan denklem 23-19=4'tür."
+              }
+            ],
+            "sortOrder": 189
+          },
+          {
+            "id": "exercise-191",
+            "number": "191",
+            "sectionSlug": "sozel-durumlari-denklem-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": "'un çarpımı "
+              },
+              {
+                "type": "math",
+                "value": "27"
+              },
+              {
+                "type": "text",
+                "value": "'ye eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “3 ile 9'un çarpımı” 3·9 demektir. 27'ye eşit olduğu için denklem 3·9=27 olur."
+              }
+            ],
+            "sortOrder": 191
+          },
+          {
+            "id": "exercise-193",
+            "number": "193",
+            "sectionSlug": "sozel-durumlari-denklem-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "54"
+              },
+              {
+                "type": "text",
+                "value": "'ün "
+              },
+              {
+                "type": "math",
+                "value": "6"
+              },
+              {
+                "type": "text",
+                "value": "'ya bölümü "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": "'a eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “54'ün 6'ya bölümü” 54÷6 olarak yazılır. Sonuç 9 olduğundan denklem 54÷6=9'dur."
+              }
+            ],
+            "sortOrder": 193
+          },
+          {
+            "id": "exercise-195",
+            "number": "195",
+            "sectionSlug": "sozel-durumlari-denklem-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "n"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'un farkının iki katı "
+              },
+              {
+                "type": "math",
+                "value": "52"
+              },
+              {
+                "type": "text",
+                "value": " verir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: n ile 10'un farkı n-10'dur. Bunun iki katı 52 verdiği için denklem 2(n-10)=52 olur."
+              }
+            ],
+            "sortOrder": 195
+          },
+          {
+            "id": "exercise-197",
+            "number": "197",
+            "sectionSlug": "sozel-durumlari-denklem-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "y"
+              },
+              {
+                "type": "text",
+                "value": "'nin üç katı ile "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": "'un toplamı "
+              },
+              {
+                "type": "math",
+                "value": "100"
+              },
+              {
+                "type": "text",
+                "value": "'e eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: y'nin üç katı 3y'dir; buna 10 eklenince 3y+10 olur. Toplam 100'e eşit olduğundan denklem 3y+10=100'dür."
+              }
+            ],
+            "sortOrder": 197
+          },
+          {
             "id": "exercise-199",
             "number": "199",
-            "sectionSlug": "sozel-durumlari-denklem-ile-gosterme",
+            "sectionSlug": "denklem-kurma-ve-cozme",
             "prompt": [
               {
                 "type": "text",
@@ -5824,45 +6756,213 @@
                 "value": " "
               },
               {
-                "type": "text",
-                "value": "Five more than "
-              },
-              {
                 "type": "math",
                 "value": "p"
               },
               {
                 "type": "text",
-                "value": " is equal to "
+                "value": "'den beş fazla "
               },
               {
                 "type": "math",
-                "value": "21."
+                "value": "21"
+              },
+              {
+                "type": "text",
+                "value": "'e eşittir."
               }
             ],
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Sözel durumdaki bilinmeyen "
-              },
-              {
-                "type": "math",
-                "value": "p"
-              },
-              {
-                "type": "text",
-                "value": " ile gösterilir ve ilişki denklem olarak yazılır. Denklem çözüldüğünde "
-              },
-              {
-                "type": "math",
-                "value": "p=16"
-              },
-              {
-                "type": "text",
-                "value": " olur."
+                "value": "Çözüm: “p'den beş fazla 21'e eşittir” cümlesi p+5=21 denklemini verir. İki taraftan 5 çıkarınca p=16 bulunur."
               }
             ],
             "sortOrder": 199
+          },
+          {
+            "id": "exercise-201",
+            "number": "201",
+            "sectionSlug": "denklem-kurma-ve-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin ve çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "r"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "18"
+              },
+              {
+                "type": "text",
+                "value": "'nin toplamı "
+              },
+              {
+                "type": "math",
+                "value": "73"
+              },
+              {
+                "type": "text",
+                "value": "'ye eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Cümle r+18=73 denklemini verir. İki taraftan 18 çıkarırsak r=55 olur."
+              }
+            ],
+            "sortOrder": 201
+          },
+          {
+            "id": "exercise-203",
+            "number": "203",
+            "sectionSlug": "denklem-kurma-ve-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin ve çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "d"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "30"
+              },
+              {
+                "type": "text",
+                "value": "'nin farkı "
+              },
+              {
+                "type": "math",
+                "value": "52"
+              },
+              {
+                "type": "text",
+                "value": "'ye eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “d ile 30'un farkı 52'ye eşittir” cümlesi d-30=52 denklemini verir. İki tarafa 30 ekleyince d=82 bulunur."
+              }
+            ],
+            "sortOrder": 203
+          },
+          {
+            "id": "exercise-205",
+            "number": "205",
+            "sectionSlug": "denklem-kurma-ve-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin ve çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "u"
+              },
+              {
+                "type": "text",
+                "value": "'den "
+              },
+              {
+                "type": "math",
+                "value": "12"
+              },
+              {
+                "type": "text",
+                "value": " eksik "
+              },
+              {
+                "type": "math",
+                "value": "89"
+              },
+              {
+                "type": "text",
+                "value": "'a eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “u'dan 12 eksik” u-12 olarak yazılır. u-12=89 denkleminde iki tarafa 12 eklenir ve u=101 bulunur."
+              }
+            ],
+            "sortOrder": 205
+          },
+          {
+            "id": "exercise-207",
+            "number": "207",
+            "sectionSlug": "denklem-kurma-ve-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin ve çözün."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "c"
+              },
+              {
+                "type": "text",
+                "value": "'den "
+              },
+              {
+                "type": "math",
+                "value": "325"
+              },
+              {
+                "type": "text",
+                "value": " eksik "
+              },
+              {
+                "type": "math",
+                "value": "799"
+              },
+              {
+                "type": "text",
+                "value": " verir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “c'den 325 eksik 799 verir” cümlesi c-325=799 denklemini verir. İki tarafa 325 ekleyince c=1124 olur."
+              }
+            ],
+            "sortOrder": 207
           },
           {
             "id": "exercise-209",
@@ -5889,7 +6989,35 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Problemde bilinmeyen miktarı "
+                "value": "Çözüm: Sigorta şirketinin ödeyeceği tutar p olsun. Toplam hasar 1.800 dolar ve 500 dolarlık muafiyet olduğundan 500+p=1800 yazılır. İki taraftan 500 çıkarınca p=1300 bulunur."
+              }
+            ],
+            "sortOrder": 209
+          },
+          {
+            "id": "exercise-211",
+            "number": "211",
+            "sectionSlug": "denklem-kurma-ve-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İndirimli alışveriş: Arthur "
+              },
+              {
+                "type": "math",
+                "value": "\\text{$120}"
+              },
+              {
+                "type": "text",
+                "value": " indirimde olan bir takım elbise aldı ve "
+              },
+              {
+                "type": "math",
+                "value": "\\text{$340}"
+              },
+              {
+                "type": "text",
+                "value": " ödedi. Takım elbisenin indirimsiz fiyatını, "
               },
               {
                 "type": "math",
@@ -5897,18 +7025,20 @@
               },
               {
                 "type": "text",
-                "value": " ile gösterip verilen ilişkiye göre denklem kurarız. Ters işlemlerle çözdüğümüzde "
+                "value": ", denklemi çözerek bulun: "
               },
               {
                 "type": "math",
-                "value": "p=1300"
-              },
-              {
-                "type": "text",
-                "value": " bulunur."
+                "value": "p-120=340"
               }
             ],
-            "sortOrder": 209
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İndirimden önceki fiyat p olsun. 120 dolar indirimden sonra 340 dolar ödendiği için p-120=340 yazılır. İki tarafa 120 eklenirse p=460 bulunur."
+              }
+            ],
+            "sortOrder": 211
           }
         ]
       }
