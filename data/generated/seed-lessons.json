@@ -3446,7 +3446,7 @@
         "examples": 11,
         "tryIts": 24,
         "exercises": 6,
-        "mathTokens": 116,
+        "mathTokens": 121,
         "assets": 28
       },
       "lesson": {
@@ -3488,7 +3488,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Solving an equation is like discovering the answer to a puzzle. An algebraic equation states that two algebraic expressions are equal. To solve an equation is to determine the values of the variable that make the equation a true statement. Any number that makes the equation true is called a solution of the equation. It is the answer to the puzzle!"
+                    "value": "Bir denklemi çözmek, bir bulmacanın cevabını bulmaya benzer. Cebirsel denklem, iki cebirsel ifadenin birbirine eşit olduğunu söyler. Denklemi çözmek, denklemi doğru yapan değişken değerlerini belirlemektir. Denklemi doğru yapan her sayı denklemin çözümü olarak adlandırılır; bulmacanın cevabı da budur."
                   }
                 ]
               },
@@ -3497,31 +3497,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "To find the solution to an equation means to find the value of the variable that makes the equation true. Can you recognize the solution of "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x+2=7?"
-                  },
-                  {
-                    "type": "text",
-                    "value": " If you said "
-                  },
-                  {
-                    "type": "math",
-                    "value": "5,"
-                  },
-                  {
-                    "type": "text",
-                    "value": " you’re right! We say "
-                  },
-                  {
-                    "type": "math",
-                    "value": "5"
-                  },
-                  {
-                    "type": "text",
-                    "value": " is a solution to the equation "
+                    "value": "Bir denklemin çözümünü bulmak, değişkenin denklemi doğru yapan değerini bulmak demektir. "
                   },
                   {
                     "type": "math",
@@ -3529,7 +3505,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " because when we substitute "
+                    "value": " denkleminin çözümünü görebiliyor musunuz? "
                   },
                   {
                     "type": "math",
@@ -3537,7 +3513,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " for "
+                    "value": " dediyseniz haklısınız. "
                   },
                   {
                     "type": "math",
@@ -3545,33 +3521,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " the resulting statement is true."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "math",
-                    "value": "\\begin{array}{l}x+2=7 \\\\ 5+2=?7 \\\\ 7=\\end{array}\\begin{array}{l}7✓\\end{array}"
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "Since "
-                  },
-                  {
-                    "type": "math",
-                    "value": "5+2=7"
-                  },
-                  {
-                    "type": "text",
-                    "value": " is a true statement, we know that "
+                    "value": " yerine "
                   },
                   {
                     "type": "math",
@@ -3579,7 +3529,23 @@
                   },
                   {
                     "type": "text",
-                    "value": " is indeed a solution to the equation."
+                    "value": " yazınca doğru bir ifade elde edildiği için "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x+2=7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " denkleminin çözümüdür."
                   }
                 ]
               },
@@ -3587,28 +3553,59 @@
                 "type": "paragraph",
                 "text": [
                   {
-                    "type": "text",
-                    "value": "The symbol "
-                  },
+                    "type": "math",
+                    "value": "\\begin{aligned}x+2&=7 \\\\ 5+2&\\stackrel{?}{=}7 \\\\ 7&=7\\checkmark\\end{aligned}",
+                    "display": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
                   {
                     "type": "math",
-                    "value": "=?"
-                  },
-                  {
-                    "type": "text",
-                    "value": " asks whether the left side of the equation is equal to the right side. Once we know, we can change to an equal sign "
-                  },
-                  {
-                    "type": "math",
-                    "value": "\\text{(=)}"
+                    "value": "5+2=7"
                   },
                   {
                     "type": "text",
-                    "value": " or not-equal sign "
+                    "value": " doğru bir ifade olduğundan "
                   },
                   {
                     "type": "math",
-                    "value": "\\text{(≠).}"
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " sayısının gerçekten bu denklemin çözümü olduğunu biliriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\stackrel{?}{=}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " sembolü, denklemin sol tarafının sağ tarafına eşit olup olmadığını sorar. Sonucu bildiğimizde bu sembolü eşittir işaretine "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(=)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ya da eşit değildir işaretine "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(\\ne)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dönüştürürüz."
                   }
                 ]
               },
@@ -3618,20 +3615,55 @@
                 "prompt": [
                   {
                     "type": "math",
-                    "value": "\\text{Belirleyin} x=5 \\text{denklemin çözümüdür} 6x-17=16."
+                    "value": "x=5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " değerinin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6x-17=16"
+                  },
+                  {
+                    "type": "text",
+                    "value": " denkleminin çözümü olup olmadığını belirleyin."
                   }
                 ],
                 "solution": [
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Multiply."
-                      ],
-                      [
-                        "Subtract."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Denklemde "
+                      },
+                      {
+                        "type": "math",
+                        "value": "x"
+                      },
+                      {
+                        "type": "text",
+                        "value": " yerine "
+                      },
+                      {
+                        "type": "math",
+                        "value": "5"
+                      },
+                      {
+                        "type": "text",
+                        "value": " yazalım."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "math",
+                        "value": "\\begin{aligned}6x-17&=16 \\\\ 6(5)-17&\\stackrel{?}{=}16 \\\\ 30-17&\\stackrel{?}{=}16 \\\\ 13&\\ne16\\end{aligned}",
+                        "display": true
+                      }
                     ]
                   },
                   {
@@ -3639,7 +3671,7 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "So "
+                        "value": "Elde edilen ifade yanlış olduğundan "
                       },
                       {
                         "type": "math",
@@ -3647,11 +3679,15 @@
                       },
                       {
                         "type": "text",
-                        "value": " is not a solution to the equation "
+                        "value": ", "
                       },
                       {
                         "type": "math",
-                        "value": "6x-17=16."
+                        "value": "6x-17=16"
+                      },
+                      {
+                        "type": "text",
+                        "value": " denkleminin çözümü değildir."
                       }
                     ]
                   }
@@ -3685,7 +3721,19 @@
                 "prompt": [
                   {
                     "type": "math",
-                    "value": "\\text{Belirleyin} y=2 \\text{denklemin çözümüdür} 6y-4=5y-2."
+                    "value": "y=2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " değerinin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6y-4=5y-2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " denkleminin çözümü olup olmadığını belirleyin."
                   }
                 ],
                 "solution": [
@@ -3694,7 +3742,15 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "Here, the variable appears on both sides of the equation. We must substitute "
+                        "value": "Değişken denklemin iki tarafında da var. Bu yüzden her "
+                      },
+                      {
+                        "type": "math",
+                        "value": "y"
+                      },
+                      {
+                        "type": "text",
+                        "value": " yerine "
                       },
                       {
                         "type": "math",
@@ -3702,24 +3758,18 @@
                       },
                       {
                         "type": "text",
-                        "value": " for each "
-                      },
-                      {
-                        "type": "math",
-                        "value": "y."
+                        "value": " yazalım."
                       }
                     ]
                   },
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Multiply."
-                      ],
-                      [
-                        "Subtract."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "math",
+                        "value": "\\begin{aligned}6y-4&=5y-2 \\\\ 6(2)-4&\\stackrel{?}{=}5(2)-2 \\\\ 12-4&\\stackrel{?}{=}10-2 \\\\ 8&=8\\checkmark\\end{aligned}",
+                        "display": true
+                      }
                     ]
                   },
                   {
@@ -3727,7 +3777,7 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "Since "
+                        "value": "Doğru bir denklem elde edildiği için "
                       },
                       {
                         "type": "math",
@@ -3735,19 +3785,15 @@
                       },
                       {
                         "type": "text",
-                        "value": " results in a true equation, we know that "
+                        "value": ", "
                       },
                       {
                         "type": "math",
-                        "value": "2"
+                        "value": "6y-4=5y-2"
                       },
                       {
                         "type": "text",
-                        "value": " is a solution to the equation "
-                      },
-                      {
-                        "type": "math",
-                        "value": "6y-4=5y-2."
+                        "value": " denkleminin çözümüdür."
                       }
                     ]
                   }
@@ -5723,7 +5769,7 @@
         "examples": 8,
         "tryIts": 16,
         "exercises": 4,
-        "mathTokens": 188,
+        "mathTokens": 192,
         "assets": 25
       },
       "lesson": {
@@ -5763,32 +5809,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Annie is counting the shoes in her closet. The shoes are matched in pairs, so she doesn’t have to count each one. She counts by twos: "
-                  },
-                  {
-                    "type": "math",
-                    "value": "2,4,6,8,10,12."
-                  },
-                  {
-                    "type": "text",
-                    "value": " She has "
-                  },
-                  {
-                    "type": "math",
-                    "value": "12"
-                  },
-                  {
-                    "type": "text",
-                    "value": " shoes in her closet."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
-                  {
-                    "type": "text",
-                    "value": "The numbers "
+                    "value": "Annie dolabındaki ayakkabıları sayıyor. Ayakkabılar çiftler halinde durduğu için her birini tek tek sayması gerekmiyor. İkişer ikişer sayıyor: "
                   },
                   {
                     "type": "math",
@@ -5796,31 +5817,28 @@
                   },
                   {
                     "type": "text",
-                    "value": " are called multiples of "
+                    "value": ". Dolabında "
                   },
                   {
                     "type": "math",
-                    "value": "2."
+                    "value": "12"
                   },
                   {
                     "type": "text",
-                    "value": " Multiples of "
-                  },
+                    "value": " ayakkabı var."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
                   {
                     "type": "math",
-                    "value": "2"
+                    "value": "2,4,6,8,10,12"
                   },
                   {
                     "type": "text",
-                    "value": " can be written as the product of a counting number and "
-                  },
-                  {
-                    "type": "math",
-                    "value": "2."
-                  },
-                  {
-                    "type": "text",
-                    "value": " The first six multiples of "
+                    "value": " sayıları "
                   },
                   {
                     "type": "math",
@@ -5828,7 +5846,23 @@
                   },
                   {
                     "type": "text",
-                    "value": " are given below."
+                    "value": "'nin katlarıdır. "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin katları, bir sayma sayısı ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin çarpımı olarak yazılabilir. İlk altı kat aşağıda gösterilmiştir."
                   }
                 ]
               },
@@ -5846,7 +5880,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "A multiple of a number is the product of the number and a counting number. So a multiple of "
+                    "value": "Bir sayının katı, o sayı ile bir sayma sayısının çarpımıdır. Örneğin "
                   },
                   {
                     "type": "math",
@@ -5854,19 +5888,23 @@
                   },
                   {
                     "type": "text",
-                    "value": " would be the product of a counting number and "
+                    "value": "'ün katı, bir sayma sayısı ile "
                   },
                   {
                     "type": "math",
-                    "value": "3."
+                    "value": "3"
                   },
                   {
                     "type": "text",
-                    "value": " Below are the first six multiples of "
+                    "value": "'ün çarpımıdır. Aşağıda "
                   },
                   {
                     "type": "math",
-                    "value": "3."
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ün ilk altı katı verilmiştir."
                   }
                 ]
               },
@@ -5884,7 +5922,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "We can find the multiples of any number by continuing this process. Table 2.8 shows the multiples of "
+                    "value": "Bu işlemi sürdürerek herhangi bir sayının katlarını bulabiliriz. Tablo 2.8, ilk on iki sayma sayısı için "
                   },
                   {
                     "type": "math",
@@ -5892,7 +5930,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " through "
+                    "value": "'den "
                   },
                   {
                     "type": "math",
@@ -5900,14 +5938,14 @@
                   },
                   {
                     "type": "text",
-                    "value": " for the first twelve counting numbers."
+                    "value": "'a kadar olan sayıların katlarını gösterir."
                   }
                 ]
               },
               {
                 "type": "table",
                 "columns": [
-                  "Counting Number",
+                  "Sayma Sayısı",
                   "1",
                   "2",
                   "3",
@@ -5923,7 +5961,7 @@
                 ],
                 "rows": [
                   [
-                    "\\text{Katlar}\\text{} 2",
+                    "2'nin katları",
                     "2",
                     "4",
                     "6",
@@ -5938,7 +5976,7 @@
                     "24"
                   ],
                   [
-                    "\\text{Katları} 3",
+                    "3'ün katları",
                     "3",
                     "6",
                     "9",
@@ -5953,7 +5991,7 @@
                     "36"
                   ],
                   [
-                    "\\text{Katları} 4",
+                    "4'ün katları",
                     "4",
                     "8",
                     "12",
@@ -5968,7 +6006,7 @@
                     "48"
                   ],
                   [
-                    "\\text{Katları} 5",
+                    "5'in katları",
                     "5",
                     "10",
                     "15",
@@ -5983,7 +6021,7 @@
                     "60"
                   ],
                   [
-                    "\\text{Katları} 6",
+                    "6'nın katları",
                     "6",
                     "12",
                     "18",
@@ -5998,7 +6036,7 @@
                     "72"
                   ],
                   [
-                    "\\text{Katları} 7",
+                    "7'nin katları",
                     "7",
                     "14",
                     "21",
@@ -6013,7 +6051,7 @@
                     "84"
                   ],
                   [
-                    "\\text{Katları} 8",
+                    "8'in katları",
                     "8",
                     "16",
                     "24",
@@ -6028,7 +6066,7 @@
                     "96"
                   ],
                   [
-                    "\\text{Katları} 9",
+                    "9'un katları",
                     "9",
                     "18",
                     "27",
@@ -6048,16 +6086,20 @@
                 "type": "paragraph",
                 "text": [
                   {
+                    "type": "math",
+                    "value": "2,5,10"
+                  },
+                  {
                     "type": "text",
-                    "value": "Recognizing the patterns for multiples of "
+                    "value": " ve "
                   },
                   {
                     "type": "math",
-                    "value": "2,5,10,\\text{ve} 3"
+                    "value": "3"
                   },
                   {
                     "type": "text",
-                    "value": " will be helpful to you as you continue in this course."
+                    "value": "'ün katlarındaki örüntüleri fark etmek, ders boyunca işinizi kolaylaştıracaktır."
                   }
                 ]
               },
@@ -6129,15 +6171,23 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "The last digit of each highlighted number in Figure 2.6 is either "
+                    "value": "Şekil 2.6'da vurgulanan her sayının son basamağı "
                   },
                   {
                     "type": "math",
-                    "value": "0,2,4,6,\\text{veya} 8."
+                    "value": "0,2,4,6"
                   },
                   {
                     "type": "text",
-                    "value": " This is true for the product of "
+                    "value": " veya "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dir. Bu durum "
                   },
                   {
                     "type": "math",
@@ -6145,7 +6195,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " and any counting number. So, to tell if any number is a multiple of "
+                    "value": " ile herhangi bir sayma sayısının çarpımı için geçerlidir. Bu yüzden bir sayının "
                   },
                   {
                     "type": "math",
@@ -6153,19 +6203,31 @@
                   },
                   {
                     "type": "text",
-                    "value": " look at the last digit. If it is "
+                    "value": "'nin katı olup olmadığını anlamak için son basamağına bakarız. Son basamak "
                   },
                   {
                     "type": "math",
-                    "value": "0,2,4,6, \\text{veya} 8,"
+                    "value": "0,2,4,6"
                   },
                   {
                     "type": "text",
-                    "value": " then the number is a multiple of "
+                    "value": " veya "
                   },
                   {
                     "type": "math",
-                    "value": "2."
+                    "value": "8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ise sayı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin katıdır."
                   }
                 ]
               },
@@ -6175,15 +6237,15 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Determine whether each of the following is a multiple of "
+                    "value": "Aşağıdakilerin "
                   },
                   {
                     "type": "math",
-                    "value": "2\\text{:}"
+                    "value": "2"
                   },
                   {
                     "type": "text",
-                    "value": "  ⓐ"
+                    "value": "'nin katı olup olmadığını belirleyin: ⓐ "
                   },
                   {
                     "type": "math",
@@ -6195,46 +6257,42 @@
                   },
                   {
                     "type": "math",
-                    "value": "3,714"
+                    "value": "3.714"
                   }
                 ],
                 "solution": [
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "ⓐ"
-                      ],
-                      [
-                        "Is 489 a multiple of 2?"
-                      ],
-                      [
-                        "Is the last digit 0, 2, 4, 6, or 8?",
-                        "No."
-                      ],
-                      [
-                        "489 is not a multiple of 2."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "ⓐ 489'un son basamağı 9'dur. Son basamak 0, 2, 4, 6 veya 8 olmadığı için 489, "
+                      },
+                      {
+                        "type": "math",
+                        "value": "2"
+                      },
+                      {
+                        "type": "text",
+                        "value": "'nin katı değildir."
+                      }
                     ]
                   },
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "ⓑ"
-                      ],
-                      [
-                        "Is 3,714 a multiple of 2?"
-                      ],
-                      [
-                        "Is the last digit 0, 2, 4, 6, or 8?",
-                        "Yes."
-                      ],
-                      [
-                        "3,714 is a multiple of 2."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "ⓑ 3.714'ün son basamağı 4'tür. Son basamak 0, 2, 4, 6 veya 8 olduğu için 3.714, "
+                      },
+                      {
+                        "type": "math",
+                        "value": "2"
+                      },
+                      {
+                        "type": "text",
+                        "value": "'nin katıdır."
+                      }
                     ]
                   }
                 ]
@@ -6245,15 +6303,15 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Determine whether each number is a multiple of "
+                    "value": "Her sayının "
                   },
                   {
                     "type": "math",
-                    "value": "2\\text{:}"
+                    "value": "2"
                   },
                   {
                     "type": "text",
-                    "value": "  ⓐ "
+                    "value": "'nin katı olup olmadığını belirleyin: ⓐ "
                   },
                   {
                     "type": "math",
@@ -6265,7 +6323,7 @@
                   },
                   {
                     "type": "math",
-                    "value": "21,493"
+                    "value": "21.493"
                   }
                 ],
                 "solution": []
@@ -6276,15 +6334,15 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Determine whether each number is a multiple of "
+                    "value": "Her sayının "
                   },
                   {
                     "type": "math",
-                    "value": "2\\text{:}"
+                    "value": "2"
                   },
                   {
                     "type": "text",
-                    "value": "  ⓐ "
+                    "value": "'nin katı olup olmadığını belirleyin: ⓐ "
                   },
                   {
                     "type": "math",
@@ -6296,7 +6354,7 @@
                   },
                   {
                     "type": "math",
-                    "value": "17,780"
+                    "value": "17.780"
                   }
                 ],
                 "solution": []
