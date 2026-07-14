@@ -14,6 +14,171 @@
         "emptyTryIts": [],
         "emptyExercises": []
       },
+      "assets": [
+        {
+          "id": "037-8ccda13f538d4cb7",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102586/370f941ea7aba7878b7265f7080b65423d8a2d4a?revision=1",
+          "type": "image",
+          "altText": "The image shows the expression 3 x plus 6 x. The 3 x represents x plus x plus x. The 6 x represents x plus x plus x plus x plus x plus x. The expression 3 x plus 6 x becomes x plus x plus x plus x plus x plus x plus x plus x plus x. This simplifies to a total of 9 x's or the term 9 x.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/037-8ccda13f538d4cb7.png",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/037-8ccda13f538d4cb7.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "038-2fa9df1aa449b98d",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102589/6b8fe5a43393eec2de6f317a1df31979c58711e6?revision=1",
+          "type": "image",
+          "altText": "The image shows the expression 3 x plus 4 y plus 2 x plus 6 y. The position of the middle terms, 4 y and 2 x, can be switched so that the expression becomes 3 x plus 2 x plus 4 y plus 6 y. Now the terms containing x are together and the terms containing y are together.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/038-2fa9df1aa449b98d.png",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/038-2fa9df1aa449b98d.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "bb9f8b80e6cf81eb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-0",
+          "type": "table",
+          "caption": "ⓐ To evaluate, substitute 33 for xx in the expression, and then simplify.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/bb9f8b80e6cf81eb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/bb9f8b80e6cf81eb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "8765006324c207d1",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-1",
+          "type": "table",
+          "caption": "ⓑ To evaluate, substitute 1212 for xx in the expression, and then simplify.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/8765006324c207d1.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/8765006324c207d1.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a56f2944255908d1",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-2",
+          "type": "table",
+          "caption": "ⓐ To evaluate the expression when x=5,x=5, we substitute 55 for x,x, and then simplify.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/a56f2944255908d1.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/a56f2944255908d1.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5d105c76742c5c81",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-3",
+          "type": "table",
+          "caption": "ⓑ To evaluate the expression when x=1,x=1, we substitute 11 for x,x, and then simplify.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/5d105c76742c5c81.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/5d105c76742c5c81.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "568fa18bbc0c48f8",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-4",
+          "type": "table",
+          "caption": "We substitute 1010 for x,x, and then simplify the expression.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/568fa18bbc0c48f8.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/568fa18bbc0c48f8.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1ebdc0eeba94788a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-5",
+          "type": "table",
+          "caption": "In this expression, the variable is an exponent.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/1ebdc0eeba94788a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/1ebdc0eeba94788a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "17351c21bdceaf3c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-6",
+          "type": "table",
+          "caption": "This expression contains two variables, so we must make two substitutions.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/17351c21bdceaf3c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/17351c21bdceaf3c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "27e3139e2809f37d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-7",
+          "type": "table",
+          "caption": "We need to be careful when an expression has a variable with an exponent. In this expression, 2x22x2 means 2⋅x⋅x2⋅x⋅x and is different from the expression (2x)2,(2x)2, which means 2x⋅2x.2x⋅2x.",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/27e3139e2809f37d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/27e3139e2809f37d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "3b5ffd03ae25a6ca",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/3b5ffd03ae25a6ca.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/3b5ffd03ae25a6ca.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b315b9b9b15051fb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/b315b9b9b15051fb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/b315b9b9b15051fb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "0d6ca4037f64867f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/0d6ca4037f64867f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/0d6ca4037f64867f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "8d64611d5db8a176",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/8d64611d5db8a176.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/8d64611d5db8a176.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a7bdbbe0b65a375a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-12",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/a7bdbbe0b65a375a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/a7bdbbe0b65a375a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1a3abb334761c963",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/1a3abb334761c963.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/1a3abb334761c963.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "260752fcbf38f81b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/260752fcbf38f81b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/2-2-evaluate-simplify-and-translate-expressions/260752fcbf38f81b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
       "metrics": {
         "objectives": 4,
         "sections": 4,

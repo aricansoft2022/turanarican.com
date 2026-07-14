@@ -37,7 +37,7 @@ async function main() {
   console.log(`examples: ${parsedLesson.examples.length}`);
   console.log(`try its: ${parsedLesson.tryIts.length}`);
   console.log(`exercises: ${parsedLesson.exercises.length}`);
-  console.log(`assets: ${parsedLesson.assetCount}`);
+  console.log(`assets: ${parsedLesson.assets.length}`);
   console.log(`self check removed: ${parsedLesson.validation.selfCheckRemoved}`);
   console.log(`empty examples: ${parsedLesson.validation.emptyExamples.length}`);
   console.log(`empty try its: ${parsedLesson.validation.emptyTryIts.length}`);

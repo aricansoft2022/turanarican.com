@@ -25,6 +25,7 @@ async function main() {
     });
 
     assertRenderableLesson(result.lesson);
+    assertAssetManifest(result.parsedLesson.assets);
 
     entries.push({
       sourceBookSlug: result.sourceBook.slug,
@@ -33,6 +34,7 @@ async function main() {
       sourceUrl: result.plannedLesson.href,
       contentHash: result.parsedLesson.contentHash,
       validation: result.parsedLesson.validation,
+      assets: result.parsedLesson.assets,
       metrics: {
         objectives: result.lesson.objectives.length,
         sections: result.lesson.sections.length,
@@ -43,7 +45,7 @@ async function main() {
         mathTokens: countMathTokens(
           result.lesson.sections.flatMap((section) => section.blocks),
         ),
-        assets: result.parsedLesson.assetCount,
+        assets: result.parsedLesson.assets.length,
       },
       lesson: result.lesson,
     });
@@ -65,6 +67,35 @@ async function main() {
 
   console.log(`Wrote ${entries.length} seed lesson fixture(s).`);
   console.log(path.relative(process.cwd(), outputPath));
+}
+
+function assertAssetManifest(
+  assets: Array<{
+    id: string;
+    sourceUrl: string;
+    localKey: string;
+    r2Key: string;
+  }>,
+) {
+  const ids = new Set<string>();
+  const sourceUrls = new Set<string>();
+
+  for (const asset of assets) {
+    if (!asset.id || !asset.sourceUrl || !asset.localKey || !asset.r2Key) {
+      throw new Error(`Seed asset manifest item is incomplete: ${asset.id}`);
+    }
+
+    if (ids.has(asset.id)) {
+      throw new Error(`Duplicate seed asset id: ${asset.id}`);
+    }
+
+    if (sourceUrls.has(asset.sourceUrl)) {
+      throw new Error(`Duplicate seed asset source URL: ${asset.sourceUrl}`);
+    }
+
+    ids.add(asset.id);
+    sourceUrls.add(asset.sourceUrl);
+  }
 }
 
 function assertRenderableLesson(lesson: Lesson) {

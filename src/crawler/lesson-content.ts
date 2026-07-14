@@ -9,6 +9,7 @@ import {
   hashText,
   parseLessonAssetManifest,
   selectLessonContentRoot,
+  type SourceAssetManifestItem,
 } from "./libretexts";
 import type { ContentBlock, InlineContent } from "@/src/content/types";
 
@@ -50,6 +51,7 @@ export type ParsedLessonContent = {
   examples: ParsedLessonBox[];
   tryIts: ParsedLessonBox[];
   exercises: ParsedSourceExercise[];
+  assets: SourceAssetManifestItem[];
   assetCount: number;
   validation: {
     selfCheckRemoved: boolean;
@@ -98,6 +100,7 @@ export function parseLessonContent(
     examples,
     tryIts,
     exercises,
+    assets,
     assetCount: assets.length,
     validation: {
       selfCheckRemoved: root.find("#Self_Check").length === 0,
