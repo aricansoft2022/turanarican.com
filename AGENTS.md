@@ -4,6 +4,9 @@ This file is the handoff anchor for future Codex sessions. When the user says
 "repodaki uretimi devam et", read this file first, then inspect the current
 git status and continue from the next unfinished item.
 
+For deploy, dashboard, Turso, Cloudflare, or R2 bucket steps, also read
+`docs/OPERATIONS.md` and update it when the operational workflow changes.
+
 ## Product Goal
 
 Build `turanarican.com` as a responsive Turkish math education platform. The
@@ -17,7 +20,7 @@ navigation, SEO, attribution, and ingestion workflows.
 ## Current Repository State
 
 - Current branch after the last handoff: `main`.
-- Last known production commit: `3fb4193 Make algebra lesson production ready`.
+- Recent production commits include `c1cffee Track LibreTexts source assets`.
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -104,6 +107,22 @@ Every lesson needs separate source and display fields:
 Never infer display numbering from source numbering at render time. Resolve it
 during ingestion or editorial mapping and persist it.
 
+## Localization Rules
+
+English source books use comma thousands separators and dot decimal separators,
+for example `1,000` and `2.5`. Turkish content must display these as `1.000`
+and `2,5`.
+
+- Do not apply this to source URLs, slugs, raw source numbers, or persisted
+  attribution identifiers.
+- Preserve lesson/section/example references such as `Section 2.3`,
+  `Example 2.13`, `Örnek 2.13`, and `Bölüm 2.3`.
+- In text content, use comma as the decimal mark.
+- In KaTeX/math content, use `{,}` as the decimal mark so spacing remains
+  mathematically correct.
+- This is both an ingestion/adaptation concern and a render safety net; see
+  `src/content/number-localization.ts`.
+
 ## Data Model Direction
 
 Use structured content rather than storing one large HTML blob.
@@ -157,7 +176,8 @@ Recommended pipeline:
    enough. If a recreated asset is visually broken or too ambiguous, keep and
    serve the original asset with attribution.
 10. Normalize math delimiters and render with KaTeX in the app.
-11. Apply Turkish adaptation layer.
+11. Apply Turkish adaptation layer, including English-to-Turkish numeric
+    separator localization.
 12. Store structured content in Turso through Drizzle.
 13. Upload production assets to Cloudflare R2/bucket once credentials and bucket
    naming are configured. Until then, keep stable local/R2 keys in manifests.
@@ -205,6 +225,8 @@ Keep enough source metadata for attribution and future recrawls.
 - Use Turnstile only for forms or auth surfaces, not normal lesson reading.
 - Cache static assets aggressively.
 - Do not expose crawler/admin endpoints publicly without protection.
+- Keep `docs/OPERATIONS.md` current when Cloudflare, Turso, R2, DNS, WAF, or
+  deployment steps become concrete.
 
 ## Resume Protocol For Future Sessions
 

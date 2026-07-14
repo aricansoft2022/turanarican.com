@@ -5,6 +5,8 @@ export const sourceBooks = [
     sourceUrl:
       "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)",
     licenseName: "CC BY 4.0",
+    sourceLocale: "en-US",
+    targetLocale: "tr-TR",
     numberingPolicy: "skip_intro_shift",
     targetRanges: [
       ["1.2", "1.6"],
@@ -26,8 +28,9 @@ export const sourceBooks = [
     sourceUrl:
       "https://math.libretexts.org/Bookshelves/Algebra/Elementary_Algebra_(LibreTexts)",
     licenseName: "CC BY-NC-SA 3.0",
+    sourceLocale: "en-US",
+    targetLocale: "tr-TR",
     numberingPolicy: "preserve",
     targetRanges: [],
   },
 ] as const;
-
