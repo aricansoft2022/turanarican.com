@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+<style>
+  body{margin:0;background:#f4f1ea;font-family:'Spectral',Georgia,serif;color:#211d17;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  a{color:var(--accent,#12595f);text-decoration:none}
+  a:hover{color:var(--accent-ink,#0c3c40);text-decoration:underline}
+  summary{list-style:none;outline:none}
+  summary::-webkit-details-marker{display:none}
+  summary:hover{opacity:.78}
+  .katex{font-size:1.03em}
+  ::selection{background:rgba(18,89,95,.18)}
+  .exans{color:var(--accent,#12595f)}
+  [data-ans="false"] .exans{display:none}
+</style>
+</helmet>
+<div data-katex-root data-ans="{{ answersOpen }}" style="--accent:{{ accent }};--accent-soft:{{ accentSoft }};--accent-ink:{{ accentInk }};font-size:{{ fontScale }};min-height:100vh;padding-bottom:80px">
+
+  <div style="max-width:920px;margin:0 auto;padding:18px 28px 0;font:500 12px/1 'IBM Plex Sans',sans-serif;color:#8a8172;letter-spacing:.04em;display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+    <span>Ön Cebir 2e</span><span style="opacity:.5">›</span><span>2. Cebir Dilinin Tanıtımı</span><span style="opacity:.5">›</span><span style="color:var(--accent,#12595f)">2.3</span>
+  </div>
+
+  <header style="max-width:920px;margin:0 auto;padding:22px 28px 8px">
+    <div style="font:600 12.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.14em;margin-bottom:14px">BÖLÜM 2.3</div>
+    <h1 style="margin:0;font:600 clamp(34px,5vw,52px)/1.08 'Spectral',serif;letter-spacing:-.02em;max-width:14ch">İfadeleri Değerlendirme, Basitleştirme ve Çevirme</h1>
+    <p style="margin:20px 0 0;max-width:60ch;font-size:1.06em;line-height:1.6;color:#57503f;font-style:italic">Değişkenleri sayılarla değiştirerek cebirsel ifadeleri değerlendirmeyi, terim ile katsayıları tanımlamayı, benzer terimleri birleştirerek sadeleştirmeyi ve sözcük öbeklerini cebir diline çevirmeyi öğreniyoruz.</p>
+    <div style="margin-top:22px;height:1px;background:linear-gradient(90deg,var(--accent,#12595f),transparent)"></div>
+  </header>
+
+  <main style="max-width:920px;margin:0 auto;padding:0 28px">
+
+    <!-- LEARNING OBJECTIVES -->
+    <section style="background:var(--accent,#12595f);color:#fff;border-radius:16px;padding:30px 34px;margin:34px 0;box-shadow:0 14px 40px -20px rgba(0,0,0,.5)">
+      <div style="font:700 12px/1 'IBM Plex Sans',sans-serif;letter-spacing:.14em;opacity:.7">ÖĞRENME HEDEFLERİ</div>
+      <p style="margin:12px 0 16px;font-size:1.08em;opacity:.95">Bu bölümün sonunda şunları yapabileceksiniz:</p>
+      <ul style="margin:0;padding:0;list-style:none;display:grid;gap:11px;font-size:1.02em">
+        <li style="display:flex;gap:12px;align-items:baseline"><span style="font:700 13px 'IBM Plex Sans',sans-serif;opacity:.6">01</span><span>Cebirsel ifadeleri değerlendirin.</span></li>
+        <li style="display:flex;gap:12px;align-items:baseline"><span style="font:700 13px 'IBM Plex Sans',sans-serif;opacity:.6">02</span><span>Terimleri, katsayıları ve benzer terimleri belirleyin.</span></li>
+        <li style="display:flex;gap:12px;align-items:baseline"><span style="font:700 13px 'IBM Plex Sans',sans-serif;opacity:.6">03</span><span>Benzer terimleri birleştirerek ifadeleri basitleştirin.</span></li>
+        <li style="display:flex;gap:12px;align-items:baseline"><span style="font:700 13px 'IBM Plex Sans',sans-serif;opacity:.6">04</span><span>Sözcük öbeklerini cebirsel ifadelere çevirin.</span></li>
+      </ul>
+    </section>
+
+    <!-- BE PREPARED -->
+    <div style="font:600 12px/1 'IBM Plex Sans',sans-serif;color:#9a8f78;letter-spacing:.12em;margin:8px 0 4px">HAZIRLIKLI OLUN</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin:12px 0 8px">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #cdbf9f;border-radius:10px">
+        <span style="display:inline-block;background:#9a8f78;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Hazırlık 2.4</span>
+        <p style="margin:12px 0 0;line-height:1.6">\(n\div 5\) bir ifade midir yoksa bir denklem mi? Bu soruyu kaçırdıysanız Örnek 2.4'ü inceleyin.</p>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #cdbf9f;border-radius:10px">
+        <span style="display:inline-block;background:#9a8f78;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Hazırlık 2.5</span>
+        <p style="margin:12px 0 0;line-height:1.6">\(4^{5}\) ifadesini sadeleştirin. Bu soruyu kaçırdıysanız Örnek 2.7'yi inceleyin.</p>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #cdbf9f;border-radius:10px">
+        <span style="display:inline-block;background:#9a8f78;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Hazırlık 2.6</span>
+        <p style="margin:12px 0 0;line-height:1.6">\(1+8\cdot 9\) ifadesini sadeleştirin. Bu soruyu kaçırdıysanız Örnek 2.8'i inceleyin.</p>
+      </div>
+    </div>
+
+    <!-- ============ SECTION 1: EVALUATE ============ -->
+    <h2 style="font:600 30px/1.2 'Spectral',serif;color:var(--accent-ink,#0c3c40);letter-spacing:-.015em;margin:52px 0 8px;padding-top:8px">Cebirsel İfadeleri Değerlendirin</h2>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Önceki bölümde işlem önceliğini kullanarak ifadeleri sadeleştirdik. Bu bölümde de yine işlem önceliğini izleyerek ifadeleri <em>değerlendireceğiz</em>.</p>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Bir cebirsel ifadeyi <strong>değerlendirmek</strong>, değişken belirli bir sayıyla değiştirildiğinde ifadenin değerini bulmak demektir. Değerlendirmek için verilen sayıyı değişkenin yerine koyar ve ardından işlem önceliği kurallarıyla ifadeyi sadeleştiririz.</p>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.13</span>
+      <p style="margin:14px 0 0;line-height:1.7">Değerlendirin: \(x+7\) &nbsp; <strong>(a)</strong> \(x=3\) &nbsp;&nbsp; <strong>(b)</strong> \(x=12\)</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.8">
+          <p style="margin:0"><strong>(a)</strong> \(x=3\): \quad \(x+7 = 3+7 = 10\)</p>
+          <p style="margin:8px 0 0"><strong>(b)</strong> \(x=12\): \quad \(x+7 = 12+7 = 19\)</p>
+        </div>
+      </details>
+    </section>
+
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Aynı ifadeyle başlamamıza rağmen (a) ve (b) şıklarında farklı sonuçlar elde ettik; çünkü \(x\) için kullanılan değerler farklıydı. Bir ifadeyi değerlendirdiğimizde sonuç, değişken için kullanılan değere bağlı olarak değişir.</p>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.25</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(y+4\) — <strong>(a)</strong> \(y=6\) &nbsp; <strong>(b)</strong> \(y=15\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(y+4=6+4=10\) &nbsp;&nbsp; <strong>(b)</strong> \(y+4=15+4=19\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.26</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(a-5\) — <strong>(a)</strong> \(a=9\) &nbsp; <strong>(b)</strong> \(a=17\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(a-5=9-5=4\) &nbsp;&nbsp; <strong>(b)</strong> \(a-5=17-5=12\)</div></details>
+      </div>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.14</span>
+      <p style="margin:14px 0 0;line-height:1.7">Değerlendirin: \(9x-2\) &nbsp; <strong>(a)</strong> \(x=5\) &nbsp;&nbsp; <strong>(b)</strong> \(x=1\)</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.8">
+          <p style="margin:0"><strong>(a)</strong> \(x=5\): \quad \(9x-2 = 9\cdot 5-2 = 45-2 = 43\)</p>
+          <p style="margin:8px 0 0"><strong>(b)</strong> \(x=1\): \quad \(9x-2 = 9(1)-2 = 9-2 = 7\)</p>
+        </div>
+      </details>
+    </section>
+
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Dikkat edin: (a) şıkkında \(9\cdot 5\), (b) şıkkında \(9(1)\) yazdık. Hem nokta hem de parantez, çarpma işlemi yapmamız gerektiğini belirtir.</p>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.27</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(8x-3\) — <strong>(a)</strong> \(x=2\) &nbsp; <strong>(b)</strong> \(x=1\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(8x-3=8(2)-3=13\) &nbsp;&nbsp; <strong>(b)</strong> \(8x-3=8(1)-3=5\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.28</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(4y-4\) — <strong>(a)</strong> \(y=3\) &nbsp; <strong>(b)</strong> \(y=5\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(4y-4=4(3)-4=8\) &nbsp;&nbsp; <strong>(b)</strong> \(4y-4=4(5)-4=16\)</div></details>
+      </div>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.15</span>
+      <p style="margin:14px 0 0;line-height:1.7">Değerlendirin: \(x^{2}\), &nbsp; \(x=10\) olduğunda.</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.8">
+          <p style="margin:0">\(x^{2} = 10^{2} = 100\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.29</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(x^{2}\), &nbsp; \(x=8\) olduğunda.</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(x^{2}=8^{2}=64\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.30</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(x^{3}\), &nbsp; \(x=6\) olduğunda.</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(x^{3}=6^{3}=216\)</div></details>
+      </div>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.16</span>
+      <p style="margin:14px 0 0;line-height:1.7">Değerlendirin: \(2^{x}\), &nbsp; \(x=5\) olduğunda.</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.8">
+          <p style="margin:0">\(2^{x} = 2^{5} = 32\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.31</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(2^{x}\), &nbsp; \(x=6\) olduğunda.</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(2^{x}=2^{6}=64\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.32</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(3^{x}\), &nbsp; \(x=4\) olduğunda.</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(3^{x}=3^{4}=81\)</div></details>
+      </div>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.17</span>
+      <p style="margin:14px 0 0;line-height:1.7">Değerlendirin: \(3x+4y-6\), &nbsp; \(x=10\) ve \(y=2\) olduğunda.</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.8">
+          <p style="margin:0">\(3(10)+4(2)-6 = 30+8-6 = 32\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.33</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(2x+5y-4\), &nbsp; \(x=11\) ve \(y=3\).</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(2(11)+5(3)-4=22+15-4=33\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.34</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(5x-2y-9\), &nbsp; \(x=7\) ve \(y=8\).</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(5(7)-2(8)-9=35-16-9=10\)</div></details>
+      </div>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.18</span>
+      <p style="margin:14px 0 0;line-height:1.7">Değerlendirin: \(2x^{2}+3x+8\), &nbsp; \(x=4\) olduğunda.</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.8">
+          <p style="margin:0">\(2(4)^{2}+3(4)+8 = 2\cdot 16+12+8 = 32+12+8 = 52\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.35</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(3x^{2}+4x+1\), &nbsp; \(x=3\).</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(3(3)^{2}+4(3)+1=27+12+1=40\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.36</span>
+        <p style="margin:12px 0 0;line-height:1.7">Değerlendirin: \(6x^{2}-4x-7\), &nbsp; \(x=2\).</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(6(2)^{2}-4(2)-7=24-8-7=9\)</div></details>
+      </div>
+    </div>
+
+    <!-- ============ SECTION 2: TERMS & LIKE TERMS ============ -->
+    <h2 style="font:600 30px/1.2 'Spectral',serif;color:var(--accent-ink,#0c3c40);letter-spacing:-.015em;margin:52px 0 8px;padding-top:8px">Terimleri, Katsayıları ve Benzer Terimleri Belirleyin</h2>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Cebirsel ifadeler <strong>terimlerden</strong> oluşur. Bir terim, bir sabittir ya da bir sabit ile bir veya daha fazla değişkenin çarpımıdır. Terimlere örnekler: \(7,\;\; y,\;\; 5x^{2},\;\; 9a,\;\; 13xy\).</p>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Bir terimdeki değişken(ler)i çarpan sabite <strong>katsayı</strong> denir. Katsayıyı, değişkenin önündeki sayı olarak düşünebiliriz.</p>
+
+    <div style="margin:20px 0;border:1px solid rgba(0,0,0,.1);border-radius:10px;overflow:hidden;font-size:.97em">
+      <div style="display:grid;grid-template-columns:1fr 1fr;background:var(--accent-soft,#e7f0ef);font:600 13px/1 'IBM Plex Sans',sans-serif;color:var(--accent-ink,#0c3c40)">
+        <div style="padding:12px 18px">Terim</div><div style="padding:12px 18px;border-left:1px solid rgba(0,0,0,.08)">Katsayı</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(0,0,0,.07)"><div style="padding:11px 18px">\(9a\)</div><div style="padding:11px 18px;border-left:1px solid rgba(0,0,0,.06)">\(9\)</div></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(0,0,0,.07);background:rgba(0,0,0,.02)"><div style="padding:11px 18px">\(y\)</div><div style="padding:11px 18px;border-left:1px solid rgba(0,0,0,.06)">\(1\)</div></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(0,0,0,.07)"><div style="padding:11px 18px">\(5x^{2}\)</div><div style="padding:11px 18px;border-left:1px solid rgba(0,0,0,.06)">\(5\)</div></div>
+    </div>
+    <div style="font:500 11.5px 'IBM Plex Sans',sans-serif;color:#9a8f78;margin:-8px 0 20px">Tablo 2.5</div>
+
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Bir cebirsel ifade, bir veya daha fazla terimin toplanması ya da çıkarılmasıyla oluşabilir. Bu bölümde yalnızca toplanan terimlerle çalışacağız. Bir terimin önündeki işlemi de terime dahil ettiğimize dikkat edin.</p>
+
+    <div style="margin:20px 0;border:1px solid rgba(0,0,0,.1);border-radius:10px;overflow:hidden;font-size:.97em">
+      <div style="display:grid;grid-template-columns:1fr 1fr;background:var(--accent-soft,#e7f0ef);font:600 13px/1 'IBM Plex Sans',sans-serif;color:var(--accent-ink,#0c3c40)">
+        <div style="padding:12px 18px">İfade</div><div style="padding:12px 18px;border-left:1px solid rgba(0,0,0,.08)">Terimler</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(0,0,0,.07)"><div style="padding:11px 18px">\(7\)</div><div style="padding:11px 18px;border-left:1px solid rgba(0,0,0,.06)">\(7\)</div></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(0,0,0,.07);background:rgba(0,0,0,.02)"><div style="padding:11px 18px">\(y\)</div><div style="padding:11px 18px;border-left:1px solid rgba(0,0,0,.06)">\(y\)</div></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(0,0,0,.07)"><div style="padding:11px 18px">\(x+7\)</div><div style="padding:11px 18px;border-left:1px solid rgba(0,0,0,.06)">\(x,\;7\)</div></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(0,0,0,.07);background:rgba(0,0,0,.02)"><div style="padding:11px 18px">\(2x+7y+4\)</div><div style="padding:11px 18px;border-left:1px solid rgba(0,0,0,.06)">\(2x,\;7y,\;4\)</div></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(0,0,0,.07)"><div style="padding:11px 18px">\(3x^{2}+4x^{2}+5y+3\)</div><div style="padding:11px 18px;border-left:1px solid rgba(0,0,0,.06)">\(3x^{2},\;4x^{2},\;5y,\;3\)</div></div>
+    </div>
+    <div style="font:500 11.5px 'IBM Plex Sans',sans-serif;color:#9a8f78;margin:-8px 0 20px">Tablo 2.6</div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.19</span>
+      <p style="margin:14px 0 0;line-height:1.7">İfadedeki her bir terimi belirleyin: \(9b+15x^{2}+a+6\). Ardından her terimin katsayısını belirleyin.</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.8">
+          <p style="margin:0"><strong>Terimler:</strong> \(9b,\;\; 15x^{2},\;\; a,\;\; 6\)</p>
+          <p style="margin:8px 0 0"><strong>Katsayılar:</strong> \(9,\;\; 15,\;\; 1,\;\; 6\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.37</span>
+        <p style="margin:12px 0 0;line-height:1.7">Terimleri ve katsayıları belirleyin: \(4x+3b+2\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>Terimler:</strong> \(4x,\;3b,\;2\) &nbsp;·&nbsp; <strong>Katsayılar:</strong> \(4,\;3,\;2\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.38</span>
+        <p style="margin:12px 0 0;line-height:1.7">Terimleri ve katsayıları belirleyin: \(9a+13a^{2}+a^{3}\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>Terimler:</strong> \(9a,\;13a^{2},\;a^{3}\) &nbsp;·&nbsp; <strong>Katsayılar:</strong> \(9,\;13,\;1\)</div></details>
+      </div>
+    </div>
+
+    <p style="margin:24px 0 14px;line-height:1.75;color:#332f27">Bazı terimler ortak özellikler taşır. Aşağıdaki terimlere bakın; hangilerinin ortak özellikleri var gibi görünüyor?</p>
+    <div style="text-align:center;font-size:1.3em;margin:18px 0">\(5x,\quad 7,\quad n^{2},\quad 4,\quad 3x,\quad 9n^{2}\)</div>
+    <ul style="margin:14px 0;line-height:1.8;color:#332f27;padding-left:22px">
+      <li>\(7\) ve \(4\)'ün her ikisi de sabit terimdir.</li>
+      <li>\(5x\) ve \(3x\)'in her ikisi de \(x\) içeren terimlerdir.</li>
+      <li>\(n^{2}\) ve \(9n^{2}\)'nin her ikisi de \(n^{2}\) içerir.</li>
+    </ul>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Aynı değişkenlere ve aynı üslere sahip terimlere <strong>benzer terimler</strong> denir. Tüm sabit terimler de birbirinin benzer terimidir.</p>
+    <div style="text-align:center;line-height:2;font-size:1.05em;margin:12px 0">
+      <div>\(7\) ve \(4\) benzer terimlerdir.</div>
+      <div>\(5x\) ve \(3x\) benzer terimlerdir.</div>
+      <div>\(n^{2}\) ve \(9n^{2}\) benzer terimlerdir.</div>
+    </div>
+
+    <div style="margin:22px 0;padding:20px 24px;background:#fdfbf6;border:1.5px solid var(--accent,#12595f);border-radius:12px">
+      <div style="font:700 12px/1 'IBM Plex Sans',sans-serif;letter-spacing:.1em;color:var(--accent,#12595f)">TANIM · BENZER TERİMLER</div>
+      <p style="margin:12px 0 0;line-height:1.7;font-size:1.04em">Sabit olan ya da aynı değişkenlere ve aynı üslere sahip terimler, birbirinin <strong>benzer terimleridir</strong>.</p>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.20</span>
+      <p style="margin:14px 0 0;line-height:1.7">Benzer terimleri belirleyin:</p>
+      <p style="margin:8px 0 0;line-height:1.7"><strong>(a)</strong> \(y^{3},\; 7x^{2},\; 14,\; 23,\; 4y^{3},\; 9x,\; 5x^{2}\)</p>
+      <p style="margin:8px 0 0;line-height:1.7"><strong>(b)</strong> \(4x^{2}+2x+5x^{2}+6x+40x+8xy\)</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.8">
+          <p style="margin:0"><strong>(a)</strong> \(14\) ve \(23\); &nbsp; \(7x^{2}\) ve \(5x^{2}\); &nbsp; \(y^{3}\) ve \(4y^{3}\).</p>
+          <p style="margin:8px 0 0"><strong>(b)</strong> \(4x^{2}\) ve \(5x^{2}\); &nbsp; \(2x,\; 6x\) ve \(40x\).</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.39</span>
+        <p style="margin:12px 0 0;line-height:1.7">Benzer terimleri belirleyin: \(9,\; 2x^{3},\; y^{2},\; 8x^{3},\; 15,\; 9y,\; 11y^{2}\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(9\) ve \(15\); &nbsp; \(2x^{3}\) ve \(8x^{3}\); &nbsp; \(y^{2}\) ve \(11y^{2}\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.40</span>
+        <p style="margin:12px 0 0;line-height:1.7">Benzer terimleri belirleyin: \(4x^{3}+8x^{2}+19+3x^{2}+24+6x^{3}\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(4x^{3}\) ve \(6x^{3}\); &nbsp; \(8x^{2}\) ve \(3x^{2}\); &nbsp; \(19\) ve \(24\)</div></details>
+      </div>
+    </div>
+
+    <!-- ============ SECTION 3: COMBINE LIKE TERMS ============ -->
+    <h2 style="font:600 30px/1.2 'Spectral',serif;color:var(--accent-ink,#0c3c40);letter-spacing:-.015em;margin:52px 0 8px;padding-top:8px">Benzer Terimleri Birleştirerek İfadeleri Basitleştirin</h2>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Benzer terimleri birleştirerek bir ifadeyi sadeleştirebiliriz. Sizce \(3x+6x\) ifadesinin sadeleştirilmiş hâli ne olurdu? <strong>\(9x\)</strong> diye düşündüyseniz haklısınız!</p>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Bunun neden işe yaradığını, her iki terimi de toplama işlemi olarak yazarak görebiliriz.</p>
+
+    <div style="display:flex;align-items:flex-start;gap:22px;flex-wrap:wrap;margin:16px 0;padding:20px 24px;background:#fdfbf6;border:1px solid rgba(0,0,0,.08);border-radius:12px;font-family:'IBM Plex Sans',sans-serif">
+      <div style="text-align:center">
+        <div style="font-size:22px;font-weight:600;color:var(--accent,#12595f)">3x</div>
+        <div style="border-top:2px solid var(--accent,#12595f);padding-top:7px;margin-top:5px;color:#4a453c;font-size:15px">x + x + x</div>
+      </div>
+      <div style="font-size:22px;font-weight:600;padding-top:1px">+</div>
+      <div style="text-align:center">
+        <div style="font-size:22px;font-weight:600;color:var(--accent,#12595f)">6x</div>
+        <div style="border-top:2px solid var(--accent,#12595f);padding-top:7px;margin-top:5px;color:#4a453c;font-size:15px">x + x + x + x + x + x</div>
+      </div>
+      <div style="font-size:22px;font-weight:600;padding-top:1px">=</div>
+      <div style="text-align:center">
+        <div style="font-size:24px;font-weight:700;color:var(--accent,#12595f)">9x</div>
+        <div style="padding-top:7px;margin-top:5px;color:#9a9184;font-size:15px">(dokuz tane x)</div>
+      </div>
+    </div>
+
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Katsayıları toplarız ve aynı değişkeni koruruz. \(x\)'in ne olduğu önemli değil: \(3\) tanesiyle \(6\) tanesini birleştirince \(9\) tanesi olur. Örneğin \(3\) portakal artı \(6\) portakal, \(9\) portakal eder.</p>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Bir ifade daha fazla terim içeriyorsa, benzer terimleri bir araya getirmek için terimleri yeniden düzenlemek yararlı olabilir. Toplamanın <strong>Değişme Özelliği</strong>, toplananların sırasını değiştirmenin toplamı değiştirmediğini söyler.</p>
+
+    <div style="margin:16px 0;padding:20px 24px;background:#fdfbf6;border:1px solid rgba(0,0,0,.08);border-radius:12px;font-family:'IBM Plex Sans',sans-serif;font-size:20px">
+      <div style="color:#4a453c">3x + 4y − 2x + 6y</div>
+      <div style="color:#9a9184;font-size:14px;margin:8px 0 10px">↓ &nbsp;benzer terimleri yan yana getir</div>
+      <div><span style="border-bottom:2.5px solid var(--accent,#12595f);padding-bottom:2px">3x − 2x</span> &nbsp;+&nbsp; <span style="border-bottom:2.5px solid #b06a34;padding-bottom:2px">4y + 6y</span></div>
+    </div>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Artık benzer terimleri bir araya getirmek daha kolay.</p>
+
+    <div style="margin:22px 0;padding:22px 26px;background:var(--accent-ink,#0c3c40);color:#fff;border-radius:12px">
+      <div style="font:700 12px/1 'IBM Plex Sans',sans-serif;letter-spacing:.1em;opacity:.7">NASIL YAPILIR</div>
+      <p style="margin:12px 0 14px;font:600 1.1em/1.3 'Spectral',serif">Benzer terimleri birleştirin.</p>
+      <ol style="margin:0;padding-left:20px;line-height:1.9;opacity:.95">
+        <li><strong>Adım 1.</strong> Benzer terimleri belirleyin.</li>
+        <li><strong>Adım 2.</strong> Benzer terimler bir araya gelecek şekilde ifadeyi yeniden düzenleyin.</li>
+        <li><strong>Adım 3.</strong> Benzer terimlerin katsayılarını toplayın.</li>
+      </ol>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.21</span>
+      <p style="margin:14px 0 0;line-height:1.7">İfadeyi sadeleştirin: \(3x+7+4x+5\)</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.9">
+          <p style="margin:0">\(3x+4x+7+5\)</p>
+          <p style="margin:6px 0 0">\(=7x+12\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.41</span>
+        <p style="margin:12px 0 0;line-height:1.7">Basitleştirin: \(7x+9+9x+8\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(7x+9x+9+8=16x+17\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.42</span>
+        <p style="margin:12px 0 0;line-height:1.7">Basitleştirin: \(5y+2+8y+4y+5\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(5y+8y+4y+2+5=17y+7\)</div></details>
+      </div>
+    </div>
+
+    <p style="margin:20px 0 14px;line-height:1.75;color:#332f27">Bir terimin katsayısı negatif olduğunda işlem aynıdır; ancak benzer terimleri birleştirmek için toplama yerine çıkarma yaparsınız.</p>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.22</span>
+      <p style="margin:14px 0 0;line-height:1.7">İfadeyi sadeleştirin: \(7x^{2}+8x-x^{2}-4x\)</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.9">
+          <p style="margin:0">\(7x^{2}-x^{2}+8x-4x\)</p>
+          <p style="margin:6px 0 0">\(=6x^{2}+4x\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.43</span>
+        <p style="margin:12px 0 0;line-height:1.7">Basitleştirin: \(3x^{2}+9x+x^{2}+5x\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(3x^{2}+x^{2}+9x+5x=4x^{2}+14x\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.44</span>
+        <p style="margin:12px 0 0;line-height:1.7">Basitleştirin: \(11y^{2}+8y+y^{2}+7y\)</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">\(11y^{2}+y^{2}+8y+7y=12y^{2}+15y\)</div></details>
+      </div>
+    </div>
+
+    <!-- ============ SECTION 4: TRANSLATE ============ -->
+    <h2 style="font:600 30px/1.2 'Spectral',serif;color:var(--accent-ink,#0c3c40);letter-spacing:-.015em;margin:52px 0 8px;padding-top:8px">Sözcükleri Cebirsel İfadelere Çevirin</h2>
+    <p style="margin:14px 0;line-height:1.75;color:#332f27">Önceki bölümde, cebirde kullanılan birçok işlem sembolünü listeledik ve ifadeleri sözcük öbeklerine çevirdik. Şimdi süreci tersine çevirerek sözcük öbeklerini cebirsel ifadelere çevireceğiz. Aşağıdaki tablo bu sözcükleri özetler.</p>
+
+    <div style="margin:20px 0;border:1px solid rgba(0,0,0,.1);border-radius:10px;overflow:hidden;font-size:.96em">
+      <div style="display:grid;grid-template-columns:1.1fr 2fr 1.3fr;background:var(--accent-soft,#e7f0ef);font:600 13px/1 'IBM Plex Sans',sans-serif;color:var(--accent-ink,#0c3c40)">
+        <div style="padding:12px 16px">İşlem</div><div style="padding:12px 16px;border-left:1px solid rgba(0,0,0,.08)">İfade eden sözcükler</div><div style="padding:12px 16px;border-left:1px solid rgba(0,0,0,.08)">İfade</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1.1fr 2fr 1.3fr;border-top:1px solid rgba(0,0,0,.07)">
+        <div style="padding:13px 16px;font-weight:600">Toplama</div>
+        <div style="padding:13px 16px;border-left:1px solid rgba(0,0,0,.06);line-height:1.9">\(a\) artı \(b\)<br>\(a\) ve \(b\)'nin toplamı<br>\(a\), \(b\) kadar artırıldı<br>\(a\)'dan \(b\) fazlası</div>
+        <div style="padding:13px 16px;border-left:1px solid rgba(0,0,0,.06)">\(a+b\)</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1.1fr 2fr 1.3fr;border-top:1px solid rgba(0,0,0,.07);background:rgba(0,0,0,.02)">
+        <div style="padding:13px 16px;font-weight:600">Çıkarma</div>
+        <div style="padding:13px 16px;border-left:1px solid rgba(0,0,0,.06);line-height:1.9">\(a\) eksi \(b\)<br>\(a\) ve \(b\)'nin farkı<br>\(a\)'dan \(b\) çıkarıldı<br>\(a\), \(b\) kadar azaltıldı</div>
+        <div style="padding:13px 16px;border-left:1px solid rgba(0,0,0,.06)">\(a-b\)</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1.1fr 2fr 1.3fr;border-top:1px solid rgba(0,0,0,.07)">
+        <div style="padding:13px 16px;font-weight:600">Çarpma</div>
+        <div style="padding:13px 16px;border-left:1px solid rgba(0,0,0,.06);line-height:1.9">\(a\) çarpı \(b\)<br>\(a\) ve \(b\)'nin çarpımı</div>
+        <div style="padding:13px 16px;border-left:1px solid rgba(0,0,0,.06)">\(a\cdot b,\;\; ab,\;\; a(b),\;\; (a)(b)\)</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1.1fr 2fr 1.3fr;border-top:1px solid rgba(0,0,0,.07);background:rgba(0,0,0,.02)">
+        <div style="padding:13px 16px;font-weight:600">Bölme</div>
+        <div style="padding:13px 16px;border-left:1px solid rgba(0,0,0,.06);line-height:1.9">\(a\) bölü \(b\)<br>\(a\) ve \(b\)'nin bölümü<br>\(a\)'nın \(b\)'ye oranı</div>
+        <div style="padding:13px 16px;border-left:1px solid rgba(0,0,0,.06)">\(a\div b,\;\; a/b,\;\; \frac{a}{b}\)</div>
+      </div>
+    </div>
+    <div style="font:500 11.5px 'IBM Plex Sans',sans-serif;color:#9a8f78;margin:-8px 0 20px">Tablo 2.7</div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.23</span>
+      <p style="margin:14px 0 0;line-height:1.7">Her sözcük öbeğini cebirsel bir ifadeye çevirin:</p>
+      <p style="margin:8px 0 0;line-height:1.7"><strong>(a)</strong> \(20\) ve \(4\)'ün farkı &nbsp;&nbsp; <strong>(b)</strong> \(10x\) ve \(3\)'ün bölümü</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.9">
+          <p style="margin:0"><strong>(a)</strong> \(20-4\) &nbsp;&nbsp; <strong>(b)</strong> \(\dfrac{10x}{3}\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.45</span>
+        <p style="margin:12px 0 0;line-height:1.7"><strong>(a)</strong> \(47\) ve \(41\)'in farkı &nbsp; <strong>(b)</strong> \(5x\) ve \(2\)'nin bölümü</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(47-41\) &nbsp;&nbsp; <strong>(b)</strong> \(\dfrac{5x}{2}\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.46</span>
+        <p style="margin:12px 0 0;line-height:1.7"><strong>(a)</strong> \(17\) ve \(19\)'un toplamı &nbsp; <strong>(b)</strong> \(7\) ve \(x\)'in çarpımı</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(17+19\) &nbsp;&nbsp; <strong>(b)</strong> \(7x\)</div></details>
+      </div>
+    </div>
+
+    <p style="margin:20px 0 14px;line-height:1.75;color:#332f27">Sekiz yıl sonra kaç yaşında olacaksınız? Şu anki yaşınıza sekiz eklersiniz. <em>"Sekiz fazlası"</em>, şu anki yaşınıza sekiz eklemek demektir. Yedi yıl önce kaç yaşındaydınız? Şu anki yaşınızdan yedi çıkarırsınız. <em>"Yedi eksik"</em>, şu anki yaşınızdan yedi çıkarmak demektir.</p>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.24</span>
+      <p style="margin:14px 0 0;line-height:1.7">Her sözcük öbeğini cebirsel bir ifadeye çevirin:</p>
+      <p style="margin:8px 0 0;line-height:1.7"><strong>(a)</strong> \(y\)'den sekiz fazlası &nbsp;&nbsp; <strong>(b)</strong> \(9z\)'den yedi az</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.9">
+          <p style="margin:0"><strong>(a)</strong> \(y+8\) &nbsp;&nbsp; <strong>(b)</strong> \(9z-7\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.47</span>
+        <p style="margin:12px 0 0;line-height:1.7"><strong>(a)</strong> \(x\)'ten on bir fazlası &nbsp; <strong>(b)</strong> \(11a\)'dan on dört az</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(x+11\) &nbsp;&nbsp; <strong>(b)</strong> \(11a-14\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.48</span>
+        <p style="margin:12px 0 0;line-height:1.7"><strong>(a)</strong> \(j\)'den on dokuz fazlası &nbsp; <strong>(b)</strong> \(2x\)'ten yirmi bir az</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(j+19\) &nbsp;&nbsp; <strong>(b)</strong> \(2x-21\)</div></details>
+      </div>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.25</span>
+      <p style="margin:14px 0 0;line-height:1.7">Her sözcük öbeğini cebirsel bir ifadeye çevirin:</p>
+      <p style="margin:8px 0 0;line-height:1.7"><strong>(a)</strong> \(m\) ve \(n\) toplamının beş katı &nbsp;&nbsp; <strong>(b)</strong> \(m\)'nin beş katı ile \(n\)'nin toplamı</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.9">
+          <p style="margin:0"><strong>(a)</strong> \(5(m+n)\) &nbsp;&nbsp; <strong>(b)</strong> \(5m+n\)</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.49</span>
+        <p style="margin:12px 0 0;line-height:1.7"><strong>(a)</strong> \(p\) ve \(q\) toplamının dört katı &nbsp; <strong>(b)</strong> \(p\)'nin dört katı ile \(q\)'nun toplamı</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(4(p+q)\) &nbsp;&nbsp; <strong>(b)</strong> \(4p+q\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.50</span>
+        <p style="margin:12px 0 0;line-height:1.7"><strong>(a)</strong> \(x\)'in iki katı ile \(8\)'in farkı &nbsp; <strong>(b)</strong> \(x\) ve \(8\) farkının iki katı</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8"><strong>(a)</strong> \(2x-8\) &nbsp;&nbsp; <strong>(b)</strong> \(2(x-8)\)</div></details>
+      </div>
+    </div>
+
+    <p style="margin:20px 0 14px;line-height:1.75;color:#332f27">Bu dersin ilerleyen bölümlerinde cebir becerilerimizi denklem çözmede uygulayacağız. Genellikle bir sözcük öbeğini cebirsel bir ifadeye çevirerek başlarız ve ifadenin neyi temsil ettiği konusunda net olmamız gerekir.</p>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.26</span>
+      <p style="margin:14px 0 0;line-height:1.7">Dikdörtgen bir pencerenin yüksekliği, genişliğinden \(6\) inç azdır. Pencerenin genişliğini \(w\) ile gösterelim. Pencerenin yüksekliği için bir ifade yazın.</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.9">
+          <p style="margin:0">Yükseklik, genişlikten \(6\) az olduğundan: \(w-6\).</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.51</span>
+        <p style="margin:12px 0 0;line-height:1.7">Bir dikdörtgenin uzunluğu, genişliğinden \(5\) inç azdır. Genişliği \(w\) ile gösterelim. Uzunluk için bir ifade yazın.</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">Uzunluk, genişlikten \(5\) az: \(w-5\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.52</span>
+        <p style="margin:12px 0 0;line-height:1.7">Bir dikdörtgenin genişliği, uzunluğundan \(2\) metre fazladır. Uzunluğu \(l\) ile gösterelim. Genişlik için bir ifade yazın.</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">Genişlik, uzunluktan \(2\) fazla: \(l+2\)</div></details>
+      </div>
+    </div>
+
+    <section style="margin:18px 0;padding:22px 26px;background:var(--accent-soft,#e7f0ef);border:1px solid rgba(0,0,0,.07);border-left:4px solid var(--accent,#12595f);border-radius:12px">
+      <span style="display:inline-block;background:var(--accent,#12595f);color:#fff;font:600 12px/1 'IBM Plex Sans',sans-serif;padding:6px 13px;border-radius:999px;letter-spacing:.03em">Örnek 2.27</span>
+      <p style="margin:14px 0 0;line-height:1.7">Blanca'nın çantasında on kuruşluk ve yirmi beş kuruşluk madeni paralar var. On kuruşlukların sayısı, yirmi beş kuruşlukların sayısının beş katından \(2\) azdır. Yirmi beş kuruşlukların sayısını \(q\) ile gösterelim. On kuruşlukların sayısını ifade eden bir denklem yazın.</p>
+      <details open="{{ answersOpen }}">
+        <summary style="cursor:pointer;margin-top:16px;font:600 11.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.08em">CEVABI GÖSTER ▾</summary>
+        <div style="margin-top:12px;padding:16px 20px;background:rgba(255,255,255,.65);border:1px solid rgba(0,0,0,.09);border-radius:9px;line-height:1.9">
+          <p style="margin:0">Beş katı \(5q\), bundan \(2\) az: \(5q-2\).</p>
+        </div>
+      </details>
+    </section>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0">
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.53</span>
+        <p style="margin:12px 0 0;line-height:1.7">Geoffrey'nin cebinde on kuruşluk ve yirmi beş kuruşluk paralar var. On kuruşlukların sayısı, yirmi beş kuruşlukların sayısının altı katından yedi eksiktir. \(q\), yirmi beş kuruşlukların sayısını temsil eder. On kuruşlukların sayısını ifade eden bir denklem yazın.</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">Altı katı \(6q\), yedi eksik: \(6q-7\)</div></details>
+      </div>
+      <div style="padding:16px 20px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #bcae94;border-radius:10px">
+        <span style="display:inline-block;background:#6f685b;color:#fff;font:600 11px/1 'IBM Plex Sans',sans-serif;padding:5px 11px;border-radius:999px;letter-spacing:.03em">Deneyin 2.54</span>
+        <p style="margin:12px 0 0;line-height:1.7">Lauren'ın çantasında on kuruşluk ve beş kuruşluk paralar var. On kuruşlukların sayısı, beş kuruşlukların sayısının dört katından sekiz fazladır. \(n\), beş kuruşlukların sayısını temsil eder. On kuruşlukların sayısını ifade eden bir ifade yazın.</p>
+        <details open="{{ answersOpen }}"><summary style="cursor:pointer;margin-top:14px;font:600 11px/1 'IBM Plex Sans',sans-serif;color:#6f685b;letter-spacing:.08em">CEVABI GÖSTER ▾</summary><div style="margin-top:11px;padding:13px 16px;background:rgba(255,255,255,.62);border:1px solid rgba(0,0,0,.08);border-radius:8px;line-height:1.8">Dört katı \(4n\), sekiz fazla: \(4n+8\)</div></details>
+      </div>
+    </div>
+
+    <div style="margin:26px 0;padding:20px 24px;background:#efece3;border:1px solid rgba(0,0,0,.06);border-left:4px solid #9a8f78;border-radius:10px">
+      <div style="font:700 12px/1 'IBM Plex Sans',sans-serif;letter-spacing:.1em;color:#7a715e">MEDYA · EK ÇEVRİMİÇİ KAYNAKLAR</div>
+      <ul style="margin:12px 0 0;padding-left:20px;line-height:1.8"><li><a href="#">Cebirsel İfade Sözlüğü</a></li></ul>
+    </div>
+
+    <!-- ============ EXERCISES ============ -->
+    <sc-if value="{{ showExercises }}" hint-placeholder-val="{{ true }}">
+    <section style="margin:56px 0 0;padding-top:36px;border-top:2px solid var(--accent,#12595f)">
+      <div style="font:600 12.5px/1 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);letter-spacing:.14em;margin-bottom:12px">ALIŞTIRMALAR · PRATİK USTALAŞTIRIR</div>
+      <h2 style="margin:0;font:600 30px/1.2 'Spectral',serif;color:var(--accent-ink,#0c3c40);letter-spacing:-.015em">Bölüm 2.3 Alıştırmalar</h2>
+
+      <h3 style="font:600 18px/1.3 'Spectral',serif;color:#2c2820;margin:34px 0 4px">Cebirsel İfadeleri Değerlendirin</h3>
+      <p style="margin:6px 0 10px;color:#7a715e;font-size:.95em">Aşağıdaki alıştırmalarda, verilen değer için ifadeyi değerlendirin.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px 30px">
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">69.</span><span>\(7x+8\), \(x=2\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(22\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">70.</span><span>\(9x+7\), \(x=3\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(34\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">71.</span><span>\(5x-4\), \(x=6\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(26\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">72.</span><span>\(8x-6\), \(x=7\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(50\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">73.</span><span>\(x^{2}\), \(x=12\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(144\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">74.</span><span>\(x^{3}\), \(x=5\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(125\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">75.</span><span>\(x^{5}\), \(x=2\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(32\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">76.</span><span>\(x^{4}\), \(x=3\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(81\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">77.</span><span>\(3^{x}\), \(x=3\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(27\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">78.</span><span>\(4^{x}\), \(x=2\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(16\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">79.</span><span>\(x^{2}+3x-7\), \(x=4\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(21\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">80.</span><span>\(x^{2}+5x-8\), \(x=6\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(58\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">81.</span><span>\(2x+4y-5\), \(x=7,\,y=8\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(41\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">82.</span><span>\(6x+3y-9\), \(x=6,\,y=9\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(54\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">83.</span><span>\((x-y)^{2}\), \(x=10,\,y=7\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(9\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">84.</span><span>\((x+y)^{2}\), \(x=6,\,y=9\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(225\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">85.</span><span>\(a^{2}+b^{2}\), \(a=3,\,b=8\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(73\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">86.</span><span>\(r^{2}-s^{2}\), \(r=12,\,s=5\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(119\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">87.</span><span>\(2l+2w\), \(l=15,\,w=12\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(54\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">88.</span><span>\(2l+2w\), \(l=18,\,w=14\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(64\)</span></div>
+      </div>
+
+      <h3 style="font:600 18px/1.3 'Spectral',serif;color:#2c2820;margin:34px 0 4px">Terimleri, Katsayıları ve Benzer Terimleri Belirleyin</h3>
+      <p style="margin:6px 0 10px;color:#7a715e;font-size:.95em">İfadedeki terimleri listeleyin (89–92), terimin katsayısını belirleyin (93–96), benzer terim gruplarını bulun (97–100).</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px 30px">
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">89.</span><span>\(15x^{2}+6x+2\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(15x^{2},\,6x,\,2\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">90.</span><span>\(11x^{2}+8x+5\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(11x^{2},\,8x,\,5\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">91.</span><span>\(10y^{3}+y+2\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(10y^{3},\,y,\,2\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">92.</span><span>\(9y^{3}+y+5\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(9y^{3},\,y,\,5\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">93.</span><span>\(8a\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(8\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">94.</span><span>\(13m\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(13\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">95.</span><span>\(5r^{2}\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(5\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">96.</span><span>\(6x^{3}\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(6\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">97.</span><span>\(x^{3},\,8x,\,14,\,8y,\,5,\,8x^{3}\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(14,\,5\); \(x^{3},\,8x^{3}\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">98.</span><span>\(6z,\,3w^{2},\,1,\,6z^{2},\,4z,\,w^{2}\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(6z,\,4z\); \(3w^{2},\,w^{2}\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">99.</span><span>\(9a,\,a^{2},\,16ab,\,16b^{2},\,4ab,\,9b^{2}\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(16ab,\,4ab\); \(16b^{2},\,9b^{2}\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">100.</span><span>\(3,\,25r^{2},\,10s,\,10r,\,4r^{2},\,3s\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(25r^{2},\,4r^{2}\); \(10s,\,3s\)</span></div>
+      </div>
+
+      <h3 style="font:600 18px/1.3 'Spectral',serif;color:#2c2820;margin:34px 0 4px">Benzer Terimleri Birleştirerek Basitleştirin</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px 30px">
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">101.</span><span>\(10x+3x\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(13x\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">102.</span><span>\(15x+4x\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(19x\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">103.</span><span>\(17a+9a\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(26a\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">104.</span><span>\(18z+9z\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(27z\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">105.</span><span>\(4c+2c+c\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(7c\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">106.</span><span>\(6y+4y+y\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(11y\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">107.</span><span>\(9x+3x+8\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(12x+8\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">108.</span><span>\(8a+5a+9\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(13a+9\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">109.</span><span>\(7u+2+3u+1\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(10u+3\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">110.</span><span>\(8d+6+2d+5\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(10d+11\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">111.</span><span>\(7p+6+5p+4\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(12p+10\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">112.</span><span>\(8x+7+4x-5\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(12x+2\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">113.</span><span>\(10a+7+5a-2+7a-4\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(22a+1\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">114.</span><span>\(7c+4+6c-3+9c-1\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(22c\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">115.</span><span>\(3x^{2}+12x+11+14x^{2}+8x+5\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(17x^{2}+20x+16\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">116.</span><span>\(5b^{2}+9b+10+2b^{2}+3b-4\)</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">= \(7b^{2}+12b+6\)</span></div>
+      </div>
+
+      <h3 style="font:600 18px/1.3 'Spectral',serif;color:#2c2820;margin:34px 0 4px">Sözcük Öbeklerini Cebirsel İfadelere Çevirin</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:2px 30px">
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">117.</span><span>\(8\) ve \(12\)'nin toplamı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(8+12\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">118.</span><span>\(9\) ve \(1\)'in toplamı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(9+1\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">119.</span><span>\(14\) ile \(9\)'un farkı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(14-9\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">120.</span><span>\(19\)'dan \(8\) eksik</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(19-8\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">121.</span><span>\(9\) ve \(7\)'nin çarpımı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(9\cdot 7\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">122.</span><span>\(8\) ve \(7\)'nin çarpımı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(8\cdot 7\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">123.</span><span>\(36\) ve \(9\)'un bölümü</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(36\div 9\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">124.</span><span>\(42\) ve \(7\)'nin bölümü</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(42\div 7\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">125.</span><span>\(x\) ve \(4\)'ün farkı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(x-4\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">126.</span><span>\(x\)'ten \(3\) az</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(x-3\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">127.</span><span>\(6\) ve \(y\)'nin çarpımı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(6y\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">128.</span><span>\(9\) ve \(y\)'nin çarpımı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(9y\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">129.</span><span>\(8x\) ve \(3x\)'in toplamı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(8x+3x\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">130.</span><span>\(13x\) ve \(3x\)'in toplamı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(13x+3x\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">131.</span><span>\(y\) ve \(3\)'ün bölümü</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(\dfrac{y}{3}\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">132.</span><span>\(y\) ve \(8\)'in bölümü</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(\dfrac{y}{8}\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">133.</span><span>\(y\) ile dokuzun farkının sekiz katı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(8(y-9)\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">134.</span><span>\(y\) ile birin farkının yedi katı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(7(y-1)\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">135.</span><span>\(x\) ve \(y\) toplamının beş katı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(5(x+y)\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.06)"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">136.</span><span>\(x\)'in iki katından beş azın dokuz katı</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(9(2x-5)\)</span></div>
+      </div>
+
+      <p style="margin:22px 0 10px;color:#7a715e;font-size:.95em">Aşağıdaki alıştırmalarda cebirsel bir ifade yazın.</p>
+      <div style="display:grid;gap:14px">
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">137.</span><span style="line-height:1.65">Adele bir etek ve bir bluz aldı. Eteğin fiyatı, bluzun fiyatından \(15\) dolar fazlaydı. Bluzun maliyetini \(b\) ile gösterin. Eteğin maliyetini ifade eden bir denklem yazın.</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(b+15\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">138.</span><span style="line-height:1.65">Eric'in arabasında rock ve klasik müzik CD'leri var. Rock CD'lerinin sayısı, klasik CD'lerin sayısından \(3\) fazladır. Klasik CD'lerin sayısını \(c\) ile gösterin. Rock CD'lerinin sayısını ifade eden bir ifade yazın.</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(c+3\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">139.</span><span style="line-height:1.65">İkinci sınıftaki kız öğrencilerin sayısı, erkek öğrencilerin sayısından \(4\) azdır. Erkeklerin sayısını \(b\) ile gösterin. Kızların sayısını ifade eden bir ifade yazın.</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(b-4\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">140.</span><span style="line-height:1.65">Marcella'nın erkek kuzenlerinin sayısı, kız kuzenlerinin sayısından \(6\) fazladır. Kız kuzenlerin sayısını \(f\) ile gösterin. Erkek kuzenlerin sayısını ifade eden bir ifade yazın.</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(f+6\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">141.</span><span style="line-height:1.65">Greg'in cebinde nikel ve kuruşlar var. Kuruş sayısı, nikel sayısının iki katından yedi eksiktir. \(n\), nikel sayısını temsil eder. Kuruş sayısını ifade eden bir denklem yazın.</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(2n-7\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">142.</span><span style="line-height:1.65">Jeannette'in \(5\) ve \(10\) dolarlık banknotları var. Beşliklerin sayısı, onlukların sayısının altı katından üç fazladır. \(t\), onlukların sayısını temsil eder. Beşliklerin sayısını ifade eden bir ifade yazın.</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">\(6t+3\)</span></div>
+      </div>
+
+      <h3 style="font:600 18px/1.3 'Spectral',serif;color:#2c2820;margin:34px 0 4px">Günlük Matematik</h3>
+      <div style="display:grid;gap:14px">
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">143.</span><span style="line-height:1.65">Justin'in araç sigortasında olay başına \(750\) dolarlık bir muafiyet var; yani bir hasarda ilk \(750\) doları o öder, kalanını sigorta karşılar. Justin \(2{,}100\) dolarlık bir talepte bulunursa, o ne kadar, sigorta şirketi ne kadar öder?</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">Justin \(\$750\) · sigorta \(\$1350\)</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">144.</span><span style="line-height:1.65">Pam ve Armando'nun ev sigortasında olay başına \(2{,}500\) dolarlık muafiyet var. Bir hasarda ilk \(2{,}500\) doları onlar öder, kalanını sigorta karşılar. \(19{,}400\) dolarlık bir talepte bulunurlarsa, onlar ne kadar, sigorta ne kadar öder?</span> <span class="exans" style="margin-left:auto;padding-left:12px;color:var(--accent,#12595f);font-weight:600;text-align:right">Onlar \(\$2500\) · sigorta \(\$16{,}900\)</span></div>
+      </div>
+
+      <h3 style="font:600 18px/1.3 'Spectral',serif;color:#2c2820;margin:34px 0 4px">Yazma Alıştırmaları</h3>
+      <div style="display:grid;gap:14px">
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">145.</span><span style="line-height:1.65">"\(x\) ve \(y\)'nin toplamı" ile "\(y\) ve \(x\)'in toplamı" ifadelerinin aynı olduğunu, ancak "\(x\) ve \(y\)'nin farkı" ile "\(y\) ve \(x\)'in farkı" ifadelerinin aynı olmadığını açıklayın. \(x\) ve \(y\) için rastgele iki sayı kullanarak açıklamanızı destekleyin.</span></div>
+        <div style="display:flex;gap:10px;align-items:baseline"><span style="font:600 12px 'IBM Plex Sans',sans-serif;color:var(--accent,#12595f);min-width:30px">146.</span><span style="line-height:1.65">"\(x\) ve \(y\) toplamının \(4\) katı" ile "\(x\)'in \(4\) katı ile \(y\)'nin toplamı" arasındaki farkı açıklayın.</span></div>
+      </div>
+
+      <!-- SELF CHECK -->
+      <h3 style="font:600 18px/1.3 'Spectral',serif;color:#2c2820;margin:38px 0 6px">Öz Kontrol</h3>
+      <p style="margin:6px 0 14px;line-height:1.65;color:#332f27"><strong>(a)</strong> Alıştırmaları tamamladıktan sonra, bu bölümdeki hedeflere ne kadar hâkim olduğunuzu değerlendirmek için bu kontrol listesini kullanın.</p>
+      <div style="border:1px solid rgba(0,0,0,.12);border-radius:10px;overflow:hidden;max-width:640px;font:500 14px 'IBM Plex Sans',sans-serif">
+        <div style="display:grid;grid-template-columns:2.4fr 1fr 1fr 1fr;background:var(--accent-soft,#e7f0ef);color:var(--accent-ink,#0c3c40);font-weight:600;font-size:12.5px">
+          <div style="padding:11px 14px">Yapabilirim…</div>
+          <div style="padding:11px 10px;border-left:1px solid rgba(0,0,0,.08);text-align:center">Rahatça</div>
+          <div style="padding:11px 10px;border-left:1px solid rgba(0,0,0,.08);text-align:center">Biraz yardımla</div>
+          <div style="padding:11px 10px;border-left:1px solid rgba(0,0,0,.08);text-align:center">Anlamadım</div>
+        </div>
+        <div style="display:grid;grid-template-columns:2.4fr 1fr 1fr 1fr;border-top:1px solid rgba(0,0,0,.08)"><div style="padding:12px 14px">cebirsel ifadeleri değerlendir.</div><div style="border-left:1px solid rgba(0,0,0,.06)"></div><div style="border-left:1px solid rgba(0,0,0,.06)"></div><div style="border-left:1px solid rgba(0,0,0,.06)"></div></div>
+        <div style="display:grid;grid-template-columns:2.4fr 1fr 1fr 1fr;border-top:1px solid rgba(0,0,0,.08);background:rgba(0,0,0,.02)"><div style="padding:12px 14px">terim, katsayı ve benzer terimleri belirle.</div><div style="border-left:1px solid rgba(0,0,0,.06)"></div><div style="border-left:1px solid rgba(0,0,0,.06)"></div><div style="border-left:1px solid rgba(0,0,0,.06)"></div></div>
+        <div style="display:grid;grid-template-columns:2.4fr 1fr 1fr 1fr;border-top:1px solid rgba(0,0,0,.08)"><div style="padding:12px 14px">benzer terimleri birleştirerek sadeleştir.</div><div style="border-left:1px solid rgba(0,0,0,.06)"></div><div style="border-left:1px solid rgba(0,0,0,.06)"></div><div style="border-left:1px solid rgba(0,0,0,.06)"></div></div>
+        <div style="display:grid;grid-template-columns:2.4fr 1fr 1fr 1fr;border-top:1px solid rgba(0,0,0,.08);background:rgba(0,0,0,.02)"><div style="padding:12px 14px">sözcük öbeklerini cebirsel ifadelere çevir.</div><div style="border-left:1px solid rgba(0,0,0,.06)"></div><div style="border-left:1px solid rgba(0,0,0,.06)"></div><div style="border-left:1px solid rgba(0,0,0,.06)"></div></div>
+      </div>
+      <p style="margin:16px 0 0;line-height:1.65;color:#332f27"><strong>(b)</strong> Bu kontrol listesini inceledikten sonra, tüm hedeflere ulaşmak için kendinize güven kazanmak adına ne yapacaksınız?</p>
+    </section>
+    </sc-if>
+
+    <footer style="margin-top:56px;padding-top:20px;border-top:1px solid rgba(0,0,0,.1);font:400 13px/1.6 'IBM Plex Sans',sans-serif;color:#9a8f78">
+      İçerik OpenStax <em>Prealgebra 2e</em> temel alınarak uyarlanmıştır · CC BY 4.0 · Bölüm 2.3
+    </footer>
+
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;palet&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Teal&quot;,&quot;İndigo&quot;,&quot;Erik&quot;,&quot;Orman&quot;],&quot;default&quot;:&quot;İndigo&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Görünüm&quot;},&quot;yaziBoyutu&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;min&quot;:15,&quot;max&quot;:20,&quot;step&quot;:1,&quot;default&quot;:17,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Görünüm&quot;},&quot;yanitlar&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;İçerik&quot;},&quot;alistirmalar&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;İçerik&quot;}}">
+class Component extends DCLogic {
+  palettes = {
+    'Teal':   { a:'#12595f', s:'#e7f0ef', i:'#0c3c40' },
+    'İndigo': { a:'#3a3f8f', s:'#ecedf6', i:'#262a63' },
+    'Erik':   { a:'#7a3350', s:'#f5e9ee', i:'#54223a' },
+    'Orman':  { a:'#2f6042', s:'#e8f0ea', i:'#1e3f2c' },
+  };
+  renderMath() {
+    const el = document.querySelector('[data-katex-root]');
+    if (!el) return;
+    if (window.renderMathInElement) {
+      try {
+        window.renderMathInElement(el, {
+          delimiters: [
+            { left: '\\(', right: '\\)', display: false },
+            { left: '\\[', right: '\\]', display: true },
+          ],
+          throwOnError: false,
+        });
+      } catch (e) {}
+    } else {
+      clearTimeout(this._t);
+      this._t = setTimeout(() => this.renderMath(), 120);
+    }
+  }
+  componentDidMount() { this.renderMath(); }
+  componentDidUpdate() { this.renderMath(); }
+  renderVals() {
+    const p = this.palettes[this.props.palet] || this.palettes['Teal'];
+    return {
+      accent: p.a,
+      accentSoft: p.s,
+      accentInk: p.i,
+      answersOpen: this.props.yanitlar ?? false,
+      showExercises: this.props.alistirmalar ?? true,
+      fontScale: (this.props.yaziBoyutu ?? 17) + 'px',
+    };
+  }
+}
+</script>
+</body>
+</html>
