@@ -150,9 +150,12 @@ export async function applySeedPayload(
 ) {
   await client.execute("PRAGMA foreign_keys = ON");
 
-  const statements = insertOrder.flatMap((key) =>
-    buildUpsertStatements(key, payload.rows[key] ?? []),
-  );
+  const statements = [
+    ...buildStaleCleanupStatements(payload.rows),
+    ...insertOrder.flatMap((key) =>
+      buildUpsertStatements(key, payload.rows[key] ?? []),
+    ),
+  ];
 
   if (statements.length) {
     await client.batch(statements, "write");
@@ -240,6 +243,98 @@ function buildUpsertStatements(
       args: entries.map(([property]) => serializeValue(row[property])),
     };
   });
+}
+
+function buildStaleCleanupStatements(rows: PayloadRows): InStatement[] {
+  const lessonIds = stringFields(rows.lessons, "id");
+  const lessonSectionIds = stringFields(rows.lessonSections, "id");
+  const exerciseIds = stringFields(rows.exercises, "id");
+  const sourceSnapshotIds = stringFields(rows.sourceSnapshots, "id");
+  const sourceSnapshotUrls = stringFields(rows.sourceSnapshots, "sourceUrl");
+  const sourceAssetIds = stringFields(rows.sourceAssets, "id");
+
+  return [
+    buildStaleSourceAssetsDelete(lessonIds, sourceSnapshotIds, sourceAssetIds),
+    buildStaleByParentDelete(
+      "exercises",
+      "lesson_id",
+      lessonIds,
+      exerciseIds,
+    ),
+    buildStaleByParentDelete(
+      "lesson_sections",
+      "lesson_id",
+      lessonIds,
+      lessonSectionIds,
+    ),
+    buildStaleByParentDelete(
+      "source_snapshots",
+      "source_url",
+      sourceSnapshotUrls,
+      sourceSnapshotIds,
+    ),
+  ].filter((statement): statement is InStatement => Boolean(statement));
+}
+
+function buildStaleSourceAssetsDelete(
+  lessonIds: string[],
+  sourceSnapshotIds: string[],
+  sourceAssetIds: string[],
+): InStatement | null {
+  const parentFilters = [
+    buildInCondition("lesson_id", lessonIds),
+    buildInCondition("source_snapshot_id", sourceSnapshotIds),
+  ].filter(Boolean);
+
+  if (!parentFilters.length) return null;
+
+  const keepFilter = buildNotInCondition("id", sourceAssetIds);
+  return {
+    sql: [
+      `DELETE FROM source_assets WHERE (${parentFilters.join(" OR ")})`,
+      keepFilter,
+    ]
+      .filter(Boolean)
+      .join(" AND "),
+    args: [...lessonIds, ...sourceSnapshotIds, ...sourceAssetIds],
+  };
+}
+
+function buildStaleByParentDelete(
+  table: string,
+  parentColumn: string,
+  parentIds: string[],
+  keepIds: string[],
+): InStatement | null {
+  const parentFilter = buildInCondition(parentColumn, parentIds);
+  if (!parentFilter) return null;
+
+  const keepFilter = buildNotInCondition("id", keepIds);
+  return {
+    sql: [`DELETE FROM ${table} WHERE ${parentFilter}`, keepFilter]
+      .filter(Boolean)
+      .join(" AND "),
+    args: [...parentIds, ...keepIds],
+  };
+}
+
+function buildInCondition(column: string, values: string[]) {
+  if (!values.length) return "";
+  return `${column} IN (${values.map(() => "?").join(", ")})`;
+}
+
+function buildNotInCondition(column: string, values: string[]) {
+  if (!values.length) return "";
+  return `${column} NOT IN (${values.map(() => "?").join(", ")})`;
+}
+
+function stringFields(
+  rows: Array<Record<string, unknown>> | undefined,
+  field: string,
+) {
+  return (rows ?? [])
+    .map((row) => row[field])
+    .filter((value): value is string => typeof value === "string");
 }
 
 function getStatementParts(key: keyof typeof tableColumns) {
