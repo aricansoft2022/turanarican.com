@@ -22,6 +22,50 @@ export type SeedLessonBuildResult = {
   lesson: Lesson;
 };
 
+export type PlannedLessonContentResult = {
+  sourceBook: SourceBook;
+  plannedLesson: PlannedLesson;
+  parsedLesson: ParsedLessonContent;
+};
+
+export async function fetchPlannedLessonContent({
+  sourceBookSlug,
+  sourceNumber,
+  sourceBookPlans,
+}: {
+  sourceBookSlug: string;
+  sourceNumber: string;
+  sourceBookPlans: readonly SourceBook[];
+}): Promise<PlannedLessonContentResult> {
+  const sourceBook = sourceBookPlans.find((book) => book.slug === sourceBookSlug);
+
+  if (!sourceBook) {
+    throw new Error(`Source book is not configured: ${sourceBookSlug}`);
+  }
+
+  const plannedBook = await discoverPlannedLessons(sourceBook);
+  const plannedLesson = plannedBook.lessons.find(
+    (lesson) => lesson.sourceNumber === sourceNumber,
+  );
+
+  if (!plannedLesson) {
+    throw new Error(
+      `Lesson was not found in the planned lesson set: ${sourceNumber}`,
+    );
+  }
+
+  const parsedLesson = await fetchLessonContent(plannedLesson.href, {
+    bookSlug: sourceBook.slug,
+    lessonSlug: plannedLesson.displaySlug,
+  });
+
+  return {
+    sourceBook,
+    plannedLesson,
+    parsedLesson,
+  };
+}
+
 export async function fetchSeedLessonContent({
   seedConfig,
   sourceBookPlans,
@@ -31,24 +75,12 @@ export async function fetchSeedLessonContent({
   sourceBookPlans: readonly SourceBook[];
   catalog: readonly CatalogBook[];
 }): Promise<SeedLessonBuildResult> {
-  const sourceBook = sourceBookPlans.find(
-    (book) => book.slug === seedConfig.sourceBookSlug,
-  );
-
-  if (!sourceBook) {
-    throw new Error(`Source book is not configured: ${seedConfig.sourceBookSlug}`);
-  }
-
-  const plannedBook = await discoverPlannedLessons(sourceBook);
-  const plannedLesson = plannedBook.lessons.find(
-    (lesson) => lesson.sourceNumber === seedConfig.sourceNumber,
-  );
-
-  if (!plannedLesson) {
-    throw new Error(
-      `Seed lesson was not found in the planned lesson set: ${seedConfig.sourceNumber}`,
-    );
-  }
+  const { sourceBook, plannedLesson, parsedLesson } =
+    await fetchPlannedLessonContent({
+      sourceBookSlug: seedConfig.sourceBookSlug,
+      sourceNumber: seedConfig.sourceNumber,
+      sourceBookPlans,
+    });
 
   const catalogBook = catalog.find(
     (book) => book.slug === seedConfig.catalogBookSlug,
@@ -85,10 +117,6 @@ export async function fetchSeedLessonContent({
     );
   }
 
-  const parsedLesson = await fetchLessonContent(plannedLesson.href, {
-    bookSlug: sourceBook.slug,
-    lessonSlug: plannedLesson.displaySlug,
-  });
   const lesson = buildLessonFromParsedContent({
     book: catalogBook,
     chapter: catalogChapter,
