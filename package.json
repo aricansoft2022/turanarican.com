@@ -15,6 +15,7 @@
     "db:migrate": "drizzle-kit migrate",
     "crawl:lesson": "tsx scripts/parse-libretexts-lesson.ts",
     "crawl:toc": "tsx scripts/discover-libretexts.ts",
+    "seed:lessons": "tsx scripts/build-seed-lessons.ts",
     "cf:build": "opennextjs-cloudflare build",
     "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
