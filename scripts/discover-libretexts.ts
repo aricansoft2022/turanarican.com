@@ -4,6 +4,7 @@ import {
   fetchChapterToc,
   fetchLessonAssetManifest,
 } from "@/src/crawler/libretexts";
+import { discoverPlannedLessons } from "@/src/crawler/lesson-plan";
 
 async function main() {
   for (const sourceBook of sourceBooks) {
@@ -28,6 +29,18 @@ async function main() {
       for (const lesson of chapterToc.lessons.slice(0, 6)) {
         console.log(
           `  - ${lesson.sourceNumber.padEnd(5)} ${lesson.title} :: ${lesson.href}`,
+        );
+      }
+    }
+
+    if (sourceBook.targetRanges.length > 0) {
+      const plannedBook = await discoverPlannedLessons(sourceBook);
+      console.log(`  target lessons: ${plannedBook.lessons.length}`);
+      console.log(`  plan hash: ${plannedBook.contentHash.slice(0, 16)}`);
+
+      for (const lesson of plannedBook.lessons) {
+        console.log(
+          `  * ${lesson.sourceNumber.padEnd(5)} -> ${lesson.displayNumber.padEnd(5)} ${lesson.title}`,
         );
       }
     }

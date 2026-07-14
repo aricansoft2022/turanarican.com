@@ -34,7 +34,7 @@ export const books: Book[] = [
             chapterId: "chapter-language-of-algebra",
             slug: "ifadeleri-degerlendirme-sadelestirme-cevirme",
             sourceNumber: "2.3",
-            displayNumber: "2.3",
+            displayNumber: "2.2",
             sourceTitle: "Evaluate, Simplify, and Translate Expressions",
             displayTitle: "İfadeleri Değerlendirme, Sadeleştirme ve Çevirme",
             summary:
@@ -58,7 +58,7 @@ export const lessons: Lesson[] = [
     chapterSlug: "cebir-diline-giris",
     slug: "ifadeleri-degerlendirme-sadelestirme-cevirme",
     sourceNumber: "2.3",
-    displayNumber: "2.3",
+    displayNumber: "2.2",
     sourceTitle: "Evaluate, Simplify, and Translate Expressions",
     displayTitle: "İfadeleri Değerlendirme, Sadeleştirme ve Çevirme",
     summary:

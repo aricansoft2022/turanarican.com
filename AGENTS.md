@@ -251,6 +251,7 @@ Expected first build milestones:
 7. Add structured lesson renderer and answer reveal components. Started.
 8. Seed one or two lessons end-to-end before mass ingestion. One seed lesson
    started; expand it next.
+9. Add target range lesson planner and shifted display numbering. Done.
 
 ## Quality Gates
 
