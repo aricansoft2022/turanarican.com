@@ -450,6 +450,268 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
               },
             ],
           },
+          {
+            sourceBlockIndex: 15,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.16",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "2^{x}" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=5" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Bu ifadede değişken üs durumundadır. Bu yüzden ",
+                      },
+                      { type: "math", value: "x" },
+                      { type: "text", value: " yerine " },
+                      { type: "math", value: "5" },
+                      { type: "text", value: " yazarız." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}2^{x}&=2^{5} \\\\ &=2\\cdot2\\cdot2\\cdot2\\cdot2 \\\\ &=32\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "x=5" },
+                      { type: "text", value: " iken " },
+                      { type: "math", value: "2^{x}" },
+                      { type: "text", value: " ifadesinin değeri " },
+                      { type: "math", value: "32" },
+                      { type: "text", value: "'dir." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 16,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.31",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "2^{x}" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=6" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 17,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.32",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "3^{x}" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=4" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 18,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.17",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "3x+4y-6" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=10" },
+                  { type: "text", value: " ve " },
+                  { type: "math", value: "y=2" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Bu ifadede iki değişken var; bu yüzden iki yerine koyma yaparız.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}3x+4y-6&=3(10)+4(2)-6 \\\\ &=30+8-6 \\\\ &=32\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "x=10" },
+                      { type: "text", value: " ve " },
+                      { type: "math", value: "y=2" },
+                      { type: "text", value: " iken " },
+                      { type: "math", value: "3x+4y-6" },
+                      { type: "text", value: " ifadesinin değeri " },
+                      { type: "math", value: "32" },
+                      { type: "text", value: "'dir." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 19,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.33",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "2x+5y-4" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=11" },
+                  { type: "text", value: " ve " },
+                  { type: "math", value: "y=3" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 20,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.34",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "5x-2y-9" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=7" },
+                  { type: "text", value: " ve " },
+                  { type: "math", value: "y=8" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 21,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.18",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "2x^{2}+3x+8" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=4" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "Bir ifadede değişkenin üssü varsa dikkatli olmalıyız. Bu ifadede ",
+                      },
+                      { type: "math", value: "2x^{2}" },
+                      { type: "text", value: ", " },
+                      { type: "math", value: "2\\cdot x\\cdot x" },
+                      {
+                        type: "text",
+                        value: " anlamına gelir; ",
+                      },
+                      { type: "math", value: "(2x)^{2}" },
+                      { type: "text", value: " ifadesinden farklıdır." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}2x^{2}+3x+8&=2(4^{2})+3(4)+8 \\\\ &=2(16)+12+8 \\\\ &=32+12+8 \\\\ &=52\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 22,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.35",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "3x^{2}+4x+1" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=3" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 23,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.36",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "6x^{2}-4x-7" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=2" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
         ],
       },
     ],

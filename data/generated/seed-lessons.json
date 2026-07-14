@@ -186,7 +186,7 @@
         "examples": 15,
         "tryIts": 30,
         "exercises": 4,
-        "mathTokens": 221,
+        "mathTokens": 237,
         "assets": 17
       },
       "lesson": {
@@ -936,8 +936,24 @@
                 "label": "Örnek 2.16",
                 "prompt": [
                   {
+                    "type": "text",
+                    "value": "Değerlendirin: "
+                  },
+                  {
                     "type": "math",
-                    "value": "\\text{Değerlendir} 2^{x} \\text{iken} x=5."
+                    "value": "2^{x}"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": [
@@ -946,36 +962,46 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "In this expression, the variable is an exponent."
+                        "value": "Bu ifadede değişken üs durumundadır. Bu yüzden "
+                      },
+                      {
+                        "type": "math",
+                        "value": "x"
+                      },
+                      {
+                        "type": "text",
+                        "value": " yerine "
+                      },
+                      {
+                        "type": "math",
+                        "value": "5"
+                      },
+                      {
+                        "type": "text",
+                        "value": " yazarız."
                       }
-                    ]
-                  },
-                  {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Use the definition of exponent."
-                      ],
-                      [
-                        "Multiply."
-                      ]
                     ]
                   },
                   {
                     "type": "paragraph",
                     "text": [
                       {
-                        "type": "text",
-                        "value": "When "
-                      },
+                        "type": "math",
+                        "value": "\\begin{aligned}2^{x}&=2^{5} \\\\ &=2\\cdot2\\cdot2\\cdot2\\cdot2 \\\\ &=32\\end{aligned}",
+                        "display": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
                       {
                         "type": "math",
-                        "value": "x=5,"
+                        "value": "x=5"
                       },
                       {
                         "type": "text",
-                        "value": " the expression "
+                        "value": " iken "
                       },
                       {
                         "type": "math",
@@ -983,11 +1009,15 @@
                       },
                       {
                         "type": "text",
-                        "value": " has a value of "
+                        "value": " ifadesinin değeri "
                       },
                       {
                         "type": "math",
-                        "value": "32."
+                        "value": "32"
+                      },
+                      {
+                        "type": "text",
+                        "value": "'dir."
                       }
                     ]
                   }
@@ -999,11 +1029,23 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Evaluate: "
+                    "value": "Değerlendirin: "
                   },
                   {
                     "type": "math",
-                    "value": "2^{x} \\text{iken} x=6."
+                    "value": "2^{x}"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": []
@@ -1014,11 +1056,23 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Evaluate: "
+                    "value": "Değerlendirin: "
                   },
                   {
                     "type": "math",
-                    "value": "3^{x} \\text{iken} x=4."
+                    "value": "3^{x}"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": []
@@ -1028,8 +1082,32 @@
                 "label": "Örnek 2.17",
                 "prompt": [
                   {
+                    "type": "text",
+                    "value": "Değerlendirin: "
+                  },
+                  {
                     "type": "math",
-                    "value": "\\text{Değerlendir} 3x+4y-6 \\text{iken} x=10 \\text{ve} y=2."
+                    "value": "3x+4y-6"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": [
@@ -1038,44 +1116,38 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "This expression contains two variables, so we must make two substitutions."
+                        "value": "Bu ifadede iki değişken var; bu yüzden iki yerine koyma yaparız."
                       }
-                    ]
-                  },
-                  {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Multiply."
-                      ],
-                      [
-                        "Add and subtract left to right."
-                      ]
                     ]
                   },
                   {
                     "type": "paragraph",
                     "text": [
                       {
-                        "type": "text",
-                        "value": "When "
-                      },
+                        "type": "math",
+                        "value": "\\begin{aligned}3x+4y-6&=3(10)+4(2)-6 \\\\ &=30+8-6 \\\\ &=32\\end{aligned}",
+                        "display": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
                       {
                         "type": "math",
                         "value": "x=10"
                       },
                       {
                         "type": "text",
-                        "value": " and "
+                        "value": " ve "
                       },
                       {
                         "type": "math",
-                        "value": "y=2,"
+                        "value": "y=2"
                       },
                       {
                         "type": "text",
-                        "value": " the expression "
+                        "value": " iken "
                       },
                       {
                         "type": "math",
@@ -1083,11 +1155,15 @@
                       },
                       {
                         "type": "text",
-                        "value": " has a value of "
+                        "value": " ifadesinin değeri "
                       },
                       {
                         "type": "math",
-                        "value": "32."
+                        "value": "32"
+                      },
+                      {
+                        "type": "text",
+                        "value": "'dir."
                       }
                     ]
                   }
@@ -1099,11 +1175,31 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Evaluate: "
+                    "value": "Değerlendirin: "
                   },
                   {
                     "type": "math",
-                    "value": "2x+5y-4 \\text{iken} x=11 \\text{ve} y=3"
+                    "value": "2x+5y-4"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=11"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": []
@@ -1114,11 +1210,31 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Evaluate: "
+                    "value": "Değerlendirin: "
                   },
                   {
                     "type": "math",
-                    "value": "5x-2y-9 \\text{iken} x=7 \\text{ve} y=8"
+                    "value": "5x-2y-9"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": []
@@ -1128,8 +1244,24 @@
                 "label": "Örnek 2.18",
                 "prompt": [
                   {
+                    "type": "text",
+                    "value": "Değerlendirin: "
+                  },
+                  {
                     "type": "math",
-                    "value": "\\text{Değerlendir} 2x^{2}+3x+8 \\text{iken} x=4."
+                    "value": "2x^{2}+3x+8"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": [
@@ -1138,7 +1270,7 @@
                     "text": [
                       {
                         "type": "text",
-                        "value": "We need to be careful when an expression has a variable with an exponent. In this expression, "
+                        "value": "Bir ifadede değişkenin üssü varsa dikkatli olmalıyız. Bu ifadede "
                       },
                       {
                         "type": "math",
@@ -1146,43 +1278,34 @@
                       },
                       {
                         "type": "text",
-                        "value": " means "
+                        "value": ", "
                       },
                       {
                         "type": "math",
-                        "value": "2\\cdotx\\cdotx"
+                        "value": "2\\cdot x\\cdot x"
                       },
                       {
                         "type": "text",
-                        "value": " and is different from the expression "
+                        "value": " anlamına gelir; "
                       },
                       {
                         "type": "math",
-                        "value": "{(2x)}^{2},"
+                        "value": "(2x)^{2}"
                       },
                       {
                         "type": "text",
-                        "value": " which means "
-                      },
-                      {
-                        "type": "math",
-                        "value": "2x\\cdot2x."
+                        "value": " ifadesinden farklıdır."
                       }
                     ]
                   },
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Simplify 4^{2} ."
-                      ],
-                      [
-                        "Multiply."
-                      ],
-                      [
-                        "Add."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "math",
+                        "value": "\\begin{aligned}2x^{2}+3x+8&=2(4^{2})+3(4)+8 \\\\ &=2(16)+12+8 \\\\ &=32+12+8 \\\\ &=52\\end{aligned}",
+                        "display": true
+                      }
                     ]
                   }
                 ]
@@ -1193,11 +1316,23 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Evaluate: "
+                    "value": "Değerlendirin: "
                   },
                   {
                     "type": "math",
-                    "value": "3x^{2}+4x+1 \\text{iken} x=3."
+                    "value": "3x^{2}+4x+1"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": []
@@ -1208,11 +1343,23 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Evaluate: "
+                    "value": "Değerlendirin: "
                   },
                   {
                     "type": "math",
-                    "value": "6x^{2}-4x-7 \\text{iken} x=2."
+                    "value": "6x^{2}-4x-7"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
                   }
                 ],
                 "solution": []
