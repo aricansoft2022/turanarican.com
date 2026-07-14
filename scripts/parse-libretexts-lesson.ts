@@ -1,4 +1,5 @@
 import { books as catalogBooks } from "@/data/catalog";
+import { seedLessonConfigs } from "@/data/seed-lessons";
 import { sourceBooks } from "@/data/source-plans";
 import { buildLessonFromParsedContent } from "@/src/crawler/lesson-adapter";
 import {
@@ -9,8 +10,18 @@ import { discoverPlannedLessons } from "@/src/crawler/lesson-plan";
 import type { ContentBlock, InlineContent, Lesson } from "@/src/content/types";
 
 async function main() {
+  const seedConfig = seedLessonConfigs.find(
+    (config) =>
+      config.sourceBookSlug === "prealgebra-2e-openstax" &&
+      config.sourceNumber === "2.3",
+  );
+
+  if (!seedConfig) {
+    throw new Error("Sample lesson 2.3 seed config is not configured.");
+  }
+
   const sourceBook = sourceBooks.find(
-    (book) => book.slug === "prealgebra-2e-openstax",
+    (book) => book.slug === seedConfig.sourceBookSlug,
   );
 
   if (!sourceBook) {
@@ -19,14 +30,16 @@ async function main() {
 
   const plannedBook = await discoverPlannedLessons(sourceBook);
   const lesson = plannedBook.lessons.find(
-    (plannedLesson) => plannedLesson.sourceNumber === "2.3",
+    (plannedLesson) => plannedLesson.sourceNumber === seedConfig.sourceNumber,
   );
-  const catalogBook = catalogBooks.find((book) => book.slug === "prealgebra-2e");
+  const catalogBook = catalogBooks.find(
+    (book) => book.slug === seedConfig.catalogBookSlug,
+  );
   const catalogChapter = catalogBook?.chapters.find(
-    (chapter) => chapter.slug === "cebir-diline-giris",
+    (chapter) => chapter.slug === seedConfig.catalogChapterSlug,
   );
   const catalogLesson = catalogChapter?.lessons.find(
-    (lessonSummary) => lessonSummary.sourceNumber === "2.3",
+    (lessonSummary) => lessonSummary.sourceNumber === seedConfig.sourceNumber,
   );
 
   if (!lesson) {
@@ -49,33 +62,10 @@ async function main() {
     chapter: catalogChapter,
     lesson: catalogLesson,
     parsedLesson,
-    objectives: [
-      "Cebirsel ifadeleri değerlendirin.",
-      "Terimleri, katsayıları ve benzer terimleri belirleyin.",
-      "Benzer terimleri birleştirerek ifadeleri sadeleştirin.",
-      "Sözcük öbeklerini cebirsel ifadelere çevirin.",
-    ],
-    sectionTitles: {
-      "Evaluate Algebraic Expressions": "Cebirsel İfadeleri Değerlendirme",
-      "Identify Terms, Coefficients, and Like Terms":
-        "Terimleri, Katsayıları ve Benzer Terimleri Belirleme",
-      "Simplify Expressions by Combining Like Terms":
-        "Benzer Terimleri Birleştirerek İfadeleri Sadeleştirme",
-      "Translate Words to Algebraic Expressions":
-        "Sözcük Öbeklerini Cebirsel İfadelere Çevirme",
-    },
-    exerciseAnswers: {
-      "69": [{ type: "math", value: "22" }],
-      "79": [{ type: "math", value: "21" }],
-      "101": [{ type: "math", value: "13x" }],
-      "135": [{ type: "math", value: "5(x+y)" }],
-    },
-    exerciseSectionSlugs: {
-      "69": "cebirsel-ifadeleri-degerlendirme",
-      "79": "cebirsel-ifadeleri-degerlendirme",
-      "101": "benzer-terimleri-birlestirme",
-      "135": "sozcuk-obeklerini-cebirsel-ifadelere-cevirme",
-    },
+    objectives: seedConfig.objectives,
+    sectionTitles: seedConfig.sectionTitles,
+    exerciseAnswers: seedConfig.exerciseAnswers,
+    exerciseSectionSlugs: seedConfig.exerciseSectionSlugs,
   });
   assertRenderableLesson(seedLesson);
 
