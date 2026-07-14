@@ -186,7 +186,7 @@
         "examples": 15,
         "tryIts": 30,
         "sourceExercises": 39,
-        "exercises": 4,
+        "exercises": 39,
         "mathTokens": 240,
         "assets": 17
       },
@@ -483,7 +483,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y yerine verilen değeri yazarız. y=6 için 6+4=10, y=15 için 15+4=19 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -518,7 +528,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: a yerine verilen sayıyı koyarız. a=9 için 9-5=4, a=17 için 17-5=12 bulunur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -753,7 +773,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=2 iken 8·2-3=13, x=1 iken 8·1-3=5 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -788,7 +818,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y=3 için 4·3-4=8, y=5 için 4·5-4=16 bulunur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -903,7 +943,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x yerine 8 yazınca x²=8²=64 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -930,7 +980,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x yerine 6 yazınca x³=6³=216 bulunur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -1049,7 +1109,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=6 olduğunda 2 üzeri x, 2⁶ demektir. 2⁶=64 olduğu için ifadenin değeri 64'tür."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -1076,7 +1146,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x yerine 4 yazılır. 3⁴=81 olduğundan ifadenin değeri 81'dir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -1203,7 +1283,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=11 ve y=3 yazınca 2·11+5·3-4=22+15-4=33 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -1238,7 +1328,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=7 ve y=8 için 5·7-2·8-9=35-16-9=10 bulunur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -1336,7 +1436,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=3 yazınca 3·3²+4·3+1=27+12+1=40 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -1363,7 +1473,17 @@
                     "value": " iken."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=2 için 6·2²-4·2-7=24-8-7=9 bulunur."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1562,7 +1682,17 @@
                     "value": "4x+3b+2"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İfadede üç terim vardır: 4x, 3b ve 2. Bu terimlerin katsayıları sırasıyla 4, 3 ve 2'dir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -1577,7 +1707,17 @@
                     "value": "9a+13a^{2}+a^{3}"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Terimler 9a, 13a² ve a³'tür. Katsayılar sırasıyla 9, 13 ve 1'dir; a³ teriminin katsayısı yazılmasa da 1 kabul edilir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "paragraph",
@@ -1923,7 +2063,17 @@
                     "value": "9,2x^{3},y^{2},8x^{3},15,9y,11y^{2}"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Aynı değişken ve aynı üslere sahip terimler benzerdir. Bu listede 2x³ ile 8x³, y² ile 11y² ve sabit terimler 9 ile 15 benzer terimlerdir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -1938,7 +2088,17 @@
                     "value": "4x^{3}+8x^{2}+19+3x^{2}+24+6x^{3}"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Benzer terimler 4x³ ile 6x³, 8x² ile 3x² ve sabit terimler 19 ile 24'tür."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2236,7 +2396,17 @@
                     "value": "7x+9+9x+8"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x'li terimleri ve sabitleri ayrı toplarız: 7x+9x=16x ve 9+8=17. Sonuç 16x+17'dir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -2251,7 +2421,17 @@
                     "value": "5y+2+8y+4y+5"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y'li terimler 5y+8y+4y=17y, sabitler 2+5=7 olur. İfade 17y+7'ye sadeleşir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "paragraph",
@@ -2371,7 +2551,17 @@
                     "value": "3x^{2}+9x+x^{2}+5x"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x² terimlerini ve x terimlerini ayrı birleştiririz: 3x²+x²=4x² ve 9x+5x=14x. Sonuç 4x²+14x olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -2386,7 +2576,17 @@
                     "value": "11y^{2}+8y+y^{2}+7y"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 11y²+y²=12y² ve 8y+7y=15y olduğundan ifade 12y²+15y biçiminde sadeleşir."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2678,7 +2878,17 @@
                     "value": "'nin bölümü"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Fark çıkarma, bölüm bölme işlemidir. Bu nedenle ⓐ 47-41, ⓑ 5x/2 olarak yazılır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -2721,7 +2931,17 @@
                     "value": "'in çarpımı"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam toplama, çarpım çarpma işlemidir. Bu nedenle ⓐ 17+19, ⓑ 7x yazılır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "paragraph",
@@ -2848,7 +3068,17 @@
                     "value": "'dan on dört eksik"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “Fazla” toplama, “eksik” çıkarma anlatır. Bu nedenle ⓐ x+11, ⓑ 11a-14 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -2891,7 +3121,17 @@
                     "value": " eksik"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: j'den 19 fazla j+19, 2x'ten 21 eksik ise 2x-21 olarak yazılır."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -3057,7 +3297,17 @@
                     "value": "'nun toplamı"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ Önce p ile q toplanır, sonra toplam 4 ile çarpılır: 4(p+q). ⓑ Önce p'nin dört katı alınır, sonra q eklenir: 4p+q."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -3100,7 +3350,17 @@
                     "value": "'in farkının iki katı"
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ x'in iki katı ile 8'in farkı 2x-8'dir. ⓑ x ile 8'in farkının iki katı ise 2(x-8) olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "paragraph",
@@ -3189,7 +3449,17 @@
                     "value": " temsil etsin. Dikdörtgenin uzunluğu için bir ifade yazın."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Genişlik w ise uzunluk bundan 5 inç eksiktir. Bu yüzden uzunluk w-5 ile gösterilir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -3216,7 +3486,17 @@
                     "value": " temsil etsin. Dikdörtgenin genişliği için bir ifade yazın."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Uzunluk l ise genişlik bundan 2 metre fazladır. Genişlik l+2 olur."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -3296,7 +3576,17 @@
                     "value": " temsil etsin. 10 sentliklerin sayısı için bir ifade yazın."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 25 sentliklerin sayısı q ise bunun altı katı 6q'dur. 10 sentliklerin sayısı yedi eksik olduğundan 6q-7 ile gösterilir."
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "type": "example",
@@ -3315,7 +3605,17 @@
                     "value": " temsil etsin. 10 sentliklerin sayısı için bir ifade yazın."
                   }
                 ],
-                "solution": []
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 sentliklerin sayısı n ise dört katı 4n'dir. 10 sentliklerin sayısı sekiz fazla olduğundan 4n+8 olur."
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -3342,18 +3642,82 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Değişken yerine verilen değeri yazıp işlem sırasını uygularız. İfade sadeleştiğinde sonuç "
-              },
-              {
-                "type": "math",
-                "value": "22"
-              },
-              {
-                "type": "text",
-                "value": " olur."
+                "value": "Çözüm: x yerine 2 yazınca 7·2+8=14+8=22 olur."
               }
             ],
             "sortOrder": 69
+          },
+          {
+            "id": "exercise-71",
+            "number": "71",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "5x-4 \\text{iken} x=6"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x yerine 6 yazılır. 5·6-4=30-4=26 olduğundan ifadenin değeri 26'dır."
+              }
+            ],
+            "sortOrder": 71
+          },
+          {
+            "id": "exercise-73",
+            "number": "73",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "x^{2} \\text{iken} x=12"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x yerine 12 yazılır. Üs, 12'nin kendisiyle çarpılması demektir; bu yüzden x²=12²=144 bulunur."
+              }
+            ],
+            "sortOrder": 73
+          },
+          {
+            "id": "exercise-75",
+            "number": "75",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "x^{5} \\text{iken} x=2"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x yerine 2 yazınca x⁵=2⁵ olur. 2'yi beş kez çarparız ve sonuç 32 çıkar."
+              }
+            ],
+            "sortOrder": 75
+          },
+          {
+            "id": "exercise-77",
+            "number": "77",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "3^{x} \\text{iken} x=3"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=3 olduğunda 3ˣ ifadesi 3³ olur. 3·3·3=27 olduğundan ifadenin değeri 27'dir."
+              }
+            ],
+            "sortOrder": 77
           },
           {
             "id": "exercise-79",
@@ -3368,18 +3732,256 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Verilen değeri değişkenin yerine koyarız. Çarpma ve çıkarma işlemlerini sırayla yapınca değer "
-              },
-              {
-                "type": "math",
-                "value": "21"
-              },
-              {
-                "type": "text",
-                "value": " bulunur."
+                "value": "Çözüm: x=4 yazınca x²+3x-7=4²+3·4-7=16+12-7=21 bulunur."
               }
             ],
             "sortOrder": 79
+          },
+          {
+            "id": "exercise-81",
+            "number": "81",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "2x+4y-5 \\text{iken} x=7,y=8"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=7 ve y=8 yazılır. 2·7+4·8-5=14+32-5=41 olur."
+              }
+            ],
+            "sortOrder": 81
+          },
+          {
+            "id": "exercise-83",
+            "number": "83",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "{(x-y)}^{2} \\text{iken} x=10,y=7"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=10 ve y=7 için (x-y)²=(10-7)²=3²=9 bulunur."
+              }
+            ],
+            "sortOrder": 83
+          },
+          {
+            "id": "exercise-84",
+            "number": "84",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "{(x+y)}^{2} \\text{iken} x=6,y=9"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=6 ve y=9 için (x+y)²=(6+9)²=15²=225 olur."
+              }
+            ],
+            "sortOrder": 84
+          },
+          {
+            "id": "exercise-85",
+            "number": "85",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "a^{2}+b^{2} \\text{iken} a=3,b=8"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: a=3 ve b=8 yazınca a²+b²=3²+8²=9+64=73 bulunur."
+              }
+            ],
+            "sortOrder": 85
+          },
+          {
+            "id": "exercise-87",
+            "number": "87",
+            "sectionSlug": "cebirsel-ifadenin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "2l+2w \\text{iken} l=15,w=12"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: l=15 ve w=12 için 2l+2w=2·15+2·12=30+24=54 olur."
+              }
+            ],
+            "sortOrder": 87
+          },
+          {
+            "id": "exercise-89",
+            "number": "89",
+            "sectionSlug": "terim-katsayi-ve-benzer-terim",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen ifadedeki terimleri listeleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "15x^{2}+6x+2"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplama işaretleri ifadeyi terimlere ayırır. Terimler 15x², 6x ve 2'dir."
+              }
+            ],
+            "sortOrder": 89
+          },
+          {
+            "id": "exercise-91",
+            "number": "91",
+            "sectionSlug": "terim-katsayi-ve-benzer-terim",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen ifadedeki terimleri listeleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "10y^{3}+y+2"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İfadede üç terim vardır: 10y³, y ve 2."
+              }
+            ],
+            "sortOrder": 91
+          },
+          {
+            "id": "exercise-93",
+            "number": "93",
+            "sectionSlug": "terim-katsayi-ve-benzer-terim",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen terimin katsayısını belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "8a"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8a teriminde değişkeni çarpan sayı 8'dir. Katsayı 8'dir."
+              }
+            ],
+            "sortOrder": 93
+          },
+          {
+            "id": "exercise-95",
+            "number": "95",
+            "sectionSlug": "terim-katsayi-ve-benzer-terim",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen terimin katsayısını belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "5r^{2}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5r² teriminde r²'nin önündeki sayı 5'tir. Bu nedenle katsayı 5'tir."
+              }
+            ],
+            "sortOrder": 95
+          },
+          {
+            "id": "exercise-97",
+            "number": "97",
+            "sectionSlug": "terim-katsayi-ve-benzer-terim",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terim gruplarını belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "x^{3},8x,14,8y,5,8x^{3}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Aynı değişken ve aynı üslü terimler benzerdir. x³ ile 8x³ benzerdir; sabit terimler 14 ve 5 de benzerdir."
+              }
+            ],
+            "sortOrder": 97
+          },
+          {
+            "id": "exercise-99",
+            "number": "99",
+            "sectionSlug": "terim-katsayi-ve-benzer-terim",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terim gruplarını belirleyin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "9a,a^{2},16ab,16b^{2},4ab,9b^{2}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 16ab ile 4ab benzer terimlerdir. 16b² ile 9b² de benzer terimlerdir; diğerleri değişken ya da üs bakımından farklıdır."
+              }
+            ],
+            "sortOrder": 99
           },
           {
             "id": "exercise-101",
@@ -3402,18 +4004,478 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Benzer terimler aynı değişken kısmına sahiptir. Katsayıları toplar, değişken kısmını koruruz; sonuç "
-              },
-              {
-                "type": "math",
-                "value": "13x"
-              },
-              {
-                "type": "text",
-                "value": " olur."
+                "value": "Çözüm: Benzer terimler aynı değişken kısmına sahiptir. Katsayıları toplarız: 10x+3x=13x."
               }
             ],
             "sortOrder": 101
+          },
+          {
+            "id": "exercise-103",
+            "number": "103",
+            "sectionSlug": "cebirsel-ifadelerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "17a+9a"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 17a ve 9a benzer terimlerdir. Katsayılar toplanır: 17a+9a=26a."
+              }
+            ],
+            "sortOrder": 103
+          },
+          {
+            "id": "exercise-105",
+            "number": "105",
+            "sectionSlug": "cebirsel-ifadelerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "4c+2c+c"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Üç terim de c'lidir. Katsayıları toplarsak 4c+2c+c=7c olur."
+              }
+            ],
+            "sortOrder": 105
+          },
+          {
+            "id": "exercise-107",
+            "number": "107",
+            "sectionSlug": "cebirsel-ifadelerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "9x+3x+8"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 9x ve 3x benzer terimlerdir; 9x+3x=12x. Sabit 8 aynen kalır, sonuç 12x+8 olur."
+              }
+            ],
+            "sortOrder": 107
+          },
+          {
+            "id": "exercise-109",
+            "number": "109",
+            "sectionSlug": "cebirsel-ifadelerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "7u+2+3u+1"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: u'lu terimler 7u+3u=10u, sabitler 2+1=3 olur. İfade 10u+3'e sadeleşir."
+              }
+            ],
+            "sortOrder": 109
+          },
+          {
+            "id": "exercise-111",
+            "number": "111",
+            "sectionSlug": "cebirsel-ifadelerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "7p+6+5p+4"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: p'li terimler 7p+5p=12p, sabitler 6+4=10 olur. Sonuç 12p+10'dur."
+              }
+            ],
+            "sortOrder": 111
+          },
+          {
+            "id": "exercise-113",
+            "number": "113",
+            "sectionSlug": "cebirsel-ifadelerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "10a+7+5a-2+7a-4"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: a'lı terimleri birleştiririz: 10a+5a+7a=22a. Sabitler 7-2-4=1 olduğundan sonuç 22a+1 olur."
+              }
+            ],
+            "sortOrder": 113
+          },
+          {
+            "id": "exercise-115",
+            "number": "115",
+            "sectionSlug": "cebirsel-ifadelerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "3x^{2}+12x+11+14x^{2}+8x+5"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x² terimleri 3x²+14x²=17x², x terimleri 12x+8x=20x, sabitler 11+5=16'dır. Sonuç 17x²+20x+16 olur."
+              }
+            ],
+            "sortOrder": 115
+          },
+          {
+            "id": "exercise-117",
+            "number": "117",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "8 ile 12'nin toplamı"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “Toplam” toplama işlemini anlatır. 8 ile 12'nin toplamı 8+12 olarak yazılır."
+              }
+            ],
+            "sortOrder": 117
+          },
+          {
+            "id": "exercise-119",
+            "number": "119",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "14 ile 9'un farkı"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “Fark” çıkarma işlemini anlatır. 14 ile 9'un farkı 14-9'dur."
+              }
+            ],
+            "sortOrder": 119
+          },
+          {
+            "id": "exercise-121",
+            "number": "121",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "9 ile 7'nin çarpımı"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “Çarpım” çarpma işlemini anlatır. 9 ile 7'nin çarpımı 9·7 olarak yazılır."
+              }
+            ],
+            "sortOrder": 121
+          },
+          {
+            "id": "exercise-123",
+            "number": "123",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "36'nın 9'a bölümü"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “Bölüm” bölme işlemini anlatır. 36'nın 9'a bölümü 36÷9 olarak gösterilir."
+              }
+            ],
+            "sortOrder": 123
+          },
+          {
+            "id": "exercise-125",
+            "number": "125",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "x"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "4"
+              },
+              {
+                "type": "text",
+                "value": "'ün farkı"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x ile 4'ün farkı x-4 biçiminde yazılır."
+              }
+            ],
+            "sortOrder": 125
+          },
+          {
+            "id": "exercise-127",
+            "number": "127",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "6"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "y"
+              },
+              {
+                "type": "text",
+                "value": "'nin çarpımı"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6 ile y'nin çarpımı 6y olarak yazılır."
+              }
+            ],
+            "sortOrder": 127
+          },
+          {
+            "id": "exercise-129",
+            "number": "129",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "8x"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "3x"
+              },
+              {
+                "type": "text",
+                "value": "'in toplamı"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8x ile 3x'in toplamı 8x+3x olarak yazılır; sadeleştirilirse 11x olur."
+              }
+            ],
+            "sortOrder": 129
+          },
+          {
+            "id": "exercise-131",
+            "number": "131",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "y"
+              },
+              {
+                "type": "text",
+                "value": "'nin "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": "'e bölümü"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: y'nin 3'e bölümü y÷3 ya da y/3 biçiminde gösterilir."
+              }
+            ],
+            "sortOrder": 131
+          },
+          {
+            "id": "exercise-133",
+            "number": "133",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "y"
+              },
+              {
+                "type": "text",
+                "value": " ile 9'un farkının sekiz katı"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce y ile 9'un farkı alınır: y-9. Bunun sekiz katı 8(y-9) olur."
+              }
+            ],
+            "sortOrder": 133
           },
           {
             "id": "exercise-135",
@@ -3448,18 +4510,146 @@
             "answer": [
               {
                 "type": "text",
-                "value": "Çözüm: Sözel ifade ortak çarpanı ve parantez içindeki toplamı anlatır. Bu nedenle cebirsel ifade "
-              },
-              {
-                "type": "math",
-                "value": "5(x+y)"
-              },
-              {
-                "type": "text",
-                "value": " şeklinde yazılır."
+                "value": "Çözüm: Sözel ifade ortak çarpanı ve parantez içindeki toplamı anlatır. Bu nedenle cebirsel ifade 5(x+y) şeklinde yazılır."
               }
             ],
             "sortOrder": 135
+          },
+          {
+            "id": "exercise-137",
+            "number": "137",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda cebirsel ifade yazın. Adele bir etek ve bir bluz aldı. Etek, bluzdan "
+              },
+              {
+                "type": "math",
+                "value": "\\text{$15}"
+              },
+              {
+                "type": "text",
+                "value": " daha pahalıdır. Bluzun fiyatını "
+              },
+              {
+                "type": "math",
+                "value": "b"
+              },
+              {
+                "type": "text",
+                "value": " temsil etsin. Eteğin fiyatı için bir ifade yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bluzun fiyatı b ise etek bundan 15 dolar fazladır. Eteğin fiyatı b+15 ile gösterilir."
+              }
+            ],
+            "sortOrder": 137
+          },
+          {
+            "id": "exercise-139",
+            "number": "139",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda cebirsel ifade yazın. İkinci sınıftaki kız öğrenci sayısı, erkek öğrenci sayısından "
+              },
+              {
+                "type": "math",
+                "value": "4"
+              },
+              {
+                "type": "text",
+                "value": " eksiktir. Erkek öğrenci sayısını "
+              },
+              {
+                "type": "math",
+                "value": "b"
+              },
+              {
+                "type": "text",
+                "value": " temsil etsin. Kız öğrenci sayısı için bir ifade yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Erkek öğrenci sayısı b ise kız öğrenci sayısı bundan 4 eksiktir. İfade b-4 olur."
+              }
+            ],
+            "sortOrder": 139
+          },
+          {
+            "id": "exercise-141",
+            "number": "141",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda cebirsel ifade yazın. Greg'in cebinde 5 sentlik ve 1 sentlik madeni paralar var. 1 sentliklerin sayısı, 5 sentliklerin sayısının iki katından yedi eksiktir. 5 sentliklerin sayısını "
+              },
+              {
+                "type": "math",
+                "value": "n"
+              },
+              {
+                "type": "text",
+                "value": " temsil etsin. 1 sentliklerin sayısı için bir ifade yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5 sentliklerin sayısı n ise bunun iki katı 2n'dir. 1 sentliklerin sayısı bundan yedi eksik olduğundan 2n-7 ile gösterilir."
+              }
+            ],
+            "sortOrder": 141
+          },
+          {
+            "id": "exercise-143",
+            "number": "143",
+            "sectionSlug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda cebirsel ifadeler kullanarak problemi çözün. Araç sigortası: Justin'in araç sigortasında olay başına "
+              },
+              {
+                "type": "math",
+                "value": "\\text{$750}"
+              },
+              {
+                "type": "text",
+                "value": " muafiyet vardır. Bu, Justin'in "
+              },
+              {
+                "type": "math",
+                "value": "\\text{$750}"
+              },
+              {
+                "type": "text",
+                "value": " ödeyeceği ve sigorta şirketinin bunun üzerindeki tüm masrafları karşılayacağı anlamına gelir. Justin "
+              },
+              {
+                "type": "math",
+                "value": "\\text{$2,100}"
+              },
+              {
+                "type": "text",
+                "value": " tutarında hasar bildirirse Justin ne kadar öder, sigorta şirketi ne kadar öder?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Justin muafiyet tutarı olan 750 doları öder. Toplam hasar 2.100 dolar olduğuna göre sigorta şirketi 2.100-750=1.350 dolar öder."
+              }
+            ],
+            "sortOrder": 143
           }
         ]
       }

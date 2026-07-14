@@ -61,6 +61,8 @@ export function localizeExercisePromptForTurkish(
     adaptSalePurchaseExercise(normalizedPrompt) ??
     adaptEnvelopeCounterExercise(normalizedPrompt) ??
     adaptAlgebraicEquationSentenceExercise(normalizedPrompt) ??
+    adaptAlgebraicExpressionWritingExercise(normalizedPrompt) ??
+    adaptCarInsuranceExpressionProblem(normalizedPrompt) ??
     adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
     adaptPlainInstruction(
       normalizedPrompt,
@@ -71,6 +73,21 @@ export function localizeExercisePromptForTurkish(
       normalizedPrompt,
       "In the following exercises, simplify the given expression by combining like terms.",
       "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, list the terms in the given expression.",
+      "Aşağıdaki alıştırmalarda verilen ifadedeki terimleri listeleyin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, identify the coefficient of the given term.",
+      "Aşağıdaki alıştırmalarda verilen terimin katsayısını belirleyin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, identify all sets of like terms.",
+      "Aşağıdaki alıştırmalarda benzer terim gruplarını belirleyin.",
     ) ??
     adaptPlainInstruction(
       normalizedPrompt,
@@ -109,6 +126,125 @@ export function localizeExercisePromptForTurkish(
     ) ??
     normalizedPrompt
   );
+}
+
+function adaptAlgebraicExpressionWritingExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const [instruction, space, ...problem] = prompt;
+
+  if (
+    instruction?.type !== "text" ||
+    instruction.value !==
+      "In the following exercises, write an algebraic expression." ||
+    space?.type !== "text" ||
+    space.value.trim() !== ""
+  ) {
+    return null;
+  }
+
+  const [first, amount, second, variable, third] = problem;
+
+  if (
+    first?.type === "text" &&
+    first.value === "Adele bought a skirt and a blouse. The skirt cost " &&
+    amount?.type === "math" &&
+    second?.type === "text" &&
+    second.value === " more than the blouse. Let " &&
+    variable?.type === "math" &&
+    third?.type === "text" &&
+    third.value ===
+      " represent the cost of the blouse. Write an expression for the cost of the skirt."
+  ) {
+    return [
+      { type: "text", value: "Aşağıdaki alıştırmalarda cebirsel ifade yazın. Adele bir etek ve bir bluz aldı. Etek, bluzdan " },
+      amount,
+      { type: "text", value: " daha pahalıdır. Bluzun fiyatını " },
+      variable,
+      { type: "text", value: " temsil etsin. Eteğin fiyatı için bir ifade yazın." },
+    ] satisfies InlineContent[];
+  }
+
+  if (
+    first?.type === "text" &&
+    first.value === "The number of girls in a second-grade class is " &&
+    amount?.type === "math" &&
+    second?.type === "text" &&
+    second.value === " less than the number of boys. Let " &&
+    variable?.type === "math" &&
+    third?.type === "text" &&
+    third.value ===
+      " represent the number of boys. Write an expression for the number of girls."
+  ) {
+    return [
+      { type: "text", value: "Aşağıdaki alıştırmalarda cebirsel ifade yazın. İkinci sınıftaki kız öğrenci sayısı, erkek öğrenci sayısından " },
+      amount,
+      { type: "text", value: " eksiktir. Erkek öğrenci sayısını " },
+      variable,
+      { type: "text", value: " temsil etsin. Kız öğrenci sayısı için bir ifade yazın." },
+    ] satisfies InlineContent[];
+  }
+
+  if (
+    first?.type === "text" &&
+    first.value ===
+      "Greg has nickels and pennies in his pocket. The number of pennies is seven less than twice the number of nickels. Let " &&
+    amount?.type === "math" &&
+    second?.type === "text" &&
+    second.value ===
+      " represent the number of nickels. Write an expression for the number of pennies."
+  ) {
+    return [
+      { type: "text", value: "Aşağıdaki alıştırmalarda cebirsel ifade yazın. Greg'in cebinde 5 sentlik ve 1 sentlik madeni paralar var. 1 sentliklerin sayısı, 5 sentliklerin sayısının iki katından yedi eksiktir. 5 sentliklerin sayısını " },
+      amount,
+      { type: "text", value: " temsil etsin. 1 sentliklerin sayısı için bir ifade yazın." },
+    ] satisfies InlineContent[];
+  }
+
+  return null;
+}
+
+function adaptCarInsuranceExpressionProblem(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const [instruction, space, prefix, deductible, middle, paid, afterPaid, beyond, claimPrefix, claim, suffix] =
+    prompt;
+
+  if (
+    instruction?.type !== "text" ||
+    instruction.value !==
+      "In the following exercises, use algebraic expressions to solve the problem." ||
+    space?.type !== "text" ||
+    space.value.trim() !== "" ||
+    prefix?.type !== "text" ||
+    prefix.value !== "Car insurance Justin’s car insurance has a " ||
+    deductible?.type !== "math" ||
+    middle?.type !== "text" ||
+    middle.value !== " deductible per incident. This means that he pays " ||
+    paid?.type !== "math" ||
+    afterPaid?.type !== "text" ||
+    afterPaid.value !==
+      " and his insurance company will pay all costs beyond " ||
+    beyond?.type !== "math" ||
+    claimPrefix?.type !== "text" ||
+    claimPrefix.value !== " If Justin files a claim for " ||
+    claim?.type !== "math" ||
+    suffix?.type !== "text" ||
+    suffix.value !==
+      " how much will he pay, and how much will his insurance company pay?"
+  ) {
+    return null;
+  }
+
+  return [
+    { type: "text", value: "Aşağıdaki alıştırmalarda cebirsel ifadeler kullanarak problemi çözün. Araç sigortası: Justin'in araç sigortasında olay başına " },
+    stripTrailingPeriod(deductible),
+    { type: "text", value: " muafiyet vardır. Bu, Justin'in " },
+    stripTrailingPeriod(paid),
+    { type: "text", value: " ödeyeceği ve sigorta şirketinin bunun üzerindeki tüm masrafları karşılayacağı anlamına gelir. Justin " },
+    stripTrailingComma(claim),
+    { type: "text", value: " tutarında hasar bildirirse Justin ne kadar öder, sigorta şirketi ne kadar öder?" },
+  ] satisfies InlineContent[];
 }
 
 function adaptEnvelopeCounterExercise(
@@ -461,6 +597,11 @@ function adaptAlgebraicWordPhraseExercise(
   if (!instruction) return null;
 
   const phrase = instruction.slice(1);
+  const simplePhrase = adaptSimpleAlgebraicWordPhrase(phrase);
+  if (simplePhrase) {
+    return [instruction[0], { type: "text", value: " " }, ...simplePhrase];
+  }
+
   const [space, prefix, first, joiner, second, ...rest] = phrase;
 
   if (
@@ -487,6 +628,102 @@ function adaptAlgebraicWordPhraseExercise(
   return instruction;
 }
 
+function adaptSimpleAlgebraicWordPhrase(
+  phrase: InlineContent[],
+): InlineContent[] | null {
+  const textOnly = inlineText(phrase);
+  const replacements: Record<string, string> = {
+    "The sum of 8 and 12": "8 ile 12'nin toplamı",
+    "The difference of 14 and 9": "14 ile 9'un farkı",
+    "The product of 9 and 7": "9 ile 7'nin çarpımı",
+    "The quotient of 36 and 9": "36'nın 9'a bölümü",
+  };
+  const replacement = replacements[textOnly];
+  if (replacement) return [{ type: "text", value: replacement }];
+
+  const [space, prefix, first, joiner, second] = phrase;
+  if (space?.type !== "text" || space.value.trim() !== "") return null;
+
+  if (
+    prefix?.type === "text" &&
+    prefix.value === "The difference of " &&
+    first?.type === "math" &&
+    joiner?.type === "text" &&
+    joiner.value === " and " &&
+    second?.type === "math"
+  ) {
+    return [
+      first,
+      { type: "text", value: " ile " },
+      second,
+      { type: "text", value: "'ün farkı" },
+    ] satisfies InlineContent[];
+  }
+
+  if (
+    prefix?.type === "text" &&
+    prefix.value === "The product of " &&
+    first?.type === "math" &&
+    joiner?.type === "text" &&
+    joiner.value === " and " &&
+    second?.type === "math"
+  ) {
+    return [
+      first,
+      { type: "text", value: " ile " },
+      second,
+      { type: "text", value: "'nin çarpımı" },
+    ] satisfies InlineContent[];
+  }
+
+  if (
+    prefix?.type === "text" &&
+    prefix.value === "The sum of " &&
+    first?.type === "math" &&
+    joiner?.type === "text" &&
+    joiner.value === " and " &&
+    second?.type === "math"
+  ) {
+    return [
+      first,
+      { type: "text", value: " ile " },
+      second,
+      { type: "text", value: "'in toplamı" },
+    ] satisfies InlineContent[];
+  }
+
+  if (
+    prefix?.type === "text" &&
+    prefix.value === "The quotient of " &&
+    first?.type === "math" &&
+    joiner?.type === "text" &&
+    joiner.value === " and " &&
+    second?.type === "math"
+  ) {
+    return [
+      first,
+      { type: "text", value: "'nin " },
+      second,
+      { type: "text", value: "'e bölümü" },
+    ] satisfies InlineContent[];
+  }
+
+  if (
+    prefix?.type === "text" &&
+    prefix.value === "Eight times the difference of " &&
+    first?.type === "math" &&
+    joiner?.type === "text" &&
+    joiner.value === " and nine"
+  ) {
+    return [
+      first,
+      { type: "text", value: " ile 9'un farkının sekiz katı" },
+    ] satisfies InlineContent[];
+  }
+
+  return null;
+}
+
 function adaptInlineContentToTurkish(items: InlineContent[]): InlineContent[] {
   return items.map(adaptMathTextToTurkish);
 }
@@ -497,7 +734,13 @@ function inlineText(items: InlineContent[]) {
 
 function stripTrailingPeriod(item: InlineContent): InlineContent {
   return item.type === "math"
-    ? { ...item, value: item.value.replace(/\.$/, "") }
+    ? { ...item, value: item.value.replace(/\.$/, "").replace(/\.}$/, "}") }
+    : item;
+}
+
+function stripTrailingComma(item: InlineContent): InlineContent {
+  return item.type === "math"
+    ? { ...item, value: item.value.replace(/,$/, "").replace(/,}$/, "}") }
     : item;
 }
 

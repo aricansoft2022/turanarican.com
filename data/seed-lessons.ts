@@ -49,33 +49,257 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "Translate Words to Algebraic Expressions":
         "Sözel Durumları Cebirsel İfade ile Gösterme",
     },
+    tryItSolutions: {
+      "Sıra Sizde 2.25": p(
+        "Çözüm: y yerine verilen değeri yazarız. y=6 için 6+4=10, y=15 için 15+4=19 olur.",
+      ),
+      "Sıra Sizde 2.26": p(
+        "Çözüm: a yerine verilen sayıyı koyarız. a=9 için 9-5=4, a=17 için 17-5=12 bulunur.",
+      ),
+      "Sıra Sizde 2.27": p(
+        "Çözüm: x=2 iken 8·2-3=13, x=1 iken 8·1-3=5 olur.",
+      ),
+      "Sıra Sizde 2.28": p(
+        "Çözüm: y=3 için 4·3-4=8, y=5 için 4·5-4=16 bulunur.",
+      ),
+      "Sıra Sizde 2.29": p(
+        "Çözüm: x yerine 8 yazınca x²=8²=64 olur.",
+      ),
+      "Sıra Sizde 2.30": p(
+        "Çözüm: x yerine 6 yazınca x³=6³=216 bulunur.",
+      ),
+      "Sıra Sizde 2.31": p(
+        "Çözüm: x=6 olduğunda 2 üzeri x, 2⁶ demektir. 2⁶=64 olduğu için ifadenin değeri 64'tür.",
+      ),
+      "Sıra Sizde 2.32": p(
+        "Çözüm: x yerine 4 yazılır. 3⁴=81 olduğundan ifadenin değeri 81'dir.",
+      ),
+      "Sıra Sizde 2.33": p(
+        "Çözüm: x=11 ve y=3 yazınca 2·11+5·3-4=22+15-4=33 olur.",
+      ),
+      "Sıra Sizde 2.34": p(
+        "Çözüm: x=7 ve y=8 için 5·7-2·8-9=35-16-9=10 bulunur.",
+      ),
+      "Sıra Sizde 2.35": p(
+        "Çözüm: x=3 yazınca 3·3²+4·3+1=27+12+1=40 olur.",
+      ),
+      "Sıra Sizde 2.36": p(
+        "Çözüm: x=2 için 6·2²-4·2-7=24-8-7=9 bulunur.",
+      ),
+      "Sıra Sizde 2.37": p(
+        "Çözüm: İfadede üç terim vardır: 4x, 3b ve 2. Bu terimlerin katsayıları sırasıyla 4, 3 ve 2'dir.",
+      ),
+      "Sıra Sizde 2.38": p(
+        "Çözüm: Terimler 9a, 13a² ve a³'tür. Katsayılar sırasıyla 9, 13 ve 1'dir; a³ teriminin katsayısı yazılmasa da 1 kabul edilir.",
+      ),
+      "Sıra Sizde 2.39": p(
+        "Çözüm: Aynı değişken ve aynı üslere sahip terimler benzerdir. Bu listede 2x³ ile 8x³, y² ile 11y² ve sabit terimler 9 ile 15 benzer terimlerdir.",
+      ),
+      "Sıra Sizde 2.40": p(
+        "Çözüm: Benzer terimler 4x³ ile 6x³, 8x² ile 3x² ve sabit terimler 19 ile 24'tür.",
+      ),
+      "Sıra Sizde 2.41": p(
+        "Çözüm: x'li terimleri ve sabitleri ayrı toplarız: 7x+9x=16x ve 9+8=17. Sonuç 16x+17'dir.",
+      ),
+      "Sıra Sizde 2.42": p(
+        "Çözüm: y'li terimler 5y+8y+4y=17y, sabitler 2+5=7 olur. İfade 17y+7'ye sadeleşir.",
+      ),
+      "Sıra Sizde 2.43": p(
+        "Çözüm: x² terimlerini ve x terimlerini ayrı birleştiririz: 3x²+x²=4x² ve 9x+5x=14x. Sonuç 4x²+14x olur.",
+      ),
+      "Sıra Sizde 2.44": p(
+        "Çözüm: 11y²+y²=12y² ve 8y+7y=15y olduğundan ifade 12y²+15y biçiminde sadeleşir.",
+      ),
+      "Sıra Sizde 2.45": p(
+        "Çözüm: Fark çıkarma, bölüm bölme işlemidir. Bu nedenle ⓐ 47-41, ⓑ 5x/2 olarak yazılır.",
+      ),
+      "Sıra Sizde 2.46": p(
+        "Çözüm: Toplam toplama, çarpım çarpma işlemidir. Bu nedenle ⓐ 17+19, ⓑ 7x yazılır.",
+      ),
+      "Sıra Sizde 2.47": p(
+        "Çözüm: “Fazla” toplama, “eksik” çıkarma anlatır. Bu nedenle ⓐ x+11, ⓑ 11a-14 olur.",
+      ),
+      "Sıra Sizde 2.48": p(
+        "Çözüm: j'den 19 fazla j+19, 2x'ten 21 eksik ise 2x-21 olarak yazılır.",
+      ),
+      "Sıra Sizde 2.49": p(
+        "Çözüm: ⓐ Önce p ile q toplanır, sonra toplam 4 ile çarpılır: 4(p+q). ⓑ Önce p'nin dört katı alınır, sonra q eklenir: 4p+q.",
+      ),
+      "Sıra Sizde 2.50": p(
+        "Çözüm: ⓐ x'in iki katı ile 8'in farkı 2x-8'dir. ⓑ x ile 8'in farkının iki katı ise 2(x-8) olur.",
+      ),
+      "Sıra Sizde 2.51": p(
+        "Çözüm: Genişlik w ise uzunluk bundan 5 inç eksiktir. Bu yüzden uzunluk w-5 ile gösterilir.",
+      ),
+      "Sıra Sizde 2.52": p(
+        "Çözüm: Uzunluk l ise genişlik bundan 2 metre fazladır. Genişlik l+2 olur.",
+      ),
+      "Sıra Sizde 2.53": p(
+        "Çözüm: 25 sentliklerin sayısı q ise bunun altı katı 6q'dur. 10 sentliklerin sayısı yedi eksik olduğundan 6q-7 ile gösterilir.",
+      ),
+      "Sıra Sizde 2.54": p(
+        "Çözüm: 5 sentliklerin sayısı n ise dört katı 4n'dir. 10 sentliklerin sayısı sekiz fazla olduğundan 4n+8 olur.",
+      ),
+    },
     exerciseAnswers: {
-      "69": [
-        { type: "text", value: "Çözüm: Değişken yerine verilen değeri yazıp işlem sırasını uygularız. İfade sadeleştiğinde sonuç " },
-        { type: "math", value: "22" },
-        { type: "text", value: " olur." },
-      ],
-      "79": [
-        { type: "text", value: "Çözüm: Verilen değeri değişkenin yerine koyarız. Çarpma ve çıkarma işlemlerini sırayla yapınca değer " },
-        { type: "math", value: "21" },
-        { type: "text", value: " bulunur." },
-      ],
-      "101": [
-        { type: "text", value: "Çözüm: Benzer terimler aynı değişken kısmına sahiptir. Katsayıları toplar, değişken kısmını koruruz; sonuç " },
-        { type: "math", value: "13x" },
-        { type: "text", value: " olur." },
-      ],
-      "135": [
-        { type: "text", value: "Çözüm: Sözel ifade ortak çarpanı ve parantez içindeki toplamı anlatır. Bu nedenle cebirsel ifade " },
-        { type: "math", value: "5(x+y)" },
-        { type: "text", value: " şeklinde yazılır." },
-      ],
+      "69": answer(
+        "Çözüm: x yerine 2 yazınca 7·2+8=14+8=22 olur.",
+      ),
+      "71": answer(
+        "Çözüm: x yerine 6 yazılır. 5·6-4=30-4=26 olduğundan ifadenin değeri 26'dır.",
+      ),
+      "73": answer(
+        "Çözüm: x yerine 12 yazılır. Üs, 12'nin kendisiyle çarpılması demektir; bu yüzden x²=12²=144 bulunur.",
+      ),
+      "75": answer(
+        "Çözüm: x yerine 2 yazınca x⁵=2⁵ olur. 2'yi beş kez çarparız ve sonuç 32 çıkar.",
+      ),
+      "77": answer(
+        "Çözüm: x=3 olduğunda 3ˣ ifadesi 3³ olur. 3·3·3=27 olduğundan ifadenin değeri 27'dir.",
+      ),
+      "79": answer(
+        "Çözüm: x=4 yazınca x²+3x-7=4²+3·4-7=16+12-7=21 bulunur.",
+      ),
+      "81": answer(
+        "Çözüm: x=7 ve y=8 yazılır. 2·7+4·8-5=14+32-5=41 olur.",
+      ),
+      "83": answer(
+        "Çözüm: x=10 ve y=7 için (x-y)²=(10-7)²=3²=9 bulunur.",
+      ),
+      "84": answer(
+        "Çözüm: x=6 ve y=9 için (x+y)²=(6+9)²=15²=225 olur.",
+      ),
+      "85": answer(
+        "Çözüm: a=3 ve b=8 yazınca a²+b²=3²+8²=9+64=73 bulunur.",
+      ),
+      "87": answer(
+        "Çözüm: l=15 ve w=12 için 2l+2w=2·15+2·12=30+24=54 olur.",
+      ),
+      "89": answer(
+        "Çözüm: Toplama işaretleri ifadeyi terimlere ayırır. Terimler 15x², 6x ve 2'dir.",
+      ),
+      "91": answer(
+        "Çözüm: İfadede üç terim vardır: 10y³, y ve 2.",
+      ),
+      "93": answer(
+        "Çözüm: 8a teriminde değişkeni çarpan sayı 8'dir. Katsayı 8'dir.",
+      ),
+      "95": answer(
+        "Çözüm: 5r² teriminde r²'nin önündeki sayı 5'tir. Bu nedenle katsayı 5'tir.",
+      ),
+      "97": answer(
+        "Çözüm: Aynı değişken ve aynı üslü terimler benzerdir. x³ ile 8x³ benzerdir; sabit terimler 14 ve 5 de benzerdir.",
+      ),
+      "99": answer(
+        "Çözüm: 16ab ile 4ab benzer terimlerdir. 16b² ile 9b² de benzer terimlerdir; diğerleri değişken ya da üs bakımından farklıdır.",
+      ),
+      "101": answer(
+        "Çözüm: Benzer terimler aynı değişken kısmına sahiptir. Katsayıları toplarız: 10x+3x=13x.",
+      ),
+      "103": answer(
+        "Çözüm: 17a ve 9a benzer terimlerdir. Katsayılar toplanır: 17a+9a=26a.",
+      ),
+      "105": answer(
+        "Çözüm: Üç terim de c'lidir. Katsayıları toplarsak 4c+2c+c=7c olur.",
+      ),
+      "107": answer(
+        "Çözüm: 9x ve 3x benzer terimlerdir; 9x+3x=12x. Sabit 8 aynen kalır, sonuç 12x+8 olur.",
+      ),
+      "109": answer(
+        "Çözüm: u'lu terimler 7u+3u=10u, sabitler 2+1=3 olur. İfade 10u+3'e sadeleşir.",
+      ),
+      "111": answer(
+        "Çözüm: p'li terimler 7p+5p=12p, sabitler 6+4=10 olur. Sonuç 12p+10'dur.",
+      ),
+      "113": answer(
+        "Çözüm: a'lı terimleri birleştiririz: 10a+5a+7a=22a. Sabitler 7-2-4=1 olduğundan sonuç 22a+1 olur.",
+      ),
+      "115": answer(
+        "Çözüm: x² terimleri 3x²+14x²=17x², x terimleri 12x+8x=20x, sabitler 11+5=16'dır. Sonuç 17x²+20x+16 olur.",
+      ),
+      "117": answer(
+        "Çözüm: “Toplam” toplama işlemini anlatır. 8 ile 12'nin toplamı 8+12 olarak yazılır.",
+      ),
+      "119": answer(
+        "Çözüm: “Fark” çıkarma işlemini anlatır. 14 ile 9'un farkı 14-9'dur.",
+      ),
+      "121": answer(
+        "Çözüm: “Çarpım” çarpma işlemini anlatır. 9 ile 7'nin çarpımı 9·7 olarak yazılır.",
+      ),
+      "123": answer(
+        "Çözüm: “Bölüm” bölme işlemini anlatır. 36'nın 9'a bölümü 36÷9 olarak gösterilir.",
+      ),
+      "125": answer(
+        "Çözüm: x ile 4'ün farkı x-4 biçiminde yazılır.",
+      ),
+      "127": answer(
+        "Çözüm: 6 ile y'nin çarpımı 6y olarak yazılır.",
+      ),
+      "129": answer(
+        "Çözüm: 8x ile 3x'in toplamı 8x+3x olarak yazılır; sadeleştirilirse 11x olur.",
+      ),
+      "131": answer(
+        "Çözüm: y'nin 3'e bölümü y÷3 ya da y/3 biçiminde gösterilir.",
+      ),
+      "133": answer(
+        "Çözüm: Önce y ile 9'un farkı alınır: y-9. Bunun sekiz katı 8(y-9) olur.",
+      ),
+      "135": answer(
+        "Çözüm: Sözel ifade ortak çarpanı ve parantez içindeki toplamı anlatır. Bu nedenle cebirsel ifade 5(x+y) şeklinde yazılır.",
+      ),
+      "137": answer(
+        "Çözüm: Bluzun fiyatı b ise etek bundan 15 dolar fazladır. Eteğin fiyatı b+15 ile gösterilir.",
+      ),
+      "139": answer(
+        "Çözüm: Erkek öğrenci sayısı b ise kız öğrenci sayısı bundan 4 eksiktir. İfade b-4 olur.",
+      ),
+      "141": answer(
+        "Çözüm: 5 sentliklerin sayısı n ise bunun iki katı 2n'dir. 1 sentliklerin sayısı bundan yedi eksik olduğundan 2n-7 ile gösterilir.",
+      ),
+      "143": answer(
+        "Çözüm: Justin muafiyet tutarı olan 750 doları öder. Toplam hasar 2.100 dolar olduğuna göre sigorta şirketi 2.100-750=1.350 dolar öder.",
+      ),
     },
     exerciseSectionSlugs: {
       "69": "cebirsel-ifadenin-degerini-hesaplama",
+      "71": "cebirsel-ifadenin-degerini-hesaplama",
+      "73": "cebirsel-ifadenin-degerini-hesaplama",
+      "75": "cebirsel-ifadenin-degerini-hesaplama",
+      "77": "cebirsel-ifadenin-degerini-hesaplama",
       "79": "cebirsel-ifadenin-degerini-hesaplama",
+      "81": "cebirsel-ifadenin-degerini-hesaplama",
+      "83": "cebirsel-ifadenin-degerini-hesaplama",
+      "84": "cebirsel-ifadenin-degerini-hesaplama",
+      "85": "cebirsel-ifadenin-degerini-hesaplama",
+      "87": "cebirsel-ifadenin-degerini-hesaplama",
+      "89": "terim-katsayi-ve-benzer-terim",
+      "91": "terim-katsayi-ve-benzer-terim",
+      "93": "terim-katsayi-ve-benzer-terim",
+      "95": "terim-katsayi-ve-benzer-terim",
+      "97": "terim-katsayi-ve-benzer-terim",
+      "99": "terim-katsayi-ve-benzer-terim",
       "101": "cebirsel-ifadelerde-toplama-ve-cikarma",
+      "103": "cebirsel-ifadelerde-toplama-ve-cikarma",
+      "105": "cebirsel-ifadelerde-toplama-ve-cikarma",
+      "107": "cebirsel-ifadelerde-toplama-ve-cikarma",
+      "109": "cebirsel-ifadelerde-toplama-ve-cikarma",
+      "111": "cebirsel-ifadelerde-toplama-ve-cikarma",
+      "113": "cebirsel-ifadelerde-toplama-ve-cikarma",
+      "115": "cebirsel-ifadelerde-toplama-ve-cikarma",
+      "117": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "119": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "121": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "123": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "125": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "127": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "129": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "131": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "133": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
       "135": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "137": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "139": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "141": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
+      "143": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
     },
   },
   {
