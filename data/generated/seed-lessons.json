@@ -186,7 +186,7 @@
         "examples": 15,
         "tryIts": 30,
         "exercises": 4,
-        "mathTokens": 222,
+        "mathTokens": 242,
         "assets": 17
       },
       "lesson": {
@@ -1952,7 +1952,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "We can simplify an expression by combining the like terms. What do you think "
+                    "value": "Bir ifadeyi benzer terimleri birleştirerek sadeleştirebiliriz. Sizce "
                   },
                   {
                     "type": "math",
@@ -1960,15 +1960,15 @@
                   },
                   {
                     "type": "text",
-                    "value": " would simplify to? If you thought "
+                    "value": " ifadesi neye sadeleşir? "
                   },
                   {
                     "type": "math",
-                    "value": "9x,"
+                    "value": "9x"
                   },
                   {
                     "type": "text",
-                    "value": " you would be right!"
+                    "value": " dediyseniz doğru düşündünüz."
                   }
                 ]
               },
@@ -1977,7 +1977,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "We can see why this works by writing both terms as addition problems."
+                    "value": "Bunun neden işe yaradığını görmek için iki terimi de tekrar eden toplama biçiminde yazabiliriz."
                   }
                 ]
               },
@@ -1985,17 +1985,36 @@
                 "type": "paragraph",
                 "text": [
                   {
-                    "type": "text",
-                    "value": "The image shows the expression 3 x plus 6 x. The 3 x represents x plus x plus x. The 6 x represents x plus x plus x plus x plus x plus x. The expression 3 x plus 6 x becomes x plus x plus x plus x plus x plus x plus x plus x plus x. This simplifies to a total of 9 x's or the term 9 x."
-                  }
-                ]
-              },
-              {
-                "type": "paragraph",
-                "text": [
+                    "type": "math",
+                    "value": "3x"
+                  },
                   {
                     "type": "text",
-                    "value": "Add the coefficients and keep the same variable. It doesn’t matter what "
+                    "value": " terimi "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x+x+x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " demektir. "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " terimi de "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x+x+x+x+x+x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " demektir. Hepsini birlikte yazınca toplamda dokuz tane "
                   },
                   {
                     "type": "math",
@@ -2003,55 +2022,15 @@
                   },
                   {
                     "type": "text",
-                    "value": " is. If you have "
+                    "value": " elde ederiz; yani ifade "
                   },
                   {
                     "type": "math",
-                    "value": "3"
+                    "value": "9x"
                   },
                   {
                     "type": "text",
-                    "value": " of something and add "
-                  },
-                  {
-                    "type": "math",
-                    "value": "6"
-                  },
-                  {
-                    "type": "text",
-                    "value": " more of the same thing, the result is "
-                  },
-                  {
-                    "type": "math",
-                    "value": "9"
-                  },
-                  {
-                    "type": "text",
-                    "value": " of them. For example, "
-                  },
-                  {
-                    "type": "math",
-                    "value": "3"
-                  },
-                  {
-                    "type": "text",
-                    "value": " oranges plus "
-                  },
-                  {
-                    "type": "math",
-                    "value": "6"
-                  },
-                  {
-                    "type": "text",
-                    "value": " oranges is "
-                  },
-                  {
-                    "type": "math",
-                    "value": "9"
-                  },
-                  {
-                    "type": "text",
-                    "value": " oranges. We will discuss the mathematical properties behind this later."
+                    "value": " olur."
                   }
                 ]
               },
@@ -2060,15 +2039,52 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "The expression "
+                    "value": "Benzer terimleri birleştirirken katsayıları toplar, değişken kısmını aynı bırakırız. "
                   },
+                  {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yerine hangi sayı gelirse gelsin fikir aynıdır: aynı şeyden "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " tane varken aynı şeyden "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " tane daha eklersek toplam "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " tane olur. Örneğin 3 portakal ile 6 portakal 9 portakal eder. Bunun arkasındaki matematiksel özellikleri daha sonra ayrıntılı inceleyeceğiz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
                   {
                     "type": "math",
                     "value": "3x+6x"
                   },
                   {
                     "type": "text",
-                    "value": " has only two terms. When an expression contains more terms, it may be helpful to rearrange the terms so that like terms are together. The Commutative Property of Addition says that we can change the order of addends without changing the sum. So we could rearrange the following expression before combining like terms."
+                    "value": " ifadesinin yalnızca iki terimi vardır. Daha çok terimli ifadelerde, benzer terimleri yan yana getirmek için terimlerin sırasını değiştirmek işe yarayabilir. Toplamanın değişme özelliği, toplamın değeri değişmeden toplananların sırasını değiştirebileceğimizi söyler. Bu yüzden benzer terimleri birleştirmeden önce ifadeyi yeniden sıralayabiliriz."
                   }
                 ]
               },
@@ -2077,7 +2093,39 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "The image shows the expression 3 x plus 4 y plus 2 x plus 6 y. The position of the middle terms, 4 y and 2 x, can be switched so that the expression becomes 3 x plus 2 x plus 4 y plus 6 y. Now the terms containing x are together and the terms containing y are together."
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3x+4y+2x+6y"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesinde ortadaki terimlerin yerini değiştirerek "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3x+2x+4y+6y"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yazabiliriz. Böylece "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " içeren terimler birlikte, "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y"
+                  },
+                  {
+                    "type": "text",
+                    "value": " içeren terimler de birlikte durur."
                   }
                 ]
               },
@@ -2086,7 +2134,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "Now it is easier to see the like terms to be combined."
+                    "value": "Artık hangi benzer terimlerin birleştirileceğini görmek daha kolaydır."
                   }
                 ]
               },
@@ -2096,30 +2144,80 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Simplify the expression: "
+                    "value": "İfadeyi sadeleştirin: "
                   },
                   {
                     "type": "math",
-                    "value": "3x+7+4x+5."
+                    "value": "3x+7+4x+5"
                   }
                 ],
                 "solution": [
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Identify the like terms."
-                      ],
-                      [
-                        "Rearrange the expression, so the like terms are together."
-                      ],
-                      [
-                        "Add the coefficients of the like terms."
-                      ],
-                      [
-                        "The original expression is simplified to..."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Benzer terimleri belirleyelim: "
+                      },
+                      {
+                        "type": "math",
+                        "value": "3x"
+                      },
+                      {
+                        "type": "text",
+                        "value": " ile "
+                      },
+                      {
+                        "type": "math",
+                        "value": "4x"
+                      },
+                      {
+                        "type": "text",
+                        "value": " benzer terimlerdir; "
+                      },
+                      {
+                        "type": "math",
+                        "value": "7"
+                      },
+                      {
+                        "type": "text",
+                        "value": " ile "
+                      },
+                      {
+                        "type": "math",
+                        "value": "5"
+                      },
+                      {
+                        "type": "text",
+                        "value": " de sabit terimlerdir."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "math",
+                        "value": "\\begin{aligned}3x+7+4x+5&=3x+4x+7+5\\\\&=7x+12\\end{aligned}",
+                        "display": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Sadeleşmiş ifade "
+                      },
+                      {
+                        "type": "math",
+                        "value": "7x+12"
+                      },
+                      {
+                        "type": "text",
+                        "value": " olur."
+                      }
                     ]
                   }
                 ]
@@ -2130,7 +2228,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Simplify: "
+                    "value": "Sadeleştirin: "
                   },
                   {
                     "type": "math",
@@ -2145,7 +2243,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Simplify: "
+                    "value": "Sadeleştirin: "
                   },
                   {
                     "type": "math",
@@ -2159,7 +2257,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "When any of the terms have negative coefficients, the procedure is the same, except that you have to subtract instead of adding to combine like terms."
+                    "value": "Terimlerden bazılarının katsayısı negatif olduğunda yöntem yine aynıdır. Yalnızca benzer terimleri birleştirirken toplama yerine çıkarma yapmamız gerekebilir."
                   }
                 ]
               },
@@ -2169,35 +2267,83 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Simplify the expression: "
+                    "value": "İfadeyi sadeleştirin: "
                   },
                   {
                     "type": "math",
-                    "value": "7x^{2}+8x–x^{2}–4x."
+                    "value": "7x^{2}+8x-x^{2}-4x"
                   }
                 ],
                 "solution": [
                   {
-                    "type": "table",
-                    "columns": [],
-                    "rows": [
-                      [
-                        "Identify the like terms."
-                      ],
-                      [
-                        "Rearrange the expression so like terms are together."
-                      ],
-                      [
-                        "Add the coefficients of the like terms."
-                      ]
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Benzer terimleri gruplayalım: "
+                      },
+                      {
+                        "type": "math",
+                        "value": "7x^{2}"
+                      },
+                      {
+                        "type": "text",
+                        "value": " ile "
+                      },
+                      {
+                        "type": "math",
+                        "value": "-x^{2}"
+                      },
+                      {
+                        "type": "text",
+                        "value": " benzer terimlerdir; "
+                      },
+                      {
+                        "type": "math",
+                        "value": "8x"
+                      },
+                      {
+                        "type": "text",
+                        "value": " ile "
+                      },
+                      {
+                        "type": "math",
+                        "value": "-4x"
+                      },
+                      {
+                        "type": "text",
+                        "value": " benzer terimlerdir."
+                      }
                     ]
                   },
                   {
                     "type": "paragraph",
                     "text": [
                       {
+                        "type": "math",
+                        "value": "\\begin{aligned}7x^{2}+8x-x^{2}-4x&=7x^{2}-x^{2}+8x-4x\\\\&=6x^{2}+4x\\end{aligned}",
+                        "display": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "math",
+                        "value": "6x^{2}"
+                      },
+                      {
                         "type": "text",
-                        "value": "These are not like terms and cannot be combined. So "
+                        "value": " ve "
+                      },
+                      {
+                        "type": "math",
+                        "value": "4x"
+                      },
+                      {
+                        "type": "text",
+                        "value": " benzer terimler değildir; bu yüzden daha fazla birleştirilemezler. En sade biçim "
                       },
                       {
                         "type": "math",
@@ -2205,7 +2351,7 @@
                       },
                       {
                         "type": "text",
-                        "value": " is in simplest form."
+                        "value": " olur."
                       }
                     ]
                   }
@@ -2217,7 +2363,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Simplify: "
+                    "value": "Sadeleştirin: "
                   },
                   {
                     "type": "math",
@@ -2232,7 +2378,7 @@
                 "prompt": [
                   {
                     "type": "text",
-                    "value": "Simplify: "
+                    "value": "Sadeleştirin: "
                   },
                   {
                     "type": "math",

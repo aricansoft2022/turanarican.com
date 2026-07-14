@@ -1160,6 +1160,382 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
           },
         ],
       },
+      {
+        sectionSlug: "benzer-terimleri-birlestirerek-ifadeleri-sadelestirme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bir ifadeyi benzer terimleri birleştirerek sadeleştirebiliriz. Sizce ",
+                  },
+                  { type: "math", value: "3x+6x" },
+                  { type: "text", value: " ifadesi neye sadeleşir? " },
+                  { type: "math", value: "9x" },
+                  { type: "text", value: " dediyseniz doğru düşündünüz." },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bunun neden işe yaradığını görmek için iki terimi de tekrar eden toplama biçiminde yazabiliriz.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  { type: "math", value: "3x" },
+                  {
+                    type: "text",
+                    value: " terimi ",
+                  },
+                  { type: "math", value: "x+x+x" },
+                  {
+                    type: "text",
+                    value: " demektir. ",
+                  },
+                  { type: "math", value: "6x" },
+                  {
+                    type: "text",
+                    value: " terimi de ",
+                  },
+                  { type: "math", value: "x+x+x+x+x+x" },
+                  {
+                    type: "text",
+                    value:
+                      " demektir. Hepsini birlikte yazınca toplamda dokuz tane ",
+                  },
+                  { type: "math", value: "x" },
+                  {
+                    type: "text",
+                    value: " elde ederiz; yani ifade ",
+                  },
+                  { type: "math", value: "9x" },
+                  { type: "text", value: " olur." },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Benzer terimleri birleştirirken katsayıları toplar, değişken kısmını aynı bırakırız. ",
+                  },
+                  { type: "math", value: "x" },
+                  {
+                    type: "text",
+                    value:
+                      " yerine hangi sayı gelirse gelsin fikir aynıdır: aynı şeyden ",
+                  },
+                  { type: "math", value: "3" },
+                  {
+                    type: "text",
+                    value: " tane varken aynı şeyden ",
+                  },
+                  { type: "math", value: "6" },
+                  {
+                    type: "text",
+                    value: " tane daha eklersek toplam ",
+                  },
+                  { type: "math", value: "9" },
+                  {
+                    type: "text",
+                    value:
+                      " tane olur. Örneğin 3 portakal ile 6 portakal 9 portakal eder. Bunun arkasındaki matematiksel özellikleri daha sonra ayrıntılı inceleyeceğiz.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  { type: "math", value: "3x+6x" },
+                  {
+                    type: "text",
+                    value:
+                      " ifadesinin yalnızca iki terimi vardır. Daha çok terimli ifadelerde, benzer terimleri yan yana getirmek için terimlerin sırasını değiştirmek işe yarayabilir. Toplamanın değişme özelliği, toplamın değeri değişmeden toplananların sırasını değiştirebileceğimizi söyler. Bu yüzden benzer terimleri birleştirmeden önce ifadeyi yeniden sıralayabiliriz.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value: "Örneğin ",
+                  },
+                  { type: "math", value: "3x+4y+2x+6y" },
+                  {
+                    type: "text",
+                    value:
+                      " ifadesinde ortadaki terimlerin yerini değiştirerek ",
+                  },
+                  { type: "math", value: "3x+2x+4y+6y" },
+                  {
+                    type: "text",
+                    value:
+                      " yazabiliriz. Böylece ",
+                  },
+                  { type: "math", value: "x" },
+                  {
+                    type: "text",
+                    value: " içeren terimler birlikte, ",
+                  },
+                  { type: "math", value: "y" },
+                  {
+                    type: "text",
+                    value: " içeren terimler de birlikte durur.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Artık hangi benzer terimlerin birleştirileceğini görmek daha kolaydır.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.21",
+                prompt: [
+                  { type: "text", value: "İfadeyi sadeleştirin: " },
+                  { type: "math", value: "3x+7+4x+5" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value: "Benzer terimleri belirleyelim: ",
+                      },
+                      { type: "math", value: "3x" },
+                      { type: "text", value: " ile " },
+                      { type: "math", value: "4x" },
+                      {
+                        type: "text",
+                        value: " benzer terimlerdir; ",
+                      },
+                      { type: "math", value: "7" },
+                      { type: "text", value: " ile " },
+                      { type: "math", value: "5" },
+                      {
+                        type: "text",
+                        value: " de sabit terimlerdir.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}3x+7+4x+5&=3x+4x+7+5\\\\&=7x+12\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value: "Sadeleşmiş ifade ",
+                      },
+                      { type: "math", value: "7x+12" },
+                      { type: "text", value: " olur." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.41",
+                prompt: [
+                  { type: "text", value: "Sadeleştirin: " },
+                  { type: "math", value: "7x+9+9x+8" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.42",
+                prompt: [
+                  { type: "text", value: "Sadeleştirin: " },
+                  { type: "math", value: "5y+2+8y+4y+5" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Terimlerden bazılarının katsayısı negatif olduğunda yöntem yine aynıdır. Yalnızca benzer terimleri birleştirirken toplama yerine çıkarma yapmamız gerekebilir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 12,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.22",
+                prompt: [
+                  { type: "text", value: "İfadeyi sadeleştirin: " },
+                  { type: "math", value: "7x^{2}+8x-x^{2}-4x" },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value: "Benzer terimleri gruplayalım: ",
+                      },
+                      { type: "math", value: "7x^{2}" },
+                      { type: "text", value: " ile " },
+                      { type: "math", value: "-x^{2}" },
+                      {
+                        type: "text",
+                        value: " benzer terimlerdir; ",
+                      },
+                      { type: "math", value: "8x" },
+                      { type: "text", value: " ile " },
+                      { type: "math", value: "-4x" },
+                      {
+                        type: "text",
+                        value: " benzer terimlerdir.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}7x^{2}+8x-x^{2}-4x&=7x^{2}-x^{2}+8x-4x\\\\&=6x^{2}+4x\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "6x^{2}" },
+                      { type: "text", value: " ve " },
+                      { type: "math", value: "4x" },
+                      {
+                        type: "text",
+                        value:
+                          " benzer terimler değildir; bu yüzden daha fazla birleştirilemezler. En sade biçim ",
+                      },
+                      { type: "math", value: "6x^{2}+4x" },
+                      { type: "text", value: " olur." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 13,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.43",
+                prompt: [
+                  { type: "text", value: "Sadeleştirin: " },
+                  { type: "math", value: "3x^{2}+9x+x^{2}+5x" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 14,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.44",
+                prompt: [
+                  { type: "text", value: "Sadeleştirin: " },
+                  { type: "math", value: "11y^{2}+8y+y^{2}+7y" },
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   {
