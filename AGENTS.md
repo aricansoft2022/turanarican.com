@@ -25,11 +25,11 @@ navigation, SEO, attribution, and ingestion workflows.
 
 - Current branch after the last handoff: `main`.
 - Recent local-only production commits include:
+  - `5dfb3c2 Add prime factorization seed lesson`
+  - `a05502b Add next seed candidate report`
+  - `c2bed37 Require solution coverage in seed pipeline`
   - `f4eeedb Add third Prealgebra seed lesson`
   - `102ee6b Add seed language coverage report`
-  - `8f6ef21 Adapt seed exercise prompts to Turkish`
-  - `efe23f7 Filter source exercise chrome from parsed lessons`
-  - `1712cfb Adapt math text across seed content`
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -307,12 +307,15 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. Done; three seed
-   lessons now build end-to-end for Prealgebra 2.3, 2.4, and 2.5.
+8. Seed one or two lessons end-to-end before mass ingestion. Done; five seed
+   lessons now build end-to-end for Prealgebra 2.3, 2.4, 2.5, 2.6, and 3.2.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
 11. Add informational language coverage report and initial Turkish localization
     cleanup hooks for exercise prompts/math text. Started.
+
+Current next seed candidate after the latest local work: Prealgebra 3.3
+`Add Integers`, displayed as product lesson 3.2 under `Tam Sayılar`.
 
 ## Quality Gates
 

@@ -14331,6 +14331,3147 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "3.2",
+      "displayNumber": "3.1",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)",
+      "contentHash": "5b7b0a534a75b3c1ebdd52f5a0372668fbff479c50bc15f030bd40e587b09a2d",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-32f3da5bea94f91c",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104729/2468a7fb17cb803d768185aeaa67d888e380d1b8?revision=1",
+          "type": "figure",
+          "altText": "This figure is a thermometer scaled in degrees Fahrenheit. The thermometer has a reading of 20 degrees.",
+          "caption": "Figure 3.2 Temperatures below zero are described by negative numbers.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/000-32f3da5bea94f91c.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/000-32f3da5bea94f91c.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "002-dfa410ed10a8ba8d",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104727/65179716076fdcbf16a4c20bbff67c2ca1845821?revision=1",
+          "type": "figure",
+          "altText": "This figure is a drawing of a side view of the coast of Israel, showing different elevations. The Mediterranean Sea is labeled 0 feet elevation and the Dead Sea is labeled negative 1302 feet elevation. The country of Jordan is also labeled in the figure.",
+          "caption": "Figure 3.3 The surface of the Mediterranean Sea has an elevation of 0 ft . 0 ft . The diagram shows that nearby mountains have higher (positive) elevations whereas the Dead Sea has a lower (negative) elevation.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/002-dfa410ed10a8ba8d.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/002-dfa410ed10a8ba8d.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "004-dbce518c7f7ba57a",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104728/5bb9691e71db94036d98287d186ec8ba5c3c8c6a?revision=1",
+          "type": "figure",
+          "altText": "This figure is a drawing of a submarine underwater. In the water is also a vertical number line, scaled in feet. The number line has 0 feet at the surface and negative 500 feet below the water where the submarine is located.",
+          "caption": "Figure 3.4 Depths below sea level are described by negative numbers. A submarine 500 ft 500 ft below sea level is at −500 ft . −500 ft .",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/004-dbce518c7f7ba57a.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/004-dbce518c7f7ba57a.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "006-0f74f467ba24290b",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104726/5fb47b02100cc40f3763eb5c599d4d3eb73a9cef?revision=1",
+          "type": "figure",
+          "altText": "This figure is a number line scaled from 0 to 6.",
+          "caption": "Figure 3.5",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/006-0f74f467ba24290b.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/006-0f74f467ba24290b.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "008-5ba450a2a794a5a9",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104725/11b6cc058b1dc04d80a0ec333794301e73db14f9?revision=1",
+          "type": "figure",
+          "altText": "This figure is a number line with 0 in the middle. Then, the scaling has positive numbers 1 to 4 to the right of 0 and negative numbers, negative 1 to negative 4 to the left of 0.",
+          "caption": "Figure 3.6 On a number line, positive numbers are to the right of zero. Negative numbers are to the left of zero. What about zero? Zero is neither positive nor negative.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/008-5ba450a2a794a5a9.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/008-5ba450a2a794a5a9.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "011-06f8f47f9769b254",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104730/6dbfd2af68c6bfd2f1e493870e007649b944ad51?revision=1",
+          "type": "image",
+          "altText": "This figure is a number line scaled from negative 4 to 4, with the point 3 labeled with a dot.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/011-06f8f47f9769b254.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/011-06f8f47f9769b254.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "013-a5657b7137f21c73",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104731/c9a5dbc1a8b9e95677cd723fdd331e7b692c01e8?revision=1",
+          "type": "image",
+          "altText": "This figure is a number line scaled from negative 4 to 4, with the point negative 3 labeled with a dot.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/013-a5657b7137f21c73.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/013-a5657b7137f21c73.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "015-6d6c46d3c64ee773",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104732/3db48e37bffc32baefb1c47749096c479ffe8b17?revision=1",
+          "type": "image",
+          "altText": "This figure is a number line scaled from negative 4 to 4, with the point negative 2 labeled with a dot.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/015-6d6c46d3c64ee773.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/015-6d6c46d3c64ee773.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "016-e5174d2ada75a60b",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104733/22b39026b2825b5379327ea49b6cd7af2b73b31f?revision=1",
+          "type": "figure",
+          "altText": "This figure is a number line. Above the number line there is an arrow pointing to the right labeled increasing. Below the number line there is an arrow pointing to the left labeled decreasing.",
+          "caption": "Figure 3.10",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/016-e5174d2ada75a60b.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/016-e5174d2ada75a60b.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "018-c946e1856f55a8cf",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104734/265d8f2271a0a20206a148dbc83915ff9cbef184?revision=1",
+          "type": "figure",
+          "altText": "This figure is a number line with points 3 and 5 labeled with dots. Below the number line is the statements 3 is less than 5 and 5 is greater than 3.",
+          "caption": "Figure 3.11 The number 3 3 is to the left of 5 5 on the number line. So 3 3 is less than 5 , 5 , and 5 5 is greater than 3 . 3 .",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/018-c946e1856f55a8cf.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/018-c946e1856f55a8cf.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "020-db0c8cab488d60ca",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104740/7f45d742c70ef908360721a9968a8eeb19821c1b?revision=1",
+          "type": "image",
+          "altText": "This figure is a number line with points 1 and 4 labeled with dots.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/020-db0c8cab488d60ca.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/020-db0c8cab488d60ca.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "021-b8abd61d184c1e49",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104741/d7305293c07c47be497bddfad052e6ad353fba16?revision=1",
+          "type": "image",
+          "altText": "This figure is a number line with points negative 2 and 1 labeled with dots.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/021-b8abd61d184c1e49.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/021-b8abd61d184c1e49.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "022-7e570a3d37558d98",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104743/97ba6885432601e1ff728b45a5c89dc918458dc9?revision=1",
+          "type": "image",
+          "altText": "This figure is a number line with points negative 3 and negative 1 labeled with dots.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/022-7e570a3d37558d98.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/022-7e570a3d37558d98.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "023-3c46007785830e0c",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104742/9df77e8143b79174eb51f43b523d382156bb6cee?revision=1",
+          "type": "figure",
+          "altText": "This figure is a number line with points negative 20, negative 4, negative 1, 2, 6, 9, and 14 labeled with dots.",
+          "caption": "Figure 3.12",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/023-3c46007785830e0c.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/023-3c46007785830e0c.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "025-fdb9934385214da9",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104745/cd1116212bf06c9981991451234d2b8ef19ce59e?revision=1",
+          "type": "figure",
+          "altText": "This figure shows two number lines. The first has points negative 2 and positive 2 labeled. Below the first line the statement is the numbers negative 2 and 2 are opposites. The second number line has the points negative 3 and 3 labeled. Below the number line is the statement negative 3 and 3 are opposites.",
+          "caption": "Figure 3.13",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/025-fdb9934385214da9.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/025-fdb9934385214da9.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "028-f4e51c9f8d3ec9d9",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104746/c8541301d07f01aa4ed53928ddc0869efb290748?revision=1",
+          "type": "image",
+          "altText": "This figure is a number line. The points negative 7 and 7 are labeled. Above the line it is shown the distance from 0 to negative 7 and the distance from 0 to 7 are both 7.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/028-f4e51c9f8d3ec9d9.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/028-f4e51c9f8d3ec9d9.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "030-aa26566ee3a79a7d",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104747/7fe78912518c3392ca13114c507894034d790654?revision=1",
+          "type": "image",
+          "altText": "This figure is a number line. The points negative 10 and 10 are labeled. Above the line it is shown the distance from 0 to negative 10 and the distance from 0 to 10 are both 10.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/030-aa26566ee3a79a7d.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/030-aa26566ee3a79a7d.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "035-9cdcd985dba39a21",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104759/083f9aeee9a9e91a385758d241c5996962e7ecbf?revision=1",
+          "type": "figure",
+          "altText": "This figure is a number line. The points negative 5 and 5 are labeled. Above the number line the distance from negative 5 to 0 is labeled as 5 units. Also above the number line the distance from 0 to 5 is labeled as 5 units.",
+          "caption": "Figure 3.16",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/035-9cdcd985dba39a21.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/035-9cdcd985dba39a21.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "7c542aed657b1ecf",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/7c542aed657b1ecf.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/7c542aed657b1ecf.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "75161068a39dca8b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/75161068a39dca8b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/75161068a39dca8b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "df732d59fd775a2d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/df732d59fd775a2d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/df732d59fd775a2d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "af1626e1e14067e4",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/af1626e1e14067e4.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/af1626e1e14067e4.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7b8ed87f5c02f134",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-4",
+          "type": "table",
+          "caption": "Just as the same word in English can have different meanings, the same symbol in algebra can have different meanings. The specific meaning becomes clear by looking at how it is used. You have seen the symbol “−”,“−”, in three different ways",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/7b8ed87f5c02f134.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/7b8ed87f5c02f134.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "46a969a3b380b64e",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/46a969a3b380b64e.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/46a969a3b380b64e.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5db12a3266fcb5bc",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/5db12a3266fcb5bc.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/5db12a3266fcb5bc.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ecd9601bbcd6c627",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/ecd9601bbcd6c627.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/ecd9601bbcd6c627.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d9b232c7847e9664",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/d9b232c7847e9664.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/d9b232c7847e9664.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "9fb8e82f83a83e21",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/9fb8e82f83a83e21.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/9fb8e82f83a83e21.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "6a14a89b86dbe3c5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/6a14a89b86dbe3c5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/6a14a89b86dbe3c5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c5babba2b042690f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/c5babba2b042690f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/c5babba2b042690f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "87ce36825b3e8c8f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-12",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/87ce36825b3e8c8f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/87ce36825b3e8c8f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "4405fa2cd1fd31e3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/4405fa2cd1fd31e3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/4405fa2cd1fd31e3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c88515abae5d6d48",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/c88515abae5d6d48.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/c88515abae5d6d48.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d7f6607d232226af",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-15",
+          "type": "table",
+          "caption": "To compare two expressions, simplify each one first. Then compare.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/d7f6607d232226af.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/d7f6607d232226af.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "08f50684852524c6",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-16",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/08f50684852524c6.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/08f50684852524c6.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ef1cac828e5a307b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-17",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/ef1cac828e5a307b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/ef1cac828e5a307b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7fc326198a905c94",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-18",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/7fc326198a905c94.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/7fc326198a905c94.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "dc01dd2d29a8748b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-19",
+          "type": "table",
+          "caption": "For each expression, follow the order of operations. Begin inside the absolute value symbols just as with parentheses.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/dc01dd2d29a8748b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/dc01dd2d29a8748b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d231d710eb636324",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-20",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/d231d710eb636324.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/d231d710eb636324.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "f46b019c00d79a90",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-21",
+          "type": "table",
+          "caption": "For each expression, follow the order of operations. Begin inside the absolute value symbols just as with parentheses.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/f46b019c00d79a90.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/f46b019c00d79a90.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "40a77cb66c3bae73",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-22",
+          "type": "table",
+          "caption": "We use the order of operations. Remember to simplify grouping symbols first, so parentheses inside absolute value symbols would be first.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/40a77cb66c3bae73.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/40a77cb66c3bae73.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b38a55582f7ba582",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-23",
+          "type": "table",
+          "caption": "Look for key phrases in each sentence. Then look for words that indicate negative signs. Don’t forget to include units of measurement described in the sentence.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/b38a55582f7ba582.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/b38a55582f7ba582.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "004ee61b209d8e78",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-24",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/004ee61b209d8e78.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/004ee61b209d8e78.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "9abb0ee45ba3db83",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-25",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/9abb0ee45ba3db83.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/9abb0ee45ba3db83.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "149f92c8de304989",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)#table-26",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/149f92c8de304989.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-1-introduction-to-integers-continued/149f92c8de304989.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 5,
+        "sections": 7,
+        "blocks": 51,
+        "examples": 13,
+        "tryIts": 26,
+        "sourceExercises": 31,
+        "exercises": 31,
+        "mathTokens": 99,
+        "assets": 45
+      },
+      "lesson": {
+        "id": "lesson-integers-absolute-value",
+        "slug": "tam-sayilar-ve-mutlak-deger",
+        "displayTitle": "Tam Sayılar ve Mutlak Değer",
+        "summary": "Pozitif ve negatif sayıları sayı doğrusunda gösterin, tam sayıları karşılaştırın, zıt sayıları ve mutlak değeri kullanın.",
+        "sortOrder": 2,
+        "chapterId": "chapter-integers",
+        "sourceNumber": "3.2",
+        "displayNumber": "3.1",
+        "sourceTitle": "Introduction to Integers (continued)",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.02%3A_Introduction_to_Integers_(continued)",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "tam-sayilar",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Pozitif ve negatif sayıları sayı doğrusunda gösterebileceksiniz.",
+          "Tam sayıları karşılaştırıp sıralayabileceksiniz.",
+          "Bir sayının zıttını bulabileceksiniz.",
+          "Mutlak değer içeren ifadeleri sadeleştirebileceksiniz.",
+          "Sözel durumları tam sayılarla gösterebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "tam-sayilar-ve-mutlak-deger-section-01",
+            "heading": "Sayı Doğrusunda Pozitif ve Negatif Sayılar",
+            "slug": "sayi-dogrusunda-pozitif-ve-negatif-sayilar",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sıfırın altındaki sıcaklıklar, deniz seviyesinin altındaki yükseklikler veya borç gibi durumlar negatif sayılarla anlatılır. Sıfırdan büyük sayılar pozitif, sıfırdan küçük sayılar negatiftir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sayı doğrusunda pozitif sayılar sıfırın sağında, negatif sayılar sıfırın solundadır. Sıfır ne pozitiftir ne negatiftir; iki tarafın başlangıç noktasıdır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.1",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sayı doğrusunda gösterin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce ortada sıfır olan bir sayı doğrusu çizeriz. 3, sıfırın üç birim sağındadır; -3, sıfırın üç birim solundadır; -2 ise sıfırın iki birim solundadır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.1",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sayı doğrusunda gösterin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sayı doğrusunda 1, sıfırın bir birim sağındadır; -1, sıfırın bir birim solundadır; -4 ise sıfırın dört birim solundadır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.2",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sayı doğrusunda gösterin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-1"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -4 sıfırın dört birim solunda, 4 sıfırın dört birim sağında, -1 ise sıfırın bir birim solundadır."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilar-ve-mutlak-deger-section-02",
+            "heading": "Tam Sayıları Sıralama",
+            "slug": "tam-sayilari-siralama",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Pozitif ve negatif sayıları karşılaştırırken sayı doğrusundan yararlanırız. Sağda kalan sayı daha büyük, solda kalan sayı daha küçüktür."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Negatif sayılarda sıfıra daha yakın olan sayı daha büyüktür. Örneğin -1, -4'ün sağında olduğu için -1>-4 yazılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.2",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her sayı çiftini "
+                  },
+                  {
+                    "type": "math",
+                    "value": "<"
+                  },
+                  {
+                    "type": "text",
+                    "value": " veya "
+                  },
+                  {
+                    "type": "math",
+                    "value": ">"
+                  },
+                  {
+                    "type": "text",
+                    "value": " kullanarak sıralayın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "14\\_\\_6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-1\\_\\_9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-1\\_\\_-4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\_\\_-20"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sayı doğrusunda 14, 6'nın sağındadır; bu yüzden 14>6. -1, 9'un solundadır; bu yüzden -1<9. -1, -4'ün sağındadır; bu yüzden -1>-4. 2, -20'nin sağındadır; bu yüzden 2>-20."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.3",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sıralayın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15\\_\\_7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2\\_\\_5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-3\\_\\_-7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5\\_\\_-17"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sayı doğrusunda sağdaki sayı daha büyüktür. Bu nedenle 15>7, -2<5, -3>-7 ve 5>-17 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.4",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sıralayın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8\\_\\_13"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\_\\_-4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5\\_\\_-2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9\\_\\_-21"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8 sayısı 13'ün solunda olduğu için 8<13; pozitif 3, -4'ten büyüktür; -5, -2'nin solundadır; 9, -21'den büyüktür. Sonuçlar: 8<13, 3>-4, -5<-2, 9>-21."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilar-ve-mutlak-deger-section-03",
+            "heading": "Zıt Sayılar",
+            "slug": "zit-sayilar",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sayı doğrusunda sıfıra eşit uzaklıkta ve sıfırın farklı taraflarında bulunan sayılara zıt sayılar denir. Örneğin 2 ile -2, 3 ile -3 birbirinin zıttıdır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.3",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her sayının zıttını bulun: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-10"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7'nin zıttı -7'dir. -10'un zıttı ise 10'dur; çünkü iki sayı da sıfıra 10 birim uzaklıktadır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.5",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her sayının zıttını bulun: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-3"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bir sayının zıttı, sayı doğrusunda sıfıra aynı uzaklıkta karşı tarafta bulunan sayıdır. 4'ün zıttı -4, -3'ün zıttı 3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.6",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her sayının zıttını bulun: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8'in zıttı -8, -5'in zıttı 5'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilar-ve-mutlak-deger-section-04",
+            "heading": "Zıt Sayı Gösterimi",
+            "slug": "zit-sayi-gosterimi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Eksi işareti farklı anlamlarda kullanılabilir: çıkarma işlemi, negatif sayı ya da bir sayının zıttı. Anlamı, işaretin kullanıldığı yere göre belirlenir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.4",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-(-6)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -(-6), -6'nın zıttını ister. -6'nın zıttı 6 olduğu için sonuç 6'dır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.7",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-(-1)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -(-1), -1'in zıttını ister. -1'in zıttı 1 olduğu için sonuç 1'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.8",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-(-5)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -(-5), -5'in zıttıdır. Bu nedenle sonuç 5 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilar-ve-mutlak-deger-section-05",
+            "heading": "Tam Sayılar",
+            "slug": "tam-sayilar",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sayma sayıları, bu sayıların zıtları ve sıfır birlikte tam sayılar kümesini oluşturur. Tam sayılar ..., -3, -2, -1, 0, 1, 2, 3, ... biçiminde devam eder."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir değişkenin zıttını değerlendirirken işarete özellikle dikkat ederiz. -x ifadesi, x'in zıttı demektir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.5",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "-x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -x, x'in zıttıdır. x=8 iken -x=-8 olur. x=-8 iken -x=8 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.9",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "-n"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n=4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n=-4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -n ifadesi n'nin zıttını gösterir. n=4 iken -n=-4, n=-4 iken -n=4 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.10",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "-m"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m=11"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m=-11"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -m, m'nin zıttıdır. m=11 iken -m=-11; m=-11 iken -m=11 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilar-ve-mutlak-deger-section-06",
+            "heading": "Mutlak Değer",
+            "slug": "mutlak-deger",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir sayının sıfıra olan uzaklığına o sayının mutlak değeri denir. Uzaklık negatif olamayacağı için mutlak değer sonucu sıfır ya da pozitif olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Mutlak değer çubukları işlem önceliğinde parantez gibi davranır. Önce mutlak değer içindeki ifade sadeleştirilir, sonra mutlak değer alınır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.6",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|3|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|-44|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|0|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3 sıfıra 3 birim uzaklıktadır, bu yüzden |3|=3. -44 sıfıra 44 birim uzaklıktadır, bu yüzden |-44|=44. 0'ın sıfıra uzaklığı 0 olduğu için |0|=0."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.11",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|12|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|-28|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Mutlak değer uzaklık belirtir. |12|=12 ve |-28|=28 olur. İkinci ifadede dışarıdaki eksi korunur: -|-28|=-28."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.12",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|9|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|37|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |9|=9'dur. |37|=37 olduğundan -|37|=-37 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.7",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|x|"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=-35"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|-y|"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=-20"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|u|"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "u=12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|p|"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "p=-14"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |x| için x=-35 yazılırsa |-35|=35 olur. y=-20 iken -y=20 ve |-y|=20'dir. -|u| ifadesinde |12|=12 alınır ve dışarıdaki eksiyle sonuç -12 olur. p=-14 iken -|p|=-|-14|=-14 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.13",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|x|, x=-17"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|-y|, y=-39"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|m|, m=22"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|p|, p=-11"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |x| için x=-17 yazılırsa |-17|=17 olur. |-y| ifadesinde y=-39 iken -y=39, |39|=39'dur. -|m| için m=22 yazılırsa -|22|=-22; -|p| için p=-11 yazılırsa -|-11|=-11 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.14",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|y|, y=-23"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|-y|, y=-21"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|n|, n=37"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|q|, q=-49"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |y|, y=-23 iken 23'tür. |-y|, y=-21 iken |21|=21 olur. -|n|, n=37 iken -37; -|q|, q=-49 iken -49'dur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.8",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her boşluğa "
+                  },
+                  {
+                    "type": "math",
+                    "value": "<"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": ">"
+                  },
+                  {
+                    "type": "text",
+                    "value": " veya "
+                  },
+                  {
+                    "type": "math",
+                    "value": "="
+                  },
+                  {
+                    "type": "text",
+                    "value": " yazın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|-5|\\_\\_-|-5|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8\\_\\_-|-8|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-9\\_\\_-|-9|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|-7|\\_\\_-7"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce mutlak değerleri sadeleştiririz. |-5|=5 ve -|-5|=-5 olduğu için 5>-5. 8>-8, -9=-9 ve -|-7|=-7 olduğu için -7=-7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.15",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Karşılaştırın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|-9|\\_\\_-|-9|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\_\\_-|-2|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-8\\_\\_|-8|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|-5|\\_\\_-5"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce mutlak değerleri sadeleştiririz: |-9|=9 ve -|-9|=-9 olduğundan 9>-9. Ayrıca 2>-2, -8<8 ve -5=-5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.16",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Karşılaştırın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7\\_\\_-|-7|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-|-11|\\_\\_-11"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|-4|\\_\\_-|-4|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-1\\_\\_|-1|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -|-7|=-7 olduğu için 7>-7. -|-11|=-11 olduğundan -11=-11. |-4|=4 ve -|-4|=-4 olduğundan 4>-4. Son olarak -1<|-1| olduğu için -1<1."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.9",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|9-3|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4|-2|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |9-3|=|6|=6 olur. |-2|=2 olduğundan 4|-2|=4·2=8 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.17",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|12-9|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3|-6|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |12-9|=|3|=3 olur. 3|-6| ifadesinde |-6|=6 olduğundan 3·6=18 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.18",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|27-16|"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9|-7|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |27-16|=|11|=11 olur. 9|-7| ifadesinde |-7|=7 olduğundan sonuç 63'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.10",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|8+7|-|5+6|"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce mutlak değer içleri sadeleştirilir: |8+7|-|5+6|=|15|-|11|. Mutlak değerler 15 ve 11 olur; 15-11=4 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.19",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|1+8|-|2+5|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |1+8|-|2+5|=|9|-|7|=9-7=2 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.20",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "|9-5|-|7-6|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: |9-5|-|7-6|=|4|-|1|=4-1=3 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.11",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "24-|19-3(6-2)|"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce parantez yapılır: 6-2=4. Sonra 3·4=12 ve 19-12=7 olur. |7|=7 olduğundan 24-7=17 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.21",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "19-|11-4(3-1)|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce parantez içi yapılır: 3-1=2. Sonra 4·2=8 ve 11-8=3 olur. |3|=3 olduğundan 19-3=16 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.22",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9-|8-4(7-5)|"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce 7-5=2, sonra 4·2=8 ve 8-8=0 bulunur. |0|=0 olduğundan 9-0=9 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilar-ve-mutlak-deger-section-07",
+            "heading": "Tam Sayılarla Sözel İfadeler",
+            "slug": "tam-sayilarla-sozel-ifadeler",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sözel ifadeleri tam sayılarla gösterirken yön bildiren kelimelere dikkat ederiz. Altında, kayıp, açık ve borç gibi ifadeler genellikle negatif; üstünde, kazanç ve fazla gibi ifadeler pozitif sayı ile gösterilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.12",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ifadeyi tam sayılı bir ifadeye çevirin: ⓐ pozitif 14'ün zıttı ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-11"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in zıttı ⓒ negatif on altı ⓓ 2 eksi negatif 7"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pozitif 14'ün zıttı -14'tür. -11'in zıttı 11'dir. Negatif on altı -16 ile yazılır. 2 eksi negatif 7 ifadesi 2-(-7) biçimindedir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.23",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin: ⓐ pozitif 9'un zıttı ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-15"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in zıttı ⓒ negatif yirmi ⓓ 11 eksi negatif 4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pozitif 9'un zıttı -9'dur. -15'in zıttı 15'tir. Negatif yirmi -20 ile, 11 eksi negatif 4 ise 11-(-4) ile gösterilir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.24",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin: ⓐ negatif 19'un zıttı ⓑ 22'nin zıttı ⓒ negatif dokuz ⓓ negatif 8 eksi negatif 5"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Negatif 19'un zıttı 19'dur. 22'nin zıttı -22'dir. Negatif dokuz -9 ile, negatif 8 eksi negatif 5 ise -8-(-5) ile gösterilir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Gerçek yaşam durumlarında da aynı fikir kullanılır. Referans noktası genellikle sıfırdır; sıfırın altı negatif, sıfırın üstü pozitif kabul edilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.13",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Tam sayıyla gösterin: ⓐ sıcaklık sıfırın "
+                  },
+                  {
+                    "type": "math",
+                    "value": "12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " Fahrenheit derece altında ⓑ futbol takımının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kazancı ⓒ Ölü Deniz'in deniz seviyesinin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1.302"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet altında olması ⓓ hesabın "
+                  },
+                  {
+                    "type": "math",
+                    "value": "40"
+                  },
+                  {
+                    "type": "text",
+                    "value": " dolar açık vermesi"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sıfırın altı negatif olduğundan sıcaklık -12 Fahrenheit derece yazılır. Kazanç pozitif olduğu için +3 yard yazılır. Deniz seviyesinin altı -1.302 feet, hesap açığı ise -40 dolar ile gösterilir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.25",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Futbol takımının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kazancını tam sayıyla gösterin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Kazanç pozitif yönü anlatır. Bu nedenle 5 yardalık kazanç +5 yard, yani 5 yard olarak gösterilir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.26",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Dalgıcın su yüzeyinin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "30"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet altında olmasını tam sayıyla gösterin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Su yüzeyinin altı negatif yön kabul edilir. Dalgıç yüzeyin 30 feet altında olduğundan durum -30 feet ile gösterilir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-1",
+            "number": "1",
+            "sectionSlug": "sayi-dogrusunda-pozitif-ve-negatif-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "−2"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ"
+              },
+              {
+                "type": "math",
+                "value": "−5"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 sıfırın iki birim sağında, -2 sıfırın iki birim solunda, -5 ise sıfırın beş birim solunda işaretlenir."
+              }
+            ],
+            "sortOrder": 1
+          },
+          {
+            "id": "exercise-3",
+            "number": "3",
+            "sectionSlug": "sayi-dogrusunda-pozitif-ve-negatif-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "−8"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ"
+              },
+              {
+                "type": "math",
+                "value": "−6"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -8 sıfırın sekiz birim solunda, 8 sıfırın sekiz birim sağında, -6 sıfırın altı birim solunda gösterilir."
+              }
+            ],
+            "sortOrder": 3
+          },
+          {
+            "id": "exercise-5",
+            "number": "5",
+            "sectionSlug": "tam-sayilari-siralama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayı çiftini < veya > kullanarak sıralayın. "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "9\\text{__}4"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "−3\\text{__}6"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ"
+              },
+              {
+                "type": "math",
+                "value": "−8\\text{__}−2"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ"
+              },
+              {
+                "type": "math",
+                "value": "1\\text{__}−10"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sayı doğrusunda sağdaki sayı daha büyüktür. Bu yüzden 9>4, -3<6, -8<-2 ve 1>-10 olur."
+              }
+            ],
+            "sortOrder": 5
+          },
+          {
+            "id": "exercise-7",
+            "number": "7",
+            "sectionSlug": "tam-sayilari-siralama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayı çiftini < veya > kullanarak sıralayın. "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "−5\\text{__}1;"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "−4\\text{__}−9;"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ"
+              },
+              {
+                "type": "math",
+                "value": "6\\text{__}10;"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ"
+              },
+              {
+                "type": "math",
+                "value": "3\\text{__}−8"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pozitif sayılar negatif sayılardan büyüktür; negatiflerde sıfıra yakın olan daha büyüktür. Sonuçlar: -5<1, -4>-9, 6<10, 3>-8."
+              }
+            ],
+            "sortOrder": 7
+          },
+          {
+            "id": "exercise-9",
+            "number": "9",
+            "sectionSlug": "zit-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının zıttını bulun."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "−6"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2'nin zıttı -2'dir. -6'nın zıttı ise 6'dır."
+              }
+            ],
+            "sortOrder": 9
+          },
+          {
+            "id": "exercise-11",
+            "number": "11",
+            "sectionSlug": "zit-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her sayının zıttını bulun."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "−8"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "1"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -8'in zıttı 8, 1'in zıttı -1'dir."
+              }
+            ],
+            "sortOrder": 11
+          },
+          {
+            "id": "exercise-13",
+            "number": "13",
+            "sectionSlug": "zit-sayi-gosterimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "-(−4)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -(-4), -4'ün zıttını gösterir. Bu nedenle sonuç 4'tür."
+              }
+            ],
+            "sortOrder": 13
+          },
+          {
+            "id": "exercise-15",
+            "number": "15",
+            "sectionSlug": "zit-sayi-gosterimi",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "-(−15)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -(-15), -15'in zıttıdır; sonuç 15 olur."
+              }
+            ],
+            "sortOrder": 15
+          },
+          {
+            "id": "exercise-17",
+            "number": "17",
+            "sectionSlug": "tam-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "-m \\text{iken}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "m=3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "m=−3"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -m ifadesi m'nin zıttını verir. m=3 iken -m=-3, m=-3 iken -m=3 olur."
+              }
+            ],
+            "sortOrder": 17
+          },
+          {
+            "id": "exercise-19",
+            "number": "19",
+            "sectionSlug": "tam-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "-c \\text{iken}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "c=12"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "c=−12"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -c, c'nin zıttıdır. c=12 iken -c=-12; c=-12 iken -c=12 bulunur."
+              }
+            ],
+            "sortOrder": 19
+          },
+          {
+            "id": "exercise-21",
+            "number": "21",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her mutlak değer ifadesini sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "|7|"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "|−25|"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ"
+              },
+              {
+                "type": "math",
+                "value": "|0|"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Mutlak değer uzaklık olduğu için negatif çıkmaz. |7|=7, |-25|=25 ve |0|=0 olur."
+              }
+            ],
+            "sortOrder": 21
+          },
+          {
+            "id": "exercise-23",
+            "number": "23",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her mutlak değer ifadesini sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "|−32|"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "|−18|"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ"
+              },
+              {
+                "type": "math",
+                "value": "|16|"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sıfıra uzaklıkları alırız: |-32|=32, |-18|=18 ve |16|=16."
+              }
+            ],
+            "sortOrder": 23
+          },
+          {
+            "id": "exercise-25",
+            "number": "25",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her mutlak değer ifadesini değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "|x| \\text{iken} x=−28"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "|-u| \\text{iken} u=−15"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=-28 iken |x|=|-28|=28 olur. u=-15 iken -u=15, dolayısıyla |-u|=|15|=15 bulunur."
+              }
+            ],
+            "sortOrder": 25
+          },
+          {
+            "id": "exercise-27",
+            "number": "27",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her mutlak değer ifadesini değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "-|p| \\text{iken} p=19"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "-|q| \\text{iken} q=−33"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: p=19 iken -|p|=-|19|=-19 olur. q=-33 iken -|q|=-|-33|=-33'tür."
+              }
+            ],
+            "sortOrder": 27
+          },
+          {
+            "id": "exercise-29",
+            "number": "29",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi karşılaştırmak için <, > veya = yazın. "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "−6\\text{__}|−6|"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "-|−3|\\text{__}−3"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: |-6|=6 olduğundan -6<6. Ayrıca -|-3|=-3 olduğu için -3=-3 olur."
+              }
+            ],
+            "sortOrder": 29
+          },
+          {
+            "id": "exercise-31",
+            "number": "31",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi karşılaştırmak için <, > veya = yazın. "
+              },
+              {
+                "type": "text",
+                "value": "ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "|−3|\\text{__}-|−3|"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "4\\text{__}-|−4|"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: |-3|=3 ve -|-3|=-3 olduğundan 3>-3. Ayrıca -|-4|=-4 olduğu için 4>-4 olur."
+              }
+            ],
+            "sortOrder": 31
+          },
+          {
+            "id": "exercise-33",
+            "number": "33",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "|8-4|"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce mutlak değer içini sadeleştiririz: 8-4=4. |4|=4'tür."
+              }
+            ],
+            "sortOrder": 33
+          },
+          {
+            "id": "exercise-35",
+            "number": "35",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "8|−7|"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: |-7|=7 olduğundan 8|-7|=8·7=56 olur."
+              }
+            ],
+            "sortOrder": 35
+          },
+          {
+            "id": "exercise-37",
+            "number": "37",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "|15-7|-|14-6|"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: |15-7|-|14-6|=|8|-|8|=8-8=0 bulunur."
+              }
+            ],
+            "sortOrder": 37
+          },
+          {
+            "id": "exercise-39",
+            "number": "39",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "18-|2(8-3)|"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce parantez içi: 8-3=5. Sonra 2·5=10 ve |10|=10 olur. 18-10=8 bulunur."
+              }
+            ],
+            "sortOrder": 39
+          },
+          {
+            "id": "exercise-41",
+            "number": "41",
+            "sectionSlug": "mutlak-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "8(14-2|−2|)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: |-2|=2, 2|-2|=4 ve 14-4=10 olur. Son olarak 8·10=80 bulunur."
+              }
+            ],
+            "sortOrder": 41
+          },
+          {
+            "id": "exercise-43",
+            "number": "43",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin. ⓐ 8'in zıttı ⓑ -6'nın zıttı ⓒ negatif üç ⓓ 4 eksi negatif 3"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8'in zıttı -8, -6'nın zıttı 6'dır. Negatif üç -3 ile gösterilir. 4 eksi negatif 3 ise 4-(-3)=7 olur."
+              }
+            ],
+            "sortOrder": 43
+          },
+          {
+            "id": "exercise-45",
+            "number": "45",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin. ⓐ 20'nin zıttı ⓑ -5'in zıttı ⓒ negatif on iki ⓓ 18 eksi negatif 7"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 20'nin zıttı -20, -5'in zıttı 5'tir. Negatif on iki -12'dir. 18-(-7)=25 olur."
+              }
+            ],
+            "sortOrder": 45
+          },
+          {
+            "id": "exercise-47",
+            "number": "47",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "a temperature of "
+              },
+              {
+                "type": "math",
+                "value": "6 \\text{degrees}"
+              },
+              {
+                "type": "text",
+                "value": " below zero"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sıfırın altındaki sıcaklık negatif tam sayıyla gösterilir. Bu durum -6 derece olarak yazılır."
+              }
+            ],
+            "sortOrder": 47
+          },
+          {
+            "id": "exercise-49",
+            "number": "49",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "an elevation of "
+              },
+              {
+                "type": "math",
+                "value": "40 \\text{feet}"
+              },
+              {
+                "type": "text",
+                "value": " below sea level"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Deniz seviyesinin altı negatif yön kabul edilir. 40 feet aşağısı -40 feet ile gösterilir."
+              }
+            ],
+            "sortOrder": 49
+          },
+          {
+            "id": "exercise-51",
+            "number": "51",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "a football play loss of "
+              },
+              {
+                "type": "math",
+                "value": "12 \\text{yards}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kayıp negatif değişimdir. 12 yard kayıp -12 yard olarak yazılır."
+              }
+            ],
+            "sortOrder": 51
+          },
+          {
+            "id": "exercise-53",
+            "number": "53",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "a stock gain of "
+              },
+              {
+                "type": "math",
+                "value": "\\text{$3}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kazanç pozitif değişimdir. 3 dolarlık hisse artışı +3 dolar, yani 3 dolar olarak gösterilir."
+              }
+            ],
+            "sortOrder": 53
+          },
+          {
+            "id": "exercise-55",
+            "number": "55",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "a golf score one above par"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Golfte parın bir üstü pozitif yönde 1 olarak gösterilir."
+              }
+            ],
+            "sortOrder": 55
+          },
+          {
+            "id": "exercise-57",
+            "number": "57",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yükseklik: ABD'deki en yüksek nokta Alaska'daki Mount McKinley'dir ve deniz seviyesinin 20.320 feet üstündedir. En düşük nokta California'daki Death Valley'dir ve deniz seviyesinin 282 feet altındadır. Yükseklikleri tam sayılarla yazın: ⓐ Mount McKinley ⓑ Death Valley"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Deniz seviyesinin üstü pozitif, altı negatiftir. Mount McKinley için 20.320 feet, Death Valley için -282 feet yazılır."
+              }
+            ],
+            "sortOrder": 57
+          },
+          {
+            "id": "exercise-59",
+            "number": "59",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Eyalet bütçeleri: Haziran 2011'de Pennsylvania 540 milyon dolarlık bütçe fazlası, Texas ise 27 milyar dolarlık bütçe açığı öngördü. Bütçeleri tam sayılarla yazın: ⓐ fazla ⓑ açık"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bütçe fazlası pozitif, bütçe açığı negatiftir. Fazla +540 milyon dolar, açık -27 milyar dolar olarak gösterilir."
+              }
+            ],
+            "sortOrder": 59
+          },
+          {
+            "id": "exercise-61",
+            "number": "61",
+            "sectionSlug": "tam-sayilarla-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kendi yaşamınızdan negatif sayıyla gösterilebilecek bir örnek verin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Örnek olarak sıfırın 4 derece altındaki hava sıcaklığı -4 derece ile gösterilebilir."
+              }
+            ],
+            "sortOrder": 61
+          }
+        ]
+      }
     }
   ]
 }

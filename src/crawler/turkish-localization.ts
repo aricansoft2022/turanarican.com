@@ -64,7 +64,41 @@ export function localizeExercisePromptForTurkish(
     adaptAlgebraicExpressionWritingExercise(normalizedPrompt) ??
     adaptCarInsuranceExpressionProblem(normalizedPrompt) ??
     adaptGroceryLcmExercise(normalizedPrompt) ??
+    adaptIntegerOrderingExercise(normalizedPrompt) ??
+    adaptIntegerCompareExercise(normalizedPrompt) ??
+    adaptIntegerWordExpressionExercise(normalizedPrompt) ??
+    adaptIntegerSituationExercise(normalizedPrompt) ??
     adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, find the opposite of each number.",
+      "Aşağıdaki alıştırmalarda her sayının zıttını bulun.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, simplify.",
+      "Aşağıdaki alıştırmalarda sadeleştirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, evaluate.",
+      "Aşağıdaki alıştırmalarda değerlendirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, simplify each absolute value expression.",
+      "Aşağıdaki alıştırmalarda her mutlak değer ifadesini sadeleştirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, evaluate each absolute value expression.",
+      "Aşağıdaki alıştırmalarda her mutlak değer ifadesini değerlendirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, simplify each expression.",
+      "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.",
+    ) ??
     adaptPlainInstruction(
       normalizedPrompt,
       "In the following exercises, evaluate the expression for the given value.",
@@ -157,6 +191,135 @@ export function localizeExercisePromptForTurkish(
     ) ??
     normalizedPrompt
   );
+}
+
+function adaptIntegerOrderingExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const [prefix, lessThan, joiner, greaterThan, space, ...rest] = prompt;
+
+  if (
+    prefix?.type !== "text" ||
+    prefix.value !==
+      "In the following exercises, order each of the following pairs of numbers, using " ||
+    lessThan?.type !== "math" ||
+    joiner?.type !== "text" ||
+    joiner.value !== " or " ||
+    greaterThan?.type !== "math" ||
+    space?.type !== "text" ||
+    space.value.trim() !== ""
+  ) {
+    return null;
+  }
+
+  return [
+    {
+      type: "text",
+      value: "Aşağıdaki alıştırmalarda her sayı çiftini < veya > kullanarak sıralayın. ",
+    },
+    ...rest,
+  ] satisfies InlineContent[];
+}
+
+function adaptIntegerCompareExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const [prefix, symbols, suffix, space, ...rest] = prompt;
+
+  if (
+    prefix?.type !== "text" ||
+    prefix.value !== "In the following exercises, fill in " ||
+    symbols?.type !== "math" ||
+    suffix?.type !== "text" ||
+    suffix.value !== " to compare each expression." ||
+    space?.type !== "text" ||
+    space.value.trim() !== ""
+  ) {
+    return null;
+  }
+
+  return [
+    {
+      type: "text",
+      value:
+        "Aşağıdaki alıştırmalarda her ifadeyi karşılaştırmak için <, > veya = yazın. ",
+    },
+    ...rest,
+  ] satisfies InlineContent[];
+}
+
+function adaptIntegerWordExpressionExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+
+  if (text.includes("the opposite of 8") && text.includes("minus negative 3")) {
+    return [
+      {
+        type: "text",
+        value:
+          "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin. ⓐ 8'in zıttı ⓑ -6'nın zıttı ⓒ negatif üç ⓓ 4 eksi negatif 3",
+      },
+    ] satisfies InlineContent[];
+  }
+
+  if (text.includes("the opposite of 20") && text.includes("minus negative 7")) {
+    return [
+      {
+        type: "text",
+        value:
+          "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin. ⓐ 20'nin zıttı ⓑ -5'in zıttı ⓒ negatif on iki ⓓ 18 eksi negatif 7",
+      },
+    ] satisfies InlineContent[];
+  }
+
+  return null;
+}
+
+function adaptIntegerSituationExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+
+  const replacements: Array<[string, string]> = [
+    [
+      "a temperature of 6",
+      "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Sıfırın 6 derece altındaki sıcaklık.",
+    ],
+    [
+      "an elevation of 40",
+      "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Deniz seviyesinin 40 feet altındaki yükseklik.",
+    ],
+    [
+      "a football play loss of 12",
+      "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Futbolda 12 yard kayıp.",
+    ],
+    [
+      "a stock gain of",
+      "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Hisse değerinde 3 dolarlık kazanç.",
+    ],
+    [
+      "a golf score one above par",
+      "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Golfte parın bir üstü skor.",
+    ],
+    [
+      "Elevation The highest elevation",
+      "Yükseklik: ABD'deki en yüksek nokta Alaska'daki Mount McKinley'dir ve deniz seviyesinin 20.320 feet üstündedir. En düşük nokta California'daki Death Valley'dir ve deniz seviyesinin 282 feet altındadır. Yükseklikleri tam sayılarla yazın: ⓐ Mount McKinley ⓑ Death Valley",
+    ],
+    [
+      "State budgets In June",
+      "Eyalet bütçeleri: Haziran 2011'de Pennsylvania 540 milyon dolarlık bütçe fazlası, Texas ise 27 milyar dolarlık bütçe açığı öngördü. Bütçeleri tam sayılarla yazın: ⓐ fazla ⓑ açık",
+    ],
+    [
+      "Give an example of a negative number",
+      "Kendi yaşamınızdan negatif sayıyla gösterilebilecek bir örnek verin.",
+    ],
+  ];
+
+  const replacement = replacements.find(([source]) => text.startsWith(source))?.[1];
+  if (!replacement) return null;
+
+  return [{ type: "text", value: replacement }] satisfies InlineContent[];
 }
 
 function adaptGroceryLcmExercise(prompt: InlineContent[]): InlineContent[] | null {

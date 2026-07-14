@@ -902,4 +902,244 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "313": "en-kucuk-ortak-kat-ekok",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "tam-sayilar",
+    sourceNumber: "3.2",
+    catalogLesson: {
+      id: "lesson-integers-absolute-value",
+      slug: "tam-sayilar-ve-mutlak-deger",
+      displayTitle: "Tam Sayılar ve Mutlak Değer",
+      summary:
+        "Pozitif ve negatif sayıları sayı doğrusunda gösterin, tam sayıları karşılaştırın, zıt sayıları ve mutlak değeri kullanın.",
+      sortOrder: 2,
+    },
+    objectives: [
+      "Pozitif ve negatif sayıları sayı doğrusunda gösterebileceksiniz.",
+      "Tam sayıları karşılaştırıp sıralayabileceksiniz.",
+      "Bir sayının zıttını bulabileceksiniz.",
+      "Mutlak değer içeren ifadeleri sadeleştirebileceksiniz.",
+      "Sözel durumları tam sayılarla gösterebileceksiniz.",
+    ],
+    sectionTitles: {
+      "Locate Positive and Negative Numbers on the Number Line":
+        "Sayı Doğrusunda Pozitif ve Negatif Sayılar",
+      "Order Positive and Negative Numbers": "Tam Sayıları Sıralama",
+      "Find Opposites": "Zıt Sayılar",
+      "Opposite Notation": "Zıt Sayı Gösterimi",
+      Integers: "Tam Sayılar",
+      "Simplify Expressions with Absolute Value": "Mutlak Değer",
+      "Translate Word Phrases into Expressions with Integers":
+        "Tam Sayılarla Sözel İfadeler",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 3.1": p(
+        "Çözüm: Sayı doğrusunda 1, sıfırın bir birim sağındadır; -1, sıfırın bir birim solundadır; -4 ise sıfırın dört birim solundadır.",
+      ),
+      "Sıra Sizde 3.2": p(
+        "Çözüm: -4 sıfırın dört birim solunda, 4 sıfırın dört birim sağında, -1 ise sıfırın bir birim solundadır.",
+      ),
+      "Sıra Sizde 3.3": p(
+        "Çözüm: Sayı doğrusunda sağdaki sayı daha büyüktür. Bu nedenle 15>7, -2<5, -3>-7 ve 5>-17 olur.",
+      ),
+      "Sıra Sizde 3.4": p(
+        "Çözüm: 8 sayısı 13'ün solunda olduğu için 8<13; pozitif 3, -4'ten büyüktür; -5, -2'nin solundadır; 9, -21'den büyüktür. Sonuçlar: 8<13, 3>-4, -5<-2, 9>-21.",
+      ),
+      "Sıra Sizde 3.5": p(
+        "Çözüm: Bir sayının zıttı, sayı doğrusunda sıfıra aynı uzaklıkta karşı tarafta bulunan sayıdır. 4'ün zıttı -4, -3'ün zıttı 3'tür.",
+      ),
+      "Sıra Sizde 3.6": p(
+        "Çözüm: 8'in zıttı -8, -5'in zıttı 5'tir.",
+      ),
+      "Sıra Sizde 3.7": p(
+        "Çözüm: -(-1), -1'in zıttını ister. -1'in zıttı 1 olduğu için sonuç 1'dir.",
+      ),
+      "Sıra Sizde 3.8": p(
+        "Çözüm: -(-5), -5'in zıttıdır. Bu nedenle sonuç 5 olur.",
+      ),
+      "Sıra Sizde 3.9": p(
+        "Çözüm: -n ifadesi n'nin zıttını gösterir. n=4 iken -n=-4, n=-4 iken -n=4 olur.",
+      ),
+      "Sıra Sizde 3.10": p(
+        "Çözüm: -m, m'nin zıttıdır. m=11 iken -m=-11; m=-11 iken -m=11 bulunur.",
+      ),
+      "Sıra Sizde 3.11": p(
+        "Çözüm: Mutlak değer uzaklık belirtir. |12|=12 ve |-28|=28 olur. İkinci ifadede dışarıdaki eksi korunur: -|-28|=-28.",
+      ),
+      "Sıra Sizde 3.12": p(
+        "Çözüm: |9|=9'dur. |37|=37 olduğundan -|37|=-37 olur.",
+      ),
+      "Sıra Sizde 3.13": p(
+        "Çözüm: |x| için x=-17 yazılırsa |-17|=17 olur. |-y| ifadesinde y=-39 iken -y=39, |39|=39'dur. -|m| için m=22 yazılırsa -|22|=-22; -|p| için p=-11 yazılırsa -|-11|=-11 olur.",
+      ),
+      "Sıra Sizde 3.14": p(
+        "Çözüm: |y|, y=-23 iken 23'tür. |-y|, y=-21 iken |21|=21 olur. -|n|, n=37 iken -37; -|q|, q=-49 iken -49'dur.",
+      ),
+      "Sıra Sizde 3.15": p(
+        "Çözüm: Önce mutlak değerleri sadeleştiririz: |-9|=9 ve -|-9|=-9 olduğundan 9>-9. Ayrıca 2>-2, -8<8 ve -5=-5 olur.",
+      ),
+      "Sıra Sizde 3.16": p(
+        "Çözüm: -|-7|=-7 olduğu için 7>-7. -|-11|=-11 olduğundan -11=-11. |-4|=4 ve -|-4|=-4 olduğundan 4>-4. Son olarak -1<|-1| olduğu için -1<1.",
+      ),
+      "Sıra Sizde 3.17": p(
+        "Çözüm: |12-9|=|3|=3 olur. 3|-6| ifadesinde |-6|=6 olduğundan 3·6=18 bulunur.",
+      ),
+      "Sıra Sizde 3.18": p(
+        "Çözüm: |27-16|=|11|=11 olur. 9|-7| ifadesinde |-7|=7 olduğundan sonuç 63'tür.",
+      ),
+      "Sıra Sizde 3.19": p(
+        "Çözüm: |1+8|-|2+5|=|9|-|7|=9-7=2 olur.",
+      ),
+      "Sıra Sizde 3.20": p(
+        "Çözüm: |9-5|-|7-6|=|4|-|1|=4-1=3 bulunur.",
+      ),
+      "Sıra Sizde 3.21": p(
+        "Çözüm: Önce parantez içi yapılır: 3-1=2. Sonra 4·2=8 ve 11-8=3 olur. |3|=3 olduğundan 19-3=16 bulunur.",
+      ),
+      "Sıra Sizde 3.22": p(
+        "Çözüm: Önce 7-5=2, sonra 4·2=8 ve 8-8=0 bulunur. |0|=0 olduğundan 9-0=9 olur.",
+      ),
+      "Sıra Sizde 3.23": p(
+        "Çözüm: Pozitif 9'un zıttı -9'dur. -15'in zıttı 15'tir. Negatif yirmi -20 ile, 11 eksi negatif 4 ise 11-(-4) ile gösterilir.",
+      ),
+      "Sıra Sizde 3.24": p(
+        "Çözüm: Negatif 19'un zıttı 19'dur. 22'nin zıttı -22'dir. Negatif dokuz -9 ile, negatif 8 eksi negatif 5 ise -8-(-5) ile gösterilir.",
+      ),
+      "Sıra Sizde 3.25": p(
+        "Çözüm: Kazanç pozitif yönü anlatır. Bu nedenle 5 yardalık kazanç +5 yard, yani 5 yard olarak gösterilir.",
+      ),
+      "Sıra Sizde 3.26": p(
+        "Çözüm: Su yüzeyinin altı negatif yön kabul edilir. Dalgıç yüzeyin 30 feet altında olduğundan durum -30 feet ile gösterilir.",
+      ),
+    },
+    exerciseAnswers: {
+      "1": answer(
+        "Çözüm: 2 sıfırın iki birim sağında, -2 sıfırın iki birim solunda, -5 ise sıfırın beş birim solunda işaretlenir.",
+      ),
+      "3": answer(
+        "Çözüm: -8 sıfırın sekiz birim solunda, 8 sıfırın sekiz birim sağında, -6 sıfırın altı birim solunda gösterilir.",
+      ),
+      "5": answer(
+        "Çözüm: Sayı doğrusunda sağdaki sayı daha büyüktür. Bu yüzden 9>4, -3<6, -8<-2 ve 1>-10 olur.",
+      ),
+      "7": answer(
+        "Çözüm: Pozitif sayılar negatif sayılardan büyüktür; negatiflerde sıfıra yakın olan daha büyüktür. Sonuçlar: -5<1, -4>-9, 6<10, 3>-8.",
+      ),
+      "9": answer(
+        "Çözüm: 2'nin zıttı -2'dir. -6'nın zıttı ise 6'dır.",
+      ),
+      "11": answer(
+        "Çözüm: -8'in zıttı 8, 1'in zıttı -1'dir.",
+      ),
+      "13": answer(
+        "Çözüm: -(-4), -4'ün zıttını gösterir. Bu nedenle sonuç 4'tür.",
+      ),
+      "15": answer(
+        "Çözüm: -(-15), -15'in zıttıdır; sonuç 15 olur.",
+      ),
+      "17": answer(
+        "Çözüm: -m ifadesi m'nin zıttını verir. m=3 iken -m=-3, m=-3 iken -m=3 olur.",
+      ),
+      "19": answer(
+        "Çözüm: -c, c'nin zıttıdır. c=12 iken -c=-12; c=-12 iken -c=12 bulunur.",
+      ),
+      "21": answer(
+        "Çözüm: Mutlak değer uzaklık olduğu için negatif çıkmaz. |7|=7, |-25|=25 ve |0|=0 olur.",
+      ),
+      "23": answer(
+        "Çözüm: Sıfıra uzaklıkları alırız: |-32|=32, |-18|=18 ve |16|=16.",
+      ),
+      "25": answer(
+        "Çözüm: x=-28 iken |x|=|-28|=28 olur. u=-15 iken -u=15, dolayısıyla |-u|=|15|=15 bulunur.",
+      ),
+      "27": answer(
+        "Çözüm: p=19 iken -|p|=-|19|=-19 olur. q=-33 iken -|q|=-|-33|=-33'tür.",
+      ),
+      "29": answer(
+        "Çözüm: |-6|=6 olduğundan -6<6. Ayrıca -|-3|=-3 olduğu için -3=-3 olur.",
+      ),
+      "31": answer(
+        "Çözüm: |-3|=3 ve -|-3|=-3 olduğundan 3>-3. Ayrıca -|-4|=-4 olduğu için 4>-4 olur.",
+      ),
+      "33": answer(
+        "Çözüm: Önce mutlak değer içini sadeleştiririz: 8-4=4. |4|=4'tür.",
+      ),
+      "35": answer(
+        "Çözüm: |-7|=7 olduğundan 8|-7|=8·7=56 olur.",
+      ),
+      "37": answer(
+        "Çözüm: |15-7|-|14-6|=|8|-|8|=8-8=0 bulunur.",
+      ),
+      "39": answer(
+        "Çözüm: Önce parantez içi: 8-3=5. Sonra 2·5=10 ve |10|=10 olur. 18-10=8 bulunur.",
+      ),
+      "41": answer(
+        "Çözüm: |-2|=2, 2|-2|=4 ve 14-4=10 olur. Son olarak 8·10=80 bulunur.",
+      ),
+      "43": answer(
+        "Çözüm: 8'in zıttı -8, -6'nın zıttı 6'dır. Negatif üç -3 ile gösterilir. 4 eksi negatif 3 ise 4-(-3)=7 olur.",
+      ),
+      "45": answer(
+        "Çözüm: 20'nin zıttı -20, -5'in zıttı 5'tir. Negatif on iki -12'dir. 18-(-7)=25 olur.",
+      ),
+      "47": answer(
+        "Çözüm: Sıfırın altındaki sıcaklık negatif tam sayıyla gösterilir. Bu durum -6 derece olarak yazılır.",
+      ),
+      "49": answer(
+        "Çözüm: Deniz seviyesinin altı negatif yön kabul edilir. 40 feet aşağısı -40 feet ile gösterilir.",
+      ),
+      "51": answer(
+        "Çözüm: Kayıp negatif değişimdir. 12 yard kayıp -12 yard olarak yazılır.",
+      ),
+      "53": answer(
+        "Çözüm: Kazanç pozitif değişimdir. 3 dolarlık hisse artışı +3 dolar, yani 3 dolar olarak gösterilir.",
+      ),
+      "55": answer(
+        "Çözüm: Golfte parın bir üstü pozitif yönde 1 olarak gösterilir.",
+      ),
+      "57": answer(
+        "Çözüm: Deniz seviyesinin üstü pozitif, altı negatiftir. Mount McKinley için 20.320 feet, Death Valley için -282 feet yazılır.",
+      ),
+      "59": answer(
+        "Çözüm: Bütçe fazlası pozitif, bütçe açığı negatiftir. Fazla +540 milyon dolar, açık -27 milyar dolar olarak gösterilir.",
+      ),
+      "61": answer(
+        "Çözüm: Örnek olarak sıfırın 4 derece altındaki hava sıcaklığı -4 derece ile gösterilebilir.",
+      ),
+    },
+    exerciseSectionSlugs: {
+      "1": "sayi-dogrusunda-pozitif-ve-negatif-sayilar",
+      "3": "sayi-dogrusunda-pozitif-ve-negatif-sayilar",
+      "5": "tam-sayilari-siralama",
+      "7": "tam-sayilari-siralama",
+      "9": "zit-sayilar",
+      "11": "zit-sayilar",
+      "13": "zit-sayi-gosterimi",
+      "15": "zit-sayi-gosterimi",
+      "17": "tam-sayilar",
+      "19": "tam-sayilar",
+      "21": "mutlak-deger",
+      "23": "mutlak-deger",
+      "25": "mutlak-deger",
+      "27": "mutlak-deger",
+      "29": "mutlak-deger",
+      "31": "mutlak-deger",
+      "33": "mutlak-deger",
+      "35": "mutlak-deger",
+      "37": "mutlak-deger",
+      "39": "mutlak-deger",
+      "41": "mutlak-deger",
+      "43": "tam-sayilarla-sozel-ifadeler",
+      "45": "tam-sayilarla-sozel-ifadeler",
+      "47": "tam-sayilarla-sozel-ifadeler",
+      "49": "tam-sayilarla-sozel-ifadeler",
+      "51": "tam-sayilarla-sozel-ifadeler",
+      "53": "tam-sayilarla-sozel-ifadeler",
+      "55": "tam-sayilarla-sozel-ifadeler",
+      "57": "tam-sayilarla-sozel-ifadeler",
+      "59": "tam-sayilarla-sozel-ifadeler",
+      "61": "tam-sayilarla-sozel-ifadeler",
+    },
+  },
 ];

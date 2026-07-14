@@ -1,5 +1,5 @@
 import { spawn } from "node:child_process";
-import { mkdtemp, rm } from "node:fs/promises";
+import { access, mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 
@@ -38,6 +38,7 @@ async function main() {
   try {
     const output = await runBuild(databaseUrl);
     assertBuildOutput(output, expected);
+    await assertPrerenderedFiles(expected);
 
     console.log("Verified database content build.");
     console.log(
@@ -111,17 +112,33 @@ function assertBuildOutput(output: string, expected: ExpectedBuildPaths) {
     }
   }
 
-  for (const lessonPath of expected.lessonPaths) {
-    if (!output.includes(lessonPath)) {
-      throw new Error(`Database content build did not include route: ${lessonPath}`);
-    }
-  }
-
   const pageCountPattern = new RegExp(
     `Generating static pages using \\d+ workers \\(${expected.prerenderedPageCount}\\/${expected.prerenderedPageCount}\\)`,
   );
   if (!pageCountPattern.test(output)) {
     throw new Error("Database content build did not prerender the expected page count.");
+  }
+}
+
+async function assertPrerenderedFiles(expected: ExpectedBuildPaths) {
+  for (const routePath of [
+    ...expected.bookPaths,
+    ...expected.chapterPaths,
+    ...expected.lessonPaths,
+  ]) {
+    const htmlPath = path.join(
+      process.cwd(),
+      ".next",
+      "server",
+      "app",
+      `${routePath.slice(1)}.html`,
+    );
+
+    try {
+      await access(htmlPath);
+    } catch {
+      throw new Error(`Database content build did not prerender route: ${routePath}`);
+    }
   }
 }
 
@@ -162,7 +179,7 @@ function buildExpectedBuildPaths(payload: SeedDatabasePayload): ExpectedBuildPat
     bookPaths,
     chapterPaths,
     lessonPaths,
-    prerenderedPageCount: 8 + lessonPaths.length,
+    prerenderedPageCount: 6 + bookPaths.length + chapterPaths.length + lessonPaths.length,
   };
 }
 

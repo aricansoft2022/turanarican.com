@@ -45,6 +45,19 @@ export const books: Book[] = [
           },
         ],
       },
+      {
+        id: "chapter-integers",
+        bookId: "book-prealgebra-2e",
+        slug: "tam-sayilar",
+        sourceNumber: "3",
+        displayNumber: "3",
+        sourceTitle: "Integers",
+        displayTitle: "Tam Sayılar",
+        sourceUrl:
+          "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers",
+        sortOrder: 3,
+        lessons: [],
+      },
     ],
   },
 ];

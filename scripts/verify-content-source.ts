@@ -50,9 +50,9 @@ async function assertStaticSource(expected: ExpectedContent) {
     throw new Error(`Static content source expected 1 book, got ${bookParams.length}.`);
   }
 
-  if (chapterParams.length !== 1) {
+  if (chapterParams.length !== expected.chapterPaths.length) {
     throw new Error(
-      `Static content source expected 1 chapter, got ${chapterParams.length}.`,
+      `Static content source expected ${expected.chapterPaths.length} chapter(s), got ${chapterParams.length}.`,
     );
   }
 
@@ -72,7 +72,7 @@ async function assertStaticSource(expected: ExpectedContent) {
   }
 
   const book = await getContentBook("prealgebra-2e");
-  if (!book || book.chapters[0]?.lessons.length !== expected.lessonPaths.length) {
+  if (!book || countBookLessons(book) !== expected.lessonPaths.length) {
     throw new Error("Static content source did not expose the seeded book tree.");
   }
 
@@ -108,9 +108,9 @@ async function assertDatabaseSource(payload: SeedDatabasePayload, expected: Expe
       throw new Error(`Database content source expected 1 book, got ${bookParams.length}.`);
     }
 
-    if (chapterParams.length !== 1) {
+    if (chapterParams.length !== expected.chapterPaths.length) {
       throw new Error(
-        `Database content source expected 1 chapter, got ${chapterParams.length}.`,
+        `Database content source expected ${expected.chapterPaths.length} chapter(s), got ${chapterParams.length}.`,
       );
     }
 
@@ -130,7 +130,7 @@ async function assertDatabaseSource(payload: SeedDatabasePayload, expected: Expe
     }
 
     const book = await getContentBook("prealgebra-2e");
-    if (!book || book.chapters[0]?.lessons.length !== expected.lessonPaths.length) {
+    if (!book || countBookLessons(book) !== expected.lessonPaths.length) {
       throw new Error("Database content source did not expose the seeded book tree.");
     }
 
@@ -145,12 +145,12 @@ async function assertDatabaseSource(payload: SeedDatabasePayload, expected: Expe
       JSON.stringify(
         {
           staticBooks: 1,
-          staticChapters: 1,
+          staticChapters: expected.chapterPaths.length,
           staticLessons: expected.lessonPaths.length,
           databaseBooks: bookParams.length,
           databaseChapters: chapterParams.length,
           databaseLessons: params.length,
-          databaseBookLessons: book.chapters[0].lessons.length,
+          databaseBookLessons: countBookLessons(book),
         },
         null,
         2,
@@ -159,6 +159,13 @@ async function assertDatabaseSource(payload: SeedDatabasePayload, expected: Expe
   } finally {
     await rm(tempDir, { recursive: true, force: true });
   }
+}
+
+function countBookLessons(book: NonNullable<Awaited<ReturnType<typeof getContentBook>>>) {
+  return book.chapters.reduce(
+    (total, chapter) => total + chapter.lessons.length,
+    0,
+  );
 }
 
 async function assertSitemap(

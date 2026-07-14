@@ -18,6 +18,18 @@ const m = (value: string, display?: boolean): InlineContent => ({
 });
 const p = (text: InlineContent[]): ContentBlock => ({ type: "paragraph", text });
 const pt = (value: string): ContentBlock => p([t(value)]);
+const tx = (value: string): InlineContent[] => [t(value)];
+const ex = (
+  label: string,
+  prompt: InlineContent[],
+  solution: ContentBlock[] = [],
+): ContentBlock => ({
+  type: "example",
+  label,
+  prompt,
+  solution,
+});
+const sol = (...values: string[]): ContentBlock[] => values.map(pt);
 const removeBlocks = (from: number, to = 2) =>
   Array.from({ length: from - to + 1 }, (_, index) => ({
     sourceBlockIndex: from - index,
@@ -6041,6 +6053,495 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
                 ],
                 solution: [],
               },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "3.2",
+    sections: [
+      {
+        sectionSlug: "sayi-dogrusunda-pozitif-ve-negatif-sayilar",
+        replaceBlocks: [
+          ...removeBlocks(15),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sıfırın altındaki sıcaklıklar, deniz seviyesinin altındaki yükseklikler veya borç gibi durumlar negatif sayılarla anlatılır. Sıfırdan büyük sayılar pozitif, sıfırdan küçük sayılar negatiftir.",
+              ),
+              pt(
+                "Sayı doğrusunda pozitif sayılar sıfırın sağında, negatif sayılar sıfırın solundadır. Sıfır ne pozitiftir ne negatiftir; iki tarafın başlangıç noktasıdır.",
+              ),
+              ex(
+                "Örnek 3.1",
+                [
+                  t("Sayı doğrusunda gösterin: ⓐ "),
+                  m("3"),
+                  t(" ⓑ "),
+                  m("-3"),
+                  t(" ⓒ "),
+                  m("-2"),
+                ],
+                sol(
+                  "Çözüm: Önce ortada sıfır olan bir sayı doğrusu çizeriz. 3, sıfırın üç birim sağındadır; -3, sıfırın üç birim solundadır; -2 ise sıfırın iki birim solundadır.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.1",
+                [
+                  t("Sayı doğrusunda gösterin: ⓐ "),
+                  m("1"),
+                  t(" ⓑ "),
+                  m("-1"),
+                  t(" ⓒ "),
+                  m("-4"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.2",
+                [
+                  t("Sayı doğrusunda gösterin: ⓐ "),
+                  m("-4"),
+                  t(" ⓑ "),
+                  m("4"),
+                  t(" ⓒ "),
+                  m("-1"),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilari-siralama",
+        replaceBlocks: [
+          ...removeBlocks(24),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Pozitif ve negatif sayıları karşılaştırırken sayı doğrusundan yararlanırız. Sağda kalan sayı daha büyük, solda kalan sayı daha küçüktür.",
+              ),
+              pt(
+                "Negatif sayılarda sıfıra daha yakın olan sayı daha büyüktür. Örneğin -1, -4'ün sağında olduğu için -1>-4 yazılır.",
+              ),
+              ex(
+                "Örnek 3.2",
+                [
+                  t("Her sayı çiftini "),
+                  m("<"),
+                  t(" veya "),
+                  m(">"),
+                  t(" kullanarak sıralayın: ⓐ "),
+                  m("14\\_\\_6"),
+                  t(" ⓑ "),
+                  m("-1\\_\\_9"),
+                  t(" ⓒ "),
+                  m("-1\\_\\_-4"),
+                  t(" ⓓ "),
+                  m("2\\_\\_-20"),
+                ],
+                sol(
+                  "Çözüm: Sayı doğrusunda 14, 6'nın sağındadır; bu yüzden 14>6. -1, 9'un solundadır; bu yüzden -1<9. -1, -4'ün sağındadır; bu yüzden -1>-4. 2, -20'nin sağındadır; bu yüzden 2>-20.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.3",
+                [
+                  t("Sıralayın: ⓐ "),
+                  m("15\\_\\_7"),
+                  t(" ⓑ "),
+                  m("-2\\_\\_5"),
+                  t(" ⓒ "),
+                  m("-3\\_\\_-7"),
+                  t(" ⓓ "),
+                  m("5\\_\\_-17"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.4",
+                [
+                  t("Sıralayın: ⓐ "),
+                  m("8\\_\\_13"),
+                  t(" ⓑ "),
+                  m("3\\_\\_-4"),
+                  t(" ⓒ "),
+                  m("-5\\_\\_-2"),
+                  t(" ⓓ "),
+                  m("9\\_\\_-21"),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "zit-sayilar",
+        replaceBlocks: [
+          ...removeBlocks(5),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sayı doğrusunda sıfıra eşit uzaklıkta ve sıfırın farklı taraflarında bulunan sayılara zıt sayılar denir. Örneğin 2 ile -2, 3 ile -3 birbirinin zıttıdır.",
+              ),
+              ex(
+                "Örnek 3.3",
+                [
+                  t("Her sayının zıttını bulun: ⓐ "),
+                  m("7"),
+                  t(" ⓑ "),
+                  m("-10"),
+                ],
+                sol(
+                  "Çözüm: 7'nin zıttı -7'dir. -10'un zıttı ise 10'dur; çünkü iki sayı da sıfıra 10 birim uzaklıktadır.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.5",
+                [
+                  t("Her sayının zıttını bulun: ⓐ "),
+                  m("4"),
+                  t(" ⓑ "),
+                  m("-3"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.6",
+                [
+                  t("Her sayının zıttını bulun: ⓐ "),
+                  m("8"),
+                  t(" ⓑ "),
+                  m("-5"),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "zit-sayi-gosterimi",
+        replaceBlocks: [
+          ...removeBlocks(5),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Eksi işareti farklı anlamlarda kullanılabilir: çıkarma işlemi, negatif sayı ya da bir sayının zıttı. Anlamı, işaretin kullanıldığı yere göre belirlenir.",
+              ),
+              ex(
+                "Örnek 3.4",
+                [t("Sadeleştirin: "), m("-(-6)")],
+                sol(
+                  "Çözüm: -(-6), -6'nın zıttını ister. -6'nın zıttı 6 olduğu için sonuç 6'dır.",
+                ),
+              ),
+              ex("Sıra Sizde 3.7", [t("Sadeleştirin: "), m("-(-1)")]),
+              ex("Sıra Sizde 3.8", [t("Sadeleştirin: "), m("-(-5)")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilar",
+        replaceBlocks: [
+          ...removeBlocks(5),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sayma sayıları, bu sayıların zıtları ve sıfır birlikte tam sayılar kümesini oluşturur. Tam sayılar ..., -3, -2, -1, 0, 1, 2, 3, ... biçiminde devam eder.",
+              ),
+              pt(
+                "Bir değişkenin zıttını değerlendirirken işarete özellikle dikkat ederiz. -x ifadesi, x'in zıttı demektir.",
+              ),
+              ex(
+                "Örnek 3.5",
+                [
+                  m("-x"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("x=8"),
+                  t(" iken ⓑ "),
+                  m("x=-8"),
+                  t(" iken."),
+                ],
+                sol(
+                  "Çözüm: -x, x'in zıttıdır. x=8 iken -x=-8 olur. x=-8 iken -x=8 olur.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.9",
+                [
+                  m("-n"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("n=4"),
+                  t(" iken ⓑ "),
+                  m("n=-4"),
+                  t(" iken."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.10",
+                [
+                  m("-m"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("m=11"),
+                  t(" iken ⓑ "),
+                  m("m=-11"),
+                  t(" iken."),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "mutlak-deger",
+        replaceBlocks: [
+          ...removeBlocks(29),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir sayının sıfıra olan uzaklığına o sayının mutlak değeri denir. Uzaklık negatif olamayacağı için mutlak değer sonucu sıfır ya da pozitif olur.",
+              ),
+              pt(
+                "Mutlak değer çubukları işlem önceliğinde parantez gibi davranır. Önce mutlak değer içindeki ifade sadeleştirilir, sonra mutlak değer alınır.",
+              ),
+              ex(
+                "Örnek 3.6",
+                [
+                  t("Sadeleştirin: ⓐ "),
+                  m("|3|"),
+                  t(" ⓑ "),
+                  m("|-44|"),
+                  t(" ⓒ "),
+                  m("|0|"),
+                ],
+                sol(
+                  "Çözüm: 3 sıfıra 3 birim uzaklıktadır, bu yüzden |3|=3. -44 sıfıra 44 birim uzaklıktadır, bu yüzden |-44|=44. 0'ın sıfıra uzaklığı 0 olduğu için |0|=0.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.11",
+                [t("Sadeleştirin: ⓐ "), m("|12|"), t(" ⓑ "), m("-|-28|")],
+              ),
+              ex(
+                "Sıra Sizde 3.12",
+                [t("Sadeleştirin: ⓐ "), m("|9|"), t(" ⓑ "), m("-|37|")],
+              ),
+              ex(
+                "Örnek 3.7",
+                [
+                  t("Değerlendirin: ⓐ "),
+                  m("|x|"),
+                  t(", "),
+                  m("x=-35"),
+                  t(" iken ⓑ "),
+                  m("|-y|"),
+                  t(", "),
+                  m("y=-20"),
+                  t(" iken ⓒ "),
+                  m("-|u|"),
+                  t(", "),
+                  m("u=12"),
+                  t(" iken ⓓ "),
+                  m("-|p|"),
+                  t(", "),
+                  m("p=-14"),
+                  t(" iken."),
+                ],
+                sol(
+                  "Çözüm: |x| için x=-35 yazılırsa |-35|=35 olur. y=-20 iken -y=20 ve |-y|=20'dir. -|u| ifadesinde |12|=12 alınır ve dışarıdaki eksiyle sonuç -12 olur. p=-14 iken -|p|=-|-14|=-14 olur.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.13",
+                [
+                  t("Değerlendirin: ⓐ "),
+                  m("|x|, x=-17"),
+                  t(" ⓑ "),
+                  m("|-y|, y=-39"),
+                  t(" ⓒ "),
+                  m("-|m|, m=22"),
+                  t(" ⓓ "),
+                  m("-|p|, p=-11"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.14",
+                [
+                  t("Değerlendirin: ⓐ "),
+                  m("|y|, y=-23"),
+                  t(" ⓑ "),
+                  m("|-y|, y=-21"),
+                  t(" ⓒ "),
+                  m("-|n|, n=37"),
+                  t(" ⓓ "),
+                  m("-|q|, q=-49"),
+                ],
+              ),
+              ex(
+                "Örnek 3.8",
+                [
+                  t("Her boşluğa "),
+                  m("<"),
+                  t(", "),
+                  m(">"),
+                  t(" veya "),
+                  m("="),
+                  t(" yazın: ⓐ "),
+                  m("|-5|\\_\\_-|-5|"),
+                  t(" ⓑ "),
+                  m("8\\_\\_-|-8|"),
+                  t(" ⓒ "),
+                  m("-9\\_\\_-|-9|"),
+                  t(" ⓓ "),
+                  m("-|-7|\\_\\_-7"),
+                ],
+                sol(
+                  "Çözüm: Önce mutlak değerleri sadeleştiririz. |-5|=5 ve -|-5|=-5 olduğu için 5>-5. 8>-8, -9=-9 ve -|-7|=-7 olduğu için -7=-7 olur.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.15",
+                [
+                  t("Karşılaştırın: ⓐ "),
+                  m("|-9|\\_\\_-|-9|"),
+                  t(" ⓑ "),
+                  m("2\\_\\_-|-2|"),
+                  t(" ⓒ "),
+                  m("-8\\_\\_|-8|"),
+                  t(" ⓓ "),
+                  m("-|-5|\\_\\_-5"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.16",
+                [
+                  t("Karşılaştırın: ⓐ "),
+                  m("7\\_\\_-|-7|"),
+                  t(" ⓑ "),
+                  m("-|-11|\\_\\_-11"),
+                  t(" ⓒ "),
+                  m("|-4|\\_\\_-|-4|"),
+                  t(" ⓓ "),
+                  m("-1\\_\\_|-1|"),
+                ],
+              ),
+              ex(
+                "Örnek 3.9",
+                [
+                  t("Sadeleştirin: ⓐ "),
+                  m("|9-3|"),
+                  t(" ⓑ "),
+                  m("4|-2|"),
+                ],
+                sol(
+                  "Çözüm: |9-3|=|6|=6 olur. |-2|=2 olduğundan 4|-2|=4·2=8 bulunur.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.17",
+                [t("Sadeleştirin: ⓐ "), m("|12-9|"), t(" ⓑ "), m("3|-6|")],
+              ),
+              ex(
+                "Sıra Sizde 3.18",
+                [t("Sadeleştirin: ⓐ "), m("|27-16|"), t(" ⓑ "), m("9|-7|")],
+              ),
+              ex(
+                "Örnek 3.10",
+                [t("Sadeleştirin: "), m("|8+7|-|5+6|"), t(".")],
+                sol(
+                  "Çözüm: Önce mutlak değer içleri sadeleştirilir: |8+7|-|5+6|=|15|-|11|. Mutlak değerler 15 ve 11 olur; 15-11=4 bulunur.",
+                ),
+              ),
+              ex("Sıra Sizde 3.19", [t("Sadeleştirin: "), m("|1+8|-|2+5|")]),
+              ex("Sıra Sizde 3.20", [t("Sadeleştirin: "), m("|9-5|-|7-6|")]),
+              ex(
+                "Örnek 3.11",
+                [t("Sadeleştirin: "), m("24-|19-3(6-2)|"), t(".")],
+                sol(
+                  "Çözüm: Önce parantez yapılır: 6-2=4. Sonra 3·4=12 ve 19-12=7 olur. |7|=7 olduğundan 24-7=17 bulunur.",
+                ),
+              ),
+              ex("Sıra Sizde 3.21", [t("Sadeleştirin: "), m("19-|11-4(3-1)|")]),
+              ex("Sıra Sizde 3.22", [t("Sadeleştirin: "), m("9-|8-4(7-5)|")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilarla-sozel-ifadeler",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sözel ifadeleri tam sayılarla gösterirken yön bildiren kelimelere dikkat ederiz. Altında, kayıp, açık ve borç gibi ifadeler genellikle negatif; üstünde, kazanç ve fazla gibi ifadeler pozitif sayı ile gösterilir.",
+              ),
+              ex(
+                "Örnek 3.12",
+                [
+                  t("Her ifadeyi tam sayılı bir ifadeye çevirin: ⓐ pozitif 14'ün zıttı ⓑ "),
+                  m("-11"),
+                  t("'in zıttı ⓒ negatif on altı ⓓ 2 eksi negatif 7"),
+                ],
+                sol(
+                  "Çözüm: Pozitif 14'ün zıttı -14'tür. -11'in zıttı 11'dir. Negatif on altı -16 ile yazılır. 2 eksi negatif 7 ifadesi 2-(-7) biçimindedir.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.23",
+                [
+                  t("Çevirin: ⓐ pozitif 9'un zıttı ⓑ "),
+                  m("-15"),
+                  t("'in zıttı ⓒ negatif yirmi ⓓ 11 eksi negatif 4"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.24",
+                [
+                  t("Çevirin: ⓐ negatif 19'un zıttı ⓑ 22'nin zıttı ⓒ negatif dokuz ⓓ negatif 8 eksi negatif 5"),
+                ],
+              ),
+              pt(
+                "Gerçek yaşam durumlarında da aynı fikir kullanılır. Referans noktası genellikle sıfırdır; sıfırın altı negatif, sıfırın üstü pozitif kabul edilir.",
+              ),
+              ex(
+                "Örnek 3.13",
+                [
+                  t("Tam sayıyla gösterin: ⓐ sıcaklık sıfırın "),
+                  m("12"),
+                  t(" Fahrenheit derece altında ⓑ futbol takımının "),
+                  m("3"),
+                  t(" yard kazancı ⓒ Ölü Deniz'in deniz seviyesinin "),
+                  m("1.302"),
+                  t(" feet altında olması ⓓ hesabın "),
+                  m("40"),
+                  t(" dolar açık vermesi"),
+                ],
+                sol(
+                  "Çözüm: Sıfırın altı negatif olduğundan sıcaklık -12 Fahrenheit derece yazılır. Kazanç pozitif olduğu için +3 yard yazılır. Deniz seviyesinin altı -1.302 feet, hesap açığı ise -40 dolar ile gösterilir.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.25",
+                [t("Futbol takımının "), m("5"), t(" yard kazancını tam sayıyla gösterin.")],
+              ),
+              ex(
+                "Sıra Sizde 3.26",
+                [
+                  t("Dalgıcın su yüzeyinin "),
+                  m("30"),
+                  t(" feet altında olmasını tam sayıyla gösterin."),
+                ],
+              ),
             ],
           },
         ],
