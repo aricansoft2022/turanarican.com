@@ -1,0 +1,12 @@
+.next
+node_modules
+dist
+.open-next
+.wrangler
+.env
+.env.local
+local.db
+local.db-*
+db/migrations
+tsconfig.tsbuildinfo
+npm-debug.log*

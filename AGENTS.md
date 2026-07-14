@@ -18,14 +18,16 @@ navigation, SEO, attribution, and ingestion workflows.
 
 - Current branch after the last handoff: `main`.
 - Last known production commit: `3fb4193 Make algebra lesson production ready`.
-- Current tracked app artifact: `İfadeleri Değerlendirme.dc.html`.
+- Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
+- Current tracked app artifact moved to
+  `reference/legacy/ifadeleri-degerlendirme.html`.
 - Removed prototype/export leftovers: `support.js`, `.thumbnail`.
 - Existing HTML demonstrates the intended red/black magazine-style lesson UI,
   Turkish text fixes, KaTeX rendering, single-scroll layout, and answer reveal
   behavior.
 
-Do not treat the single HTML file as the long-term implementation. It is the
-design and content reference to translate into a modular Next.js app.
+Do not treat the legacy HTML file as the long-term implementation. It is the
+design and content reference while the modular Next.js app takes over.
 
 ## Target Tech Stack
 
@@ -209,15 +211,15 @@ When resuming:
 
 Expected first build milestones:
 
-1. Scaffold Next.js + TypeScript + Tailwind.
-2. Preserve the current HTML lesson as `reference/legacy/` or transform it into
-   an initial seed lesson.
-3. Add Drizzle/Turso schema.
-4. Add crawler/ingestion scripts for LibreTexts TOC discovery.
-5. Add landing page with logo placeholder.
-6. Add book/chapter/lesson route shell with responsive drawer navigation.
-7. Add structured lesson renderer and answer reveal components.
-8. Seed one or two lessons end-to-end before mass ingestion.
+1. Scaffold Next.js + TypeScript + Tailwind. Done.
+2. Preserve the current HTML lesson as `reference/legacy/`. Done.
+3. Add Drizzle/Turso schema. Done.
+4. Add crawler/ingestion scripts for LibreTexts TOC discovery. Started.
+5. Add landing page with logo placeholder. Done.
+6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
+7. Add structured lesson renderer and answer reveal components. Started.
+8. Seed one or two lessons end-to-end before mass ingestion. One seed lesson
+   started; expand it next.
 
 ## Quality Gates
 
@@ -233,4 +235,3 @@ Before finalizing any implementation turn:
 - Answer reveals start closed.
 - No placeholder links like `href="#"`.
 - Attribution and license information remain visible.
-
