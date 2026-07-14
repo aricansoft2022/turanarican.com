@@ -1,0 +1,1 @@
+ALTER TABLE `lessons` ADD `objectives_json` text DEFAULT '[]' NOT NULL;

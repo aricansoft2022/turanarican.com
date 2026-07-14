@@ -41,6 +41,12 @@
         "sourceTitle": "Evaluate, Simplify, and Translate Expressions",
         "displayTitle": "İfadeleri Değerlendirme, Sadeleştirme ve Çevirme",
         "summary": "Değişkenleri sayılarla değiştirin, benzer terimleri birleştirin ve sözcük öbeklerini cebirsel ifadelere çevirin.",
+        "objectivesJson": [
+          "Cebirsel ifadeleri değerlendirin.",
+          "Terimleri, katsayıları ve benzer terimleri belirleyin.",
+          "Benzer terimleri birleştirerek ifadeleri sadeleştirin.",
+          "Sözcük öbeklerini cebirsel ifadelere çevirin."
+        ],
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions",
         "sortOrder": 3,
         "status": "draft",
@@ -55,6 +61,14 @@
         "sourceTitle": "Solving Equations Using the Subtraction and Addition Properties of Equality",
         "displayTitle": "Eşitliğin Çıkarma ve Toplama Özellikleriyle Denklem Çözme",
         "summary": "Bir sayının denklemin çözümü olup olmadığını kontrol edin, eşitliğin çıkarma ve toplama özellikleriyle denklemleri çözün ve sözel ifadeleri denklemlere çevirin.",
+        "objectivesJson": [
+          "Bir sayının bir denklemin çözümü olup olmadığını belirleyin.",
+          "Eşitliğin çıkarma özelliğini modelleyin.",
+          "Eşitliğin çıkarma özelliğini kullanarak denklemleri çözün.",
+          "Eşitliğin toplama özelliğini kullanarak denklemleri çözün.",
+          "Sözcük öbeklerini cebirsel denklemlere çevirin.",
+          "Bir denkleme çevirip çözün."
+        ],
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.04%3A_Solving_Equations_Using_the_Subtraction_and_Addition_Properties_of_Equality",
         "sortOrder": 4,
         "status": "draft",

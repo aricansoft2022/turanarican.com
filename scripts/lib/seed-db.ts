@@ -59,6 +59,7 @@ export const tableColumns = {
       sourceTitle: "source_title",
       displayTitle: "display_title",
       summary: "summary",
+      objectivesJson: "objectives_json",
       sourceUrl: "source_url",
       sortOrder: "sort_order",
       status: "status",

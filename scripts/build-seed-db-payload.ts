@@ -99,6 +99,7 @@ function buildPayload(fixture: SeedFixture) {
     sourceTitle: lesson.sourceTitle,
     displayTitle: lesson.displayTitle,
     summary: lesson.summary,
+    objectivesJson: lesson.objectives,
     sourceUrl: lesson.sourceUrl,
     sortOrder: lesson.sortOrder,
     status: "draft",

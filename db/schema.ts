@@ -67,6 +67,9 @@ export const lessons = sqliteTable(
     sourceTitle: text("source_title").notNull(),
     displayTitle: text("display_title").notNull(),
     summary: text("summary").notNull(),
+    objectivesJson: text("objectives_json", { mode: "json" })
+      .notNull()
+      .default(sql`'[]'`),
     sourceUrl: text("source_url").notNull(),
     sortOrder: integer("sort_order").notNull(),
     status: text("status").notNull().default("draft"),
