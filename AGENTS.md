@@ -122,6 +122,9 @@ and `2,5`.
   mathematically correct.
 - This is both an ingestion/adaptation concern and a render safety net; see
   `src/content/number-localization.ts`.
+- Current seed lessons may still render substantial English source text until
+  the Turkish adaptation/translation layer is implemented. This is temporary,
+  but should be treated as a product gap before real launch/content expansion.
 
 ## Data Model Direction
 
@@ -204,6 +207,11 @@ Keep enough source metadata for attribution and future recrawls.
 - Remove self-check sections.
 - Keep current single-scroll behavior concept: no accidental nested page
   scrollbars unless a drawer/modal intentionally scrolls.
+- Do not spend extra production time polishing the current frontend or taking
+  screenshot-review passes unless the user explicitly asks. The design will
+  change. When the implementation reaches the appropriate design replacement
+  step, ask the user for the new design files before doing frontend redesign
+  work.
 
 ## SEO Requirements
 
