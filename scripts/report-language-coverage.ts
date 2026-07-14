@@ -149,6 +149,20 @@ function collectInlineFragments(
     .join(" ");
 
   push(context, text);
+
+  const mathText = items
+    .filter((item) => item.type === "math")
+    .map((item) => extractMathText(item.value))
+    .filter(Boolean)
+    .join(" ");
+
+  push(`${context}:math-text`, mathText);
+}
+
+function extractMathText(value: string) {
+  return [...value.matchAll(/\\text\{([^}]*)\}/g)]
+    .map((match) => match[1])
+    .join(" ");
 }
 
 function ratio(part: number, total: number) {

@@ -13,7 +13,10 @@ import {
   parsedLessonBlocksToContentBlocks,
   type ParsedLessonContent,
 } from "./lesson-content";
-import { adaptExercisePromptToTurkish } from "./turkish-adaptation";
+import {
+  adaptContentBlocksToTurkish,
+  adaptExercisePromptToTurkish,
+} from "./turkish-adaptation";
 
 type LessonBuildInput = {
   book: Pick<Book, "id" | "slug" | "license">;
@@ -68,7 +71,9 @@ function buildLessonSection(
     heading,
     slug,
     level: 2,
-    blocks: parsedLessonBlocksToContentBlocks(section.blocks),
+    blocks: adaptContentBlocksToTurkish(
+      parsedLessonBlocksToContentBlocks(section.blocks),
+    ),
   };
 }
 

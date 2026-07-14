@@ -1,9 +1,57 @@
-import type { InlineContent } from "@/src/content/types";
+import type { ContentBlock, InlineContent } from "@/src/content/types";
+
+export function adaptContentBlocksToTurkish(
+  blocks: ContentBlock[],
+): ContentBlock[] {
+  return blocks.map((block) => {
+    if (block.type === "paragraph") {
+      return { ...block, text: adaptInlineContentToTurkish(block.text) };
+    }
+
+    if (block.type === "list") {
+      return {
+        ...block,
+        items: block.items.map(adaptInlineContentToTurkish),
+      };
+    }
+
+    if (block.type === "example") {
+      return {
+        ...block,
+        prompt: adaptInlineContentToTurkish(block.prompt),
+        solution: adaptContentBlocksToTurkish(block.solution),
+      };
+    }
+
+    if (block.type === "figure") {
+      return {
+        ...block,
+        caption: block.caption
+          ? adaptInlineContentToTurkish(block.caption)
+          : undefined,
+      };
+    }
+
+    if (block.type === "callout") {
+      return { ...block, blocks: adaptContentBlocksToTurkish(block.blocks) };
+    }
+
+    if (block.type === "table") {
+      return {
+        ...block,
+        columns: block.columns.map(adaptTexStringToTurkish),
+        rows: block.rows.map((row) => row.map(adaptTexStringToTurkish)),
+      };
+    }
+
+    return block;
+  });
+}
 
 export function adaptExercisePromptToTurkish(
   prompt: InlineContent[],
 ): InlineContent[] {
-  const normalizedPrompt = prompt.map(adaptMathTextToTurkish);
+  const normalizedPrompt = adaptInlineContentToTurkish(prompt);
 
   return (
     adaptMultiplesInstruction(normalizedPrompt) ??
@@ -57,15 +105,46 @@ export function adaptExercisePromptToTurkish(
   );
 }
 
+function adaptInlineContentToTurkish(items: InlineContent[]): InlineContent[] {
+  return items.map(adaptMathTextToTurkish);
+}
+
 function adaptMathTextToTurkish(item: InlineContent): InlineContent {
   if (item.type !== "math") return item;
 
   return {
     ...item,
-    value: item.value
-      .replace(/\\text\{and\}/g, "\\text{ve}")
-      .replace(/\\text\{when\}/g, "\\text{iken}"),
+    value: adaptTexStringToTurkish(item.value),
   };
+}
+
+function adaptTexStringToTurkish(value: string) {
+  return value
+    .replace(/\\text\{Evaluate\}/g, "\\text{Değerlendir}")
+    .replace(/\\text\{Determine whether\}/g, "\\text{Belirleyin}")
+    .replace(/\\text\{Eight added to\}/g, "\\text{Sekiz eklenmiş}")
+    .replace(/\\text\{Eight more than\}/g, "\\text{Sekiz fazla}")
+    .replace(/\\text\{Is\}/g, "\\text{}")
+    .replace(/\\text\{Is sum of digits divisible by\}/g, "\\text{Rakamlar toplamı bölünebilir mi}")
+    .replace(/\\text\{Multiple of 3\}/g, "\\text{3'ün katı}")
+    .replace(/\\text\{Multiples of\}/g, "\\text{Katları}")
+    .replace(/\\text\{Multiples\}/g, "\\text{Katlar}")
+    .replace(/\\text\{Seven less than\}/g, "\\text{Yedi eksik}")
+    .replace(/\\text\{Seven subtracted from\}/g, "\\text{Yedi çıkarılmış}")
+    .replace(/\\text\{Sum of digits\}/g, "\\text{Rakamlar toplamı}")
+    .replace(/\\text\{a solution of\}/g, "\\text{denklemin çözümü mü}")
+    .replace(/\\text\{and\}/g, "\\text{ve}")
+    .replace(/\\text\{and 8\}/g, "\\text{ve 8}")
+    .replace(/\\text\{are like terms\.\}/g, "\\text{benzer terimlerdir.}")
+    .replace(/\\text\{by\}/g, "\\text{ile}")
+    .replace(/\\text\{divide\}/g, "\\text{böl}")
+    .replace(/\\text\{is a solution of\}/g, "\\text{denklemin çözümüdür}")
+    .replace(/\\text\{minus\}/g, "\\text{eksi}")
+    .replace(/\\text\{of\}/g, "\\text{}")
+    .replace(/\\text\{or\}/g, "\\text{veya}")
+    .replace(/\\text\{the difference\}/g, "\\text{fark}")
+    .replace(/\\text\{the quotient of\}/g, "\\text{bölüm}")
+    .replace(/\\text\{when\}/g, "\\text{iken}");
 }
 
 function adaptPlainInstruction(

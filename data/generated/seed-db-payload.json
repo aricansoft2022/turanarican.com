@@ -313,7 +313,7 @@
               },
               {
                 "type": "math",
-                "value": "y+4 \\text{when}"
+                "value": "y+4 \\text{iken}"
               },
               {
                 "type": "text",
@@ -344,7 +344,7 @@
               },
               {
                 "type": "math",
-                "value": "a-5 \\text{when}"
+                "value": "a-5 \\text{iken}"
               },
               {
                 "type": "text",
@@ -375,7 +375,7 @@
               },
               {
                 "type": "math",
-                "value": "9x-2,\\text{when}"
+                "value": "9x-2,\\text{iken}"
               },
               {
                 "type": "text",
@@ -575,7 +575,7 @@
               },
               {
                 "type": "math",
-                "value": "8x-3,\\text{when}"
+                "value": "8x-3,\\text{iken}"
               },
               {
                 "type": "text",
@@ -606,7 +606,7 @@
               },
               {
                 "type": "math",
-                "value": "4y-4,\\text{when}"
+                "value": "4y-4,\\text{iken}"
               },
               {
                 "type": "text",
@@ -727,7 +727,7 @@
               },
               {
                 "type": "math",
-                "value": "x^{2} \\text{when} x=8."
+                "value": "x^{2} \\text{iken} x=8."
               }
             ],
             "solution": []
@@ -742,7 +742,7 @@
               },
               {
                 "type": "math",
-                "value": "x^{3} \\text{when} x=6."
+                "value": "x^{3} \\text{iken} x=6."
               }
             ],
             "solution": []
@@ -753,7 +753,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Evaluate} 2^{x} \\text{when} x=5."
+                "value": "\\text{Değerlendir} 2^{x} \\text{iken} x=5."
               }
             ],
             "solution": [
@@ -819,7 +819,7 @@
               },
               {
                 "type": "math",
-                "value": "2^{x} \\text{when} x=6."
+                "value": "2^{x} \\text{iken} x=6."
               }
             ],
             "solution": []
@@ -834,7 +834,7 @@
               },
               {
                 "type": "math",
-                "value": "3^{x} \\text{when} x=4."
+                "value": "3^{x} \\text{iken} x=4."
               }
             ],
             "solution": []
@@ -845,7 +845,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Evaluate} 3x+4y-6 \\text{when} x=10 \\text{and} y=2."
+                "value": "\\text{Değerlendir} 3x+4y-6 \\text{iken} x=10 \\text{ve} y=2."
               }
             ],
             "solution": [
@@ -919,7 +919,7 @@
               },
               {
                 "type": "math",
-                "value": "2x+5y-4 \\text{when} x=11 \\text{and} y=3"
+                "value": "2x+5y-4 \\text{iken} x=11 \\text{ve} y=3"
               }
             ],
             "solution": []
@@ -934,7 +934,7 @@
               },
               {
                 "type": "math",
-                "value": "5x-2y-9 \\text{when} x=7 \\text{and} y=8"
+                "value": "5x-2y-9 \\text{iken} x=7 \\text{ve} y=8"
               }
             ],
             "solution": []
@@ -945,7 +945,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Evaluate} 2x^{2}+3x+8 \\text{when} x=4."
+                "value": "\\text{Değerlendir} 2x^{2}+3x+8 \\text{iken} x=4."
               }
             ],
             "solution": [
@@ -1013,7 +1013,7 @@
               },
               {
                 "type": "math",
-                "value": "3x^{2}+4x+1 \\text{when} x=3."
+                "value": "3x^{2}+4x+1 \\text{iken} x=3."
               }
             ],
             "solution": []
@@ -1028,7 +1028,7 @@
               },
               {
                 "type": "math",
-                "value": "6x^{2}-4x-7 \\text{when} x=2."
+                "value": "6x^{2}-4x-7 \\text{iken} x=2."
               }
             ],
             "solution": []
@@ -1052,7 +1052,7 @@
               },
               {
                 "type": "math",
-                "value": "7,y,5x^{2},9a,\\text{and} 13xy."
+                "value": "7,y,5x^{2},9a,\\text{ve} 13xy."
               }
             ]
           },
@@ -1415,7 +1415,7 @@
             "text": [
               {
                 "type": "math",
-                "value": "7 \\text{and} 4 \\text{are like terms.}"
+                "value": "7 \\text{ve} 4 \\text{benzer terimlerdir.}"
               }
             ]
           },
@@ -1424,7 +1424,7 @@
             "text": [
               {
                 "type": "math",
-                "value": "5x \\text{and} 3x \\text{are like terms.}"
+                "value": "5x \\text{ve} 3x \\text{benzer terimlerdir.}"
               }
             ]
           },
@@ -1433,7 +1433,7 @@
             "text": [
               {
                 "type": "math",
-                "value": "n^{2} \\text{and} 9n^{2} \\text{are like terms.}"
+                "value": "n^{2} \\text{ve} 9n^{2} \\text{benzer terimlerdir.}"
               }
             ]
           },
@@ -1623,7 +1623,7 @@
                   },
                   {
                     "type": "math",
-                    "value": "4x^{2},2x,5x^{2},6x,40x,\\text{and} 8xy"
+                    "value": "4x^{2},2x,5x^{2},6x,40x,\\text{ve} 8xy"
                   }
                 ]
               },
@@ -1665,7 +1665,7 @@
                   },
                   {
                     "type": "math",
-                    "value": "2x,6x,\\text{and} 40x"
+                    "value": "2x,6x,\\text{ve} 40x"
                   },
                   {
                     "type": "text",
@@ -2230,7 +2230,7 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}\\text{the difference} \\text{of} 20 and 4 \\\\ 20 \\text{minus} 4 \\\\ 20-4\\end{array}"
+                    "value": "\\begin{array}{l}\\text{fark} \\text{} 20 and 4 \\\\ 20 \\text{eksi} 4 \\\\ 20-4\\end{array}"
                   }
                 ]
               },
@@ -2248,7 +2248,7 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}\\text{the quotient of} 10x \\text{and} 3 \\\\ \\text{divide} 10x \\text{by} 3 \\\\ 10x\\div3\\end{array}"
+                    "value": "\\begin{array}{l}\\text{bölüm} 10x \\text{ve} 3 \\\\ \\text{böl} 10x \\text{ile} 3 \\\\ 10x\\div3\\end{array}"
                   }
                 ]
               },
@@ -2261,7 +2261,7 @@
                   },
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}10x/3 \\text{or} \\frac{10x}{3}\\end{array}"
+                    "value": "\\begin{array}{l}10x/3 \\text{veya} \\frac{10x}{3}\\end{array}"
                   }
                 ]
               }
@@ -2415,7 +2415,7 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}\\text{Eight more than} y \\\\ \\text{Eight added to} y \\\\ y+8\\end{array}"
+                    "value": "\\begin{array}{l}\\text{Sekiz fazla} y \\\\ \\text{Sekiz eklenmiş} y \\\\ y+8\\end{array}"
                   }
                 ]
               },
@@ -2433,7 +2433,7 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "\\begin{array}{l}\\text{Seven less than} 9z \\\\ \\text{Seven subtracted from} 9z \\\\ 9z-7\\end{array}"
+                    "value": "\\begin{array}{l}\\text{Yedi eksik} 9z \\\\ \\text{Yedi çıkarılmış} 9z \\\\ 9z-7\\end{array}"
                   }
                 ]
               }
@@ -2699,7 +2699,7 @@
               },
               {
                 "type": "math",
-                "value": "x \\text{and 8}"
+                "value": "x \\text{ve 8}"
               },
               {
                 "type": "text",
@@ -2707,7 +2707,7 @@
               },
               {
                 "type": "math",
-                "value": "x \\text{and} 8"
+                "value": "x \\text{ve} 8"
               }
             ],
             "solution": []
@@ -3066,7 +3066,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Determine whether} x=5 \\text{is a solution of} 6x-17=16."
+                "value": "\\text{Belirleyin} x=5 \\text{denklemin çözümüdür} 6x-17=16."
               }
             ],
             "solution": [
@@ -3111,7 +3111,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Is} x=3 \\text{a solution of} 4x-7=16\\text{?}"
+                "value": "\\text{} x=3 \\text{denklemin çözümü mü} 4x-7=16\\text{?}"
               }
             ],
             "solution": []
@@ -3122,7 +3122,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Is} x=2 \\text{a solution of} 6x-2=10\\text{?}"
+                "value": "\\text{} x=2 \\text{denklemin çözümü mü} 6x-2=10\\text{?}"
               }
             ],
             "solution": []
@@ -3133,7 +3133,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Determine whether} y=2 \\text{is a solution of} 6y-4=5y-2."
+                "value": "\\text{Belirleyin} y=2 \\text{denklemin çözümüdür} 6y-4=5y-2."
               }
             ],
             "solution": [
@@ -3207,7 +3207,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Is} y=3 \\text{a solution of} 9y-2=8y+1\\text{?}"
+                "value": "\\text{} y=3 \\text{denklemin çözümü mü} 9y-2=8y+1\\text{?}"
               }
             ],
             "solution": []
@@ -3218,7 +3218,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "\\text{Is} y=4 \\text{a solution of} 5y-3=3y+5\\text{?}"
+                "value": "\\text{} y=4 \\text{denklemin çözümü mü} 5y-3=3y+5\\text{?}"
               }
             ],
             "solution": []
@@ -4877,7 +4877,7 @@
             ],
             "rows": [
               [
-                "\\text{Multiples}\\text{of} 2",
+                "\\text{Katlar}\\text{} 2",
                 "2",
                 "4",
                 "6",
@@ -4892,7 +4892,7 @@
                 "24"
               ],
               [
-                "\\text{Multiples of} 3",
+                "\\text{Katları} 3",
                 "3",
                 "6",
                 "9",
@@ -4907,7 +4907,7 @@
                 "36"
               ],
               [
-                "\\text{Multiples of} 4",
+                "\\text{Katları} 4",
                 "4",
                 "8",
                 "12",
@@ -4922,7 +4922,7 @@
                 "48"
               ],
               [
-                "\\text{Multiples of} 5",
+                "\\text{Katları} 5",
                 "5",
                 "10",
                 "15",
@@ -4937,7 +4937,7 @@
                 "60"
               ],
               [
-                "\\text{Multiples of} 6",
+                "\\text{Katları} 6",
                 "6",
                 "12",
                 "18",
@@ -4952,7 +4952,7 @@
                 "72"
               ],
               [
-                "\\text{Multiples of} 7",
+                "\\text{Katları} 7",
                 "7",
                 "14",
                 "21",
@@ -4967,7 +4967,7 @@
                 "84"
               ],
               [
-                "\\text{Multiples of} 8",
+                "\\text{Katları} 8",
                 "8",
                 "16",
                 "24",
@@ -4982,7 +4982,7 @@
                 "96"
               ],
               [
-                "\\text{Multiples of} 9",
+                "\\text{Katları} 9",
                 "9",
                 "18",
                 "27",
@@ -5007,7 +5007,7 @@
               },
               {
                 "type": "math",
-                "value": "2,5,10,\\text{and} 3"
+                "value": "2,5,10,\\text{ve} 3"
               },
               {
                 "type": "text",
@@ -5087,7 +5087,7 @@
               },
               {
                 "type": "math",
-                "value": "0,2,4,6,\\text{or} 8."
+                "value": "0,2,4,6,\\text{veya} 8."
               },
               {
                 "type": "text",
@@ -5111,7 +5111,7 @@
               },
               {
                 "type": "math",
-                "value": "0,2,4,6, \\text{or} 8,"
+                "value": "0,2,4,6, \\text{veya} 8,"
               },
               {
                 "type": "text",
@@ -5707,7 +5707,7 @@
               },
               {
                 "type": "math",
-                "value": "2,5,\\text{and} 10."
+                "value": "2,5,\\text{ve} 10."
               }
             ]
           },
@@ -5759,7 +5759,7 @@
             "columns": [],
             "rows": [
               [
-                "\\text{Multiple of 3}",
+                "\\text{3'ün katı}",
                 "3",
                 "6",
                 "9",
@@ -5770,7 +5770,7 @@
                 "24"
               ],
               [
-                "\\text{Sum of digits}",
+                "\\text{Rakamlar toplamı}",
                 "3",
                 "6",
                 "9",
@@ -6212,7 +6212,7 @@
               ],
               [
                 "2",
-                "if the last digit is 0, 2, 4, 6, \\text{or} 8"
+                "if the last digit is 0, 2, 4, 6, \\text{veya} 8"
               ],
               [
                 "3",
@@ -6250,7 +6250,7 @@
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{and} 10."
+                "value": "2,3,5,\\text{ve} 10."
               }
             ],
             "solution": [
@@ -6282,13 +6282,13 @@
                 "rows": [
                   [
                     "2",
-                    "Is last digit 0, 2, 4, 6, \\text{or} 8? Yes.",
+                    "Is last digit 0, 2, 4, 6, \\text{veya} 8? Yes.",
                     "yes",
                     "1290\\div2=645"
                   ],
                   [
                     "3",
-                    "\\text{Is sum of digits divisible by} 3? 1+2+9+0=12 Yes.",
+                    "\\text{Rakamlar toplamı bölünebilir mi} 3? 1+2+9+0=12 Yes.",
                     "yes",
                     "1290\\div3=430"
                   ],
@@ -6325,7 +6325,7 @@
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{and} 10."
+                "value": "2,3,5,\\text{ve} 10."
               }
             ]
           },
@@ -6339,7 +6339,7 @@
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{and} 10."
+                "value": "2,3,5,\\text{ve} 10."
               },
               {
                 "type": "math",
@@ -6358,7 +6358,7 @@
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{and} 10."
+                "value": "2,3,5,\\text{ve} 10."
               },
               {
                 "type": "math",
@@ -6385,7 +6385,7 @@
               },
               {
                 "type": "math",
-                "value": "2,3,5,\\text{and} 10."
+                "value": "2,3,5,\\text{ve} 10."
               }
             ],
             "solution": [
@@ -6417,13 +6417,13 @@
                 "rows": [
                   [
                     "2",
-                    "Is last digit 0, 2, 4, 6, \\text{or} 8? No.",
+                    "Is last digit 0, 2, 4, 6, \\text{veya} 8? No.",
                     "no",
                     "5625\\div2=2812.5"
                   ],
                   [
                     "3",
-                    "\\text{Is sum of digits divisible by} 3? 5+6+2+5=18 Yes.",
+                    "\\text{Rakamlar toplamı bölünebilir mi} 3? 5+6+2+5=18 Yes.",
                     "yes",
                     "5625\\div3=1875"
                   ],
@@ -6498,7 +6498,7 @@
               },
               {
                 "type": "math",
-                "value": "\\text{by} 2,3,5,\\text{and} 10."
+                "value": "\\text{ile} 2,3,5,\\text{ve} 10."
               },
               {
                 "type": "math",
@@ -6517,7 +6517,7 @@
               },
               {
                 "type": "math",
-                "value": "\\text{by} 2,3,5,\\text{and} 10."
+                "value": "\\text{ile} 2,3,5,\\text{ve} 10."
               },
               {
                 "type": "math",
@@ -6932,7 +6932,7 @@
                 "text": [
                   {
                     "type": "math",
-                    "value": "1,2,3,4,6,8,9,12,18,24,36,\\text{and} 72"
+                    "value": "1,2,3,4,6,8,9,12,18,24,36,\\text{ve} 72"
                   }
                 ]
               }
@@ -7087,7 +7087,7 @@
               },
               {
                 "type": "math",
-                "value": "2,3,5,7,11,13,17,\\text{and} 19."
+                "value": "2,3,5,7,11,13,17,\\text{ve} 19."
               },
               {
                 "type": "text",
@@ -7160,7 +7160,7 @@
                 "rows": [
                   [
                     "2",
-                    "Last digit of 83 is not 0,2,4,6,\\text{or} 8.",
+                    "Last digit of 83 is not 0,2,4,6,\\text{veya} 8.",
                     "No."
                   ],
                   [
@@ -7190,7 +7190,7 @@
                   ],
                   [
                     "2",
-                    "Last digit is not 0,2,4,6,\\text{or} 8.",
+                    "Last digit is not 0,2,4,6,\\text{veya} 8.",
                     "No."
                   ],
                   [
