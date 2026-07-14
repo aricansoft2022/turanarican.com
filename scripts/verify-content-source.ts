@@ -15,22 +15,30 @@ import {
 import { buildLessonStructuredData } from "@/src/content/structured-data";
 
 import { applySqlMigrations } from "./lib/migrations";
-import { applySeedPayload, readSeedDatabasePayload } from "./lib/seed-db";
+import {
+  applySeedPayload,
+  readSeedDatabasePayload,
+  type SeedDatabasePayload,
+} from "./lib/seed-db";
 
 const siteUrl = "https://turanarican.com";
 
-const expectedLessonUrls = [
-  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/cebirsel-ifadeler`,
-  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/esitlik-ve-denklem`,
-  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/carpanlar-ve-katlar`,
-];
+type ExpectedContent = {
+  bookPaths: string[];
+  chapterPaths: string[];
+  lessonPaths: string[];
+  lessonUrls: string[];
+};
 
 async function main() {
-  await assertStaticSource();
-  await assertDatabaseSource();
+  const payload = await readSeedDatabasePayload();
+  const expected = buildExpectedContent(payload);
+
+  await assertStaticSource(expected);
+  await assertDatabaseSource(payload, expected);
 }
 
-async function assertStaticSource() {
+async function assertStaticSource(expected: ExpectedContent) {
   process.env.CONTENT_SOURCE = "static";
   delete process.env.TURSO_DATABASE_URL;
   delete process.env.TURSO_AUTH_TOKEN;
@@ -48,9 +56,9 @@ async function assertStaticSource() {
     );
   }
 
-  if (params.length !== expectedLessonUrls.length) {
+  if (params.length !== expected.lessonPaths.length) {
     throw new Error(
-      `Static content source expected ${expectedLessonUrls.length} lessons, got ${params.length}.`,
+      `Static content source expected ${expected.lessonPaths.length} lessons, got ${params.length}.`,
     );
   }
 
@@ -64,18 +72,18 @@ async function assertStaticSource() {
   }
 
   const book = await getContentBook("prealgebra-2e");
-  if (!book || book.chapters[0]?.lessons.length !== expectedLessonUrls.length) {
+  if (!book || book.chapters[0]?.lessons.length !== expected.lessonPaths.length) {
     throw new Error("Static content source did not expose the seeded book tree.");
   }
 
-  await assertSitemap("static", {
+  await assertSitemap("static", expected, {
     books: bookParams.length,
     chapters: chapterParams.length,
     lessons: params.length,
   });
 }
 
-async function assertDatabaseSource() {
+async function assertDatabaseSource(payload: SeedDatabasePayload, expected: ExpectedContent) {
   const tempDir = await mkdtemp(path.join(tmpdir(), "turan-content-source-"));
   const dbPath = path.join(tempDir, "content.db");
   const client = createClient({ url: `file:${dbPath}` });
@@ -83,7 +91,7 @@ async function assertDatabaseSource() {
   try {
     await client.execute("PRAGMA foreign_keys = ON");
     await applySqlMigrations(client);
-    await applySeedPayload(client, await readSeedDatabasePayload());
+    await applySeedPayload(client, payload);
   } finally {
     client.close();
   }
@@ -106,9 +114,9 @@ async function assertDatabaseSource() {
       );
     }
 
-    if (params.length !== expectedLessonUrls.length) {
+    if (params.length !== expected.lessonPaths.length) {
       throw new Error(
-        `Database content source expected ${expectedLessonUrls.length} lessons, got ${params.length}.`,
+        `Database content source expected ${expected.lessonPaths.length} lessons, got ${params.length}.`,
       );
     }
 
@@ -122,11 +130,11 @@ async function assertDatabaseSource() {
     }
 
     const book = await getContentBook("prealgebra-2e");
-    if (!book || book.chapters[0]?.lessons.length !== expectedLessonUrls.length) {
+    if (!book || book.chapters[0]?.lessons.length !== expected.lessonPaths.length) {
       throw new Error("Database content source did not expose the seeded book tree.");
     }
 
-    await assertSitemap("database", {
+    await assertSitemap("database", expected, {
       books: bookParams.length,
       chapters: chapterParams.length,
       lessons: params.length,
@@ -138,7 +146,7 @@ async function assertDatabaseSource() {
         {
           staticBooks: 1,
           staticChapters: 1,
-          staticLessons: expectedLessonUrls.length,
+          staticLessons: expected.lessonPaths.length,
           databaseBooks: bookParams.length,
           databaseChapters: chapterParams.length,
           databaseLessons: params.length,
@@ -155,6 +163,7 @@ async function assertDatabaseSource() {
 
 async function assertSitemap(
   source: string,
+  expectedContent: ExpectedContent,
   expected: { books: number; chapters: number; lessons: number },
 ) {
   const entries = await sitemap();
@@ -169,14 +178,64 @@ async function assertSitemap(
 
   for (const url of [
     siteUrl,
-    `${siteUrl}/kitap/prealgebra-2e`,
-    `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris`,
-    ...expectedLessonUrls,
+    ...expectedContent.bookPaths.map((item) => `${siteUrl}${item}`),
+    ...expectedContent.chapterPaths.map((item) => `${siteUrl}${item}`),
+    ...expectedContent.lessonUrls,
   ]) {
     if (!urls.has(url)) {
       throw new Error(`${source} sitemap is missing URL: ${url}`);
     }
   }
+}
+
+function buildExpectedContent(payload: SeedDatabasePayload): ExpectedContent {
+  const books = payload.rows.books ?? [];
+  const chapters = payload.rows.chapters ?? [];
+  const lessons = payload.rows.lessons ?? [];
+
+  const bookById = new Map(books.map((book) => [stringField(book, "id"), book]));
+  const chapterById = new Map(
+    chapters.map((chapter) => [stringField(chapter, "id"), chapter]),
+  );
+
+  const bookPaths = books.map((book) => `/kitap/${stringField(book, "slug")}`);
+  const chapterPaths = chapters.map((chapter) => {
+    const book = bookById.get(stringField(chapter, "bookId"));
+    if (!book) {
+      throw new Error(`Expected content is missing book for chapter ${chapter.id}.`);
+    }
+
+    return `/kitap/${stringField(book, "slug")}/${stringField(chapter, "slug")}`;
+  });
+  const lessonPaths = lessons.map((lesson) => {
+    const chapter = chapterById.get(stringField(lesson, "chapterId"));
+    if (!chapter) {
+      throw new Error(`Expected content is missing chapter for lesson ${lesson.id}.`);
+    }
+
+    const book = bookById.get(stringField(chapter, "bookId"));
+    if (!book) {
+      throw new Error(`Expected content is missing book for lesson ${lesson.id}.`);
+    }
+
+    return `/kitap/${stringField(book, "slug")}/${stringField(chapter, "slug")}/${stringField(lesson, "slug")}`;
+  });
+
+  return {
+    bookPaths,
+    chapterPaths,
+    lessonPaths,
+    lessonUrls: lessonPaths.map((item) => `${siteUrl}${item}`),
+  };
+}
+
+function stringField(row: Record<string, unknown>, key: string) {
+  const value = row[key];
+  if (typeof value !== "string" || !value) {
+    throw new Error(`Expected seed payload field ${key} to be a non-empty string.`);
+  }
+
+  return value;
 }
 
 function assertLessonEntry(

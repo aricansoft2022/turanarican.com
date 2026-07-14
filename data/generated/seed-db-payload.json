@@ -93,6 +93,24 @@
         "sortOrder": 5,
         "status": "draft",
         "rawHash": "182ba08b5ddda1d77233014e7d7ae5642dc8ba83f06d84498365ae24146667f0"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm",
+        "chapterId": "chapter-language-of-algebra",
+        "slug": "asal-carpanlar-ve-ekok",
+        "sourceNumber": "2.6",
+        "displayNumber": "2.5",
+        "sourceTitle": "Prime Factorization and the Least Common Multiple",
+        "displayTitle": "Asal Çarpanlar ve EKOK",
+        "summary": "Bileşik sayıları asal çarpanlarına ayırın ve iki sayının en küçük ortak katını farklı yöntemlerle bulun.",
+        "objectivesJson": [
+          "Bileşik sayıları asal çarpanlarına ayırabileceksiniz.",
+          "İki doğal sayının en küçük ortak katını (EKOK) bulabileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.06%3A_Prime_Factorization_and_the_Least_Common_Multiple",
+        "sortOrder": 6,
+        "status": "draft",
+        "rawHash": "2af6cd5137bbc3d825431709eaf28d85767b3f7f3e7b6658efc471fdf69f3df5"
       }
     ],
     "lessonSections": [
@@ -8715,6 +8733,1290 @@
             ]
           }
         ]
+      },
+      {
+        "id": "asal-carpanlar-ve-ekok-section-01",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "heading": "Asal Çarpanlara Ayırma",
+        "slug": "asal-carpanlara-ayirma",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Önceki derste bir sayının çarpanlarını bulduk. Asal sayıların yalnızca iki çarpanı vardır: 1 ve sayının kendisi. Bileşik sayıların ise ikiden fazla çarpanı vardır ve her bileşik sayı asal sayıların çarpımı olarak tek bir biçimde yazılabilir. Buna sayının asal çarpanlara ayrılması denir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Asal çarpanlara ayırma, sonraki konularda özellikle kesirlerle işlem yaparken ve ortak kat bulurken işe yarar."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bu derste çalışırken 50'den küçük asal sayıları hatırlamak yararlı olur: "
+              },
+              {
+                "type": "math",
+                "value": "2,3,5,7,11,13,17,19,23,29,31,37,41,43,47"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asal-carpanlar-ve-ekok-section-02",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "heading": "Çarpan Ağacı Yöntemi",
+        "slug": "carpan-agaci-yontemi",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir sayıyı asal çarpanlarına ayırmanın yollarından biri çarpan ağacı oluşturmaktır. Sayıyı iki çarpanın çarpımı olarak yazar, asal olmayan çarpanları aynı şekilde ayırmaya devam ederiz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir dal asal sayıyla bittiğinde o dal tamamlanır. Bütün dallar asal sayılarla bittiğinde, elde edilen asal sayıların çarpımı başlangıçtaki sayının asal çarpanlara ayrılmış biçimidir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "36"
+              },
+              {
+                "type": "text",
+                "value": " için "
+              },
+              {
+                "type": "math",
+                "value": "36=3\\cdot12"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "12=3\\cdot4"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "4=2\\cdot2"
+              },
+              {
+                "type": "text",
+                "value": " yazabiliriz. Böylece "
+              },
+              {
+                "type": "math",
+                "value": "36=2\\cdot2\\cdot3\\cdot3=2^{2}\\cdot3^{2}"
+              },
+              {
+                "type": "text",
+                "value": " olur."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.48",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "48"
+              },
+              {
+                "type": "text",
+                "value": " sayısını çarpan ağacı yöntemiyle asal çarpanlarına ayırın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir çarpan çiftiyle başlayalım: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "48=2\\cdot24"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " asal olduğu için tamamlanır; "
+                  },
+                  {
+                    "type": "math",
+                    "value": "24"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ise bileşiktir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "24=4\\cdot6"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4=2\\cdot2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6=2\\cdot3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olduğundan asal çarpanlar "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2,2,2,2,3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'tür."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bu nedenle "
+                  },
+                  {
+                    "type": "math",
+                    "value": "48=2\\cdot2\\cdot2\\cdot2\\cdot3=2^{4}\\cdot3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.95",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpan ağacı yöntemiyle asal çarpanlarına ayırın: "
+              },
+              {
+                "type": "math",
+                "value": "80"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 80'i çarpan ağacıyla 8·10 olarak ayırabiliriz. 8=2·2·2 ve 10=2·5 olduğundan 80=2⁴·5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.96",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpan ağacı yöntemiyle asal çarpanlarına ayırın: "
+              },
+              {
+                "type": "math",
+                "value": "60"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 60=6·10, 6=2·3 ve 10=2·5'tir. Asal çarpanlar 2, 2, 3 ve 5 olduğundan 60=2²·3·5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.49",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "84"
+              },
+              {
+                "type": "text",
+                "value": " sayısını çarpan ağacı yöntemiyle asal çarpanlarına ayırın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Önce "
+                  },
+                  {
+                    "type": "math",
+                    "value": "84=4\\cdot21"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yazabiliriz. Sonra "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4=2\\cdot2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "21=3\\cdot7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olarak ayrılır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bütün çarpanlar asal olduğundan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "84=2\\cdot2\\cdot3\\cdot7=2^{2}\\cdot3\\cdot7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.97",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpan ağacı yöntemiyle asal çarpanlarına ayırın: "
+              },
+              {
+                "type": "math",
+                "value": "126"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 126=2·63 ve 63=9·7=3·3·7 olduğundan 126=2·3²·7 biçiminde asal çarpanlarına ayrılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.98",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpan ağacı yöntemiyle asal çarpanlarına ayırın: "
+              },
+              {
+                "type": "math",
+                "value": "294"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 294=2·147, 147=3·49 ve 49=7·7'dir. Bu nedenle 294=2·3·7² olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asal-carpanlar-ve-ekok-section-03",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "heading": "Bölme Merdiveni Yöntemi",
+        "slug": "bolme-merdiveni-yontemi",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bölme merdiveni yöntemi, bileşik bir sayının asal çarpanlarını bulmanın başka bir yoludur. Sayıyı en küçük asal çarpanına böler, bölüm artık o asal sayıya bölünmeyene kadar devam ederiz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Sonra sıradaki asal çarpanla devam ederiz. Bölüm asal sayı olduğunda işlem biter. Merdivenin yanındaki ve tepesindeki asal sayılar çarpılarak asal çarpanlara ayrılmış biçim yazılır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "36"
+              },
+              {
+                "type": "text",
+                "value": " için "
+              },
+              {
+                "type": "math",
+                "value": "36\\div2=18"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "18\\div2=9"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "9\\div3=3"
+              },
+              {
+                "type": "text",
+                "value": " olur. Son bölüm asal olduğundan "
+              },
+              {
+                "type": "math",
+                "value": "36=2^{2}\\cdot3^{2}"
+              },
+              {
+                "type": "text",
+                "value": " bulunur."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.50",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "120"
+              },
+              {
+                "type": "text",
+                "value": " sayısını bölme merdiveni yöntemiyle asal çarpanlarına ayırın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "En küçük asal çarpan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dir. "
+                  },
+                  {
+                    "type": "math",
+                    "value": "120\\div2=60"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "60\\div2=30"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "30\\div2=15"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "15"
+                  },
+                  {
+                    "type": "text",
+                    "value": " artık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ye bölünmez; sıradaki asal olan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'e böleriz ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " kalır. "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " asal olduğu için "
+                  },
+                  {
+                    "type": "math",
+                    "value": "120=2^{3}\\cdot3\\cdot5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.99",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölme merdiveni yöntemiyle asal çarpanlarına ayırın: "
+              },
+              {
+                "type": "math",
+                "value": "80"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Bölme merdiveninde 80'i 2'ye art arda böleriz: 80, 40, 20, 10, 5. Son bölüm 5 asal olduğundan 80=2⁴·5'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.100",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölme merdiveni yöntemiyle asal çarpanlarına ayırın: "
+              },
+              {
+                "type": "math",
+                "value": "60"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 60'ı önce 2'ye böleriz: 60, 30, 15. Sonra 15'i 3'e böleriz ve 5 kalır. 5 asal olduğundan 60=2²·3·5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.51",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "48"
+              },
+              {
+                "type": "text",
+                "value": " sayısını bölme merdiveni yöntemiyle asal çarpanlarına ayırın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "48"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'i "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ye art arda böleriz: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "48,24,12,6,3"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Son bölüm "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " asal olduğundan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "48=2^{4}\\cdot3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.101",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölme merdiveni yöntemiyle asal çarpanlarına ayırın: "
+              },
+              {
+                "type": "math",
+                "value": "126"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 126'yı 2'ye bölünce 63 kalır. 63'ü 3'e, sonra tekrar 3'e böleriz ve 7 kalır. Bu yüzden 126=2·3²·7'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.102",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölme merdiveni yöntemiyle asal çarpanlarına ayırın: "
+              },
+              {
+                "type": "math",
+                "value": "294"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 294'ü 2'ye bölersek 147 kalır. 147=3·49 ve 49=7·7 olduğundan asal çarpanlara ayrılmış biçim 2·3·7² olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asal-carpanlar-ve-ekok-section-04",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "heading": "En Küçük Ortak Kat (EKOK)",
+        "slug": "en-kucuk-ortak-kat-ekok",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Katlar ve asal sayılarla çalışmamızın önemli nedenlerinden biri, iki sayının en küçük ortak katını bulabilmektir. EKOK özellikle farklı paydalı kesirlerle toplama ve çıkarma yaparken kullanılır."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asal-carpanlar-ve-ekok-section-05",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "heading": "Katları Listeleme Yöntemi",
+        "slug": "katlari-listeleme-yontemi",
+        "level": 2,
+        "sortOrder": 5,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "İki sayının ortak katı, her iki sayının da katı olan sayıdır. Katları listeleme yönteminde iki sayının katlarını yazar, iki listede de görünen ilk sayıyı seçeriz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "25"
+              },
+              {
+                "type": "text",
+                "value": " için katları yazarsak "
+              },
+              {
+                "type": "math",
+                "value": "50"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "100"
+              },
+              {
+                "type": "text",
+                "value": " ortak katlardır. En küçük ortak kat "
+              },
+              {
+                "type": "math",
+                "value": "50"
+              },
+              {
+                "type": "text",
+                "value": " olduğu için "
+              },
+              {
+                "type": "math",
+                "value": "\\operatorname{EKOK}(10,25)=50"
+              },
+              {
+                "type": "text",
+                "value": " olur."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.52",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "15"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "20"
+              },
+              {
+                "type": "text",
+                "value": " sayılarının EKOK'unu katları listeleyerek bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "15"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in katları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15,30,45,60,75,\\ldots"
+                  },
+                  {
+                    "type": "text",
+                    "value": "; "
+                  },
+                  {
+                    "type": "math",
+                    "value": "20"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin katları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "20,40,60,80,\\ldots"
+                  },
+                  {
+                    "type": "text",
+                    "value": " şeklindedir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İki listede görünen ilk sayı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "60"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olduğundan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\operatorname{EKOK}(15,20)=60"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.103",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Verilen sayıların EKOK'unu bulun: "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "12"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 9'un katları 9,18,27,36,...; 12'nin katları 12,24,36,... şeklindedir. İlk ortak kat 36 olduğu için EKOK(9,12)=36'dır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.104",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Verilen sayıların EKOK'unu bulun: "
+              },
+              {
+                "type": "math",
+                "value": "18"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "24"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 18'in katları 18,36,54,72,...; 24'ün katları 24,48,72,... şeklindedir. İlk ortak kat 72 olduğundan EKOK(18,24)=72 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asal-carpanlar-ve-ekok-section-06",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "heading": "Asal Çarpanlarla EKOK",
+        "slug": "asal-carpanlarla-ekok",
+        "level": 2,
+        "sortOrder": 6,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "İki sayının EKOK'unu bulmanın başka bir yolu asal çarpanları kullanmaktır. Her sayıyı asal çarpanlarına ayırır, ortak asal çarpanları bir kez sayacak biçimde en büyük kuvvetleri seçeriz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "12=2^{2}\\cdot3"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "18=2\\cdot3^{2}"
+              },
+              {
+                "type": "text",
+                "value": " olduğundan EKOK için "
+              },
+              {
+                "type": "math",
+                "value": "2^{2}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "3^{2}"
+              },
+              {
+                "type": "text",
+                "value": " alınır. Böylece "
+              },
+              {
+                "type": "math",
+                "value": "\\operatorname{EKOK}(12,18)=2^{2}\\cdot3^{2}=36"
+              },
+              {
+                "type": "text",
+                "value": " olur."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.53",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "15"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "18"
+              },
+              {
+                "type": "text",
+                "value": " sayılarının EKOK'unu asal çarpanlar yöntemiyle bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "15=3\\cdot5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "18=2\\cdot3^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dir. En büyük asal kuvvetler "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2,3^{2},5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olduğundan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\operatorname{EKOK}=2\\cdot3^{2}\\cdot5=90"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.105",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Asal çarpanlar yöntemiyle EKOK'u bulun: "
+              },
+              {
+                "type": "math",
+                "value": "15"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "20"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 15=3·5 ve 20=2²·5'tir. Her asal çarpanın en büyük kuvvetini alırız: 2²·3·5=60. Bu nedenle EKOK 60'tır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.106",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Asal çarpanlar yöntemiyle EKOK'u bulun: "
+              },
+              {
+                "type": "math",
+                "value": "15"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "35"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 15=3·5 ve 35=5·7'dir. Ortak 5'i bir kez, kalan 3 ve 7'yi de alırız: 3·5·7=105. EKOK 105'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.54",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "50"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "100"
+              },
+              {
+                "type": "text",
+                "value": " sayılarının EKOK'unu asal çarpanlar yöntemiyle bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "50=2\\cdot5^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "100=2^{2}\\cdot5^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dir. En büyük asal kuvvetleri aldığımızda "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\operatorname{EKOK}=2^{2}\\cdot5^{2}=100"
+                  },
+                  {
+                    "type": "text",
+                    "value": " bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.107",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Asal çarpanlar yöntemiyle EKOK'u bulun: "
+              },
+              {
+                "type": "math",
+                "value": "55,88"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 55=5·11 ve 88=2³·11'dir. En büyük asal kuvvetler 2³, 5 ve 11 olduğundan EKOK=2³·5·11=440 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.108",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Asal çarpanlar yöntemiyle EKOK'u bulun: "
+              },
+              {
+                "type": "math",
+                "value": "60,72"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 60=2²·3·5 ve 72=2³·3²'dir. En büyük kuvvetleri alırsak EKOK=2³·3²·5=360 bulunur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -11862,6 +13164,662 @@
         "sortOrder": 263,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-267",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-02",
+        "number": "267",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı çarpan ağacı yöntemiyle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "86"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 86 çift olduğu için 2'ye bölünür ve 43 kalır. 43 asal olduğundan 86=2·43 biçiminde asal çarpanlarına ayrılır."
+          }
+        ],
+        "sortOrder": 267,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-269",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-02",
+        "number": "269",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "132"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 132=2·66=2·2·33 ve 33=3·11'dir. Bu nedenle 132=2²·3·11 olur."
+          }
+        ],
+        "sortOrder": 269,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-271",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-02",
+        "number": "271",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "693"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 693'ün rakamları toplamı 18 olduğu için 3'e bölünür. 693=3·231=3·3·77 ve 77=7·11 olduğundan 693=3²·7·11 olur."
+          }
+        ],
+        "sortOrder": 271,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-273",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-02",
+        "number": "273",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "115"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 115 son basamağı 5 olduğu için 5'e bölünür. 115=5·23 ve 23 asal olduğundan asal çarpanlara ayrılmış biçim 5·23'tür."
+          }
+        ],
+        "sortOrder": 273,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-275",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-02",
+        "number": "275",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "2475"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2475=25·99 olarak ayrılabilir. 25=5² ve 99=9·11=3²·11 olduğundan 2475=3²·5²·11 olur."
+          }
+        ],
+        "sortOrder": 275,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-277",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-03",
+        "number": "277",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı bölme merdiveni yöntemiyle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "56"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 56'yı bölme merdiveninde 2'ye art arda böleriz: 56, 28, 14, 7. 7 asal olduğundan 56=2³·7 olur."
+          }
+        ],
+        "sortOrder": 277,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-279",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-03",
+        "number": "279",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı bölme merdiveni yöntemiyle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "168"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 168'i 2'ye üç kez böleriz: 168, 84, 42, 21. 21=3·7 olduğundan 168=2³·3·7 olur."
+          }
+        ],
+        "sortOrder": 279,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-281",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-03",
+        "number": "281",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı bölme merdiveni yöntemiyle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "391"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 391 sayısı 17·23 olarak yazılabilir. 17 ve 23 asal olduğundan asal çarpanlara ayrılmış biçim 17·23'tür."
+          }
+        ],
+        "sortOrder": 281,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-283",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-03",
+        "number": "283",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı bölme merdiveni yöntemiyle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "432"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 432=16·27 olarak düşünülebilir. 16=2⁴ ve 27=3³ olduğundan 432=2⁴·3³ olur."
+          }
+        ],
+        "sortOrder": 283,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-285",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-03",
+        "number": "285",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı bölme merdiveni yöntemiyle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "2160"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2160=216·10, 216=2³·3³ ve 10=2·5'tir. Bu nedenle 2160=2⁴·3³·5 olur."
+          }
+        ],
+        "sortOrder": 285,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-287",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-01",
+        "number": "287",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı istediğiniz yöntemle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "150"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 150=15·10, 15=3·5 ve 10=2·5'tir. Asal çarpanlar birleştirilirse 150=2·3·5² olur."
+          }
+        ],
+        "sortOrder": 287,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-289",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-01",
+        "number": "289",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı istediğiniz yöntemle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "525"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 525=21·25 olarak ayrılabilir. 21=3·7 ve 25=5² olduğundan 525=3·5²·7 olur."
+          }
+        ],
+        "sortOrder": 289,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-291",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-01",
+        "number": "291",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı istediğiniz yöntemle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "36"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 36=4·9, 4=2² ve 9=3² olduğundan 36=2²·3² biçiminde asal çarpanlarına ayrılır."
+          }
+        ],
+        "sortOrder": 291,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-293",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-01",
+        "number": "293",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayıyı istediğiniz yöntemle asal çarpanlarına ayırın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "350"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 350=35·10, 35=5·7 ve 10=2·5'tir. Bu nedenle 350=2·5²·7 olur."
+          }
+        ],
+        "sortOrder": 293,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-295",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-05",
+        "number": "295",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda katları listeleyerek en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "8,12"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 8'in katları 8,16,24,...; 12'nin katları 12,24,... şeklindedir. İlk ortak kat 24 olduğundan EKOK(8,12)=24'tür."
+          }
+        ],
+        "sortOrder": 295,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-297",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-05",
+        "number": "297",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda katları listeleyerek en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "6,15"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 6'nın katları 6,12,18,24,30,...; 15'in katları 15,30,... şeklindedir. İlk ortak kat 30 olduğu için EKOK 30'dur."
+          }
+        ],
+        "sortOrder": 297,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-299",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-05",
+        "number": "299",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda katları listeleyerek en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "30,40"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 30'un katları 30,60,90,120,...; 40'ın katları 40,80,120,... şeklindedir. İlk ortak kat 120 olduğundan EKOK 120'dir."
+          }
+        ],
+        "sortOrder": 299,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-301",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-05",
+        "number": "301",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda katları listeleyerek en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "60,75"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 60'ın katları 60,120,180,240,300,...; 75'in katları 75,150,225,300,... şeklindedir. İlk ortak kat 300'dür."
+          }
+        ],
+        "sortOrder": 301,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-303",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-06",
+        "number": "303",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda asal çarpanlar yöntemini kullanarak en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "8,12"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 8=2³ ve 12=2²·3'tür. En büyük asal kuvvetleri alırsak EKOK=2³·3=24 olur."
+          }
+        ],
+        "sortOrder": 303,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-305",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-06",
+        "number": "305",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda asal çarpanlar yöntemini kullanarak en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "24,30"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 24=2³·3 ve 30=2·3·5'tir. En büyük asal kuvvetleri alırız: 2³·3·5=120. EKOK 120'dir."
+          }
+        ],
+        "sortOrder": 305,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-307",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-06",
+        "number": "307",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda asal çarpanlar yöntemini kullanarak en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "70,84"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 70=2·5·7 ve 84=2²·3·7'dir. En büyük kuvvetleri alırsak EKOK=2²·3·5·7=420 olur."
+          }
+        ],
+        "sortOrder": 307,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-309",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-04",
+        "number": "309",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda istediğiniz yöntemle en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "6,21"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 6=2·3 ve 21=3·7'dir. Ortak 3 bir kez alınır, kalan 2 ve 7 eklenir: EKOK=2·3·7=42."
+          }
+        ],
+        "sortOrder": 309,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-311",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-04",
+        "number": "311",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda istediğiniz yöntemle en küçük ortak katı (EKOK) bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "24,30"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 24=2³·3 ve 30=2·3·5'tir. En büyük asal kuvvetler 2³, 3 ve 5 olduğundan EKOK=120 bulunur."
+          }
+        ],
+        "sortOrder": 311,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-exercise-313",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sectionId": "asal-carpanlar-ve-ekok-section-04",
+        "number": "313",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Market alışverişi: Sosisler 10'lu paketlerde, sosis ekmekleri ise 8'li paketlerde satılıyor. Aynı sayıda sosis ve ekmek almak istiyorsanız satın alınabilecek en küçük sosis ve ekmek sayısı kaçtır? İpucu: Bu sayı EKOK'tur."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Aynı sayıda sosis ve ekmek almak için 10 ve 8'in EKOK'unu buluruz. 10=2·5 ve 8=2³ olduğundan EKOK=2³·5=40'tır; en az 40 sosis ve 40 ekmek alınır."
+          }
+        ],
+        "sortOrder": 313,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -11886,6 +13844,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors",
         "httpStatus": 200,
         "contentHash": "182ba08b5ddda1d77233014e7d7ae5642dc8ba83f06d84498365ae24146667f0",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.06%3A_Prime_Factorization_and_the_Least_Common_Multiple",
+        "httpStatus": 200,
+        "contentHash": "2af6cd5137bbc3d825431709eaf28d85767b3f7f3e7b6658efc471fdf69f3df5",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -12867,6 +14833,188 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/56ab650a2648b226.json",
         "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/56ab650a2648b226.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-000-0db0a331c2a9dbba",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102646/01f7c27f8d160bdcd91aea4eed8c12b0d111c54d?revision=1",
+        "assetType": "image",
+        "altText": "The figure shows a factor tree with the number 36 at the top. Two branches are splitting out from under 36. The right branch has a number 3 at the end with a circle around it. The left branch has the number 12 at the end.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/000-0db0a331c2a9dbba.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/000-0db0a331c2a9dbba.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-001-9e18ff9c3bff7dbd",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102651/1fab8dcc5cf86a482da7c2e54478d838f8e428e6?revision=1",
+        "assetType": "image",
+        "altText": "The figure shows a factor tree with the number 36 at the top. Two branches are splitting out from under 36. The right branch has a number 3 at the end with a circle around it. The left branch has the number 12 at the end. Two more branches are splitting out from under 12. The right branch has the number 4 at the end and the left branch has the number 3 at the end.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/001-9e18ff9c3bff7dbd.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/001-9e18ff9c3bff7dbd.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-002-1d9e3e593eb1be0b",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102649/d212d89cedc3b2bd75e3a78c6a44c47abd710830?revision=1",
+        "assetType": "image",
+        "altText": "The figure shows a factor tree with the number 36 at the top. Two branches are splitting out from under 36. The right branch has a number 3 at the end with a circle around it. The left branch has the number 12 at the end. Two more branches are splitting out from under 12. The right branch has the number 4 at the end and the left branch has the number 3 at the end with a circle around it. Two more branches are splitting out from under 4. Both the left and right branch have the number 2 at the end with a circle around it.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/002-1d9e3e593eb1be0b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/002-1d9e3e593eb1be0b.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-008-952c0ed6f6c72a94",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102660/48eaa67c6f45118ada6bbd551722a003987ab72e?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the division of 2 into 36 to get the quotient 18. This division is represented using a division bracket with 2 on the outside left of the bracket, 36 inside the bracket and 18 above the 36, outside the bracket.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/008-952c0ed6f6c72a94.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/008-952c0ed6f6c72a94.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-009-2c1dc3566b06eb74",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102661/1ba8374736bec00f316833167ea05bfa272833d7?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the division of 2 into 36 to get the quotient 18. This division is represented using a division bracket with 2 on the outside left of the bracket, 36 inside the bracket and 18 above the 36, outside the bracket. Another division bracket is written around the 18 with a 2 on the outside left of the bracket and a 9 above the 18, outside of the bracket.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/009-2c1dc3566b06eb74.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/009-2c1dc3566b06eb74.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-010-2bd57ad20215caff",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102664/08345296e91dc1123465695f80ee5a5c6c4f423e?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the division of 2 into 36 to get the quotient 18. This division is represented using a division bracket with 2 on the outside left of the bracket, 36 inside the bracket and 18 above the 36, outside the bracket. Another division bracket is written around the 18 with a 2 on the outside left of the bracket and a 9 above the 18, outside of the bracket. Another division bracket is written around the 9 with a 3 on the outside left of the bracket and a 3 above the 9, outside of the bracket.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/010-2bd57ad20215caff.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/010-2bd57ad20215caff.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-016-eb1b5865404c5fc3",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102679/25149209881b3251897082f7f132799d0a2b211e?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the prime factorization of 12 written as the equation 12 equals 2 times 2 times 3. Below this equation is another showing the prime factorization of 18 written as the equation 18 equals 2 times 3 times 3. The two equations line up vertically at the equal symbol. The first 2 in the prime factorization of 12 aligns with the 2 in the prime factorization of 18. Under the second 2 in the prime factorization of 12 is a gap in the prime factorization of 18. Under the 3 in the prime factorization of 12 is the first 3 in the prime factorization of 18. The second 3 in the prime factorization has no factors above it from the prime factorization of 12. A horizontal line is drawn under the prime factorization of 18. Below this line is the equation LCM equal to 2 times 2 times 3 times 3. Arrows are drawn down vertically from the prime factorization of 12 through the prime factorization of 18 ending at the LCM equation. The first arrow starts at the first 2 in the prime factorization of 12 and continues down through the 2 in the prime factorization of 18. Ending with the first 2 in the LCM. The second arrow starts at the next 2 in the prime factorization of 12 and continues down through the gap in the prime factorization of 18. Ending with the second 2 in the LCM. The third arrow starts at the 3 in the prime factorization of 12 and continues down through the first 3 in the prime factorization of 18. Ending with the first 3 in the LCM. The last arrow starts at the second 3 in the prime factorization of 18 and points down to the second 3 in the LCM.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/016-eb1b5865404c5fc3.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/016-eb1b5865404c5fc3.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-a898f24ea1ce88b3",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.06%3A_Prime_Factorization_and_the_Least_Common_Multiple#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/a898f24ea1ce88b3.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/a898f24ea1ce88b3.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-63d90b2da5f6136b",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.06%3A_Prime_Factorization_and_the_Least_Common_Multiple#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/63d90b2da5f6136b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/63d90b2da5f6136b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-6a61435a79f2d3f0",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.06%3A_Prime_Factorization_and_the_Least_Common_Multiple#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/6a61435a79f2d3f0.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/6a61435a79f2d3f0.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-9a7c778ec08a7cf2",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.06%3A_Prime_Factorization_and_the_Least_Common_Multiple#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/9a7c778ec08a7cf2.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/9a7c778ec08a7cf2.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-e9219599ec03b761",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.06%3A_Prime_Factorization_and_the_Least_Common_Multiple#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/e9219599ec03b761.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/e9219599ec03b761.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-prime-factorization-lcm-asset-9e2d53e206fe74de",
+        "lessonId": "lesson-prime-factorization-lcm",
+        "sourceSnapshotId": "snapshot-2af6cd5137bbc3d8",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.06%3A_Prime_Factorization_and_the_Least_Common_Multiple#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/9e2d53e206fe74de.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-5-prime-factorization-and-the-least-common-multiple/9e2d53e206fe74de.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

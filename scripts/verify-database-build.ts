@@ -6,46 +6,50 @@ import path from "node:path";
 import { createClient } from "@libsql/client";
 
 import { applySqlMigrations } from "./lib/migrations";
-import { applySeedPayload, readSeedDatabasePayload } from "./lib/seed-db";
+import {
+  applySeedPayload,
+  readSeedDatabasePayload,
+  type SeedDatabasePayload,
+} from "./lib/seed-db";
 
-const expectedLessonPaths = [
-  "/kitap/prealgebra-2e/cebir-diline-giris/cebirsel-ifadeler",
-  "/kitap/prealgebra-2e/cebir-diline-giris/esitlik-ve-denklem",
-  "/kitap/prealgebra-2e/cebir-diline-giris/carpanlar-ve-katlar",
-];
-const expectedBookPaths = ["/kitap/prealgebra-2e"];
-const expectedChapterPaths = ["/kitap/prealgebra-2e/cebir-diline-giris"];
-const expectedPrerenderedPageCount = 8 + expectedLessonPaths.length;
+type ExpectedBuildPaths = {
+  bookPaths: string[];
+  chapterPaths: string[];
+  lessonPaths: string[];
+  prerenderedPageCount: number;
+};
 
 async function main() {
   const tempDir = await mkdtemp(path.join(tmpdir(), "turan-database-build-"));
   const dbPath = path.join(tempDir, "content.db");
   const databaseUrl = `file:${dbPath}`;
   const client = createClient({ url: databaseUrl });
+  const payload = await readSeedDatabasePayload();
+  const expected = buildExpectedBuildPaths(payload);
 
   try {
     await client.execute("PRAGMA foreign_keys = ON");
     await applySqlMigrations(client);
-    await applySeedPayload(client, await readSeedDatabasePayload());
+    await applySeedPayload(client, payload);
   } finally {
     client.close();
   }
 
   try {
     const output = await runBuild(databaseUrl);
-    assertBuildOutput(output);
+    assertBuildOutput(output, expected);
 
     console.log("Verified database content build.");
     console.log(
       JSON.stringify(
         {
-          books: expectedBookPaths.length,
-          chapters: expectedChapterPaths.length,
-          lessons: expectedLessonPaths.length,
+          books: expected.bookPaths.length,
+          chapters: expected.chapterPaths.length,
+          lessons: expected.lessonPaths.length,
           paths: [
-            ...expectedBookPaths,
-            ...expectedChapterPaths,
-            ...expectedLessonPaths,
+            ...expected.bookPaths,
+            ...expected.chapterPaths,
+            ...expected.lessonPaths,
           ],
         },
         null,
@@ -94,31 +98,81 @@ function runBuild(databaseUrl: string) {
   });
 }
 
-function assertBuildOutput(output: string) {
-  for (const bookPath of expectedBookPaths) {
+function assertBuildOutput(output: string, expected: ExpectedBuildPaths) {
+  for (const bookPath of expected.bookPaths) {
     if (!output.includes(bookPath)) {
       throw new Error(`Database content build did not include route: ${bookPath}`);
     }
   }
 
-  for (const chapterPath of expectedChapterPaths) {
+  for (const chapterPath of expected.chapterPaths) {
     if (!output.includes(chapterPath)) {
       throw new Error(`Database content build did not include route: ${chapterPath}`);
     }
   }
 
-  for (const lessonPath of expectedLessonPaths) {
+  for (const lessonPath of expected.lessonPaths) {
     if (!output.includes(lessonPath)) {
       throw new Error(`Database content build did not include route: ${lessonPath}`);
     }
   }
 
   const pageCountPattern = new RegExp(
-    `Generating static pages using \\d+ workers \\(${expectedPrerenderedPageCount}\\/${expectedPrerenderedPageCount}\\)`,
+    `Generating static pages using \\d+ workers \\(${expected.prerenderedPageCount}\\/${expected.prerenderedPageCount}\\)`,
   );
   if (!pageCountPattern.test(output)) {
     throw new Error("Database content build did not prerender the expected page count.");
   }
+}
+
+function buildExpectedBuildPaths(payload: SeedDatabasePayload): ExpectedBuildPaths {
+  const books = payload.rows.books ?? [];
+  const chapters = payload.rows.chapters ?? [];
+  const lessons = payload.rows.lessons ?? [];
+
+  const bookById = new Map(books.map((book) => [stringField(book, "id"), book]));
+  const chapterById = new Map(
+    chapters.map((chapter) => [stringField(chapter, "id"), chapter]),
+  );
+
+  const bookPaths = books.map((book) => `/kitap/${stringField(book, "slug")}`);
+  const chapterPaths = chapters.map((chapter) => {
+    const book = bookById.get(stringField(chapter, "bookId"));
+    if (!book) {
+      throw new Error(`Expected build paths are missing book for chapter ${chapter.id}.`);
+    }
+
+    return `/kitap/${stringField(book, "slug")}/${stringField(chapter, "slug")}`;
+  });
+  const lessonPaths = lessons.map((lesson) => {
+    const chapter = chapterById.get(stringField(lesson, "chapterId"));
+    if (!chapter) {
+      throw new Error(`Expected build paths are missing chapter for lesson ${lesson.id}.`);
+    }
+
+    const book = bookById.get(stringField(chapter, "bookId"));
+    if (!book) {
+      throw new Error(`Expected build paths are missing book for lesson ${lesson.id}.`);
+    }
+
+    return `/kitap/${stringField(book, "slug")}/${stringField(chapter, "slug")}/${stringField(lesson, "slug")}`;
+  });
+
+  return {
+    bookPaths,
+    chapterPaths,
+    lessonPaths,
+    prerenderedPageCount: 8 + lessonPaths.length,
+  };
+}
+
+function stringField(row: Record<string, unknown>, key: string) {
+  const value = row[key];
+  if (typeof value !== "string" || !value) {
+    throw new Error(`Expected seed payload field ${key} to be a non-empty string.`);
+  }
+
+  return value;
 }
 
 main().catch((error) => {

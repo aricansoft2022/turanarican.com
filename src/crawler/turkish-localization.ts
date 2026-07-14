@@ -63,6 +63,7 @@ export function localizeExercisePromptForTurkish(
     adaptAlgebraicEquationSentenceExercise(normalizedPrompt) ??
     adaptAlgebraicExpressionWritingExercise(normalizedPrompt) ??
     adaptCarInsuranceExpressionProblem(normalizedPrompt) ??
+    adaptGroceryLcmExercise(normalizedPrompt) ??
     adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
     adaptPlainInstruction(
       normalizedPrompt,
@@ -121,11 +122,57 @@ export function localizeExercisePromptForTurkish(
     ) ??
     adaptPlainInstruction(
       normalizedPrompt,
+      "In the following exercises, find the prime factorization of each number using the factor tree method.",
+      "Aşağıdaki alıştırmalarda her sayıyı çarpan ağacı yöntemiyle asal çarpanlarına ayırın.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, find the prime factorization of each number using the ladder method.",
+      "Aşağıdaki alıştırmalarda her sayıyı bölme merdiveni yöntemiyle asal çarpanlarına ayırın.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, find the prime factorization of each number using any method.",
+      "Aşağıdaki alıştırmalarda her sayıyı istediğiniz yöntemle asal çarpanlarına ayırın.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, find the least common multiple (LCM) by listing multiples.",
+      "Aşağıdaki alıştırmalarda katları listeleyerek en küçük ortak katı (EKOK) bulun.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, find the least common multiple (LCM) by using the prime factors method.",
+      "Aşağıdaki alıştırmalarda asal çarpanlar yöntemini kullanarak en küçük ortak katı (EKOK) bulun.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, find the least common multiple (LCM) using any method.",
+      "Aşağıdaki alıştırmalarda istediğiniz yöntemle en küçük ortak katı (EKOK) bulun.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
       "In the following exercises, determine if the given number is prime or composite.",
       "Aşağıdaki alıştırmalarda verilen sayının asal mı bileşik mi olduğunu belirleyin.",
     ) ??
     normalizedPrompt
   );
+}
+
+function adaptGroceryLcmExercise(prompt: InlineContent[]): InlineContent[] | null {
+  const text = inlineText(prompt);
+
+  if (!text.startsWith("Grocery shopping Hot dogs are sold in packages of ten")) {
+    return null;
+  }
+
+  return [
+    {
+      type: "text",
+      value:
+        "Market alışverişi: Sosisler 10'lu paketlerde, sosis ekmekleri ise 8'li paketlerde satılıyor. Aynı sayıda sosis ve ekmek almak istiyorsanız satın alınabilecek en küçük sosis ve ekmek sayısı kaçtır? İpucu: Bu sayı EKOK'tur.",
+    },
+  ] satisfies InlineContent[];
 }
 
 function adaptAlgebraicExpressionWritingExercise(

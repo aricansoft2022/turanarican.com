@@ -94,6 +94,7 @@ function assertEditorialPatchReport(
       sectionFound: boolean;
       replacements: Array<{
         sourceBlockIndex: number;
+        replacementBlocks: number;
         blockFoundAfterBuild: boolean;
       }>;
     }>;
@@ -114,7 +115,10 @@ function assertEditorialPatchReport(
       }
 
       for (const replacement of section.replacements) {
-        if (!replacement.blockFoundAfterBuild) {
+        if (
+          replacement.replacementBlocks > 0 &&
+          !replacement.blockFoundAfterBuild
+        ) {
           throw new Error(
             `Editorial patch replacement did not resolve after build: ${patchSet.sourceBookSlug}/${patchSet.sourceNumber}/${section.sectionSlug}/${replacement.sourceBlockIndex}`,
           );

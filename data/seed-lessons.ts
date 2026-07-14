@@ -728,4 +728,178 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "263": "kat-kavrami-ve-katlari-belirleme",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "cebir-diline-giris",
+    sourceNumber: "2.6",
+    catalogLesson: {
+      id: "lesson-prime-factorization-lcm",
+      slug: "asal-carpanlar-ve-ekok",
+      displayTitle: "Asal Çarpanlar ve EKOK",
+      summary:
+        "Bileşik sayıları asal çarpanlarına ayırın ve iki sayının en küçük ortak katını farklı yöntemlerle bulun.",
+      sortOrder: 6,
+    },
+    objectives: [
+      "Bileşik sayıları asal çarpanlarına ayırabileceksiniz.",
+      "İki doğal sayının en küçük ortak katını (EKOK) bulabileceksiniz.",
+    ],
+    sectionTitles: {
+      "Find the Prime Factorization of a Composite Number":
+        "Asal Çarpanlara Ayırma",
+      "Prime Factorization Using the Factor Tree Method":
+        "Çarpan Ağacı Yöntemi",
+      "Prime Factorization Using the Ladder Method":
+        "Bölme Merdiveni Yöntemi",
+      "Find the Least Common Multiple (LCM) of Two Numbers":
+        "En Küçük Ortak Kat (EKOK)",
+      "Listing Multiples Method": "Katları Listeleme Yöntemi",
+      "Prime Factors Method": "Asal Çarpanlarla EKOK",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 2.95": p(
+        "Çözüm: 80'i çarpan ağacıyla 8·10 olarak ayırabiliriz. 8=2·2·2 ve 10=2·5 olduğundan 80=2⁴·5 olur.",
+      ),
+      "Sıra Sizde 2.96": p(
+        "Çözüm: 60=6·10, 6=2·3 ve 10=2·5'tir. Asal çarpanlar 2, 2, 3 ve 5 olduğundan 60=2²·3·5 olur.",
+      ),
+      "Sıra Sizde 2.97": p(
+        "Çözüm: 126=2·63 ve 63=9·7=3·3·7 olduğundan 126=2·3²·7 biçiminde asal çarpanlarına ayrılır.",
+      ),
+      "Sıra Sizde 2.98": p(
+        "Çözüm: 294=2·147, 147=3·49 ve 49=7·7'dir. Bu nedenle 294=2·3·7² olur.",
+      ),
+      "Sıra Sizde 2.99": p(
+        "Çözüm: Bölme merdiveninde 80'i 2'ye art arda böleriz: 80, 40, 20, 10, 5. Son bölüm 5 asal olduğundan 80=2⁴·5'tir.",
+      ),
+      "Sıra Sizde 2.100": p(
+        "Çözüm: 60'ı önce 2'ye böleriz: 60, 30, 15. Sonra 15'i 3'e böleriz ve 5 kalır. 5 asal olduğundan 60=2²·3·5 olur.",
+      ),
+      "Sıra Sizde 2.101": p(
+        "Çözüm: 126'yı 2'ye bölünce 63 kalır. 63'ü 3'e, sonra tekrar 3'e böleriz ve 7 kalır. Bu yüzden 126=2·3²·7'dir.",
+      ),
+      "Sıra Sizde 2.102": p(
+        "Çözüm: 294'ü 2'ye bölersek 147 kalır. 147=3·49 ve 49=7·7 olduğundan asal çarpanlara ayrılmış biçim 2·3·7² olur.",
+      ),
+      "Sıra Sizde 2.103": p(
+        "Çözüm: 9'un katları 9,18,27,36,...; 12'nin katları 12,24,36,... şeklindedir. İlk ortak kat 36 olduğu için EKOK(9,12)=36'dır.",
+      ),
+      "Sıra Sizde 2.104": p(
+        "Çözüm: 18'in katları 18,36,54,72,...; 24'ün katları 24,48,72,... şeklindedir. İlk ortak kat 72 olduğundan EKOK(18,24)=72 olur.",
+      ),
+      "Sıra Sizde 2.105": p(
+        "Çözüm: 15=3·5 ve 20=2²·5'tir. Her asal çarpanın en büyük kuvvetini alırız: 2²·3·5=60. Bu nedenle EKOK 60'tır.",
+      ),
+      "Sıra Sizde 2.106": p(
+        "Çözüm: 15=3·5 ve 35=5·7'dir. Ortak 5'i bir kez, kalan 3 ve 7'yi de alırız: 3·5·7=105. EKOK 105'tir.",
+      ),
+      "Sıra Sizde 2.107": p(
+        "Çözüm: 55=5·11 ve 88=2³·11'dir. En büyük asal kuvvetler 2³, 5 ve 11 olduğundan EKOK=2³·5·11=440 olur.",
+      ),
+      "Sıra Sizde 2.108": p(
+        "Çözüm: 60=2²·3·5 ve 72=2³·3²'dir. En büyük kuvvetleri alırsak EKOK=2³·3²·5=360 bulunur.",
+      ),
+    },
+    exerciseAnswers: {
+      "267": answer(
+        "Çözüm: 86 çift olduğu için 2'ye bölünür ve 43 kalır. 43 asal olduğundan 86=2·43 biçiminde asal çarpanlarına ayrılır.",
+      ),
+      "269": answer(
+        "Çözüm: 132=2·66=2·2·33 ve 33=3·11'dir. Bu nedenle 132=2²·3·11 olur.",
+      ),
+      "271": answer(
+        "Çözüm: 693'ün rakamları toplamı 18 olduğu için 3'e bölünür. 693=3·231=3·3·77 ve 77=7·11 olduğundan 693=3²·7·11 olur.",
+      ),
+      "273": answer(
+        "Çözüm: 115 son basamağı 5 olduğu için 5'e bölünür. 115=5·23 ve 23 asal olduğundan asal çarpanlara ayrılmış biçim 5·23'tür.",
+      ),
+      "275": answer(
+        "Çözüm: 2475=25·99 olarak ayrılabilir. 25=5² ve 99=9·11=3²·11 olduğundan 2475=3²·5²·11 olur.",
+      ),
+      "277": answer(
+        "Çözüm: 56'yı bölme merdiveninde 2'ye art arda böleriz: 56, 28, 14, 7. 7 asal olduğundan 56=2³·7 olur.",
+      ),
+      "279": answer(
+        "Çözüm: 168'i 2'ye üç kez böleriz: 168, 84, 42, 21. 21=3·7 olduğundan 168=2³·3·7 olur.",
+      ),
+      "281": answer(
+        "Çözüm: 391 sayısı 17·23 olarak yazılabilir. 17 ve 23 asal olduğundan asal çarpanlara ayrılmış biçim 17·23'tür.",
+      ),
+      "283": answer(
+        "Çözüm: 432=16·27 olarak düşünülebilir. 16=2⁴ ve 27=3³ olduğundan 432=2⁴·3³ olur.",
+      ),
+      "285": answer(
+        "Çözüm: 2160=216·10, 216=2³·3³ ve 10=2·5'tir. Bu nedenle 2160=2⁴·3³·5 olur.",
+      ),
+      "287": answer(
+        "Çözüm: 150=15·10, 15=3·5 ve 10=2·5'tir. Asal çarpanlar birleştirilirse 150=2·3·5² olur.",
+      ),
+      "289": answer(
+        "Çözüm: 525=21·25 olarak ayrılabilir. 21=3·7 ve 25=5² olduğundan 525=3·5²·7 olur.",
+      ),
+      "291": answer(
+        "Çözüm: 36=4·9, 4=2² ve 9=3² olduğundan 36=2²·3² biçiminde asal çarpanlarına ayrılır.",
+      ),
+      "293": answer(
+        "Çözüm: 350=35·10, 35=5·7 ve 10=2·5'tir. Bu nedenle 350=2·5²·7 olur.",
+      ),
+      "295": answer(
+        "Çözüm: 8'in katları 8,16,24,...; 12'nin katları 12,24,... şeklindedir. İlk ortak kat 24 olduğundan EKOK(8,12)=24'tür.",
+      ),
+      "297": answer(
+        "Çözüm: 6'nın katları 6,12,18,24,30,...; 15'in katları 15,30,... şeklindedir. İlk ortak kat 30 olduğu için EKOK 30'dur.",
+      ),
+      "299": answer(
+        "Çözüm: 30'un katları 30,60,90,120,...; 40'ın katları 40,80,120,... şeklindedir. İlk ortak kat 120 olduğundan EKOK 120'dir.",
+      ),
+      "301": answer(
+        "Çözüm: 60'ın katları 60,120,180,240,300,...; 75'in katları 75,150,225,300,... şeklindedir. İlk ortak kat 300'dür.",
+      ),
+      "303": answer(
+        "Çözüm: 8=2³ ve 12=2²·3'tür. En büyük asal kuvvetleri alırsak EKOK=2³·3=24 olur.",
+      ),
+      "305": answer(
+        "Çözüm: 24=2³·3 ve 30=2·3·5'tir. En büyük asal kuvvetleri alırız: 2³·3·5=120. EKOK 120'dir.",
+      ),
+      "307": answer(
+        "Çözüm: 70=2·5·7 ve 84=2²·3·7'dir. En büyük kuvvetleri alırsak EKOK=2²·3·5·7=420 olur.",
+      ),
+      "309": answer(
+        "Çözüm: 6=2·3 ve 21=3·7'dir. Ortak 3 bir kez alınır, kalan 2 ve 7 eklenir: EKOK=2·3·7=42.",
+      ),
+      "311": answer(
+        "Çözüm: 24=2³·3 ve 30=2·3·5'tir. En büyük asal kuvvetler 2³, 3 ve 5 olduğundan EKOK=120 bulunur.",
+      ),
+      "313": answer(
+        "Çözüm: Aynı sayıda sosis ve ekmek almak için 10 ve 8'in EKOK'unu buluruz. 10=2·5 ve 8=2³ olduğundan EKOK=2³·5=40'tır; en az 40 sosis ve 40 ekmek alınır.",
+      ),
+    },
+    exerciseSectionSlugs: {
+      "267": "carpan-agaci-yontemi",
+      "269": "carpan-agaci-yontemi",
+      "271": "carpan-agaci-yontemi",
+      "273": "carpan-agaci-yontemi",
+      "275": "carpan-agaci-yontemi",
+      "277": "bolme-merdiveni-yontemi",
+      "279": "bolme-merdiveni-yontemi",
+      "281": "bolme-merdiveni-yontemi",
+      "283": "bolme-merdiveni-yontemi",
+      "285": "bolme-merdiveni-yontemi",
+      "287": "asal-carpanlara-ayirma",
+      "289": "asal-carpanlara-ayirma",
+      "291": "asal-carpanlara-ayirma",
+      "293": "asal-carpanlara-ayirma",
+      "295": "katlari-listeleme-yontemi",
+      "297": "katlari-listeleme-yontemi",
+      "299": "katlari-listeleme-yontemi",
+      "301": "katlari-listeleme-yontemi",
+      "303": "asal-carpanlarla-ekok",
+      "305": "asal-carpanlarla-ekok",
+      "307": "asal-carpanlarla-ekok",
+      "309": "en-kucuk-ortak-kat-ekok",
+      "311": "en-kucuk-ortak-kat-ekok",
+      "313": "en-kucuk-ortak-kat-ekok",
+    },
+  },
 ];

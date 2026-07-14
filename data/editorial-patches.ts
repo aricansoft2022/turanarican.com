@@ -17,6 +17,12 @@ const m = (value: string, display?: boolean): InlineContent => ({
   ...(display === undefined ? {} : { display }),
 });
 const p = (text: InlineContent[]): ContentBlock => ({ type: "paragraph", text });
+const pt = (value: string): ContentBlock => p([t(value)]);
+const removeBlocks = (from: number, to = 2) =>
+  Array.from({ length: from - to + 1 }, (_, index) => ({
+    sourceBlockIndex: from - index,
+    blocks: [] as ContentBlock[],
+  }));
 
 export const editorialLessonPatches: EditorialLessonPatchSet[] = [
   {
@@ -5555,6 +5561,483 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
                 prompt: [
                   t("Sayının asal mı bileşik mi olduğunu belirleyin: "),
                   m("137"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "2.6",
+    sections: [
+      {
+        sectionSlug: "asal-carpanlara-ayirma",
+        replaceBlocks: [
+          ...removeBlocks(3),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Önceki derste bir sayının çarpanlarını bulduk. Asal sayıların yalnızca iki çarpanı vardır: 1 ve sayının kendisi. Bileşik sayıların ise ikiden fazla çarpanı vardır ve her bileşik sayı asal sayıların çarpımı olarak tek bir biçimde yazılabilir. Buna sayının asal çarpanlara ayrılması denir.",
+              ),
+              pt(
+                "Asal çarpanlara ayırma, sonraki konularda özellikle kesirlerle işlem yaparken ve ortak kat bulurken işe yarar.",
+              ),
+              p([
+                t("Bu derste çalışırken 50'den küçük asal sayıları hatırlamak yararlı olur: "),
+                m("2,3,5,7,11,13,17,19,23,29,31,37,41,43,47"),
+                t("."),
+              ]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "carpan-agaci-yontemi",
+        replaceBlocks: [
+          ...removeBlocks(20),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir sayıyı asal çarpanlarına ayırmanın yollarından biri çarpan ağacı oluşturmaktır. Sayıyı iki çarpanın çarpımı olarak yazar, asal olmayan çarpanları aynı şekilde ayırmaya devam ederiz.",
+              ),
+              pt(
+                "Bir dal asal sayıyla bittiğinde o dal tamamlanır. Bütün dallar asal sayılarla bittiğinde, elde edilen asal sayıların çarpımı başlangıçtaki sayının asal çarpanlara ayrılmış biçimidir.",
+              ),
+              p([
+                t("Örneğin "),
+                m("36"),
+                t(" için "),
+                m("36=3\\cdot12"),
+                t(", "),
+                m("12=3\\cdot4"),
+                t(" ve "),
+                m("4=2\\cdot2"),
+                t(" yazabiliriz. Böylece "),
+                m("36=2\\cdot2\\cdot3\\cdot3=2^{2}\\cdot3^{2}"),
+                t(" olur."),
+              ]),
+              {
+                type: "example",
+                label: "Örnek 2.48",
+                prompt: [
+                  m("48"),
+                  t(" sayısını çarpan ağacı yöntemiyle asal çarpanlarına ayırın."),
+                ],
+                solution: [
+                  p([
+                    t("Bir çarpan çiftiyle başlayalım: "),
+                    m("48=2\\cdot24"),
+                    t(". "),
+                    m("2"),
+                    t(" asal olduğu için tamamlanır; "),
+                    m("24"),
+                    t(" ise bileşiktir."),
+                  ]),
+                  p([
+                    m("24=4\\cdot6"),
+                    t(", "),
+                    m("4=2\\cdot2"),
+                    t(" ve "),
+                    m("6=2\\cdot3"),
+                    t(" olduğundan asal çarpanlar "),
+                    m("2,2,2,2,3"),
+                    t("'tür."),
+                  ]),
+                  p([
+                    t("Bu nedenle "),
+                    m("48=2\\cdot2\\cdot2\\cdot2\\cdot3=2^{4}\\cdot3"),
+                    t(" olur."),
+                  ]),
+                ],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.95",
+                prompt: [
+                  t("Çarpan ağacı yöntemiyle asal çarpanlarına ayırın: "),
+                  m("80"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.96",
+                prompt: [
+                  t("Çarpan ağacı yöntemiyle asal çarpanlarına ayırın: "),
+                  m("60"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Örnek 2.49",
+                prompt: [
+                  m("84"),
+                  t(" sayısını çarpan ağacı yöntemiyle asal çarpanlarına ayırın."),
+                ],
+                solution: [
+                  p([
+                    t("Önce "),
+                    m("84=4\\cdot21"),
+                    t(" yazabiliriz. Sonra "),
+                    m("4=2\\cdot2"),
+                    t(" ve "),
+                    m("21=3\\cdot7"),
+                    t(" olarak ayrılır."),
+                  ]),
+                  p([
+                    t("Bütün çarpanlar asal olduğundan "),
+                    m("84=2\\cdot2\\cdot3\\cdot7=2^{2}\\cdot3\\cdot7"),
+                    t(" olur."),
+                  ]),
+                ],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.97",
+                prompt: [
+                  t("Çarpan ağacı yöntemiyle asal çarpanlarına ayırın: "),
+                  m("126"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.98",
+                prompt: [
+                  t("Çarpan ağacı yöntemiyle asal çarpanlarına ayırın: "),
+                  m("294"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "bolme-merdiveni-yontemi",
+        replaceBlocks: [
+          ...removeBlocks(18),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bölme merdiveni yöntemi, bileşik bir sayının asal çarpanlarını bulmanın başka bir yoludur. Sayıyı en küçük asal çarpanına böler, bölüm artık o asal sayıya bölünmeyene kadar devam ederiz.",
+              ),
+              pt(
+                "Sonra sıradaki asal çarpanla devam ederiz. Bölüm asal sayı olduğunda işlem biter. Merdivenin yanındaki ve tepesindeki asal sayılar çarpılarak asal çarpanlara ayrılmış biçim yazılır.",
+              ),
+              p([
+                t("Örneğin "),
+                m("36"),
+                t(" için "),
+                m("36\\div2=18"),
+                t(", "),
+                m("18\\div2=9"),
+                t(", "),
+                m("9\\div3=3"),
+                t(" olur. Son bölüm asal olduğundan "),
+                m("36=2^{2}\\cdot3^{2}"),
+                t(" bulunur."),
+              ]),
+              {
+                type: "example",
+                label: "Örnek 2.50",
+                prompt: [
+                  m("120"),
+                  t(" sayısını bölme merdiveni yöntemiyle asal çarpanlarına ayırın."),
+                ],
+                solution: [
+                  p([
+                    t("En küçük asal çarpan "),
+                    m("2"),
+                    t("'dir. "),
+                    m("120\\div2=60"),
+                    t(", "),
+                    m("60\\div2=30"),
+                    t(", "),
+                    m("30\\div2=15"),
+                    t(" olur."),
+                  ]),
+                  p([
+                    m("15"),
+                    t(" artık "),
+                    m("2"),
+                    t("'ye bölünmez; sıradaki asal olan "),
+                    m("3"),
+                    t("'e böleriz ve "),
+                    m("5"),
+                    t(" kalır. "),
+                    m("5"),
+                    t(" asal olduğu için "),
+                    m("120=2^{3}\\cdot3\\cdot5"),
+                    t(" olur."),
+                  ]),
+                ],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.99",
+                prompt: [
+                  t("Bölme merdiveni yöntemiyle asal çarpanlarına ayırın: "),
+                  m("80"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.100",
+                prompt: [
+                  t("Bölme merdiveni yöntemiyle asal çarpanlarına ayırın: "),
+                  m("60"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Örnek 2.51",
+                prompt: [
+                  m("48"),
+                  t(" sayısını bölme merdiveni yöntemiyle asal çarpanlarına ayırın."),
+                ],
+                solution: [
+                  p([
+                    m("48"),
+                    t("'i "),
+                    m("2"),
+                    t("'ye art arda böleriz: "),
+                    m("48,24,12,6,3"),
+                    t(". Son bölüm "),
+                    m("3"),
+                    t(" asal olduğundan "),
+                    m("48=2^{4}\\cdot3"),
+                    t(" olur."),
+                  ]),
+                ],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.101",
+                prompt: [
+                  t("Bölme merdiveni yöntemiyle asal çarpanlarına ayırın: "),
+                  m("126"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.102",
+                prompt: [
+                  t("Bölme merdiveni yöntemiyle asal çarpanlarına ayırın: "),
+                  m("294"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "en-kucuk-ortak-kat-ekok",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Katlar ve asal sayılarla çalışmamızın önemli nedenlerinden biri, iki sayının en küçük ortak katını bulabilmektir. EKOK özellikle farklı paydalı kesirlerle toplama ve çıkarma yaparken kullanılır.",
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "katlari-listeleme-yontemi",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "İki sayının ortak katı, her iki sayının da katı olan sayıdır. Katları listeleme yönteminde iki sayının katlarını yazar, iki listede de görünen ilk sayıyı seçeriz.",
+              ),
+              p([
+                t("Örneğin "),
+                m("10"),
+                t(" ve "),
+                m("25"),
+                t(" için katları yazarsak "),
+                m("50"),
+                t(" ve "),
+                m("100"),
+                t(" ortak katlardır. En küçük ortak kat "),
+                m("50"),
+                t(" olduğu için "),
+                m("\\operatorname{EKOK}(10,25)=50"),
+                t(" olur."),
+              ]),
+              {
+                type: "example",
+                label: "Örnek 2.52",
+                prompt: [
+                  m("15"),
+                  t(" ve "),
+                  m("20"),
+                  t(" sayılarının EKOK'unu katları listeleyerek bulun."),
+                ],
+                solution: [
+                  p([
+                    m("15"),
+                    t("'in katları "),
+                    m("15,30,45,60,75,\\ldots"),
+                    t("; "),
+                    m("20"),
+                    t("'nin katları "),
+                    m("20,40,60,80,\\ldots"),
+                    t(" şeklindedir."),
+                  ]),
+                  p([
+                    t("İki listede görünen ilk sayı "),
+                    m("60"),
+                    t(" olduğundan "),
+                    m("\\operatorname{EKOK}(15,20)=60"),
+                    t(" olur."),
+                  ]),
+                ],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.103",
+                prompt: [
+                  t("Verilen sayıların EKOK'unu bulun: "),
+                  m("9"),
+                  t(" ve "),
+                  m("12"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.104",
+                prompt: [
+                  t("Verilen sayıların EKOK'unu bulun: "),
+                  m("18"),
+                  t(" ve "),
+                  m("24"),
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "asal-carpanlarla-ekok",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "İki sayının EKOK'unu bulmanın başka bir yolu asal çarpanları kullanmaktır. Her sayıyı asal çarpanlarına ayırır, ortak asal çarpanları bir kez sayacak biçimde en büyük kuvvetleri seçeriz.",
+              ),
+              p([
+                t("Örneğin "),
+                m("12=2^{2}\\cdot3"),
+                t(" ve "),
+                m("18=2\\cdot3^{2}"),
+                t(" olduğundan EKOK için "),
+                m("2^{2}"),
+                t(" ve "),
+                m("3^{2}"),
+                t(" alınır. Böylece "),
+                m("\\operatorname{EKOK}(12,18)=2^{2}\\cdot3^{2}=36"),
+                t(" olur."),
+              ]),
+              {
+                type: "example",
+                label: "Örnek 2.53",
+                prompt: [
+                  m("15"),
+                  t(" ve "),
+                  m("18"),
+                  t(" sayılarının EKOK'unu asal çarpanlar yöntemiyle bulun."),
+                ],
+                solution: [
+                  p([
+                    m("15=3\\cdot5"),
+                    t(" ve "),
+                    m("18=2\\cdot3^{2}"),
+                    t("'dir. En büyük asal kuvvetler "),
+                    m("2,3^{2},5"),
+                    t(" olduğundan "),
+                    m("\\operatorname{EKOK}=2\\cdot3^{2}\\cdot5=90"),
+                    t(" olur."),
+                  ]),
+                ],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.105",
+                prompt: [
+                  t("Asal çarpanlar yöntemiyle EKOK'u bulun: "),
+                  m("15"),
+                  t(" ve "),
+                  m("20"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.106",
+                prompt: [
+                  t("Asal çarpanlar yöntemiyle EKOK'u bulun: "),
+                  m("15"),
+                  t(" ve "),
+                  m("35"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Örnek 2.54",
+                prompt: [
+                  m("50"),
+                  t(" ve "),
+                  m("100"),
+                  t(" sayılarının EKOK'unu asal çarpanlar yöntemiyle bulun."),
+                ],
+                solution: [
+                  p([
+                    m("50=2\\cdot5^{2}"),
+                    t(" ve "),
+                    m("100=2^{2}\\cdot5^{2}"),
+                    t("'dir. En büyük asal kuvvetleri aldığımızda "),
+                    m("\\operatorname{EKOK}=2^{2}\\cdot5^{2}=100"),
+                    t(" bulunur."),
+                  ]),
+                ],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.107",
+                prompt: [
+                  t("Asal çarpanlar yöntemiyle EKOK'u bulun: "),
+                  m("55,88"),
+                ],
+                solution: [],
+              },
+              {
+                type: "example",
+                label: "Sıra Sizde 2.108",
+                prompt: [
+                  t("Asal çarpanlar yöntemiyle EKOK'u bulun: "),
+                  m("60,72"),
                 ],
                 solution: [],
               },
