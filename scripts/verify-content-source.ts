@@ -17,6 +17,12 @@ import { buildLessonStructuredData } from "@/src/content/structured-data";
 import { applySqlMigrations } from "./lib/migrations";
 import { applySeedPayload, readSeedDatabasePayload } from "./lib/seed-db";
 
+const expectedLessonUrls = [
+  "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme",
+  "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
+  "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/katlari-ve-carpanlari-bulma",
+];
+
 async function main() {
   await assertStaticSource();
   await assertDatabaseSource();
@@ -40,8 +46,10 @@ async function assertStaticSource() {
     );
   }
 
-  if (params.length !== 2) {
-    throw new Error(`Static content source expected 2 lessons, got ${params.length}.`);
+  if (params.length !== expectedLessonUrls.length) {
+    throw new Error(
+      `Static content source expected ${expectedLessonUrls.length} lessons, got ${params.length}.`,
+    );
   }
 
   const entries = await Promise.all(params.map((item) => getContentLesson(item)));
@@ -54,7 +62,7 @@ async function assertStaticSource() {
   }
 
   const book = await getContentBook("prealgebra-2e");
-  if (!book || book.chapters[0]?.lessons.length !== 2) {
+  if (!book || book.chapters[0]?.lessons.length !== expectedLessonUrls.length) {
     throw new Error("Static content source did not expose the seeded book tree.");
   }
 
@@ -96,8 +104,10 @@ async function assertDatabaseSource() {
       );
     }
 
-    if (params.length !== 2) {
-      throw new Error(`Database content source expected 2 lessons, got ${params.length}.`);
+    if (params.length !== expectedLessonUrls.length) {
+      throw new Error(
+        `Database content source expected ${expectedLessonUrls.length} lessons, got ${params.length}.`,
+      );
     }
 
     const entries = await Promise.all(params.map((item) => getContentLesson(item)));
@@ -110,7 +120,7 @@ async function assertDatabaseSource() {
     }
 
     const book = await getContentBook("prealgebra-2e");
-    if (!book || book.chapters[0]?.lessons.length !== 2) {
+    if (!book || book.chapters[0]?.lessons.length !== expectedLessonUrls.length) {
       throw new Error("Database content source did not expose the seeded book tree.");
     }
 
@@ -126,7 +136,7 @@ async function assertDatabaseSource() {
         {
           staticBooks: 1,
           staticChapters: 1,
-          staticLessons: 2,
+          staticLessons: expectedLessonUrls.length,
           databaseBooks: bookParams.length,
           databaseChapters: chapterParams.length,
           databaseLessons: params.length,
@@ -159,8 +169,7 @@ async function assertSitemap(
     "https://www.turanarican.com",
     "https://www.turanarican.com/kitap/prealgebra-2e",
     "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris",
-    "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme",
-    "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
+    ...expectedLessonUrls,
   ]) {
     if (!urls.has(url)) {
       throw new Error(`${source} sitemap is missing URL: ${url}`);

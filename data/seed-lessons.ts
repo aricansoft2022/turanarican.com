@@ -104,4 +104,59 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "209": "denkleme-cevirme-ve-cozme",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "cebir-diline-giris",
+    sourceNumber: "2.5",
+    catalogLesson: {
+      id: "lesson-multiples-factors",
+      slug: "katlari-ve-carpanlari-bulma",
+      displayTitle: "Katları ve Çarpanları Bulma",
+      summary:
+        "Sayıların katlarını belirleyin, bölünebilme testlerini kullanın, tüm çarpanları bulun ve asal-bileşik sayıları ayırt edin.",
+      sortOrder: 5,
+    },
+    objectives: [
+      "Sayıların katlarını belirleyin.",
+      "Yaygın bölünebilme testlerini kullanın.",
+      "Bir sayının tüm çarpanlarını bulun.",
+      "Asal ve bileşik sayıları belirleyin.",
+    ],
+    sectionTitles: {
+      "Identify Multiples of Numbers": "Sayıların Katlarını Belirleme",
+      "Use Common Divisibility Tests":
+        "Yaygın Bölünebilme Testlerini Kullanma",
+      "Find All the Factors of a Number":
+        "Bir Sayının Tüm Çarpanlarını Bulma",
+      "Identify Prime and Composite Numbers":
+        "Asal ve Bileşik Sayıları Belirleme",
+    },
+    exerciseAnswers: {
+      "215": [
+        {
+          type: "text",
+          value:
+            "2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48",
+        },
+      ],
+      "225": [
+        {
+          type: "text",
+          value:
+            "84; 2, 3, 4 ve 6 ile bölünebilir; 5 ve 10 ile bölünemez.",
+        },
+      ],
+      "243": [
+        { type: "text", value: "1, 2, 3, 4, 6, 9, 12, 18, 36" },
+      ],
+      "251": [{ type: "text", value: "43 asal sayıdır." }],
+    },
+    exerciseSectionSlugs: {
+      "215": "sayilarin-katlarini-belirleme",
+      "225": "yaygin-bolunebilme-testlerini-kullanma",
+      "243": "bir-sayinin-tum-carpanlarini-bulma",
+      "251": "asal-ve-bilesik-sayilari-belirleme",
+    },
+  },
 ];

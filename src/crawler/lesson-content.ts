@@ -369,20 +369,50 @@ function parseExercises($: cheerio.CheerioAPI, root: CheerioNode) {
       const rawText = normalizeElementText($, node);
       const numberMatch = /^(\d+[A-Za-z]?)\.\s*/.exec(rawText);
       const number = numberMatch?.[1] ?? "";
-      const prompt = stripLeadingExerciseNumber(
+      const prompt = prependExerciseInstruction(
+        $,
+        $(element),
         normalizeElementInlineContent($, node),
         number,
       );
 
       return {
         number,
-        promptText: numberMatch
-          ? rawText.slice(numberMatch[0].length).trim()
-          : rawText,
+        promptText: inlineContentToText(prompt),
         prompt,
       };
     })
     .filter((exercise: ParsedSourceExercise) => exercise.number);
+}
+
+function prependExerciseInstruction(
+  $: cheerio.CheerioAPI,
+  sourceNode: CheerioNode,
+  items: InlineContent[],
+  number: string,
+) {
+  const prompt = stripLeadingExerciseNumber(items, number);
+  const instruction = findExerciseInstruction($, sourceNode);
+
+  if (!instruction.length) return prompt;
+
+  return [...instruction, { type: "text" as const, value: " " }, ...prompt];
+}
+
+function findExerciseInstruction(
+  $: cheerio.CheerioAPI,
+  sourceNode: CheerioNode,
+) {
+  const instructionParagraph = sourceNode
+    .prevAll("p")
+    .toArray()
+    .find((element: AnyNode) =>
+      /^In the following exercises\b/i.test(normalizeElementText($, $(element))),
+    );
+
+  return instructionParagraph
+    ? normalizeElementInlineContent($, $(instructionParagraph))
+    : [];
 }
 
 function getDirectHeading($: cheerio.CheerioAPI, node: CheerioNode) {

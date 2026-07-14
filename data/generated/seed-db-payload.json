@@ -73,6 +73,26 @@
         "sortOrder": 4,
         "status": "draft",
         "rawHash": "d6df34dbf854ba37b1d6e6f7acf8dede88a43a947b6fe95d65f87ccc58d20809"
+      },
+      {
+        "id": "lesson-multiples-factors",
+        "chapterId": "chapter-language-of-algebra",
+        "slug": "katlari-ve-carpanlari-bulma",
+        "sourceNumber": "2.5",
+        "displayNumber": "2.4",
+        "sourceTitle": "Find Multiples and Factors",
+        "displayTitle": "Katları ve Çarpanları Bulma",
+        "summary": "Sayıların katlarını belirleyin, bölünebilme testlerini kullanın, tüm çarpanları bulun ve asal-bileşik sayıları ayırt edin.",
+        "objectivesJson": [
+          "Sayıların katlarını belirleyin.",
+          "Yaygın bölünebilme testlerini kullanın.",
+          "Bir sayının tüm çarpanlarını bulun.",
+          "Asal ve bileşik sayıları belirleyin."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors",
+        "sortOrder": 5,
+        "status": "draft",
+        "rawHash": "182ba08b5ddda1d77233014e7d7ae5642dc8ba83f06d84498365ae24146667f0"
       }
     ],
     "lessonSections": [
@@ -4854,6 +4874,2629 @@
             ]
           }
         ]
+      },
+      {
+        "id": "katlari-ve-carpanlari-bulma-section-01",
+        "lessonId": "lesson-multiples-factors",
+        "heading": "Sayıların Katlarını Belirleme",
+        "slug": "sayilarin-katlarini-belirleme",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Annie is counting the shoes in her closet. The shoes are matched in pairs, so she doesn’t have to count each one. She counts by twos: "
+              },
+              {
+                "type": "math",
+                "value": "2,4,6,8,10,12."
+              },
+              {
+                "type": "text",
+                "value": " She has "
+              },
+              {
+                "type": "math",
+                "value": "12"
+              },
+              {
+                "type": "text",
+                "value": " shoes in her closet."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "The numbers "
+              },
+              {
+                "type": "math",
+                "value": "2,4,6,8,10,12"
+              },
+              {
+                "type": "text",
+                "value": " are called multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2."
+              },
+              {
+                "type": "text",
+                "value": " Multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " can be written as the product of a counting number and "
+              },
+              {
+                "type": "math",
+                "value": "2."
+              },
+              {
+                "type": "text",
+                "value": " The first six multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " are given below."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "\\begin{array}{l}1\\cdot2=2 \\\\ 2\\cdot2=4 \\\\ 3\\cdot2=6 \\\\ 4\\cdot2=8 \\\\ 5\\cdot2=10 \\\\ 6\\cdot2=12\\end{array}"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "A multiple of a number is the product of the number and a counting number. So a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": " would be the product of a counting number and "
+              },
+              {
+                "type": "math",
+                "value": "3."
+              },
+              {
+                "type": "text",
+                "value": " Below are the first six multiples of "
+              },
+              {
+                "type": "math",
+                "value": "3."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "\\begin{array}{l}1\\cdot3=3 \\\\ 2\\cdot3=6 \\\\ 3\\cdot3=9 \\\\ 4\\cdot3=12 \\\\ 5\\cdot3=15 \\\\ 6\\cdot3=18\\end{array}"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "We can find the multiples of any number by continuing this process. Table 2.8 shows the multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " through "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": " for the first twelve counting numbers."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Counting Number",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12"
+            ],
+            "rows": [
+              [
+                "\\text{Multiples}\\text{of} 2",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16",
+                "18",
+                "20",
+                "22",
+                "24"
+              ],
+              [
+                "\\text{Multiples of} 3",
+                "3",
+                "6",
+                "9",
+                "12",
+                "15",
+                "18",
+                "21",
+                "24",
+                "27",
+                "30",
+                "33",
+                "36"
+              ],
+              [
+                "\\text{Multiples of} 4",
+                "4",
+                "8",
+                "12",
+                "16",
+                "20",
+                "24",
+                "28",
+                "32",
+                "36",
+                "40",
+                "44",
+                "48"
+              ],
+              [
+                "\\text{Multiples of} 5",
+                "5",
+                "10",
+                "15",
+                "20",
+                "25",
+                "30",
+                "35",
+                "40",
+                "45",
+                "50",
+                "55",
+                "60"
+              ],
+              [
+                "\\text{Multiples of} 6",
+                "6",
+                "12",
+                "18",
+                "24",
+                "30",
+                "36",
+                "42",
+                "48",
+                "54",
+                "60",
+                "66",
+                "72"
+              ],
+              [
+                "\\text{Multiples of} 7",
+                "7",
+                "14",
+                "21",
+                "28",
+                "35",
+                "42",
+                "49",
+                "56",
+                "63",
+                "70",
+                "77",
+                "84"
+              ],
+              [
+                "\\text{Multiples of} 8",
+                "8",
+                "16",
+                "24",
+                "32",
+                "40",
+                "48",
+                "56",
+                "64",
+                "72",
+                "80",
+                "88",
+                "96"
+              ],
+              [
+                "\\text{Multiples of} 9",
+                "9",
+                "18",
+                "27",
+                "36",
+                "45",
+                "54",
+                "63",
+                "72",
+                "81",
+                "90",
+                "99",
+                "108"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Recognizing the patterns for multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2,5,10,\\text{and} 3"
+              },
+              {
+                "type": "text",
+                "value": " will be helpful to you as you continue in this course."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Figure 2.6 shows the counting numbers from "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " to "
+              },
+              {
+                "type": "math",
+                "value": "50."
+              },
+              {
+                "type": "text",
+                "value": " Multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " are highlighted. Do you notice a pattern?"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "assetId": "000-0f70eee58f280cb3",
+            "caption": [
+              {
+                "type": "text",
+                "value": "Figure 2.6 Multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " between "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "50"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "The last digit of each highlighted number in Figure 2.6 is either "
+              },
+              {
+                "type": "math",
+                "value": "0,2,4,6,\\text{or} 8."
+              },
+              {
+                "type": "text",
+                "value": " This is true for the product of "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " and any counting number. So, to tell if any number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " look at the last digit. If it is "
+              },
+              {
+                "type": "math",
+                "value": "0,2,4,6, \\text{or} 8,"
+              },
+              {
+                "type": "text",
+                "value": " then the number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "2."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.40",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each of the following is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "2\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "489"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "3,714"
+              }
+            ],
+            "solution": [
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "ⓐ"
+                  ],
+                  [
+                    "Is 489 a multiple of 2?"
+                  ],
+                  [
+                    "Is the last digit 0, 2, 4, 6, or 8?",
+                    "No."
+                  ],
+                  [
+                    "489 is not a multiple of 2."
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "ⓑ"
+                  ],
+                  [
+                    "Is 3,714 a multiple of 2?"
+                  ],
+                  [
+                    "Is the last digit 0, 2, 4, 6, or 8?",
+                    "Yes."
+                  ],
+                  [
+                    "3,714 is a multiple of 2."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.79",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "2\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "678"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "21,493"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.80",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "2\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "979"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "17,780"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Now let’s look at multiples of "
+              },
+              {
+                "type": "math",
+                "value": "5.Figure 2.7 highlights all of the multiples of 5 between 1 and 50. What do you notice about the multiples of 5?"
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "assetId": "002-739a8813f29dddb0",
+            "caption": [
+              {
+                "type": "text",
+                "value": "Figure 2.7 Multiples of "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": " between "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "50"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "All multiples of "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": " end with either "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": " or "
+              },
+              {
+                "type": "math",
+                "value": "0."
+              },
+              {
+                "type": "text",
+                "value": " Just like we identify multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " by looking at the last digit, we can identify multiples of "
+              },
+              {
+                "type": "math",
+                "value": "5"
+              },
+              {
+                "type": "text",
+                "value": " by looking at the last digit."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.41",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each of the following is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "5\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "579"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "880"
+              }
+            ],
+            "solution": [
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "ⓐ"
+                  ],
+                  [
+                    "Is 579 a multiple of 5?"
+                  ],
+                  [
+                    "Is the last digit 5 or 0?",
+                    "No."
+                  ],
+                  [
+                    "579 is not a multiple of 5."
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "ⓑ"
+                  ],
+                  [
+                    "Is 880 a multiple of 5?"
+                  ],
+                  [
+                    "Is the last digit 5 or 0?",
+                    "Yes."
+                  ],
+                  [
+                    "880 is a multiple of 5."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.81",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "5."
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "675"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "1,578"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.82",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "5."
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "421"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "2,690"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Figure 2.8 highlights the multiples of "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": " between "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "50."
+              },
+              {
+                "type": "text",
+                "value": " All multiples of "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": " all end with a zero."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "assetId": "004-a24bc5bbdf112687",
+            "caption": [
+              {
+                "type": "text",
+                "value": "Figure 2.8 Multiples of "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": " between "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "50"
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.42",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each of the following is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "10\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "425"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "350"
+              }
+            ],
+            "solution": [
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "ⓐ"
+                  ],
+                  [
+                    "Is 425 a multiple of 10?"
+                  ],
+                  [
+                    "Is the last digit zero?",
+                    "No."
+                  ],
+                  [
+                    "425 is not a multiple of 10."
+                  ]
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "ⓑ"
+                  ],
+                  [
+                    "Is 350 a multiple of 10?"
+                  ],
+                  [
+                    "Is the last digit zero?",
+                    "Yes."
+                  ],
+                  [
+                    "350 is a multiple of 10."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.83",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "10\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "179"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "3,540"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.84",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "10\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "110"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "7,595"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Figure 2.9 highlights multiples of "
+              },
+              {
+                "type": "math",
+                "value": "3."
+              },
+              {
+                "type": "text",
+                "value": " The pattern for multiples of "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": " is not as obvious as the patterns for multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2,5,\\text{and} 10."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "assetId": "006-2eabce1a9328161c",
+            "caption": [
+              {
+                "type": "text",
+                "value": "Figure 2.9 Multiples of "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": " between "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "50"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Unlike the other patterns we’ve examined so far, this pattern does not involve the last digit. The pattern for multiples of "
+              },
+              {
+                "type": "math",
+                "value": "3Table 2.9."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [],
+            "rows": [
+              [
+                "\\text{Multiple of 3}",
+                "3",
+                "6",
+                "9",
+                "12",
+                "15",
+                "18",
+                "21",
+                "24"
+              ],
+              [
+                "\\text{Sum of digits}",
+                "3",
+                "6",
+                "9",
+                "\\begin{array}{l}1+2 \\\\ 3\\end{array}",
+                "\\begin{array}{l}1+5 \\\\ 6\\end{array}",
+                "\\begin{array}{l}1+8 \\\\ 9\\end{array}",
+                "\\begin{array}{l}2+1 \\\\ 3\\end{array}",
+                "\\begin{array}{l}2+4 \\\\ 6\\end{array}"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Consider the number "
+              },
+              {
+                "type": "math",
+                "value": "42."
+              },
+              {
+                "type": "text",
+                "value": " The digits are "
+              },
+              {
+                "type": "math",
+                "value": "4"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "2,"
+              },
+              {
+                "type": "text",
+                "value": " and their sum is "
+              },
+              {
+                "type": "math",
+                "value": "4+2=6."
+              },
+              {
+                "type": "text",
+                "value": " Since "
+              },
+              {
+                "type": "math",
+                "value": "6"
+              },
+              {
+                "type": "text",
+                "value": " is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "3,"
+              },
+              {
+                "type": "text",
+                "value": " we know that "
+              },
+              {
+                "type": "math",
+                "value": "42"
+              },
+              {
+                "type": "text",
+                "value": " is also a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "3."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.43",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each of the given numbers is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "3\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "645"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "10,519"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ Is "
+                  },
+                  {
+                    "type": "math",
+                    "value": "645"
+                  },
+                  {
+                    "type": "text",
+                    "value": " a multiple of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3?"
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Find the sum of the digits.",
+                    "6+4+5=15"
+                  ],
+                  [
+                    "Is 15 a multiple of 3?",
+                    "Yes."
+                  ],
+                  [
+                    "If we're not sure, we could add its digits to find out. We can check it by dividing 645 by 3.",
+                    "645\\div3"
+                  ],
+                  [
+                    "The quotient is 215.",
+                    "3\\cdot215=645"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ Is "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10,519"
+                  },
+                  {
+                    "type": "text",
+                    "value": " a multiple of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3?"
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [],
+                "rows": [
+                  [
+                    "Find the sum of the digits.",
+                    "1+0+5+1+9=16"
+                  ],
+                  [
+                    "Is 16 a multiple of 3?",
+                    "No."
+                  ],
+                  [
+                    "So 10,519 is not a multiple of 3 either..",
+                    "645\\div3"
+                  ],
+                  [
+                    "We can check this by dividing by 10,519 by 3.",
+                    "\\begin{array}{l}3,506\\text{R}1 \\\\ 310,519\\end{array}"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "When we divide "
+              },
+              {
+                "type": "math",
+                "value": "10,519"
+              },
+              {
+                "type": "text",
+                "value": " by "
+              },
+              {
+                "type": "math",
+                "value": "3,"
+              },
+              {
+                "type": "text",
+                "value": " we do not get a counting number, so "
+              },
+              {
+                "type": "math",
+                "value": "10,519"
+              },
+              {
+                "type": "text",
+                "value": " is not the product of a counting number and "
+              },
+              {
+                "type": "math",
+                "value": "3."
+              },
+              {
+                "type": "text",
+                "value": " It is not a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "3."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.85",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "3\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "954"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "3,742"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.86",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether each number is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "3\\text{:}"
+              },
+              {
+                "type": "text",
+                "value": "  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "643"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "8,379"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Look back at the charts where you highlighted the multiples of "
+              },
+              {
+                "type": "math",
+                "value": "2,"
+              },
+              {
+                "type": "text",
+                "value": " of "
+              },
+              {
+                "type": "math",
+                "value": "5,"
+              },
+              {
+                "type": "text",
+                "value": " and of "
+              },
+              {
+                "type": "math",
+                "value": "10."
+              },
+              {
+                "type": "text",
+                "value": " Notice that the multiples of "
+              },
+              {
+                "type": "math",
+                "value": "10"
+              },
+              {
+                "type": "text",
+                "value": " are the numbers that are multiples of both "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "5."
+              },
+              {
+                "type": "text",
+                "value": " That is because "
+              },
+              {
+                "type": "math",
+                "value": "10=2\\cdot5."
+              },
+              {
+                "type": "text",
+                "value": " Likewise, since "
+              },
+              {
+                "type": "math",
+                "value": "6=2\\cdot3,"
+              },
+              {
+                "type": "text",
+                "value": " the multiples of "
+              },
+              {
+                "type": "math",
+                "value": "6"
+              },
+              {
+                "type": "text",
+                "value": " are the numbers that are multiples of both "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "3."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "katlari-ve-carpanlari-bulma-section-02",
+        "lessonId": "lesson-multiples-factors",
+        "heading": "Yaygın Bölünebilme Testlerini Kullanma",
+        "slug": "yaygin-bolunebilme-testlerini-kullanma",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Another way to say that "
+              },
+              {
+                "type": "math",
+                "value": "375Example 2.43 that 10,519 is not a multiple 3. When we divided 10,519 by 3 we did not get a counting number, so 10,519 is not divisible by 3."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Since multiplication and division are inverse operations, the patterns of multiples that we found can be used as divisibility tests. Table 2.10 summarizes divisibility tests for some of the counting numbers between one and ten."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Divisibility Tests"
+            ],
+            "rows": [
+              [
+                "A number is divisible by"
+              ],
+              [
+                "2",
+                "if the last digit is 0, 2, 4, 6, \\text{or} 8"
+              ],
+              [
+                "3",
+                "if the sum of the digits is divisible by 3"
+              ],
+              [
+                "5",
+                "if the last digit is 5 or 0"
+              ],
+              [
+                "6",
+                "if divisible by both 2 and 3"
+              ],
+              [
+                "10",
+                "if the last digit is 0"
+              ]
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.44",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether "
+              },
+              {
+                "type": "math",
+                "value": "1,290"
+              },
+              {
+                "type": "text",
+                "value": " is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "2,3,5,\\text{and} 10."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Table 2.11 applies the divisibility tests to "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1,290."
+                  },
+                  {
+                    "type": "text",
+                    "value": " In the far right column, we check the results of the divisibility tests by seeing if the quotient is a whole number."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [
+                  "Divisible by…?",
+                  "Test",
+                  "Divisible?",
+                  "Check"
+                ],
+                "rows": [
+                  [
+                    "2",
+                    "Is last digit 0, 2, 4, 6, \\text{or} 8? Yes.",
+                    "yes",
+                    "1290\\div2=645"
+                  ],
+                  [
+                    "3",
+                    "\\text{Is sum of digits divisible by} 3? 1+2+9+0=12 Yes.",
+                    "yes",
+                    "1290\\div3=430"
+                  ],
+                  [
+                    "5",
+                    "Is last digit 5 or 0? Yes.",
+                    "yes",
+                    "1290\\div5=258"
+                  ],
+                  [
+                    "10",
+                    "Is last digit 0? Yes.",
+                    "yes",
+                    "1290\\div10=129"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Thus, "
+              },
+              {
+                "type": "math",
+                "value": "1,290"
+              },
+              {
+                "type": "text",
+                "value": " is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "2,3,5,\\text{and} 10."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.87",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether the given number is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "2,3,5,\\text{and} 10."
+              },
+              {
+                "type": "math",
+                "value": "6240"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.88",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether the given number is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "2,3,5,\\text{and} 10."
+              },
+              {
+                "type": "math",
+                "value": "7248"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.45",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether "
+              },
+              {
+                "type": "math",
+                "value": "5,625"
+              },
+              {
+                "type": "text",
+                "value": " is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "2,3,5,\\text{and} 10."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Table 2.12 applies the divisibility tests to "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5,625"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and tests the results by finding the quotients."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [
+                  "Divisible by…?",
+                  "Test",
+                  "Divisible?",
+                  "Check"
+                ],
+                "rows": [
+                  [
+                    "2",
+                    "Is last digit 0, 2, 4, 6, \\text{or} 8? No.",
+                    "no",
+                    "5625\\div2=2812.5"
+                  ],
+                  [
+                    "3",
+                    "\\text{Is sum of digits divisible by} 3? 5+6+2+5=18 Yes.",
+                    "yes",
+                    "5625\\div3=1875"
+                  ],
+                  [
+                    "5",
+                    "Is last digit is 5 or 0? Yes.",
+                    "yes",
+                    "5625\\div5=1125"
+                  ],
+                  [
+                    "10",
+                    "Is last digit 0? No.",
+                    "no",
+                    "5625\\div10=562.5"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Thus, "
+              },
+              {
+                "type": "math",
+                "value": "5,625"
+              },
+              {
+                "type": "text",
+                "value": " is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "3"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "5,"
+              },
+              {
+                "type": "text",
+                "value": " but not "
+              },
+              {
+                "type": "math",
+                "value": "2,"
+              },
+              {
+                "type": "text",
+                "value": " or "
+              },
+              {
+                "type": "math",
+                "value": "10."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.89",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether the given number is divisible "
+              },
+              {
+                "type": "math",
+                "value": "\\text{by} 2,3,5,\\text{and} 10."
+              },
+              {
+                "type": "math",
+                "value": "4962"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.90",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Determine whether the given number is divisible "
+              },
+              {
+                "type": "math",
+                "value": "\\text{by} 2,3,5,\\text{and} 10."
+              },
+              {
+                "type": "math",
+                "value": "3765"
+              }
+            ],
+            "solution": []
+          }
+        ]
+      },
+      {
+        "id": "katlari-ve-carpanlari-bulma-section-03",
+        "lessonId": "lesson-multiples-factors",
+        "heading": "Bir Sayının Tüm Çarpanlarını Bulma",
+        "slug": "bir-sayinin-tum-carpanlarini-bulma",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "There are often several ways to talk about the same idea. So far, we’ve seen that if "
+              },
+              {
+                "type": "math",
+                "value": "m"
+              },
+              {
+                "type": "text",
+                "value": " is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "n,"
+              },
+              {
+                "type": "text",
+                "value": " we can say that "
+              },
+              {
+                "type": "math",
+                "value": "m"
+              },
+              {
+                "type": "text",
+                "value": " is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "n."
+              },
+              {
+                "type": "text",
+                "value": " We know that "
+              },
+              {
+                "type": "math",
+                "value": "72"
+              },
+              {
+                "type": "text",
+                "value": " is the product of "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "9,"
+              },
+              {
+                "type": "text",
+                "value": " so we can say "
+              },
+              {
+                "type": "math",
+                "value": "72"
+              },
+              {
+                "type": "text",
+                "value": " is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "72"
+              },
+              {
+                "type": "text",
+                "value": " is a multiple of "
+              },
+              {
+                "type": "math",
+                "value": "9."
+              },
+              {
+                "type": "text",
+                "value": " We can also say "
+              },
+              {
+                "type": "math",
+                "value": "72"
+              },
+              {
+                "type": "text",
+                "value": " is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " and by "
+              },
+              {
+                "type": "math",
+                "value": "9."
+              },
+              {
+                "type": "text",
+                "value": " Another way to talk about this is to say that "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "math",
+                "value": "9"
+              },
+              {
+                "type": "text",
+                "value": " are factors of "
+              },
+              {
+                "type": "math",
+                "value": "72."
+              },
+              {
+                "type": "text",
+                "value": " When we write "
+              },
+              {
+                "type": "math",
+                "value": "72=8\\cdot9"
+              },
+              {
+                "type": "text",
+                "value": " we can say that we have factored "
+              },
+              {
+                "type": "math",
+                "value": "72."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "The image shows the equation 8 times 9 equals 72. The 8 and 9 are labeled as factors and the 72 is labeled product."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In algebra, it can be useful to determine all of the factors of a number. This is called factoring a number, and it can help us solve many kinds of problems."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "For example, suppose a choreographer is planning a dance for a ballet recital. There are "
+              },
+              {
+                "type": "math",
+                "value": "24"
+              },
+              {
+                "type": "text",
+                "value": " dancers, and for a certain scene, the choreographer wants to arrange the dancers in groups of equal sizes on stage."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In how many ways can the dancers be put into groups of equal size? Answering this question is the same as identifying the factors of "
+              },
+              {
+                "type": "math",
+                "value": "24."
+              },
+              {
+                "type": "text",
+                "value": " Table 2.13 summarizes the different ways that the choreographer can arrange the dancers."
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Number of Groups",
+              "Dancers per Group",
+              "Total Dancers"
+            ],
+            "rows": [
+              [
+                "1",
+                "24",
+                "1\\cdot24=24"
+              ],
+              [
+                "2",
+                "12",
+                "2\\cdot12=24"
+              ],
+              [
+                "3",
+                "8",
+                "3\\cdot8=24"
+              ],
+              [
+                "4",
+                "6",
+                "4\\cdot6=24"
+              ],
+              [
+                "6",
+                "4",
+                "6\\cdot4=24"
+              ],
+              [
+                "8",
+                "3",
+                "8\\cdot3=24"
+              ],
+              [
+                "12",
+                "2",
+                "12\\cdot2=24"
+              ],
+              [
+                "24",
+                "1",
+                "24\\cdot1=24"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "What patterns do you see in Table 2.13? Did you notice that the number of groups times the number of dancers per group is always "
+              },
+              {
+                "type": "math",
+                "value": "24?"
+              },
+              {
+                "type": "text",
+                "value": " This makes sense, since there are always "
+              },
+              {
+                "type": "math",
+                "value": "24"
+              },
+              {
+                "type": "text",
+                "value": " dancers."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "You may notice another pattern if you look carefully at the first two columns. These two columns contain the exact same set of numbers—but in reverse order. They are mirrors of one another, and in fact, both columns list all of the factors of "
+              },
+              {
+                "type": "math",
+                "value": "24,"
+              },
+              {
+                "type": "text",
+                "value": " which are:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "1,2,3,4,6,8,12,24"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "We can find all the factors of any counting number by systematically dividing the number by each counting number, starting with "
+              },
+              {
+                "type": "math",
+                "value": "1."
+              },
+              {
+                "type": "text",
+                "value": " If the quotient is also a counting number, then the divisor and the quotient are factors of the number. We can stop when the quotient becomes smaller than the divisor."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.46",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Find all the factors of "
+              },
+              {
+                "type": "math",
+                "value": "72."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Divide "
+                  },
+                  {
+                    "type": "math",
+                    "value": "72"
+                  },
+                  {
+                    "type": "text",
+                    "value": " by each of the counting numbers starting with "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1."
+                  },
+                  {
+                    "type": "text",
+                    "value": " If the quotient is a whole number, the divisor and quotient are a pair of factors."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "The next line would have a divisor of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " and a quotient of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8."
+                  },
+                  {
+                    "type": "text",
+                    "value": " The quotient would be smaller than the divisor, so we stop. If we continued, we would end up only listing the same factors again in reverse order. Listing all the factors from smallest to greatest, we have"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "1,2,3,4,6,8,9,12,18,24,36,\\text{and} 72"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.91",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Find all the factors of the given number: "
+              },
+              {
+                "type": "math",
+                "value": "96"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.92",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Find all the factors of the given number: "
+              },
+              {
+                "type": "math",
+                "value": "80"
+              }
+            ],
+            "solution": []
+          }
+        ]
+      },
+      {
+        "id": "katlari-ve-carpanlari-bulma-section-04",
+        "lessonId": "lesson-multiples-factors",
+        "heading": "Asal ve Bileşik Sayıları Belirleme",
+        "slug": "asal-ve-bilesik-sayilari-belirleme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Some numbers, like "
+              },
+              {
+                "type": "math",
+                "value": "72,"
+              },
+              {
+                "type": "text",
+                "value": " have many factors. Other numbers, such as "
+              },
+              {
+                "type": "math",
+                "value": "7,"
+              },
+              {
+                "type": "text",
+                "value": " have only two factors: "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " and the number. A number with only two factors is called a prime number. A number with more than two factors is called a composite number. The number "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " is neither prime nor composite. It has only one factor, itself."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Figure 2.10 lists the counting numbers from "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " through "
+              },
+              {
+                "type": "math",
+                "value": "20"
+              },
+              {
+                "type": "text",
+                "value": " along with their factors. The highlighted numbers are prime, since each has only two factors."
+              }
+            ]
+          },
+          {
+            "type": "figure",
+            "assetId": "010-7540c720ed4ebe61",
+            "caption": [
+              {
+                "type": "text",
+                "value": "Figure 2.10 Factors of the counting numbers from "
+              },
+              {
+                "type": "math",
+                "value": "2"
+              },
+              {
+                "type": "text",
+                "value": " through "
+              },
+              {
+                "type": "math",
+                "value": "20,"
+              },
+              {
+                "type": "text",
+                "value": " with prime numbers highlighted"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "The prime numbers less than "
+              },
+              {
+                "type": "math",
+                "value": "20"
+              },
+              {
+                "type": "text",
+                "value": " are "
+              },
+              {
+                "type": "math",
+                "value": "2,3,5,7,11,13,17,\\text{and} 19."
+              },
+              {
+                "type": "text",
+                "value": " There are many larger prime numbers too. In order to determine whether a number is prime or composite, we need to see if the number has any factors other than "
+              },
+              {
+                "type": "math",
+                "value": "1"
+              },
+              {
+                "type": "text",
+                "value": " and itself. To do this, we can test each of the smaller prime numbers in order to see if it is a factor of the number. If none of the prime numbers are factors, then that number is also prime."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 2.47",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify each number as prime or composite:  ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "83"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "77"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ Test each prime, in order, to see if it is a factor of "
+                  },
+                  {
+                    "type": "math",
+                    "value": "83"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", starting with "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2,"
+                  },
+                  {
+                    "type": "text",
+                    "value": " as shown. We will stop when the quotient is smaller than the divisor."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [
+                  "Prime",
+                  "Test",
+                  "Factor of 83?"
+                ],
+                "rows": [
+                  [
+                    "2",
+                    "Last digit of 83 is not 0,2,4,6,\\text{or} 8.",
+                    "No."
+                  ],
+                  [
+                    "3",
+                    "8+3=11, and 11 is not divisible by 3.",
+                    "No."
+                  ],
+                  [
+                    "5",
+                    "The last digit of 83 is not 5 or 0.",
+                    "No."
+                  ],
+                  [
+                    "7",
+                    "83\\div7=11.857\\text{….}",
+                    "No."
+                  ],
+                  [
+                    "11",
+                    "83\\div11=7.545\\text{…}",
+                    "No."
+                  ],
+                  [
+                    "Prime",
+                    "Test",
+                    "Factor of 77?"
+                  ],
+                  [
+                    "2",
+                    "Last digit is not 0,2,4,6,\\text{or} 8.",
+                    "No."
+                  ],
+                  [
+                    "3",
+                    "7+7=14, and 14 is not divisible by 3.",
+                    "No."
+                  ],
+                  [
+                    "5",
+                    "the last digit is not 5 or 0.",
+                    "No."
+                  ],
+                  [
+                    "7",
+                    "77\\div7=11",
+                    "Yes."
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Since "
+              },
+              {
+                "type": "math",
+                "value": "77"
+              },
+              {
+                "type": "text",
+                "value": " is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "7,"
+              },
+              {
+                "type": "text",
+                "value": " we know it is not a prime number. It is composite."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.93",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify the number as prime or composite: "
+              },
+              {
+                "type": "math",
+                "value": "91"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 2.94",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Identify the number as prime or composite: "
+              },
+              {
+                "type": "math",
+                "value": "137"
+              }
+            ],
+            "solution": []
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Use Common Divisibility Tests"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, use the divisibility tests to determine whether each number is divisible by "
+              },
+              {
+                "type": "math",
+                "value": "2,3,4,5,6,\\text{and} 10."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Find All the Factors of a Number"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, find all the factors of the given number."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Identify Prime and Composite Numbers"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "In the following exercises, determine if the given number is prime or composite."
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -4863,6 +7506,14 @@
         "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-01",
         "number": "69",
         "promptJson": [
+          {
+            "type": "text",
+            "value": "In the following exercises, evaluate the expression for the given value."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
           {
             "type": "math",
             "value": "7x+8 \\text{when} x=2"
@@ -4906,6 +7557,14 @@
         "number": "101",
         "promptJson": [
           {
+            "type": "text",
+            "value": "In the following exercises, simplify the given expression by combining like terms."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
             "type": "math",
             "value": "10x+3x"
           }
@@ -4926,6 +7585,14 @@
         "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-04",
         "number": "135",
         "promptJson": [
+          {
+            "type": "text",
+            "value": "In the following exercises, translate the given word phrase into an algebraic expression."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
           {
             "type": "text",
             "value": "Five times the sum of "
@@ -4959,6 +7626,14 @@
         "sectionId": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-01",
         "number": "147",
         "promptJson": [
+          {
+            "type": "text",
+            "value": "In the following exercises, determine whether each given value is a solution to the equation."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
           {
             "type": "math",
             "value": "x+13=21"
@@ -5034,6 +7709,14 @@
         "number": "163",
         "promptJson": [
           {
+            "type": "text",
+            "value": "In the following exercises, solve each equation using the subtraction property of equality."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
             "type": "math",
             "value": "a+2=18"
           }
@@ -5055,6 +7738,14 @@
         "number": "175",
         "promptJson": [
           {
+            "type": "text",
+            "value": "In the following exercises, solve each equation using the addition property of equality."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
             "type": "math",
             "value": "y-3=19"
           }
@@ -5075,6 +7766,14 @@
         "sectionId": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-05",
         "number": "199",
         "promptJson": [
+          {
+            "type": "text",
+            "value": "In the following exercises, translate the given sentence into an algebraic equation and then solve it."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
           {
             "type": "text",
             "value": "Five more than "
@@ -5150,6 +7849,134 @@
         "sortOrder": 209,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-multiples-factors-exercise-215",
+        "lessonId": "lesson-multiples-factors",
+        "sectionId": "katlari-ve-carpanlari-bulma-section-01",
+        "number": "215",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "In the following exercises, list all the multiples less than "
+          },
+          {
+            "type": "math",
+            "value": "50"
+          },
+          {
+            "type": "text",
+            "value": " for the given number."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "2"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48"
+          }
+        ],
+        "sortOrder": 215,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiples-factors-exercise-225",
+        "lessonId": "lesson-multiples-factors",
+        "sectionId": "katlari-ve-carpanlari-bulma-section-02",
+        "number": "225",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "In the following exercises, use the divisibility tests to determine whether each number is divisible by "
+          },
+          {
+            "type": "math",
+            "value": "2,3,4,5,6,\\text{and} 10."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "84"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "84; 2, 3, 4 ve 6 ile bölünebilir; 5 ve 10 ile bölünemez."
+          }
+        ],
+        "sortOrder": 225,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiples-factors-exercise-243",
+        "lessonId": "lesson-multiples-factors",
+        "sectionId": "katlari-ve-carpanlari-bulma-section-03",
+        "number": "243",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "In the following exercises, find all the factors of the given number."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "36"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "1, 2, 3, 4, 6, 9, 12, 18, 36"
+          }
+        ],
+        "sortOrder": 243,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiples-factors-exercise-251",
+        "lessonId": "lesson-multiples-factors",
+        "sectionId": "katlari-ve-carpanlari-bulma-section-04",
+        "number": "251",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "In the following exercises, determine if the given number is prime or composite."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "43"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "43 asal sayıdır."
+          }
+        ],
+        "sortOrder": 251,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -5166,6 +7993,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.04%3A_Solving_Equations_Using_the_Subtraction_and_Addition_Properties_of_Equality",
         "httpStatus": 200,
         "contentHash": "d6df34dbf854ba37b1d6e6f7acf8dede88a43a947b6fe95d65f87ccc58d20809",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors",
+        "httpStatus": 200,
+        "contentHash": "182ba08b5ddda1d77233014e7d7ae5642dc8ba83f06d84498365ae24146667f0",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -5797,6 +8632,356 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality/10b3a9839252ae95.json",
         "r2Key": "assets/prealgebra-2e-openstax/2-3-solving-equations-using-the-subtraction-and-addition-properties-of-equality/10b3a9839252ae95.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-000-0f70eee58f280cb3",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102616/5c62781348cd25eb0976346a744d4ad324f1e563?revision=1",
+        "assetType": "figure",
+        "altText": "The image shows a chart with five rows and ten columns. The first row lists the numbers from 1 to 10. The second row lists the numbers from 11 to 20. The third row lists the numbers from 21 to 30. The fourth row lists the numbers from 31 and 40. The fifth row lists the numbers from 41 to 50. All factors of 2 are highlighted in blue.",
+        "caption": "Figure 2.6 Multiples of 2 2 between 1 1 and 50 50",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/000-0f70eee58f280cb3.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/000-0f70eee58f280cb3.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-002-739a8813f29dddb0",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102615/84351d7f4e7756d69acc75ed6b6901df5ee397c3?revision=1",
+        "assetType": "figure",
+        "altText": "The image shows a chart with five rows and ten columns. The first row lists the numbers from 1 to 10. The second row lists the numbers from 11 to 20. The third row lists the numbers from 21 to 30. The fourth row lists the numbers from 31 and 40. The fifth row lists the numbers from 41 to 50. All factors of 5 are highlighted in blue.",
+        "caption": "Figure 2.7 Multiples of 5 5 between 1 1 and 50 50",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/002-739a8813f29dddb0.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/002-739a8813f29dddb0.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-004-a24bc5bbdf112687",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102614/5f011bebd621cae37ebce514c45683edbecb9705?revision=1",
+        "assetType": "figure",
+        "altText": "The image shows a chart with five rows and ten columns. The first row lists the numbers from 1 to 10. The second row lists the numbers from 11 to 20. The third row lists the numbers from 21 to 30. The fourth row lists the numbers from 31 and 40. The fifth row lists the numbers from 41 to 50. All factors of 10 are highlighted in blue.",
+        "caption": "Figure 2.8 Multiples of 10 10 between 1 1 and 50 50",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/004-a24bc5bbdf112687.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/004-a24bc5bbdf112687.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-006-2eabce1a9328161c",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102620/d9c48b1b12df08193ec6087fc154b5488025735b?revision=1",
+        "assetType": "figure",
+        "altText": "The image shows a chart with five rows and ten columns. The first row lists the numbers from 1 to 10. The second row lists the numbers from 11 to 20. The third row lists the numbers from 21 to 30. The fourth row lists the numbers from 31 and 40. The fifth row lists the numbers from 41 to 50. All factors of 3 are highlighted in blue.",
+        "caption": "Figure 2.9 Multiples of 3 3 between 1 1 and 50 50",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/006-2eabce1a9328161c.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/006-2eabce1a9328161c.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-008-5e2b4b92ebfdf95d",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102613/c71ceeb0aa5be0bb3b749400bf1e8aeb2f4461eb?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the equation 8 times 9 equals 72. The 8 and 9 are labeled as factors and the 72 is labeled product.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/008-5e2b4b92ebfdf95d.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/008-5e2b4b92ebfdf95d.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-009-860f5cb7e0d67ed9",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102626/f3ff4d63f5a619b00e984d6a68f77c94eb038ac7?revision=1",
+        "assetType": "image",
+        "altText": "The figure shows a table with ten rows and four columns. The first row is a header row and labels the rows “Dividend”, “Divisor”, “Quotient”, and “Factors”. Under the “Dividend” column all rows show the number 72. In the second row the “Divisor” column is 1, the “Quotient” column is 72 and the “Factors” column is 1 and 72. In the third row the “Divisor” column is 2, the “Quotient” column is 36 and the “Factors” column is 2 and 36. In the fourth row the “Divisor” column is 3, the “Quotient” column is 24 and the “Factors” column is 3 and 24. In the fifth row the “Divisor” column is 4, the “Quotient” column is 18 and the “Factors” column is 4 and 18. In the sixth row the “Divisor” column is 5, the “Quotient” column is 14.4 and the “Factors” column is blank. In the seventh row the “Divisor” column is 6, the “Quotient” column is 12 and the “Factors” column is 6 and 12. In the eighth row the “Divisor” column is 7, the “Quotient” column is about 10.29 and the “Factors” column is blank. In the ninth row the “Divisor” column is 8, the “Quotient” column is 9 and the “Factors” column is 8 and 9. In the tenth row the “Divisor” column is 9, the “Quotient” column is 8 and the “Factors” column is 9 and 8.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/009-860f5cb7e0d67ed9.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/009-860f5cb7e0d67ed9.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-010-7540c720ed4ebe61",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102623/11c771d6adec0c8131bebc8795c5e6212f6778b8?revision=1",
+        "assetType": "figure",
+        "altText": "This figure shows a table with twenty rows and three columns. The first row is a header row. It labels the columns as “Number”, “Factor” and “Prime or composite?” The second row lists the number 2, in red, under the “Number” column, the numbers 1 and 2 under the “Factors” column and the word prime under the “Prime or Composite?” column. The third row lists the number 3, in red, under the “Number” column, the numbers 1 and 3 under the “Factors” column and the word prime under the “Prime or Composite?” column. The fourth row lists the number 4 under the “Number” column, the numbers 1, 2 and 4 under the “Factors” column and the word composite under the “Prime or Composite?” column. The fifth row lists the number 5, in red, under the “Number” column, the numbers 1 and 5 under the “Factors” column and the word prime under the “Prime or Composite?” column. The sixth row lists the number 6 under the “Number” column, the numbers 1, 2, 3 and 6 under the “Factors” column and the word composite under the “Prime or Composite?” column. The seventh row lists the number 7, in red, under the “Number” column, the numbers 1 and 7 under the “Factors” column and the word prime under the “Prime or Composite?” column. The eighth row lists the number 8 under the “Number” column, the numbers 1, 2, 4 and 8 under the “Factors” column and the word composite under the “Prime or Composite?” column. The ninth row lists the number 9 under the “Number” column, the numbers 1, 3 and 9 under the “Factors” column and the word composite under the “Prime or Composite?” column. The tenth row lists the number 10 under the “Number” column, the numbers 1, 2, 5 and 10 under the “Factors” column and the word composite under the “Prime or Composite?” column. The eleventh row lists the number 11, in red, under the “Number” column, the numbers 1 and 11 under the “Factors” column and the word prime under the “Prime or Composite?” column. The twelfth row lists the number 12 under the “Number” column, the numbers 1, 2, 3, 4, 6 and 12 under the “Factors” column and the word composite under the “Prime or Composite?” column. The thirteenth row lists the number 13, in red, under the “Number” column, the numbers 1 and 13 under the “Factors” column and the word prime under the “Prime or Composite?” column. The fourteenth row lists the number 14 under the “Number” column, the numbers 1, 2, 7 and 14 under the “Factors” column and the word composite under the “Prime or Composite?” column. The fifteenth row lists the number 15 under the “Number” column, the numbers 1, 2, 3, 5 and 15 under the “Factors” column and the word composite under the “Prime or Composite?” column. The sixteenth row lists the number 16 under the “Number” column, the numbers 1, 2, 4, 8 and 16 under the “Factors” column and the word composite under the “Prime or Composite?” column. The seventeenth row lists the number 17, in red, under the “Number” column, the numbers 1 and 17 under the “Factors” column and the word prime under the “Prime or Composite?” column. The eighteenth row lists the number 18 under the “Number” column, the numbers 1, 2, 3, 6, 9 and 18 under the “Factors” column and the word composite under the “Prime or Composite?” column. The nineteenth row lists the number 19, in red, under the “Number” column, the numbers 1 and 19 under the “Factors” column and the word prime under the “Prime or Composite?” column. The twentieth row lists the number 20 under the “Number” column, the numbers 1, 2, 4, 5, 10 and 20 under the “Factors” column and the word composite under the “Prime or Composite?” column.",
+        "caption": "Figure 2.10 Factors of the counting numbers from 2 2 through 20 , 20 , with prime numbers highlighted",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/010-7540c720ed4ebe61.png",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/010-7540c720ed4ebe61.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-34104a48be5d203e",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/34104a48be5d203e.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/34104a48be5d203e.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-1fba371845a7a4e4",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/1fba371845a7a4e4.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/1fba371845a7a4e4.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-2418f0a2be22e71d",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/2418f0a2be22e71d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/2418f0a2be22e71d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-04ff5264bf91620d",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/04ff5264bf91620d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/04ff5264bf91620d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-29fdc9d81e940b98",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/29fdc9d81e940b98.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/29fdc9d81e940b98.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-70e9e63fd8c88c62",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/70e9e63fd8c88c62.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/70e9e63fd8c88c62.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-ae68cef2528c0834",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/ae68cef2528c0834.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/ae68cef2528c0834.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-738fb7ac193df7dd",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/738fb7ac193df7dd.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/738fb7ac193df7dd.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-82b39e050ac7e3f5",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓐ Is 645645 a multiple of 3?3?",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/82b39e050ac7e3f5.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/82b39e050ac7e3f5.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-33ff0e324d7e1970",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓑ Is 10,51910,519 a multiple of 3?3?",
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/33ff0e324d7e1970.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/33ff0e324d7e1970.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-de4cfab18eae52da",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/de4cfab18eae52da.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/de4cfab18eae52da.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-97eefa86b3d0391a",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/97eefa86b3d0391a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/97eefa86b3d0391a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-740a3f52b07efd85",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/740a3f52b07efd85.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/740a3f52b07efd85.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-1d06983770be5a67",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/1d06983770be5a67.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/1d06983770be5a67.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-1f47ccc7c81bda3a",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/1f47ccc7c81bda3a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/1f47ccc7c81bda3a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-3707dc6ca39ed615",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-15",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/3707dc6ca39ed615.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/3707dc6ca39ed615.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-d70b308c9e988a91",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-16",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/d70b308c9e988a91.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/d70b308c9e988a91.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiples-factors-asset-56ab650a2648b226",
+        "lessonId": "lesson-multiples-factors",
+        "sourceSnapshotId": "snapshot-182ba08b5ddda1d7",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors#table-17",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/56ab650a2648b226.json",
+        "r2Key": "assets/prealgebra-2e-openstax/2-4-find-multiples-and-factors/56ab650a2648b226.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

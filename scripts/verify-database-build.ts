@@ -11,9 +11,11 @@ import { applySeedPayload, readSeedDatabasePayload } from "./lib/seed-db";
 const expectedLessonPaths = [
   "/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme",
   "/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
+  "/kitap/prealgebra-2e/cebir-diline-giris/katlari-ve-carpanlari-bulma",
 ];
 const expectedBookPaths = ["/kitap/prealgebra-2e"];
 const expectedChapterPaths = ["/kitap/prealgebra-2e/cebir-diline-giris"];
+const expectedPrerenderedPageCount = 8 + expectedLessonPaths.length;
 
 async function main() {
   const tempDir = await mkdtemp(path.join(tmpdir(), "turan-database-build-"));
@@ -111,7 +113,10 @@ function assertBuildOutput(output: string) {
     }
   }
 
-  if (!/Generating static pages using \d+ workers \(10\/10\)/.test(output)) {
+  const pageCountPattern = new RegExp(
+    `Generating static pages using \\d+ workers \\(${expectedPrerenderedPageCount}\\/${expectedPrerenderedPageCount}\\)`,
+  );
+  if (!pageCountPattern.test(output)) {
     throw new Error("Database content build did not prerender the expected page count.");
   }
 }

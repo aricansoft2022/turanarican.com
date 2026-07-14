@@ -186,10 +186,22 @@ summary::-webkit-details-marker {
     font-size: clamp(2rem, 8vw, 2.4rem);
     font-weight: 900;
     line-height: 1.02;
-    word-break: keep-all;
+    overflow-wrap: anywhere;
     text-shadow:
       2px 2px 0 #fff,
       4px 4px 0 rgba(216, 0, 0, 0.24);
+  }
+
+  .lesson-shell h2 {
+    display: block !important;
+    max-width: 14ch !important;
+    white-space: normal !important;
+    font-family: var(--font-sans);
+    font-size: clamp(1.5rem, 7vw, 1.9rem);
+    font-weight: 900;
+    line-height: 1.05;
+    overflow-wrap: break-word;
+    word-break: normal;
   }
 
   .issue-card {
