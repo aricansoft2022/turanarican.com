@@ -452,6 +452,7 @@ npm run seed:validate
 npm run seed:db-payload
 npm run seed:db-verify
 npm run seed:db-read
+npm run content:verify
 ```
 
 Tek komutluk repo içi seed kalite kapısı:
@@ -463,7 +464,9 @@ npm run seed:pipeline
 Not: `seed:db-payload` fixture validation'ı kendisi de çalıştırır; bozuk seed
 fixture DB payload'a çevrilmez. `seed:db-read`, migration uygulanmış geçici
 SQLite veritabanına seed yazar ve uygulamanın `Book`/`Lesson` okuma modeline
-geri çevrilebildiğini doğrular.
+geri çevrilebildiğini doğrular. `content:verify`, hem varsayılan statik içerik
+kaynağını hem de geçici SQLite üstünden `CONTENT_SOURCE=database` akışını
+uygulamanın kullandığı içerik fonksiyonlarıyla test eder.
 
 Migration uygulanmış bir Turso veya lokal SQLite hedefine seed payload'ı yazmak
 için önce kuru koşuyu kontrol et:
