@@ -3124,7 +3124,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, evaluate the expression for the given value."
+                "value": "Aşağıdaki alıştırmalarda ifadeyi verilen değer için değerlendirin."
               },
               {
                 "type": "text",
@@ -3132,7 +3132,7 @@
               },
               {
                 "type": "math",
-                "value": "7x+8 \\text{when} x=2"
+                "value": "7x+8 \\text{iken} x=2"
               }
             ],
             "answer": [
@@ -3150,7 +3150,7 @@
             "prompt": [
               {
                 "type": "math",
-                "value": "x^{2}+3x-7 \\text{when} x=4"
+                "value": "x^{2}+3x-7 \\text{iken} x=4"
               }
             ],
             "answer": [
@@ -3168,7 +3168,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, simplify the given expression by combining like terms."
+                "value": "Aşağıdaki alıştırmalarda benzer terimleri birleştirerek verilen ifadeyi sadeleştirin."
               },
               {
                 "type": "text",
@@ -3194,7 +3194,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, translate the given word phrase into an algebraic expression."
+                "value": "Aşağıdaki alıştırmalarda verilen sözcük öbeğini cebirsel ifadeye çevirin."
               },
               {
                 "type": "text",
@@ -5426,7 +5426,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, determine whether each given value is a solution to the equation."
+                "value": "Aşağıdaki alıştırmalarda verilen her değerin denklemin çözümü olup olmadığını belirleyin."
               },
               {
                 "type": "text",
@@ -5502,7 +5502,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, solve each equation using the subtraction property of equality."
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin çıkarma özelliğini kullanarak çözün."
               },
               {
                 "type": "text",
@@ -5528,7 +5528,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, solve each equation using the addition property of equality."
+                "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin toplama özelliğini kullanarak çözün."
               },
               {
                 "type": "text",
@@ -5554,7 +5554,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, translate the given sentence into an algebraic equation and then solve it."
+                "value": "Aşağıdaki alıştırmalarda verilen cümleyi cebirsel denkleme çevirin ve çözün."
               },
               {
                 "type": "text",
@@ -8547,7 +8547,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, list all the multiples less than "
+                "value": "Aşağıdaki alıştırmalarda verilen sayı için "
               },
               {
                 "type": "math",
@@ -8555,7 +8555,7 @@
               },
               {
                 "type": "text",
-                "value": " for the given number."
+                "value": "'den küçük tüm katları listeleyin."
               },
               {
                 "type": "text",
@@ -8581,11 +8581,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, use the divisibility tests to determine whether each number is divisible by "
+                "value": "Aşağıdaki alıştırmalarda her sayının "
               },
               {
                 "type": "math",
-                "value": "2,3,4,5,6,\\text{and} 10."
+                "value": "2,3,4,5,6,\\text{ve} 10"
+              },
+              {
+                "type": "text",
+                "value": " ile bölünüp bölünmediğini belirlemek için bölünebilme testlerini kullanın."
               },
               {
                 "type": "text",
@@ -8611,7 +8615,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, find all the factors of the given number."
+                "value": "Aşağıdaki alıştırmalarda verilen sayının tüm çarpanlarını bulun."
               },
               {
                 "type": "text",
@@ -8637,7 +8641,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "In the following exercises, determine if the given number is prime or composite."
+                "value": "Aşağıdaki alıştırmalarda verilen sayının asal mı bileşik mi olduğunu belirleyin."
               },
               {
                 "type": "text",

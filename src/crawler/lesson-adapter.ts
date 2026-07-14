@@ -13,6 +13,7 @@ import {
   parsedLessonBlocksToContentBlocks,
   type ParsedLessonContent,
 } from "./lesson-content";
+import { adaptExercisePromptToTurkish } from "./turkish-adaptation";
 
 type LessonBuildInput = {
   book: Pick<Book, "id" | "slug" | "license">;
@@ -82,7 +83,7 @@ function buildAnsweredExercises(
       id: `exercise-${exercise.number}`,
       number: exercise.number,
       sectionSlug: exerciseSectionSlugs[exercise.number] ?? "",
-      prompt: exercise.prompt,
+      prompt: adaptExercisePromptToTurkish(exercise.prompt),
       answer: exerciseAnswers[exercise.number],
       sortOrder: Number(exercise.number.replace(/\D+$/g, "")),
     }));
