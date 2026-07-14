@@ -71,6 +71,14 @@ export type ContentBlock =
   | { type: "list"; items: InlineContent[][] }
   | { type: "table"; columns: string[]; rows: string[][] };
 
+export type EditorialSectionPatch = {
+  sectionSlug: string;
+  replaceBlocks?: Array<{
+    sourceBlockIndex: number;
+    blocks: ContentBlock[];
+  }>;
+};
+
 export type InlineContent =
   | { type: "text"; value: string }
   | { type: "math"; value: string; display?: boolean };

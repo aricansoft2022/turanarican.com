@@ -155,6 +155,8 @@ alone. The intended workflow is:
 
 Treat `src/crawler/turkish-localization.ts` as cleanup/localization support, not
 as a general translation engine.
+Put manual lesson translations and replacements in `data/editorial-patches.ts`
+so source crawl/seed metadata stays separate from editorial Turkish content.
 
 ## Data Model Direction
 

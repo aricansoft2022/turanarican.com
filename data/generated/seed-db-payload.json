@@ -109,7 +109,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "In the last section, we simplified expressions using the order of operations. In this section, we’ll evaluate expressions—again following the order of operations."
+                "value": "Önceki bölümde işlem sırasını kullanarak ifadeleri sadeleştirdik. Bu bölümde yine işlem sırasını izleyerek cebirsel ifadeleri değerlendireceğiz."
               }
             ]
           },
@@ -118,7 +118,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "To evaluate an algebraic expression means to find the value of the expression when the variable is replaced by a given number. To evaluate an expression, we substitute the given number for the variable in the expression and then simplify the expression using the order of operations."
+                "value": "Bir cebirsel ifadeyi değerlendirmek, değişken yerine verilen sayıyı yazarak ifadenin değerini bulmak demektir. Bunun için verilen sayıyı ifadede değişkenin yerine koyar, sonra işlem sırasına göre sadeleştiririz."
               }
             ]
           },

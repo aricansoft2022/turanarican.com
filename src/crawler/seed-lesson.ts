@@ -1,4 +1,5 @@
 import type { books as catalogBooks } from "@/data/book-catalog";
+import { getEditorialLessonPatches } from "@/data/editorial-patches";
 import type { seedLessonConfigs } from "@/data/seed-lessons";
 import type { sourceBooks } from "@/data/source-plans";
 import type { Book, Chapter, Lesson, LessonSummary } from "@/src/content/types";
@@ -97,6 +98,10 @@ export async function fetchSeedLessonContent({
     sectionTitles: seedConfig.sectionTitles,
     exerciseAnswers: seedConfig.exerciseAnswers,
     exerciseSectionSlugs: seedConfig.exerciseSectionSlugs,
+    editorialPatches: getEditorialLessonPatches({
+      sourceBookSlug: seedConfig.sourceBookSlug,
+      sourceNumber: seedConfig.sourceNumber,
+    }),
   });
 
   return {

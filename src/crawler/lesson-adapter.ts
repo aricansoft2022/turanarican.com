@@ -1,6 +1,7 @@
 import type {
   Book,
   Chapter,
+  EditorialSectionPatch,
   Exercise,
   InlineContent,
   Lesson,
@@ -27,6 +28,7 @@ type LessonBuildInput = {
   sectionTitles?: Record<string, string>;
   exerciseAnswers?: Record<string, InlineContent[]>;
   exerciseSectionSlugs?: Record<string, string>;
+  editorialPatches?: EditorialSectionPatch[];
 };
 
 export function buildLessonFromParsedContent({
@@ -38,7 +40,12 @@ export function buildLessonFromParsedContent({
   sectionTitles = {},
   exerciseAnswers = {},
   exerciseSectionSlugs = {},
+  editorialPatches = [],
 }: LessonBuildInput): Lesson {
+  const sections = parsedLesson.sections.map((section, index) =>
+    buildLessonSection(lesson.slug, section, sectionTitles, index),
+  );
+
   return {
     ...lesson,
     bookId: book.id,
@@ -46,15 +53,39 @@ export function buildLessonFromParsedContent({
     chapterSlug: chapter.slug,
     license: book.license,
     objectives: objectives ?? parsedLesson.objectives,
-    sections: parsedLesson.sections.map((section, index) =>
-      buildLessonSection(lesson.slug, section, sectionTitles, index),
-    ),
+    sections: applyEditorialPatches(sections, editorialPatches),
     exercises: buildAnsweredExercises(
       parsedLesson,
       exerciseAnswers,
       exerciseSectionSlugs,
     ),
   };
+}
+
+function applyEditorialPatches(
+  sections: LessonSection[],
+  patches: EditorialSectionPatch[],
+): LessonSection[] {
+  if (!patches.length) return sections;
+
+  return sections.map((section) => {
+    const patch = patches.find((item) => item.sectionSlug === section.slug);
+    if (!patch) return section;
+
+    const blocks = [...section.blocks];
+    for (const replacement of patch.replaceBlocks ?? []) {
+      const blockIndex = replacement.sourceBlockIndex - 1;
+      if (blockIndex < 0 || blockIndex >= blocks.length) {
+        throw new Error(
+          `Editorial patch references missing block ${replacement.sourceBlockIndex} in section ${section.slug}.`,
+        );
+      }
+
+      blocks.splice(blockIndex, 1, ...replacement.blocks);
+    }
+
+    return { ...section, blocks };
+  });
 }
 
 function buildLessonSection(
