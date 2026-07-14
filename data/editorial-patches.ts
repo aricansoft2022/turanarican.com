@@ -3432,6 +3432,336 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
           },
         ],
       },
+      {
+        sectionSlug: "sozcuk-obeklerini-cebirsel-denklemlere-cevirme",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Bir denklemin iki cebirsel ifade arasında eşittir işareti içerdiğini hatırlayın. Bu yüzden iki öbeğin eşit olduğunu söyleyen bir cümleyi denkleme çevirebiliriz. Eşittir işaretini gösteren ipucu sözcüklerini ararız. Eşittir işaretine çevrilebilecek bazı sözler şunlardır:",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 2,
+            blocks: [
+              {
+                type: "list",
+                items: [
+                  [{ type: "text", value: "eşittir" }],
+                  [{ type: "text", value: "aynıdır" }],
+                  [{ type: "text", value: "dır / dir" }],
+                  [{ type: "text", value: "verir" }],
+                  [{ type: "text", value: "idi" }],
+                  [{ type: "text", value: "olacaktır" }],
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Cümledeki eşitlik sözcüğünü belirlemek, iki tarafı ayrı ayrı görmeyi kolaylaştırır. Sonra eşitlik sözcüğünün solundaki öbeği bir ifadeye, sağındaki öbeği de başka bir ifadeye çevirir ve bunları eşittir işaretinin iki yanına yazarız.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Sözel cümleleri cebirsel denklemlere çevirmeye alıştırma yapacağız. Bazı cümleler değişken içermeyen temel sayı gerçekleri olacak. Bazıları ise değişkenli denklemlere dönüşecek. Şimdilik amacımız yalnızca sözcükleri cebire çevirmektir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.35",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "6" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "9" },
+                  { type: "text", value: "'un toplamı " },
+                  { type: "math", value: "15" },
+                  { type: "text", value: "'tir." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "“...tir” sözü eşitliği gösterir; eşittir işareti toplam öbeği ile 15 arasına gelir.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}\\text{6 ile 9'un toplamı} &= 15\\\\6+9&=15\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.69",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "7" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "6" },
+                  { type: "text", value: "'nın toplamı " },
+                  { type: "math", value: "13" },
+                  { type: "text", value: " verir." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.70",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "8" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "6" },
+                  { type: "text", value: "'nın toplamı " },
+                  { type: "math", value: "14" },
+                  { type: "text", value: "'tür." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.36",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "8" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "7" },
+                  { type: "text", value: "'nin çarpımı " },
+                  { type: "math", value: "56" },
+                  { type: "text", value: "'dır." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "“...dır” sözü eşitliği gösterir; eşittir işareti çarpım öbeği ile 56 arasına gelir.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}\\text{8 ile 7'nin çarpımı} &= 56\\\\8\\cdot7&=56\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.71",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "6" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "9" },
+                  { type: "text", value: "'un çarpımı " },
+                  { type: "math", value: "54" },
+                  { type: "text", value: "'tür." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.72",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "21" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "3" },
+                  { type: "text", value: "'ün çarpımı " },
+                  { type: "math", value: "63" },
+                  { type: "text", value: " verir." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.37",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "x" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "3" },
+                  { type: "text", value: "'ün farkının iki katı " },
+                  { type: "math", value: "18" },
+                  { type: "text", value: " verir." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "text",
+                        value:
+                          "“Verir” sözü eşitliği gösterir. “İki katı” çarpmayı, “fark” ise çıkarma işlemini gösterir. Önce farkı parantez içinde yazarız.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}\\text{x ile 3'ün farkı} &= x-3\\\\\\text{bu farkın iki katı} &= 2(x-3)\\\\2(x-3)&=18\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 12,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.73",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Verilen cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "x" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "5" },
+                  { type: "text", value: "'in farkının iki katı " },
+                  { type: "math", value: "30" },
+                  { type: "text", value: " verir." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 13,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.74",
+                prompt: [
+                  {
+                    type: "text",
+                    value: "Verilen cümleyi cebirsel denkleme çevirin: ",
+                  },
+                  { type: "math", value: "y" },
+                  { type: "text", value: " ile " },
+                  { type: "math", value: "4" },
+                  { type: "text", value: "'ün farkının iki katı " },
+                  { type: "math", value: "16" },
+                  { type: "text", value: " verir." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
   {

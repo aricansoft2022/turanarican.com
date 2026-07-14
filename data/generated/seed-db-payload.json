@@ -4353,7 +4353,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Remember, an equation has an equal sign between two algebraic expressions. So if we have a sentence that tells us that two phrases are equal, we can translate it into an equation. We look for clue words that mean equals. Some words that translate to the equal sign are:"
+                "value": "Bir denklemin iki cebirsel ifade arasında eşittir işareti içerdiğini hatırlayın. Bu yüzden iki öbeğin eşit olduğunu söyleyen bir cümleyi denkleme çevirebiliriz. Eşittir işaretini gösteren ipucu sözcüklerini ararız. Eşittir işaretine çevrilebilecek bazı sözler şunlardır:"
               }
             ]
           },
@@ -4363,37 +4363,37 @@
               [
                 {
                   "type": "text",
-                  "value": "is equal to"
+                  "value": "eşittir"
                 }
               ],
               [
                 {
                   "type": "text",
-                  "value": "is the same as"
+                  "value": "aynıdır"
                 }
               ],
               [
                 {
                   "type": "text",
-                  "value": "is"
+                  "value": "dır / dir"
                 }
               ],
               [
                 {
                   "type": "text",
-                  "value": "gives"
+                  "value": "verir"
                 }
               ],
               [
                 {
                   "type": "text",
-                  "value": "was"
+                  "value": "idi"
                 }
               ],
               [
                 {
                   "type": "text",
-                  "value": "will be"
+                  "value": "olacaktır"
                 }
               ]
             ]
@@ -4403,7 +4403,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "It may be helpful to put a box around the equals word(s) in the sentence to help you focus separately on each phrase. Then translate each phrase into an expression, and write them on each side of the equal sign."
+                "value": "Cümledeki eşitlik sözcüğünü belirlemek, iki tarafı ayrı ayrı görmeyi kolaylaştırır. Sonra eşitlik sözcüğünün solundaki öbeği bir ifadeye, sağındaki öbeği de başka bir ifadeye çevirir ve bunları eşittir işaretinin iki yanına yazarız."
               }
             ]
           },
@@ -4412,7 +4412,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "We will practice translating word sentences into algebraic equations. Some of the sentences will be basic number facts with no variables to solve for. Some sentences will translate into equations with variables. The focus right now is just to translate the words into algebra."
+                "value": "Sözel cümleleri cebirsel denklemlere çevirmeye alıştırma yapacağız. Bazı cümleler değişken içermeyen temel sayı gerçekleri olacak. Bazıları ise değişkenli denklemlere dönüşecek. Şimdilik amacımız yalnızca sözcükleri cebire çevirmektir."
               }
             ]
           },
@@ -4422,7 +4422,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the sentence into an algebraic equation: The sum of "
+                "value": "Cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4430,7 +4430,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4438,11 +4438,15 @@
               },
               {
                 "type": "text",
-                "value": " is "
+                "value": "'un toplamı "
               },
               {
                 "type": "math",
-                "value": "15."
+                "value": "15"
+              },
+              {
+                "type": "text",
+                "value": "'tir."
               }
             ],
             "solution": [
@@ -4451,26 +4455,18 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "The word is tells us the equal sign goes between 9 and 15."
+                    "value": "“...tir” sözü eşitliği gösterir; eşittir işareti toplam öbeği ile 15 arasına gelir."
                   }
                 ]
               },
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Locate the “equals” word(s)."
-                  ],
-                  [
-                    "Write the = sign."
-                  ],
-                  [
-                    "Translate the words to the left of the equals word into an algebraic expression."
-                  ],
-                  [
-                    "Translate the words to the right of the equals word into an algebraic expression."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}\\text{6 ile 9'un toplamı} &= 15\\\\6+9&=15\\end{aligned}",
+                    "display": true
+                  }
                 ]
               }
             ]
@@ -4481,7 +4477,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the sentence into an algebraic equation: The sum of "
+                "value": "Cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4489,7 +4485,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4497,11 +4493,15 @@
               },
               {
                 "type": "text",
-                "value": " gives "
+                "value": "'nın toplamı "
               },
               {
                 "type": "math",
-                "value": "13."
+                "value": "13"
+              },
+              {
+                "type": "text",
+                "value": " verir."
               }
             ],
             "solution": []
@@ -4512,7 +4512,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the sentence into an algebraic equation: The sum of "
+                "value": "Cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4520,7 +4520,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4528,11 +4528,15 @@
               },
               {
                 "type": "text",
-                "value": " is "
+                "value": "'nın toplamı "
               },
               {
                 "type": "math",
-                "value": "14."
+                "value": "14"
+              },
+              {
+                "type": "text",
+                "value": "'tür."
               }
             ],
             "solution": []
@@ -4543,7 +4547,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the sentence into an algebraic equation: The product of "
+                "value": "Cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4551,7 +4555,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4559,11 +4563,15 @@
               },
               {
                 "type": "text",
-                "value": " is "
+                "value": "'nin çarpımı "
               },
               {
                 "type": "math",
-                "value": "56."
+                "value": "56"
+              },
+              {
+                "type": "text",
+                "value": "'dır."
               }
             ],
             "solution": [
@@ -4572,26 +4580,18 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "The location of the word is tells us that the equal sign goes between 7 and 56."
+                    "value": "“...dır” sözü eşitliği gösterir; eşittir işareti çarpım öbeği ile 56 arasına gelir."
                   }
                 ]
               },
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Locate the “equals” word(s)."
-                  ],
-                  [
-                    "Write the = sign."
-                  ],
-                  [
-                    "Translate the words to the left of the equals word into an algebraic expression."
-                  ],
-                  [
-                    "Translate the words to the right of the equals word into an algebraic expression."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}\\text{8 ile 7'nin çarpımı} &= 56\\\\8\\cdot7&=56\\end{aligned}",
+                    "display": true
+                  }
                 ]
               }
             ]
@@ -4602,7 +4602,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the sentence into an algebraic equation: The product of "
+                "value": "Cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4610,7 +4610,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4618,11 +4618,15 @@
               },
               {
                 "type": "text",
-                "value": " is "
+                "value": "'un çarpımı "
               },
               {
                 "type": "math",
-                "value": "54."
+                "value": "54"
+              },
+              {
+                "type": "text",
+                "value": "'tür."
               }
             ],
             "solution": []
@@ -4633,7 +4637,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the sentence into an algebraic equation: The product of "
+                "value": "Cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4641,7 +4645,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4649,11 +4653,15 @@
               },
               {
                 "type": "text",
-                "value": " gives "
+                "value": "'ün çarpımı "
               },
               {
                 "type": "math",
-                "value": "63."
+                "value": "63"
+              },
+              {
+                "type": "text",
+                "value": " verir."
               }
             ],
             "solution": []
@@ -4664,7 +4672,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the sentence into an algebraic equation: Twice the difference of "
+                "value": "Cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4672,7 +4680,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4680,28 +4688,35 @@
               },
               {
                 "type": "text",
-                "value": " gives "
+                "value": "'ün farkının iki katı "
               },
               {
                 "type": "math",
-                "value": "18."
+                "value": "18"
+              },
+              {
+                "type": "text",
+                "value": " verir."
               }
             ],
             "solution": [
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Locate the “equals” word(s)."
-                  ],
-                  [
-                    "Recognize the key words: twice; difference of …. and ….",
-                    "Twice means two times."
-                  ],
-                  [
-                    "Translate."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "“Verir” sözü eşitliği gösterir. “İki katı” çarpmayı, “fark” ise çıkarma işlemini gösterir. Önce farkı parantez içinde yazarız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}\\text{x ile 3'ün farkı} &= x-3\\\\\\text{bu farkın iki katı} &= 2(x-3)\\\\2(x-3)&=18\\end{aligned}",
+                    "display": true
+                  }
                 ]
               }
             ]
@@ -4712,7 +4727,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the given sentence into an algebraic equation: Twice the difference of "
+                "value": "Verilen cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4720,7 +4735,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4728,11 +4743,15 @@
               },
               {
                 "type": "text",
-                "value": " gives "
+                "value": "'in farkının iki katı "
               },
               {
                 "type": "math",
-                "value": "30."
+                "value": "30"
+              },
+              {
+                "type": "text",
+                "value": " verir."
               }
             ],
             "solution": []
@@ -4743,7 +4762,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Translate the given sentence into an algebraic equation: Twice the difference of "
+                "value": "Verilen cümleyi cebirsel denkleme çevirin: "
               },
               {
                 "type": "math",
@@ -4751,7 +4770,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " ile "
               },
               {
                 "type": "math",
@@ -4759,11 +4778,15 @@
               },
               {
                 "type": "text",
-                "value": " gives "
+                "value": "'ün farkının iki katı "
               },
               {
                 "type": "math",
-                "value": "16."
+                "value": "16"
+              },
+              {
+                "type": "text",
+                "value": " verir."
               }
             ],
             "solution": []
