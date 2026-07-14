@@ -66,12 +66,35 @@ the user explicitly asks for secret rotation help.
 When connecting production hosting:
 
 1. Confirm `turanarican.com` DNS is managed or pointed correctly.
-2. Configure the Worker/Pages project produced by OpenNext.
+2. Configure the Worker project produced by OpenNext.
 3. Add runtime variables from `.env.example`.
 4. Set cache rules for static assets.
 5. Enable observability/logs.
 6. Add WAF/rate limiting/bot protection rules.
 7. Keep Turnstile for future forms/auth only; do not gate normal lesson reading.
+
+## Cloudflare Workers Builds Settings
+
+Use these settings for Git-connected Workers Builds:
+
+- Framework preset: None/manual, unless Cloudflare has already detected the app
+  as an OpenNext Worker.
+- Build command: `npm run cf:build`
+- Deploy command: `npx @opennextjs/cloudflare deploy`
+
+Do not use `npm run build` as the Cloudflare build command for Workers deploys.
+That command only runs `next build`; it does not generate the `.open-next`
+worker bundle required by OpenNext deploy.
+
+Do not use `npx wrangler deploy` as the dashboard deploy command for this repo.
+Wrangler may detect the OpenNext project and delegate to OpenNext, but it will
+fail if the previous build step did not create the compiled OpenNext config.
+
+If the dashboard only allows one command for the whole deploy flow, use:
+
+```bash
+npm run deploy
+```
 
 ## R2 Asset Bucket Checklist
 
@@ -87,14 +110,16 @@ When source assets are ready to upload:
 
 ## Deploy Command
 
-The configured deploy command is:
+The configured local deploy command is:
 
 ```bash
-npm run cf:deploy
+npm run deploy
 ```
 
 Use it only after local checks pass and required dashboard/env setup is known to
 be complete.
+
+`npm run cf:deploy` is kept as an equivalent explicit alias.
 
 ## Post-Deploy Checks
 
