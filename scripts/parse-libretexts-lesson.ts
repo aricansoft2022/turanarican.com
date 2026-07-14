@@ -1,7 +1,6 @@
 import { sourceBooks } from "@/data/source-plans";
 import {
   fetchLessonContent,
-  parsedBoxToExampleBlock,
   parsedLessonBlocksToContentBlocks,
 } from "@/src/crawler/lesson-content";
 import { discoverPlannedLessons } from "@/src/crawler/lesson-plan";
@@ -32,9 +31,6 @@ async function main() {
   const renderBlocks = parsedLesson.sections.flatMap((section) =>
     parsedLessonBlocksToContentBlocks(section.blocks),
   );
-  const exampleBlocks = parsedLesson.examples.map(parsedBoxToExampleBlock);
-  const tryItBlocks = parsedLesson.tryIts.map(parsedBoxToExampleBlock);
-  const renderableBlocks = [...renderBlocks, ...exampleBlocks, ...tryItBlocks];
 
   console.log(`${lesson.sourceNumber} -> ${lesson.displayNumber} ${lesson.title}`);
   console.log(`hash: ${parsedLesson.contentHash.slice(0, 16)}`);
@@ -48,8 +44,10 @@ async function main() {
   console.log(`empty examples: ${parsedLesson.validation.emptyExamples.length}`);
   console.log(`empty try its: ${parsedLesson.validation.emptyTryIts.length}`);
   console.log(`empty exercises: ${parsedLesson.validation.emptyExercises.length}`);
-  console.log(`renderable blocks: ${renderableBlocks.length}`);
-  console.log(`math tokens: ${countMathTokens(renderableBlocks)}`);
+  console.log(`renderable blocks: ${renderBlocks.length}`);
+  console.log(`renderable examples: ${countBlocksByLabel(renderBlocks, /^Example/i)}`);
+  console.log(`renderable try its: ${countBlocksByLabel(renderBlocks, /^Try It/i)}`);
+  console.log(`math tokens: ${countMathTokens(renderBlocks)}`);
   console.log(
     `example solutions: ${parsedLesson.examples.filter((example) => example.solution.length > 0).length}`,
   );
@@ -78,6 +76,12 @@ function countBlockMathTokens(block: ContentBlock): number {
   if (block.type === "figure") return countInlineMathTokens(block.caption ?? []);
 
   return 0;
+}
+
+function countBlocksByLabel(blocks: ContentBlock[], pattern: RegExp) {
+  return blocks.filter((block) => {
+    return block.type === "example" && pattern.test(block.label);
+  }).length;
 }
 
 function countInlineMathTokens(items: InlineContent[]) {

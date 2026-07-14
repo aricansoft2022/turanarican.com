@@ -16,7 +16,8 @@ export type ParsedLessonBlock =
   | { type: "paragraph"; text: string; content: InlineContent[] }
   | { type: "list"; items: string[]; contentItems: InlineContent[][] }
   | { type: "table"; text: string; columns: string[]; rows: string[][] }
-  | { type: "figure"; text: string; caption: InlineContent[] };
+  | { type: "figure"; text: string; caption: InlineContent[] }
+  | ({ type: "example"; kind: "example" | "try_it" } & ParsedLessonBox);
 
 export type ParsedLessonSection = {
   heading: string;
@@ -133,13 +134,17 @@ export function parsedLessonBlocksToContentBlocks(
         : [];
     }
 
-    return [
-      {
-        type: "figure",
-        assetId: `source-figure-${String(index + 1).padStart(2, "0")}`,
-        caption: block.caption,
-      },
-    ];
+    if (block.type === "figure") {
+      return [
+        {
+          type: "figure",
+          assetId: `source-figure-${String(index + 1).padStart(2, "0")}`,
+          caption: block.caption,
+        },
+      ];
+    }
+
+    return [parsedBoxToExampleBlock(block)];
   });
 }
 
@@ -198,15 +203,30 @@ function parseMainSections($: cheerio.CheerioAPI, root: CheerioNode) {
 
 function parseSectionBlocks($: cheerio.CheerioAPI, section: CheerioNode) {
   const sectionClone = section.clone();
-  sectionClone
-    .find("section.box-example, section.box-note, .os-section-exercises-container")
-    .remove();
+  sectionClone.find(".os-section-exercises-container").remove();
 
   const blocks: ParsedLessonBlock[] = [];
   sectionClone
-    .children("p, ul, ol, table, figure, .os-table")
+    .children("p, ul, ol, table, figure, .os-table, section.box-example, section.box-note")
     .each((_: number, element: AnyNode) => {
       const node = $(element);
+
+      if (node.is("section.box-example, section.box-note")) {
+        const box = parseBox($, node);
+        if (!box) return;
+
+        if (node.is("section.box-example")) {
+          blocks.push({ ...box, type: "example", kind: "example" });
+          return;
+        }
+
+        if (/^Try It/i.test(box.label)) {
+          blocks.push({ ...box, type: "example", kind: "try_it" });
+        }
+
+        return;
+      }
+
       const text = normalizeElementText($, node);
       if (!text) return;
 

@@ -97,14 +97,16 @@ export function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
             <p className="lesson-paragraph">
               <MathText items={block.prompt} />
             </p>
-            <details className="mt-4">
-              <summary className="inline-flex cursor-pointer list-none border border-brand-red/35 bg-white px-3 py-2 text-xs font-extrabold uppercase text-brand-red hover:bg-brand-soft">
-                Çözümü Göster
-              </summary>
-              <div className="mt-3 border border-brand-red bg-white p-4">
-                <ContentRenderer blocks={block.solution} />
-              </div>
-            </details>
+            {block.solution.length > 0 ? (
+              <details className="mt-4">
+                <summary className="inline-flex cursor-pointer list-none border border-brand-red/35 bg-white px-3 py-2 text-xs font-extrabold uppercase text-brand-red hover:bg-brand-soft">
+                  Çözümü Göster
+                </summary>
+                <div className="mt-3 border border-brand-red bg-white p-4">
+                  <ContentRenderer blocks={block.solution} />
+                </div>
+              </details>
+            ) : null}
           </section>
         );
       })}
