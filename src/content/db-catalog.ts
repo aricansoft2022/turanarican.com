@@ -12,6 +12,7 @@ import type {
   LessonSection,
   LessonSummary,
   NumberingPolicy,
+  SourceAsset,
 } from "@/src/content/types";
 
 export type ContentDatabase = LibSQLDatabase<typeof schema>;
@@ -126,7 +127,7 @@ export async function getLessonFromDatabase(
   const row = rows[0];
   if (!row) return null;
 
-  const [sectionRows, exerciseRows] = await Promise.all([
+  const [sectionRows, exerciseRows, assetRows] = await Promise.all([
     db
       .select()
       .from(schema.lessonSections)
@@ -137,6 +138,11 @@ export async function getLessonFromDatabase(
       .from(schema.exercises)
       .where(eq(schema.exercises.lessonId, row.lesson.id))
       .orderBy(asc(schema.exercises.sortOrder)),
+    db
+      .select()
+      .from(schema.sourceAssets)
+      .where(eq(schema.sourceAssets.lessonId, row.lesson.id))
+      .orderBy(asc(schema.sourceAssets.id)),
   ]);
 
   const sectionSlugById = new Map(
@@ -163,6 +169,8 @@ export async function getLessonFromDatabase(
   const book = await getBookFromDatabase(db, row.book.slug);
   if (!book) return null;
 
+  const assets = assetRows.map((asset) => toSourceAsset(asset, row.lesson.id));
+
   return {
     book,
     lesson: {
@@ -176,12 +184,31 @@ export async function getLessonFromDatabase(
       ),
       sections,
       exercises,
+      assets,
       license: {
         name: row.book.licenseName,
         url: row.book.licenseUrl,
         attribution: row.book.attributionText,
       },
     },
+  };
+}
+
+function toSourceAsset(
+  asset: typeof schema.sourceAssets.$inferSelect,
+  lessonId: string,
+): SourceAsset {
+  return {
+    id: stripLessonAssetPrefix(asset.id, lessonId),
+    sourceUrl: asset.sourceUrl,
+    type: assertAssetType(asset.assetType),
+    altText: asset.altText ?? undefined,
+    caption: asset.caption ?? undefined,
+    contentHash: asset.contentHash ?? undefined,
+    localKey: asset.localKey,
+    r2Key: asset.r2Key,
+    preferredTreatment: assertAssetTreatment(asset.preferredTreatment),
+    status: assertAssetStatus(asset.status),
   };
 }
 
@@ -221,6 +248,40 @@ function assertSectionLevel(value: number): 2 | 3 {
   throw new Error(`Unsupported section level: ${value}`);
 }
 
+function assertAssetType(value: string): SourceAsset["type"] {
+  if (value === "image" || value === "figure" || value === "table" || value === "svg") {
+    return value;
+  }
+
+  throw new Error(`Unsupported source asset type: ${value}`);
+}
+
+function assertAssetTreatment(value: string): SourceAsset["preferredTreatment"] {
+  if (
+    value === "redraw_tr_preferred" ||
+    value === "rebuild_html_tr" ||
+    value === "reuse_original"
+  ) {
+    return value;
+  }
+
+  throw new Error(`Unsupported source asset treatment: ${value}`);
+}
+
+function assertAssetStatus(value: string): SourceAsset["status"] {
+  if (
+    value === "discovered" ||
+    value === "downloaded" ||
+    value === "redrawn" ||
+    value === "uploaded" ||
+    value === "fallback_original"
+  ) {
+    return value;
+  }
+
+  throw new Error(`Unsupported source asset status: ${value}`);
+}
+
 function assertStringArray(value: unknown, label: string): string[] {
   const items = normalizeJsonArray(value, label);
 
@@ -258,4 +319,9 @@ function groupBy<T>(items: T[], getKey: (item: T) => string) {
   }
 
   return groups;
+}
+
+function stripLessonAssetPrefix(assetId: string, lessonId: string) {
+  const prefix = `${lessonId}-asset-`;
+  return assetId.startsWith(prefix) ? assetId.slice(prefix.length) : assetId;
 }

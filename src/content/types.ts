@@ -51,6 +51,7 @@ export type Lesson = LessonSummary & {
   objectives: string[];
   sections: LessonSection[];
   exercises: Exercise[];
+  assets?: SourceAsset[];
   license: License;
 };
 

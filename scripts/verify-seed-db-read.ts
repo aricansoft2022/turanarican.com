@@ -11,6 +11,7 @@ import {
   listBooksFromDatabase,
   listLessonParamsFromDatabase,
 } from "@/src/content/db-catalog";
+import type { ContentBlock } from "@/src/content/types";
 
 import { applySqlMigrations } from "./lib/migrations";
 import {
@@ -56,6 +57,10 @@ async function main() {
             slug: entry?.lesson.slug,
             count: entry?.lesson.objectives.length ?? 0,
           })),
+          assets: lessons.map((entry) => ({
+            slug: entry?.lesson.slug,
+            count: entry?.lesson.assets?.length ?? 0,
+          })),
         },
         null,
         2,
@@ -95,6 +100,16 @@ function assertCounts({
     throw new Error(`Lesson read count mismatch: expected ${payload.lessons}.`);
   }
 
+  const readAssets = lessons.reduce(
+    (total, entry) => total + (entry?.lesson.assets?.length ?? 0),
+    0,
+  );
+  if (readAssets !== payload.sourceAssets) {
+    throw new Error(
+      `Source asset read count mismatch: expected ${payload.sourceAssets}, got ${readAssets}.`,
+    );
+  }
+
   for (const entry of lessons) {
     if (!entry) {
       throw new Error("Lesson lookup returned null for a listed lesson param.");
@@ -111,7 +126,33 @@ function assertCounts({
     if (!entry.lesson.exercises.length) {
       throw new Error(`Lesson has no exercises after DB read: ${entry.lesson.id}`);
     }
+
+    assertFigureAssets(entry.lesson);
   }
+}
+
+function assertFigureAssets(
+  lesson: NonNullable<Awaited<ReturnType<typeof getLessonFromDatabase>>>["lesson"],
+) {
+  const assetIds = new Set((lesson.assets ?? []).map((asset) => asset.id));
+  const figureAssetIds = lesson.sections.flatMap((section) =>
+    collectFigureAssetIds(section.blocks),
+  );
+
+  for (const assetId of figureAssetIds) {
+    if (!assetIds.has(assetId)) {
+      throw new Error(`Figure asset is missing from lesson assets: ${lesson.id}/${assetId}`);
+    }
+  }
+}
+
+function collectFigureAssetIds(blocks: ContentBlock[]): string[] {
+  return blocks.flatMap((block): string[] => {
+    if (block.type === "figure") return [block.assetId];
+    if (block.type === "callout") return collectFigureAssetIds(block.blocks);
+    if (block.type === "example") return collectFigureAssetIds(block.solution);
+    return [];
+  });
 }
 
 main().catch((error) => {
