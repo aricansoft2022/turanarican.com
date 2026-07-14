@@ -146,6 +146,10 @@ sırasında içerik bulamayabilir. Geçişten önce repo içinde:
 npm run seed:pipeline
 ```
 
+Bu pipeline, seed fixture doğrulamasına ek olarak Türkçe dil sinyali kontrolünü
+ve tüm `Sıra Sizde`/kaynak alıştırmalar için açıklamalı çözüm kapsamını da
+zorunlu kalite kapısı olarak çalıştırır.
+
 ve hedef DB için:
 
 ```bash
@@ -453,6 +457,7 @@ npm run seed:db-payload
 npm run seed:db-verify
 npm run seed:db-read
 npm run content:verify
+npm run content:solution-check
 npm run content:build
 ```
 
@@ -468,8 +473,10 @@ SQLite veritabanına seed yazar ve uygulamanın `Book`/`Lesson` okuma modeline
 geri çevrilebildiğini doğrular. `content:verify`, hem varsayılan statik içerik
 kaynağını hem de geçici SQLite üstünden `CONTENT_SOURCE=database` akışını
 uygulamanın kullandığı içerik fonksiyonlarıyla test eder. `content:build`,
-geçici SQLite seed DB ile `CONTENT_SOURCE=database` build'i çalıştırır ve iki
-seed lesson route'unun prerender edildiğini kontrol eder.
+geçici SQLite seed DB ile `CONTENT_SOURCE=database` build'i çalıştırır ve seed
+lesson route'larının prerender edildiğini kontrol eder. `content:solution-check`,
+seedlenen her `Sıra Sizde` ve kaynak alıştırmasının açıklamalı reveal çözümü
+olduğunu doğrular.
 
 Migration uygulanmış bir Turso veya lokal SQLite hedefine seed payload'ı yazmak
 için önce kuru koşuyu kontrol et:
