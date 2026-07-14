@@ -1,19 +1,88 @@
-# Operations Guide
+# Operasyon Kılavuzu
 
-This is the living guide for dashboard/deploy work. Update it whenever a new
-production step becomes real.
+Bu dosya `turanarican.com` için deploy, dashboard, veritabanı, asset ve üretim
+kontrollerinin yaşayan kılavuzudur. Yeni bir panel ayarı, hata, deployment
+kararı veya altyapı adımı netleştiğinde bu dosyayı güncelle.
 
-## Current Hosting Shape
+## Hızlı Özet
 
-- Domain: `turanarican.com`
-- App runtime: Next.js App Router built with OpenNext for Cloudflare
-- Database: Turso SQLite through Drizzle
-- Planned asset storage: Cloudflare R2/bucket for crawled source assets
-- Public crawler/admin endpoints: none
+Proje şu anda:
 
-## Local Checks Before Any Deploy
+- Next.js App Router kullanıyor.
+- Cloudflare Workers üzerinde OpenNext ile çalışacak şekilde paketleniyor.
+- Turso SQLite + Drizzle için hazırlanmış durumda.
+- Crawled görsel/şekil/tablo assetleri için ileride Cloudflare R2 kullanılacak.
+- Public crawler veya admin endpoint yok.
+- Domain hedefi `https://turanarican.com`.
 
-Run these from the repo root:
+En önemli deploy kuralı:
+
+```bash
+npm run cf:build
+npx @opennextjs/cloudflare deploy
+```
+
+Cloudflare dashboard tek komut istiyorsa:
+
+```bash
+npm run deploy
+```
+
+`npm run build` yalnızca Next.js build üretir. Cloudflare/OpenNext deploy için
+gereken `.open-next` worker çıktısını üretmez.
+
+## Roller
+
+Codex tarafı:
+
+- Kod, config ve dokümantasyon değişikliklerini yapar.
+- Local doğrulama komutlarını çalıştırır.
+- Migration ve deploy komutlarını hazırlar.
+- Gerekirse repo commit/push yapar.
+
+Kullanıcı tarafı:
+
+- Cloudflare, Turso, GitHub ve domain dashboardlarında hesap/dns/secret gibi
+  yetki gerektiren işleri yapar.
+- Production tokenları güvenli yerde tutar.
+- Dashboard üzerinden görünen URL, deploy logu veya hata mesajlarını Codex ile
+  paylaşır.
+
+## Local Hazırlık
+
+Repo kökünde çalış:
+
+```bash
+npm install
+```
+
+Günlük geliştirme sunucusu:
+
+```bash
+npm run dev
+```
+
+Production benzeri build kontrolü:
+
+```bash
+npm run build
+```
+
+Cloudflare/OpenNext paket kontrolü:
+
+```bash
+npm run cf:build
+```
+
+Local Cloudflare preview:
+
+```bash
+npm run preview
+```
+
+## Deploy Öncesi Kontrol Listesi
+
+Deploy öncesi normal kalite kapıları:
 
 ```bash
 npm run typecheck
@@ -23,112 +92,437 @@ npm run cf:build
 npm audit --omit=dev
 ```
 
-If schema changed, also run:
+Schema değiştiyse ayrıca:
 
 ```bash
 npm run db:generate
 npm run db:migrate
 ```
 
-Commit only after the relevant checks pass.
+Beklenen durum:
+
+- `typecheck` hatasız.
+- `lint` hatasız.
+- `next build` başarılı.
+- `cf:build` sonunda `.open-next/worker.js` üretildi mesajı görünür.
+- `npm audit --omit=dev` 0 vulnerability döner.
+- `git status --short --branch` temiz veya değişiklikler bilinçli şekilde
+  commitlenmiştir.
 
 ## Environment Variables
 
-Keep real secrets out of git. `.env.example` should contain only names and safe
-placeholders.
+Gerçek secretları git'e koyma. `.env.example` sadece isimleri ve güvenli
+placeholder değerleri gösterir.
 
-Required public/runtime variables:
+Şu an bilinen değişkenler:
 
-- `NEXT_PUBLIC_SITE_URL`
-- `TURSO_DATABASE_URL`
-- `TURSO_AUTH_TOKEN`
+- `NEXT_PUBLIC_SITE_URL`: public site adresi. Production için
+  `https://turanarican.com`.
+- `TURSO_DATABASE_URL`: Turso database URL.
+- `TURSO_AUTH_TOKEN`: Turso auth token.
+- `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account id. CI veya CLI akışında
+  gerekebilir.
+- `CLOUDFLARE_API_TOKEN`: Cloudflare API token. Dashboard Git deploy kullanırken
+  çoğu zaman manuel eklemek gerekmez, ama CI/CLI için gerekebilir.
+- `R2_ASSETS_BUCKET`: ileride kullanılacak asset bucket adı.
 
-Cloudflare/Wrangler auth is normally handled outside the app env through
-Wrangler login or an API token in the deployment environment.
+Cloudflare dashboard'da env var girerken:
 
-## Turso Dashboard Checklist
+1. Production ve preview ortamlarını ayrı düşün.
+2. Secret olan değerleri plaintext dokümana yazma.
+3. Değişiklikten sonra yeni deploy tetikle.
+4. Env değişkeni runtime'da okunuyorsa eski deploy otomatik güncellenmeyebilir;
+   yeniden deploy güvenli yaklaşımdır.
 
-When the project reaches the real Turso setup step:
+## GitHub
 
-1. Create the production database.
-2. Create a scoped auth token.
-3. Add `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` to the deployment
-   environment.
-4. Run Drizzle migrations against production deliberately, not from a public app
-   request path.
-5. Verify migration state and table list in the dashboard.
+Remote repo:
 
-Never paste production tokens into docs, commits, screenshots, or chat unless
-the user explicitly asks for secret rotation help.
+```text
+https://github.com/aricansoft2022/turanarican.com
+```
 
-## Cloudflare Dashboard Checklist
+Kontrol:
 
-When connecting production hosting:
+```bash
+git remote -v
+git status --short --branch
+git log -3 --oneline
+```
 
-1. Confirm `turanarican.com` DNS is managed or pointed correctly.
-2. Configure the Worker project produced by OpenNext.
-3. Add runtime variables from `.env.example`.
-4. Set cache rules for static assets.
-5. Enable observability/logs.
-6. Add WAF/rate limiting/bot protection rules.
-7. Keep Turnstile for future forms/auth only; do not gate normal lesson reading.
+Push:
 
-## Cloudflare Workers Builds Settings
+```bash
+git push
+```
 
-Use these settings for Git-connected Workers Builds:
+Yeni ortamda remote yoksa:
 
-- Framework preset: None/manual, unless Cloudflare has already detected the app
-  as an OpenNext Worker.
+```bash
+git remote add origin https://github.com/aricansoft2022/turanarican.com.git
+git push -u origin main
+```
+
+## Cloudflare Workers Deploy
+
+Bu proje Cloudflare Workers için OpenNext kullanır. Cloudflare tarafında normal
+Next.js Pages ayarı gibi davranma; hedef `.open-next` worker çıktısıdır.
+
+### Dashboard Ayarları
+
+Git-connected Workers Builds kullanırken önerilen ayarlar:
+
+- Repository: `aricansoft2022/turanarican.com`
+- Branch: `main`
+- Root directory: repo kökü
+- Framework preset: None/manual veya Cloudflare'ın OpenNext Worker algıladığı
+  özel preset
+- Install command: boş bırakılabilir veya `npm ci`
 - Build command: `npm run cf:build`
 - Deploy command: `npx @opennextjs/cloudflare deploy`
 
-Do not use `npm run build` as the Cloudflare build command for Workers deploys.
-That command only runs `next build`; it does not generate the `.open-next`
-worker bundle required by OpenNext deploy.
-
-Do not use `npx wrangler deploy` as the dashboard deploy command for this repo.
-Wrangler may detect the OpenNext project and delegate to OpenNext, but it will
-fail if the previous build step did not create the compiled OpenNext config.
-
-If the dashboard only allows one command for the whole deploy flow, use:
+Dashboard tek komut istiyorsa:
 
 ```bash
 npm run deploy
 ```
 
-## R2 Asset Bucket Checklist
+Kullanma:
 
-When source assets are ready to upload:
+```bash
+npm run build
+npx wrangler deploy
+```
 
-1. Create a bucket for lesson assets.
-2. Decide the public asset URL shape.
-3. Bind the bucket in `wrangler.jsonc`.
-4. Upload objects using stable crawler keys like `assets/{book}/{lesson}/{id}`.
-5. Store final object keys/status in `source_assets`.
-6. For recreated Turkish diagrams/tables, mark the asset as `redrawn`; if the
-   recreation is ambiguous or visually broken, mark it as `fallback_original`.
+Neden? `npm run build`, yalnızca `.next` üretir. OpenNext deploy ise
+`.open-next` altında compiled config ve worker bekler.
 
-## Deploy Command
+### Local Deploy
 
-The configured local deploy command is:
+Localden deploy etmek için:
 
 ```bash
 npm run deploy
 ```
 
-Use it only after local checks pass and required dashboard/env setup is known to
-be complete.
+Eşdeğer açık komut:
 
-`npm run cf:deploy` is kept as an equivalent explicit alias.
+```bash
+npm run cf:deploy
+```
 
-## Post-Deploy Checks
+Bu komutlar önce OpenNext build yapar, sonra deploy eder.
 
-- Home page loads at `https://turanarican.com`.
-- Lesson route loads without double scrollbars.
-- Turkish characters render correctly.
-- KaTeX renders math.
-- Exercise answers start hidden and reveal on demand.
-- `/robots.txt`, `/sitemap.xml`, and `/og` respond.
-- OpenGraph preview uses the expected red/black design language.
-- Attribution/license text remains visible.
-- Cloudflare logs show no repeated runtime errors.
+### Build Logda Beklenen Sinyaller
+
+Başarılı OpenNext build sırasında şunlara benzer satırlar görünür:
+
+```text
+OpenNext — Cloudflare build
+OpenNext — Building Next.js app
+OpenNext — Generating bundle
+Worker saved in `.open-next/worker.js`
+OpenNext build complete.
+```
+
+Sadece şu route özetini görmek yeterli değildir:
+
+```text
+Route (app)
+┌ ○ /
+...
+Success: Build command completed
+```
+
+Bu kısım Next.js build'in geçtiğini gösterir; OpenNext worker çıktısının
+üretildiğini garanti etmez.
+
+## Son Görülen Deploy Hatası
+
+Hata:
+
+```text
+OpenNext project detected, calling `opennextjs-cloudflare deploy`
+ERROR Could not find compiled Open Next config, did you run the build command?
+```
+
+Sebep:
+
+- Cloudflare build command olarak `next build` veya `npm run build` çalıştırmış.
+- Sonra deploy command olarak `npx wrangler deploy` çalışmış.
+- Wrangler OpenNext projesini algılayıp OpenNext deploy'a yönlendirmiş.
+- Ancak `.open-next` çıktısı olmadığı için deploy düşmüş.
+
+Çözüm:
+
+- Build command: `npm run cf:build`
+- Deploy command: `npx @opennextjs/cloudflare deploy`
+
+veya tek komut:
+
+```bash
+npm run deploy
+```
+
+## Domain ve DNS
+
+Production hedef:
+
+```text
+turanarican.com
+www.turanarican.com
+```
+
+Dashboard'da kontrol edilecekler:
+
+1. Domain Cloudflare zone içinde mi?
+2. DNS kayıtları doğru Worker/route veya custom domain hedefine gidiyor mu?
+3. `turanarican.com` ve `www.turanarican.com` davranışı kararlaştırıldı mı?
+4. Canonical URL uygulamada `https://turanarican.com` olarak kalıyor mu?
+5. SSL/TLS aktif ve hata vermiyor mu?
+
+Öneri:
+
+- Ana canonical host `turanarican.com` olsun.
+- `www` varsa ana hosta yönlendirilsin veya aynı worker route'a bağlansın.
+
+## Cloudflare Güvenlik Ayarları
+
+Normal ders okuma akışı kullanıcıya açık olmalı; bunu Turnstile veya login ile
+engelleme.
+
+Önerilenler:
+
+- WAF managed rules açık.
+- Bot fight / bot protection makul düzeyde.
+- Aşırı istekler için rate limiting.
+- Admin, crawler veya ingest endpointleri public açılırsa ayrıca koruma.
+- Security headers ileride middleware/config tarafında netleştirilecek.
+
+Turnstile:
+
+- Sadece form, yorum, auth, admin gibi etkileşimli riskli yüzeylerde kullanılmalı.
+- Ders sayfası okumayı Turnstile arkasına alma.
+
+## Cache Stratejisi
+
+Şimdilik:
+
+- Static assets agresif cachelenebilir.
+- Lesson HTML/route cache politikası içerik ingestion pipeline netleşince tekrar
+  karar verilecek.
+- OG route dinamik olduğu için dikkatli cachelenmeli.
+
+İleride:
+
+- R2 assetleri immutable keylerle servis edilirse uzun cache verilebilir.
+- İçerik değişirse key/hash değişimi veya purge stratejisi gerekir.
+
+## Turso ve Drizzle
+
+Şu an migration dosyaları repo içinde takip ediliyor:
+
+```text
+db/migrations/
+```
+
+Schema değiştiğinde:
+
+```bash
+npm run db:generate
+npm run db:migrate
+```
+
+Production Turso adımları:
+
+1. Turso dashboard'da production database oluştur.
+2. Production auth token üret.
+3. Cloudflare env vars içine `TURSO_DATABASE_URL` ve `TURSO_AUTH_TOKEN` ekle.
+4. Migration'ı production database'e bilinçli olarak uygula.
+5. Dashboard'da tablo listesini ve migration durumunu kontrol et.
+
+Önemli:
+
+- Migration public app request path içinde çalışmamalı.
+- Production tokenları commitlenmemeli.
+- Token sızıntısı şüphesi varsa token rotate edilmeli.
+
+## R2 Asset Pipeline
+
+Crawler şimdiden stable asset keyleri üretiyor:
+
+```text
+assets/{bookSlug}/{lessonSlug}/{assetId}
+```
+
+R2 üretime alınırken:
+
+1. Cloudflare R2 bucket oluştur.
+2. Bucket adını `.env.example` ve dashboard env ile uyumlu tut.
+3. `wrangler.jsonc` içine R2 binding ekle.
+4. Crawler veya ingest job assetleri R2'ye yüklesin.
+5. `source_assets` tablosunda `r2Key`, `contentHash`, `status` güncellensin.
+6. Türkçe yeniden çizilen görseller `redrawn`, sorunlu yeniden çizimler
+   `fallback_original` olarak işaretlensin.
+
+Asset statüleri:
+
+- `discovered`: kaynakta bulundu.
+- `downloaded`: lokal veya ingest cache'e alındı.
+- `redrawn`: Türkçe yeniden üretildi.
+- `uploaded`: production asset storage'a yüklendi.
+- `fallback_original`: yeniden üretim güvenilir olmadığı için kaynak asset
+  kullanılacak.
+
+## Crawl ve Ingestion
+
+Crawler public request sırasında çalışmamalı. İdeal akış:
+
+1. TOC keşfi.
+2. Chapter TOC keşfi.
+3. Target range ve numbering policy uygulama.
+4. Lesson HTML fetch.
+5. Raw snapshot/cache.
+6. İçerik gövdesi parse.
+7. Self Check kaldırma.
+8. Örnekler, alıştırmalar, cevaplar, tablolar, figürler, math AST çıkarma.
+9. Sayı yerelleştirme: `1,000.25` -> `1.000,25`; math içinde `1.000{,}25`.
+10. Turkish adaptation.
+11. Validation.
+12. Turso insert/update.
+13. Asset upload.
+
+Kaynak numara ve display numara ayrı kalmalı:
+
+- `sourceNumber`: LibreTexts'teki gerçek numara.
+- `displayNumber`: Türkçe üründe görünen numara.
+
+Örnek:
+
+```text
+source 2.3 -> display 2.2
+```
+
+## Post-Deploy Smoke Test
+
+Deploy sonrası tarayıcıda kontrol et:
+
+- `https://turanarican.com` açılıyor.
+- Ana sayfa mobil ve desktopta taşmıyor.
+- Ders route'u açılıyor:
+  `/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme`
+- Sağda/ekranda çift scrollbar yok.
+- Türkçe karakterler doğru.
+- KaTeX matematikler render oluyor.
+- Cevaplar başlangıçta kapalı, tıklayınca açılıyor.
+- `/robots.txt` cevap veriyor.
+- `/sitemap.xml` cevap veriyor.
+- `/og` cevap veriyor.
+- OG preview kırık değil.
+- Attribution/license görünür.
+- Cloudflare logs içinde repeated runtime error yok.
+
+Komutla hızlı kontrol örnekleri:
+
+```bash
+curl -I https://turanarican.com
+curl -I https://turanarican.com/robots.txt
+curl -I https://turanarican.com/sitemap.xml
+curl -I "https://turanarican.com/og?title=Test&label=Kontrol"
+```
+
+## Rollback
+
+Cloudflare dashboard'da önceki başarılı deployment'a dönmek tercih edilir.
+
+Rollback yapmadan önce:
+
+1. Hata yalnızca env/config kaynaklı mı?
+2. Yeni commit mi bozdu?
+3. Database migration geri dönüş gerektiriyor mu?
+4. Asset veya cache purge gerekiyor mu?
+
+Kod rollback gerekiyorsa:
+
+- Önce Cloudflare dashboard'dan önceki deployment'a dön.
+- Sonra repoda düzeltme commit'i hazırla.
+- Destructive git komutları kullanmadan ilerle.
+
+## Sık Hatalar
+
+### `.open-next` bulunamadı
+
+Belirti:
+
+```text
+Could not find compiled Open Next config
+```
+
+Çözüm:
+
+- Build command `npm run cf:build` olmalı.
+- Deploy command `npx @opennextjs/cloudflare deploy` olmalı.
+
+### `TURSO_DATABASE_URL` eksik
+
+Belirti:
+
+- Runtime database bağlantı hatası.
+- Cloudflare logs içinde env missing benzeri hata.
+
+Çözüm:
+
+- Cloudflare env vars içine Turso URL ve token ekle.
+- Yeni deploy tetikle.
+
+### OG route uyarısı
+
+Belirti:
+
+```text
+Using edge runtime on a page currently disables static generation for that page
+```
+
+Şu an beklenen uyarıdır. `/og` dinamik/edge çalıştığı için build'i engellemez.
+
+### Türkçe sayı biçimi hatalı
+
+Belirti:
+
+- `1,000` Türkçe içerikte binlik ayırıcı gibi değil de İngilizce biçimde
+  kalmış.
+- `2.5` Türkçe metinde ondalık nokta ile görünüyor.
+
+Çözüm:
+
+- Ingestion/adaptation sırasında `src/content/number-localization.ts` kuralları
+  uygulanmalı.
+- Math içinde ondalık virgül `{,}` olarak korunmalı.
+
+## Ne Zaman Deploy Etmek Mantıklı?
+
+Şu an deploy etmek şu amaçlarla faydalı:
+
+- Cloudflare/OpenNext ayarlarını doğrulamak.
+- Domain ve DNS akışını görmek.
+- OG, sitemap, robots ve routing smoke test yapmak.
+- Runtime logs ve observability'yi kontrol etmek.
+
+Şu amaçlar için erken:
+
+- SEO lansmanı.
+- Kullanıcıya açık tam içerik duyurusu.
+- Geniş katalog yayını.
+
+İçerik ingestion tamamlanana kadar deploy'u "altyapı testi" olarak gör.
+
+## Güncelleme Kuralı
+
+Bu dosya şu durumlarda güncellenmeli:
+
+- Cloudflare dashboard ayarı değiştiğinde.
+- Turso production database oluşturulduğunda.
+- R2 bucket ve binding eklendiğinde.
+- Deploy hatası ve çözümü öğrenildiğinde.
+- Yeni env var eklendiğinde.
+- Yeni post-deploy kontrolü gerektiğinde.
