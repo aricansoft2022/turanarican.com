@@ -128,7 +128,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate "
+                "value": "Aşağıdaki ifadeyi değerlendirin: "
               },
               {
                 "type": "math",
@@ -136,7 +136,7 @@
               },
               {
                 "type": "text",
-                "value": " when  ⓐ "
+                "value": ", ⓐ "
               },
               {
                 "type": "math",
@@ -144,11 +144,15 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ "
+                "value": " iken; ⓑ "
               },
               {
                 "type": "math",
                 "value": "x=12"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": [
@@ -157,7 +161,15 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓐ To evaluate, substitute "
+                    "value": "ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yerine "
                   },
                   {
                     "type": "math",
@@ -165,44 +177,30 @@
                   },
                   {
                     "type": "text",
-                    "value": " for "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x"
-                  },
-                  {
-                    "type": "text",
-                    "value": " in the expression, and then simplify."
+                    "value": " yazar ve ifadeyi sadeleştiririz."
                   }
-                ]
-              },
-              {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Substitute."
-                  ],
-                  [
-                    "Add."
-                  ]
                 ]
               },
               {
                 "type": "paragraph",
                 "text": [
                   {
-                    "type": "text",
-                    "value": "When "
-                  },
+                    "type": "math",
+                    "value": "\\begin{aligned}x+7&=3+7 \\\\ &=10\\end{aligned}",
+                    "display": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
                   {
                     "type": "math",
-                    "value": "x=3,"
+                    "value": "x=3"
                   },
                   {
                     "type": "text",
-                    "value": " the expression "
+                    "value": " iken "
                   },
                   {
                     "type": "math",
@@ -210,11 +208,15 @@
                   },
                   {
                     "type": "text",
-                    "value": " has a value of "
+                    "value": " ifadesinin değeri "
                   },
                   {
                     "type": "math",
-                    "value": "10."
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dur."
                   }
                 ]
               },
@@ -223,15 +225,7 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓑ To evaluate, substitute "
-                  },
-                  {
-                    "type": "math",
-                    "value": "12"
-                  },
-                  {
-                    "type": "text",
-                    "value": " for "
+                    "value": "ⓑ "
                   },
                   {
                     "type": "math",
@@ -239,20 +233,55 @@
                   },
                   {
                     "type": "text",
-                    "value": " in the expression, and then simplify."
+                    "value": " yerine "
+                  },
+                  {
+                    "type": "math",
+                    "value": "12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yazar ve ifadeyi sadeleştiririz."
                   }
                 ]
               },
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Substitute."
-                  ],
-                  [
-                    "Add."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}x+7&=12+7 \\\\ &=19\\end{aligned}",
+                    "display": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "x=12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x+7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesinin değeri "
+                  },
+                  {
+                    "type": "math",
+                    "value": "19"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dur."
+                  }
                 ]
               }
             ]
@@ -261,16 +290,12 @@
             "type": "paragraph",
             "text": [
               {
-                "type": "text",
-                "value": "When "
-              },
-              {
                 "type": "math",
-                "value": "x=12,"
+                "value": "x=12"
               },
               {
                 "type": "text",
-                "value": " the expression "
+                "value": " iken "
               },
               {
                 "type": "math",
@@ -278,11 +303,15 @@
               },
               {
                 "type": "text",
-                "value": " has a value of "
+                "value": " ifadesinin değeri "
               },
               {
                 "type": "math",
-                "value": "19."
+                "value": "19"
+              },
+              {
+                "type": "text",
+                "value": "'dur."
               }
             ]
           },
@@ -291,7 +320,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Notice that we got different results for parts ⓐ and ⓑ even though we started with the same expression. This is because the values used for "
+                "value": "Aynı ifadeyle başlamamıza rağmen ⓐ ve ⓑ bölümlerinde farklı sonuçlar elde ettik. Bunun nedeni "
               },
               {
                 "type": "math",
@@ -299,7 +328,7 @@
               },
               {
                 "type": "text",
-                "value": " were different. When we evaluate an expression, the value varies depending on the value used for the variable."
+                "value": " için kullanılan değerlerin farklı olmasıdır. Bir ifadeyi değerlendirdiğimizde sonuç, değişken yerine yazılan değere bağlı olarak değişir."
               }
             ]
           },
@@ -309,15 +338,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate: "
+                "value": "Değerlendirin: "
               },
               {
                 "type": "math",
-                "value": "y+4 \\text{iken}"
+                "value": "y+4"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": ", ⓐ "
               },
               {
                 "type": "math",
@@ -325,11 +354,15 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ "
+                "value": " iken; ⓑ "
               },
               {
                 "type": "math",
                 "value": "y=15"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": []
@@ -340,15 +373,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate: "
+                "value": "Değerlendirin: "
               },
               {
                 "type": "math",
-                "value": "a-5 \\text{iken}"
+                "value": "a-5"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": ", ⓐ "
               },
               {
                 "type": "math",
@@ -356,11 +389,15 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ "
+                "value": " iken; ⓑ "
               },
               {
                 "type": "math",
                 "value": "a=17"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": []
@@ -371,15 +408,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate "
+                "value": "Aşağıdaki ifadeyi değerlendirin: "
               },
               {
                 "type": "math",
-                "value": "9x-2,\\text{iken}"
+                "value": "9x-2"
               },
               {
                 "type": "text",
-                "value": "  ⓐ"
+                "value": ", ⓐ "
               },
               {
                 "type": "math",
@@ -387,11 +424,15 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ "
+                "value": " iken; ⓑ "
               },
               {
                 "type": "math",
                 "value": "x=1"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": [
@@ -399,16 +440,12 @@
                 "type": "paragraph",
                 "text": [
                   {
-                    "type": "text",
-                    "value": "Remember "
-                  },
-                  {
                     "type": "math",
                     "value": "ab"
                   },
                   {
                     "type": "text",
-                    "value": " means "
+                    "value": " ifadesinin "
                   },
                   {
                     "type": "math",
@@ -416,15 +453,15 @@
                   },
                   {
                     "type": "text",
-                    "value": " times "
+                    "value": " ile "
                   },
                   {
                     "type": "math",
-                    "value": "b,"
+                    "value": "b"
                   },
                   {
                     "type": "text",
-                    "value": " so "
+                    "value": " sayılarının çarpımı anlamına geldiğini hatırlayın. Bu yüzden "
                   },
                   {
                     "type": "math",
@@ -432,7 +469,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " means "
+                    "value": ", "
                   },
                   {
                     "type": "math",
@@ -440,11 +477,15 @@
                   },
                   {
                     "type": "text",
-                    "value": " times "
+                    "value": " ile "
                   },
                   {
                     "type": "math",
-                    "value": "x."
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in çarpımıdır."
                   }
                 ]
               },
@@ -453,15 +494,23 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓐ To evaluate the expression when "
+                    "value": "ⓐ "
                   },
                   {
                     "type": "math",
-                    "value": "x=5,"
+                    "value": "x=5"
                   },
                   {
                     "type": "text",
-                    "value": " we substitute "
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yerine "
                   },
                   {
                     "type": "math",
@@ -469,28 +518,18 @@
                   },
                   {
                     "type": "text",
-                    "value": " for "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x,"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and then simplify."
+                    "value": " yazar ve ifadeyi sadeleştiririz."
                   }
                 ]
               },
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Multiply."
-                  ],
-                  [
-                    "Subtract."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}9x-2&=9(5)-2 \\\\ &=45-2 \\\\ &=43\\end{aligned}",
+                    "display": true
+                  }
                 ]
               },
               {
@@ -498,15 +537,23 @@
                 "text": [
                   {
                     "type": "text",
-                    "value": "ⓑ To evaluate the expression when "
+                    "value": "ⓑ "
                   },
                   {
                     "type": "math",
-                    "value": "x=1,"
+                    "value": "x=1"
                   },
                   {
                     "type": "text",
-                    "value": " we substitute "
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yerine "
                   },
                   {
                     "type": "math",
@@ -514,28 +561,18 @@
                   },
                   {
                     "type": "text",
-                    "value": " for "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x,"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and then simplify."
+                    "value": " yazar ve ifadeyi sadeleştiririz."
                   }
                 ]
               },
               {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Multiply."
-                  ],
-                  [
-                    "Subtract."
-                  ]
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "\\begin{aligned}9x-2&=9(1)-2 \\\\ &=9-2 \\\\ &=7\\end{aligned}",
+                    "display": true
+                  }
                 ]
               }
             ]
@@ -545,7 +582,7 @@
             "text": [
               {
                 "type": "text",
-                "value": "Notice that in part ⓐ that we wrote "
+                "value": "ⓐ bölümünde "
               },
               {
                 "type": "math",
@@ -553,15 +590,15 @@
               },
               {
                 "type": "text",
-                "value": " and in part ⓑ we wrote "
+                "value": ", ⓑ bölümünde ise "
               },
               {
                 "type": "math",
-                "value": "9(1)."
+                "value": "9(1)"
               },
               {
                 "type": "text",
-                "value": " Both the dot and the parentheses tell us to multiply."
+                "value": " yazdığımıza dikkat edin. Hem nokta hem de parantez çarpma işlemini gösterir."
               }
             ]
           },
@@ -571,15 +608,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate: "
+                "value": "Değerlendirin: "
               },
               {
                 "type": "math",
-                "value": "8x-3,\\text{iken}"
+                "value": "8x-3"
               },
               {
                 "type": "text",
-                "value": "  ⓐ"
+                "value": ", ⓐ "
               },
               {
                 "type": "math",
@@ -587,11 +624,15 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ "
+                "value": " iken; ⓑ "
               },
               {
                 "type": "math",
                 "value": "x=1"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": []
@@ -602,15 +643,15 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate: "
+                "value": "Değerlendirin: "
               },
               {
                 "type": "math",
-                "value": "4y-4,\\text{iken}"
+                "value": "4y-4"
               },
               {
                 "type": "text",
-                "value": "  ⓐ "
+                "value": ", ⓐ "
               },
               {
                 "type": "math",
@@ -618,11 +659,15 @@
               },
               {
                 "type": "text",
-                "value": " ⓑ "
+                "value": " iken; ⓑ "
               },
               {
                 "type": "math",
                 "value": "y=5"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": []
@@ -633,7 +678,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate "
+                "value": "Değerlendirin: "
               },
               {
                 "type": "math",
@@ -641,11 +686,15 @@
               },
               {
                 "type": "text",
-                "value": " when "
+                "value": ", "
               },
               {
                 "type": "math",
-                "value": "x=10."
+                "value": "x=10"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": [
@@ -653,8 +702,12 @@
                 "type": "paragraph",
                 "text": [
                   {
+                    "type": "math",
+                    "value": "x"
+                  },
+                  {
                     "type": "text",
-                    "value": "We substitute "
+                    "value": " yerine "
                   },
                   {
                     "type": "math",
@@ -662,44 +715,30 @@
                   },
                   {
                     "type": "text",
-                    "value": " for "
-                  },
-                  {
-                    "type": "math",
-                    "value": "x,"
-                  },
-                  {
-                    "type": "text",
-                    "value": " and then simplify the expression."
+                    "value": " yazar ve ifadeyi sadeleştiririz."
                   }
-                ]
-              },
-              {
-                "type": "table",
-                "columns": [],
-                "rows": [
-                  [
-                    "Use the definition of exponent."
-                  ],
-                  [
-                    "Multiply."
-                  ]
                 ]
               },
               {
                 "type": "paragraph",
                 "text": [
                   {
-                    "type": "text",
-                    "value": "When "
-                  },
+                    "type": "math",
+                    "value": "\\begin{aligned}x^{2}&=10^{2} \\\\ &=10\\cdot10 \\\\ &=100\\end{aligned}",
+                    "display": true
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
                   {
                     "type": "math",
-                    "value": "x=10,"
+                    "value": "x=10"
                   },
                   {
                     "type": "text",
-                    "value": " the expression "
+                    "value": " iken "
                   },
                   {
                     "type": "math",
@@ -707,11 +746,15 @@
                   },
                   {
                     "type": "text",
-                    "value": " has a value of "
+                    "value": " ifadesinin değeri "
                   },
                   {
                     "type": "math",
-                    "value": "100."
+                    "value": "100"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dür."
                   }
                 ]
               }
@@ -723,11 +766,23 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate: "
+                "value": "Değerlendirin: "
               },
               {
                 "type": "math",
-                "value": "x^{2} \\text{iken} x=8."
+                "value": "x^{2}"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "x=8"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": []
@@ -738,11 +793,23 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Evaluate: "
+                "value": "Değerlendirin: "
               },
               {
                 "type": "math",
-                "value": "x^{3} \\text{iken} x=6."
+                "value": "x^{3}"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "x=6"
+              },
+              {
+                "type": "text",
+                "value": " iken."
               }
             ],
             "solution": []

@@ -44,6 +44,412 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
               },
             ],
           },
+          {
+            sourceBlockIndex: 3,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.13",
+                prompt: [
+                  { type: "text", value: "Aşağıdaki ifadeyi değerlendirin: " },
+                  { type: "math", value: "x+7" },
+                  { type: "text", value: ", ⓐ " },
+                  { type: "math", value: "x=3" },
+                  { type: "text", value: " iken; ⓑ " },
+                  { type: "math", value: "x=12" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "text", value: "ⓐ " },
+                      { type: "math", value: "x" },
+                      { type: "text", value: " yerine " },
+                      { type: "math", value: "3" },
+                      {
+                        type: "text",
+                        value: " yazar ve ifadeyi sadeleştiririz.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}x+7&=3+7 \\\\ &=10\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "x=3" },
+                      { type: "text", value: " iken " },
+                      { type: "math", value: "x+7" },
+                      { type: "text", value: " ifadesinin değeri " },
+                      { type: "math", value: "10" },
+                      { type: "text", value: "'dur." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "text", value: "ⓑ " },
+                      { type: "math", value: "x" },
+                      { type: "text", value: " yerine " },
+                      { type: "math", value: "12" },
+                      {
+                        type: "text",
+                        value: " yazar ve ifadeyi sadeleştiririz.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}x+7&=12+7 \\\\ &=19\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "x=12" },
+                      { type: "text", value: " iken " },
+                      { type: "math", value: "x+7" },
+                      { type: "text", value: " ifadesinin değeri " },
+                      { type: "math", value: "19" },
+                      { type: "text", value: "'dur." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 4,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  { type: "math", value: "x=12" },
+                  { type: "text", value: " iken " },
+                  { type: "math", value: "x+7" },
+                  { type: "text", value: " ifadesinin değeri " },
+                  { type: "math", value: "19" },
+                  { type: "text", value: "'dur." },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 5,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value:
+                      "Aynı ifadeyle başlamamıza rağmen ⓐ ve ⓑ bölümlerinde farklı sonuçlar elde ettik. Bunun nedeni ",
+                  },
+                  { type: "math", value: "x" },
+                  {
+                    type: "text",
+                    value:
+                      " için kullanılan değerlerin farklı olmasıdır. Bir ifadeyi değerlendirdiğimizde sonuç, değişken yerine yazılan değere bağlı olarak değişir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 6,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.25",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "y+4" },
+                  { type: "text", value: ", ⓐ " },
+                  { type: "math", value: "y=6" },
+                  { type: "text", value: " iken; ⓑ " },
+                  { type: "math", value: "y=15" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 7,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.26",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "a-5" },
+                  { type: "text", value: ", ⓐ " },
+                  { type: "math", value: "a=9" },
+                  { type: "text", value: " iken; ⓑ " },
+                  { type: "math", value: "a=17" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 8,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.14",
+                prompt: [
+                  { type: "text", value: "Aşağıdaki ifadeyi değerlendirin: " },
+                  { type: "math", value: "9x-2" },
+                  { type: "text", value: ", ⓐ " },
+                  { type: "math", value: "x=5" },
+                  { type: "text", value: " iken; ⓑ " },
+                  { type: "math", value: "x=1" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "ab" },
+                      { type: "text", value: " ifadesinin " },
+                      { type: "math", value: "a" },
+                      { type: "text", value: " ile " },
+                      { type: "math", value: "b" },
+                      {
+                        type: "text",
+                        value: " sayılarının çarpımı anlamına geldiğini hatırlayın. Bu yüzden ",
+                      },
+                      { type: "math", value: "9x" },
+                      { type: "text", value: ", " },
+                      { type: "math", value: "9" },
+                      { type: "text", value: " ile " },
+                      { type: "math", value: "x" },
+                      { type: "text", value: "'in çarpımıdır." },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "text", value: "ⓐ " },
+                      { type: "math", value: "x=5" },
+                      { type: "text", value: " iken " },
+                      { type: "math", value: "x" },
+                      { type: "text", value: " yerine " },
+                      { type: "math", value: "5" },
+                      {
+                        type: "text",
+                        value: " yazar ve ifadeyi sadeleştiririz.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}9x-2&=9(5)-2 \\\\ &=45-2 \\\\ &=43\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "text", value: "ⓑ " },
+                      { type: "math", value: "x=1" },
+                      { type: "text", value: " iken " },
+                      { type: "math", value: "x" },
+                      { type: "text", value: " yerine " },
+                      { type: "math", value: "1" },
+                      {
+                        type: "text",
+                        value: " yazar ve ifadeyi sadeleştiririz.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}9x-2&=9(1)-2 \\\\ &=9-2 \\\\ &=7\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 9,
+            blocks: [
+              {
+                type: "paragraph",
+                text: [
+                  {
+                    type: "text",
+                    value: "ⓐ bölümünde ",
+                  },
+                  { type: "math", value: "9\\cdot5" },
+                  {
+                    type: "text",
+                    value: ", ⓑ bölümünde ise ",
+                  },
+                  { type: "math", value: "9(1)" },
+                  {
+                    type: "text",
+                    value:
+                      " yazdığımıza dikkat edin. Hem nokta hem de parantez çarpma işlemini gösterir.",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 10,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.27",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "8x-3" },
+                  { type: "text", value: ", ⓐ " },
+                  { type: "math", value: "x=2" },
+                  { type: "text", value: " iken; ⓑ " },
+                  { type: "math", value: "x=1" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 11,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.28",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "4y-4" },
+                  { type: "text", value: ", ⓐ " },
+                  { type: "math", value: "y=3" },
+                  { type: "text", value: " iken; ⓑ " },
+                  { type: "math", value: "y=5" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 12,
+            blocks: [
+              {
+                type: "example",
+                label: "Örnek 2.15",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "x^{2}" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=10" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "x" },
+                      { type: "text", value: " yerine " },
+                      { type: "math", value: "10" },
+                      {
+                        type: "text",
+                        value: " yazar ve ifadeyi sadeleştiririz.",
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      {
+                        type: "math",
+                        value:
+                          "\\begin{aligned}x^{2}&=10^{2} \\\\ &=10\\cdot10 \\\\ &=100\\end{aligned}",
+                        display: true,
+                      },
+                    ],
+                  },
+                  {
+                    type: "paragraph",
+                    text: [
+                      { type: "math", value: "x=10" },
+                      { type: "text", value: " iken " },
+                      { type: "math", value: "x^{2}" },
+                      { type: "text", value: " ifadesinin değeri " },
+                      { type: "math", value: "100" },
+                      { type: "text", value: "'dür." },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 13,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.29",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "x^{2}" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=8" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
+          {
+            sourceBlockIndex: 14,
+            blocks: [
+              {
+                type: "example",
+                label: "Sıra Sizde 2.30",
+                prompt: [
+                  { type: "text", value: "Değerlendirin: " },
+                  { type: "math", value: "x^{3}" },
+                  { type: "text", value: ", " },
+                  { type: "math", value: "x=6" },
+                  { type: "text", value: " iken." },
+                ],
+                solution: [],
+              },
+            ],
+          },
         ],
       },
     ],
