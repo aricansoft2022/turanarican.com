@@ -23,6 +23,17 @@ export type LessonParams = {
   lessonSlug: string;
 };
 
+export async function listBookParamsFromDatabase(db: ContentDatabase) {
+  const rows = await db
+    .select({
+      bookSlug: schema.books.slug,
+    })
+    .from(schema.books)
+    .orderBy(asc(schema.books.slug));
+
+  return rows;
+}
+
 export async function listBooksFromDatabase(db: ContentDatabase): Promise<Book[]> {
   const [bookRows, chapterRows, lessonRows] = await Promise.all([
     db.select().from(schema.books).orderBy(asc(schema.books.slug)),

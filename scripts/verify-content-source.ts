@@ -6,6 +6,7 @@ import { createClient } from "@libsql/client";
 
 import {
   getContentBook,
+  getContentBookParams,
   getContentLesson,
   getContentLessonParams,
 } from "@/src/content/source";
@@ -24,6 +25,11 @@ async function assertStaticSource() {
   delete process.env.TURSO_AUTH_TOKEN;
 
   const params = await getContentLessonParams();
+  const bookParams = await getContentBookParams();
+  if (bookParams.length !== 1) {
+    throw new Error(`Static content source expected 1 book, got ${bookParams.length}.`);
+  }
+
   if (params.length !== 1) {
     throw new Error(`Static content source expected 1 lesson, got ${params.length}.`);
   }
@@ -55,6 +61,11 @@ async function assertDatabaseSource() {
 
   try {
     const params = await getContentLessonParams();
+    const bookParams = await getContentBookParams();
+    if (bookParams.length !== 1) {
+      throw new Error(`Database content source expected 1 book, got ${bookParams.length}.`);
+    }
+
     if (params.length !== 2) {
       throw new Error(`Database content source expected 2 lessons, got ${params.length}.`);
     }
@@ -77,7 +88,9 @@ async function assertDatabaseSource() {
     console.log(
       JSON.stringify(
         {
+          staticBooks: 1,
           staticLessons: 1,
+          databaseBooks: bookParams.length,
           databaseLessons: params.length,
           databaseBookLessons: book.chapters[0].lessons.length,
         },

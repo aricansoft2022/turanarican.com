@@ -240,3 +240,9 @@ export function getAllLessonParams() {
     lessonSlug: lesson.slug,
   }));
 }
+
+export function getAllBookParams() {
+  return books.map((book) => ({
+    bookSlug: book.slug,
+  }));
+}

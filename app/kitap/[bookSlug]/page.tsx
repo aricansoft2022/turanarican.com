@@ -1,12 +1,19 @@
 import { redirect } from "next/navigation";
 
-import { getContentBook } from "@/src/content/source";
+import {
+  getContentBook,
+  getContentBookParams,
+} from "@/src/content/source";
 
 type BookPageProps = {
   params: Promise<{
     bookSlug: string;
   }>;
 };
+
+export async function generateStaticParams() {
+  return getContentBookParams();
+}
 
 export default async function BookPage({ params }: BookPageProps) {
   const { bookSlug } = await params;
