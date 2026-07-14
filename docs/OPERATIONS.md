@@ -291,13 +291,102 @@ Dashboard'da kontrol edilecekler:
 Normal ders okuma akışı kullanıcıya açık olmalı; bunu Turnstile veya login ile
 engelleme.
 
-Önerilenler:
+Repo içinde uygulananlar:
 
-- WAF managed rules açık.
-- Bot fight / bot protection makul düzeyde.
-- Aşırı istekler için rate limiting.
-- Admin, crawler veya ingest endpointleri public açılırsa ayrıca koruma.
-- Security headers ileride middleware/config tarafında netleştirilecek.
+- `next.config.ts` global security headers gönderir:
+  - `Content-Security-Policy`
+  - `Strict-Transport-Security`
+  - `X-Content-Type-Options`
+  - `Referrer-Policy`
+  - `X-Frame-Options`
+  - `Permissions-Policy`
+  - `Cross-Origin-Opener-Policy`
+- Explicit blocked routes şu iç yüzeyleri public'te 404 ile kapatır:
+  - `/admin`
+  - `/api/admin`
+  - `/api/crawl`
+  - `/api/ingest`
+  - `/api/revalidate`
+- Not: OpenNext/Cloudflare, Next 16 `proxy.ts`/Node middleware yolunu şu an
+  desteklemediği için bu koruma middleware/proxy ile değil route dosyalarıyla
+  uygulanır.
+
+Cloudflare dashboard'da yapılacaklar:
+
+### WAF Managed Rules
+
+1. Cloudflare Dashboard'da account ve `turanarican.com` zone'unu seç.
+2. Yeni dashboard'da **Security > Settings** sayfasına git.
+3. **Web application exploits** filtresini kullan.
+4. Managed rulesetleri aç:
+   - `Cloudflare Managed Ruleset`
+   - Varsa `Cloudflare OWASP Core Ruleset`
+5. İlk etapta hassas ayarları çok agresif yapma; false positive görürsen
+   ilgili rule/tag için exception ekle.
+
+Eski dashboard'da yaklaşık yol:
+
+```text
+Security > WAF > Managed rules
+```
+
+### Bot Fight / Bot Protection
+
+Free/Pro düzeyinde:
+
+1. **Security > Settings** sayfasına git.
+2. **Bot traffic** filtresini kullan.
+3. **Bot Fight Mode** veya plan destekliyorsa **Super Bot Fight Mode** aç.
+4. İlk günlerde Cloudflare analytics/logları takip et.
+5. Normal kullanıcı, Googlebot ve eğitim içeriklerini indeksleyen legitimate bot
+   trafiği etkileniyorsa modu yumuşat veya exception ekle.
+
+Not: Bot koruması ders okumayı engelleyecek kadar agresif olmamalı.
+
+### Rate Limiting
+
+Önerilen başlangıç kuralı:
+
+- Rule name: `general-read-throttle`
+- Expression:
+
+```text
+(http.host eq "turanarican.com")
+```
+
+- Characteristics: IP
+- Period: 60 seconds
+- Threshold: 120 requests
+- Action: Managed Challenge veya JS Challenge
+
+Dashboard yolu:
+
+```text
+Security > Security rules > Create rule > Rate limiting rules
+```
+
+İleride API/admin yüzeyleri açılırsa ayrı ve daha sıkı kural ekle:
+
+```text
+(http.request.uri.path starts_with "/api/" or http.request.uri.path starts_with "/admin")
+```
+
+Önerilen başlangıç:
+
+- Period: 60 seconds
+- Threshold: 20 requests
+- Action: Block veya Managed Challenge
+
+### Admin/Crawler/Ingest Endpointleri
+
+Şu an public admin, crawler veya ingest endpoint yok. Yeni endpoint eklenirse:
+
+1. Public route olarak açma.
+2. Cloudflare Access, signed secret, IP allowlist veya admin auth olmadan deploy
+   etme.
+3. Blocked route dosyalarını veya yeni admin/auth korumasını güncelle.
+4. Rate limiting için ayrı kural ekle.
+5. Endpoint crawler ise public app request path içinde çalıştırma.
 
 Turnstile:
 
