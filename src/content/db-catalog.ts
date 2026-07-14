@@ -34,6 +34,19 @@ export async function listBookParamsFromDatabase(db: ContentDatabase) {
   return rows;
 }
 
+export async function listChapterParamsFromDatabase(db: ContentDatabase) {
+  const rows = await db
+    .select({
+      bookSlug: schema.books.slug,
+      chapterSlug: schema.chapters.slug,
+    })
+    .from(schema.chapters)
+    .innerJoin(schema.books, eq(schema.chapters.bookId, schema.books.id))
+    .orderBy(asc(schema.books.slug), asc(schema.chapters.sortOrder));
+
+  return rows;
+}
+
 export async function listBooksFromDatabase(db: ContentDatabase): Promise<Book[]> {
   const [bookRows, chapterRows, lessonRows] = await Promise.all([
     db.select().from(schema.books).orderBy(asc(schema.books.slug)),

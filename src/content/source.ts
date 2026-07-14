@@ -1,6 +1,7 @@
 import { createDatabaseClient } from "@/db/client";
 import {
   getAllBookParams as getStaticBookParams,
+  getAllChapterParams as getStaticChapterParams,
   getAllLessonParams as getStaticLessonParams,
   getBook as getStaticBook,
   getLesson as getStaticLesson,
@@ -9,6 +10,7 @@ import {
   getBookFromDatabase,
   getLessonFromDatabase,
   listBookParamsFromDatabase,
+  listChapterParamsFromDatabase,
   listLessonParamsFromDatabase,
   type LessonParams,
 } from "@/src/content/db-catalog";
@@ -33,6 +35,14 @@ export async function getContentBookParams() {
   }
 
   return getStaticBookParams();
+}
+
+export async function getContentChapterParams() {
+  if (getContentSource() === "database") {
+    return listChapterParamsFromDatabase(createDatabaseClient());
+  }
+
+  return getStaticChapterParams();
 }
 
 export async function getContentLesson(params: LessonParams) {

@@ -62,6 +62,15 @@ export function getAllBookParams() {
   }));
 }
 
+export function getAllChapterParams() {
+  return books.flatMap((book) =>
+    book.chapters.map((chapter) => ({
+      bookSlug: book.slug,
+      chapterSlug: chapter.slug,
+    })),
+  );
+}
+
 function toLessonSummary(lesson: Lesson): LessonSummary {
   return {
     id: lesson.id,

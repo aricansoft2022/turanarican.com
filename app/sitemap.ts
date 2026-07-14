@@ -2,14 +2,16 @@ import type { MetadataRoute } from "next";
 
 import {
   getContentBookParams,
+  getContentChapterParams,
   getContentLessonParams,
 } from "@/src/content/source";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.turanarican.com";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [books, lessons] = await Promise.all([
+  const [books, chapters, lessons] = await Promise.all([
     getContentBookParams(),
+    getContentChapterParams(),
     getContentLessonParams(),
   ]);
 
@@ -25,6 +27,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.9,
+    })),
+    ...chapters.map((chapter) => ({
+      url: `${siteUrl}/kitap/${chapter.bookSlug}/${chapter.chapterSlug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
     })),
     ...lessons.map((lesson) => ({
       url: `${siteUrl}/kitap/${lesson.bookSlug}/${lesson.chapterSlug}/${lesson.lessonSlug}`,

@@ -8,6 +8,7 @@ import sitemap from "@/app/sitemap";
 import {
   getContentBook,
   getContentBookParams,
+  getContentChapterParams,
   getContentLesson,
   getContentLessonParams,
 } from "@/src/content/source";
@@ -27,8 +28,15 @@ async function assertStaticSource() {
 
   const params = await getContentLessonParams();
   const bookParams = await getContentBookParams();
+  const chapterParams = await getContentChapterParams();
   if (bookParams.length !== 1) {
     throw new Error(`Static content source expected 1 book, got ${bookParams.length}.`);
+  }
+
+  if (chapterParams.length !== 1) {
+    throw new Error(
+      `Static content source expected 1 chapter, got ${chapterParams.length}.`,
+    );
   }
 
   if (params.length !== 2) {
@@ -51,6 +59,7 @@ async function assertStaticSource() {
 
   await assertSitemap("static", {
     books: bookParams.length,
+    chapters: chapterParams.length,
     lessons: params.length,
   });
 }
@@ -75,8 +84,15 @@ async function assertDatabaseSource() {
   try {
     const params = await getContentLessonParams();
     const bookParams = await getContentBookParams();
+    const chapterParams = await getContentChapterParams();
     if (bookParams.length !== 1) {
       throw new Error(`Database content source expected 1 book, got ${bookParams.length}.`);
+    }
+
+    if (chapterParams.length !== 1) {
+      throw new Error(
+        `Database content source expected 1 chapter, got ${chapterParams.length}.`,
+      );
     }
 
     if (params.length !== 2) {
@@ -99,6 +115,7 @@ async function assertDatabaseSource() {
 
     await assertSitemap("database", {
       books: bookParams.length,
+      chapters: chapterParams.length,
       lessons: params.length,
     });
 
@@ -107,8 +124,10 @@ async function assertDatabaseSource() {
       JSON.stringify(
         {
           staticBooks: 1,
+          staticChapters: 1,
           staticLessons: 2,
           databaseBooks: bookParams.length,
+          databaseChapters: chapterParams.length,
           databaseLessons: params.length,
           databaseBookLessons: book.chapters[0].lessons.length,
         },
@@ -123,11 +142,11 @@ async function assertDatabaseSource() {
 
 async function assertSitemap(
   source: string,
-  expected: { books: number; lessons: number },
+  expected: { books: number; chapters: number; lessons: number },
 ) {
   const entries = await sitemap();
   const urls = new Set(entries.map((entry) => entry.url));
-  const expectedCount = 1 + expected.books + expected.lessons;
+  const expectedCount = 1 + expected.books + expected.chapters + expected.lessons;
 
   if (entries.length !== expectedCount) {
     throw new Error(
@@ -138,6 +157,7 @@ async function assertSitemap(
   for (const url of [
     "https://www.turanarican.com",
     "https://www.turanarican.com/kitap/prealgebra-2e",
+    "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris",
     "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme",
     "https://www.turanarican.com/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
   ]) {

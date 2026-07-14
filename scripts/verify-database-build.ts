@@ -13,6 +13,7 @@ const expectedLessonPaths = [
   "/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
 ];
 const expectedBookPaths = ["/kitap/prealgebra-2e"];
+const expectedChapterPaths = ["/kitap/prealgebra-2e/cebir-diline-giris"];
 
 async function main() {
   const tempDir = await mkdtemp(path.join(tmpdir(), "turan-database-build-"));
@@ -37,8 +38,13 @@ async function main() {
       JSON.stringify(
         {
           books: expectedBookPaths.length,
+          chapters: expectedChapterPaths.length,
           lessons: expectedLessonPaths.length,
-          paths: [...expectedBookPaths, ...expectedLessonPaths],
+          paths: [
+            ...expectedBookPaths,
+            ...expectedChapterPaths,
+            ...expectedLessonPaths,
+          ],
         },
         null,
         2,
@@ -93,13 +99,19 @@ function assertBuildOutput(output: string) {
     }
   }
 
+  for (const chapterPath of expectedChapterPaths) {
+    if (!output.includes(chapterPath)) {
+      throw new Error(`Database content build did not include route: ${chapterPath}`);
+    }
+  }
+
   for (const lessonPath of expectedLessonPaths) {
     if (!output.includes(lessonPath)) {
       throw new Error(`Database content build did not include route: ${lessonPath}`);
     }
   }
 
-  if (!/Generating static pages using \d+ workers \(9\/9\)/.test(output)) {
+  if (!/Generating static pages using \d+ workers \(10\/10\)/.test(output)) {
     throw new Error("Database content build did not prerender the expected page count.");
   }
 }
