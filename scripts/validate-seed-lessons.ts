@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 
 import type {
   ContentBlock,
@@ -8,14 +9,14 @@ import type {
   SourceAsset,
 } from "@/src/content/types";
 
-const fixturePath = path.join(
+export const fixturePath = path.join(
   process.cwd(),
   "data",
   "generated",
   "seed-lessons.json",
 );
 
-type SeedFixture = {
+export type SeedFixture = {
   schemaVersion: number;
   parserVersion: string;
   lessons: SeedFixtureLesson[];
@@ -48,26 +49,18 @@ type SeedFixtureLesson = {
 };
 
 async function main() {
-  const fixture = JSON.parse(await readFile(fixturePath, "utf8")) as SeedFixture;
-  assertFixture(fixture);
+  const fixture = await readSeedFixture();
+  validateSeedFixture(fixture);
 
   console.log("Validated seed lesson fixture.");
-  console.log(
-    JSON.stringify(
-      {
-        lessons: fixture.lessons.length,
-        sections: sum(fixture.lessons, (entry) => entry.lesson.sections.length),
-        blocks: sum(fixture.lessons, (entry) => countLessonBlocks(entry.lesson)),
-        exercises: sum(fixture.lessons, (entry) => entry.lesson.exercises.length),
-        assets: sum(fixture.lessons, (entry) => entry.assets.length),
-      },
-      null,
-      2,
-    ),
-  );
+  console.log(JSON.stringify(summarizeSeedFixture(fixture), null, 2));
 }
 
-function assertFixture(fixture: SeedFixture) {
+export async function readSeedFixture(inputPath = fixturePath) {
+  return JSON.parse(await readFile(inputPath, "utf8")) as SeedFixture;
+}
+
+export function validateSeedFixture(fixture: SeedFixture) {
   if (fixture.schemaVersion !== 1) {
     throw new Error(`Unsupported seed fixture schema: ${fixture.schemaVersion}`);
   }
@@ -87,6 +80,16 @@ function assertFixture(fixture: SeedFixture) {
   for (const entry of fixture.lessons) {
     assertLessonEntry(entry);
   }
+}
+
+export function summarizeSeedFixture(fixture: SeedFixture) {
+  return {
+    lessons: fixture.lessons.length,
+    sections: sum(fixture.lessons, (entry) => entry.lesson.sections.length),
+    blocks: sum(fixture.lessons, (entry) => countLessonBlocks(entry.lesson)),
+    exercises: sum(fixture.lessons, (entry) => entry.lesson.exercises.length),
+    assets: sum(fixture.lessons, (entry) => entry.assets.length),
+  };
 }
 
 function assertLessonEntry(entry: SeedFixtureLesson) {
@@ -332,7 +335,14 @@ function sum<T>(items: T[], select: (item: T) => number) {
   return items.reduce((total, item) => total + select(item), 0);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (isDirectInvocation()) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
+
+function isDirectInvocation() {
+  const invokedPath = process.argv[1];
+  return invokedPath ? import.meta.url === pathToFileURL(invokedPath).href : false;
+}

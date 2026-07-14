@@ -3,6 +3,11 @@ import path from "node:path";
 
 import { books as catalogBooks } from "@/data/catalog";
 
+import {
+  validateSeedFixture,
+  type SeedFixture,
+} from "./validate-seed-lessons";
+
 const inputPath = path.join(
   process.cwd(),
   "data",
@@ -16,58 +21,10 @@ const outputPath = path.join(
   "seed-db-payload.json",
 );
 
-type SeedFixture = {
-  parserVersion: string;
-  lessons: SeedFixtureLesson[];
-};
-
-type SeedFixtureLesson = {
-  sourceUrl: string;
-  contentHash: string;
-  assets: Array<{
-    id: string;
-    sourceUrl: string;
-    type: string;
-    altText?: string;
-    caption?: string;
-    contentHash?: string;
-    localKey: string;
-    r2Key: string;
-    preferredTreatment: string;
-    status: string;
-  }>;
-  lesson: {
-    id: string;
-    chapterId: string;
-    slug: string;
-    sourceNumber: string;
-    displayNumber: string;
-    sourceTitle: string;
-    displayTitle: string;
-    summary: string;
-    sourceUrl: string;
-    sortOrder: number;
-    bookId: string;
-    sections: Array<{
-      id: string;
-      heading: string;
-      slug: string;
-      level: number;
-      blocks: unknown[];
-    }>;
-    exercises: Array<{
-      id: string;
-      number: string;
-      sectionSlug: string;
-      prompt: unknown[];
-      answer: unknown[];
-      sortOrder: number;
-    }>;
-  };
-};
-
 async function main() {
   const fixture = JSON.parse(await readFile(inputPath, "utf8")) as SeedFixture;
+  validateSeedFixture(fixture);
+
   const payload = buildPayload(fixture);
   assertPayload(payload);
 

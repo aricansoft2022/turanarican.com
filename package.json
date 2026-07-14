@@ -17,6 +17,7 @@
     "crawl:toc": "tsx scripts/discover-libretexts.ts",
     "seed:lessons": "tsx scripts/build-seed-lessons.ts",
     "seed:validate": "tsx scripts/validate-seed-lessons.ts",
+    "seed:pipeline": "npm run seed:lessons && npm run seed:validate && npm run seed:db-payload && npm run seed:db-verify",
     "seed:db-payload": "tsx scripts/build-seed-db-payload.ts",
     "seed:db-verify": "tsx scripts/verify-seed-db-payload.ts",
     "seed:db-apply": "tsx scripts/apply-seed-db-payload.ts",
