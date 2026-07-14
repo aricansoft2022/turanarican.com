@@ -35,17 +35,17 @@
       {
         "id": "lesson-evaluate-simplify-translate",
         "chapterId": "chapter-language-of-algebra",
-        "slug": "ifadeleri-degerlendirme-sadelestirme-cevirme",
+        "slug": "cebirsel-ifadeler",
         "sourceNumber": "2.3",
         "displayNumber": "2.2",
         "sourceTitle": "Evaluate, Simplify, and Translate Expressions",
-        "displayTitle": "İfadeleri Değerlendirme, Sadeleştirme ve Çevirme",
-        "summary": "Değişkenleri sayılarla değiştirin, benzer terimleri birleştirin ve sözcük öbeklerini cebirsel ifadelere çevirin.",
+        "displayTitle": "Cebirsel İfadeler",
+        "summary": "Cebirsel ifadelerin değerini hesaplayın, terim ve katsayıları ayırt edin, benzer terimleri birleştirin ve sözel durumları cebirsel ifadeyle gösterin.",
         "objectivesJson": [
-          "Cebirsel ifadeleri değerlendirin.",
-          "Terimleri, katsayıları ve benzer terimleri belirleyin.",
-          "Benzer terimleri birleştirerek ifadeleri sadeleştirin.",
-          "Sözcük öbeklerini cebirsel ifadelere çevirin."
+          "Cebirsel ifadelerin değerini hesaplayabileceksiniz.",
+          "Terim, katsayı ve benzer terimleri ayırt edebileceksiniz.",
+          "Benzer terimleri birleştirerek cebirsel ifadeleri sadeleştirebileceksiniz.",
+          "Sözel durumları cebirsel ifadelerle gösterebileceksiniz."
         ],
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions",
         "sortOrder": 3,
@@ -55,19 +55,19 @@
       {
         "id": "lesson-subtraction-addition-equations",
         "chapterId": "chapter-language-of-algebra",
-        "slug": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
+        "slug": "esitlik-ve-denklem",
         "sourceNumber": "2.4",
         "displayNumber": "2.3",
         "sourceTitle": "Solving Equations Using the Subtraction and Addition Properties of Equality",
-        "displayTitle": "Eşitliğin Çıkarma ve Toplama Özellikleriyle Denklem Çözme",
-        "summary": "Bir sayının denklemin çözümü olup olmadığını kontrol edin, eşitliğin çıkarma ve toplama özellikleriyle denklemleri çözün ve sözel ifadeleri denklemlere çevirin.",
+        "displayTitle": "Eşitlik ve Denklem",
+        "summary": "Bir değerin denklemi sağlayıp sağlamadığını kontrol edin, eşitliği koruyarak denklem çözün ve sözel durumları denklemle gösterin.",
         "objectivesJson": [
-          "Bir sayının bir denklemin çözümü olup olmadığını belirleyin.",
-          "Eşitliğin çıkarma özelliğini modelleyin.",
-          "Eşitliğin çıkarma özelliğini kullanarak denklemleri çözün.",
-          "Eşitliğin toplama özelliğini kullanarak denklemleri çözün.",
-          "Sözcük öbeklerini cebirsel denklemlere çevirin.",
-          "Bir denkleme çevirip çözün."
+          "Bir sayının bir denklemin çözümü olup olmadığını kontrol edebileceksiniz.",
+          "Eşitliğin çıkarma işlemiyle nasıl korunduğunu modelleyebileceksiniz.",
+          "Çıkarma işlemini kullanarak denklemleri çözebileceksiniz.",
+          "Toplama işlemini kullanarak denklemleri çözebileceksiniz.",
+          "Sözel durumları denklemlerle gösterebileceksiniz.",
+          "Bir problem için denklem kurup çözümünü bulabileceksiniz."
         ],
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.04%3A_Solving_Equations_Using_the_Subtraction_and_Addition_Properties_of_Equality",
         "sortOrder": 4,
@@ -77,17 +77,17 @@
       {
         "id": "lesson-multiples-factors",
         "chapterId": "chapter-language-of-algebra",
-        "slug": "katlari-ve-carpanlari-bulma",
+        "slug": "carpanlar-ve-katlar",
         "sourceNumber": "2.5",
         "displayNumber": "2.4",
         "sourceTitle": "Find Multiples and Factors",
-        "displayTitle": "Katları ve Çarpanları Bulma",
-        "summary": "Sayıların katlarını belirleyin, bölünebilme testlerini kullanın, tüm çarpanları bulun ve asal-bileşik sayıları ayırt edin.",
+        "displayTitle": "Çarpanlar ve Katlar",
+        "summary": "Doğal sayıların katlarını ve çarpanlarını bulun, bölünebilme kurallarını kullanın ve asal-bileşik sayıları ayırt edin.",
         "objectivesJson": [
-          "Sayıların katlarını belirleyin.",
-          "Yaygın bölünebilme testlerini kullanın.",
-          "Bir sayının tüm çarpanlarını bulun.",
-          "Asal ve bileşik sayıları belirleyin."
+          "Doğal sayıların katlarını belirleyebileceksiniz.",
+          "Bölünebilme kurallarını kullanabileceksiniz.",
+          "Bir doğal sayının tüm çarpanlarını bulabileceksiniz.",
+          "Asal ve bileşik sayıları ayırt edebileceksiniz."
         ],
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.05%3A_Find_Multiples_and_Factors",
         "sortOrder": 5,
@@ -97,10 +97,10 @@
     ],
     "lessonSections": [
       {
-        "id": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-01",
+        "id": "cebirsel-ifadeler-section-01",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "heading": "Cebirsel İfadeleri Değerlendirme",
-        "slug": "cebirsel-ifadeleri-degerlendirme",
+        "heading": "Cebirsel İfadenin Değerini Hesaplama",
+        "slug": "cebirsel-ifadenin-degerini-hesaplama",
         "level": 2,
         "sortOrder": 1,
         "contentJson": [
@@ -1250,10 +1250,10 @@
         ]
       },
       {
-        "id": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-02",
+        "id": "cebirsel-ifadeler-section-02",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "heading": "Terimleri, Katsayıları ve Benzer Terimleri Belirleme",
-        "slug": "terimleri-katsayilari-ve-benzer-terimleri-belirleme",
+        "heading": "Terim, Katsayı ve Benzer Terim",
+        "slug": "terim-katsayi-ve-benzer-terim",
         "level": 2,
         "sortOrder": 2,
         "contentJson": [
@@ -1827,10 +1827,10 @@
         ]
       },
       {
-        "id": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-03",
+        "id": "cebirsel-ifadeler-section-03",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "heading": "Benzer Terimleri Birleştirerek İfadeleri Sadeleştirme",
-        "slug": "benzer-terimleri-birlestirerek-ifadeleri-sadelestirme",
+        "heading": "Cebirsel İfadelerde Toplama ve Çıkarma",
+        "slug": "cebirsel-ifadelerde-toplama-ve-cikarma",
         "level": 2,
         "sortOrder": 3,
         "contentJson": [
@@ -2277,10 +2277,10 @@
         ]
       },
       {
-        "id": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-04",
+        "id": "cebirsel-ifadeler-section-04",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "heading": "Sözcük Öbeklerini Cebirsel İfadelere Çevirme",
-        "slug": "sozcuk-obeklerini-cebirsel-ifadelere-cevirme",
+        "heading": "Sözel Durumları Cebirsel İfade ile Gösterme",
+        "slug": "sozel-durumlari-cebirsel-ifade-ile-gosterme",
         "level": 2,
         "sortOrder": 4,
         "contentJson": [
@@ -3208,10 +3208,10 @@
         ]
       },
       {
-        "id": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-01",
+        "id": "esitlik-ve-denklem-section-01",
         "lessonId": "lesson-subtraction-addition-equations",
-        "heading": "Bir Sayının Denklemin Çözümü Olup Olmadığını Belirleme",
-        "slug": "bir-sayinin-denklemin-cozumu-olup-olmadigini-belirleme",
+        "heading": "Denklemin Çözümünü Kontrol Etme",
+        "slug": "denklemin-cozumunu-kontrol-etme",
         "level": 2,
         "sortOrder": 1,
         "contentJson": [
@@ -3556,10 +3556,10 @@
         ]
       },
       {
-        "id": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-02",
+        "id": "esitlik-ve-denklem-section-02",
         "lessonId": "lesson-subtraction-addition-equations",
-        "heading": "Eşitliğin Çıkarma Özelliğini Modelleme",
-        "slug": "esitligin-cikarma-ozelligini-modelleme",
+        "heading": "Eşitliğin Korunumu: Çıkarma",
+        "slug": "esitligin-korunumu-cikarma",
         "level": 2,
         "sortOrder": 2,
         "contentJson": [
@@ -3777,10 +3777,10 @@
         ]
       },
       {
-        "id": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-03",
+        "id": "esitlik-ve-denklem-section-03",
         "lessonId": "lesson-subtraction-addition-equations",
-        "heading": "Eşitliğin Çıkarma Özelliğiyle Denklemleri Çözme",
-        "slug": "esitligin-cikarma-ozelligiyle-denklemleri-cozme",
+        "heading": "Çıkarma İşlemiyle Denklem Çözme",
+        "slug": "cikarma-islemiyle-denklem-cozme",
         "level": 2,
         "sortOrder": 3,
         "contentJson": [
@@ -4081,10 +4081,10 @@
         ]
       },
       {
-        "id": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-04",
+        "id": "esitlik-ve-denklem-section-04",
         "lessonId": "lesson-subtraction-addition-equations",
-        "heading": "Eşitliğin Toplama Özelliğiyle Denklemleri Çözme",
-        "slug": "esitligin-toplama-ozelligiyle-denklemleri-cozme",
+        "heading": "Toplama İşlemiyle Denklem Çözme",
+        "slug": "toplama-islemiyle-denklem-cozme",
         "level": 2,
         "sortOrder": 4,
         "contentJson": [
@@ -4341,10 +4341,10 @@
         ]
       },
       {
-        "id": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-05",
+        "id": "esitlik-ve-denklem-section-05",
         "lessonId": "lesson-subtraction-addition-equations",
-        "heading": "Sözcük Öbeklerini Cebirsel Denklemlere Çevirme",
-        "slug": "sozcuk-obeklerini-cebirsel-denklemlere-cevirme",
+        "heading": "Sözel Durumları Denklem ile Gösterme",
+        "slug": "sozel-durumlari-denklem-ile-gosterme",
         "level": 2,
         "sortOrder": 5,
         "contentJson": [
@@ -4794,10 +4794,10 @@
         ]
       },
       {
-        "id": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-06",
+        "id": "esitlik-ve-denklem-section-06",
         "lessonId": "lesson-subtraction-addition-equations",
-        "heading": "Denkleme Çevirme ve Çözme",
-        "slug": "denkleme-cevirme-ve-cozme",
+        "heading": "Denklem Kurma ve Çözme",
+        "slug": "denklem-kurma-ve-cozme",
         "level": 2,
         "sortOrder": 6,
         "contentJson": [
@@ -5089,10 +5089,10 @@
         ]
       },
       {
-        "id": "katlari-ve-carpanlari-bulma-section-01",
+        "id": "carpanlar-ve-katlar-section-01",
         "lessonId": "lesson-multiples-factors",
-        "heading": "Sayıların Katlarını Belirleme",
-        "slug": "sayilarin-katlarini-belirleme",
+        "heading": "Kat Kavramı ve Katları Belirleme",
+        "slug": "kat-kavrami-ve-katlari-belirleme",
         "level": 2,
         "sortOrder": 1,
         "contentJson": [
@@ -6748,10 +6748,10 @@
         ]
       },
       {
-        "id": "katlari-ve-carpanlari-bulma-section-02",
+        "id": "carpanlar-ve-katlar-section-02",
         "lessonId": "lesson-multiples-factors",
-        "heading": "Yaygın Bölünebilme Testlerini Kullanma",
-        "slug": "yaygin-bolunebilme-testlerini-kullanma",
+        "heading": "Bölünebilme Kuralları",
+        "slug": "bolunebilme-kurallari",
         "level": 2,
         "sortOrder": 2,
         "contentJson": [
@@ -7328,10 +7328,10 @@
         ]
       },
       {
-        "id": "katlari-ve-carpanlari-bulma-section-03",
+        "id": "carpanlar-ve-katlar-section-03",
         "lessonId": "lesson-multiples-factors",
-        "heading": "Bir Sayının Tüm Çarpanlarını Bulma",
-        "slug": "bir-sayinin-tum-carpanlarini-bulma",
+        "heading": "Doğal Sayıların Çarpanlarını Bulma",
+        "slug": "dogal-sayilarin-carpanlarini-bulma",
         "level": 2,
         "sortOrder": 3,
         "contentJson": [
@@ -7721,10 +7721,10 @@
         ]
       },
       {
-        "id": "katlari-ve-carpanlari-bulma-section-04",
+        "id": "carpanlar-ve-katlar-section-04",
         "lessonId": "lesson-multiples-factors",
-        "heading": "Asal ve Bileşik Sayıları Belirleme",
-        "slug": "asal-ve-bilesik-sayilari-belirleme",
+        "heading": "Asal ve Bileşik Sayılar",
+        "slug": "asal-ve-bilesik-sayilar",
         "level": 2,
         "sortOrder": 4,
         "contentJson": [
@@ -8021,7 +8021,7 @@
       {
         "id": "lesson-evaluate-simplify-translate-exercise-69",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-01",
+        "sectionId": "cebirsel-ifadeler-section-01",
         "number": "69",
         "promptJson": [
           {
@@ -8039,8 +8039,16 @@
         ],
         "answerJson": [
           {
+            "type": "text",
+            "value": "Çözüm: Değişken yerine verilen değeri yazıp işlem sırasını uygularız. İfade sadeleştiğinde sonuç "
+          },
+          {
             "type": "math",
             "value": "22"
+          },
+          {
+            "type": "text",
+            "value": " olur."
           }
         ],
         "sortOrder": 69,
@@ -8050,7 +8058,7 @@
       {
         "id": "lesson-evaluate-simplify-translate-exercise-79",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-01",
+        "sectionId": "cebirsel-ifadeler-section-01",
         "number": "79",
         "promptJson": [
           {
@@ -8060,8 +8068,16 @@
         ],
         "answerJson": [
           {
+            "type": "text",
+            "value": "Çözüm: Verilen değeri değişkenin yerine koyarız. Çarpma ve çıkarma işlemlerini sırayla yapınca değer "
+          },
+          {
             "type": "math",
             "value": "21"
+          },
+          {
+            "type": "text",
+            "value": " bulunur."
           }
         ],
         "sortOrder": 79,
@@ -8071,7 +8087,7 @@
       {
         "id": "lesson-evaluate-simplify-translate-exercise-101",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-03",
+        "sectionId": "cebirsel-ifadeler-section-03",
         "number": "101",
         "promptJson": [
           {
@@ -8089,8 +8105,16 @@
         ],
         "answerJson": [
           {
+            "type": "text",
+            "value": "Çözüm: Benzer terimler aynı değişken kısmına sahiptir. Katsayıları toplar, değişken kısmını koruruz; sonuç "
+          },
+          {
             "type": "math",
             "value": "13x"
+          },
+          {
+            "type": "text",
+            "value": " olur."
           }
         ],
         "sortOrder": 101,
@@ -8100,7 +8124,7 @@
       {
         "id": "lesson-evaluate-simplify-translate-exercise-135",
         "lessonId": "lesson-evaluate-simplify-translate",
-        "sectionId": "ifadeleri-degerlendirme-sadelestirme-cevirme-section-04",
+        "sectionId": "cebirsel-ifadeler-section-04",
         "number": "135",
         "promptJson": [
           {
@@ -8130,8 +8154,16 @@
         ],
         "answerJson": [
           {
+            "type": "text",
+            "value": "Çözüm: Sözel ifade ortak çarpanı ve parantez içindeki toplamı anlatır. Bu nedenle cebirsel ifade "
+          },
+          {
             "type": "math",
             "value": "5(x+y)"
+          },
+          {
+            "type": "text",
+            "value": " şeklinde yazılır."
           }
         ],
         "sortOrder": 135,
@@ -8141,7 +8173,7 @@
       {
         "id": "lesson-subtraction-addition-equations-exercise-147",
         "lessonId": "lesson-subtraction-addition-equations",
-        "sectionId": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-01",
+        "sectionId": "esitlik-ve-denklem-section-01",
         "number": "147",
         "promptJson": [
           {
@@ -8176,7 +8208,7 @@
         "answerJson": [
           {
             "type": "text",
-            "value": "ⓐ çözüm, ⓑ çözüm değil"
+            "value": "Çözüm: Her aday değeri denklemde değişkenin yerine yazarız. Eşitlik doğruysa çözüm olur. Kontrol sonunda ⓐ çözüm, ⓑ çözüm değildir."
           }
         ],
         "sortOrder": 147,
@@ -8186,7 +8218,7 @@
       {
         "id": "lesson-subtraction-addition-equations-exercise-149",
         "lessonId": "lesson-subtraction-addition-equations",
-        "sectionId": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-01",
+        "sectionId": "esitlik-ve-denklem-section-01",
         "number": "149",
         "promptJson": [
           {
@@ -8213,7 +8245,7 @@
         "answerJson": [
           {
             "type": "text",
-            "value": "ⓐ çözüm değil, ⓑ çözüm"
+            "value": "Çözüm: Verilen değerleri tek tek yerine koyduğumuzda yalnızca eşitliği doğru yapan değer çözüm olur. Bu nedenle ⓐ çözüm değil, ⓑ çözümdür."
           }
         ],
         "sortOrder": 149,
@@ -8223,7 +8255,7 @@
       {
         "id": "lesson-subtraction-addition-equations-exercise-163",
         "lessonId": "lesson-subtraction-addition-equations",
-        "sectionId": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-03",
+        "sectionId": "esitlik-ve-denklem-section-03",
         "number": "163",
         "promptJson": [
           {
@@ -8241,8 +8273,16 @@
         ],
         "answerJson": [
           {
+            "type": "text",
+            "value": "Çözüm: Değişkeni yalnız bırakmak için denklemin iki tarafından aynı sayı çıkarılır. Eşitlik korunur ve "
+          },
+          {
             "type": "math",
             "value": "a=16"
+          },
+          {
+            "type": "text",
+            "value": " bulunur."
           }
         ],
         "sortOrder": 163,
@@ -8252,7 +8292,7 @@
       {
         "id": "lesson-subtraction-addition-equations-exercise-175",
         "lessonId": "lesson-subtraction-addition-equations",
-        "sectionId": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-04",
+        "sectionId": "esitlik-ve-denklem-section-04",
         "number": "175",
         "promptJson": [
           {
@@ -8270,8 +8310,16 @@
         ],
         "answerJson": [
           {
+            "type": "text",
+            "value": "Çözüm: Değişkenin yanındaki sayı çıkarma ile gelmişse ters işlem olarak iki tarafa aynı sayı eklenir. Böylece "
+          },
+          {
             "type": "math",
             "value": "y=22"
+          },
+          {
+            "type": "text",
+            "value": " elde edilir."
           }
         ],
         "sortOrder": 175,
@@ -8281,7 +8329,7 @@
       {
         "id": "lesson-subtraction-addition-equations-exercise-199",
         "lessonId": "lesson-subtraction-addition-equations",
-        "sectionId": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-05",
+        "sectionId": "esitlik-ve-denklem-section-05",
         "number": "199",
         "promptJson": [
           {
@@ -8311,8 +8359,24 @@
         ],
         "answerJson": [
           {
+            "type": "text",
+            "value": "Çözüm: Sözel durumdaki bilinmeyen "
+          },
+          {
+            "type": "math",
+            "value": "p"
+          },
+          {
+            "type": "text",
+            "value": " ile gösterilir ve ilişki denklem olarak yazılır. Denklem çözüldüğünde "
+          },
+          {
             "type": "math",
             "value": "p=16"
+          },
+          {
+            "type": "text",
+            "value": " olur."
           }
         ],
         "sortOrder": 199,
@@ -8322,7 +8386,7 @@
       {
         "id": "lesson-subtraction-addition-equations-exercise-209",
         "lessonId": "lesson-subtraction-addition-equations",
-        "sectionId": "esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme-section-06",
+        "sectionId": "esitlik-ve-denklem-section-06",
         "number": "209",
         "promptJson": [
           {
@@ -8344,8 +8408,24 @@
         ],
         "answerJson": [
           {
+            "type": "text",
+            "value": "Çözüm: Problemde bilinmeyen miktarı "
+          },
+          {
+            "type": "math",
+            "value": "p"
+          },
+          {
+            "type": "text",
+            "value": " ile gösterip verilen ilişkiye göre denklem kurarız. Ters işlemlerle çözdüğümüzde "
+          },
+          {
             "type": "math",
             "value": "p=1300"
+          },
+          {
+            "type": "text",
+            "value": " bulunur."
           }
         ],
         "sortOrder": 209,
@@ -8355,7 +8435,7 @@
       {
         "id": "lesson-multiples-factors-exercise-215",
         "lessonId": "lesson-multiples-factors",
-        "sectionId": "katlari-ve-carpanlari-bulma-section-01",
+        "sectionId": "carpanlar-ve-katlar-section-01",
         "number": "215",
         "promptJson": [
           {
@@ -8382,7 +8462,7 @@
         "answerJson": [
           {
             "type": "text",
-            "value": "2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48"
+            "value": "Çözüm: 2'nin katlarını bulmak için 2'den başlayıp her seferinde 2 ekleriz. 50'den küçük katlar 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46 ve 48'dir."
           }
         ],
         "sortOrder": 215,
@@ -8392,7 +8472,7 @@
       {
         "id": "lesson-multiples-factors-exercise-225",
         "lessonId": "lesson-multiples-factors",
-        "sectionId": "katlari-ve-carpanlari-bulma-section-02",
+        "sectionId": "carpanlar-ve-katlar-section-02",
         "number": "225",
         "promptJson": [
           {
@@ -8419,7 +8499,7 @@
         "answerJson": [
           {
             "type": "text",
-            "value": "84; 2, 3, 4 ve 6 ile bölünebilir; 5 ve 10 ile bölünemez."
+            "value": "Çözüm: 84 çift olduğu için 2'ye bölünür. Rakamları toplamı 12 olduğu için 3'e bölünür. Son iki basamağı 84 olduğundan 4'e de bölünür. Hem 2'ye hem 3'e bölündüğü için 6'ya bölünür; son basamağı 0 veya 5 olmadığı için 5'e, 0 olmadığı için 10'a bölünmez."
           }
         ],
         "sortOrder": 225,
@@ -8429,7 +8509,7 @@
       {
         "id": "lesson-multiples-factors-exercise-243",
         "lessonId": "lesson-multiples-factors",
-        "sectionId": "katlari-ve-carpanlari-bulma-section-03",
+        "sectionId": "carpanlar-ve-katlar-section-03",
         "number": "243",
         "promptJson": [
           {
@@ -8448,7 +8528,7 @@
         "answerJson": [
           {
             "type": "text",
-            "value": "1, 2, 3, 4, 6, 9, 12, 18, 36"
+            "value": "Çözüm: 36'yı 1'den başlayarak böleriz ve tam bölenleri eşleriyle birlikte yazarız: 1·36, 2·18, 3·12, 4·9 ve 6·6. Bu nedenle çarpanlar 1, 2, 3, 4, 6, 9, 12, 18 ve 36'dır."
           }
         ],
         "sortOrder": 243,
@@ -8458,7 +8538,7 @@
       {
         "id": "lesson-multiples-factors-exercise-251",
         "lessonId": "lesson-multiples-factors",
-        "sectionId": "katlari-ve-carpanlari-bulma-section-04",
+        "sectionId": "carpanlar-ve-katlar-section-04",
         "number": "251",
         "promptJson": [
           {
@@ -8477,7 +8557,7 @@
         "answerJson": [
           {
             "type": "text",
-            "value": "43 asal sayıdır."
+            "value": "Çözüm: 43'ün 1 ve kendisi dışında doğal sayı çarpanı yoktur. Bu yüzden 43 asal sayıdır."
           }
         ],
         "sortOrder": 251,

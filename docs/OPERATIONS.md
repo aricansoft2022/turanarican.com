@@ -579,11 +579,11 @@ Deploy sonrası tarayıcıda kontrol et:
   gidiyor.
 - Ana sayfa mobil ve desktopta taşmıyor.
 - Ders route'u açılıyor:
-  `/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme`
+  `/kitap/prealgebra-2e/cebir-diline-giris/cebirsel-ifadeler`
 - Sağda/ekranda çift scrollbar yok.
 - Türkçe karakterler doğru.
 - KaTeX matematikler render oluyor.
-- Cevaplar başlangıçta kapalı, tıklayınca açılıyor.
+- Çözümler başlangıçta kapalı, tıklayınca açılıyor.
 - `/robots.txt` cevap veriyor.
 - `/sitemap.xml` cevap veriyor.
 - `/og` cevap veriyor.

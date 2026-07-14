@@ -7,7 +7,7 @@ export function AnswerReveal({ answer }: { answer: InlineContent[] }) {
   return (
     <details className="group answer-reveal">
       <summary className="inline-flex min-h-7 cursor-pointer list-none items-center gap-1 border border-brand-red/35 bg-white px-2 py-1 text-[11px] font-extrabold uppercase leading-none text-brand-red transition hover:bg-brand-soft">
-        Cevap
+        Çözüm
         <ChevronDown
           aria-hidden="true"
           className="size-3 transition-transform group-open:rotate-180"

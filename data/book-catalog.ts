@@ -32,13 +32,13 @@ export const books: Book[] = [
           {
             id: "lesson-evaluate-simplify-translate",
             chapterId: "chapter-language-of-algebra",
-            slug: "ifadeleri-degerlendirme-sadelestirme-cevirme",
+            slug: "cebirsel-ifadeler",
             sourceNumber: "2.3",
             displayNumber: "2.2",
             sourceTitle: "Evaluate, Simplify, and Translate Expressions",
-            displayTitle: "İfadeleri Değerlendirme, Sadeleştirme ve Çevirme",
+            displayTitle: "Cebirsel İfadeler",
             summary:
-              "Değişkenleri sayılarla değiştirin, benzer terimleri birleştirin ve sözcük öbeklerini cebirsel ifadelere çevirin.",
+              "Cebirsel ifadelerin değerini hesaplayın, terim ve katsayıları ayırt edin, benzer terimleri birleştirin ve sözel durumları cebirsel ifadeyle gösterin.",
             sourceUrl:
               "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions",
             sortOrder: 3,

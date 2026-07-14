@@ -41,6 +41,7 @@ async function main() {
         blocks: countLessonBlocks(result.lesson),
         examples: countBlocksByLabel(result.lesson, /^Örnek\b/i),
         tryIts: countBlocksByLabel(result.lesson, /^Sıra Sizde\b/i),
+        sourceExercises: result.parsedLesson.exercises.length,
         exercises: result.lesson.exercises.length,
         mathTokens: countMathTokens(
           result.lesson.sections.flatMap((section) => section.blocks),
@@ -102,6 +103,7 @@ function assertRenderableLesson(lesson: Lesson) {
   if (!lesson.objectives.length) {
     throw new Error("Seed lesson has no objectives.");
   }
+  lesson.objectives.forEach(assertPedagogicalObjective);
 
   if (!lesson.sections.length) {
     throw new Error("Seed lesson has no sections.");
@@ -118,6 +120,30 @@ function assertRenderableLesson(lesson: Lesson) {
   );
   if (emptyExercise) {
     throw new Error(`Seed lesson exercise is incomplete: ${emptyExercise.number}`);
+  }
+
+  for (const exercise of lesson.exercises) {
+    assertExplanatoryExerciseSolution(exercise.answer, exercise.number);
+  }
+}
+
+function assertPedagogicalObjective(objective: string) {
+  if (!/bileceksiniz\.$/.test(objective.trim())) {
+    throw new Error(
+      `Seed lesson objective must fit the "yapabileceksiniz" context: ${objective}`,
+    );
+  }
+}
+
+function assertExplanatoryExerciseSolution(
+  answer: InlineContent[],
+  exerciseNumber: string,
+) {
+  const text = answer.map((item) => item.value).join(" ").trim();
+  if (!/^Çözüm:/i.test(text) || text.length < 40) {
+    throw new Error(
+      `Seed lesson exercise solution must be explanatory: ${exerciseNumber}`,
+    );
   }
 }
 

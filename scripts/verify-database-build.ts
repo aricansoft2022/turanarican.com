@@ -9,9 +9,9 @@ import { applySqlMigrations } from "./lib/migrations";
 import { applySeedPayload, readSeedDatabasePayload } from "./lib/seed-db";
 
 const expectedLessonPaths = [
-  "/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme",
-  "/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme",
-  "/kitap/prealgebra-2e/cebir-diline-giris/katlari-ve-carpanlari-bulma",
+  "/kitap/prealgebra-2e/cebir-diline-giris/cebirsel-ifadeler",
+  "/kitap/prealgebra-2e/cebir-diline-giris/esitlik-ve-denklem",
+  "/kitap/prealgebra-2e/cebir-diline-giris/carpanlar-ve-katlar",
 ];
 const expectedBookPaths = ["/kitap/prealgebra-2e"];
 const expectedChapterPaths = ["/kitap/prealgebra-2e/cebir-diline-giris"];

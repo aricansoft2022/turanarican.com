@@ -24,7 +24,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
     sourceNumber: "2.3",
     sections: [
       {
-        sectionSlug: "cebirsel-ifadeleri-degerlendirme",
+        sectionSlug: "cebirsel-ifadenin-degerini-hesaplama",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -727,7 +727,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "terimleri-katsayilari-ve-benzer-terimleri-belirleme",
+        sectionSlug: "terim-katsayi-ve-benzer-terim",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -1173,7 +1173,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "benzer-terimleri-birlestirerek-ifadeleri-sadelestirme",
+        sectionSlug: "cebirsel-ifadelerde-toplama-ve-cikarma",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -1549,7 +1549,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "sozcuk-obeklerini-cebirsel-ifadelere-cevirme",
+        sectionSlug: "sozel-durumlari-cebirsel-ifade-ile-gosterme",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -2320,7 +2320,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
     sourceNumber: "2.4",
     sections: [
       {
-        sectionSlug: "esitligin-cikarma-ozelligiyle-denklemleri-cozme",
+        sectionSlug: "cikarma-islemiyle-denklem-cozme",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -2582,7 +2582,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "esitligin-toplama-ozelligiyle-denklemleri-cozme",
+        sectionSlug: "toplama-islemiyle-denklem-cozme",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -2862,7 +2862,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "esitligin-cikarma-ozelligini-modelleme",
+        sectionSlug: "esitligin-korunumu-cikarma",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -3104,7 +3104,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "bir-sayinin-denklemin-cozumu-olup-olmadigini-belirleme",
+        sectionSlug: "denklemin-cozumunu-kontrol-etme",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -3445,7 +3445,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "sozcuk-obeklerini-cebirsel-denklemlere-cevirme",
+        sectionSlug: "sozel-durumlari-denklem-ile-gosterme",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -3775,7 +3775,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "denkleme-cevirme-ve-cozme",
+        sectionSlug: "denklem-kurma-ve-cozme",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -3991,7 +3991,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
     sourceNumber: "2.5",
     sections: [
       {
-        sectionSlug: "sayilarin-katlarini-belirleme",
+        sectionSlug: "kat-kavrami-ve-katlari-belirleme",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -5002,7 +5002,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "yaygin-bolunebilme-testlerini-kullanma",
+        sectionSlug: "bolunebilme-kurallari",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -5246,7 +5246,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "bir-sayinin-tum-carpanlarini-bulma",
+        sectionSlug: "dogal-sayilarin-carpanlarini-bulma",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,
@@ -5421,7 +5421,7 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
         ],
       },
       {
-        sectionSlug: "asal-ve-bilesik-sayilari-belirleme",
+        sectionSlug: "asal-ve-bilesik-sayilar",
         replaceBlocks: [
           {
             sourceBlockIndex: 1,

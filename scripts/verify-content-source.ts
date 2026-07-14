@@ -20,9 +20,9 @@ import { applySeedPayload, readSeedDatabasePayload } from "./lib/seed-db";
 const siteUrl = "https://turanarican.com";
 
 const expectedLessonUrls = [
-  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme`,
-  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/esitligin-cikarma-toplama-ozellikleriyle-denklem-cozme`,
-  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/katlari-ve-carpanlari-bulma`,
+  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/cebirsel-ifadeler`,
+  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/esitlik-ve-denklem`,
+  `${siteUrl}/kitap/prealgebra-2e/cebir-diline-giris/carpanlar-ve-katlar`,
 ];
 
 async function main() {

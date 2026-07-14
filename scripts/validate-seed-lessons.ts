@@ -41,6 +41,7 @@ type SeedFixtureLesson = {
     blocks: number;
     examples: number;
     tryIts: number;
+    sourceExercises: number;
     exercises: number;
     mathTokens: number;
     assets: number;
@@ -87,6 +88,10 @@ export function summarizeSeedFixture(fixture: SeedFixture) {
     lessons: fixture.lessons.length,
     sections: sum(fixture.lessons, (entry) => entry.lesson.sections.length),
     blocks: sum(fixture.lessons, (entry) => countLessonBlocks(entry.lesson)),
+    sourceExercises: sum(
+      fixture.lessons,
+      (entry) => entry.metrics.sourceExercises,
+    ),
     exercises: sum(fixture.lessons, (entry) => entry.lesson.exercises.length),
     assets: sum(fixture.lessons, (entry) => entry.assets.length),
   };
@@ -126,6 +131,9 @@ function assertLessonEntry(entry: SeedFixtureLesson) {
 
   if (!lesson.objectives.length) {
     throw new Error(`Lesson has no objectives: ${lesson.id}`);
+  }
+  for (const objective of lesson.objectives) {
+    assertPedagogicalObjective(objective, lesson.id);
   }
 
   if (!lesson.sections.length) {
@@ -170,6 +178,8 @@ function assertLessonEntry(entry: SeedFixtureLesson) {
     if (!exercise.prompt.length || !exercise.answer.length) {
       throw new Error(`Exercise prompt or answer is empty: ${lesson.id}/${exercise.number}`);
     }
+
+    assertExplanatoryExerciseSolution(exercise.answer, lesson.id, exercise.number);
   }
 
   for (const asset of entry.assets) {
@@ -293,6 +303,7 @@ function assertMetrics(entry: SeedFixtureLesson) {
     blocks: countLessonBlocks(lesson),
     examples: countBlocksByLabel(lesson, /^Örnek\b/i),
     tryIts: countBlocksByLabel(lesson, /^Sıra Sizde\b/i),
+    sourceExercises: metrics.sourceExercises,
     exercises: lesson.exercises.length,
     mathTokens: countMathTokens(
       lesson.sections.flatMap((section) => section.blocks),
@@ -307,6 +318,27 @@ function assertMetrics(entry: SeedFixtureLesson) {
         `Metric mismatch for ${lesson.id}/${key}: expected ${metric}, got ${value}`,
       );
     }
+  }
+}
+
+function assertPedagogicalObjective(objective: string, lessonId: string) {
+  if (!/bileceksiniz\.$/.test(objective.trim())) {
+    throw new Error(
+      `Objective must fit the "yapabileceksiniz" context in ${lessonId}: ${objective}`,
+    );
+  }
+}
+
+function assertExplanatoryExerciseSolution(
+  answer: InlineContent[],
+  lessonId: string,
+  exerciseNumber: string,
+) {
+  const text = inlineText(answer);
+  if (!/^Çözüm:/i.test(text) || text.length < 40) {
+    throw new Error(
+      `Exercise solution must be explanatory in ${lessonId}/${exerciseNumber}.`,
+    );
   }
 }
 

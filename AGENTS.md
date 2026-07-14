@@ -158,6 +158,24 @@ as a general translation engine.
 Put manual lesson translations and replacements in `data/editorial-patches.ts`
 so source crawl/seed metadata stays separate from editorial Turkish content.
 
+Turkish product titles and section headings should prefer names close to the
+Turkish math curriculum instead of literal source translations. For example,
+use topic-style names such as `Cebirsel İfadeler`, `Eşitlik ve Denklem`,
+`Çarpanlar ve Katlar`, `Bölünebilme Kuralları`, `Terim, Katsayı ve Benzer
+Terim`, and similar concise curriculum-facing headings when they fit the
+lesson.
+
+Learning objectives are displayed after "Bu bölümün sonunda şunları
+yapabileceksiniz:" and must be written as capability statements, not commands.
+Use forms such as `... hesaplayabileceksiniz`, `... ayırt edebileceksiniz`,
+`... çözebileceksiniz`, and `... gösterebileceksiniz`.
+
+Examples, Sıra Sizde blocks, and exercises should be treated as solution-bearing
+learning objects. Pull every source example, Try It/Sıra Sizde item, and
+exercise when preparing a lesson. Revealed content should provide explanatory
+solutions, not only a final answer. If a source answer key only gives a result,
+add the Turkish explanation editorially.
+
 ## Data Model Direction
 
 Use structured content rather than storing one large HTML blob.
