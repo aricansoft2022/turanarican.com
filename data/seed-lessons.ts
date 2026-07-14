@@ -15,6 +15,7 @@ export type SeedLessonConfig = {
   objectives: string[];
   sectionTitles: Record<string, string>;
   tryItSolutions?: Record<string, ContentBlock[]>;
+  exercisePrompts?: Record<string, InlineContent[]>;
   exerciseAnswers: Record<string, InlineContent[]>;
   exerciseSectionSlugs: Record<string, string>;
 };
@@ -24,6 +25,10 @@ function p(value: string): ContentBlock[] {
 }
 
 function answer(value: string): InlineContent[] {
+  return [{ type: "text", value }];
+}
+
+function tx(value: string): InlineContent[] {
   return [{ type: "text", value }];
 }
 
@@ -1746,6 +1751,174 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "279": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
       "281": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
       "283": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+    },
+  },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "tam-sayilar",
+    sourceNumber: "3.6",
+    catalogLesson: {
+      id: "lesson-integer-equations",
+      slug: "tam-sayilarla-denklem-cozme",
+      displayTitle: "Tam Sayılarla Denklem Çözme",
+      summary:
+        "Tam sayılarla denklemlerde çözüm kontrolü yapın, eşitliğin toplama, çıkarma ve bölme özellikleriyle denklem çözün.",
+      sortOrder: 6,
+    },
+    objectives: [
+      "Bir tam sayının denklemin çözümü olup olmadığını belirleyebileceksiniz.",
+      "Eşitliğin toplama ve çıkarma özelliklerini kullanarak tam sayılı denklemleri çözebileceksiniz.",
+      "Eşitliğin bölme özelliğini modelleyebileceksiniz.",
+      "Eşitliğin bölme özelliğini kullanarak denklemleri çözebileceksiniz.",
+      "Sözel ifadeleri denkleme çevirip çözebileceksiniz.",
+    ],
+    sectionTitles: {
+      "Determine Whether a Number is a Solution of an Equation":
+        "Denklemin Çözümünü Kontrol Etme",
+      "Solve Equations with Integers Using the Addition and Subtraction Properties of Equality":
+        "Toplama ve Çıkarma Özellikleriyle Denklem Çözme",
+      "Model the Division Property of Equality":
+        "Eşitliğin Bölme Özelliğini Modelleme",
+      "Solve Equations Using the Division Property of Equality":
+        "Bölme Özelliğiyle Denklem Çözme",
+      "Translate to an Equation and Solve": "Denklem Kurup Çözme",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 3.119": p(
+        "Çözüm: Verilen değerleri denklemde deneriz. x=-11 için 2(-11)-8=-30, x=11 için 14, x=-3 için -14 olur. Yalnız x=-3 denklemi doğru yapar.",
+      ),
+      "Sıra Sizde 3.120": p(
+        "Çözüm: y=4 için 2y+3=11, y=-4 için -5, y=-7 için -11 olur. Sağ taraf -11 olduğundan çözüm y=-7'dir.",
+      ),
+      "Sıra Sizde 3.121": p(
+        "Çözüm: y+11=7 denkleminde 11'i yok etmek için iki taraftan 11 çıkarırız: y=7-11=-4.",
+      ),
+      "Sıra Sizde 3.122": p(
+        "Çözüm: y+15=-4 olduğundan iki taraftan 15 çıkarırız. y=-4-15=-19 bulunur.",
+      ),
+      "Sıra Sizde 3.123": p(
+        "Çözüm: a-2=-8 denkleminde iki tarafa 2 eklenir. a=-8+2=-6 olur.",
+      ),
+      "Sıra Sizde 3.124": p(
+        "Çözüm: n-4=-8 denkleminde değişkeni yalnız bırakmak için iki tarafa 4 ekleriz. n=-4 bulunur.",
+      ),
+      "Sıra Sizde 3.125": p(
+        "Çözüm: Dört eş zarf toplam 12 sayacı gösterir, bu yüzden denklem 4x=12'dir. İki tarafı 4'e bölersek x=3 olur.",
+      ),
+      "Sıra Sizde 3.126": p(
+        "Çözüm: Üç eş zarf toplam 6 sayacı gösterir. 3x=6 yazılır ve iki taraf 3'e bölünür; her zarfta x=2 sayaç vardır.",
+      ),
+      "Sıra Sizde 3.127": p(
+        "Çözüm: 8a=56 denkleminde iki tarafı 8'e böleriz. a=7 olur; kontrol: 8·7=56.",
+      ),
+      "Sıra Sizde 3.128": p(
+        "Çözüm: 11n=121 olduğundan iki tarafı 11'e böleriz. n=11 bulunur.",
+      ),
+      "Sıra Sizde 3.129": p(
+        "Çözüm: -8p=96 denkleminde iki tarafı -8'e böleriz. p=-12 olur; çünkü -8·(-12)=96.",
+      ),
+      "Sıra Sizde 3.130": p(
+        "Çözüm: -12m=108 olduğundan iki taraf -12'ye bölünür. m=-9 bulunur.",
+      ),
+      "Sıra Sizde 3.131": p(
+        "Çözüm: “x'ten 7 fazla -2'ye eşittir” cümlesi x+7=-2 olur. İki taraftan 7 çıkarınca x=-9 bulunur.",
+      ),
+      "Sıra Sizde 3.132": p(
+        "Çözüm: “y'den 11 fazla 2'ye eşittir” ifadesi y+11=2 denklemini verir. y=2-11=-9 olur.",
+      ),
+      "Sıra Sizde 3.133": p(
+        "Çözüm: “p ile 2'nin farkı -4'tür” cümlesi p-2=-4 olur. İki tarafa 2 ekleyince p=-2 bulunur.",
+      ),
+      "Sıra Sizde 3.134": p(
+        "Çözüm: q ile 7'nin farkı -3 ise q-7=-3 yazılır. İki tarafa 7 eklenir ve q=4 olur.",
+      ),
+      "Sıra Sizde 3.135": p(
+        "Çözüm: 132 sayısı -12 ile y'nin çarpımıdır: 132=-12y. İki tarafı -12'ye böleriz; y=-11.",
+      ),
+      "Sıra Sizde 3.136": p(
+        "Çözüm: 117=-13z yazılır. İki taraf -13'e bölününce z=-9 bulunur.",
+      ),
+    },
+    exercisePrompts: {
+      "301": tx(
+        "Zarf ve sayaç modelinde 3 eş zarf toplam 6 sayacı gösteriyor. Modelin denklemini yazın ve çözün.",
+      ),
+      "303": tx(
+        "Zarf ve sayaç modelinde 2 eş zarf toplam 8 sayacı gösteriyor. Modelin denklemini yazın ve çözün.",
+      ),
+    },
+    exerciseAnswers: {
+      "285": answer("Çözüm: Değerleri yerine yazarız. x=-2 için 4(-2)-2=-10, x=-1 için -6, x=2 için 6 olur. Denklemi yalnız x=2 sağlar."),
+      "287": answer("Çözüm: a=6 için 9a+27=81, a=-6 için -27, a=-10 için -63 olur. Sağ taraf -63 olduğundan çözüm a=-10'dur."),
+      "289": answer("Çözüm: n+12=5 denkleminde iki taraftan 12 çıkarırız. n=5-12=-7 bulunur."),
+      "291": answer("Çözüm: p+9=-8 olduğundan iki taraftan 9 çıkarılır. p=-8-9=-17 olur."),
+      "293": answer("Çözüm: u-3=-7 denkleminde iki tarafa 3 ekleriz. u=-7+3=-4 bulunur."),
+      "295": answer("Çözüm: h-10=-4 olduğundan iki tarafa 10 eklenir. h=6 olur; kontrol: 6-10=-4."),
+      "297": answer("Çözüm: x+(-2)=-18, yani x-2=-18'dir. İki tarafa 2 ekleyince x=-16 bulunur."),
+      "299": answer("Çözüm: r-(-5)=r+5 olduğundan denklem r+5=-9 olur. İki taraftan 5 çıkarılır ve r=-14 bulunur."),
+      "301": answer("Çözüm: Model 3 eş zarfın toplam 6 sayaca eşit olduğunu gösterir. Denklem 3x=6'dır; iki taraf 3'e bölününce x=2 olur."),
+      "303": answer("Çözüm: Model 2 eş zarfın toplam 8 sayaca eşit olduğunu gösterir. Denklem 2x=8'dir; iki taraf 2'ye bölününce x=4 olur."),
+      "305": answer("Çözüm: 5x=45 denkleminde iki tarafı 5'e böleriz. x=9 olur; kontrol: 5·9=45."),
+      "307": answer("Çözüm: -7c=56 olduğundan iki taraf -7'ye bölünür. c=-8 bulunur; çünkü -7·(-8)=56."),
+      "309": answer("Çözüm: -14p=-42 denkleminde iki tarafı -14'e böleriz. p=3 olur."),
+      "311": answer("Çözüm: -120=10q denkleminde iki taraf 10'a bölünür. q=-12 bulunur."),
+      "313": answer("Çözüm: 24x=480 olduğundan iki tarafı 24'e böleriz. x=20 olur."),
+      "315": answer("Çözüm: -3z=0 denkleminde iki taraf -3'e bölünür. z=0 bulunur; sıfırın herhangi sıfır olmayan sayıya bölümü yine sıfırdır."),
+      "317": answer("Çözüm: “n'den 4 fazla 1'e eşittir” cümlesi n+4=1 olur. İki taraftan 4 çıkarınca n=-3 bulunur."),
+      "319": answer("Çözüm: 8 ile p'nin toplamı -3 ise 8+p=-3 yazılır. İki taraftan 8 çıkarılır ve p=-11 olur."),
+      "321": answer("Çözüm: a ile 3'ün farkı -14 ise a-3=-14'tür. İki tarafa 3 eklenir ve a=-11 bulunur."),
+      "323": answer("Çözüm: -42 sayısı -7 ile x'in çarpımıdır: -42=-7x. İki taraf -7'ye bölünür; x=6 olur."),
+      "325": answer("Çözüm: -15 ile f'nin çarpımı 75 ise -15f=75 yazılır. İki taraf -15'e bölününce f=-5 bulunur."),
+      "327": answer("Çözüm: -6+c=4 denkleminde iki tarafa 6 ekleriz. c=10 olur."),
+      "329": answer("Çözüm: m'den 9 eksik -4 ise m-9=-4 yazılır. İki tarafa 9 eklenir ve m=5 bulunur."),
+      "331": answer("Çözüm: ⓐ x+2=10 için iki taraftan 2 çıkarılır, x=8. ⓑ 2x=10 için iki taraf 2'ye bölünür, x=5."),
+      "333": answer("Çözüm: ⓐ -3p=27 denkleminde iki taraf -3'e bölünür, p=-9. ⓑ p-3=27 denkleminde iki tarafa 3 eklenir, p=30."),
+      "335": answer("Çözüm: a-4=16 denkleminde iki tarafa 4 ekleriz. a=20 olur."),
+      "337": answer("Çözüm: -8m=-56 denkleminde iki taraf -8'e bölünür. m=7 bulunur."),
+      "339": answer("Çözüm: -39=u+13 denkleminde iki taraftan 13 çıkarırız. u=-52 olur."),
+      "341": answer("Çözüm: 11r=-99 olduğundan iki tarafı 11'e böleriz. r=-9 bulunur."),
+      "343": answer("Çözüm: 100=20d denkleminde iki taraf 20'ye bölünür. d=5 olur."),
+      "345": answer("Çözüm: -49=x-7 denkleminde iki tarafa 7 eklenir. x=-42 bulunur."),
+      "347": answer("Çözüm: 51 kurabiye 3 eş sıraya ayrılmıştır. 3c=51 denklemini kurarız; iki tarafı 3'e bölersek c=17 kurabiye bulunur."),
+      "349": answer("Çözüm: Evet, zarf ve sayaç modeli 3x=15 denkleminde 15 sayacın 3 eş gruba ayrıldığını gösterir. Böylece her zarfta 5 sayaç olduğu, yani x=5 olduğu görülür."),
+      "351": answer("Çözüm: -3x=36 denkleminde x, -3 ile çarpılmıştır. Çarpmayı tersine çevirmek için toplama değil bölme yapılmalıdır; iki taraf -3'e bölünür ve x=-12 bulunur."),
+    },
+    exerciseSectionSlugs: {
+      "285": "denklemin-cozumunu-kontrol-etme",
+      "287": "denklemin-cozumunu-kontrol-etme",
+      "289": "toplama-ve-cikarma-ozellikleriyle-denklem-cozme",
+      "291": "toplama-ve-cikarma-ozellikleriyle-denklem-cozme",
+      "293": "toplama-ve-cikarma-ozellikleriyle-denklem-cozme",
+      "295": "toplama-ve-cikarma-ozellikleriyle-denklem-cozme",
+      "297": "toplama-ve-cikarma-ozellikleriyle-denklem-cozme",
+      "299": "toplama-ve-cikarma-ozellikleriyle-denklem-cozme",
+      "301": "esitligin-bolme-ozelligini-modelleme",
+      "303": "esitligin-bolme-ozelligini-modelleme",
+      "305": "bolme-ozelligiyle-denklem-cozme",
+      "307": "bolme-ozelligiyle-denklem-cozme",
+      "309": "bolme-ozelligiyle-denklem-cozme",
+      "311": "bolme-ozelligiyle-denklem-cozme",
+      "313": "bolme-ozelligiyle-denklem-cozme",
+      "315": "bolme-ozelligiyle-denklem-cozme",
+      "317": "denklem-kurup-cozme",
+      "319": "denklem-kurup-cozme",
+      "321": "denklem-kurup-cozme",
+      "323": "denklem-kurup-cozme",
+      "325": "denklem-kurup-cozme",
+      "327": "denklem-kurup-cozme",
+      "329": "denklem-kurup-cozme",
+      "331": "denklem-kurup-cozme",
+      "333": "denklem-kurup-cozme",
+      "335": "denklem-kurup-cozme",
+      "337": "denklem-kurup-cozme",
+      "339": "denklem-kurup-cozme",
+      "341": "denklem-kurup-cozme",
+      "343": "denklem-kurup-cozme",
+      "345": "denklem-kurup-cozme",
+      "347": "denklem-kurup-cozme",
+      "349": "denklem-kurup-cozme",
+      "351": "denklem-kurup-cozme",
     },
   },
 ];

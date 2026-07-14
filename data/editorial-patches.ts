@@ -7744,6 +7744,246 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "3.6",
+    sections: [
+      {
+        sectionSlug: "denklemin-cozumunu-kontrol-etme",
+        replaceBlocks: [
+          ...removeBlocks(8),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir denklemin çözümü, değişken yerine yazıldığında denklemi doğru yapan değerdir. Tam sayılarla çalışırken de kontrol yöntemi değişmez: değeri yerine yazar, iki tarafın eşit olup olmadığına bakarız.",
+              ),
+              pt(
+                "Bir aday değer denklemi doğru yapıyorsa çözümdür; doğru yapmıyorsa çözüm değildir.",
+              ),
+              ex(
+                "Örnek 3.60",
+                [
+                  t("Aşağıdaki değerlerin "),
+                  m("2x-5=-13"),
+                  t(" denkleminin çözümü olup olmadığını belirleyin: ⓐ "),
+                  m("x=4"),
+                  t(" ⓑ "),
+                  m("x=-4"),
+                  t(" ⓒ "),
+                  m("x=-9"),
+                  t("."),
+                ],
+                sol(
+                  "Çözüm: Her değeri x yerine yazarız. ⓐ x=4 için 2·4-5=3 olur; -13'e eşit değildir, çözüm değildir.",
+                  "ⓑ x=-4 için 2(-4)-5=-8-5=-13 olur; denklem doğru olduğundan x=-4 çözümdür.",
+                  "ⓒ x=-9 için 2(-9)-5=-23 olur; -13'e eşit değildir, çözüm değildir.",
+                ),
+              ),
+              ex(
+                "Sıra Sizde 3.119",
+                [
+                  m("2x-8=-14"),
+                  t(" için ⓐ "),
+                  m("x=-11"),
+                  t(" ⓑ "),
+                  m("x=11"),
+                  t(" ⓒ "),
+                  m("x=-3"),
+                  t(" değerlerini kontrol edin."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.120",
+                [
+                  m("2y+3=-11"),
+                  t(" için ⓐ "),
+                  m("y=4"),
+                  t(" ⓑ "),
+                  m("y=-4"),
+                  t(" ⓒ "),
+                  m("y=-7"),
+                  t(" değerlerini kontrol edin."),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "toplama-ve-cikarma-ozellikleriyle-denklem-cozme",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir denklemin iki tarafına aynı sayıyı ekler ya da iki tarafından aynı sayıyı çıkarırsak eşitlik bozulmaz. Bu özellik, değişkeni yalnız bırakmak için kullanılır.",
+              ),
+              pt(
+                "Denklem çözerken amaç, değişkenin yanındaki toplama veya çıkarma işlemini ters işlemle kaldırmaktır.",
+              ),
+              ex(
+                "Örnek 3.61",
+                [t("Çözün: "), m("y+9=5"), t(".")],
+                sol(
+                  "Çözüm: y'nin yanında +9 vardır. Bunu kaldırmak için iki taraftan 9 çıkarırız.",
+                  "y+9-9=5-9 olduğundan y=-4 bulunur.",
+                  "Kontrol: -4+9=5, bu yüzden çözüm doğrudur.",
+                ),
+              ),
+              ex("Sıra Sizde 3.121", [t("Çözün: "), m("y+11=7")]),
+              ex("Sıra Sizde 3.122", [t("Çözün: "), m("y+15=-4")]),
+              ex(
+                "Örnek 3.62",
+                [t("Çözün: "), m("a-6=-8"), t(".")],
+                sol(
+                  "Çözüm: a'nın yanında -6 vardır. İki tarafa 6 ekleriz.",
+                  "a-6+6=-8+6 olduğundan a=-2 olur.",
+                  "Kontrol: -2-6=-8, bu yüzden çözüm doğrudur.",
+                ),
+              ),
+              ex("Sıra Sizde 3.123", [t("Çözün: "), m("a-2=-8")]),
+              ex("Sıra Sizde 3.124", [t("Çözün: "), m("n-4=-8")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "esitligin-bolme-ozelligini-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(19),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Şimdi değişkenin bir sayı ile çarpıldığı denklemlere geçiyoruz. Bu tür denklemlerde zarf ve sayaç modeli, toplamın eş gruplara ayrıldığını gösterir.",
+              ),
+              pt(
+                "Örneğin iki eş zarfın toplamı 6 sayaçsa her zarf aynı sayıda sayaç içerir. Bu durum 2x=6 denklemiyle gösterilir ve 6 sayaç 2 eş gruba ayrıldığı için x=3 olur.",
+              ),
+              p([
+                t("Aynı düşünce "),
+                m("3x=12"),
+                t(" için de geçerlidir: 12 sayaç 3 eş gruba ayrılır, her grupta "),
+                m("4"),
+                t(" sayaç vardır."),
+              ]),
+              ex(
+                "Örnek 3.63",
+                [
+                  t("Zarf ve sayaç modeli 4 eş zarfın toplam 20 sayaca eşit olduğunu gösteriyor. Denklemi yazıp çözün."),
+                ],
+                sol(
+                  "Çözüm: Her zarf x sayaç içerirse model 4x=20 denklemini verir.",
+                  "Her zarfı bulmak için iki tarafı 4'e böleriz: x=5.",
+                  "Kontrol: 4 zarfın her birinde 5 sayaç varsa toplam 20 sayaç olur.",
+                ),
+              ),
+              pt(
+                "Eşitliğin bölme özelliği şunu söyler: Bir denklemin iki tarafını aynı sıfır olmayan sayıya bölersek eşitlik korunur.",
+              ),
+              ex(
+                "Sıra Sizde 3.125",
+                [
+                  t("Dört eş zarf toplam 12 sayacı gösteriyor. Denklemi yazıp çözün."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.126",
+                [
+                  t("Üç eş zarf toplam 6 sayacı gösteriyor. Denklemi yazıp çözün."),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "bolme-ozelligiyle-denklem-cozme",
+        replaceBlocks: [
+          ...removeBlocks(9),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Değişken bir sayı ile çarpılmışsa değişkeni yalnız bırakmak için denklemin iki tarafını o sayıya böleriz. Bölen sıfır olamaz.",
+              ),
+              ex(
+                "Örnek 3.64",
+                [t("Çözün: "), m("7x=-49"), t(".")],
+                sol(
+                  "Çözüm: x, 7 ile çarpılmıştır. İki tarafı 7'ye böleriz.",
+                  "7x/7=-49/7 olduğundan x=-7 bulunur.",
+                  "Kontrol: 7(-7)=-49, çözüm doğrudur.",
+                ),
+              ),
+              ex("Sıra Sizde 3.127", [t("Çözün: "), m("8a=56")]),
+              ex("Sıra Sizde 3.128", [t("Çözün: "), m("11n=121")]),
+              ex(
+                "Örnek 3.65",
+                [t("Çözün: "), m("-3y=63"), t(".")],
+                sol(
+                  "Çözüm: y, -3 ile çarpılmıştır. İki tarafı -3'e böleriz.",
+                  "-3y/(-3)=63/(-3) olduğundan y=-21 olur.",
+                  "Kontrol: -3(-21)=63, bu yüzden çözüm doğrudur.",
+                ),
+              ),
+              ex("Sıra Sizde 3.129", [t("Çözün: "), m("-8p=96")]),
+              ex("Sıra Sizde 3.130", [t("Çözün: "), m("-12m=108")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "denklem-kurup-cozme",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sözel ifadeleri çözerken önce cümledeki ilişkiyi denkleme çeviririz. Sonra uygun ters işlemi kullanarak değişkeni yalnız bırakırız.",
+              ),
+              ex(
+                "Örnek 3.66",
+                [t("Denklem kurup çözün: "), m("x"), t("'ten 5 fazla -3'e eşittir.")],
+                sol(
+                  "Çözüm: “5 fazla” toplama anlatır; denklem x+5=-3 olur.",
+                  "İki taraftan 5 çıkarırız: x=-8.",
+                  "Kontrol: -8+5=-3.",
+                ),
+              ),
+              ex("Sıra Sizde 3.131", [t("Denklem kurup çözün: "), m("x"), t("'ten 7 fazla -2'ye eşittir.")]),
+              ex("Sıra Sizde 3.132", [t("Denklem kurup çözün: "), m("y"), t("'den 11 fazla 2'ye eşittir.")]),
+              ex(
+                "Örnek 3.67",
+                [t("Denklem kurup çözün: "), m("n"), t(" ile 6'nın farkı -10'dur.")],
+                sol(
+                  "Çözüm: “n ile 6'nın farkı” n-6 demektir. Denklem n-6=-10 olur.",
+                  "İki tarafa 6 ekleriz ve n=-4 buluruz.",
+                  "Kontrol: -4-6=-10.",
+                ),
+              ),
+              ex("Sıra Sizde 3.133", [t("Denklem kurup çözün: "), m("p"), t(" ile 2'nin farkı -4'tür.")]),
+              ex("Sıra Sizde 3.134", [t("Denklem kurup çözün: "), m("q"), t(" ile 7'nin farkı -3'tür.")]),
+              ex(
+                "Örnek 3.68",
+                [t("Denklem kurup çözün: 108 sayısı -9 ile "), m("y"), t("'nin çarpımıdır.")],
+                sol(
+                  "Çözüm: Cümle 108=-9y denklemini verir.",
+                  "İki tarafı -9'a böleriz: y=-12.",
+                  "Kontrol: -9(-12)=108.",
+                ),
+              ),
+              ex("Sıra Sizde 3.135", [t("Denklem kurup çözün: 132 sayısı -12 ile "), m("y"), t("'nin çarpımıdır.")]),
+              ex("Sıra Sizde 3.136", [t("Denklem kurup çözün: 117 sayısı -13 ile "), m("z"), t("'nin çarpımıdır.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

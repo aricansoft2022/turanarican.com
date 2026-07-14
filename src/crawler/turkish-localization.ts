@@ -60,6 +60,7 @@ export function localizeExercisePromptForTurkish(
     adaptInsuranceDeductibleExercise(normalizedPrompt) ??
     adaptSalePurchaseExercise(normalizedPrompt) ??
     adaptEnvelopeCounterExercise(normalizedPrompt) ??
+    adaptIntegerEquationExercise(normalizedPrompt) ??
     adaptAlgebraicEquationSentenceExercise(normalizedPrompt) ??
     adaptAlgebraicExpressionWritingExercise(normalizedPrompt) ??
     adaptCarInsuranceExpressionProblem(normalizedPrompt) ??
@@ -243,6 +244,159 @@ export function localizeExercisePromptForTurkish(
     ) ??
     normalizedPrompt
   );
+}
+
+function adaptIntegerEquationExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+  const phraseReplacements: Array<[string, string]> = [
+    [
+      "Four more than n is equal to 1.",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. n'den 4 fazla 1'e eşittir.",
+    ],
+    [
+      "The sum of eight and p is −3.",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. 8 ile p'nin toplamı -3'tür.",
+    ],
+    [
+      "The sum of eight and is .",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. 8 ile p'nin toplamı -3'tür.",
+    ],
+    [
+      "The difference of a and three is −14.",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. a ile 3'ün farkı -14'tür.",
+    ],
+    [
+      "The difference of and three is .",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. a ile 3'ün farkı -14'tür.",
+    ],
+    [
+      "The number −42 is the product of −7 and x.",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -42 sayısı -7 ile x'in çarpımıdır.",
+    ],
+    [
+      "The number −42 is the product of −7 and .",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -42 sayısı -7 ile x'in çarpımıdır.",
+    ],
+    [
+      "The product of -15 and f is 75.",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -15 ile f'nin çarpımı 75'tir.",
+    ],
+    [
+      "−6 plus c is equal to 4.",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -6 ile c'nin toplamı 4'e eşittir.",
+    ],
+    [
+      "Nine less than m is −4.",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. m'den 9 eksik -4'tür.",
+    ],
+    [
+      "Cookie packaging A package of 51 cookies has 3 equal rows of cookies.",
+      "Kurabiye paketleme: 51 kurabiyelik bir pakette 3 eş sıra kurabiye vardır. 3c=51 denklemini çözerek her sıradaki kurabiye sayısını bulun.",
+    ],
+    [
+      "Cookie packaging A package of has equal rows of cookies.",
+      "Kurabiye paketleme: 51 kurabiyelik bir pakette 3 eş sıra kurabiye vardır. 3c=51 denklemini çözerek her sıradaki kurabiye sayısını bulun.",
+    ],
+    [
+      "Is modeling the Division Property of Equality with envelopes and counters helpful",
+      "Eşitliğin bölme özelliğini zarf ve sayaçlarla modellemek 3x=15 denklemini çözmeyi anlamak için yararlı mıdır? Nedenini açıklayın.",
+    ],
+    [
+      "Frida started to solve the equation −3x=36 by adding 3 to both sides.",
+      "Frida -3x=36 denklemini çözmeye iki tarafa 3 ekleyerek başladı. Bu yöntemin denklemi neden çözmeyeceğini açıklayın.",
+    ],
+  ];
+
+  const phraseReplacement = phraseReplacements.find(([source]) =>
+    text.includes(source),
+  )?.[1];
+
+  if (phraseReplacement) {
+    return [
+      { type: "text", value: phraseReplacement },
+    ] satisfies InlineContent[];
+  }
+
+  const regexReplacements: Array<[RegExp, string]> = [
+    [
+      /The sum of eight and .* is .*\./,
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. 8 ile p'nin toplamı -3'tür.",
+    ],
+    [
+      /The difference of .* and three is .*\./,
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. a ile 3'ün farkı -14'tür.",
+    ],
+    [
+      /The number −42 is the product of −7 and .*\./,
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -42 sayısı -7 ile x'in çarpımıdır.",
+    ],
+    [
+      /Cookie packaging A package of .* has .* equal rows of cookies\./,
+      "Kurabiye paketleme: 51 kurabiyelik bir pakette 3 eş sıra kurabiye vardır. 3c=51 denklemini çözerek her sıradaki kurabiye sayısını bulun.",
+    ],
+    [
+      /The sum of eight and\s+is\s+\./,
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. 8 ile p'nin toplamı -3'tür.",
+    ],
+    [
+      /The difference of\s+and three is\s+\./,
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. a ile 3'ün farkı -14'tür.",
+    ],
+    [
+      /The number −42 is the product of −7 and\s+\./,
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -42 sayısı -7 ile x'in çarpımıdır.",
+    ],
+    [
+      /Cookie packaging A package of\s+has\s+equal rows of cookies\./,
+      "Kurabiye paketleme: 51 kurabiyelik bir pakette 3 eş sıra kurabiye vardır. 3c=51 denklemini çözerek her sıradaki kurabiye sayısını bulun.",
+    ],
+  ];
+
+  const regexReplacement = regexReplacements.find(([source]) =>
+    source.test(text),
+  )?.[1];
+
+  if (regexReplacement) {
+    return [{ type: "text", value: regexReplacement }] satisfies InlineContent[];
+  }
+
+  const instructionReplacements: Array<[string, string]> = [
+    [
+      "In the following exercises, determine whether each number is a solution of the given equation.",
+      "Aşağıdaki alıştırmalarda verilen her sayının denklemin çözümü olup olmadığını belirleyin.",
+    ],
+    [
+      "In the following exercises, solve for the unknown.",
+      "Aşağıdaki alıştırmalarda bilinmeyeni bulun.",
+    ],
+    [
+      "In the following exercises, solve each equation using the division property of equality and check the solution.",
+      "Aşağıdaki alıştırmalarda her denklemi eşitliğin bölme özelliğini kullanarak çözün ve çözümü kontrol edin.",
+    ],
+    [
+      "In the following exercises, translate and solve.",
+      "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün.",
+    ],
+  ];
+
+  const first = prompt[0];
+  if (first?.type === "text") {
+    const replacement = instructionReplacements.find(([source]) =>
+      first.value.startsWith(source),
+    );
+
+    if (replacement) {
+      const [source, target] = replacement;
+      return [
+        { ...first, value: first.value.replace(source, target) },
+        ...prompt.slice(1),
+      ] satisfies InlineContent[];
+    }
+  }
+
+  return null;
 }
 
 function adaptIntegerOrderingExercise(

@@ -125,6 +125,7 @@ export async function fetchSeedLessonContent({
     objectives: seedConfig.objectives,
     sectionTitles: seedConfig.sectionTitles,
     tryItSolutions: seedConfig.tryItSolutions,
+    exercisePrompts: seedConfig.exercisePrompts,
     exerciseAnswers: seedConfig.exerciseAnswers,
     exerciseSectionSlugs: seedConfig.exerciseSectionSlugs,
     editorialPatches: getEditorialLessonPatches({

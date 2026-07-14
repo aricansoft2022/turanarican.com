@@ -28,6 +28,7 @@ type LessonBuildInput = {
   objectives?: string[];
   sectionTitles?: Record<string, string>;
   tryItSolutions?: Record<string, ContentBlock[]>;
+  exercisePrompts?: Record<string, InlineContent[]>;
   exerciseAnswers?: Record<string, InlineContent[]>;
   exerciseSectionSlugs?: Record<string, string>;
   editorialPatches?: EditorialSectionPatch[];
@@ -41,6 +42,7 @@ export function buildLessonFromParsedContent({
   objectives,
   sectionTitles = {},
   tryItSolutions = {},
+  exercisePrompts = {},
   exerciseAnswers = {},
   exerciseSectionSlugs = {},
   editorialPatches = [],
@@ -62,6 +64,7 @@ export function buildLessonFromParsedContent({
     ),
     exercises: buildAnsweredExercises(
       parsedLesson,
+      exercisePrompts,
       exerciseAnswers,
       exerciseSectionSlugs,
     ),
@@ -133,6 +136,7 @@ function buildLessonSection(
 
 function buildAnsweredExercises(
   parsedLesson: ParsedLessonContent,
+  exercisePrompts: Record<string, InlineContent[]>,
   exerciseAnswers: Record<string, InlineContent[]>,
   exerciseSectionSlugs: Record<string, string>,
 ): Exercise[] {
@@ -142,7 +146,9 @@ function buildAnsweredExercises(
       id: `exercise-${exercise.number}`,
       number: exercise.number,
       sectionSlug: exerciseSectionSlugs[exercise.number] ?? "",
-      prompt: localizeExercisePromptForTurkish(exercise.prompt),
+      prompt:
+        exercisePrompts[exercise.number] ??
+        localizeExercisePromptForTurkish(exercise.prompt),
       answer: exerciseAnswers[exercise.number],
       sortOrder: Number(exercise.number.replace(/\D+$/g, "")),
     }));

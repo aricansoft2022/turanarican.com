@@ -206,6 +206,27 @@
         "sortOrder": 5,
         "status": "draft",
         "rawHash": "c839107ada00ecd4e8afcf839c39e24fc490b2dd801285e62b4064aabdcb8866"
+      },
+      {
+        "id": "lesson-integer-equations",
+        "chapterId": "chapter-integers",
+        "slug": "tam-sayilarla-denklem-cozme",
+        "sourceNumber": "3.6",
+        "displayNumber": "3.5",
+        "sourceTitle": "Solve Equations Using Integers; The Division Property of Equality",
+        "displayTitle": "Tam Sayılarla Denklem Çözme",
+        "summary": "Tam sayılarla denklemlerde çözüm kontrolü yapın, eşitliğin toplama, çıkarma ve bölme özellikleriyle denklem çözün.",
+        "objectivesJson": [
+          "Bir tam sayının denklemin çözümü olup olmadığını belirleyebileceksiniz.",
+          "Eşitliğin toplama ve çıkarma özelliklerini kullanarak tam sayılı denklemleri çözebileceksiniz.",
+          "Eşitliğin bölme özelliğini modelleyebileceksiniz.",
+          "Eşitliğin bölme özelliğini kullanarak denklemleri çözebileceksiniz.",
+          "Sözel ifadeleri denkleme çevirip çözebileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality",
+        "sortOrder": 6,
+        "status": "draft",
+        "rawHash": "79f536d688043ee04f8985f51693c191733daa136d6d5d17ae8721d09808eb4a"
       }
     ],
     "lessonSections": [
@@ -17192,6 +17213,1115 @@
             ]
           }
         ]
+      },
+      {
+        "id": "tam-sayilarla-denklem-cozme-section-01",
+        "lessonId": "lesson-integer-equations",
+        "heading": "Denklemin Çözümünü Kontrol Etme",
+        "slug": "denklemin-cozumunu-kontrol-etme",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir denklemin çözümü, değişken yerine yazıldığında denklemi doğru yapan değerdir. Tam sayılarla çalışırken de kontrol yöntemi değişmez: değeri yerine yazar, iki tarafın eşit olup olmadığına bakarız."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir aday değer denklemi doğru yapıyorsa çözümdür; doğru yapmıyorsa çözüm değildir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.60",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki değerlerin "
+              },
+              {
+                "type": "math",
+                "value": "2x-5=-13"
+              },
+              {
+                "type": "text",
+                "value": " denkleminin çözümü olup olmadığını belirleyin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=4"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=-4"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "x=-9"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her değeri x yerine yazarız. ⓐ x=4 için 2·4-5=3 olur; -13'e eşit değildir, çözüm değildir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓑ x=-4 için 2(-4)-5=-8-5=-13 olur; denklem doğru olduğundan x=-4 çözümdür."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓒ x=-9 için 2(-9)-5=-23 olur; -13'e eşit değildir, çözüm değildir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.119",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "2x-8=-14"
+              },
+              {
+                "type": "text",
+                "value": " için ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=-11"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=11"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "x=-3"
+              },
+              {
+                "type": "text",
+                "value": " değerlerini kontrol edin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Verilen değerleri denklemde deneriz. x=-11 için 2(-11)-8=-30, x=11 için 14, x=-3 için -14 olur. Yalnız x=-3 denklemi doğru yapar."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.120",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "2y+3=-11"
+              },
+              {
+                "type": "text",
+                "value": " için ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "y=4"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "y=-4"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "y=-7"
+              },
+              {
+                "type": "text",
+                "value": " değerlerini kontrol edin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y=4 için 2y+3=11, y=-4 için -5, y=-7 için -11 olur. Sağ taraf -11 olduğundan çözüm y=-7'dir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tam-sayilarla-denklem-cozme-section-02",
+        "lessonId": "lesson-integer-equations",
+        "heading": "Toplama ve Çıkarma Özellikleriyle Denklem Çözme",
+        "slug": "toplama-ve-cikarma-ozellikleriyle-denklem-cozme",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir denklemin iki tarafına aynı sayıyı ekler ya da iki tarafından aynı sayıyı çıkarırsak eşitlik bozulmaz. Bu özellik, değişkeni yalnız bırakmak için kullanılır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Denklem çözerken amaç, değişkenin yanındaki toplama veya çıkarma işlemini ters işlemle kaldırmaktır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.61",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+9=5"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y'nin yanında +9 vardır. Bunu kaldırmak için iki taraftan 9 çıkarırız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "y+9-9=5-9 olduğundan y=-4 bulunur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kontrol: -4+9=5, bu yüzden çözüm doğrudur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.121",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+11=7"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y+11=7 denkleminde 11'i yok etmek için iki taraftan 11 çıkarırız: y=7-11=-4."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.122",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+15=-4"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y+15=-4 olduğundan iki taraftan 15 çıkarırız. y=-4-15=-19 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.62",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "a-6=-8"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: a'nın yanında -6 vardır. İki tarafa 6 ekleriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "a-6+6=-8+6 olduğundan a=-2 olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kontrol: -2-6=-8, bu yüzden çözüm doğrudur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.123",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "a-2=-8"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: a-2=-8 denkleminde iki tarafa 2 eklenir. a=-8+2=-6 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.124",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "n-4=-8"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: n-4=-8 denkleminde değişkeni yalnız bırakmak için iki tarafa 4 ekleriz. n=-4 bulunur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tam-sayilarla-denklem-cozme-section-03",
+        "lessonId": "lesson-integer-equations",
+        "heading": "Eşitliğin Bölme Özelliğini Modelleme",
+        "slug": "esitligin-bolme-ozelligini-modelleme",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Şimdi değişkenin bir sayı ile çarpıldığı denklemlere geçiyoruz. Bu tür denklemlerde zarf ve sayaç modeli, toplamın eş gruplara ayrıldığını gösterir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin iki eş zarfın toplamı 6 sayaçsa her zarf aynı sayıda sayaç içerir. Bu durum 2x=6 denklemiyle gösterilir ve 6 sayaç 2 eş gruba ayrıldığı için x=3 olur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Aynı düşünce "
+              },
+              {
+                "type": "math",
+                "value": "3x=12"
+              },
+              {
+                "type": "text",
+                "value": " için de geçerlidir: 12 sayaç 3 eş gruba ayrılır, her grupta "
+              },
+              {
+                "type": "math",
+                "value": "4"
+              },
+              {
+                "type": "text",
+                "value": " sayaç vardır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.63",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Zarf ve sayaç modeli 4 eş zarfın toplam 20 sayaca eşit olduğunu gösteriyor. Denklemi yazıp çözün."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her zarf x sayaç içerirse model 4x=20 denklemini verir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Her zarfı bulmak için iki tarafı 4'e böleriz: x=5."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kontrol: 4 zarfın her birinde 5 sayaç varsa toplam 20 sayaç olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Eşitliğin bölme özelliği şunu söyler: Bir denklemin iki tarafını aynı sıfır olmayan sayıya bölersek eşitlik korunur."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.125",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dört eş zarf toplam 12 sayacı gösteriyor. Denklemi yazıp çözün."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Dört eş zarf toplam 12 sayacı gösterir, bu yüzden denklem 4x=12'dir. İki tarafı 4'e bölersek x=3 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.126",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Üç eş zarf toplam 6 sayacı gösteriyor. Denklemi yazıp çözün."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Üç eş zarf toplam 6 sayacı gösterir. 3x=6 yazılır ve iki taraf 3'e bölünür; her zarfta x=2 sayaç vardır."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tam-sayilarla-denklem-cozme-section-04",
+        "lessonId": "lesson-integer-equations",
+        "heading": "Bölme Özelliğiyle Denklem Çözme",
+        "slug": "bolme-ozelligiyle-denklem-cozme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Değişken bir sayı ile çarpılmışsa değişkeni yalnız bırakmak için denklemin iki tarafını o sayıya böleriz. Bölen sıfır olamaz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.64",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "7x=-49"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x, 7 ile çarpılmıştır. İki tarafı 7'ye böleriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "7x/7=-49/7 olduğundan x=-7 bulunur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kontrol: 7(-7)=-49, çözüm doğrudur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.127",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "8a=56"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8a=56 denkleminde iki tarafı 8'e böleriz. a=7 olur; kontrol: 8·7=56."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.128",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "11n=121"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 11n=121 olduğundan iki tarafı 11'e böleriz. n=11 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.65",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-3y=63"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y, -3 ile çarpılmıştır. İki tarafı -3'e böleriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "-3y/(-3)=63/(-3) olduğundan y=-21 olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kontrol: -3(-21)=63, bu yüzden çözüm doğrudur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.129",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-8p=96"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -8p=96 denkleminde iki tarafı -8'e böleriz. p=-12 olur; çünkü -8·(-12)=96."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.130",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-12m=108"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -12m=108 olduğundan iki taraf -12'ye bölünür. m=-9 bulunur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tam-sayilarla-denklem-cozme-section-05",
+        "lessonId": "lesson-integer-equations",
+        "heading": "Denklem Kurup Çözme",
+        "slug": "denklem-kurup-cozme",
+        "level": 2,
+        "sortOrder": 5,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Sözel ifadeleri çözerken önce cümledeki ilişkiyi denkleme çeviririz. Sonra uygun ters işlemi kullanarak değişkeni yalnız bırakırız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.66",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: "
+              },
+              {
+                "type": "math",
+                "value": "x"
+              },
+              {
+                "type": "text",
+                "value": "'ten 5 fazla -3'e eşittir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “5 fazla” toplama anlatır; denklem x+5=-3 olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İki taraftan 5 çıkarırız: x=-8."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kontrol: -8+5=-3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.131",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: "
+              },
+              {
+                "type": "math",
+                "value": "x"
+              },
+              {
+                "type": "text",
+                "value": "'ten 7 fazla -2'ye eşittir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “x'ten 7 fazla -2'ye eşittir” cümlesi x+7=-2 olur. İki taraftan 7 çıkarınca x=-9 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.132",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y"
+              },
+              {
+                "type": "text",
+                "value": "'den 11 fazla 2'ye eşittir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “y'den 11 fazla 2'ye eşittir” ifadesi y+11=2 denklemini verir. y=2-11=-9 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.67",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: "
+              },
+              {
+                "type": "math",
+                "value": "n"
+              },
+              {
+                "type": "text",
+                "value": " ile 6'nın farkı -10'dur."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “n ile 6'nın farkı” n-6 demektir. Denklem n-6=-10 olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İki tarafa 6 ekleriz ve n=-4 buluruz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kontrol: -4-6=-10."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.133",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: "
+              },
+              {
+                "type": "math",
+                "value": "p"
+              },
+              {
+                "type": "text",
+                "value": " ile 2'nin farkı -4'tür."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “p ile 2'nin farkı -4'tür” cümlesi p-2=-4 olur. İki tarafa 2 ekleyince p=-2 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.134",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: "
+              },
+              {
+                "type": "math",
+                "value": "q"
+              },
+              {
+                "type": "text",
+                "value": " ile 7'nin farkı -3'tür."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: q ile 7'nin farkı -3 ise q-7=-3 yazılır. İki tarafa 7 eklenir ve q=4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.68",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: 108 sayısı -9 ile "
+              },
+              {
+                "type": "math",
+                "value": "y"
+              },
+              {
+                "type": "text",
+                "value": "'nin çarpımıdır."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Cümle 108=-9y denklemini verir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İki tarafı -9'a böleriz: y=-12."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kontrol: -9(-12)=108."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.135",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: 132 sayısı -12 ile "
+              },
+              {
+                "type": "math",
+                "value": "y"
+              },
+              {
+                "type": "text",
+                "value": "'nin çarpımıdır."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 132 sayısı -12 ile y'nin çarpımıdır: 132=-12y. İki tarafı -12'ye böleriz; y=-11."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.136",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklem kurup çözün: 117 sayısı -13 ile "
+              },
+              {
+                "type": "math",
+                "value": "z"
+              },
+              {
+                "type": "text",
+                "value": "'nin çarpımıdır."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 117=-13z yazılır. İki taraf -13'e bölününce z=-9 bulunur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -25185,6 +26315,960 @@
         "sortOrder": 283,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-285",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-01",
+        "number": "285",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen her sayının denklemin çözümü olup olmadığını belirleyin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "4x-2=6"
+          },
+          {
+            "type": "text",
+            "value": "  ⓐ"
+          },
+          {
+            "type": "math",
+            "value": "x=−2"
+          },
+          {
+            "type": "text",
+            "value": " ⓑ"
+          },
+          {
+            "type": "math",
+            "value": "x=−1"
+          },
+          {
+            "type": "text",
+            "value": " ⓒ"
+          },
+          {
+            "type": "math",
+            "value": "x=2"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Değerleri yerine yazarız. x=-2 için 4(-2)-2=-10, x=-1 için -6, x=2 için 6 olur. Denklemi yalnız x=2 sağlar."
+          }
+        ],
+        "sortOrder": 285,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-287",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-01",
+        "number": "287",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "9a+27=−63"
+          },
+          {
+            "type": "text",
+            "value": "  ⓐ"
+          },
+          {
+            "type": "math",
+            "value": "a=6"
+          },
+          {
+            "type": "text",
+            "value": " ⓑ"
+          },
+          {
+            "type": "math",
+            "value": "a=−6"
+          },
+          {
+            "type": "text",
+            "value": " ⓒ"
+          },
+          {
+            "type": "math",
+            "value": "a=−10"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: a=6 için 9a+27=81, a=-6 için -27, a=-10 için -63 olur. Sağ taraf -63 olduğundan çözüm a=-10'dur."
+          }
+        ],
+        "sortOrder": 287,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-289",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-02",
+        "number": "289",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bilinmeyeni bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "n+12=5"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: n+12=5 denkleminde iki taraftan 12 çıkarırız. n=5-12=-7 bulunur."
+          }
+        ],
+        "sortOrder": 289,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-291",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-02",
+        "number": "291",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bilinmeyeni bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "p+9=−8"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: p+9=-8 olduğundan iki taraftan 9 çıkarılır. p=-8-9=-17 olur."
+          }
+        ],
+        "sortOrder": 291,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-293",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-02",
+        "number": "293",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bilinmeyeni bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "u-3=−7"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: u-3=-7 denkleminde iki tarafa 3 ekleriz. u=-7+3=-4 bulunur."
+          }
+        ],
+        "sortOrder": 293,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-295",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-02",
+        "number": "295",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bilinmeyeni bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "h-10=−4"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: h-10=-4 olduğundan iki tarafa 10 eklenir. h=6 olur; kontrol: 6-10=-4."
+          }
+        ],
+        "sortOrder": 295,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-297",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-02",
+        "number": "297",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bilinmeyeni bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "x+(−2)=−18"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x+(-2)=-18, yani x-2=-18'dir. İki tarafa 2 ekleyince x=-16 bulunur."
+          }
+        ],
+        "sortOrder": 297,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-299",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-02",
+        "number": "299",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bilinmeyeni bulun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "r-(−5)=−9"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: r-(-5)=r+5 olduğundan denklem r+5=-9 olur. İki taraftan 5 çıkarılır ve r=-14 bulunur."
+          }
+        ],
+        "sortOrder": 299,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-301",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-03",
+        "number": "301",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Zarf ve sayaç modelinde 3 eş zarf toplam 6 sayacı gösteriyor. Modelin denklemini yazın ve çözün."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Model 3 eş zarfın toplam 6 sayaca eşit olduğunu gösterir. Denklem 3x=6'dır; iki taraf 3'e bölününce x=2 olur."
+          }
+        ],
+        "sortOrder": 301,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-303",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-03",
+        "number": "303",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Zarf ve sayaç modelinde 2 eş zarf toplam 8 sayacı gösteriyor. Modelin denklemini yazın ve çözün."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Model 2 eş zarfın toplam 8 sayaca eşit olduğunu gösterir. Denklem 2x=8'dir; iki taraf 2'ye bölününce x=4 olur."
+          }
+        ],
+        "sortOrder": 303,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-305",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-04",
+        "number": "305",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin bölme özelliğini kullanarak çözün ve çözümü kontrol edin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "5x=45"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5x=45 denkleminde iki tarafı 5'e böleriz. x=9 olur; kontrol: 5·9=45."
+          }
+        ],
+        "sortOrder": 305,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-307",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-04",
+        "number": "307",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin bölme özelliğini kullanarak çözün ve çözümü kontrol edin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−7c=56"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -7c=56 olduğundan iki taraf -7'ye bölünür. c=-8 bulunur; çünkü -7·(-8)=56."
+          }
+        ],
+        "sortOrder": 307,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-309",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-04",
+        "number": "309",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin bölme özelliğini kullanarak çözün ve çözümü kontrol edin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−14p=−42"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -14p=-42 denkleminde iki tarafı -14'e böleriz. p=3 olur."
+          }
+        ],
+        "sortOrder": 309,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-311",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-04",
+        "number": "311",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin bölme özelliğini kullanarak çözün ve çözümü kontrol edin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−120=10q"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -120=10q denkleminde iki taraf 10'a bölünür. q=-12 bulunur."
+          }
+        ],
+        "sortOrder": 311,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-313",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-04",
+        "number": "313",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin bölme özelliğini kullanarak çözün ve çözümü kontrol edin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "24x=480"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 24x=480 olduğundan iki tarafı 24'e böleriz. x=20 olur."
+          }
+        ],
+        "sortOrder": 313,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-315",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-04",
+        "number": "315",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her denklemi eşitliğin bölme özelliğini kullanarak çözün ve çözümü kontrol edin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−3z=0"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -3z=0 denkleminde iki taraf -3'e bölünür. z=0 bulunur; sıfırın herhangi sıfır olmayan sayıya bölümü yine sıfırdır."
+          }
+        ],
+        "sortOrder": 315,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-317",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "317",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. n'den 4 fazla 1'e eşittir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: “n'den 4 fazla 1'e eşittir” cümlesi n+4=1 olur. İki taraftan 4 çıkarınca n=-3 bulunur."
+          }
+        ],
+        "sortOrder": 317,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-319",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "319",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. 8 ile p'nin toplamı -3'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 8 ile p'nin toplamı -3 ise 8+p=-3 yazılır. İki taraftan 8 çıkarılır ve p=-11 olur."
+          }
+        ],
+        "sortOrder": 319,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-321",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "321",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. a ile 3'ün farkı -14'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: a ile 3'ün farkı -14 ise a-3=-14'tür. İki tarafa 3 eklenir ve a=-11 bulunur."
+          }
+        ],
+        "sortOrder": 321,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-323",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "323",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -42 sayısı -7 ile x'in çarpımıdır."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -42 sayısı -7 ile x'in çarpımıdır: -42=-7x. İki taraf -7'ye bölünür; x=6 olur."
+          }
+        ],
+        "sortOrder": 323,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-325",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "325",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -15 ile f'nin çarpımı 75'tir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -15 ile f'nin çarpımı 75 ise -15f=75 yazılır. İki taraf -15'e bölününce f=-5 bulunur."
+          }
+        ],
+        "sortOrder": 325,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-327",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "327",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. -6 ile c'nin toplamı 4'e eşittir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -6+c=4 denkleminde iki tarafa 6 ekleriz. c=10 olur."
+          }
+        ],
+        "sortOrder": 327,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-329",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "329",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denkleme çevirin ve çözün. m'den 9 eksik -4'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: m'den 9 eksik -4 ise m-9=-4 yazılır. İki tarafa 9 eklenir ve m=5 bulunur."
+          }
+        ],
+        "sortOrder": 329,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-331",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "331",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda çözün."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "text",
+            "value": "ⓐ"
+          },
+          {
+            "type": "math",
+            "value": "x+2=10"
+          },
+          {
+            "type": "text",
+            "value": " ⓑ"
+          },
+          {
+            "type": "math",
+            "value": "2x=10"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ x+2=10 için iki taraftan 2 çıkarılır, x=8. ⓑ 2x=10 için iki taraf 2'ye bölünür, x=5."
+          }
+        ],
+        "sortOrder": 331,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-333",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "333",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda çözün."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "text",
+            "value": "ⓐ"
+          },
+          {
+            "type": "math",
+            "value": "−3p=27"
+          },
+          {
+            "type": "text",
+            "value": " ⓑ"
+          },
+          {
+            "type": "math",
+            "value": "p-3=27"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ -3p=27 denkleminde iki taraf -3'e bölünür, p=-9. ⓑ p-3=27 denkleminde iki tarafa 3 eklenir, p=30."
+          }
+        ],
+        "sortOrder": 333,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-335",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "335",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda çözün."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "a-4=16"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: a-4=16 denkleminde iki tarafa 4 ekleriz. a=20 olur."
+          }
+        ],
+        "sortOrder": 335,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-337",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "337",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda çözün."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−8m=−56"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -8m=-56 denkleminde iki taraf -8'e bölünür. m=7 bulunur."
+          }
+        ],
+        "sortOrder": 337,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-339",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "339",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda çözün."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−39=u+13"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -39=u+13 denkleminde iki taraftan 13 çıkarırız. u=-52 olur."
+          }
+        ],
+        "sortOrder": 339,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-341",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "341",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda çözün."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "11r=−99"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 11r=-99 olduğundan iki tarafı 11'e böleriz. r=-9 bulunur."
+          }
+        ],
+        "sortOrder": 341,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-343",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "343",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda çözün."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "100=20d"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 100=20d denkleminde iki taraf 20'ye bölünür. d=5 olur."
+          }
+        ],
+        "sortOrder": 343,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-345",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "345",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda çözün."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−49=x-7"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -49=x-7 denkleminde iki tarafa 7 eklenir. x=-42 bulunur."
+          }
+        ],
+        "sortOrder": 345,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-347",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "347",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kurabiye paketleme: 51 kurabiyelik bir pakette 3 eş sıra kurabiye vardır. 3c=51 denklemini çözerek her sıradaki kurabiye sayısını bulun."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 51 kurabiye 3 eş sıraya ayrılmıştır. 3c=51 denklemini kurarız; iki tarafı 3'e bölersek c=17 kurabiye bulunur."
+          }
+        ],
+        "sortOrder": 347,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-349",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "349",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Eşitliğin bölme özelliğini zarf ve sayaçlarla modellemek 3x=15 denklemini çözmeyi anlamak için yararlı mıdır? Nedenini açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Evet, zarf ve sayaç modeli 3x=15 denkleminde 15 sayacın 3 eş gruba ayrıldığını gösterir. Böylece her zarfta 5 sayaç olduğu, yani x=5 olduğu görülür."
+          }
+        ],
+        "sortOrder": 349,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-integer-equations-exercise-351",
+        "lessonId": "lesson-integer-equations",
+        "sectionId": "tam-sayilarla-denklem-cozme-section-05",
+        "number": "351",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Frida -3x=36 denklemini çözmeye iki tarafa 3 ekleyerek başladı. Bu yöntemin denklemi neden çözmeyeceğini açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -3x=36 denkleminde x, -3 ile çarpılmıştır. Çarpmayı tersine çevirmek için toplama değil bölme yapılmalıdır; iki taraf -3'e bölünür ve x=-12 bulunur."
+          }
+        ],
+        "sortOrder": 351,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -25249,6 +27333,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers",
         "httpStatus": 200,
         "contentHash": "c839107ada00ecd4e8afcf839c39e24fc490b2dd801285e62b4064aabdcb8866",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality",
+        "httpStatus": 200,
+        "contentHash": "79f536d688043ee04f8985f51693c191733daa136d6d5d17ae8721d09808eb4a",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -28176,6 +30268,356 @@
         "caption": "The word quotient tells us to divide.",
         "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/63a95fa6a1c0c6ec.json",
         "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/63a95fa6a1c0c6ec.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-014-3b31031107f3705b",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104903/bd61cdcbb64d00a6c5a5389694ab2c71496cf3fe?revision=1",
+        "assetType": "image",
+        "altText": "This figure has two columns. The first column has the equation x plus 4 equals 12. Underneath there is x plus 4 minus 4 equals 12 minus 4. Under this there is x equals 8. The second column has the equation y minus 5 equals 9. Underneath there is the equation y minus 5 plus 5 equals 9 plus 5. Under this there is y equals 14.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/014-3b31031107f3705b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/014-3b31031107f3705b.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-024-454b9d3d8e9fe5c0",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104923/fba74a4f5d85a97b30fce11acda518d8756b0093?revision=1",
+        "assetType": "figure",
+        "altText": "This image has two columns. In the first column are two identical envelopes. In the second column there are six blue circles, randomly placed.",
+        "caption": "Figure 3.21",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/024-454b9d3d8e9fe5c0.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/024-454b9d3d8e9fe5c0.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-026-0d2d7de6c2c54729",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104925/abebbaba27002183d1f075d59a599f2072fb163a?revision=1",
+        "assetType": "figure",
+        "altText": "This image has two columns. In the first column are two identical envelopes. In the second column there are six blue circles, randomly placed. Under the figure is two times x equals 6.",
+        "caption": "Figure 3.22",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/026-0d2d7de6c2c54729.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/026-0d2d7de6c2c54729.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-028-b35eacf011798f25",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104924/31601ba212cb26871eb6a0877921bacc8de54644?revision=1",
+        "assetType": "image",
+        "altText": "This figure has two rows. The first row has the equation 2x divided by 2 equals 6 divided by 2. The second row has the equation x equals 3.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/028-b35eacf011798f25.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/028-b35eacf011798f25.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-029-f917227dc4375365",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104926/32f0286491ce4d3c93d4da426e3c99ea541e8458?revision=1",
+        "assetType": "figure",
+        "altText": "This image has two columns. In the first column are three envelopes. In the second column there are four rows of three blue circles. Underneath the image is the equation 3x equals 12.",
+        "caption": "Figure 3.23",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/029-f917227dc4375365.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/029-f917227dc4375365.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-031-515b59e9bcc5804a",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104928/0eeed57f8ca1ff593ee0662b0ee36cbf4ece2f1f?revision=1",
+        "assetType": "figure",
+        "altText": "This image has two columns. In the first column are four envelopes. In the second column there are twelve blue circles.",
+        "caption": "Figure 3.24",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/031-515b59e9bcc5804a.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/031-515b59e9bcc5804a.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-033-a89437e36dc4c6de",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104927/76d8248173788077115a6d5c8db983a12e3c834e?revision=1",
+        "assetType": "image",
+        "altText": "This image shows the equation 3x divided by 3 equals 12 divided by 3. Below this equation is the equation x equals 4.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/033-a89437e36dc4c6de.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/033-a89437e36dc4c6de.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-034-8a17d2d7be8d5229",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104929/839d65626464d20fb5ad091dd91abefc8c46bfa8?revision=1",
+        "assetType": "image",
+        "altText": "This image has two columns. In the first column are four envelopes. In the second column there are 8 blue circles.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/034-8a17d2d7be8d5229.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/034-8a17d2d7be8d5229.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-038-f3a975c3205a456a",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104931/3769a0d37c69d1864c74552c4c77769d4ba2fad6?revision=1",
+        "assetType": "image",
+        "altText": "This image has two columns. In the first column are four envelopes. In the second column there are 12 blue circles.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/038-f3a975c3205a456a.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/038-f3a975c3205a456a.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-039-ba5f237eb4e7c0ab",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104934/99e8e697aca5ac7bdd817b617e24f86c0f85d6cb?revision=1",
+        "assetType": "image",
+        "altText": "This image has two columns. In the first column are three envelopes. In the second column there are six blue circles.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/039-ba5f237eb4e7c0ab.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/039-ba5f237eb4e7c0ab.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-dc42ccf652301d5b",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/dc42ccf652301d5b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/dc42ccf652301d5b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-8272e44abbb812dd",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Since x=4x=4 does not result in a true equation, 44 is not a solution to the equation.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/8272e44abbb812dd.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/8272e44abbb812dd.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-e078d2599ef91ee6",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Since x=−4x=−4 results in a true equation, −4−4 is a solution to the equation.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/e078d2599ef91ee6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/e078d2599ef91ee6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-d3c1a7c3f73777a6",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/d3c1a7c3f73777a6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/d3c1a7c3f73777a6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-3377ae3b81317930",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/3377ae3b81317930.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/3377ae3b81317930.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-22287f973d29b916",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Check the result by substituting −4−4 into the original equation.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/22287f973d29b916.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/22287f973d29b916.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-6eeda53b6fd4043f",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/6eeda53b6fd4043f.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/6eeda53b6fd4043f.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-53b1a5daefd1b449",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": "There are 4 envelopes,4 envelopes, or 44 unknown values, on the left that match the 8 counters8 counters on the right. Let’s call the unknown quantity in the envelopes x.x.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/53b1a5daefd1b449.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/53b1a5daefd1b449.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-74e61f4bdb4a9d22",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": "To isolate x,x, we need to undo multiplication.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/74e61f4bdb4a9d22.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/74e61f4bdb4a9d22.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-9c4e73895e498038",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Check the solution.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/9c4e73895e498038.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/9c4e73895e498038.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-797d4b8d3242ef51",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": "To isolate y,y, we need to undo the multiplication.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/797d4b8d3242ef51.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/797d4b8d3242ef51.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-5ad6631c9e3d2796",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Check the solution.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/5ad6631c9e3d2796.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/5ad6631c9e3d2796.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-44bfed99d4ba8c1b",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/44bfed99d4ba8c1b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/44bfed99d4ba8c1b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-717cf0b211d1e32a",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/717cf0b211d1e32a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/717cf0b211d1e32a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-integer-equations-asset-b5884d48b3e53ad1",
+        "lessonId": "lesson-integer-equations",
+        "sourceSnapshotId": "snapshot-79f536d688043ee0",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/b5884d48b3e53ad1.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/b5884d48b3e53ad1.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"
