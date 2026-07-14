@@ -3,8 +3,9 @@ import { fetchPlannedLessonContent } from "@/src/crawler/seed-lesson";
 import type { ParsedLessonBlock } from "@/src/crawler/lesson-content";
 
 async function main() {
-  const sourceBookSlug = process.argv[2] ?? "prealgebra-2e-openstax";
-  const sourceNumber = process.argv[3] ?? "2.6";
+  const { includeDraft, positionalArgs } = parseArgs(process.argv.slice(2));
+  const sourceBookSlug = positionalArgs[0] ?? "prealgebra-2e-openstax";
+  const sourceNumber = positionalArgs[1] ?? "2.6";
   const { plannedLesson, parsedLesson } = await fetchPlannedLessonContent({
     sourceBookSlug,
     sourceNumber,
@@ -53,11 +54,130 @@ async function main() {
           treatment: asset.preferredTreatment,
           label: truncate(asset.caption ?? asset.altText ?? "", 160),
         })),
+        seedConfigDraft: includeDraft
+          ? buildSeedConfigDraft({
+              sourceBookSlug,
+              plannedLesson,
+              parsedLesson,
+            })
+          : undefined,
       },
       null,
       2,
     ),
   );
+}
+
+function parseArgs(args: string[]) {
+  return {
+    includeDraft: args.includes("--draft"),
+    positionalArgs: args.filter((arg) => !arg.startsWith("--")),
+  };
+}
+
+function buildSeedConfigDraft({
+  sourceBookSlug,
+  plannedLesson,
+  parsedLesson,
+}: {
+  sourceBookSlug: string;
+  plannedLesson: Awaited<
+    ReturnType<typeof fetchPlannedLessonContent>
+  >["plannedLesson"];
+  parsedLesson: Awaited<
+    ReturnType<typeof fetchPlannedLessonContent>
+  >["parsedLesson"];
+}) {
+  return {
+    sourceBookSlug,
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "cebir-diline-giris",
+    sourceNumber: plannedLesson.sourceNumber,
+    catalogLesson: {
+      id: "lesson-todo",
+      slug: "todo",
+      displayTitle: "TODO",
+      summary: "TODO",
+      sortOrder: Number(plannedLesson.sourceNumber.split(".").at(-1)),
+    },
+    objectives: parsedLesson.objectives.map((objective) => `TODO: ${objective}`),
+    sectionTitles: Object.fromEntries(
+      parsedLesson.sections.map((section) => [section.heading, "TODO"]),
+    ),
+    suggestedExerciseSectionSlugs: Object.fromEntries(
+      collectExerciseCandidates(parsedLesson).map((candidate) => [
+        candidate.number,
+        candidate.sourceSectionSlug,
+      ]),
+    ),
+    suggestedExerciseAnswerKeys: collectExerciseCandidates(parsedLesson).map(
+      (candidate) => candidate.number,
+    ),
+  };
+}
+
+function collectExerciseCandidates(
+  parsedLesson: Awaited<
+    ReturnType<typeof fetchPlannedLessonContent>
+  >["parsedLesson"],
+) {
+  let currentSectionSlug = parsedLesson.sections[0]?.slug ?? "";
+
+  return parsedLesson.exercises.map((exercise) => {
+    currentSectionSlug =
+      inferExerciseSectionSlug(exercise.promptText, parsedLesson.sections) ??
+      currentSectionSlug;
+
+    return {
+      number: exercise.number,
+      sourceSectionSlug: currentSectionSlug,
+      prompt: truncate(exercise.promptText, 120),
+    };
+  });
+}
+
+function inferExerciseSectionSlug(
+  prompt: string,
+  sections: Array<{ slug: string }>,
+) {
+  const promptLower = prompt.toLowerCase();
+  const wantedSlug =
+    findPrimeFactorizationExerciseSlug(promptLower) ??
+    findLeastCommonMultipleExerciseSlug(promptLower);
+
+  if (!wantedSlug) return undefined;
+
+  return sections.find((section) => section.slug === wantedSlug)?.slug;
+}
+
+function findPrimeFactorizationExerciseSlug(promptLower: string) {
+  if (!promptLower.includes("prime factorization")) return undefined;
+  if (promptLower.includes("factor tree")) {
+    return "prime-factorization-using-the-factor-tree-method";
+  }
+  if (promptLower.includes("ladder")) {
+    return "prime-factorization-using-the-ladder-method";
+  }
+
+  return "find-the-prime-factorization-of-a-composite-number";
+}
+
+function findLeastCommonMultipleExerciseSlug(promptLower: string) {
+  if (
+    !promptLower.includes("least common multiple") &&
+    !promptLower.includes("lcm")
+  ) {
+    return undefined;
+  }
+
+  if (promptLower.includes("listing multiples")) {
+    return "listing-multiples-method";
+  }
+  if (promptLower.includes("prime factors method")) {
+    return "prime-factors-method";
+  }
+
+  return "find-the-least-common-multiple-lcm-of-two-numbers";
 }
 
 function summarizeBlockTypes(blocks: ParsedLessonBlock[]) {
