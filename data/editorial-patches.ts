@@ -6548,6 +6548,466 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "3.3",
+    sections: [
+      {
+        sectionSlug: "tam-sayilarla-toplamayi-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(29),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Pozitif ve negatif sayılarla toplama yaparken iki renkli sayaç modeli kullanabiliriz. Pozitif sayaç +1'i, negatif sayaç -1'i temsil eder.",
+              ),
+              pt(
+                "Bir pozitif ve bir negatif sayaç birlikte nötr çift oluşturur; toplam değerleri sıfırdır. Ters işaretli sayıları toplarken bu nötr çiftleri çıkarır, geriye kalan sayaçlara bakarız.",
+              ),
+              ex(
+                "Örnek 3.14",
+                [t("Modelleyin: "), m("5+3"), t(".")],
+                sol("Çözüm: 5 pozitif sayaca 3 pozitif sayaç ekleriz. Toplam 8 pozitif sayaç olur; bu nedenle 5+3=8."),
+              ),
+              ex("Sıra Sizde 3.27", [t("Modelleyin: "), m("2+4")]),
+              ex("Sıra Sizde 3.28", [t("Modelleyin: "), m("2+5")]),
+              ex(
+                "Örnek 3.15",
+                [t("Modelleyin: "), m("-5+(-3)"), t(".")],
+                sol("Çözüm: 5 negatif sayaca 3 negatif sayaç ekleriz. Toplam 8 negatif sayaç olur; bu nedenle -5+(-3)=-8."),
+              ),
+              ex("Sıra Sizde 3.29", [t("Modelleyin: "), m("-2+(-4)")]),
+              ex("Sıra Sizde 3.30", [t("Modelleyin: "), m("-2+(-5)")]),
+              pt(
+                "Aynı işaretli tam sayılar toplanırken mutlak değerler toplanır ve ortak işaret korunur. Ters işaretli tam sayılarda ise nötr çiftler çıkarılır.",
+              ),
+              ex(
+                "Örnek 3.16",
+                [t("Modelleyin: "), m("-5+3"), t(".")],
+                sol("Çözüm: 5 negatif ve 3 pozitif sayaçtan 3 nötr çift çıkar. Geriye 2 negatif sayaç kalır; bu yüzden -5+3=-2."),
+              ),
+              ex(
+                "Sıra Sizde 3.31",
+                [t("Modelleyin ve sadeleştirin: "), m("2+(-4)")],
+              ),
+              ex(
+                "Sıra Sizde 3.32",
+                [t("Modelleyin ve sadeleştirin: "), m("2+(-5)")],
+              ),
+              ex(
+                "Örnek 3.17",
+                [t("Modelleyin: "), m("5+(-3)"), t(".")],
+                sol("Çözüm: 5 pozitif ve 3 negatif sayaçtan 3 nötr çift çıkar. Geriye 2 pozitif sayaç kalır; bu nedenle 5+(-3)=2."),
+              ),
+              ex(
+                "Sıra Sizde 3.33",
+                [t("Modelleyin ve sadeleştirin: "), m("(-2)+4")],
+              ),
+              ex("Sıra Sizde 3.34", [t("Modelleyin: "), m("(-2)+5")]),
+              ex(
+                "Örnek 3.18",
+                [
+                  t("Her toplamayı modelleyin: ⓐ "),
+                  m("4+2"),
+                  t(" ⓑ "),
+                  m("-3+6"),
+                  t(" ⓒ "),
+                  m("4+(-5)"),
+                  t(" ⓓ "),
+                  m("-2+(-3)"),
+                ],
+                sol("Çözüm: ⓐ İki sayı da pozitif: 4+2=6. ⓑ 3 negatif ve 6 pozitiften 3 nötr çift çıkar, 3 pozitif kalır: -3+6=3. ⓒ 4 pozitif ve 5 negatiften 4 nötr çift çıkar, 1 negatif kalır: 4+(-5)=-1. ⓓ İki sayı da negatif: -2+(-3)=-5."),
+              ),
+              ex(
+                "Sıra Sizde 3.35",
+                [
+                  t("Her toplamayı modelleyin: ⓐ "),
+                  m("3+4"),
+                  t(" ⓑ "),
+                  m("-1+4"),
+                  t(" ⓒ "),
+                  m("4+(-6)"),
+                  t(" ⓓ "),
+                  m("-2+(-2)"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.36",
+                [
+                  t("Her toplamayı modelleyin: ⓐ "),
+                  m("5+1"),
+                  t(" ⓑ "),
+                  m("-3+7"),
+                  t(" ⓒ "),
+                  m("2+(-8)"),
+                  t(" ⓓ "),
+                  m("-3+(-4)"),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilarla-toplama-islemi",
+        replaceBlocks: [
+          ...removeBlocks(18),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sayaç modelini zihnimizde canlandırarak daha büyük tam sayıları da toplayabiliriz. Aynı işaretli sayılarda mutlak değerler toplanır; farklı işaretli sayılarda mutlak değerler çıkarılır.",
+              ),
+              pt(
+                "Farklı işaretli iki sayı toplanırken sonucun işareti, mutlak değeri büyük olan sayının işaretidir.",
+              ),
+              ex(
+                "Örnek 3.19",
+                [
+                  t("Sadeleştirin: ⓐ "),
+                  m("19+(-47)"),
+                  t(" ⓑ "),
+                  m("-32+40"),
+                ],
+                sol("Çözüm: ⓐ İşaretler farklıdır; 47-19=28 ve mutlak değeri büyük olan sayı negatif olduğu için sonuç -28'dir. ⓑ 40-32=8 ve pozitif sayı büyük olduğu için sonuç 8'dir."),
+              ),
+              ex(
+                "Sıra Sizde 3.37",
+                [t("Sadeleştirin: ⓐ "), m("15+(-32)"), t(" ⓑ "), m("-19+76")],
+              ),
+              ex(
+                "Sıra Sizde 3.38",
+                [t("Sadeleştirin: ⓐ "), m("-55+9"), t(" ⓑ "), m("43+(-17)")],
+              ),
+              ex(
+                "Örnek 3.20",
+                [t("Sadeleştirin: "), m("-14+(-36)"), t(".")],
+                sol("Çözüm: İki sayı da negatiftir. 14+36=50 olduğundan toplam -50 olur."),
+              ),
+              ex("Sıra Sizde 3.39", [t("Sadeleştirin: "), m("-31+(-19)")]),
+              ex("Sıra Sizde 3.40", [t("Sadeleştirin: "), m("-42+(-28)")]),
+              pt(
+                "Daha uzun ifadelerde işlem önceliği değişmez: önce parantez, sonra çarpma ve bölme, en son toplama ve çıkarma yapılır.",
+              ),
+              ex(
+                "Örnek 3.21",
+                [t("Sadeleştirin: "), m("-5+3(-2+7)"), t(".")],
+                sol("Çözüm: Önce parantez içi sadeleşir: -2+7=5. Sonra çarpma yapılır: 3·5=15. En son -5+15=10 bulunur."),
+              ),
+              ex("Sıra Sizde 3.41", [t("Sadeleştirin: "), m("-2+5(-4+7)")]),
+              ex("Sıra Sizde 3.42", [t("Sadeleştirin: "), m("-4+2(-3+5)")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "degiskenli-ifadeleri-degerlendirme",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir ifadeyi değerlendirmek için değişken yerine verilen sayıyı yazarız. Artık değişkenin değeri negatif tam sayı da olabilir.",
+              ),
+              ex(
+                "Örnek 3.22",
+                [
+                  m("x+7"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("x=-2"),
+                  t(" iken ⓑ "),
+                  m("x=-11"),
+                  t(" iken."),
+                ],
+                sol("Çözüm: ⓐ x yerine -2 yazılır: -2+7=5. ⓑ x yerine -11 yazılır: -11+7=-4."),
+              ),
+              ex(
+                "Sıra Sizde 3.43",
+                [
+                  m("x+5"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("x=-3"),
+                  t(" iken ⓑ "),
+                  m("x=-17"),
+                  t(" iken."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.44",
+                [
+                  m("y+7"),
+                  t(" ifadesini değerlendirin: ⓐ "),
+                  m("y=-5"),
+                  t(" iken ⓑ "),
+                  m("y=-8"),
+                  t(" iken."),
+                ],
+              ),
+              ex(
+                "Örnek 3.23",
+                [
+                  m("n=-5"),
+                  t(" iken değerlendirin: ⓐ "),
+                  m("n+1"),
+                  t(" ⓑ "),
+                  m("-n+1"),
+                  t("."),
+                ],
+                sol("Çözüm: ⓐ n+1=-5+1=-4. ⓑ -n, n'nin zıttıdır; n=-5 iken -n=5 olur. 5+1=6."),
+              ),
+              ex(
+                "Sıra Sizde 3.45",
+                [
+                  m("n=-8"),
+                  t(" iken değerlendirin: ⓐ "),
+                  m("n+2"),
+                  t(" ⓑ "),
+                  m("-n+2"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.46",
+                [
+                  m("y=-9"),
+                  t(" iken değerlendirin: ⓐ "),
+                  m("y+8"),
+                  t(" ⓑ "),
+                  m("-y+8"),
+                  t("."),
+                ],
+              ),
+              pt("Birden fazla değişken varsa, her değişkenin yerine kendi değeri yazılır."),
+              ex(
+                "Örnek 3.24",
+                [
+                  m("a=12"),
+                  t(" ve "),
+                  m("b=-30"),
+                  t(" iken "),
+                  m("3a+b"),
+                  t(" ifadesini değerlendirin."),
+                ],
+                sol("Çözüm: a yerine 12, b yerine -30 yazılır: 3a+b=3·12+(-30)=36-30=6."),
+              ),
+              ex(
+                "Sıra Sizde 3.47",
+                [
+                  m("a=-19"),
+                  t(" ve "),
+                  m("b=14"),
+                  t(" iken "),
+                  m("a+2b"),
+                  t(" ifadesini değerlendirin."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.48",
+                [
+                  m("p=4"),
+                  t(" ve "),
+                  m("q=-7"),
+                  t(" iken "),
+                  m("5p+q"),
+                  t(" ifadesini değerlendirin."),
+                ],
+              ),
+              ex(
+                "Örnek 3.25",
+                [
+                  m("x=-18"),
+                  t(" ve "),
+                  m("y=24"),
+                  t(" iken "),
+                  m("(x+y)^{2}"),
+                  t(" ifadesini değerlendirin."),
+                ],
+                sol("Çözüm: x+y=-18+24=6 olur. Bu yüzden (x+y)²=6²=36 bulunur."),
+              ),
+              ex(
+                "Sıra Sizde 3.49",
+                [
+                  m("x=-15"),
+                  t(" ve "),
+                  m("y=29"),
+                  t(" iken "),
+                  m("(x+y)^{2}"),
+                  t(" ifadesini değerlendirin."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.50",
+                [
+                  m("x=-8"),
+                  t(" ve "),
+                  m("y=10"),
+                  t(" iken "),
+                  m("(x+y)^{3}"),
+                  t(" ifadesini değerlendirin."),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Tam sayılarla çalışırken sözel ifadeleri cebirsel ifadeye çevirme kuralları aynen devam eder. “Toplamı” toplama işlemini, “artırılmış” ifadesi de ekleme yapmayı anlatır.",
+              ),
+              ex(
+                "Örnek 3.26",
+                [t("Çevirin ve sadeleştirin: "), m("-9"), t(" ile "), m("5"), t("'in toplamı.")],
+                sol("Çözüm: “Toplamı” toplama demektir. İfade -9+5 olur ve sadeleştirince -4 bulunur."),
+              ),
+              ex(
+                "Sıra Sizde 3.51",
+                [t("Çevirin ve sadeleştirin: "), m("-7"), t(" ile "), m("4"), t("'ün toplamı.")],
+              ),
+              ex(
+                "Sıra Sizde 3.52",
+                [t("Çevirin ve sadeleştirin: "), m("-8"), t(" ile "), m("-6"), t("'nın toplamı.")],
+              ),
+              ex(
+                "Örnek 3.27",
+                [
+                  t("Çevirin ve sadeleştirin: "),
+                  m("8"),
+                  t(" ile "),
+                  m("-12"),
+                  t("'nin toplamının "),
+                  m("3"),
+                  t(" artırılmış hali."),
+                ],
+                sol("Çözüm: Önce toplam yazılır: 8+(-12). Sonra 3 eklenir: [8+(-12)]+3. İç toplam -4 olduğundan -4+3=-1 bulunur."),
+              ),
+              ex(
+                "Sıra Sizde 3.53",
+                [
+                  t("Çevirin ve sadeleştirin: "),
+                  m("9"),
+                  t(" ile "),
+                  m("-16"),
+                  t("'nın toplamının "),
+                  m("4"),
+                  t(" artırılmış hali."),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.54",
+                [
+                  t("Çevirin ve sadeleştirin: "),
+                  m("-8"),
+                  t(" ile "),
+                  m("-12"),
+                  t("'nin toplamının "),
+                  m("7"),
+                  t(" artırılmış hali."),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilarla-problem-cozme",
+        replaceBlocks: [
+          ...removeBlocks(8),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sıcaklık, borç, derinlik ve spor gibi durumlarda artışları pozitif, azalışları veya kayıpları negatif tam sayılarla gösterebiliriz.",
+              ),
+              pt(
+                "Problem çözerken önce ne aradığımızı belirler, sonra verilen değişimleri tam sayılarla yazar ve işlemi sadeleştiririz.",
+              ),
+              ex(
+                "Örnek 3.28",
+                [
+                  t("Buffalo'da sabah sıcaklık sıfırın "),
+                  m("7"),
+                  t(" Fahrenheit derece altındaydı. Öğlene kadar "),
+                  m("12"),
+                  t(" derece ısındı. Öğlen sıcaklık kaç derecedir?"),
+                ],
+                sol("Çözüm: Sıfırın 7 derece altı -7 ile, 12 derece ısınma +12 ile gösterilir. -7+12=5 olduğundan öğlen sıcaklık 5°F olur."),
+              ),
+              ex(
+                "Sıra Sizde 3.55",
+                [
+                  t("Chicago'da saat 5.00'te sıcaklık sıfırın "),
+                  m("10"),
+                  t(" Celsius derece altındaydı. Altı saat sonra "),
+                  m("14"),
+                  t(" derece ısındı. Saat 11.00'de sıcaklık kaç derecedir?"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.56",
+                [
+                  t("Bir dalgıç yüzeyin "),
+                  m("16"),
+                  t(" feet altında yüzüyordu ve sonra "),
+                  m("17"),
+                  t(" feet daha aşağı indi. Yeni derinliği nedir?"),
+                ],
+              ),
+              ex(
+                "Örnek 3.29",
+                [
+                  t("Bir futbol takımı topu "),
+                  m("42"),
+                  t(" yard çizgisinde aldı. Sonraki üç oyunda "),
+                  m("6"),
+                  t(" yard kaybetti, "),
+                  m("4"),
+                  t(" yard kazandı ve "),
+                  m("8"),
+                  t(" yard kaybetti. Top hangi yard çizgisindedir?"),
+                ],
+                sol("Çözüm: Başlangıç 42'dir. Kayıplar negatif, kazanç pozitif yazılır: 42-6+4-8=32. Top 32 yard çizgisindedir."),
+              ),
+              ex(
+                "Sıra Sizde 3.57",
+                [
+                  t("Bears topu "),
+                  m("20"),
+                  t(" yard çizgisinde aldı. Sonraki üç oyunda "),
+                  m("9"),
+                  t(" yard kaybetti, "),
+                  m("7"),
+                  t(" yard kazandı ve "),
+                  m("4"),
+                  t(" yard kaybetti. Top hangi yard çizgisindedir?"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.58",
+                [
+                  t("Chargers topa "),
+                  m("25"),
+                  t(" yard çizgisinde başladı. Sonraki üç oyunda "),
+                  m("5"),
+                  t(" yard kazandı, "),
+                  m("8"),
+                  t(" yard kaybetti ve "),
+                  m("15"),
+                  t(" yard kazandı. Top hangi yard çizgisindedir?"),
+                ],
+              ),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

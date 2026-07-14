@@ -17269,23 +17269,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
-              },
-              {
-                "type": "text",
-                "value": " "
-              },
-              {
-                "type": "text",
-                "value": "a temperature of "
-              },
-              {
-                "type": "math",
-                "value": "6 \\text{degrees}"
-              },
-              {
-                "type": "text",
-                "value": " below zero"
+                "value": "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Sıfırın 6 derece altındaki sıcaklık."
               }
             ],
             "answer": [
@@ -17303,23 +17287,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
-              },
-              {
-                "type": "text",
-                "value": " "
-              },
-              {
-                "type": "text",
-                "value": "an elevation of "
-              },
-              {
-                "type": "math",
-                "value": "40 \\text{feet}"
-              },
-              {
-                "type": "text",
-                "value": " below sea level"
+                "value": "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Deniz seviyesinin 40 feet altındaki yükseklik."
               }
             ],
             "answer": [
@@ -17337,19 +17305,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
-              },
-              {
-                "type": "text",
-                "value": " "
-              },
-              {
-                "type": "text",
-                "value": "a football play loss of "
-              },
-              {
-                "type": "math",
-                "value": "12 \\text{yards}"
+                "value": "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Futbolda 12 yard kayıp."
               }
             ],
             "answer": [
@@ -17367,19 +17323,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
-              },
-              {
-                "type": "text",
-                "value": " "
-              },
-              {
-                "type": "text",
-                "value": "a stock gain of "
-              },
-              {
-                "type": "math",
-                "value": "\\text{$3}"
+                "value": "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Hisse değerinde 3 dolarlık kazanç."
               }
             ],
             "answer": [
@@ -17397,15 +17341,7 @@
             "prompt": [
               {
                 "type": "text",
-                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
-              },
-              {
-                "type": "text",
-                "value": " "
-              },
-              {
-                "type": "text",
-                "value": "a golf score one above par"
+                "value": "Aşağıdaki alıştırmalarda durumu tam sayıyla gösterin. Golfte parın bir üstü skor."
               }
             ],
             "answer": [
@@ -17469,6 +17405,2979 @@
               }
             ],
             "sortOrder": 61
+          }
+        ]
+      }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "3.3",
+      "displayNumber": "3.2",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers",
+      "contentHash": "abf5f1e6c2b03c8b474d53f62fe6a3e887f5c87eef1a6c2d3ef2bb4780a98c14",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-13c93900960c39dc",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104736/4c65a128ee08e1ae68790112f077a20d33799ef3?revision=1",
+          "type": "image",
+          "altText": "This figure has a blue circle labeled positive and a red circle labeled negative.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/000-13c93900960c39dc.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/000-13c93900960c39dc.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "001-07ff184909b0564f",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104738/be48ea0ea1f1443d5196d2b33bd0a909de80859c?revision=1",
+          "type": "figure",
+          "altText": "This figure has a blue circle over a red circle. Beside them is the statement 1 plus negative 1 equals 0.",
+          "caption": "Figure 3.17 A blue counter represents + 1 . + 1 . A red counter represents −1 . −1 . Together they add to zero.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/001-07ff184909b0564f.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/001-07ff184909b0564f.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "2848f0077bba5c28",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/2848f0077bba5c28.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/2848f0077bba5c28.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d601e9ad23df4797",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/d601e9ad23df4797.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/d601e9ad23df4797.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c7838e56d5360ff2",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/c7838e56d5360ff2.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/c7838e56d5360ff2.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d9320c1a18299f47",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/d9320c1a18299f47.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/d9320c1a18299f47.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "f47099f543c48f4c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/f47099f543c48f4c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/f47099f543c48f4c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "53d568756487fe81",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/53d568756487fe81.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/53d568756487fe81.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1e8e6b385525d0e3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/1e8e6b385525d0e3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/1e8e6b385525d0e3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "36698e867a30c055",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/36698e867a30c055.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/36698e867a30c055.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1f86eb44a7a37a4f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/1f86eb44a7a37a4f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/1f86eb44a7a37a4f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "26ba34e52daa80ec",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/26ba34e52daa80ec.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/26ba34e52daa80ec.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "649c48d3f7ab4bc6",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/649c48d3f7ab4bc6.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/649c48d3f7ab4bc6.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ade20f258f8cab7a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/ade20f258f8cab7a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/ade20f258f8cab7a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "72170ea44151dd71",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-12",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/72170ea44151dd71.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/72170ea44151dd71.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "bbd06c429e8ef0fb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/bbd06c429e8ef0fb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/bbd06c429e8ef0fb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "22aa9084e73f3812",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/22aa9084e73f3812.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/22aa9084e73f3812.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a75435056eef6f26",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-15",
+          "type": "table",
+          "caption": "This expression has two variables. Substitute −18−18 for xx and 2424 for y.y.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/a75435056eef6f26.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/a75435056eef6f26.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "978b762e4f942133",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-16",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/978b762e4f942133.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/978b762e4f942133.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b86c1a521d66ea1a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-17",
+          "type": "table",
+          "caption": "The phrase increased by indicates addition.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/b86c1a521d66ea1a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/b86c1a521d66ea1a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "461dc10132fb0592",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-18",
+          "type": "table",
+          "caption": "We are asked to find the temperature at noon.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/461dc10132fb0592.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/461dc10132fb0592.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "22c8e85f673ccde6",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers#table-19",
+          "type": "table",
+          "caption": "We are asked to find the yard line the ball was on at the end of three plays.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-2-add-integers/22c8e85f673ccde6.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-2-add-integers/22c8e85f673ccde6.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 5,
+        "sections": 5,
+        "blocks": 59,
+        "examples": 16,
+        "tryIts": 32,
+        "sourceExercises": 32,
+        "exercises": 32,
+        "mathTokens": 105,
+        "assets": 22
+      },
+      "lesson": {
+        "id": "lesson-add-integers",
+        "slug": "tam-sayilarla-toplama",
+        "displayTitle": "Tam Sayılarla Toplama",
+        "summary": "Pozitif ve negatif tam sayıları modelleyerek toplayın, değişkenli ifadeleri değerlendirin ve günlük yaşam problemlerini tam sayılarla çözün.",
+        "sortOrder": 3,
+        "chapterId": "chapter-integers",
+        "sourceNumber": "3.3",
+        "displayNumber": "3.2",
+        "sourceTitle": "Add Integers",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.03%3A_Add_Integers",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "tam-sayilar",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Tam sayılarla toplamayı modelleyebileceksiniz.",
+          "Tam sayılar içeren ifadeleri sadeleştirebileceksiniz.",
+          "Tam sayılarla verilen değişkenli ifadeleri değerlendirebileceksiniz.",
+          "Sözel ifadeleri cebirsel ifadelere çevirebileceksiniz.",
+          "Tam sayılarla toplama gerektiren problemleri çözebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "tam-sayilarla-toplama-section-01",
+            "heading": "Tam Sayılarla Toplamayı Modelleme",
+            "slug": "tam-sayilarla-toplamayi-modelleme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Pozitif ve negatif sayılarla toplama yaparken iki renkli sayaç modeli kullanabiliriz. Pozitif sayaç +1'i, negatif sayaç -1'i temsil eder."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir pozitif ve bir negatif sayaç birlikte nötr çift oluşturur; toplam değerleri sıfırdır. Ters işaretli sayıları toplarken bu nötr çiftleri çıkarır, geriye kalan sayaçlara bakarız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.14",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5+3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 pozitif sayaca 3 pozitif sayaç ekleriz. Toplam 8 pozitif sayaç olur; bu nedenle 5+3=8."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.27",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2+4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İki sayı da pozitif olduğu için sayıları toplarız: 2+4=6."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.28",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2+5"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pozitif 2 ile pozitif 5'in toplamı 7'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.15",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5+(-3)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 negatif sayaca 3 negatif sayaç ekleriz. Toplam 8 negatif sayaç olur; bu nedenle -5+(-3)=-8."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.29",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2+(-4)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İki sayı da negatif olduğundan mutlak değerleri toplar ve negatif işaretini koruruz: -2+(-4)=-6."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.30",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2+(-5)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -2 ile -5 aynı işaretlidir. 2+5=7 olduğu için toplam -7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Aynı işaretli tam sayılar toplanırken mutlak değerler toplanır ve ortak işaret korunur. Ters işaretli tam sayılarda ise nötr çiftler çıkarılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.16",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5+3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 negatif ve 3 pozitif sayaçtan 3 nötr çift çıkar. Geriye 2 negatif sayaç kalır; bu yüzden -5+3=-2."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.31",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2+(-4)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 pozitif ve 4 negatif sayaçtan iki nötr çift çıkar; geriye 2 negatif kalır. Sonuç -2'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.32",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2+(-5)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 pozitif, 5 negatifle eşleşince iki nötr çift oluşur ve 3 negatif kalır. 2+(-5)=-3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.17",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5+(-3)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 pozitif ve 3 negatif sayaçtan 3 nötr çift çıkar. Geriye 2 pozitif sayaç kalır; bu nedenle 5+(-3)=2."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.33",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(-2)+4"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 negatif ve 4 pozitif sayaçtan iki nötr çift çıkar; geriye 2 pozitif kalır. Sonuç 2'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.34",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(-2)+5"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 negatif ile 5 pozitiften iki nötr çift çıkar; geriye 3 pozitif kalır. Toplam 3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.18",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her toplamayı modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4+2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-3+6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4+(-5)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2+(-3)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ İki sayı da pozitif: 4+2=6. ⓑ 3 negatif ve 6 pozitiften 3 nötr çift çıkar, 3 pozitif kalır: -3+6=3. ⓒ 4 pozitif ve 5 negatiften 4 nötr çift çıkar, 1 negatif kalır: 4+(-5)=-1. ⓓ İki sayı da negatif: -2+(-3)=-5."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.35",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her toplamayı modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3+4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-1+4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4+(-6)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2+(-2)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 3+4=7. ⓑ -1+4=3. ⓒ 4+(-6)=-2. ⓓ -2+(-2)=-4."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.36",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her toplamayı modelleyin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5+1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-3+7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2+(-8)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓓ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-3+(-4)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 5+1=6. ⓑ -3+7=4. ⓒ 2+(-8)=-6. ⓓ -3+(-4)=-7."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilarla-toplama-section-02",
+            "heading": "Tam Sayılarla Toplama İşlemi",
+            "slug": "tam-sayilarla-toplama-islemi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sayaç modelini zihnimizde canlandırarak daha büyük tam sayıları da toplayabiliriz. Aynı işaretli sayılarda mutlak değerler toplanır; farklı işaretli sayılarda mutlak değerler çıkarılır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Farklı işaretli iki sayı toplanırken sonucun işareti, mutlak değeri büyük olan sayının işaretidir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.19",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "19+(-47)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-32+40"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ İşaretler farklıdır; 47-19=28 ve mutlak değeri büyük olan sayı negatif olduğu için sonuç -28'dir. ⓑ 40-32=8 ve pozitif sayı büyük olduğu için sonuç 8'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.37",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15+(-32)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-19+76"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 15+(-32) işleminde negatiflerin mutlak değeri büyük olduğu için sonuç negatiftir: 32-15=17, sonuç -17. ⓑ -19+76=57."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.38",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-55+9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "43+(-17)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ -55+9 işleminde 55-9=46 ve negatiflerin mutlak değeri büyük olduğu için sonuç -46'dır. ⓑ 43+(-17)=26."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.20",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-14+(-36)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İki sayı da negatiftir. 14+36=50 olduğundan toplam -50 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.39",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-31+(-19)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Aynı işaretli iki negatif sayı toplanır: -31+(-19)=-50."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.40",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-42+(-28)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -42 ve -28 aynı işaretlidir. 42+28=70 olduğundan toplam -70'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Daha uzun ifadelerde işlem önceliği değişmez: önce parantez, sonra çarpma ve bölme, en son toplama ve çıkarma yapılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.21",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-5+3(-2+7)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce parantez içi sadeleşir: -2+7=5. Sonra çarpma yapılır: 3·5=15. En son -5+15=10 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.41",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2+5(-4+7)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce parantez içi: -4+7=3. Sonra 5·3=15 ve -2+15=13 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.42",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-4+2(-3+5)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce -3+5=2. Sonra 2·2=4 ve -4+4=0 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilarla-toplama-section-03",
+            "heading": "Değişkenli İfadeleri Değerlendirme",
+            "slug": "degiskenli-ifadeleri-degerlendirme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir ifadeyi değerlendirmek için değişken yerine verilen sayıyı yazarız. Artık değişkenin değeri negatif tam sayı da olabilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.22",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "x+7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=-2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=-11"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ x yerine -2 yazılır: -2+7=5. ⓑ x yerine -11 yazılır: -11+7=-4."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.43",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "x+5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=-3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "x=-17"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=-3 iken x+5=-3+5=2. x=-17 iken x+5=-17+5=-12 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.44",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "y+7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=-5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y=-5 iken y+7=-5+7=2. y=-8 iken y+7=-8+7=-1 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.23",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "n=-5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n+1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-n+1"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ n+1=-5+1=-4. ⓑ -n, n'nin zıttıdır; n=-5 iken -n=5 olur. 5+1=6."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.45",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "n=-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n+2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-n+2"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: n=-8 iken n+2=-8+2=-6. -n+2 ifadesinde -n=8 olur; 8+2=10."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.46",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "y=-9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken değerlendirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y+8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-y+8"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y=-9 iken y+8=-1. -y+8 ifadesinde -y=9 olduğundan 9+8=17 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Birden fazla değişken varsa, her değişkenin yerine kendi değeri yazılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.24",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "a=12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b=-30"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3a+b"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: a yerine 12, b yerine -30 yazılır: 3a+b=3·12+(-30)=36-30=6."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.47",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "a=-19"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b=14"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "a+2b"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: a=-19 ve b=14 yazılır: a+2b=-19+2·14=-19+28=9."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.48",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "p=4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "q=-7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5p+q"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: p=4 ve q=-7 yazılır: 5p+q=5·4+(-7)=20-7=13."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.25",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "x=-18"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=24"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(x+y)^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x+y=-18+24=6 olur. Bu yüzden (x+y)²=6²=36 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.49",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "x=-15"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=29"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(x+y)^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=-15 ve y=29 olduğundan x+y=14 olur. Bu yüzden (x+y)²=14²=196 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.50",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "x=-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "y=10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " iken "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(x+y)^{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesini değerlendirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x=-8 ve y=10 için x+y=2'dir. Bu nedenle (x+y)³=2³=8 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilarla-toplama-section-04",
+            "heading": "Sözel İfadeleri Cebirsel İfadeye Çevirme",
+            "slug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Tam sayılarla çalışırken sözel ifadeleri cebirsel ifadeye çevirme kuralları aynen devam eder. “Toplamı” toplama işlemini, “artırılmış” ifadesi de ekleme yapmayı anlatır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.26",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'in toplamı."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “Toplamı” toplama demektir. İfade -9+5 olur ve sadeleştirince -4 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.51",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ün toplamı."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “-7 ile 4'ün toplamı” ifadesi -7+4'tür. Mutlak değeri büyük olan sayı negatif olduğu için sonuç -3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.52",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-6"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nın toplamı."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: “-8 ile -6'nın toplamı” ifadesi -8+(-6)'dır. Aynı işaretli negatifler toplandığı için sonuç -14'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.27",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-12"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin toplamının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " artırılmış hali."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce toplam yazılır: 8+(-12). Sonra 3 eklenir: [8+(-12)]+3. İç toplam -4 olduğundan -4+3=-1 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.53",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-16"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nın toplamının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " artırılmış hali."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce 9+(-16)=-7 bulunur. Bu toplam 4 artırılır: -7+4=-3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.54",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çevirin ve sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-12"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin toplamının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " artırılmış hali."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -8+(-12)=-20 olur. 7 artırırsak -20+7=-13 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tam-sayilarla-toplama-section-05",
+            "heading": "Tam Sayılarla Problem Çözme",
+            "slug": "tam-sayilarla-problem-cozme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sıcaklık, borç, derinlik ve spor gibi durumlarda artışları pozitif, azalışları veya kayıpları negatif tam sayılarla gösterebiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Problem çözerken önce ne aradığımızı belirler, sonra verilen değişimleri tam sayılarla yazar ve işlemi sadeleştiririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.28",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Buffalo'da sabah sıcaklık sıfırın "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " Fahrenheit derece altındaydı. Öğlene kadar "
+                  },
+                  {
+                    "type": "math",
+                    "value": "12"
+                  },
+                  {
+                    "type": "text",
+                    "value": " derece ısındı. Öğlen sıcaklık kaç derecedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sıfırın 7 derece altı -7 ile, 12 derece ısınma +12 ile gösterilir. -7+12=5 olduğundan öğlen sıcaklık 5°F olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.55",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Chicago'da saat 5.00'te sıcaklık sıfırın "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " Celsius derece altındaydı. Altı saat sonra "
+                  },
+                  {
+                    "type": "math",
+                    "value": "14"
+                  },
+                  {
+                    "type": "text",
+                    "value": " derece ısındı. Saat 11.00'de sıcaklık kaç derecedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Başlangıç sıcaklığı -10°C, artış 14°C'dir. -10+14=4 olduğundan saat 11.00'de sıcaklık 4°C olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.56",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir dalgıç yüzeyin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "16"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet altında yüzüyordu ve sonra "
+                  },
+                  {
+                    "type": "math",
+                    "value": "17"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet daha aşağı indi. Yeni derinliği nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yüzeyin altı negatif kabul edilir. Başlangıç derinliği -16 feet, 17 feet daha aşağı inmek -17 eklemek demektir. -16+(-17)=-33 feet."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 3.29",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir futbol takımı topu "
+                  },
+                  {
+                    "type": "math",
+                    "value": "42"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard çizgisinde aldı. Sonraki üç oyunda "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kaybetti, "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kazandı ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kaybetti. Top hangi yard çizgisindedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Başlangıç 42'dir. Kayıplar negatif, kazanç pozitif yazılır: 42-6+4-8=32. Top 32 yard çizgisindedir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.57",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bears topu "
+                  },
+                  {
+                    "type": "math",
+                    "value": "20"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard çizgisinde aldı. Sonraki üç oyunda "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kaybetti, "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kazandı ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kaybetti. Top hangi yard çizgisindedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 20 yard çizgisinden başlanır. 9 yard kayıp, 7 yard kazanç ve 4 yard kayıp: 20-9+7-4=14. Top 14 yard çizgisindedir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 3.58",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Chargers topa "
+                  },
+                  {
+                    "type": "math",
+                    "value": "25"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard çizgisinde başladı. Sonraki üç oyunda "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kazandı, "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kaybetti ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15"
+                  },
+                  {
+                    "type": "text",
+                    "value": " yard kazandı. Top hangi yard çizgisindedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 25 yard çizgisinden başlanır. 5 yard kazanıp 8 yard kaybedip 15 yard kazanırlar: 25+5-8+15=37. Top 37 yard çizgisindedir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-63",
+            "number": "63",
+            "sectionSlug": "tam-sayilarla-toplamayi-modelleme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda ifadeyi modelleyip sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "7+4"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İki sayı da pozitif olduğu için 7+4=11 olur."
+              }
+            ],
+            "sortOrder": 63
+          },
+          {
+            "id": "exercise-65",
+            "number": "65",
+            "sectionSlug": "tam-sayilarla-toplamayi-modelleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "−6+(−3)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İki sayı da negatiftir. 6+3=9 olduğundan toplam -9'dur."
+              }
+            ],
+            "sortOrder": 65
+          },
+          {
+            "id": "exercise-67",
+            "number": "67",
+            "sectionSlug": "tam-sayilarla-toplamayi-modelleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "−7+5"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İşaretler farklıdır. 7-5=2 ve mutlak değeri büyük olan sayı negatif olduğu için sonuç -2'dir."
+              }
+            ],
+            "sortOrder": 67
+          },
+          {
+            "id": "exercise-69",
+            "number": "69",
+            "sectionSlug": "tam-sayilarla-toplamayi-modelleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "8+(−7)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8 ve -7 ters işaretlidir. 8-7=1 ve pozitif sayı büyük olduğu için sonuç 1'dir."
+              }
+            ],
+            "sortOrder": 69
+          },
+          {
+            "id": "exercise-71",
+            "number": "71",
+            "sectionSlug": "tam-sayilarla-toplama-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−21+(−59)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Aynı işaretli negatifler toplanır: -21+(-59)=-80."
+              }
+            ],
+            "sortOrder": 71
+          },
+          {
+            "id": "exercise-73",
+            "number": "73",
+            "sectionSlug": "tam-sayilarla-toplama-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "48+(−16)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İşaretler farklıdır. 48-16=32 ve pozitif sayı büyük olduğu için sonuç 32'dir."
+              }
+            ],
+            "sortOrder": 73
+          },
+          {
+            "id": "exercise-75",
+            "number": "75",
+            "sectionSlug": "tam-sayilarla-toplama-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−200+65"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -200+65 işleminde 200-65=135 ve negatif sayı baskındır; sonuç -135 olur."
+              }
+            ],
+            "sortOrder": 75
+          },
+          {
+            "id": "exercise-77",
+            "number": "77",
+            "sectionSlug": "tam-sayilarla-toplama-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "2+(−8)+6"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce 2+(-8)=-6 bulunur; sonra kalan +6 ile -6 birbirini sıfırlar. Bu nedenle toplam 0 olur."
+              }
+            ],
+            "sortOrder": 77
+          },
+          {
+            "id": "exercise-79",
+            "number": "79",
+            "sectionSlug": "tam-sayilarla-toplama-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−14+(−12)+4"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -14+(-12)=-26 ve -26+4=-22 bulunur."
+              }
+            ],
+            "sortOrder": 79
+          },
+          {
+            "id": "exercise-81",
+            "number": "81",
+            "sectionSlug": "tam-sayilarla-toplama-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "135+(−110)+83"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 135+(-110)=25, ardından 25+83=108 olur."
+              }
+            ],
+            "sortOrder": 81
+          },
+          {
+            "id": "exercise-83",
+            "number": "83",
+            "sectionSlug": "tam-sayilarla-toplama-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "−32+24+(−6)+10"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -32+24=-8, -8+(-6)=-14 ve -14+10=-4 bulunur."
+              }
+            ],
+            "sortOrder": 83
+          },
+          {
+            "id": "exercise-85",
+            "number": "85",
+            "sectionSlug": "tam-sayilarla-toplama-islemi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "19+2(−3+8)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce parantez: -3+8=5. Sonra 2·5=10 ve 19+10=29 olur."
+              }
+            ],
+            "sortOrder": 85
+          },
+          {
+            "id": "exercise-87",
+            "number": "87",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "x+8"
+              },
+              {
+                "type": "text",
+                "value": " when  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "x=−26"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "x=−95"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=-26 iken x+8=-18. x=-95 iken x+8=-87 olur."
+              }
+            ],
+            "sortOrder": 87
+          },
+          {
+            "id": "exercise-89",
+            "number": "89",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "y+(−14)"
+              },
+              {
+                "type": "text",
+                "value": " when  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "y=−33"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "y=30"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: y=-33 iken y+(-14)=-47. y=30 iken 30+(-14)=16 olur."
+              }
+            ],
+            "sortOrder": 89
+          },
+          {
+            "id": "exercise-91",
+            "number": "91",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "When "
+              },
+              {
+                "type": "math",
+                "value": "a=−7,"
+              },
+              {
+                "type": "text",
+                "value": " evaluate:  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "a+3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "-a+3"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: a=-7 için a+3=-4. -a+3 ifadesinde -a=7 olduğundan 7+3=10 olur."
+              }
+            ],
+            "sortOrder": 91
+          },
+          {
+            "id": "exercise-93",
+            "number": "93",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "text",
+                "value": "When "
+              },
+              {
+                "type": "math",
+                "value": "c=−9,"
+              },
+              {
+                "type": "text",
+                "value": " evaluate:  ⓐ"
+              },
+              {
+                "type": "math",
+                "value": "c+(−4)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ"
+              },
+              {
+                "type": "math",
+                "value": "-c+(−4)"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: c=-9 için c+(-4)=-13. -c+(-4) ifadesinde -c=9 olduğundan 9+(-4)=5 bulunur."
+              }
+            ],
+            "sortOrder": 93
+          },
+          {
+            "id": "exercise-95",
+            "number": "95",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "m+n"
+              },
+              {
+                "type": "text",
+                "value": " when, "
+              },
+              {
+                "type": "math",
+                "value": "m=−15"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "n=7"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: m=-15 ve n=7 yazılırsa m+n=-15+7=-8 olur."
+              }
+            ],
+            "sortOrder": 95
+          },
+          {
+            "id": "exercise-97",
+            "number": "97",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "r−3s"
+              },
+              {
+                "type": "text",
+                "value": " when, "
+              },
+              {
+                "type": "math",
+                "value": "r=16"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "s=2"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: r=16 ve s=2 için r-3s=16-3·2=16-6=10 bulunur."
+              }
+            ],
+            "sortOrder": 97
+          },
+          {
+            "id": "exercise-99",
+            "number": "99",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "{(a+b)}^{2}"
+              },
+              {
+                "type": "text",
+                "value": " when, "
+              },
+              {
+                "type": "math",
+                "value": "a=−7"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "b=15"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: a=-7 ve b=15 olduğundan a+b=8. Bu nedenle (a+b)²=8²=64'tür."
+              }
+            ],
+            "sortOrder": 99
+          },
+          {
+            "id": "exercise-101",
+            "number": "101",
+            "sectionSlug": "degiskenli-ifadeleri-degerlendirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "math",
+                "value": "{(x+y)}^{2}"
+              },
+              {
+                "type": "text",
+                "value": " when, "
+              },
+              {
+                "type": "math",
+                "value": "x=−3"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "y=14"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x=-3 ve y=14 için x+y=11. Bu yüzden (x+y)²=121 olur."
+              }
+            ],
+            "sortOrder": 101
+          },
+          {
+            "id": "exercise-103",
+            "number": "103",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -14 ile 5'in toplamı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “-14 ile 5'in toplamı” -14+5'tir. Sonuç -9 olur."
+              }
+            ],
+            "sortOrder": 103
+          },
+          {
+            "id": "exercise-105",
+            "number": "105",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -2'den 8 fazla."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -2'den 8 fazla, -2+8 demektir. Sonuç 6'dır."
+              }
+            ],
+            "sortOrder": 105
+          },
+          {
+            "id": "exercise-107",
+            "number": "107",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -15'e -10 eklenmiş hali."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -10'a -15 eklenir: -10+(-15)=-25."
+              }
+            ],
+            "sortOrder": 107
+          },
+          {
+            "id": "exercise-109",
+            "number": "109",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -1 ile -12'nin toplamından 6 fazla."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce -1 ile -12'nin toplamı -13'tür. Buna 6 eklenirse -13+6=-7 olur."
+              }
+            ],
+            "sortOrder": 109
+          },
+          {
+            "id": "exercise-111",
+            "number": "111",
+            "sectionSlug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. 10 ile -19'un toplamının 4 artırılmış hali."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 10+(-19)=-9. Bu toplam 4 artırılırsa -9+4=-5 bulunur."
+              }
+            ],
+            "sortOrder": 111
+          },
+          {
+            "id": "exercise-113",
+            "number": "113",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda çözün. Sıcaklık: St. Paul, Minnesota'da gün doğumunda sıcaklık -19°F idi. Öğlene kadar sıcaklık 26°F arttı. Öğlen sıcaklık kaç dereceydi?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sıcaklık -19°F ile başlar ve 26°F artar. -19+26=7 olduğundan öğlen sıcaklık 7°F olur."
+              }
+            ],
+            "sortOrder": 113
+          },
+          {
+            "id": "exercise-115",
+            "number": "115",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda çözün. Kredi kartı: Lupe'nin kredi kartında 73 dolar borcu var. Sonra 45 dolar daha harcıyor. Yeni bakiye nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Borç negatif gösterilir. Başlangıç borcu -73 dolar, yeni harcama -45 dolardır. -73+(-45)=-118; yeni bakiye 118 dolar borçtur."
+              }
+            ],
+            "sortOrder": 115
+          },
+          {
+            "id": "exercise-117",
+            "number": "117",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda çözün. Futbol: Bir takım ilk oyunda 3 yard kaybetti. Sonra 2 yard kaybetti, 1 yard kazandı ve 4 yard kaybetti. Dört oyun sonunda toplam yard değişimi nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kayıplar negatif, kazanç pozitif yazılır: -3+(-2)+1+(-4)=-8. Toplam değişim 8 yard kayıptır."
+              }
+            ],
+            "sortOrder": 117
+          },
+          {
+            "id": "exercise-119",
+            "number": "119",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda çözün. Futbol: Rams topu kendi 35 yard çizgisinde aldı. Sonraki üç oyunda 12 yard kaybetti, 8 yard kazandı ve 6 yard kaybetti. Top hangi yard çizgisindedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 35 yard çizgisinden başlanır: 35-12+8-6=25. Top 25 yard çizgisindedir."
+              }
+            ],
+            "sortOrder": 119
+          },
+          {
+            "id": "exercise-121",
+            "number": "121",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki alıştırmalarda çözün. Dalış: Bir dalgıç yüzeyin 8 feet altında yüzüyordu, 17 feet daha aşağı indi, sonra 5 feet yükseldi. Yeni derinliği nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yüzeyin altı negatif alınır. -8-17+5=-20 olduğundan yeni derinlik 20 feet aşağıdadır."
+              }
+            ],
+            "sortOrder": 121
+          },
+          {
+            "id": "exercise-123",
+            "number": "123",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Borsa: 15 Eylül 2008 haftasında Dow Jones endeksindeki günlük değişimler pazartesi -504, salı +142, çarşamba -449, perşembe +410 ve cuma +369 puandı. Haftalık toplam değişim nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Haftalık değişimleri toplarız: -504+142-449+410+369=-32. Hafta sonunda genel değişim -32 puandır."
+              }
+            ],
+            "sortOrder": 123
+          },
+          {
+            "id": "exercise-125",
+            "number": "125",
+            "sectionSlug": "tam-sayilarla-problem-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "-8 ile 2'nin toplamının neden negatif, 8 ile -2'nin toplamının ise neden pozitif olduğunu açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ters işaretli sayılar toplanırken mutlak değerler çıkarılır ve mutlak değeri büyük olan sayının işareti alınır. -8+2 işleminde 8 büyük olduğu için sonuç negatif; 8+(-2) işleminde 8 büyük olduğu için sonuç pozitiftir."
+              }
+            ],
+            "sortOrder": 125
           }
         ]
       }

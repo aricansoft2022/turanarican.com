@@ -68,7 +68,24 @@ export function localizeExercisePromptForTurkish(
     adaptIntegerCompareExercise(normalizedPrompt) ??
     adaptIntegerWordExpressionExercise(normalizedPrompt) ??
     adaptIntegerSituationExercise(normalizedPrompt) ??
+    adaptIntegerAdditionWordProblem(normalizedPrompt) ??
+    adaptIntegerAdditionPhraseExercise(normalizedPrompt) ??
     adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, model the expression to simplify.",
+      "Aşağıdaki alıştırmalarda ifadeyi modelleyip sadeleştirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, evaluate each expression.",
+      "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, solve.",
+      "Aşağıdaki alıştırmalarda çözün.",
+    ) ??
     adaptPlainInstruction(
       normalizedPrompt,
       "In the following exercises, find the opposite of each number.",
@@ -316,9 +333,76 @@ function adaptIntegerSituationExercise(
     ],
   ];
 
-  const replacement = replacements.find(([source]) => text.startsWith(source))?.[1];
+  const replacement = replacements.find(([source]) => text.includes(source))?.[1];
   if (!replacement) return null;
 
+  return [{ type: "text", value: replacement }] satisfies InlineContent[];
+}
+
+function adaptIntegerAdditionPhraseExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const first = prompt[0];
+
+  if (
+    first?.type !== "text" ||
+    first.value !==
+      "In the following exercises, translate each phrase into an algebraic expression and then simplify."
+  ) {
+    return null;
+  }
+
+  const text = inlineText(prompt);
+  const replacements: Array<[string, string]> = [
+    ["The sum of −14 and 5", "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -14 ile 5'in toplamı."],
+    ["8 more than −2", "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -2'den 8 fazla."],
+    ["−10 added to −15", "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -15'e -10 eklenmiş hali."],
+    ["6 more than the sum of −1 and −12", "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. -1 ile -12'nin toplamından 6 fazla."],
+    ["the sum of 10 and −19, increased by 4", "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirip sadeleştirin. 10 ile -19'un toplamının 4 artırılmış hali."],
+  ];
+  const replacement = replacements.find(([source]) => text.includes(source))?.[1];
+
+  if (!replacement) return null;
+  return [{ type: "text", value: replacement }] satisfies InlineContent[];
+}
+
+function adaptIntegerAdditionWordProblem(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+  const replacements: Array<[string, string]> = [
+    [
+      "Temperature The temperature in St. Paul",
+      "Aşağıdaki alıştırmalarda çözün. Sıcaklık: St. Paul, Minnesota'da gün doğumunda sıcaklık -19°F idi. Öğlene kadar sıcaklık 26°F arttı. Öğlen sıcaklık kaç dereceydi?",
+    ],
+    [
+      "Credit Cards Lupe owes",
+      "Aşağıdaki alıştırmalarda çözün. Kredi kartı: Lupe'nin kredi kartında 73 dolar borcu var. Sonra 45 dolar daha harcıyor. Yeni bakiye nedir?",
+    ],
+    [
+      "Football A team lost",
+      "Aşağıdaki alıştırmalarda çözün. Futbol: Bir takım ilk oyunda 3 yard kaybetti. Sonra 2 yard kaybetti, 1 yard kazandı ve 4 yard kaybetti. Dört oyun sonunda toplam yard değişimi nedir?",
+    ],
+    [
+      "Football The Rams took possession",
+      "Aşağıdaki alıştırmalarda çözün. Futbol: Rams topu kendi 35 yard çizgisinde aldı. Sonraki üç oyunda 12 yard kaybetti, 8 yard kazandı ve 6 yard kaybetti. Top hangi yard çizgisindedir?",
+    ],
+    [
+      "Scuba Diving A scuba diver",
+      "Aşağıdaki alıştırmalarda çözün. Dalış: Bir dalgıç yüzeyin 8 feet altında yüzüyordu, 17 feet daha aşağı indi, sonra 5 feet yükseldi. Yeni derinliği nedir?",
+    ],
+    [
+      "Stock Market The week of September 15",
+      "Borsa: 15 Eylül 2008 haftasında Dow Jones endeksindeki günlük değişimler pazartesi -504, salı +142, çarşamba -449, perşembe +410 ve cuma +369 puandı. Haftalık toplam değişim nedir?",
+    ],
+    [
+      "Explain why the sum of",
+      "-8 ile 2'nin toplamının neden negatif, 8 ile -2'nin toplamının ise neden pozitif olduğunu açıklayın.",
+    ],
+  ];
+  const replacement = replacements.find(([source]) => text.includes(source))?.[1];
+
+  if (!replacement) return null;
   return [{ type: "text", value: replacement }] satisfies InlineContent[];
 }
 

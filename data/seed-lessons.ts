@@ -1142,4 +1142,200 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "61": "tam-sayilarla-sozel-ifadeler",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "tam-sayilar",
+    sourceNumber: "3.3",
+    catalogLesson: {
+      id: "lesson-add-integers",
+      slug: "tam-sayilarla-toplama",
+      displayTitle: "Tam Sayılarla Toplama",
+      summary:
+        "Pozitif ve negatif tam sayıları modelleyerek toplayın, değişkenli ifadeleri değerlendirin ve günlük yaşam problemlerini tam sayılarla çözün.",
+      sortOrder: 3,
+    },
+    objectives: [
+      "Tam sayılarla toplamayı modelleyebileceksiniz.",
+      "Tam sayılar içeren ifadeleri sadeleştirebileceksiniz.",
+      "Tam sayılarla verilen değişkenli ifadeleri değerlendirebileceksiniz.",
+      "Sözel ifadeleri cebirsel ifadelere çevirebileceksiniz.",
+      "Tam sayılarla toplama gerektiren problemleri çözebileceksiniz.",
+    ],
+    sectionTitles: {
+      "Model Addition of Integers": "Tam Sayılarla Toplamayı Modelleme",
+      "Simplify Expressions with Integers": "Tam Sayılarla Toplama İşlemi",
+      "Evaluate Variable Expressions with Integers":
+        "Değişkenli İfadeleri Değerlendirme",
+      "Translate Word Phrases to Algebraic Expressions":
+        "Sözel İfadeleri Cebirsel İfadeye Çevirme",
+      "Add Integers in Applications": "Tam Sayılarla Problem Çözme",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 3.27": p(
+        "Çözüm: İki sayı da pozitif olduğu için sayıları toplarız: 2+4=6.",
+      ),
+      "Sıra Sizde 3.28": p(
+        "Çözüm: Pozitif 2 ile pozitif 5'in toplamı 7'dir.",
+      ),
+      "Sıra Sizde 3.29": p(
+        "Çözüm: İki sayı da negatif olduğundan mutlak değerleri toplar ve negatif işaretini koruruz: -2+(-4)=-6.",
+      ),
+      "Sıra Sizde 3.30": p(
+        "Çözüm: -2 ile -5 aynı işaretlidir. 2+5=7 olduğu için toplam -7 olur.",
+      ),
+      "Sıra Sizde 3.31": p(
+        "Çözüm: 2 pozitif ve 4 negatif sayaçtan iki nötr çift çıkar; geriye 2 negatif kalır. Sonuç -2'dir.",
+      ),
+      "Sıra Sizde 3.32": p(
+        "Çözüm: 2 pozitif, 5 negatifle eşleşince iki nötr çift oluşur ve 3 negatif kalır. 2+(-5)=-3.",
+      ),
+      "Sıra Sizde 3.33": p(
+        "Çözüm: 2 negatif ve 4 pozitif sayaçtan iki nötr çift çıkar; geriye 2 pozitif kalır. Sonuç 2'dir.",
+      ),
+      "Sıra Sizde 3.34": p(
+        "Çözüm: 2 negatif ile 5 pozitiften iki nötr çift çıkar; geriye 3 pozitif kalır. Toplam 3'tür.",
+      ),
+      "Sıra Sizde 3.35": p(
+        "Çözüm: ⓐ 3+4=7. ⓑ -1+4=3. ⓒ 4+(-6)=-2. ⓓ -2+(-2)=-4.",
+      ),
+      "Sıra Sizde 3.36": p(
+        "Çözüm: ⓐ 5+1=6. ⓑ -3+7=4. ⓒ 2+(-8)=-6. ⓓ -3+(-4)=-7.",
+      ),
+      "Sıra Sizde 3.37": p(
+        "Çözüm: ⓐ 15+(-32) işleminde negatiflerin mutlak değeri büyük olduğu için sonuç negatiftir: 32-15=17, sonuç -17. ⓑ -19+76=57.",
+      ),
+      "Sıra Sizde 3.38": p(
+        "Çözüm: ⓐ -55+9 işleminde 55-9=46 ve negatiflerin mutlak değeri büyük olduğu için sonuç -46'dır. ⓑ 43+(-17)=26.",
+      ),
+      "Sıra Sizde 3.39": p(
+        "Çözüm: Aynı işaretli iki negatif sayı toplanır: -31+(-19)=-50.",
+      ),
+      "Sıra Sizde 3.40": p(
+        "Çözüm: -42 ve -28 aynı işaretlidir. 42+28=70 olduğundan toplam -70'tir.",
+      ),
+      "Sıra Sizde 3.41": p(
+        "Çözüm: Önce parantez içi: -4+7=3. Sonra 5·3=15 ve -2+15=13 olur.",
+      ),
+      "Sıra Sizde 3.42": p(
+        "Çözüm: Önce -3+5=2. Sonra 2·2=4 ve -4+4=0 bulunur.",
+      ),
+      "Sıra Sizde 3.43": p(
+        "Çözüm: x=-3 iken x+5=-3+5=2. x=-17 iken x+5=-17+5=-12 olur.",
+      ),
+      "Sıra Sizde 3.44": p(
+        "Çözüm: y=-5 iken y+7=-5+7=2. y=-8 iken y+7=-8+7=-1 olur.",
+      ),
+      "Sıra Sizde 3.45": p(
+        "Çözüm: n=-8 iken n+2=-8+2=-6. -n+2 ifadesinde -n=8 olur; 8+2=10.",
+      ),
+      "Sıra Sizde 3.46": p(
+        "Çözüm: y=-9 iken y+8=-1. -y+8 ifadesinde -y=9 olduğundan 9+8=17 bulunur.",
+      ),
+      "Sıra Sizde 3.47": p(
+        "Çözüm: a=-19 ve b=14 yazılır: a+2b=-19+2·14=-19+28=9.",
+      ),
+      "Sıra Sizde 3.48": p(
+        "Çözüm: p=4 ve q=-7 yazılır: 5p+q=5·4+(-7)=20-7=13.",
+      ),
+      "Sıra Sizde 3.49": p(
+        "Çözüm: x=-15 ve y=29 olduğundan x+y=14 olur. Bu yüzden (x+y)²=14²=196 bulunur.",
+      ),
+      "Sıra Sizde 3.50": p(
+        "Çözüm: x=-8 ve y=10 için x+y=2'dir. Bu nedenle (x+y)³=2³=8 olur.",
+      ),
+      "Sıra Sizde 3.51": p(
+        "Çözüm: “-7 ile 4'ün toplamı” ifadesi -7+4'tür. Mutlak değeri büyük olan sayı negatif olduğu için sonuç -3 olur.",
+      ),
+      "Sıra Sizde 3.52": p(
+        "Çözüm: “-8 ile -6'nın toplamı” ifadesi -8+(-6)'dır. Aynı işaretli negatifler toplandığı için sonuç -14'tür.",
+      ),
+      "Sıra Sizde 3.53": p(
+        "Çözüm: Önce 9+(-16)=-7 bulunur. Bu toplam 4 artırılır: -7+4=-3.",
+      ),
+      "Sıra Sizde 3.54": p(
+        "Çözüm: -8+(-12)=-20 olur. 7 artırırsak -20+7=-13 bulunur.",
+      ),
+      "Sıra Sizde 3.55": p(
+        "Çözüm: Başlangıç sıcaklığı -10°C, artış 14°C'dir. -10+14=4 olduğundan saat 11.00'de sıcaklık 4°C olur.",
+      ),
+      "Sıra Sizde 3.56": p(
+        "Çözüm: Yüzeyin altı negatif kabul edilir. Başlangıç derinliği -16 feet, 17 feet daha aşağı inmek -17 eklemek demektir. -16+(-17)=-33 feet.",
+      ),
+      "Sıra Sizde 3.57": p(
+        "Çözüm: 20 yard çizgisinden başlanır. 9 yard kayıp, 7 yard kazanç ve 4 yard kayıp: 20-9+7-4=14. Top 14 yard çizgisindedir.",
+      ),
+      "Sıra Sizde 3.58": p(
+        "Çözüm: 25 yard çizgisinden başlanır. 5 yard kazanıp 8 yard kaybedip 15 yard kazanırlar: 25+5-8+15=37. Top 37 yard çizgisindedir.",
+      ),
+    },
+    exerciseAnswers: {
+      "63": answer("Çözüm: İki sayı da pozitif olduğu için 7+4=11 olur."),
+      "65": answer("Çözüm: İki sayı da negatiftir. 6+3=9 olduğundan toplam -9'dur."),
+      "67": answer("Çözüm: İşaretler farklıdır. 7-5=2 ve mutlak değeri büyük olan sayı negatif olduğu için sonuç -2'dir."),
+      "69": answer("Çözüm: 8 ve -7 ters işaretlidir. 8-7=1 ve pozitif sayı büyük olduğu için sonuç 1'dir."),
+      "71": answer("Çözüm: Aynı işaretli negatifler toplanır: -21+(-59)=-80."),
+      "73": answer("Çözüm: İşaretler farklıdır. 48-16=32 ve pozitif sayı büyük olduğu için sonuç 32'dir."),
+      "75": answer("Çözüm: -200+65 işleminde 200-65=135 ve negatif sayı baskındır; sonuç -135 olur."),
+      "77": answer("Çözüm: Önce 2+(-8)=-6 bulunur; sonra kalan +6 ile -6 birbirini sıfırlar. Bu nedenle toplam 0 olur."),
+      "79": answer("Çözüm: -14+(-12)=-26 ve -26+4=-22 bulunur."),
+      "81": answer("Çözüm: 135+(-110)=25, ardından 25+83=108 olur."),
+      "83": answer("Çözüm: -32+24=-8, -8+(-6)=-14 ve -14+10=-4 bulunur."),
+      "85": answer("Çözüm: Önce parantez: -3+8=5. Sonra 2·5=10 ve 19+10=29 olur."),
+      "87": answer("Çözüm: x=-26 iken x+8=-18. x=-95 iken x+8=-87 olur."),
+      "89": answer("Çözüm: y=-33 iken y+(-14)=-47. y=30 iken 30+(-14)=16 olur."),
+      "91": answer("Çözüm: a=-7 için a+3=-4. -a+3 ifadesinde -a=7 olduğundan 7+3=10 olur."),
+      "93": answer("Çözüm: c=-9 için c+(-4)=-13. -c+(-4) ifadesinde -c=9 olduğundan 9+(-4)=5 bulunur."),
+      "95": answer("Çözüm: m=-15 ve n=7 yazılırsa m+n=-15+7=-8 olur."),
+      "97": answer("Çözüm: r=16 ve s=2 için r-3s=16-3·2=16-6=10 bulunur."),
+      "99": answer("Çözüm: a=-7 ve b=15 olduğundan a+b=8. Bu nedenle (a+b)²=8²=64'tür."),
+      "101": answer("Çözüm: x=-3 ve y=14 için x+y=11. Bu yüzden (x+y)²=121 olur."),
+      "103": answer("Çözüm: “-14 ile 5'in toplamı” -14+5'tir. Sonuç -9 olur."),
+      "105": answer("Çözüm: -2'den 8 fazla, -2+8 demektir. Sonuç 6'dır."),
+      "107": answer("Çözüm: -10'a -15 eklenir: -10+(-15)=-25."),
+      "109": answer("Çözüm: Önce -1 ile -12'nin toplamı -13'tür. Buna 6 eklenirse -13+6=-7 olur."),
+      "111": answer("Çözüm: 10+(-19)=-9. Bu toplam 4 artırılırsa -9+4=-5 bulunur."),
+      "113": answer("Çözüm: Sıcaklık -19°F ile başlar ve 26°F artar. -19+26=7 olduğundan öğlen sıcaklık 7°F olur."),
+      "115": answer("Çözüm: Borç negatif gösterilir. Başlangıç borcu -73 dolar, yeni harcama -45 dolardır. -73+(-45)=-118; yeni bakiye 118 dolar borçtur."),
+      "117": answer("Çözüm: Kayıplar negatif, kazanç pozitif yazılır: -3+(-2)+1+(-4)=-8. Toplam değişim 8 yard kayıptır."),
+      "119": answer("Çözüm: 35 yard çizgisinden başlanır: 35-12+8-6=25. Top 25 yard çizgisindedir."),
+      "121": answer("Çözüm: Yüzeyin altı negatif alınır. -8-17+5=-20 olduğundan yeni derinlik 20 feet aşağıdadır."),
+      "123": answer("Çözüm: Haftalık değişimleri toplarız: -504+142-449+410+369=-32. Hafta sonunda genel değişim -32 puandır."),
+      "125": answer("Çözüm: Ters işaretli sayılar toplanırken mutlak değerler çıkarılır ve mutlak değeri büyük olan sayının işareti alınır. -8+2 işleminde 8 büyük olduğu için sonuç negatif; 8+(-2) işleminde 8 büyük olduğu için sonuç pozitiftir."),
+    },
+    exerciseSectionSlugs: {
+      "63": "tam-sayilarla-toplamayi-modelleme",
+      "65": "tam-sayilarla-toplamayi-modelleme",
+      "67": "tam-sayilarla-toplamayi-modelleme",
+      "69": "tam-sayilarla-toplamayi-modelleme",
+      "71": "tam-sayilarla-toplama-islemi",
+      "73": "tam-sayilarla-toplama-islemi",
+      "75": "tam-sayilarla-toplama-islemi",
+      "77": "tam-sayilarla-toplama-islemi",
+      "79": "tam-sayilarla-toplama-islemi",
+      "81": "tam-sayilarla-toplama-islemi",
+      "83": "tam-sayilarla-toplama-islemi",
+      "85": "tam-sayilarla-toplama-islemi",
+      "87": "degiskenli-ifadeleri-degerlendirme",
+      "89": "degiskenli-ifadeleri-degerlendirme",
+      "91": "degiskenli-ifadeleri-degerlendirme",
+      "93": "degiskenli-ifadeleri-degerlendirme",
+      "95": "degiskenli-ifadeleri-degerlendirme",
+      "97": "degiskenli-ifadeleri-degerlendirme",
+      "99": "degiskenli-ifadeleri-degerlendirme",
+      "101": "degiskenli-ifadeleri-degerlendirme",
+      "103": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "105": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "107": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "109": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "111": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "113": "tam-sayilarla-problem-cozme",
+      "115": "tam-sayilarla-problem-cozme",
+      "117": "tam-sayilarla-problem-cozme",
+      "119": "tam-sayilarla-problem-cozme",
+      "121": "tam-sayilarla-problem-cozme",
+      "123": "tam-sayilarla-problem-cozme",
+      "125": "tam-sayilarla-problem-cozme",
+    },
+  },
 ];
