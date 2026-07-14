@@ -120,6 +120,8 @@ placeholder değerleri gösterir.
 
 - `NEXT_PUBLIC_SITE_URL`: public site adresi. Production için
   `https://www.turanarican.com`.
+- `CONTENT_SOURCE`: public içerik kaynağı. Varsayılan `static`; Turso içeriğine
+  bilinçli geçiş için `database` yap.
 - `TURSO_DATABASE_URL`: Turso database URL.
 - `TURSO_AUTH_TOKEN`: Turso auth token.
 - `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account id. CI veya CLI akışında
@@ -135,6 +137,23 @@ Cloudflare dashboard'da env var girerken:
 3. Değişiklikten sonra yeni deploy tetikle.
 4. Env değişkeni runtime'da okunuyorsa eski deploy otomatik güncellenmeyebilir;
    yeniden deploy güvenli yaklaşımdır.
+
+`CONTENT_SOURCE=database` yapmadan önce production Turso migration'ları ve seed
+payload uygulanmış olmalı. Aksi halde public route'lar build veya runtime
+sırasında içerik bulamayabilir. Geçişten önce repo içinde:
+
+```bash
+npm run seed:pipeline
+```
+
+ve hedef DB için:
+
+```bash
+npm run db:migrate
+npm run seed:db-apply -- --write
+```
+
+çalıştır.
 
 ## GitHub
 

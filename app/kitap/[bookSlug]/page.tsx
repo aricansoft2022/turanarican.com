@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 
-import { getBook } from "@/data/catalog";
+import { getContentBook } from "@/src/content/source";
 
 type BookPageProps = {
   params: Promise<{
@@ -10,7 +10,7 @@ type BookPageProps = {
 
 export default async function BookPage({ params }: BookPageProps) {
   const { bookSlug } = await params;
-  const book = getBook(bookSlug);
+  const book = await getContentBook(bookSlug);
   const firstChapter = book?.chapters[0];
   const firstLesson = firstChapter?.lessons[0];
 
@@ -20,4 +20,3 @@ export default async function BookPage({ params }: BookPageProps) {
 
   redirect(`/kitap/${book.slug}/${firstChapter.slug}/${firstLesson.slug}`);
 }
-

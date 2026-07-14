@@ -1,10 +1,12 @@
 import type { MetadataRoute } from "next";
 
-import { lessons } from "@/data/catalog";
+import { getContentLessonParams } from "@/src/content/source";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.turanarican.com";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const lessons = await getContentLessonParams();
+
   return [
     {
       url: siteUrl,
@@ -13,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     ...lessons.map((lesson) => ({
-      url: `${siteUrl}/kitap/${lesson.bookSlug}/${lesson.chapterSlug}/${lesson.slug}`,
+      url: `${siteUrl}/kitap/${lesson.bookSlug}/${lesson.chapterSlug}/${lesson.lessonSlug}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.8,

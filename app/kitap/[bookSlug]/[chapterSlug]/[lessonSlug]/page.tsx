@@ -3,7 +3,10 @@ import { notFound } from "next/navigation";
 
 import { LessonNav } from "@/components/layout/LessonNav";
 import { LessonView } from "@/components/lesson/LessonView";
-import { getAllLessonParams, getBook, getLesson } from "@/data/catalog";
+import {
+  getContentLesson,
+  getContentLessonParams,
+} from "@/src/content/source";
 
 type LessonPageProps = {
   params: Promise<{
@@ -13,15 +16,16 @@ type LessonPageProps = {
   }>;
 };
 
-export function generateStaticParams() {
-  return getAllLessonParams();
+export async function generateStaticParams() {
+  return getContentLessonParams();
 }
 
 export async function generateMetadata({
   params,
 }: LessonPageProps): Promise<Metadata> {
   const resolvedParams = await params;
-  const lesson = getLesson(resolvedParams);
+  const entry = await getContentLesson(resolvedParams);
+  const lesson = entry?.lesson;
 
   if (!lesson) {
     return {};
@@ -64,8 +68,9 @@ export async function generateMetadata({
 
 export default async function LessonPage({ params }: LessonPageProps) {
   const resolvedParams = await params;
-  const book = getBook(resolvedParams.bookSlug);
-  const lesson = getLesson(resolvedParams);
+  const entry = await getContentLesson(resolvedParams);
+  const book = entry?.book;
+  const lesson = entry?.lesson;
 
   if (!book || !lesson) {
     notFound();
