@@ -1,8 +1,8 @@
-import { mkdtemp, readFile, readdir, rm } from "node:fs/promises";
+import { mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 
-import { createClient, type Client } from "@libsql/client";
+import { createClient } from "@libsql/client";
 
 import {
   assertForeignKeys,
@@ -11,12 +11,8 @@ import {
   readSeedDatabasePayload,
   readTableCounts,
 } from "./lib/seed-db";
+import { applySqlMigrations } from "./lib/migrations";
 
-const migrationsDir = path.join(
-  process.cwd(),
-  "db",
-  "migrations",
-);
 async function main() {
   const tempDir = await mkdtemp(path.join(tmpdir(), "turan-seed-db-"));
   const dbPath = path.join(tempDir, "seed.db");
@@ -24,7 +20,7 @@ async function main() {
 
   try {
     await client.execute("PRAGMA foreign_keys = ON");
-    await applyMigrations(client);
+    await applySqlMigrations(client);
 
     const payload = await readSeedDatabasePayload();
     await insertSeedPayload(client, payload);
@@ -38,24 +34,6 @@ async function main() {
   } finally {
     client.close();
     await rm(tempDir, { recursive: true, force: true });
-  }
-}
-
-async function applyMigrations(client: Client) {
-  const migrationFiles = (await readdir(migrationsDir))
-    .filter((fileName) => fileName.endsWith(".sql"))
-    .sort();
-
-  for (const fileName of migrationFiles) {
-    const migration = await readFile(path.join(migrationsDir, fileName), "utf8");
-    const statements = migration
-      .split("--> statement-breakpoint")
-      .map((statement) => statement.trim())
-      .filter(Boolean);
-
-    for (const statement of statements) {
-      await client.execute(statement);
-    }
   }
 }
 

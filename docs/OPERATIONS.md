@@ -432,6 +432,7 @@ npm run seed:lessons
 npm run seed:validate
 npm run seed:db-payload
 npm run seed:db-verify
+npm run seed:db-read
 ```
 
 Tek komutluk repo içi seed kalite kapısı:
@@ -441,7 +442,9 @@ npm run seed:pipeline
 ```
 
 Not: `seed:db-payload` fixture validation'ı kendisi de çalıştırır; bozuk seed
-fixture DB payload'a çevrilmez.
+fixture DB payload'a çevrilmez. `seed:db-read`, migration uygulanmış geçici
+SQLite veritabanına seed yazar ve uygulamanın `Book`/`Lesson` okuma modeline
+geri çevrilebildiğini doğrular.
 
 Migration uygulanmış bir Turso veya lokal SQLite hedefine seed payload'ı yazmak
 için önce kuru koşuyu kontrol et:
