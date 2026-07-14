@@ -27,6 +27,7 @@
     "content:language-report": "tsx scripts/report-language-coverage.ts",
     "content:language-check": "tsx scripts/report-language-coverage.ts --fail-on-english",
     "content:editorial-report": "tsx scripts/report-editorial-patches.ts",
+    "content:seed-coverage": "tsx scripts/report-seed-coverage.ts",
     "cf:build": "opennextjs-cloudflare build",
     "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
