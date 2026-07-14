@@ -1,12 +1,16 @@
+import { pathToFileURL } from "node:url";
+
 import type { ContentBlock, InlineContent, Lesson } from "@/src/content/types";
 
-import { readSeedFixture } from "./validate-seed-lessons";
+import { readSeedFixture, type SeedFixture } from "./validate-seed-lessons";
 
 type TextFragment = {
   lessonSlug: string;
   context: string;
   text: string;
 };
+
+type LanguageCoverageReport = ReturnType<typeof buildLanguageCoverageReport>;
 
 const englishSignalPattern =
   /\b(?:the|and|with|from|then|number|numbers|expression|expressions|equation|equations|multiple|multiples|factor|factors|prime|composite|find|identify|determine|using|following|exercises|answer|solution|table|figure|step|each|given|counting|substitute|simplify|solve)\b/i;
@@ -15,6 +19,16 @@ const englishSignalTokenPattern =
 
 async function main() {
   const fixture = await readSeedFixture();
+  const report = buildLanguageCoverageReport(fixture);
+
+  printLanguageCoverageReport(report);
+
+  if (process.argv.includes("--fail-on-english")) {
+    assertNoEnglishSignals(report);
+  }
+}
+
+export function buildLanguageCoverageReport(fixture: SeedFixture) {
   const lessons = fixture.lessons.map((entry) => entry.lesson);
   const fragments = lessons.flatMap(collectLessonFragments);
   const flagged = fragments.filter((fragment) =>
@@ -42,20 +56,37 @@ async function main() {
     };
   });
 
+  return {
+    lessons: lessons.length,
+    fragments: fragments.length,
+    englishSignalFragments: flagged.length,
+    englishSignalRatio: ratio(flagged.length, fragments.length),
+    topSignals: summarizeTopSignals(flagged),
+    byLesson,
+  };
+}
+
+function printLanguageCoverageReport(report: LanguageCoverageReport) {
   console.log("Seed language coverage report.");
-  console.log(
-    JSON.stringify(
-      {
-        lessons: lessons.length,
-        fragments: fragments.length,
-        englishSignalFragments: flagged.length,
-        englishSignalRatio: ratio(flagged.length, fragments.length),
-        topSignals: summarizeTopSignals(flagged),
-        byLesson,
-      },
-      null,
-      2,
-    ),
+  console.log(JSON.stringify(report, null, 2));
+}
+
+function assertNoEnglishSignals(report: LanguageCoverageReport) {
+  if (report.englishSignalFragments === 0) return;
+
+  const samples = report.byLesson
+    .flatMap((lesson) =>
+      lesson.samples.map(
+        (sample) => `${lesson.slug} ${sample.context}: ${sample.text}`,
+      ),
+    )
+    .slice(0, 10);
+
+  throw new Error(
+    [
+      `Seed language check found ${report.englishSignalFragments} English-looking fragment(s).`,
+      ...samples,
+    ].join("\n"),
   );
 }
 
@@ -192,7 +223,14 @@ function summarizeTopSignals(fragments: TextFragment[]) {
     .map(([signal, count]) => ({ signal, count }));
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (isDirectInvocation()) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
+
+function isDirectInvocation() {
+  const invokedPath = process.argv[1];
+  return invokedPath ? import.meta.url === pathToFileURL(invokedPath).href : false;
+}
