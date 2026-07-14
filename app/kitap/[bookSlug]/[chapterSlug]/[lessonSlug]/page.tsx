@@ -7,6 +7,7 @@ import {
   getContentLesson,
   getContentLessonParams,
 } from "@/src/content/source";
+import { buildLessonStructuredData } from "@/src/content/structured-data";
 
 type LessonPageProps = {
   params: Promise<{
@@ -76,24 +77,7 @@ export default async function LessonPage({ params }: LessonPageProps) {
     notFound();
   }
 
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "LearningResource",
-    name: lesson.displayTitle,
-    description: lesson.summary,
-    inLanguage: "tr",
-    isPartOf: {
-      "@type": "Book",
-      name: book.title,
-      url: book.sourceUrl,
-    },
-    license: lesson.license.url,
-    provider: {
-      "@type": "Organization",
-      name: "Turan Arıcan Matematik",
-      url: "https://www.turanarican.com",
-    },
-  };
+  const structuredData = buildLessonStructuredData({ book, lesson });
 
   return (
     <div className="lg:grid lg:grid-cols-[320px_minmax(0,1fr)]">

@@ -12,6 +12,7 @@ import {
   getContentLesson,
   getContentLessonParams,
 } from "@/src/content/source";
+import { buildLessonStructuredData } from "@/src/content/structured-data";
 
 import { applySqlMigrations } from "./lib/migrations";
 import { applySeedPayload, readSeedDatabasePayload } from "./lib/seed-db";
@@ -185,6 +186,44 @@ function assertLessonEntry(
 
   if (!entry.lesson.exercises.length) {
     throw new Error(`${source} content source returned a lesson without exercises.`);
+  }
+
+  assertLessonStructuredData(entry, source);
+}
+
+function assertLessonStructuredData(
+  entry: NonNullable<Awaited<ReturnType<typeof getContentLesson>>>,
+  source: string,
+) {
+  const structuredData = buildLessonStructuredData(entry);
+  const learningResource = structuredData.find(
+    (item) => item["@type"] === "LearningResource",
+  );
+  const breadcrumbs = structuredData.find(
+    (item) => item["@type"] === "BreadcrumbList",
+  );
+
+  if (!learningResource) {
+    throw new Error(`${source} structured data is missing LearningResource.`);
+  }
+
+  if (!breadcrumbs || !("itemListElement" in breadcrumbs)) {
+    throw new Error(`${source} structured data is missing BreadcrumbList.`);
+  }
+
+  const items = breadcrumbs.itemListElement;
+  if (!Array.isArray(items) || items.length !== 4) {
+    throw new Error(`${source} breadcrumb structured data must have 4 items.`);
+  }
+
+  const lessonUrl = `https://www.turanarican.com/kitap/${entry.lesson.bookSlug}/${entry.lesson.chapterSlug}/${entry.lesson.slug}`;
+  const lastItem = items.at(-1);
+  if (
+    !lastItem ||
+    lastItem.item !== lessonUrl ||
+    lastItem.name !== entry.lesson.displayTitle
+  ) {
+    throw new Error(`${source} breadcrumb structured data has an invalid lesson item.`);
   }
 }
 
