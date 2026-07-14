@@ -7507,6 +7507,243 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "3.5",
+    sections: [
+      {
+        sectionSlug: "tam-sayilarla-carpma",
+        replaceBlocks: [
+          ...removeBlocks(20),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Çarpma, tekrarlı toplamanın kısa yoludur. Tam sayılarla çarpmada önce sayıların mutlak değerlerini çarpar, sonra işaretlere bakarız.",
+              ),
+              pt(
+                "İki çarpanın işaretleri aynıysa çarpım pozitif, işaretleri farklıysa çarpım negatiftir.",
+              ),
+              p([
+                m("5\\cdot3=15"),
+                t(", "),
+                m("-5\\cdot3=-15"),
+                t(", "),
+                m("5\\cdot(-3)=-15"),
+                t(" ve "),
+                m("(-5)(-3)=15"),
+                t(" örnekleri bu kuralı gösterir."),
+              ]),
+              ex(
+                "Örnek 3.47",
+                [
+                  t("Çarpın: ⓐ "),
+                  m("-9\\cdot3"),
+                  t(" ⓑ "),
+                  m("-2(-5)"),
+                  t(" ⓒ "),
+                  m("4(-8)"),
+                  t(" ⓓ "),
+                  m("7\\cdot6"),
+                ],
+                sol("Çözüm: ⓐ İşaretler farklıdır: -9·3=-27. ⓑ İki negatifin çarpımı pozitiftir: -2(-5)=10. ⓒ İşaretler farklıdır: 4(-8)=-32. ⓓ İki pozitifin çarpımı pozitiftir: 42."),
+              ),
+              ex(
+                "Sıra Sizde 3.93",
+                [
+                  t("Çarpın: ⓐ "),
+                  m("-6\\cdot8"),
+                  t(" ⓑ "),
+                  m("-4(-7)"),
+                  t(" ⓒ "),
+                  m("9(-7)"),
+                  t(" ⓓ "),
+                  m("5\\cdot12"),
+                ],
+              ),
+              ex(
+                "Sıra Sizde 3.94",
+                [
+                  t("Çarpın: ⓐ "),
+                  m("-8\\cdot7"),
+                  t(" ⓑ "),
+                  m("-6(-9)"),
+                  t(" ⓒ "),
+                  m("7(-4)"),
+                  t(" ⓓ "),
+                  m("3\\cdot13"),
+                ],
+              ),
+              pt(
+                "-1 ile çarpmak bir sayının zıttını verir. Pozitif sayı negatife, negatif sayı pozitife döner.",
+              ),
+              ex(
+                "Örnek 3.48",
+                [t("Çarpın: ⓐ "), m("-1\\cdot7"), t(" ⓑ "), m("-1(-11)")],
+                sol("Çözüm: ⓐ -1·7=-7; 7'nin zıttı -7'dir. ⓑ -1(-11)=11; -11'in zıttı 11'dir."),
+              ),
+              ex("Sıra Sizde 3.95", [t("Çarpın: ⓐ "), m("-1\\cdot9"), t(" ⓑ "), m("-1(-17)")]),
+              ex("Sıra Sizde 3.96", [t("Çarpın: ⓐ "), m("-1\\cdot8"), t(" ⓑ "), m("-1(-16)")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilarla-bolme",
+        replaceBlocks: [
+          ...removeBlocks(16),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bölme, çarpmanın ters işlemidir. Bu yüzden tam sayılarla bölmede işaret kuralı çarpmayla aynıdır.",
+              ),
+              pt(
+                "Bölünen ve bölen aynı işaretliyse bölüm pozitif, farklı işaretliyse bölüm negatiftir. Sonucu çarpmayla kontrol edebiliriz.",
+              ),
+              ex(
+                "Örnek 3.49",
+                [t("Bölün: ⓐ "), m("-27\\div3"), t(" ⓑ "), m("-100\\div(-4)")],
+                sol("Çözüm: ⓐ İşaretler farklıdır; 27÷3=9, sonuç -9. ⓑ İşaretler aynıdır; 100÷4=25, sonuç 25."),
+              ),
+              ex("Sıra Sizde 3.97", [t("Bölün: ⓐ "), m("-42\\div6"), t(" ⓑ "), m("-117\\div(-3)")]),
+              ex("Sıra Sizde 3.98", [t("Bölün: ⓐ "), m("-63\\div7"), t(" ⓑ "), m("-115\\div(-5)")]),
+              pt(
+                "Bir sayıyı -1'e bölmek de o sayının zıttını verir.",
+              ),
+              ex(
+                "Örnek 3.50",
+                [t("Bölün: ⓐ "), m("16\\div(-1)"), t(" ⓑ "), m("-20\\div(-1)")],
+                sol("Çözüm: ⓐ 16'nın zıttı -16'dır. ⓑ -20'nin zıttı 20'dir."),
+              ),
+              ex("Sıra Sizde 3.99", [t("Bölün: ⓐ "), m("6\\div(-1)"), t(" ⓑ "), m("-36\\div(-1)")]),
+              ex("Sıra Sizde 3.100", [t("Bölün: ⓐ "), m("28\\div(-1)"), t(" ⓑ "), m("-52\\div(-1)")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tam-sayilarla-islem-onceligi",
+        replaceBlocks: [
+          ...removeBlocks(16),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Tam sayılarla dört işlem içeren ifadelerde işlem önceliği değişmez: önce parantez ve üs, sonra çarpma-bölme, en son toplama-çıkarma yapılır.",
+              ),
+              ex(
+                "Örnek 3.51",
+                [t("Sadeleştirin: "), m("7(-2)+4(-7)-6"), t(".")],
+                sol("Çözüm: Önce çarpma yapılır: 7(-2)=-14 ve 4(-7)=-28. Sonra -14-28-6=-48 bulunur."),
+              ),
+              ex("Sıra Sizde 3.101", [t("Sadeleştirin: "), m("8(-3)+5(-7)-4")]),
+              ex("Sıra Sizde 3.102", [t("Sadeleştirin: "), m("9(-3)+7(-8)-1")]),
+              pt(
+                "Parantez, üslü ifadelerde tabanın ne olduğunu belirler. (-2)^4 ifadesinde taban -2'dir; -2^4 ifadesinde ise üs yalnızca 2'ye uygulanır.",
+              ),
+              ex(
+                "Örnek 3.52",
+                [t("Sadeleştirin: ⓐ "), m("(-2)^4"), t(" ⓑ "), m("-2^4")],
+                sol("Çözüm: ⓐ (-2)^4=16; dört negatif çarpan pozitif sonuç verir. ⓑ -2^4=-(2^4)=-16; çünkü parantez yoktur."),
+              ),
+              ex("Sıra Sizde 3.103", [t("Sadeleştirin: ⓐ "), m("(-3)^4"), t(" ⓑ "), m("-3^4")]),
+              ex("Sıra Sizde 3.104", [t("Sadeleştirin: ⓐ "), m("(-7)^2"), t(" ⓑ "), m("-7^2")]),
+              ex(
+                "Örnek 3.53",
+                [t("Sadeleştirin: "), m("12-3(9-12)"), t(".")],
+                sol("Çözüm: Önce parantez: 9-12=-3. Sonra 3(-3)=-9 ve 12-(-9)=21 olur."),
+              ),
+              ex("Sıra Sizde 3.105", [t("Sadeleştirin: "), m("17-4(8-11)")]),
+              ex("Sıra Sizde 3.106", [t("Sadeleştirin: "), m("16-6(7-13)")]),
+              ex(
+                "Örnek 3.54",
+                [t("Sadeleştirin: "), m("8(-9)\\div(-2)^3"), t(".")],
+                sol("Çözüm: Önce üs: (-2)^3=-8. Sonra 8(-9)=-72 ve -72÷(-8)=9 bulunur."),
+              ),
+              ex("Sıra Sizde 3.107", [t("Sadeleştirin: "), m("12(-9)\\div(-3)^3")]),
+              ex("Sıra Sizde 3.108", [t("Sadeleştirin: "), m("18(-4)\\div(-2)^3")]),
+              ex(
+                "Örnek 3.55",
+                [t("Sadeleştirin: "), m("-30\\div2+(-3)(-7)"), t(".")],
+                sol("Çözüm: Önce bölme ve çarpma yapılır: -30÷2=-15 ve (-3)(-7)=21. Sonra -15+21=6 olur."),
+              ),
+              ex("Sıra Sizde 3.109", [t("Sadeleştirin: "), m("-27\\div3+(-5)(-6)")]),
+              ex("Sıra Sizde 3.110", [t("Sadeleştirin: "), m("-32\\div4+(-2)(-7)")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "degiskenli-ifadeleri-degerlendirme",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Değişkenli ifadeleri değerlendirirken değişken yerine verilen değeri yazarız. Negatif değerlerde parantez kullanmak özellikle önemlidir.",
+              ),
+              ex(
+                "Örnek 3.56",
+                [
+                  m("x=-4"),
+                  t(" iken "),
+                  m("2x^2-3x+8"),
+                  t(" ifadesini değerlendirin."),
+                ],
+                sol("Çözüm: x yerine -4 yazılır: 2(-4)^2-3(-4)+8=2·16+12+8=52."),
+              ),
+              ex("Sıra Sizde 3.111", [t("Değerlendirin: "), m("3x^2-2x+6"), t(", "), m("x=-3"), t(" iken.")]),
+              ex("Sıra Sizde 3.112", [t("Değerlendirin: "), m("4x^2-x-5"), t(", "), m("x=-2"), t(" iken.")]),
+              ex(
+                "Örnek 3.57",
+                [
+                  m("x=-1"),
+                  t(" ve "),
+                  m("y=2"),
+                  t(" iken "),
+                  m("3x+4y-6"),
+                  t(" ifadesini değerlendirin."),
+                ],
+                sol("Çözüm: x=-1 ve y=2 yazılır: 3(-1)+4(2)-6=-3+8-6=-1."),
+              ),
+              ex("Sıra Sizde 3.113", [t("Değerlendirin: "), m("7x+6y-12"), t(", "), m("x=-2"), t(" ve "), m("y=3"), t(" iken.")]),
+              ex("Sıra Sizde 3.114", [t("Değerlendirin: "), m("8x-6y+13"), t(", "), m("x=-3"), t(" ve "), m("y=-5"), t(" iken.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sözel ifadelerde “çarpımı” çarpma işlemini, “bölümü” ise bölme işlemini anlatır. Sayıların sırasına dikkat ederiz.",
+              ),
+              ex(
+                "Örnek 3.58",
+                [t("Cebirsel ifadeye çevirip sadeleştirin: "), m("-2"), t(" ile "), m("14"), t("'ün çarpımı.")],
+                sol("Çözüm: Çarpım, çarpma demektir. İfade -2·14 olur ve sonuç -28'dir."),
+              ),
+              ex("Sıra Sizde 3.115", [t("Cebirsel ifadeye çevirip sadeleştirin: "), m("-5"), t(" ile "), m("12"), t("'nin çarpımı.")]),
+              ex("Sıra Sizde 3.116", [t("Cebirsel ifadeye çevirip sadeleştirin: "), m("8"), t(" ile "), m("-13"), t("'ün çarpımı.")]),
+              ex(
+                "Örnek 3.59",
+                [t("Cebirsel ifadeye çevirip sadeleştirin: "), m("-56"), t(" ile "), m("-7"), t("'nin bölümü.")],
+                sol("Çözüm: Bölüm, bölme demektir. İfade -56÷(-7) olur. İşaretler aynı olduğu için sonuç 8'dir."),
+              ),
+              ex("Sıra Sizde 3.117", [t("Cebirsel ifadeye çevirip sadeleştirin: "), m("-63"), t(" ile "), m("-9"), t("'un bölümü.")]),
+              ex("Sıra Sizde 3.118", [t("Cebirsel ifadeye çevirip sadeleştirin: "), m("-72"), t(" ile "), m("-9"), t("'un bölümü.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

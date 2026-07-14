@@ -25,11 +25,11 @@ navigation, SEO, attribution, and ingestion workflows.
 
 - Current branch after the last handoff: `main`.
 - Recent local-only production commits include:
+  - `9005ce6 Add integer subtraction seed lesson`
   - `06586af Clean stale seed DB rows on apply`
   - `f6660eb Add integer addition seed lesson`
   - `5dfb3c2 Add prime factorization seed lesson`
   - `8dd28ee Add integers seed lesson`
-  - `a05502b Add next seed candidate report`
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -307,17 +307,17 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. Done; seven seed
+8. Seed one or two lessons end-to-end before mass ingestion. Done; eight seed
    lessons now build end-to-end for Prealgebra 2.3, 2.4, 2.5, 2.6, 3.2, 3.3,
-   and 3.4.
+   3.4, and 3.5.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
 11. Add informational language coverage report and initial Turkish localization
     cleanup hooks for exercise prompts/math text. Started.
 
-Current next seed candidate after the latest local work: Prealgebra 3.5
-`Multiply and Divide Integers`, displayed as product lesson 3.4 under
-`Tam Sayılar`.
+Current next seed candidate after the latest local work: Prealgebra 3.6
+`Solve Equations Using Integers; The Division Property of Equality`, displayed
+as product lesson 3.5 under `Tam Sayılar`.
 
 ## Quality Gates
 

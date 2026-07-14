@@ -1560,4 +1560,192 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "209": "tam-sayilarla-problem-cozme",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "tam-sayilar",
+    sourceNumber: "3.5",
+    catalogLesson: {
+      id: "lesson-multiply-divide-integers",
+      slug: "tam-sayilarla-carpma-ve-bolme",
+      displayTitle: "Tam Sayılarla Çarpma ve Bölme",
+      summary:
+        "Tam sayılarla çarpma ve bölme kurallarını öğrenin, işlem önceliğiyle ifadeleri sadeleştirin ve değişkenli ifadeleri değerlendirin.",
+      sortOrder: 5,
+    },
+    objectives: [
+      "Tam sayılarla çarpma işlemi yapabileceksiniz.",
+      "Tam sayılarla bölme işlemi yapabileceksiniz.",
+      "Tam sayılar içeren ifadeleri sadeleştirebileceksiniz.",
+      "Tam sayılarla verilen değişkenli ifadeleri değerlendirebileceksiniz.",
+      "Sözel ifadeleri cebirsel ifadelere çevirebileceksiniz.",
+    ],
+    sectionTitles: {
+      "Multiply Integers": "Tam Sayılarla Çarpma",
+      "Divide Integers": "Tam Sayılarla Bölme",
+      "Simplify Expressions with Integers": "Tam Sayılarla İşlem Önceliği",
+      "Evaluate Variable Expressions with Integers":
+        "Değişkenli İfadeleri Değerlendirme",
+      "Translate Word Phrases to Algebraic Expressions":
+        "Sözel İfadeleri Cebirsel İfadeye Çevirme",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 3.93": p(
+        "Çözüm: ⓐ -6·8=-48. ⓑ -4(-7)=28. ⓒ 9(-7)=-63. ⓓ 5·12=60.",
+      ),
+      "Sıra Sizde 3.94": p(
+        "Çözüm: ⓐ -8·7=-56. ⓑ -6(-9)=54. ⓒ 7(-4)=-28. ⓓ 3·13=39.",
+      ),
+      "Sıra Sizde 3.95": p(
+        "Çözüm: -1 ile çarpmak sayının zıttını verir. ⓐ -1·9=-9. ⓑ -1·(-17)=17.",
+      ),
+      "Sıra Sizde 3.96": p(
+        "Çözüm: ⓐ -1·8=-8. ⓑ -1·(-16)=16; çünkü negatif sayının zıttı pozitiftir.",
+      ),
+      "Sıra Sizde 3.97": p(
+        "Çözüm: ⓐ -42÷6=-7; işaretler farklıdır. ⓑ -117÷(-3)=39; işaretler aynıdır.",
+      ),
+      "Sıra Sizde 3.98": p(
+        "Çözüm: ⓐ -63÷7=-9. ⓑ -115÷(-5)=23. Aynı işaretli bölüm pozitiftir.",
+      ),
+      "Sıra Sizde 3.99": p(
+        "Çözüm: -1'e bölmek sayının zıttını verir. ⓐ 6÷(-1)=-6. ⓑ -36÷(-1)=36.",
+      ),
+      "Sıra Sizde 3.100": p(
+        "Çözüm: ⓐ 28÷(-1)=-28. ⓑ -52÷(-1)=52; sonuçlar verilen sayıların zıttıdır.",
+      ),
+      "Sıra Sizde 3.101": p(
+        "Çözüm: Önce çarpma yapılır: 8(-3)=-24 ve 5(-7)=-35. Sonra -24-35-4=-63 bulunur.",
+      ),
+      "Sıra Sizde 3.102": p(
+        "Çözüm: Önce 9(-3)=-27 ve 7(-8)=-56. Ardından -27-56-1=-84 olur.",
+      ),
+      "Sıra Sizde 3.103": p(
+        "Çözüm: ⓐ (-3)^4 ifadesinde taban -3'tür; dört çarpan olduğundan sonuç 81. ⓑ -3^4 ifadesi -(3^4)=-81 demektir.",
+      ),
+      "Sıra Sizde 3.104": p(
+        "Çözüm: ⓐ (-7)^2=49. ⓑ -7^2 ifadesinde üs yalnızca 7'ye uygulanır; sonuç -49'dur.",
+      ),
+      "Sıra Sizde 3.105": p(
+        "Çözüm: Önce parantez: 8-11=-3. Sonra 17-4(-3)=17+12=29 olur.",
+      ),
+      "Sıra Sizde 3.106": p(
+        "Çözüm: 7-13=-6 olduğundan 16-6(-6)=16+36=52 bulunur.",
+      ),
+      "Sıra Sizde 3.107": p(
+        "Çözüm: Önce (-3)^3=-27. Sonra 12(-9)=-108 ve -108÷(-27)=4 olur.",
+      ),
+      "Sıra Sizde 3.108": p(
+        "Çözüm: (-2)^3=-8 ve 18(-4)=-72'dir. Bu yüzden -72÷(-8)=9 bulunur.",
+      ),
+      "Sıra Sizde 3.109": p(
+        "Çözüm: Önce bölme ve çarpma yapılır: -27÷3=-9 ve (-5)(-6)=30. Sonra -9+30=21.",
+      ),
+      "Sıra Sizde 3.110": p(
+        "Çözüm: -32÷4=-8 ve (-2)(-7)=14. Toplam -8+14=6 olur.",
+      ),
+      "Sıra Sizde 3.111": p(
+        "Çözüm: x=-3 yazılır: 3(-3)^2-2(-3)+6=27+6+6=39.",
+      ),
+      "Sıra Sizde 3.112": p(
+        "Çözüm: x=-2 yazılır: 4(-2)^2-(-2)-5=16+2-5=13.",
+      ),
+      "Sıra Sizde 3.113": p(
+        "Çözüm: x=-2 ve y=3 yazılır: 7(-2)+6(3)-12=-14+18-12=-8.",
+      ),
+      "Sıra Sizde 3.114": p(
+        "Çözüm: x=-3 ve y=-5 yazılır: 8(-3)-6(-5)+13=-24+30+13=19.",
+      ),
+      "Sıra Sizde 3.115": p(
+        "Çözüm: “-5 ile 12'nin çarpımı” ifadesi -5·12'dir. İşaretler farklı olduğu için sonuç -60 olur.",
+      ),
+      "Sıra Sizde 3.116": p(
+        "Çözüm: “8 ile -13'ün çarpımı” 8(-13) olarak yazılır ve sonuç -104'tür.",
+      ),
+      "Sıra Sizde 3.117": p(
+        "Çözüm: “-63 ile -9'un bölümü” -63÷(-9) demektir. İşaretler aynı olduğu için sonuç 7'dir.",
+      ),
+      "Sıra Sizde 3.118": p(
+        "Çözüm: -72÷(-9)=8 olur; negatif iki sayının bölümü pozitiftir.",
+      ),
+    },
+    exerciseAnswers: {
+      "211": answer("Çözüm: İşaretler farklı olduğu için çarpım negatiftir. 4·8=32 olduğundan sonuç -32 olur."),
+      "213": answer("Çözüm: -5 ile 7 ters işaretlidir. 5·7=35 olduğu için çarpım -35'tir."),
+      "215": answer("Çözüm: İki sayı da negatif olduğu için çarpım pozitiftir. 18·2=36 bulunur."),
+      "217": answer("Çözüm: 9 ile -7 ters işaretlidir. 9·7=63 olduğundan sonuç -63 olur."),
+      "219": answer("Çözüm: -1 ile çarpmak sayının zıttını verir; 6'nın zıttı -6'dır."),
+      "221": answer("Çözüm: -1 ile -14 aynı işaretli iki negatiftir. Çarpım pozitif olur ve 14 bulunur."),
+      "223": answer("Çözüm: -24 ile 6 farklı işaretlidir. 24÷6=4 olduğu için bölüm -4'tür."),
+      "225": answer("Çözüm: 56÷(-7) işleminde işaretler farklıdır; 56÷7=8 olduğundan sonuç -8 olur."),
+      "227": answer("Çözüm: -52 ve -4 aynı işaretlidir. 52÷4=13 olduğundan bölüm pozitiftir: 13."),
+      "229": answer("Çözüm: -180÷15 işleminde işaretler farklıdır; 180÷15=12, sonuç -12 olur."),
+      "231": answer("Çözüm: -1'e bölmek sayının zıttını verir. Bu nedenle 49÷(-1)=-49 olur."),
+      "233": answer("Çözüm: Önce çarpımlar yapılır: 5(-6)=-30 ve 7(-2)=-14. Sonra -30-14-3=-47 bulunur."),
+      "235": answer("Çözüm: -8(-2)=16 ve 3(-9)=-27. İfade 16-(-27)=43 olur."),
+      "237": answer("Çözüm: (-5)^3 üç negatif çarpan içerir; tek sayıda negatif çarpan sonucu negatif yapar. 5^3=125, sonuç -125'tir."),
+      "239": answer("Çözüm: (-2)^6 altı negatif çarpan içerir. Çift sayıda negatif çarpan olduğundan sonuç pozitiftir: 64."),
+      "241": answer("Çözüm: -4^2 ifadesinde üs yalnızca 4'e uygulanır. Önce 4^2=16, sonra zıttı alınır: -16."),
+      "243": answer("Çözüm: Önce -3(-5)=15 olur. Sonra 15·6=90 bulunur."),
+      "245": answer("Çözüm: Soldan sağa çarparız: -4·2=-8 ve -8·11=-88 olur."),
+      "247": answer("Çözüm: Önce parantezler: 8-11=-3 ve 9-12=-3. Sonra (-3)(-3)=9 bulunur."),
+      "249": answer("Çözüm: Parantez içi 2-7=-5'tir. 3(-5)=-15 olduğundan 26-(-15)=41 olur."),
+      "251": answer("Çözüm: Önce çarpma: -10(-4)=40. Sonra 40÷(-8)=-5 olur."),
+      "253": answer("Çözüm: 65÷(-5)=-13 ve (-28)÷(-7)=4. Toplam -13+4=-9 olur."),
+      "255": answer("Çözüm: Köşeli parantez içinde 8(-2)=-16 ve 3-(-16)=19. Sonra 9-2·19=9-38=-29 bulunur."),
+      "257": answer("Çözüm: (-3)^2=9 ve 8-2=6. 24÷6=4 olduğundan ifade 9-4=5 olur."),
+      "259": answer("Çözüm: x=8 iken -2x+17=-16+17=1. x=-8 iken -2(-8)+17=16+17=33."),
+      "261": answer("Çözüm: m=5 iken 10-3m=10-15=-5. m=-5 iken 10-3(-5)=10+15=25."),
+      "263": answer("Çözüm: p=-1 yazılır: p^2-5p+5=(-1)^2-5(-1)+5=1+5+5=11."),
+      "265": answer("Çözüm: w=-2 için 2w^2-3w+7=2·4-3(-2)+7=8+6+7=21 olur."),
+      "267": answer("Çözüm: x=3 ve y=-1 yazılır: 6x-5y+15=18-5(-1)+15=18+5+15=38."),
+      "269": answer("Çözüm: a=-6 ve b=-3 yazılır: 9a-2b-8=9(-6)-2(-3)-8=-54+6-8=-56."),
+      "271": answer("Çözüm: “-3 ile 15'in çarpımı” -3·15 olarak yazılır. İşaretler farklı olduğu için sonuç -45'tir."),
+      "273": answer("Çözüm: “-60 ile -20'nin bölümü” -60÷(-20) demektir. İşaretler aynı olduğu için sonuç 3'tür."),
+      "275": answer("Çözüm: “-6 ile a+b toplamının bölümü” ifadesi -6÷(a+b), yani -6/(a+b) olarak yazılır."),
+      "277": answer("Çözüm: “p ile q'nun farkı” p-q'dur. Bunun -10 ile çarpımı -10(p-q) olarak yazılır."),
+      "279": answer("Çözüm: Her hisse 12 dolar değer kaybediyorsa değişim -12'dir. 300 hisse için 300(-12)=-3.600 dolar olur."),
+      "281": answer("Çözüm: Aynı işaretli iki tam sayının çarpımı pozitiftir; farklı işaretli iki tam sayının çarpımı negatiftir."),
+      "283": answer("Çözüm: -2^4 ifadesinde üs yalnızca 2'ye uygulanır ve sonuç -(2^4)=-16 olur. (-2)^4 ifadesinde taban -2 olduğundan sonuç 16'dır."),
+    },
+    exerciseSectionSlugs: {
+      "211": "tam-sayilarla-carpma",
+      "213": "tam-sayilarla-carpma",
+      "215": "tam-sayilarla-carpma",
+      "217": "tam-sayilarla-carpma",
+      "219": "tam-sayilarla-carpma",
+      "221": "tam-sayilarla-carpma",
+      "223": "tam-sayilarla-bolme",
+      "225": "tam-sayilarla-bolme",
+      "227": "tam-sayilarla-bolme",
+      "229": "tam-sayilarla-bolme",
+      "231": "tam-sayilarla-bolme",
+      "233": "tam-sayilarla-islem-onceligi",
+      "235": "tam-sayilarla-islem-onceligi",
+      "237": "tam-sayilarla-islem-onceligi",
+      "239": "tam-sayilarla-islem-onceligi",
+      "241": "tam-sayilarla-islem-onceligi",
+      "243": "tam-sayilarla-islem-onceligi",
+      "245": "tam-sayilarla-islem-onceligi",
+      "247": "tam-sayilarla-islem-onceligi",
+      "249": "tam-sayilarla-islem-onceligi",
+      "251": "tam-sayilarla-islem-onceligi",
+      "253": "tam-sayilarla-islem-onceligi",
+      "255": "tam-sayilarla-islem-onceligi",
+      "257": "tam-sayilarla-islem-onceligi",
+      "259": "degiskenli-ifadeleri-degerlendirme",
+      "261": "degiskenli-ifadeleri-degerlendirme",
+      "263": "degiskenli-ifadeleri-degerlendirme",
+      "265": "degiskenli-ifadeleri-degerlendirme",
+      "267": "degiskenli-ifadeleri-degerlendirme",
+      "269": "degiskenli-ifadeleri-degerlendirme",
+      "271": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "273": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "275": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "277": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "279": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "281": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+      "283": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+    },
+  },
 ];

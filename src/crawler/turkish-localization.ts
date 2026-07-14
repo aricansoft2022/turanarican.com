@@ -68,11 +68,29 @@ export function localizeExercisePromptForTurkish(
     adaptIntegerCompareExercise(normalizedPrompt) ??
     adaptIntegerWordExpressionExercise(normalizedPrompt) ??
     adaptIntegerSituationExercise(normalizedPrompt) ??
+    adaptIntegerMultiplicationDivisionWordProblem(normalizedPrompt) ??
+    adaptIntegerMultiplicationDivisionPhraseExercise(normalizedPrompt) ??
+    adaptIntegerMultiplicationDivisionEvaluateExercise(normalizedPrompt) ??
     adaptIntegerSubtractionWordProblem(normalizedPrompt) ??
     adaptIntegerSubtractionPhraseExercise(normalizedPrompt) ??
     adaptIntegerAdditionWordProblem(normalizedPrompt) ??
     adaptIntegerAdditionPhraseExercise(normalizedPrompt) ??
     adaptAlgebraicWordPhraseExercise(normalizedPrompt) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, multiply each pair of integers.",
+      "Aşağıdaki alıştırmalarda her tam sayı çiftini çarpın.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, divide.",
+      "Aşağıdaki alıştırmalarda bölme işlemini yapın.",
+    ) ??
+    adaptPlainInstruction(
+      normalizedPrompt,
+      "In the following exercises, translate to an algebraic expression and simplify if possible.",
+      "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin.",
+    ) ??
     adaptPlainInstruction(
       normalizedPrompt,
       "In the following exercises, model each expression and simplify.",
@@ -381,6 +399,95 @@ function adaptIntegerAdditionPhraseExercise(
 
   if (!replacement) return null;
   return [{ type: "text", value: replacement }] satisfies InlineContent[];
+}
+
+function adaptIntegerMultiplicationDivisionPhraseExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+  if (text.includes("The product of") && text.includes("the difference of")) {
+    return [
+      {
+        type: "text",
+        value:
+          "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin. -10 ile p ve q'nun farkının çarpımı.",
+      },
+    ] satisfies InlineContent[];
+  }
+
+  const replacements: Array<[string, string]> = [
+    [
+      "The product of −3 and 15",
+      "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin. -3 ile 15'in çarpımı.",
+    ],
+    [
+      "The quotient of −60 and −20",
+      "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin. -60 ile -20'nin bölümü.",
+    ],
+    [
+      "The quotient of −6 and the sum of a and b",
+      "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin. -6 ile a ve b'nin toplamının bölümü.",
+    ],
+  ];
+  const replacement = replacements.find(([source]) => text.includes(source))?.[1];
+
+  if (!replacement) return null;
+  return [{ type: "text", value: replacement }] satisfies InlineContent[];
+}
+
+function adaptIntegerMultiplicationDivisionWordProblem(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+  const replacements: Array<[string, string]> = [
+    [
+      "Stock market Javier owns",
+      "Borsa: Javier bir şirkette 300 hisseye sahiptir. Salı günü hisse fiyatı hisse başına 12 dolar düştü. Bu durum Javier'in portföyünü toplamda nasıl etkiler?",
+    ],
+    [
+      "In your own words, state the rules for multiplying two integers.",
+      "İki tam sayıyı çarpma kurallarını kendi cümlelerinizle açıklayın.",
+    ],
+    [
+      "Why is",
+      "-2^4 ile (-2)^4 ifadelerinin neden eşit olmadığını açıklayın.",
+    ],
+  ];
+  const replacement = replacements.find(([source]) => text.includes(source))?.[1];
+
+  if (!replacement) return null;
+  return [{ type: "text", value: replacement }] satisfies InlineContent[];
+}
+
+function adaptIntegerMultiplicationDivisionEvaluateExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const first = prompt[0];
+
+  if (
+    first?.type !== "text" ||
+    first.value !== "In the following exercises, evaluate each expression."
+  ) {
+    return null;
+  }
+
+  return prompt.map((item, index) => {
+    if (index === 0) {
+      return {
+        type: "text",
+        value: "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin.",
+      };
+    }
+
+    if (item.type !== "text") return item;
+
+    return {
+      ...item,
+      value: item.value
+        .replace(/\bwhen\b/g, "için")
+        .replace(/\band\b/g, "ve"),
+    };
+  }) satisfies InlineContent[];
 }
 
 function adaptIntegerSubtractionPhraseExercise(

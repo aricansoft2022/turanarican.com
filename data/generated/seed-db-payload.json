@@ -185,6 +185,27 @@
         "sortOrder": 4,
         "status": "draft",
         "rawHash": "ccce15e278e7975ba33c47bb727bdf0bdf3125aaba0c392527c091ac7759244e"
+      },
+      {
+        "id": "lesson-multiply-divide-integers",
+        "chapterId": "chapter-integers",
+        "slug": "tam-sayilarla-carpma-ve-bolme",
+        "sourceNumber": "3.5",
+        "displayNumber": "3.4",
+        "sourceTitle": "Multiply and Divide Integers",
+        "displayTitle": "Tam Sayılarla Çarpma ve Bölme",
+        "summary": "Tam sayılarla çarpma ve bölme kurallarını öğrenin, işlem önceliğiyle ifadeleri sadeleştirin ve değişkenli ifadeleri değerlendirin.",
+        "objectivesJson": [
+          "Tam sayılarla çarpma işlemi yapabileceksiniz.",
+          "Tam sayılarla bölme işlemi yapabileceksiniz.",
+          "Tam sayılar içeren ifadeleri sadeleştirebileceksiniz.",
+          "Tam sayılarla verilen değişkenli ifadeleri değerlendirebileceksiniz.",
+          "Sözel ifadeleri cebirsel ifadelere çevirebileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers",
+        "sortOrder": 5,
+        "status": "draft",
+        "rawHash": "c839107ada00ecd4e8afcf839c39e24fc490b2dd801285e62b4064aabdcb8866"
       }
     ],
     "lessonSections": [
@@ -15675,6 +15696,1502 @@
             ]
           }
         ]
+      },
+      {
+        "id": "tam-sayilarla-carpma-ve-bolme-section-01",
+        "lessonId": "lesson-multiply-divide-integers",
+        "heading": "Tam Sayılarla Çarpma",
+        "slug": "tam-sayilarla-carpma",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Çarpma, tekrarlı toplamanın kısa yoludur. Tam sayılarla çarpmada önce sayıların mutlak değerlerini çarpar, sonra işaretlere bakarız."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "İki çarpanın işaretleri aynıysa çarpım pozitif, işaretleri farklıysa çarpım negatiftir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "5\\cdot3=15"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "-5\\cdot3=-15"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "5\\cdot(-3)=-15"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "(-5)(-3)=15"
+              },
+              {
+                "type": "text",
+                "value": " örnekleri bu kuralı gösterir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.47",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-9\\cdot3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-2(-5)"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "4(-8)"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "7\\cdot6"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ İşaretler farklıdır: -9·3=-27. ⓑ İki negatifin çarpımı pozitiftir: -2(-5)=10. ⓒ İşaretler farklıdır: 4(-8)=-32. ⓓ İki pozitifin çarpımı pozitiftir: 42."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.93",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-6\\cdot8"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-4(-7)"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "9(-7)"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "5\\cdot12"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -6·8=-48. ⓑ -4(-7)=28. ⓒ 9(-7)=-63. ⓓ 5·12=60."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.94",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-8\\cdot7"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-6(-9)"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "7(-4)"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "3\\cdot13"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -8·7=-56. ⓑ -6(-9)=54. ⓒ 7(-4)=-28. ⓓ 3·13=39."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "-1 ile çarpmak bir sayının zıttını verir. Pozitif sayı negatife, negatif sayı pozitife döner."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.48",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-1\\cdot7"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-1(-11)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -1·7=-7; 7'nin zıttı -7'dir. ⓑ -1(-11)=11; -11'in zıttı 11'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.95",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-1\\cdot9"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-1(-17)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -1 ile çarpmak sayının zıttını verir. ⓐ -1·9=-9. ⓑ -1·(-17)=17."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.96",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-1\\cdot8"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-1(-16)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -1·8=-8. ⓑ -1·(-16)=16; çünkü negatif sayının zıttı pozitiftir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tam-sayilarla-carpma-ve-bolme-section-02",
+        "lessonId": "lesson-multiply-divide-integers",
+        "heading": "Tam Sayılarla Bölme",
+        "slug": "tam-sayilarla-bolme",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bölme, çarpmanın ters işlemidir. Bu yüzden tam sayılarla bölmede işaret kuralı çarpmayla aynıdır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bölünen ve bölen aynı işaretliyse bölüm pozitif, farklı işaretliyse bölüm negatiftir. Sonucu çarpmayla kontrol edebiliriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.49",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-27\\div3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-100\\div(-4)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ İşaretler farklıdır; 27÷3=9, sonuç -9. ⓑ İşaretler aynıdır; 100÷4=25, sonuç 25."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.97",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-42\\div6"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-117\\div(-3)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -42÷6=-7; işaretler farklıdır. ⓑ -117÷(-3)=39; işaretler aynıdır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.98",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-63\\div7"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-115\\div(-5)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -63÷7=-9. ⓑ -115÷(-5)=23. Aynı işaretli bölüm pozitiftir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir sayıyı -1'e bölmek de o sayının zıttını verir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.50",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "16\\div(-1)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-20\\div(-1)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 16'nın zıttı -16'dır. ⓑ -20'nin zıttı 20'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.99",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "6\\div(-1)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-36\\div(-1)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -1'e bölmek sayının zıttını verir. ⓐ 6÷(-1)=-6. ⓑ -36÷(-1)=36."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.100",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "28\\div(-1)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-52\\div(-1)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 28÷(-1)=-28. ⓑ -52÷(-1)=52; sonuçlar verilen sayıların zıttıdır."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "lessonId": "lesson-multiply-divide-integers",
+        "heading": "Tam Sayılarla İşlem Önceliği",
+        "slug": "tam-sayilarla-islem-onceligi",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Tam sayılarla dört işlem içeren ifadelerde işlem önceliği değişmez: önce parantez ve üs, sonra çarpma-bölme, en son toplama-çıkarma yapılır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.51",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "7(-2)+4(-7)-6"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce çarpma yapılır: 7(-2)=-14 ve 4(-7)=-28. Sonra -14-28-6=-48 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.101",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "8(-3)+5(-7)-4"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce çarpma yapılır: 8(-3)=-24 ve 5(-7)=-35. Sonra -24-35-4=-63 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.102",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "9(-3)+7(-8)-1"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce 9(-3)=-27 ve 7(-8)=-56. Ardından -27-56-1=-84 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Parantez, üslü ifadelerde tabanın ne olduğunu belirler. (-2)^4 ifadesinde taban -2'dir; -2^4 ifadesinde ise üs yalnızca 2'ye uygulanır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.52",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "(-2)^4"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-2^4"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ (-2)^4=16; dört negatif çarpan pozitif sonuç verir. ⓑ -2^4=-(2^4)=-16; çünkü parantez yoktur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.103",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "(-3)^4"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-3^4"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ (-3)^4 ifadesinde taban -3'tür; dört çarpan olduğundan sonuç 81. ⓑ -3^4 ifadesi -(3^4)=-81 demektir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.104",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "(-7)^2"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-7^2"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ (-7)^2=49. ⓑ -7^2 ifadesinde üs yalnızca 7'ye uygulanır; sonuç -49'dur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.53",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "12-3(9-12)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce parantez: 9-12=-3. Sonra 3(-3)=-9 ve 12-(-9)=21 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.105",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "17-4(8-11)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce parantez: 8-11=-3. Sonra 17-4(-3)=17+12=29 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.106",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "16-6(7-13)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7-13=-6 olduğundan 16-6(-6)=16+36=52 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.54",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "8(-9)\\div(-2)^3"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce üs: (-2)^3=-8. Sonra 8(-9)=-72 ve -72÷(-8)=9 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.107",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "12(-9)\\div(-3)^3"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce (-3)^3=-27. Sonra 12(-9)=-108 ve -108÷(-27)=4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.108",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "18(-4)\\div(-2)^3"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (-2)^3=-8 ve 18(-4)=-72'dir. Bu yüzden -72÷(-8)=9 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.55",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-30\\div2+(-3)(-7)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce bölme ve çarpma yapılır: -30÷2=-15 ve (-3)(-7)=21. Sonra -15+21=6 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.109",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-27\\div3+(-5)(-6)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce bölme ve çarpma yapılır: -27÷3=-9 ve (-5)(-6)=30. Sonra -9+30=21."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.110",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-32\\div4+(-2)(-7)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -32÷4=-8 ve (-2)(-7)=14. Toplam -8+14=6 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tam-sayilarla-carpma-ve-bolme-section-04",
+        "lessonId": "lesson-multiply-divide-integers",
+        "heading": "Değişkenli İfadeleri Değerlendirme",
+        "slug": "degiskenli-ifadeleri-degerlendirme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Değişkenli ifadeleri değerlendirirken değişken yerine verilen değeri yazarız. Negatif değerlerde parantez kullanmak özellikle önemlidir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.56",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "x=-4"
+              },
+              {
+                "type": "text",
+                "value": " iken "
+              },
+              {
+                "type": "math",
+                "value": "2x^2-3x+8"
+              },
+              {
+                "type": "text",
+                "value": " ifadesini değerlendirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x yerine -4 yazılır: 2(-4)^2-3(-4)+8=2·16+12+8=52."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.111",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değerlendirin: "
+              },
+              {
+                "type": "math",
+                "value": "3x^2-2x+6"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "x=-3"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=-3 yazılır: 3(-3)^2-2(-3)+6=27+6+6=39."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.112",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değerlendirin: "
+              },
+              {
+                "type": "math",
+                "value": "4x^2-x-5"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "x=-2"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=-2 yazılır: 4(-2)^2-(-2)-5=16+2-5=13."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.57",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "x=-1"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "y=2"
+              },
+              {
+                "type": "text",
+                "value": " iken "
+              },
+              {
+                "type": "math",
+                "value": "3x+4y-6"
+              },
+              {
+                "type": "text",
+                "value": " ifadesini değerlendirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=-1 ve y=2 yazılır: 3(-1)+4(2)-6=-3+8-6=-1."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.113",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değerlendirin: "
+              },
+              {
+                "type": "math",
+                "value": "7x+6y-12"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "x=-2"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "y=3"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=-2 ve y=3 yazılır: 7(-2)+6(3)-12=-14+18-12=-8."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.114",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değerlendirin: "
+              },
+              {
+                "type": "math",
+                "value": "8x-6y+13"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "x=-3"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "y=-5"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=-3 ve y=-5 yazılır: 8(-3)-6(-5)+13=-24+30+13=19."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tam-sayilarla-carpma-ve-bolme-section-05",
+        "lessonId": "lesson-multiply-divide-integers",
+        "heading": "Sözel İfadeleri Cebirsel İfadeye Çevirme",
+        "slug": "sozel-ifadeleri-cebirsel-ifadeye-cevirme",
+        "level": 2,
+        "sortOrder": 5,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Sözel ifadelerde “çarpımı” çarpma işlemini, “bölümü” ise bölme işlemini anlatır. Sayıların sırasına dikkat ederiz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.58",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirip sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-2"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "14"
+              },
+              {
+                "type": "text",
+                "value": "'ün çarpımı."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Çarpım, çarpma demektir. İfade -2·14 olur ve sonuç -28'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.115",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirip sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-5"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "12"
+              },
+              {
+                "type": "text",
+                "value": "'nin çarpımı."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “-5 ile 12'nin çarpımı” ifadesi -5·12'dir. İşaretler farklı olduğu için sonuç -60 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.116",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirip sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "8"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "-13"
+              },
+              {
+                "type": "text",
+                "value": "'ün çarpımı."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “8 ile -13'ün çarpımı” 8(-13) olarak yazılır ve sonuç -104'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 3.59",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirip sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-56"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "-7"
+              },
+              {
+                "type": "text",
+                "value": "'nin bölümü."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Bölüm, bölme demektir. İfade -56÷(-7) olur. İşaretler aynı olduğu için sonuç 8'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.117",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirip sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-63"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "-9"
+              },
+              {
+                "type": "text",
+                "value": "'un bölümü."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “-63 ile -9'un bölümü” -63÷(-9) demektir. İşaretler aynı olduğu için sonuç 7'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 3.118",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirip sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "-72"
+              },
+              {
+                "type": "text",
+                "value": " ile "
+              },
+              {
+                "type": "math",
+                "value": "-9"
+              },
+              {
+                "type": "text",
+                "value": "'un bölümü."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -72÷(-9)=8 olur; negatif iki sayının bölümü pozitiftir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -20842,7 +22359,7 @@
           },
           {
             "type": "text",
-            "value": " when  ⓐ"
+            "value": " için  ⓐ"
           },
           {
             "type": "math",
@@ -20887,7 +22404,7 @@
           },
           {
             "type": "text",
-            "value": " when  ⓐ"
+            "value": " için  ⓐ"
           },
           {
             "type": "math",
@@ -21030,7 +22547,7 @@
           },
           {
             "type": "text",
-            "value": " when, "
+            "value": " için, "
           },
           {
             "type": "math",
@@ -21075,7 +22592,7 @@
           },
           {
             "type": "text",
-            "value": " when, "
+            "value": " için, "
           },
           {
             "type": "math",
@@ -21120,7 +22637,7 @@
           },
           {
             "type": "text",
-            "value": " when, "
+            "value": " için, "
           },
           {
             "type": "math",
@@ -21165,7 +22682,7 @@
           },
           {
             "type": "text",
-            "value": " when, "
+            "value": " için, "
           },
           {
             "type": "math",
@@ -22619,6 +24136,1055 @@
         "sortOrder": 209,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-211",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-01",
+        "number": "211",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her tam sayı çiftini çarpın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−4·8"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İşaretler farklı olduğu için çarpım negatiftir. 4·8=32 olduğundan sonuç -32 olur."
+          }
+        ],
+        "sortOrder": 211,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-213",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-01",
+        "number": "213",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "−5(7)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -5 ile 7 ters işaretlidir. 5·7=35 olduğu için çarpım -35'tir."
+          }
+        ],
+        "sortOrder": 213,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-215",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-01",
+        "number": "215",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "−18(−2)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İki sayı da negatif olduğu için çarpım pozitiftir. 18·2=36 bulunur."
+          }
+        ],
+        "sortOrder": 215,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-217",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-01",
+        "number": "217",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "9(−7)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 9 ile -7 ters işaretlidir. 9·7=63 olduğundan sonuç -63 olur."
+          }
+        ],
+        "sortOrder": 217,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-219",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-01",
+        "number": "219",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "−1·6"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -1 ile çarpmak sayının zıttını verir; 6'nın zıttı -6'dır."
+          }
+        ],
+        "sortOrder": 219,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-221",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-01",
+        "number": "221",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "−1(−14)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -1 ile -14 aynı işaretli iki negatiftir. Çarpım pozitif olur ve 14 bulunur."
+          }
+        ],
+        "sortOrder": 221,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-223",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-02",
+        "number": "223",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bölme işlemini yapın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−24\\div6"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -24 ile 6 farklı işaretlidir. 24÷6=4 olduğu için bölüm -4'tür."
+          }
+        ],
+        "sortOrder": 223,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-225",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-02",
+        "number": "225",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bölme işlemini yapın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "56\\div(−7)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 56÷(-7) işleminde işaretler farklıdır; 56÷7=8 olduğundan sonuç -8 olur."
+          }
+        ],
+        "sortOrder": 225,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-227",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-02",
+        "number": "227",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bölme işlemini yapın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−52\\div(−4)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -52 ve -4 aynı işaretlidir. 52÷4=13 olduğundan bölüm pozitiftir: 13."
+          }
+        ],
+        "sortOrder": 227,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-229",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-02",
+        "number": "229",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bölme işlemini yapın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−180\\div15"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -180÷15 işleminde işaretler farklıdır; 180÷15=12, sonuç -12 olur."
+          }
+        ],
+        "sortOrder": 229,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-231",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-02",
+        "number": "231",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bölme işlemini yapın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "49\\div(−1)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -1'e bölmek sayının zıttını verir. Bu nedenle 49÷(-1)=-49 olur."
+          }
+        ],
+        "sortOrder": 231,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-233",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "233",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "5(−6)+7(−2)−3"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce çarpımlar yapılır: 5(-6)=-30 ve 7(-2)=-14. Sonra -30-14-3=-47 bulunur."
+          }
+        ],
+        "sortOrder": 233,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-235",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "235",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−8(−2)−3(−9)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -8(-2)=16 ve 3(-9)=-27. İfade 16-(-27)=43 olur."
+          }
+        ],
+        "sortOrder": 235,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-237",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "237",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "{(−5)}^{3}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (-5)^3 üç negatif çarpan içerir; tek sayıda negatif çarpan sonucu negatif yapar. 5^3=125, sonuç -125'tir."
+          }
+        ],
+        "sortOrder": 237,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-239",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "239",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "{(−2)}^{6}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (-2)^6 altı negatif çarpan içerir. Çift sayıda negatif çarpan olduğundan sonuç pozitiftir: 64."
+          }
+        ],
+        "sortOrder": 239,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-241",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "241",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "-4^{2}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -4^2 ifadesinde üs yalnızca 4'e uygulanır. Önce 4^2=16, sonra zıttı alınır: -16."
+          }
+        ],
+        "sortOrder": 241,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-243",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "243",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−3(−5)(6)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce -3(-5)=15 olur. Sonra 15·6=90 bulunur."
+          }
+        ],
+        "sortOrder": 243,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-245",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "245",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−4·2·11"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Soldan sağa çarparız: -4·2=-8 ve -8·11=-88 olur."
+          }
+        ],
+        "sortOrder": 245,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-247",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "247",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "(8-11)(9-12)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce parantezler: 8-11=-3 ve 9-12=-3. Sonra (-3)(-3)=9 bulunur."
+          }
+        ],
+        "sortOrder": 247,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-249",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "249",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "26-3(2-7)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Parantez içi 2-7=-5'tir. 3(-5)=-15 olduğundan 26-(-15)=41 olur."
+          }
+        ],
+        "sortOrder": 249,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-251",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "251",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−10(−4)\\div(−8)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce çarpma: -10(-4)=40. Sonra 40÷(-8)=-5 olur."
+          }
+        ],
+        "sortOrder": 251,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-253",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "253",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "65\\div(−5)+(−28)\\div(−7)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 65÷(-5)=-13 ve (-28)÷(-7)=4. Toplam -13+4=-9 olur."
+          }
+        ],
+        "sortOrder": 253,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-255",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "255",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "9-2[3-8(−2)]"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Köşeli parantez içinde 8(-2)=-16 ve 3-(-16)=19. Sonra 9-2·19=9-38=-29 bulunur."
+          }
+        ],
+        "sortOrder": 255,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-257",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-03",
+        "number": "257",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "{(−3)}^{2}−24\\div(8-2)"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (-3)^2=9 ve 8-2=6. 24÷6=4 olduğundan ifade 9-4=5 olur."
+          }
+        ],
+        "sortOrder": 257,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-259",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-04",
+        "number": "259",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "−2x+17 \\text{iken}"
+          },
+          {
+            "type": "text",
+            "value": "  ⓐ"
+          },
+          {
+            "type": "math",
+            "value": "x=8"
+          },
+          {
+            "type": "text",
+            "value": " ⓑ"
+          },
+          {
+            "type": "math",
+            "value": "x=−8"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x=8 iken -2x+17=-16+17=1. x=-8 iken -2(-8)+17=16+17=33."
+          }
+        ],
+        "sortOrder": 259,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-261",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-04",
+        "number": "261",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "10-3m \\text{iken}"
+          },
+          {
+            "type": "text",
+            "value": "  ⓐ "
+          },
+          {
+            "type": "math",
+            "value": "m=5"
+          },
+          {
+            "type": "text",
+            "value": " ⓑ "
+          },
+          {
+            "type": "math",
+            "value": "m=−5"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: m=5 iken 10-3m=10-15=-5. m=-5 iken 10-3(-5)=10+15=25."
+          }
+        ],
+        "sortOrder": 261,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-263",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-04",
+        "number": "263",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "p^{2}-5p+5 \\text{iken} p=−1"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: p=-1 yazılır: p^2-5p+5=(-1)^2-5(-1)+5=1+5+5=11."
+          }
+        ],
+        "sortOrder": 263,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-265",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-04",
+        "number": "265",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "2w^{2}-3w+7"
+          },
+          {
+            "type": "text",
+            "value": " için "
+          },
+          {
+            "type": "math",
+            "value": "w=−2"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: w=-2 için 2w^2-3w+7=2·4-3(-2)+7=8+6+7=21 olur."
+          }
+        ],
+        "sortOrder": 265,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-267",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-04",
+        "number": "267",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "6x-5y+15"
+          },
+          {
+            "type": "text",
+            "value": " için "
+          },
+          {
+            "type": "math",
+            "value": "x=3"
+          },
+          {
+            "type": "text",
+            "value": " ve "
+          },
+          {
+            "type": "math",
+            "value": "y=−1"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x=3 ve y=-1 yazılır: 6x-5y+15=18-5(-1)+15=18+5+15=38."
+          }
+        ],
+        "sortOrder": 267,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-269",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-04",
+        "number": "269",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her ifadeyi değerlendirin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "9a-2b-8"
+          },
+          {
+            "type": "text",
+            "value": " için "
+          },
+          {
+            "type": "math",
+            "value": "a=−6"
+          },
+          {
+            "type": "text",
+            "value": " ve "
+          },
+          {
+            "type": "math",
+            "value": "b=−3"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: a=-6 ve b=-3 yazılır: 9a-2b-8=9(-6)-2(-3)-8=-54+6-8=-56."
+          }
+        ],
+        "sortOrder": 269,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-271",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-05",
+        "number": "271",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin. -3 ile 15'in çarpımı."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: “-3 ile 15'in çarpımı” -3·15 olarak yazılır. İşaretler farklı olduğu için sonuç -45'tir."
+          }
+        ],
+        "sortOrder": 271,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-273",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-05",
+        "number": "273",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin. -60 ile -20'nin bölümü."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: “-60 ile -20'nin bölümü” -60÷(-20) demektir. İşaretler aynı olduğu için sonuç 3'tür."
+          }
+        ],
+        "sortOrder": 273,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-275",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-05",
+        "number": "275",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin. -6 ile a ve b'nin toplamının bölümü."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: “-6 ile a+b toplamının bölümü” ifadesi -6÷(a+b), yani -6/(a+b) olarak yazılır."
+          }
+        ],
+        "sortOrder": 275,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-277",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-05",
+        "number": "277",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda sözel ifadeyi cebirsel ifadeye çevirin ve mümkünse sadeleştirin. -10 ile p ve q'nun farkının çarpımı."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: “p ile q'nun farkı” p-q'dur. Bunun -10 ile çarpımı -10(p-q) olarak yazılır."
+          }
+        ],
+        "sortOrder": 277,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-279",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-05",
+        "number": "279",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Borsa: Javier bir şirkette 300 hisseye sahiptir. Salı günü hisse fiyatı hisse başına 12 dolar düştü. Bu durum Javier'in portföyünü toplamda nasıl etkiler?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her hisse 12 dolar değer kaybediyorsa değişim -12'dir. 300 hisse için 300(-12)=-3.600 dolar olur."
+          }
+        ],
+        "sortOrder": 279,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-281",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-05",
+        "number": "281",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İki tam sayıyı çarpma kurallarını kendi cümlelerinizle açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Aynı işaretli iki tam sayının çarpımı pozitiftir; farklı işaretli iki tam sayının çarpımı negatiftir."
+          }
+        ],
+        "sortOrder": 281,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-multiply-divide-integers-exercise-283",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sectionId": "tam-sayilarla-carpma-ve-bolme-section-05",
+        "number": "283",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "-2^4 ile (-2)^4 ifadelerinin neden eşit olmadığını açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -2^4 ifadesinde üs yalnızca 2'ye uygulanır ve sonuç -(2^4)=-16 olur. (-2)^4 ifadesinde taban -2 olduğundan sonuç 16'dır."
+          }
+        ],
+        "sortOrder": 283,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -22675,6 +25241,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.04%3A_Subtract_Integers",
         "httpStatus": 200,
         "contentHash": "ccce15e278e7975ba33c47bb727bdf0bdf3125aaba0c392527c091ac7759244e",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers",
+        "httpStatus": 200,
+        "contentHash": "c839107ada00ecd4e8afcf839c39e24fc490b2dd801285e62b4064aabdcb8866",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -25238,6 +27812,370 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/3-3-subtract-integers/ab278ef2f0283c12.json",
         "r2Key": "assets/prealgebra-2e-openstax/3-3-subtract-integers/ab278ef2f0283c12.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-000-b4019daaee2d2d1d",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104842/d9f4fbba094c7fcaf5234c7705a5ea3081d45c39?revision=1",
+        "assetType": "figure",
+        "altText": "This image has two columns. The first column has 5 times 3. Underneath, it states add 5, 3 times. Under this there are 3 rows of 5 blue circles labeled 15 positives and 5 times 3 equals 15. The second column has negative 5 times 3. Underneath it states add negative 5, 3 times. Under this there are 3 rows of 5 red circles labeled 15 negatives and negative 5 times 3 equals 15.",
+        "caption": "Figure 3.19",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/000-b4019daaee2d2d1d.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/000-b4019daaee2d2d1d.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-002-63bb1afa99a7ef32",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104847/225ff306b5713b5019129e9e5566d675b8e22f5a?revision=1",
+        "assetType": "figure",
+        "altText": "This figure has 2 columns. The first column has 5 times negative 3. Underneath it states take away 5, 3 times. Under this there are 3 rows of 5 red circles. A downward arrow points to six rows of alternating colored circles in rows of fives. The first row includes 5 red circles, followed by five blue circles, then 5 red, five blue, five red, and five blue. All of the rows of blue circles are circled. The non-circled rows are labeled 15 negatives. Under the label is 5 times negative 3 equals negative 15. The second column has negative 5 times negative 3. Underneath it states take away negative 5, 3 times. Then there are 6 rows of 5 circles alternating in color. The first row is 5 blue circles followed by 5 red circles. All of the red rows are circled. The non-circles rows are labeled 15 positives. Under the label is negative 5 times negative 3 equals 15.",
+        "caption": "Figure 3.20",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/002-63bb1afa99a7ef32.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/002-63bb1afa99a7ef32.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-2283ae14ca41c54e",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/2283ae14ca41c54e.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/2283ae14ca41c54e.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-b74a77ba66748db7",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/b74a77ba66748db7.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/b74a77ba66748db7.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-ea2d43b7360e6af1",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/ea2d43b7360e6af1.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/ea2d43b7360e6af1.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-a41ab4b005588f53",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/a41ab4b005588f53.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/a41ab4b005588f53.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-f86f8ddff15da0b8",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Table 3.6",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f86f8ddff15da0b8.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f86f8ddff15da0b8.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-efabfef36404f102",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Table 3.7",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/efabfef36404f102.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/efabfef36404f102.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-4c10544ab9875215",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/4c10544ab9875215.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/4c10544ab9875215.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-bafb8d0ee8032062",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/bafb8d0ee8032062.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/bafb8d0ee8032062.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-f11d327ec1fea62b",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f11d327ec1fea62b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f11d327ec1fea62b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-b9e831d34e61d110",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/b9e831d34e61d110.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/b9e831d34e61d110.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-162b5051bc40a1ae",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/162b5051bc40a1ae.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/162b5051bc40a1ae.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-8125152787f5f002",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/8125152787f5f002.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/8125152787f5f002.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-34076ac61e133241",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/34076ac61e133241.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/34076ac61e133241.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-23abf94001fa31ef",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/23abf94001fa31ef.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/23abf94001fa31ef.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-9492f487db84ae8e",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We use the order of operations. Multiply first and then add and subtract from left to right.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/9492f487db84ae8e.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/9492f487db84ae8e.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-09a71e154777d5cb",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-15",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓐ The exponent is 44 and the base is −2.−2. We raise −2−2 to the fourth power.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/09a71e154777d5cb.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/09a71e154777d5cb.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-f26f8c1e80ace168",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-16",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓑ The exponent is 44 and the base is 2.2. We raise 22 to the fourth power and then take the opposite.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f26f8c1e80ace168.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f26f8c1e80ace168.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-f5902826e7c53c5f",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-17",
+        "assetType": "table",
+        "altText": null,
+        "caption": "According to the order of operations, we simplify inside parentheses first. Then we will multiply and finally we will subtract.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f5902826e7c53c5f.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f5902826e7c53c5f.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-4d69c21ef8444316",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-18",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We simplify the exponent first, then multiply and divide.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/4d69c21ef8444316.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/4d69c21ef8444316.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-f9ca680920fdb7b9",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-19",
+        "assetType": "table",
+        "altText": null,
+        "caption": "First we will multiply and divide from left to right. Then we will add.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f9ca680920fdb7b9.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f9ca680920fdb7b9.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-139fd194864b15fa",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-20",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/139fd194864b15fa.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/139fd194864b15fa.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-111d2e593d5c9314",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-21",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/111d2e593d5c9314.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/111d2e593d5c9314.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-f6fcde0204f85263",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-22",
+        "assetType": "table",
+        "altText": null,
+        "caption": "The word product tells us to multiply.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f6fcde0204f85263.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/f6fcde0204f85263.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-multiply-divide-integers-asset-63a95fa6a1c0c6ec",
+        "lessonId": "lesson-multiply-divide-integers",
+        "sourceSnapshotId": "snapshot-c839107ada00ecd4",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.05%3A_Multiply_and_Divide_Integers#table-23",
+        "assetType": "table",
+        "altText": null,
+        "caption": "The word quotient tells us to divide.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/63a95fa6a1c0c6ec.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-4-multiply-and-divide-integers/63a95fa6a1c0c6ec.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"
