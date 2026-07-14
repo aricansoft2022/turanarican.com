@@ -7984,6 +7984,269 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "4.2",
+    sections: [
+      {
+        sectionSlug: "kesrin-anlami",
+        replaceBlocks: [
+          ...removeBlocks(30),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Kesir, bir bütünün eş parçalarından kaçının alındığını gösterir. Payda bütünün kaç eş parçaya ayrıldığını, pay ise bu parçalardan kaçının seçildiğini anlatır.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\frac{1}{2}"),
+                t(" bir bütünün iki eş parçasından birini; "),
+                m("\\frac{3}{4}"),
+                t(" ise dört eş parçadan üçünü gösterir. Payda sıfır olamaz."),
+              ]),
+              ex(
+                "Örnek 4.1",
+                [
+                  t("Boyalı kısmı kesirle adlandırın: ⓐ 8 eş parçalı dairenin 5 parçası boyalı. ⓑ 9 eş parçalı karenin 2 parçası boyalı."),
+                ],
+                sol(
+                  "Çözüm: Payda toplam eş parça sayısıdır, pay boyalı parça sayısıdır.",
+                  "ⓐ 8 parçanın 5'i boyalı olduğu için kesir 5/8'dir. ⓑ 9 parçanın 2'si boyalı olduğu için kesir 2/9'dur.",
+                ),
+              ),
+              ex("Sıra Sizde 4.1", [t("Boyalı kısmı kesirle adlandırın: ⓐ 8 parçanın 3'ü boyalı. ⓑ 9 parçanın 4'ü boyalı.")]),
+              ex("Sıra Sizde 4.2", [t("Boyalı kısmı kesirle adlandırın: ⓐ 5 parçanın 3'ü boyalı. ⓑ 4 parçanın 3'ü boyalı.")]),
+              ex(
+                "Örnek 4.2",
+                [m("\\frac{3}{4}"), t(" kesrini daire modeliyle gösterin.")],
+                sol(
+                  "Çözüm: Payda 4 olduğu için daireyi 4 eş parçaya ayırırız. Pay 3 olduğu için bu parçalardan 3'ünü boyarız.",
+                ),
+              ),
+              ex("Sıra Sizde 4.3", [m("\\frac{6}{8}"), t(" kesrini daire modeliyle gösterin.")]),
+              ex("Sıra Sizde 4.4", [m("\\frac{2}{5}"), t(" kesrini dikdörtgen modeliyle gösterin.")]),
+              pt(
+                "Kesir karoları veya kesir daireleri, bir bütünün farklı eş parçalara ayrılmış hallerini karşılaştırmayı kolaylaştırır.",
+              ),
+              ex(
+                "Örnek 4.3",
+                [t("Kesir karolarıyla bir bütünü kaç tane 1/2, 1/3 ve 1/4 parçanın tamamladığını belirleyin.")],
+                sol(
+                  "Çözüm: 2 tane yarım bir bütünü tamamlar; bu yüzden 2/2=1. 3 tane üçte bir bir bütündür; 3/3=1. 4 tane dörtte bir de bir bütündür; 4/4=1.",
+                ),
+              ),
+              ex("Sıra Sizde 4.5", [t("3 tane üçte bir parçayla kaç bütün yapılır?")]),
+              ex("Sıra Sizde 4.6", [t("8 tane sekizde bir parçayla kaç bütün yapılır?")]),
+              ex(
+                "Örnek 4.4",
+                [t("Kesir daireleriyle bütün oluşturun: ⓐ 3 yarım ⓑ 8 beşte bir ⓒ 7 üçte bir.")],
+                sol(
+                  "Çözüm: ⓐ 3 yarım, 1 bütün ve 1/2 eder. ⓑ 8 beşte bir, 1 bütün ve 3/5 eder. ⓒ 7 üçte bir, 2 bütün ve 1/3 eder.",
+                ),
+              ),
+              ex("Sıra Sizde 4.7", [t("5 tane üçte bir parçayla kaç bütün ve ne kadar artan parça oluşur?")]),
+              ex("Sıra Sizde 4.8", [t("5 tane yarım parçayla kaç bütün ve ne kadar artan parça oluşur?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "bilesik-kesirler-ve-tam-sayili-kesirler",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Payı paydasından büyük ya da paydasına eşit olan kesirlere bileşik kesir denir. Bir bütün ve bir kesirden oluşan yazıma tam sayılı kesir denir.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\frac{8}{5}=1\\frac{3}{5}"),
+                t(" çünkü 5 tane beşte bir 1 bütün yapar ve 3 beşte bir artar."),
+              ]),
+              ex("Sıra Sizde 4.9", [t("Modeli adlandırın ve tam sayılı kesir olarak yazın: 5 tane üçte bir parça.")]),
+              ex("Sıra Sizde 4.10", [t("Modeli adlandırın ve tam sayılı kesir olarak yazın: 13 tane sekizde bir parça.")]),
+              ex(
+                "Örnek 4.6",
+                [m("\\frac{11}{8}"), t(" kesrini modelleyin.")],
+                sol(
+                  "Çözüm: Payda 8 olduğundan her bütün 8 eş parçaya ayrılır. 11 sekizde bir için önce 8/8 ile 1 bütün boyanır, sonra ikinci bütünde 3/8 boyanır. Sonuç 1 3/8'dir.",
+                ),
+              ),
+              ex("Sıra Sizde 4.11", [m("\\frac{7}{6}"), t(" kesrini modelleyin.")]),
+              ex("Sıra Sizde 4.12", [m("\\frac{6}{5}"), t(" kesrini modelleyin.")]),
+              ex(
+                "Örnek 4.7",
+                [m("\\frac{11}{6}"), t(" bileşik kesrini tam sayılı kesir olarak yazın.")],
+                sol(
+                  "Çözüm: 6/6 bir bütün eder. 11 altıda bir parçadan 6'sı 1 bütün yapar, 5/6 kalır. Bu yüzden 11/6=1 5/6.",
+                ),
+              ),
+              ex("Sıra Sizde 4.13", [m("\\frac{9}{7}"), t(" kesrini tam sayılı kesir olarak yazın.")]),
+              ex("Sıra Sizde 4.14", [m("\\frac{7}{4}"), t(" kesrini tam sayılı kesir olarak yazın.")]),
+              ex(
+                "Örnek 4.8",
+                [m("1\\frac{4}{5}"), t(" tam sayılı kesrini bileşik kesir olarak yazın.")],
+                sol(
+                  "Çözüm: 1 bütün 5/5'tir. 5/5 ile 4/5 toplanır ve 9/5 bulunur.",
+                ),
+              ),
+              ex("Sıra Sizde 4.15", [m("1\\frac{3}{8}"), t(" tam sayılı kesrini bileşik kesir olarak yazın.")]),
+              ex("Sıra Sizde 4.16", [m("1\\frac{5}{6}"), t(" tam sayılı kesrini bileşik kesir olarak yazın.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+        replaceBlocks: [
+          ...removeBlocks(17),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bileşik kesri tam sayılı kesre çevirmek için payı paydaya böleriz. Bölüm tam kısım, kalan pay, eski payda ise payda olur.",
+              ),
+              ex(
+                "Örnek 4.9",
+                [m("\\frac{11}{6}"), t(" kesrini tam sayılı kesre çevirin.")],
+                sol("Çözüm: 11÷6=1 kalan 5. Bu nedenle 11/6=1 5/6."),
+              ),
+              ex("Sıra Sizde 4.17", [m("\\frac{13}{7}"), t(" kesrini tam sayılı kesre çevirin.")]),
+              ex("Sıra Sizde 4.18", [m("\\frac{14}{9}"), t(" kesrini tam sayılı kesre çevirin.")]),
+              ex(
+                "Örnek 4.10",
+                [m("\\frac{33}{8}"), t(" kesrini tam sayılı kesre çevirin.")],
+                sol("Çözüm: 33÷8=4 kalan 1. Sonuç 4 1/8'dir."),
+              ),
+              ex("Sıra Sizde 4.19", [m("\\frac{23}{7}"), t(" kesrini tam sayılı kesre çevirin.")]),
+              ex("Sıra Sizde 4.20", [m("\\frac{48}{11}"), t(" kesrini tam sayılı kesre çevirin.")]),
+              pt(
+                "Tam sayılı kesri bileşik kesre çevirmek için tam kısmı paydayla çarpar, payı ekler ve aynı paydayı koruruz.",
+              ),
+              ex(
+                "Örnek 4.11",
+                [m("4\\frac{2}{3}"), t(" kesrini bileşik kesre çevirin.")],
+                sol("Çözüm: 4·3=12 ve 12+2=14. Sonuç 14/3'tür."),
+              ),
+              ex("Sıra Sizde 4.21", [m("3\\frac{5}{7}"), t(" kesrini bileşik kesre çevirin.")]),
+              ex("Sıra Sizde 4.22", [m("2\\frac{7}{8}"), t(" kesrini bileşik kesre çevirin.")]),
+              ex(
+                "Örnek 4.12",
+                [m("10\\frac{2}{7}"), t(" kesrini bileşik kesre çevirin.")],
+                sol("Çözüm: 10·7=70 ve 70+2=72. Sonuç 72/7'dir."),
+              ),
+              ex("Sıra Sizde 4.23", [m("4\\frac{6}{11}"), t(" kesrini bileşik kesre çevirin.")]),
+              ex("Sıra Sizde 4.24", [m("11\\frac{1}{3}"), t(" kesrini bileşik kesre çevirin.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "denk-kesirleri-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(12),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Aynı miktarı gösteren farklı kesirlere denk kesirler denir. Bir bütünün yarısı, iki dörtte bir ya da dört sekizde bir olarak da gösterilebilir.",
+              ),
+              ex(
+                "Örnek 4.13",
+                [t("Kesir karolarıyla denk kesirleri bulun: ⓐ kaç sekizde bir 1/2 eder? ⓑ kaç onda bir 1/2 eder? ⓒ kaç on ikide bir 1/2 eder?")],
+                sol("Çözüm: 1/2=4/8=5/10=6/12. Bu yüzden yanıtlar sırasıyla 4, 5 ve 6 parçadır."),
+              ),
+              ex("Sıra Sizde 4.25", [t("Kaç sekizde bir, 1/4'e eşittir?")]),
+              ex("Sıra Sizde 4.26", [t("Kaç on ikide bir, 1/4'e eşittir?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "denk-kesir-bulma",
+        replaceBlocks: [
+          ...removeBlocks(16),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Denk kesir bulmak için payı ve paydayı aynı sıfır olmayan sayıyla çarparız. Bu işlem kesrin değerini değiştirmez, yalnızca parçaların adını değiştirir.",
+              ),
+              ex(
+                "Örnek 4.14",
+                [m("\\frac{2}{5}"), t(" kesrine denk üç kesir bulun.")],
+                sol("Çözüm: Pay ve paydayı 2, 3 ve 5 ile çarpabiliriz: 2/5=4/10=6/15=10/25."),
+              ),
+              ex("Sıra Sizde 4.27", [m("\\frac{3}{5}"), t(" kesrine denk üç kesir bulun.")]),
+              ex("Sıra Sizde 4.28", [m("\\frac{4}{5}"), t(" kesrine denk üç kesir bulun.")]),
+              ex(
+                "Örnek 4.15",
+                [m("\\frac{2}{7}"), t(" kesrine denk ve paydası 21 olan kesri bulun.")],
+                sol("Çözüm: 7'yi 21 yapmak için 3 ile çarparız. Payı da 3 ile çarparız: 2/7=6/21."),
+              ),
+              ex("Sıra Sizde 4.29", [m("\\frac{6}{7}"), t(" kesrine denk ve paydası 21 olan kesri bulun.")]),
+              ex("Sıra Sizde 4.30", [m("\\frac{3}{10}"), t(" kesrine denk ve paydası 100 olan kesri bulun.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesirleri-sayi-dogrusunda-gosterme",
+        replaceBlocks: [
+          ...removeBlocks(25),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Kesirleri sayı doğrusunda göstermek için her bir tam sayı aralığını paydaya göre eş parçalara ayırırız. Bileşik kesirleri gerekirse tam sayılı kesre çevirerek konumu daha kolay buluruz.",
+              ),
+              ex(
+                "Örnek 4.16",
+                [t("Sayı doğrusunda gösterin: "), m("\\frac{3}{4},\\frac{4}{3},\\frac{5}{3},4\\frac{1}{5},\\frac{7}{2}")],
+                sol("Çözüm: 3/4, 0 ile 1 arasındadır. 4/3=1 1/3, 5/3=1 2/3, 7/2=3 1/2 ve 4 1/5 kendi aralıklarında işaretlenir."),
+              ),
+              ex("Sıra Sizde 4.31", [t("Sayı doğrusunda gösterin: "), m("\\frac{1}{3},\\frac{5}{4},\\frac{7}{4},2\\frac{3}{5},\\frac{9}{2}")]),
+              ex("Sıra Sizde 4.32", [t("Sayı doğrusunda gösterin: "), m("\\frac{2}{3},\\frac{5}{2},\\frac{9}{4},\\frac{11}{4},3\\frac{2}{5}")]),
+              pt(
+                "Negatif kesirler sıfırın soluna yerleştirilir. Pozitif ve negatif eş uzaklıklı kesirler, sıfıra göre simetriktir.",
+              ),
+              ex(
+                "Örnek 4.17",
+                [t("Sayı doğrusunda gösterin: "), m("\\frac{1}{4},-\\frac{1}{4},1\\frac{1}{3},-1\\frac{1}{3},\\frac{5}{2},-\\frac{5}{2}")],
+                sol("Çözüm: Pozitifler sıfırın sağına, negatifler soluna yerleştirilir. 5/2=2 1/2 ve -5/2=-2 1/2 olarak işaretlenir."),
+              ),
+              ex("Sıra Sizde 4.33", [t("Sayı doğrusunda gösterin: "), m("\\frac{2}{3},-\\frac{2}{3},2\\frac{1}{4},-2\\frac{1}{4},\\frac{3}{2},-\\frac{3}{2}")]),
+              ex("Sıra Sizde 4.34", [t("Sayı doğrusunda gösterin: "), m("\\frac{3}{4},-\\frac{3}{4},1\\frac{1}{2},-1\\frac{1}{2},\\frac{7}{3},-\\frac{7}{3}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesirleri-siralama",
+        replaceBlocks: [
+          ...removeBlocks(4),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Kesirleri karşılaştırırken sayı doğrusundaki konumlarına bakabiliriz. Sağdaki sayı daha büyük, soldaki sayı daha küçüktür. Negatif sayılarda sıfıra yakın olan daha büyüktür.",
+              ),
+              ex(
+                "Örnek 4.18",
+                [t("< veya > yazın: ⓐ "), m("-\\frac{2}{3}\\;\\_\\_\\;-1"), t(" ⓑ "), m("-3\\frac{1}{2}\\;\\_\\_\\;-3"), t(" ⓒ "), m("-\\frac{3}{7}\\;\\_\\_\\;-\\frac{3}{8}"), t(" ⓓ "), m("-2\\;\\_\\_\\;\\frac{-16}{9}")],
+                sol("Çözüm: ⓐ -2/3>-1. ⓑ -3 1/2<-3. ⓒ -3/7<-3/8 çünkü -3/7 daha soldadır. ⓓ -2<-16/9."),
+              ),
+              ex("Sıra Sizde 4.35", [t("< veya > yazın: ⓐ "), m("-\\frac{1}{3}\\;\\_\\_\\;-1"), t(" ⓑ "), m("-1\\frac{1}{2}\\;\\_\\_\\;-2"), t(" ⓒ "), m("-\\frac{2}{3}\\;\\_\\_\\;-\\frac{1}{3}"), t(" ⓓ "), m("-3\\;\\_\\_\\;-\\frac{7}{3}")]),
+              ex("Sıra Sizde 4.36", [t("< veya > yazın: ⓐ "), m("-3\\;\\_\\_\\;-\\frac{17}{5}"), t(" ⓑ "), m("-2\\frac{1}{4}\\;\\_\\_\\;-2"), t(" ⓒ "), m("-\\frac{3}{5}\\;\\_\\_\\;-\\frac{4}{5}"), t(" ⓓ "), m("-4\\;\\_\\_\\;-\\frac{10}{3}")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

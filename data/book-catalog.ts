@@ -58,6 +58,19 @@ export const books: Book[] = [
         sortOrder: 3,
         lessons: [],
       },
+      {
+        id: "chapter-fractions",
+        bookId: "book-prealgebra-2e",
+        slug: "kesirler",
+        sourceNumber: "4",
+        displayNumber: "4",
+        sourceTitle: "Fractions",
+        displayTitle: "Kesirler",
+        sourceUrl:
+          "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions",
+        sortOrder: 4,
+        lessons: [],
+      },
     ],
   },
 ];

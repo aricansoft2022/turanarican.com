@@ -40,6 +40,17 @@
         "displayTitle": "Tam Sayılar",
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers",
         "sortOrder": 3
+      },
+      {
+        "id": "chapter-fractions",
+        "bookId": "book-prealgebra-2e",
+        "slug": "kesirler",
+        "sourceNumber": "4",
+        "displayNumber": "4",
+        "sourceTitle": "Fractions",
+        "displayTitle": "Kesirler",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions",
+        "sortOrder": 4
       }
     ],
     "lessons": [
@@ -227,6 +238,29 @@
         "sortOrder": 6,
         "status": "draft",
         "rawHash": "79f536d688043ee04f8985f51693c191733daa136d6d5d17ae8721d09808eb4a"
+      },
+      {
+        "id": "lesson-visualize-fractions",
+        "chapterId": "chapter-fractions",
+        "slug": "kesirleri-gorsellestirme",
+        "sourceNumber": "4.2",
+        "displayNumber": "4.1",
+        "sourceTitle": "Visualize Fractions",
+        "displayTitle": "Kesirleri Görselleştirme",
+        "summary": "Kesirleri bütünün parçası olarak modelleyin, bileşik ve tam sayılı kesirleri dönüştürün, denk kesirleri ve sayı doğrusundaki yerlerini görün.",
+        "objectivesJson": [
+          "Kesrin bütünün eş parçalarını nasıl gösterdiğini açıklayabileceksiniz.",
+          "Bileşik kesirleri ve tam sayılı kesirleri modelleyebileceksiniz.",
+          "Bileşik kesirlerle tam sayılı kesirler arasında dönüşüm yapabileceksiniz.",
+          "Denk kesirleri modellerle gösterebileceksiniz.",
+          "Verilen kesre denk kesirler bulabileceksiniz.",
+          "Kesirleri ve tam sayılı kesirleri sayı doğrusunda gösterebileceksiniz.",
+          "Kesirleri ve tam sayılı kesirleri sıralayabileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.02%3A_Visualize_Fractions",
+        "sortOrder": 2,
+        "status": "draft",
+        "rawHash": "874d3ef1009c74000816d351fe3dfab75f5ce5cc2088bc29c639651598764097"
       }
     ],
     "lessonSections": [
@@ -18322,6 +18356,1558 @@
             ]
           }
         ]
+      },
+      {
+        "id": "kesirleri-gorsellestirme-section-01",
+        "lessonId": "lesson-visualize-fractions",
+        "heading": "Kesrin Anlamı",
+        "slug": "kesrin-anlami",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesir, bir bütünün eş parçalarından kaçının alındığını gösterir. Payda bütünün kaç eş parçaya ayrıldığını, pay ise bu parçalardan kaçının seçildiğini anlatır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": " bir bütünün iki eş parçasından birini; "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": " ise dört eş parçadan üçünü gösterir. Payda sıfır olamaz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.1",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Boyalı kısmı kesirle adlandırın: ⓐ 8 eş parçalı dairenin 5 parçası boyalı. ⓑ 9 eş parçalı karenin 2 parçası boyalı."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Payda toplam eş parça sayısıdır, pay boyalı parça sayısıdır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "ⓐ 8 parçanın 5'i boyalı olduğu için kesir 5/8'dir. ⓑ 9 parçanın 2'si boyalı olduğu için kesir 2/9'dur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.1",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Boyalı kısmı kesirle adlandırın: ⓐ 8 parçanın 3'ü boyalı. ⓑ 9 parçanın 4'ü boyalı."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Payda eş parça sayısını, pay ise boyalı parça sayısını verir. ⓐ 8 parçanın 3'ü boyalıdır: 3/8. ⓑ 9 parçanın 4'ü boyalıdır: 4/9."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.2",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Boyalı kısmı kesirle adlandırın: ⓐ 5 parçanın 3'ü boyalı. ⓑ 4 parçanın 3'ü boyalı."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 5 eş parçanın 3'ü boyalı olduğu için kesir 3/5'tir. ⓑ 4 eş parçanın 3'ü boyalı olduğu için kesir 3/4'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.2",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini daire modeliyle gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Payda 4 olduğu için daireyi 4 eş parçaya ayırırız. Pay 3 olduğu için bu parçalardan 3'ünü boyarız."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.3",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{6}{8}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini daire modeliyle gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Payda 8 olduğu için daire 8 eş parçaya ayrılır; pay 6 olduğu için bu parçalardan 6'sı boyanır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.4",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{2}{5}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini dikdörtgen modeliyle gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Dikdörtgen 5 eş parçaya ayrılmıştır. 2/5 modellemek için bu 5 parçanın 2'si boyanır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesir karoları veya kesir daireleri, bir bütünün farklı eş parçalara ayrılmış hallerini karşılaştırmayı kolaylaştırır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.3",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesir karolarıyla bir bütünü kaç tane 1/2, 1/3 ve 1/4 parçanın tamamladığını belirleyin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2 tane yarım bir bütünü tamamlar; bu yüzden 2/2=1. 3 tane üçte bir bir bütündür; 3/3=1. 4 tane dörtte bir de bir bütündür; 4/4=1."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.5",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "3 tane üçte bir parçayla kaç bütün yapılır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3 tane üçte bir parça bir bütünü tamamlar. Bu yüzden 3/3=1 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.6",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "8 tane sekizde bir parçayla kaç bütün yapılır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8 tane sekizde bir parça bir bütündür. Bu nedenle 8/8=1."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.4",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesir daireleriyle bütün oluşturun: ⓐ 3 yarım ⓑ 8 beşte bir ⓒ 7 üçte bir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 3 yarım, 1 bütün ve 1/2 eder. ⓑ 8 beşte bir, 1 bütün ve 3/5 eder. ⓒ 7 üçte bir, 2 bütün ve 1/3 eder."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.7",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "5 tane üçte bir parçayla kaç bütün ve ne kadar artan parça oluşur?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3 tane üçte bir bir bütün yapar; 5 üçte bir parçada 1 bütün ve 2/3 kalır. Sonuç 1 2/3'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.8",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "5 tane yarım parçayla kaç bütün ve ne kadar artan parça oluşur?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2 yarım 1 bütün yapar. 5 yarım parça 2 bütün ve 1/2 eder; sonuç 2 1/2'dir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirleri-gorsellestirme-section-02",
+        "lessonId": "lesson-visualize-fractions",
+        "heading": "Bileşik Kesirler ve Tam Sayılı Kesirler",
+        "slug": "bilesik-kesirler-ve-tam-sayili-kesirler",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Payı paydasından büyük ya da paydasına eşit olan kesirlere bileşik kesir denir. Bir bütün ve bir kesirden oluşan yazıma tam sayılı kesir denir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{8}{5}=1\\frac{3}{5}"
+              },
+              {
+                "type": "text",
+                "value": " çünkü 5 tane beşte bir 1 bütün yapar ve 3 beşte bir artar."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.9",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modeli adlandırın ve tam sayılı kesir olarak yazın: 5 tane üçte bir parça."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Toplam 5 tane üçte bir parça vardır. 3/3 bir bütün eder, 2/3 kalır; bileşik kesir 5/3, tam sayılı kesir 1 2/3'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.10",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Modeli adlandırın ve tam sayılı kesir olarak yazın: 13 tane sekizde bir parça."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 13 tane sekizde bir parça vardır. 8/8 bir bütün, kalan 5/8 olur. Sonuç 13/8=1 5/8'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.6",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{11}{8}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini modelleyin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Payda 8 olduğundan her bütün 8 eş parçaya ayrılır. 11 sekizde bir için önce 8/8 ile 1 bütün boyanır, sonra ikinci bütünde 3/8 boyanır. Sonuç 1 3/8'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.11",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{7}{6}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini modelleyin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7/6, 6/6 bir bütün ve 1/6 kalan demektir. Bu yüzden 7/6=1 1/6."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.12",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{6}{5}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini modelleyin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6/5 içinde 5/5 bir bütün vardır ve 1/5 kalır. Sonuç 1 1/5'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.7",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{11}{6}"
+              },
+              {
+                "type": "text",
+                "value": " bileşik kesrini tam sayılı kesir olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6/6 bir bütün eder. 11 altıda bir parçadan 6'sı 1 bütün yapar, 5/6 kalır. Bu yüzden 11/6=1 5/6."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.13",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{9}{7}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini tam sayılı kesir olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 9/7 içinde 7/7 bir bütün vardır; 2/7 kalır. Bu yüzden 9/7=1 2/7."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.14",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{7}{4}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini tam sayılı kesir olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7/4 içinde 4/4 bir bütün vardır ve 3/4 kalır. Sonuç 1 3/4'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.8",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "1\\frac{4}{5}"
+              },
+              {
+                "type": "text",
+                "value": " tam sayılı kesrini bileşik kesir olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1 bütün 5/5'tir. 5/5 ile 4/5 toplanır ve 9/5 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.15",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "1\\frac{3}{8}"
+              },
+              {
+                "type": "text",
+                "value": " tam sayılı kesrini bileşik kesir olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1 bütün 8/8 eder. 8/8 ile 3/8 toplanır ve 11/8 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.16",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "1\\frac{5}{6}"
+              },
+              {
+                "type": "text",
+                "value": " tam sayılı kesrini bileşik kesir olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1 bütün 6/6'dır. 6/6+5/6=11/6 olduğundan 1 5/6=11/6."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirleri-gorsellestirme-section-03",
+        "lessonId": "lesson-visualize-fractions",
+        "heading": "Bileşik Kesir ve Tam Sayılı Kesir Dönüşümleri",
+        "slug": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bileşik kesri tam sayılı kesre çevirmek için payı paydaya böleriz. Bölüm tam kısım, kalan pay, eski payda ise payda olur."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.9",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{11}{6}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini tam sayılı kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 11÷6=1 kalan 5. Bu nedenle 11/6=1 5/6."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.17",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{13}{7}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini tam sayılı kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 13'ü 7'ye böleriz: bölüm 1, kalan 6'dır. Bu nedenle 13/7=1 6/7."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.18",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{14}{9}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini tam sayılı kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 14÷9 işleminde bölüm 1, kalan 5'tir. Sonuç 1 5/9 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.10",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{33}{8}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini tam sayılı kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 33÷8=4 kalan 1. Sonuç 4 1/8'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.19",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{23}{7}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini tam sayılı kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 23÷7=3 kalan 2 olduğundan 23/7=3 2/7."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.20",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{48}{11}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini tam sayılı kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 48÷11=4 kalan 4'tür. Bu yüzden 48/11=4 4/11."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Tam sayılı kesri bileşik kesre çevirmek için tam kısmı paydayla çarpar, payı ekler ve aynı paydayı koruruz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.11",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "4\\frac{2}{3}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini bileşik kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 4·3=12 ve 12+2=14. Sonuç 14/3'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.21",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "3\\frac{5}{7}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini bileşik kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3 5/7 için 3 bütünü yedilere çeviririz: 3·7=21. 21+5=26, sonuç 26/7'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.22",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "2\\frac{7}{8}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini bileşik kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2 bütün 16/8 eder. 16/8+7/8=23/8 olduğundan sonuç 23/8'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.12",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "10\\frac{2}{7}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini bileşik kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 10·7=70 ve 70+2=72. Sonuç 72/7'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.23",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "4\\frac{6}{11}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini bileşik kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 4·11=44 ve 44+6=50. Bu nedenle 4 6/11=50/11."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.24",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "11\\frac{1}{3}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini bileşik kesre çevirin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 11·3=33 ve 33+1=34. Sonuç 34/3'tür."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirleri-gorsellestirme-section-04",
+        "lessonId": "lesson-visualize-fractions",
+        "heading": "Denk Kesirleri Modelleme",
+        "slug": "denk-kesirleri-modelleme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Aynı miktarı gösteren farklı kesirlere denk kesirler denir. Bir bütünün yarısı, iki dörtte bir ya da dört sekizde bir olarak da gösterilebilir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.13",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesir karolarıyla denk kesirleri bulun: ⓐ kaç sekizde bir 1/2 eder? ⓑ kaç onda bir 1/2 eder? ⓒ kaç on ikide bir 1/2 eder?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1/2=4/8=5/10=6/12. Bu yüzden yanıtlar sırasıyla 4, 5 ve 6 parçadır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.25",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kaç sekizde bir, 1/4'e eşittir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Bir bütünün dörtte biri, sekizde ikiye eşittir. Çünkü 1/4=2/8."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.26",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kaç on ikide bir, 1/4'e eşittir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1/4 kesrini on ikilik parçalarla göstermek için pay ve paydayı 3 ile çarparız: 1/4=3/12."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirleri-gorsellestirme-section-05",
+        "lessonId": "lesson-visualize-fractions",
+        "heading": "Denk Kesir Bulma",
+        "slug": "denk-kesir-bulma",
+        "level": 2,
+        "sortOrder": 5,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Denk kesir bulmak için payı ve paydayı aynı sıfır olmayan sayıyla çarparız. Bu işlem kesrin değerini değiştirmez, yalnızca parçaların adını değiştirir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.14",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{2}{5}"
+              },
+              {
+                "type": "text",
+                "value": " kesrine denk üç kesir bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay ve paydayı 2, 3 ve 5 ile çarpabiliriz: 2/5=4/10=6/15=10/25."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.27",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{3}{5}"
+              },
+              {
+                "type": "text",
+                "value": " kesrine denk üç kesir bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay ve paydayı aynı sayıyla çarparız. Örneğin 3/5=6/10=9/15=12/20."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.28",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{4}{5}"
+              },
+              {
+                "type": "text",
+                "value": " kesrine denk üç kesir bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 4/5 kesrine denk üç örnek: 8/10, 12/15 ve 16/20. Hepsinde pay ve payda aynı çarpanla büyütülmüştür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.15",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{2}{7}"
+              },
+              {
+                "type": "text",
+                "value": " kesrine denk ve paydası 21 olan kesri bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7'yi 21 yapmak için 3 ile çarparız. Payı da 3 ile çarparız: 2/7=6/21."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.29",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{6}{7}"
+              },
+              {
+                "type": "text",
+                "value": " kesrine denk ve paydası 21 olan kesri bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Paydanın 21 olması için 7, 3 ile çarpılır. Payı da 3 ile çarparız: 6/7=18/21."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.30",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{3}{10}"
+              },
+              {
+                "type": "text",
+                "value": " kesrine denk ve paydası 100 olan kesri bulun."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 10'u 100 yapmak için 10 ile çarparız. Payı da 10 ile çarparız: 3/10=30/100."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirleri-gorsellestirme-section-06",
+        "lessonId": "lesson-visualize-fractions",
+        "heading": "Kesirleri Sayı Doğrusunda Gösterme",
+        "slug": "kesirleri-sayi-dogrusunda-gosterme",
+        "level": 2,
+        "sortOrder": 6,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesirleri sayı doğrusunda göstermek için her bir tam sayı aralığını paydaya göre eş parçalara ayırırız. Bileşik kesirleri gerekirse tam sayılı kesre çevirerek konumu daha kolay buluruz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.16",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sayı doğrusunda gösterin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{4},\\frac{4}{3},\\frac{5}{3},4\\frac{1}{5},\\frac{7}{2}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3/4, 0 ile 1 arasındadır. 4/3=1 1/3, 5/3=1 2/3, 7/2=3 1/2 ve 4 1/5 kendi aralıklarında işaretlenir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.31",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sayı doğrusunda gösterin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{3},\\frac{5}{4},\\frac{7}{4},2\\frac{3}{5},\\frac{9}{2}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Sayıları konumlandırırken bileşik kesirleri tam sayılı kesre çevirebiliriz: 5/4=1 1/4, 7/4=1 3/4, 9/2=4 1/2. Noktalar sırasıyla 1/3, 1 1/4, 1 3/4, 2 3/5 ve 4 1/2 konumlarındadır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.32",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sayı doğrusunda gösterin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2}{3},\\frac{5}{2},\\frac{9}{4},\\frac{11}{4},3\\frac{2}{5}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 9/4=2 1/4, 5/2=2 1/2 ve 11/4=2 3/4'tür. Noktalar 2/3, 2 1/4, 2 1/2, 2 3/4 ve 3 2/5 konumlarına yerleştirilir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Negatif kesirler sıfırın soluna yerleştirilir. Pozitif ve negatif eş uzaklıklı kesirler, sıfıra göre simetriktir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.17",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sayı doğrusunda gösterin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{4},-\\frac{1}{4},1\\frac{1}{3},-1\\frac{1}{3},\\frac{5}{2},-\\frac{5}{2}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pozitifler sıfırın sağına, negatifler soluna yerleştirilir. 5/2=2 1/2 ve -5/2=-2 1/2 olarak işaretlenir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.33",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sayı doğrusunda gösterin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2}{3},-\\frac{2}{3},2\\frac{1}{4},-2\\frac{1}{4},\\frac{3}{2},-\\frac{3}{2}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Negatifler sıfırın soluna, pozitifler sağına yerleştirilir. Soldan sağa sıralama -2 1/4, -3/2, -2/3, 2/3, 3/2, 2 1/4 şeklindedir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.34",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sayı doğrusunda gösterin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{4},-\\frac{3}{4},1\\frac{1}{2},-1\\frac{1}{2},\\frac{7}{3},-\\frac{7}{3}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Soldan sağa sıralama -7/3, -1 1/2, -3/4, 3/4, 1 1/2, 7/3 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirleri-gorsellestirme-section-07",
+        "lessonId": "lesson-visualize-fractions",
+        "heading": "Kesirleri Sıralama",
+        "slug": "kesirleri-siralama",
+        "level": 2,
+        "sortOrder": 7,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesirleri karşılaştırırken sayı doğrusundaki konumlarına bakabiliriz. Sağdaki sayı daha büyük, soldaki sayı daha küçüktür. Negatif sayılarda sıfıra yakın olan daha büyüktür."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.18",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< veya > yazın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{2}{3}\\;\\_\\_\\;-1"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-3\\frac{1}{2}\\;\\_\\_\\;-3"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{3}{7}\\;\\_\\_\\;-\\frac{3}{8}"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "-2\\;\\_\\_\\;\\frac{-16}{9}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -2/3>-1. ⓑ -3 1/2<-3. ⓒ -3/7<-3/8 çünkü -3/7 daha soldadır. ⓓ -2<-16/9."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.35",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< veya > yazın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{1}{3}\\;\\_\\_\\;-1"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-1\\frac{1}{2}\\;\\_\\_\\;-2"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{2}{3}\\;\\_\\_\\;-\\frac{1}{3}"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "-3\\;\\_\\_\\;-\\frac{7}{3}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Negatif sayılarda sıfıra daha yakın olan daha büyüktür. ⓐ -1/3>-1. ⓑ -1 1/2>-2. ⓒ -2/3<-1/3. ⓓ -3<-7/3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.36",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< veya > yazın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-3\\;\\_\\_\\;-\\frac{17}{5}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-2\\frac{1}{4}\\;\\_\\_\\;-2"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{3}{5}\\;\\_\\_\\;-\\frac{4}{5}"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "-4\\;\\_\\_\\;-\\frac{10}{3}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -3>-17/5. ⓑ -2 1/4<-2. ⓒ -3/5>-4/5. ⓓ -4<-10/3."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -27269,6 +28855,1040 @@
         "sortOrder": 351,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-1",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-01",
+        "number": "1",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her şeklin boyalı kısmını kesirle adlandırın. ⓐ 4 eş parçalı dairenin 1 parçası boyalıdır. ⓑ 4 eş parçalı dairenin 3 parçası boyalıdır. ⓒ 8 eş parçalı dairenin 3 parçası boyalıdır. ⓓ 8 eş parçalı dairenin 5 parçası boyalıdır."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Payda toplam eş parça sayısı, pay boyalı parça sayısıdır. ⓐ 1/4, ⓑ 3/4, ⓒ 3/8, ⓓ 5/8."
+          }
+        ],
+        "sortOrder": 1,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-3",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-01",
+        "number": "3",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen kesri modellemek için daire veya kare parçalarını boyayın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{1}{2}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/2 için şekil 2 eş parçaya ayrılır ve 1 parça boyanır."
+          }
+        ],
+        "sortOrder": 3,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-5",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-01",
+        "number": "5",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "\\frac{3}{4}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3/4 için şekil 4 eş parçaya ayrılır ve 3 parça boyanır."
+          }
+        ],
+        "sortOrder": 5,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-7",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-01",
+        "number": "7",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "\\frac{5}{6}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5/6 için şekil 6 eş parçaya ayrılır ve 5 parça boyanır."
+          }
+        ],
+        "sortOrder": 7,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-9",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-01",
+        "number": "9",
+        "promptJson": [
+          {
+            "type": "math",
+            "value": "\\frac{5}{8}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5/8 için şekil 8 eş parçaya ayrılır ve 5 parça boyanır."
+          }
+        ],
+        "sortOrder": 9,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-11",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-01",
+        "number": "11",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen parçalarla kesir daireleri kullanarak bütünler oluşturun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "3"
+          },
+          {
+            "type": "text",
+            "value": " thirds"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3 tane üçte bir parça bir bütünü tamamlar; 3/3=1."
+          }
+        ],
+        "sortOrder": 11,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-13",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-01",
+        "number": "13",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen parçalarla kesir daireleri kullanarak bütünler oluşturun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "7"
+          },
+          {
+            "type": "text",
+            "value": " sixths"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7 altıda bir parçada 6/6 bir bütün eder, 1/6 kalır. Sonuç 1 1/6'dır."
+          }
+        ],
+        "sortOrder": 13,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-15",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-01",
+        "number": "15",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen parçalarla kesir daireleri kullanarak bütünler oluşturun."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "7"
+          },
+          {
+            "type": "text",
+            "value": " fifths"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7 beşte bir parçada 5/5 bir bütün eder, 2/5 kalır. Sonuç 1 2/5'tir."
+          }
+        ],
+        "sortOrder": 15,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-17",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-02",
+        "number": "17",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bileşik kesri adlandırın ve tam sayılı kesir olarak yazın. ⓐ İki daire 4 eş parçaya ayrılmıştır; soldaki dairenin tamamı, sağdaki dairenin 1 parçası boyalıdır. ⓑ İki daire 4 eş parçaya ayrılmıştır; soldaki dairenin tamamı, sağdaki dairenin 3 parçası boyalıdır. ⓒ İki daire 8 eş parçaya ayrılmıştır; soldaki dairenin tamamı, sağdaki dairenin 3 parçası boyalıdır."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 5/4=1 1/4. ⓑ 7/4=1 3/4. ⓒ 11/8=1 3/8. Her durumda bir bütün tamamlandıktan sonra kalan parça yazılır."
+          }
+        ],
+        "sortOrder": 17,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-19",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-02",
+        "number": "19",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bileşik kesri adlandırın ve tam sayılı kesir olarak yazın. ⓐ Üç daire 4 eş parçaya ayrılmıştır; ilk iki dairenin tamamı, üçüncü dairenin 3 parçası boyalıdır. ⓑ Üç daire 8 eş parçaya ayrılmıştır; ilk iki dairenin tamamı, üçüncü dairenin 3 parçası boyalıdır."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 11/4=2 3/4; iki bütün 8/4 eder, 3/4 kalır. ⓑ 19/8=2 3/8; iki bütün 16/8 eder, 3/8 kalır."
+          }
+        ],
+        "sortOrder": 19,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-21",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-02",
+        "number": "21",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen kesri modellemek için kesir daireleri çizin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{4}{4}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 4/4 bir bütündür. Modelde 4 eş parçanın tamamı boyanır."
+          }
+        ],
+        "sortOrder": 21,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-23",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-02",
+        "number": "23",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen kesri modellemek için kesir daireleri çizin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{5}{3}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5/3 için 3/3 bir bütün eder, 2/3 kalır. Model 1 2/3 gösterir."
+          }
+        ],
+        "sortOrder": 23,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-25",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-02",
+        "number": "25",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen kesri modellemek için kesir daireleri çizin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{13}{8}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 13/8 için 8/8 bir bütün, kalan 5/8 olur. Sonuç 1 5/8'tir."
+          }
+        ],
+        "sortOrder": 25,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-27",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-02",
+        "number": "27",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen kesri modellemek için kesir daireleri çizin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{9}{4}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 9/4 içinde 8/4 iki bütün vardır ve 1/4 kalır. Sonuç 2 1/4'tür."
+          }
+        ],
+        "sortOrder": 27,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-29",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-03",
+        "number": "29",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bileşik kesri tam sayılı kesir olarak yazın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{5}{3}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5÷3 işleminde bölüm 1, kalan 2'dir. Bu yüzden 5/3=1 2/3."
+          }
+        ],
+        "sortOrder": 29,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-31",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-03",
+        "number": "31",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bileşik kesri tam sayılı kesir olarak yazın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{13}{5}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 13÷5=2 kalan 3 olduğundan 13/5=2 3/5."
+          }
+        ],
+        "sortOrder": 31,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-33",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-03",
+        "number": "33",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bileşik kesri tam sayılı kesir olarak yazın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{28}{9}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 28÷9 işleminde 9, 28'in içinde 3 kez vardır ve 1 artar. Bölüm tam kısım, kalan pay olduğu için sonuç 3 1/9'dur."
+          }
+        ],
+        "sortOrder": 33,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-35",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-03",
+        "number": "35",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda bileşik kesri tam sayılı kesir olarak yazın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{47}{15}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 47÷15=3 kalan 2. Bu nedenle 47/15=3 2/15."
+          }
+        ],
+        "sortOrder": 35,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-37",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-03",
+        "number": "37",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda tam sayılı kesri bileşik kesir olarak yazın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "1\\frac{2}{5}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1 2/5 için 1 bütün 5/5'tir. 5/5+2/5=7/5."
+          }
+        ],
+        "sortOrder": 37,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-39",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-03",
+        "number": "39",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda tam sayılı kesri bileşik kesir olarak yazın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "2\\frac{5}{6}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2 bütün 12/6 eder. 12/6+5/6=17/6."
+          }
+        ],
+        "sortOrder": 39,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-41",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-03",
+        "number": "41",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda tam sayılı kesri bileşik kesir olarak yazın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "2\\frac{5}{7}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2·7=14 ve 14+5=19. Bu yüzden 2 5/7=19/7."
+          }
+        ],
+        "sortOrder": 41,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-43",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-03",
+        "number": "43",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda tam sayılı kesri bileşik kesir olarak yazın."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "3\\frac{5}{9}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3·9=27 ve 27+5=32. Sonuç 32/9'dur."
+          }
+        ],
+        "sortOrder": 43,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-45",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-04",
+        "number": "45",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denk kesirleri bulmak için kesir karoları kullanın veya şekil çizin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "text",
+            "value": "How many twelfths equal one-third?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/3'ü on ikilik parçalarla yazmak için pay ve paydayı 4 ile çarparız: 1/3=4/12. Yani 4 tane on ikide bir gerekir."
+          }
+        ],
+        "sortOrder": 45,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-47",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-04",
+        "number": "47",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denk kesirleri bulmak için kesir karoları kullanın veya şekil çizin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "text",
+            "value": "How many twelfths equal three-fourths?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3/4=9/12 olduğu için üçte dört, 9 tane on ikide bire eşittir."
+          }
+        ],
+        "sortOrder": 47,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-49",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-04",
+        "number": "49",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda denk kesirleri bulmak için kesir karoları kullanın veya şekil çizin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "text",
+            "value": "How many sixths equal three-halves?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3/2 kesrini altılı parçalarla yazarsak 3/2=9/6 olur. Yani 9 tane altıda bir gerekir."
+          }
+        ],
+        "sortOrder": 49,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-51",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-05",
+        "number": "51",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen kesre denk üç kesir bulun. Çalışmanızı şekil veya cebirle gösterin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{1}{3}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Pay ve paydayı aynı sayıyla çarparız. Örneğin 1/3=2/6=3/9=4/12."
+          }
+        ],
+        "sortOrder": 51,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-53",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-05",
+        "number": "53",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen kesre denk üç kesir bulun. Çalışmanızı şekil veya cebirle gösterin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{5}{6}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5/6 kesrine denk üç örnek 10/12, 15/18 ve 20/24'tür; her biri aynı çarpanla genişletilmiştir."
+          }
+        ],
+        "sortOrder": 53,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-55",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-05",
+        "number": "55",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda verilen kesre denk üç kesir bulun. Çalışmanızı şekil veya cebirle gösterin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{5}{9}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5/9 için örnek denk kesirler 10/18, 15/27 ve 20/36'dır."
+          }
+        ],
+        "sortOrder": 55,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-57",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-06",
+        "number": "57",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda sayıları sayı doğrusunda gösterin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{1}{3},\\frac{7}{4},\\frac{13}{5}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/3, 0 ile 1 arasında; 7/4=1 3/4, 1 ile 2 arasında; 13/5=2 3/5, 2 ile 3 arasında işaretlenir."
+          }
+        ],
+        "sortOrder": 57,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-59",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-06",
+        "number": "59",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda sayıları sayı doğrusunda gösterin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{7}{10},\\frac{5}{2},\\frac{13}{8},3"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7/10, 0 ile 1 arasında; 13/8=1 5/8, 1 ile 2 arasında; 5/2=2 1/2 ve 3 tam sayı noktasında gösterilir."
+          }
+        ],
+        "sortOrder": 59,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-61",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-06",
+        "number": "61",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda sayıları sayı doğrusunda gösterin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "1\\frac{3}{4},−1\\frac{3}{5}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1 3/4 pozitif tarafta 1 ile 2 arasındadır. -1 3/5 negatif tarafta -2 ile -1 arasındadır."
+          }
+        ],
+        "sortOrder": 61,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-63",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-06",
+        "number": "63",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda sayıları sayı doğrusunda gösterin."
+          },
+          {
+            "type": "text",
+            "value": " "
+          },
+          {
+            "type": "math",
+            "value": "\\frac{2}{5},-\\frac{2}{5},1\\frac{3}{4},−1\\frac{3}{4},\\frac{8}{3},-\\frac{8}{3}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Soldan sağa sıralama -8/3, -1 3/4, -2/5, 2/5, 1 3/4, 8/3 şeklindedir; sayı doğrusunda noktalar buna göre yerleştirilir."
+          }
+        ],
+        "sortOrder": 63,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-65",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-07",
+        "number": "65",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayı çiftini < veya > kullanarak sıralayın. "
+          },
+          {
+            "type": "math",
+            "value": "−1__-\\frac{1}{3}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -1, -1/3'ten daha soldadır. Bu yüzden -1<-1/3."
+          }
+        ],
+        "sortOrder": 65,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-67",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-07",
+        "number": "67",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayı çiftini < veya > kullanarak sıralayın. "
+          },
+          {
+            "type": "math",
+            "value": "−1\\frac{3}{4}__-2"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -1 3/4 sayısı -2'den sıfıra daha yakındır. Bu nedenle -1 3/4>-2."
+          }
+        ],
+        "sortOrder": 67,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-69",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-07",
+        "number": "69",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayı çiftini < veya > kullanarak sıralayın. "
+          },
+          {
+            "type": "math",
+            "value": "-\\frac{9}{10}__-\\frac{3}{10}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -9/10, -3/10'dan daha küçüktür; çünkü sayı doğrusunda daha soldadır. Sonuç -9/10<-3/10."
+          }
+        ],
+        "sortOrder": 69,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-71",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-07",
+        "number": "71",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Aşağıdaki alıştırmalarda her sayı çiftini < veya > kullanarak sıralayın. "
+          },
+          {
+            "type": "math",
+            "value": "−4__-\\frac{23}{6}"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -23/6=-3 5/6'dır. -4 bu sayıdan daha solda olduğu için -4<-23/6."
+          }
+        ],
+        "sortOrder": 71,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-73",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-07",
+        "number": "73",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Müzikte ölçüler: Kesirler müzikte sık kullanılır. 4/4'lük ölçüde bir ölçüde dört çeyrek nota vardır. ⓐ Sekiz çeyrek nota kaç ölçü eder? ⓑ “Happy Birthday to You” şarkısında 25 çeyrek nota varsa bu kaç ölçü eder?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 4/4'lük ölçüde 4 çeyrek nota 1 ölçüdür. ⓐ 8 çeyrek nota 2 ölçü eder. ⓑ 25 çeyrek nota 25/4=6 1/4 ölçüdür."
+          }
+        ],
+        "sortOrder": 73,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-visualize-fractions-exercise-75",
+        "lessonId": "lesson-visualize-fractions",
+        "sectionId": "kesirleri-gorsellestirme-section-07",
+        "number": "75",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Okul dışındaki yaşamınızdan, kesirleri anlamanın önemli olduğu bir örnek verin."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Örnek yanıt: Yemek yaparken 1/2 su bardağı ya da 3/4 tatlı kaşığı gibi ölçüler kullanmak için kesirleri anlamak gerekir."
+          }
+        ],
+        "sortOrder": 75,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -27341,6 +29961,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/03%3A_Integers/3.06%3A_Solve_Equations_Using_Integers_The_Division_Property_of_Equality",
         "httpStatus": 200,
         "contentHash": "79f536d688043ee04f8985f51693c191733daa136d6d5d17ae8721d09808eb4a",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.02%3A_Visualize_Fractions",
+        "httpStatus": 200,
+        "contentHash": "874d3ef1009c74000816d351fe3dfab75f5ce5cc2088bc29c639651598764097",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -30618,6 +33246,888 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/b5884d48b3e53ad1.json",
         "r2Key": "assets/prealgebra-2e-openstax/3-5-solve-equations-using-integers-the-division-property-of-equality/b5884d48b3e53ad1.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-000-52e32b1c844ad941",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104287/0ce9a622895a46f41be7f753d5bb050733f8e8bc?revision=1",
+        "assetType": "image",
+        "altText": "An image of a round pizza sliced vertically down the center, creating two equal pieces. Each piece is labeled as one half.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/000-52e32b1c844ad941.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/000-52e32b1c844ad941.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-001-580c5717aa5e806c",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104282/915eb55ce6ab837c441a805cdde41cb20e947073?revision=1",
+        "assetType": "image",
+        "altText": "An image of a round pizza sliced vertically and horizontally, creating four equal pieces. Each piece is labeled as one fourth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/001-580c5717aa5e806c.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/001-580c5717aa5e806c.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-002-e247d52c054ad7c7",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104280/ba1cc5ddb12f3e834c79cd7f257ca764e03941a3?revision=1",
+        "assetType": "image",
+        "altText": "An image of a round pizza sliced into twelve equal wedges. Each piece is labeled as one twelfth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/002-e247d52c054ad7c7.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/002-e247d52c054ad7c7.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-003-039bd1d5ae745af6",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104281/fdde475824beaf788355a012c967c3de072e8727?revision=1",
+        "assetType": "figure",
+        "altText": "A circle is divided into three equal wedges. Each piece is labeled as one third.",
+        "caption": "Figure 4.2",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/003-039bd1d5ae745af6.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/003-039bd1d5ae745af6.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-005-0824bbb1f99d3848",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104279/c281dbf05787c6108afdbab3e038a84139046cfb?revision=1",
+        "assetType": "image",
+        "altText": "A circle is divided into three equal wedges. Two of the wedges are shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/005-0824bbb1f99d3848.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/005-0824bbb1f99d3848.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-006-32a28de5b70db3bc",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104294/53fb354f8e9091705bd394c93b1bced7562e2b55?revision=1",
+        "assetType": "image",
+        "altText": "In part “a”, a circle is divided into eight equal wedges. Five of the wedges are shaded. In part “b”, a square is divided into nine equal pieces. Two of the pieces are shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/006-32a28de5b70db3bc.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/006-32a28de5b70db3bc.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-007-b40034a6e85b1ef0",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104289/5d2877a43a33da92108cbdfd7720a5e7d5f826b5?revision=1",
+        "assetType": "image",
+        "altText": "In part “a”, a circle is divided into eight equal wedges. Three of the wedges are shaded. In part “b”, a square is divided into nine equal pieces. Four of the pieces are shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/007-b40034a6e85b1ef0.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/007-b40034a6e85b1ef0.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-008-096f85ceb963d45b",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104291/2ded6bce2ac337e8db8dbfd4e4ef3f7e91e9e254?revision=1",
+        "assetType": "image",
+        "altText": "In part “a”, a circle is divided into five equal wedges. Three of the wedges are shaded. In part “b”, a square is divided into four equal pieces. Three of the pieces are shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/008-096f85ceb963d45b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/008-096f85ceb963d45b.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-009-319d80ed1ede2e94",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104292/459081fa287d7878a81cd3abff267c9bb458f4ae?revision=1",
+        "assetType": "image",
+        "altText": "An image of a circle.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/009-319d80ed1ede2e94.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/009-319d80ed1ede2e94.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-010-98d12d01b4389749",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104298/3fbaf71b430189576af700fe252d99b461f18007?revision=1",
+        "assetType": "image",
+        "altText": "In “a”, a circle is shown divided into four equal pieces. An arrow points from “a” to “b”. In “b”, the same image is shown with three of the pieces shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/010-98d12d01b4389749.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/010-98d12d01b4389749.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-011-bc68698a3840cfd9",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104299/6200edaba7ffa00e69aa7b08a8d31a76ef1701a3?revision=1",
+        "assetType": "image",
+        "altText": "A circle is divided into eight equal pieces.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/011-bc68698a3840cfd9.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/011-bc68698a3840cfd9.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-012-13bae5d8fd5d51fd",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104306/6d25a7fa7d7879fa8a8f119c3347314fef6bfefb?revision=1",
+        "assetType": "image",
+        "altText": "A rectangle is divided vertically into five equal pieces.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/012-13bae5d8fd5d51fd.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/012-13bae5d8fd5d51fd.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-013-b06f92e433f0a8fc",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104301/c0233db154da3db33e1175dbf6e632353ddd8dd8?revision=1",
+        "assetType": "figure",
+        "altText": "One long, undivided rectangular tile is shown, labeled “1”. Below it is a rectangular tile of the same size and shape that has been divided vertically into two equal pieces, each labeled as one half. Below that is another rectangular tile that has been divided into three equal pieces, each labeled as one third. Below that is another rectangular tile that has been divided into four equal pieces, each labeled as one fourth. Below that is another rectangular tile that has been divided into six pieces, each labeled as one sixth.",
+        "caption": "Figure 4.3",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/013-b06f92e433f0a8fc.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/013-b06f92e433f0a8fc.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-015-e87195f3ef76c67b",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104305/3c35059f71955c6f7f77071eb1dcda6d594ed278?revision=1",
+        "assetType": "image",
+        "altText": "Three circles are shown. The circle on the left is divided into four equal pieces. The circle in the middle is divided into five equal pieces. The circle on the right is divided into six equal pieces. Each circle says “Form 1 whole” beneath it.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/015-e87195f3ef76c67b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/015-e87195f3ef76c67b.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-016-2dd9a4d0bcb86e09",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104307/799769e64bab67ad65e3ba6755e89012eb0667f8?revision=1",
+        "assetType": "image",
+        "altText": "Two circles are shown, both divided into two equal pieces. The circle on the left has both pieces shaded and is labeled as “1”. The circle on the right has one piece shaded and is labeled as one half.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/016-2dd9a4d0bcb86e09.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/016-2dd9a4d0bcb86e09.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-017-7310f3f59f6f9c1e",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104315/1cf405c4a8737ab3af42996abc20152804d5f981?revision=1",
+        "assetType": "image",
+        "altText": "Two circles are shown, both divided into five equal pieces. The circle on the left has all five pieces shaded and is labeled as “1”. The circle on the right has three pieces shaded and is labeled as three fifths.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/017-7310f3f59f6f9c1e.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/017-7310f3f59f6f9c1e.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-018-3c34db118cedda4c",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104316/f57876f6c8379dc42184be2705f0d65062a949ad?revision=1",
+        "assetType": "image",
+        "altText": "Three circles are shown, all divided into three equal pieces. The two circles on the left have all three pieces shaded and are labeled with ones. The circle on the right has one piece shaded and is labeled as one third.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/018-3c34db118cedda4c.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/018-3c34db118cedda4c.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-019-da1dffc62815f3b7",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104318/f4263ab82fce657370951481a401cd25fbfdee83?revision=1",
+        "assetType": "image",
+        "altText": "Two circles are shown, both divided into three equal pieces. The circle on the left has all three pieces shaded. The circle on the right has one piece shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/019-da1dffc62815f3b7.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/019-da1dffc62815f3b7.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-020-c7cb832ce0d97a92",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104313/04e01ea1cf1b08504f65e04d0c59657bdda52ae9?revision=1",
+        "assetType": "image",
+        "altText": "Two circles are shown, both divided into three equal pieces. The circle on the left has all three pieces shaded. The circle on the right has two pieces shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/020-c7cb832ce0d97a92.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/020-c7cb832ce0d97a92.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-021-2f7ad3dda1b99d1b",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104320/f1fdb817ee03f0eb7bd62bbe423e49109909955a?revision=1",
+        "assetType": "image",
+        "altText": "Two circles are shown, both divided into eight equal pieces. The circle on the left has all eight pieces shaded. The circle on the right has five pieces shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/021-2f7ad3dda1b99d1b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/021-2f7ad3dda1b99d1b.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-022-57be0588fd72c0ae",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104322/cb407f7d7316fb705154fedccbf27f7e7f622335?revision=1",
+        "assetType": "image",
+        "altText": "Two circles are shown, both divided into eight equal pieces. The circle on the left has all eight pieces shaded and is labeled as eight eighths. The circle on the right has three pieces shaded and is labeled as three eighths. The diagram indicates that eight eighths plus three eighths is one plus three eighths.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/022-57be0588fd72c0ae.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/022-57be0588fd72c0ae.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-023-e313518cc4d04d64",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104321/01af4fbd7acd5958e320ea6ba350e9c48febf193?revision=1",
+        "assetType": "image",
+        "altText": "Two circles are shown, both divided into six equal pieces. The circle on the left has all six pieces shaded and is labeled as six sixths. The circle on the right has five pieces shaded and is labeled as five sixths. Below the circles, it says one plus five sixths, then six sixths plus five sixths equals eleven sixths, and one plus five sixths equals one and five sixths. It then says that eleven sixths equals one and five sixths.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/023-e313518cc4d04d64.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/023-e313518cc4d04d64.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-024-dac8ff83a6554173",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104325/abaef48ae83d407adc98d284dea9938754d3d7a7?revision=1",
+        "assetType": "image",
+        "altText": "Two circles are shown, both divided into five equal pieces. The circle on the left has all five pieces shaded and is labeled as 5 fifths. The circle on the right has four pieces shaded and is labeled as 4 fifths. It then says that 5 fifths plus 4 fifths equals 9 fifths and that 9 fifths is equal to one plus 4 fifths.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/024-dac8ff83a6554173.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/024-dac8ff83a6554173.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-035-22f9fe5bc6bf7841",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104334/337b58e1297f28152ac48c2596a491c05769ae03?revision=1",
+        "assetType": "image",
+        "altText": "One long, undivided rectangle is shown. Below it is a rectangle divided vertically into two pieces, each labeled as one half. Below that is a rectangle divided vertically into four pieces, each labeled as one fourth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/035-22f9fe5bc6bf7841.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/035-22f9fe5bc6bf7841.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-036-940538525a1b7d10",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104335/a4d2b31d010ff40346e9b35fac07eda401570645?revision=1",
+        "assetType": "image",
+        "altText": "One long, undivided rectangle is shown. Below it is a rectangle divided vertically into two pieces, each labeled as one half. Below that is a rectangle divided vertically into six pieces, each labeled as one sixth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/036-940538525a1b7d10.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/036-940538525a1b7d10.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-037-30e01c5a2966cd31",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104336/7dfd57804aa927eb09b0cef11f71fe4147630f1f?revision=1",
+        "assetType": "image",
+        "altText": "One long, undivided rectangle is shown, labeled 1. Below it is an identical rectangle divided vertically into two pieces, each labeled 1 half. Below that is an identical rectangle divided vertically into eight pieces, each labeled 1 eighth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/037-30e01c5a2966cd31.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/037-30e01c5a2966cd31.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-038-2c4cd3467d591547",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104337/a280765eb1ab393ca7bca317e8aeed609f088b36?revision=1",
+        "assetType": "image",
+        "altText": "One long, undivided rectangle is shown. Below it is a rectangle divided vertically into two pieces, each labeled as one half. Below that is a rectangle divided vertically into ten pieces, each labeled as one tenth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/038-2c4cd3467d591547.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/038-2c4cd3467d591547.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-039-35c9df5088c2dfcc",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104342/fb4cc3695b530ff4499dc973753a6b1548ffd68e?revision=1",
+        "assetType": "image",
+        "altText": "One long, undivided rectangle is shown. Below it is a rectangle divided vertically into two pieces, each labeled as one half. Below that is a rectangle divided vertically into twelve pieces, each labeled as one twelfth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/039-35c9df5088c2dfcc.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/039-35c9df5088c2dfcc.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-040-97100fd3aeb00d20",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104345/bd1be1bba1a0eb8e90d51ddbabe46ddd6635fe69?revision=1",
+        "assetType": "figure",
+        "altText": "Two pizzas are shown. The pizza on the left is divided into 2 equal pieces. 1 piece is shaded. The pizza on the right is divided into 8 equal pieces. 4 pieces are shaded.",
+        "caption": "Figure 4.4",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/040-97100fd3aeb00d20.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/040-97100fd3aeb00d20.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-042-a07da2fe7315ac6b",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104344/e8d760a0dad0b9c7764c43607a447bca488a6159?revision=1",
+        "assetType": "image",
+        "altText": "1 times 4 over 2 times 4 is written with the 4s in red. This is set equal to 4 over 8.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/042-a07da2fe7315ac6b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/042-a07da2fe7315ac6b.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-043-c5a41457af7e3661",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104346/8262f0d51a9e837a508c896fca05bbe0d222d67d?revision=1",
+        "assetType": "image",
+        "altText": "The top line says that 1 times 3 over 2 times 3 equals 3 over 6, so one half equals 3 sixths. The next line says that 1 times 2 over 2 times 2 equals 2 over 4, so one half equals 2 fourths. The last line says that 1 times 10 over 2 times 10 equals 10 over 20, so one half equals 10 twentieths.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/043-c5a41457af7e3661.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/043-c5a41457af7e3661.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-044-daa408aa60f60501",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104347/27bc2c079b0c3e807148aab1176c6ed4e6f49857?revision=1",
+        "assetType": "image",
+        "altText": "On the left, we see that 2 times 2 over 5 times 2 equals 4 over 10. In the middle, we see that 2 times 3 over 5 times 3 equals 6 over 15. On the right, we see that 2 times 5 over 5 times 5 equals 10 over 25.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/044-daa408aa60f60501.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/044-daa408aa60f60501.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-045-210f4cbfff61afaf",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104350/4d017deb4f93df586d3deb0d786b64a6a2457410?revision=1",
+        "assetType": "image",
+        "altText": "2 over 7 equals 2 time 3 over 7 times 3. The 3s are shown in red. This is set equal to 6 over 21.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/045-210f4cbfff61afaf.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/045-210f4cbfff61afaf.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-046-594d16f8aca2fe05",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104353/ba9270ef3965d357a834a4718b8d0d39c6cd81c8?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown with the numbers 3, 4, and 5. There are red dots at 3 and at 5.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/046-594d16f8aca2fe05.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/046-594d16f8aca2fe05.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-047-38bc26704cf09091",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104354/10409bfb3869239fd4853fe81d08a9bfa0a85b17?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows 0, 1 fifth, 2 fifths, 3 fifths, 4 fifths, and 1. There are red dots at 1 fifth and at 4 fifths.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/047-38bc26704cf09091.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/047-38bc26704cf09091.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-048-d854c11d47c76546",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104357/8b558c4ff4d4479e7bf944d2a1517abf8dc777af?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown with whole number 0 through 5. Between 3 and 4, 3 and 1 third and 3 and 2 thirds are labeled. There is a red dot at 3 and 1 third.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/048-d854c11d47c76546.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/048-d854c11d47c76546.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-049-0e5995506788f600",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104360/a2bb394124c5d10daf55405febaa6ccdb4c7c854?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown with whole numbers 0 through 6. Between 0 and 1, 1 fifth and 4 fifths are labeled and shown with red dots. Between 1 and 2, 7 fourths is labeled and shown with a red dot. Between 2 and 3, 8 thirds is labeled and shown with a red dot. Between 3 and 4, 3 and 1 third is labeled and shown with a red dot. Between 4 and 5, 9 halves is labeled and shown with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/049-0e5995506788f600.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/049-0e5995506788f600.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-050-6bbbaa9eddc137f8",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104361/708160751788ec755f6786eabe8f5f0e511107ec?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows 0, 1 fourth, 2 fourths, 3 fourths, and 1. There is a red dot at 3 fourths.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/050-6bbbaa9eddc137f8.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/050-6bbbaa9eddc137f8.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-051-6d0764adccb7f1d3",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104363/f0a39ca2259767eaad99d61757b913ffe5fcbd0b?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows 4, 4 and 1 fifth, 4 and 2 fifths, 4 and 3 fifths, 4 and 4 fifths, and 5. There is a red dot at 4 and 1 fifth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/051-6d0764adccb7f1d3.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/051-6d0764adccb7f1d3.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-052-be11e4ddcdcf163b",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104364/3a6b17201a5df40deb8b12938b4a40035addfd0a?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows 1, 1 and 1 third, 1 and 2 thirds, and 2. Below 1 it says 3 thirds. Below 1 and 1 third it says 4 thirds. Below 1 and 2 thirds it says 5 thirds. Below 2 it says 6 thirds. There are red dots at 1 and 1 third and 1 and 2 thirds.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/052-be11e4ddcdcf163b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/052-be11e4ddcdcf163b.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-053-660347c82d1d1316",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104366/7470be3cb052146df43f83bbf6ba073f8c3cfae6?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows 3, 3 and 1 half, and 4. Below 3 it says 6 halves. Below 3 and 1 half it says 7 halves. Below 4 it says 8 halves. There is a red dot at 3 and 1 half.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/053-660347c82d1d1316.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/053-660347c82d1d1316.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-054-3fd0cb7a9887e41d",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104367/ffa11f4291351a6ee84225bdf76aa92d775484f6?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows the whole numbers 0 through 5. Between any 2 numbers are 10 tick marks. Between 0 and 1, between the 7th and 8th tick mark, 3 fourths is labeled and shown with a red dot. Between 1 and 2, 4 thirds and 5 thirds are labeled and shown with red dots. Between 3 and 4, 7 halves is labeled and shown with a red dot. Between 4 and 5, 4 and 1 fifth is labeled and shown with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/054-3fd0cb7a9887e41d.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/054-3fd0cb7a9887e41d.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-055-72d1e6127b87a42a",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104370/9d0bbc4d5cdbaa1ae7124f1beea661b834e4cca2?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows the numbers negative 7, 0 and 7. There are red dots at negative 7 and 7. The space between negative 7 and 0 is labeled as 7 units. The space between 0 and 7 is labeled as 7 units.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/055-72d1e6127b87a42a.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/055-72d1e6127b87a42a.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-056-c5ad315f8cca8d5c",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104372/eebf22a0c3761a24cc0c63c64f0d6ce2dd107c62?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows the numbers negative 1, negative 3 fourths, 0, 3 fourths, and 1. There are red dots at negative 3 fourths and 3 fourths. The space between negative 3 fourths and 0 is labeled as 3 fourths of a unit. The space between 0 and 3 fourths is labeled as 3 fourths of a unit.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/056-c5ad315f8cca8d5c.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/056-c5ad315f8cca8d5c.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-057-664bdb14172efdd2",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104373/57f4c7ed6b662d6007e840dca92ea9a71b2e64fd?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows the numbers negative 2, negative 1, 0, 1, and 2. Between negative 2 and negative 1, negative 1 and 7 eighths is labeled and marked with a red dot. The distance between negative 1 and 7 eighths and 0 is marked as 15 eighths units. Between 1 and 2, 1 and 7 eighths is labeled and marked with a red dot. The distance between 0 and 1 and 7 eighths is marked as 15 eighths units.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/057-664bdb14172efdd2.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/057-664bdb14172efdd2.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-058-e578cf8619939cd5",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104376/17c2a2146c5f711867191b111309577822d3cae7?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows the numbers negative 4, negative 3, negative 2, negative 1, 0, 1, 2, 3, and 4. There are 4 tick marks between negative 1 and 0. There are 4 tick marks between 0 and 1. The first tick mark between 0 and 1 is labeled as 1 fourth and marked with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/058-e578cf8619939cd5.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/058-e578cf8619939cd5.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-059-d3f57d6760f14cfd",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104381/a1f0b04fa8d70b9691522928490376b2c02b1746?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. It shows the numbers negative 4, negative 3, negative 2, negative 1, 0, 1, 2, 3, and 4. There are 4 tick marks between negative 1 and 0. There are 4 tick marks between 0 and 1. The first tick mark between 0 and 1 is labeled as 1 fourth and marked with a red dot. The first tick mark between 0 and negative 1 is labeled as negative 1 fourth and marked with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/059-d3f57d6760f14cfd.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/059-d3f57d6760f14cfd.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-060-cef9928756613448",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104377/6251b9a0d619d320beef53d482f42d165d6c00f0?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. The integers from negative 2 to 2 are labeled. Between negative 2 and negative 1, negative 1 and 1 third is labeled and marked with a red dot. Between 1 and 2, 1 and 1 third is labeled and marked with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/060-cef9928756613448.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/060-cef9928756613448.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-061-b2600287c0dc20bd",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104380/995102755e52db625adfd511a9343fe4e13e563b?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. The integers from negative 4 to 4 are labeled. Between negative 3 and negative 2, negative 5 halves is labeled and marked with a red dot. Between 2 and 3, 5 halves is labeled and marked with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/061-b2600287c0dc20bd.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/061-b2600287c0dc20bd.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-062-0d851edc898807f5",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104378/e2766106111c6958973718889d14ecebcc7e9c7b?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. The integers from negative 3 to 3 are labeled. Negative 1 is marked with a red dot. Between negative 1 and 0, negative 2 thirds is labeled and marked with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/062-0d851edc898807f5.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/062-0d851edc898807f5.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-063-fe59123e00243b7d",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104384/0a3cc8b2f78212b408b5e06a15c1bcadf89f08b7?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. The integers from negative 4 to 4 are labeled. There is a red dot at negative 3. Between negative 4 and negative 3, negative 3 and one half is labeled and marked with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/063-fe59123e00243b7d.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/063-fe59123e00243b7d.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-064-b94204bf28e3f535",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104385/c70731910f985fb52bb01937cba4df1695e2481e?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. The numbers negative 3, negative 2, negative 1, 0, 1, 2, and 3 are labeled. Between negative 1 and 0, negative 3 sevenths and negative 3 eighths are labeled and marked with red dots.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/064-b94204bf28e3f535.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/064-b94204bf28e3f535.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-065-e869ac66a77419c1",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104386/35748ddf7999d74d62603dbe1bcabfcde0510cb1?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown. The numbers negative 3, negative 2, negative 1, 0, 1, 2, and 3 are labeled. There is a red dot at negative 2. Between negative 2 and negative 1, negative 16 over 9 is labeled and marked with a red dot.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/065-e869ac66a77419c1.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/065-e869ac66a77419c1.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-066-ab9e72735fea5a73",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104387/f1d64c3c2bbc74390f7dbfc0845a05b2392227f6?revision=1",
+        "assetType": "image",
+        "altText": "In part “a”, a circle is divided into 4 equal pieces. 1 piece is shaded. In part “b”, a circle is divided into 4 equal pieces. 3 pieces are shaded. In part “c”, a circle is divided into 8 equal pieces. 3 pieces are shaded. In part “d”, a circle is divided into 8 equal pieces. 5 pieces are shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/066-ab9e72735fea5a73.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/066-ab9e72735fea5a73.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-067-eecd7757da483f21",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104388/9a627f586cd5b716425ee52feb00c158602a8961?revision=1",
+        "assetType": "image",
+        "altText": "In part “a”, a circle is divided into 12 equal pieces. 7 pieces are shaded. In part “b”, a circle is divided into 12 equal pieces. 5 pieces are shaded. In part “c”, a square is divided into 9 equal pieces. 4 of the pieces are shaded. In part “d”, a square is divided into 9 equal pieces. 5 pieces are shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/067-eecd7757da483f21.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/067-eecd7757da483f21.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-068-80eac9c4843caf5b",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104389/004e7c1142faa3ec47f17fb3d23dafa818e8433c?revision=1",
+        "assetType": "image",
+        "altText": "In part “a”, two circles are shown. Each is divided into 4 equal pieces. The circle on the left has all 4 pieces shaded. The circle on the right has 1 piece shaded. In part “b”, two circles are shown. Each is divided into 4 equal pieces. The circle on the left has all 4 pieces shaded. The circle on the right has 3 pieces shaded. In part “c”, two circles are shown. Each is divided into 8 equal pieces. The circle on the left has all 8 pieces shaded. The circle on the right has 3 pieces shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/068-80eac9c4843caf5b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/068-80eac9c4843caf5b.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-069-7992c5c1d25268f6",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104390/58b91fa397af7233940c1668f6186db455c0d53e?revision=1",
+        "assetType": "image",
+        "altText": "In part “a”, 2 circles are shown. Each is divided into 8 equal pieces. The circle on the left has all 8 pieces shaded. The circle on the right has 1 piece shaded. In part “b”, two squares are shown. Each is divided into 4 equal pieces. The square on the left has all 4 pieces shaded. The circle on the right has 1 piece shaded. In part “c”, two squares are shown. Each is divided into 9 equal pieces. The square on the left has all 9 pieces shaded. The square on the right has 2 pieces shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/069-7992c5c1d25268f6.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/069-7992c5c1d25268f6.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-070-e5b690b213013c98",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104391/bc1a53a7e7910c1aa5a3623cc7bf80fff840eb24?revision=1",
+        "assetType": "image",
+        "altText": "In part “a”, 3 circles are shown. Each is divided into 4 equal pieces. The first two circles have all 4 pieces shaded. The third circle has 3 pieces shaded. In part “b”, 3 circles are shown. Each is divided into 8 equal pieces. The first two circles have all 8 pieces shaded. The third circle has 3 pieces shaded.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/070-e5b690b213013c98.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/070-e5b690b213013c98.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-ac778f958e56f7e5",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.02%3A_Visualize_Fractions#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/ac778f958e56f7e5.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/ac778f958e56f7e5.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-97f130d9f93d8932",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.02%3A_Visualize_Fractions#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/97f130d9f93d8932.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/97f130d9f93d8932.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-e0e467e03e533ffa",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.02%3A_Visualize_Fractions#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/e0e467e03e533ffa.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/e0e467e03e533ffa.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-abc70ea14e282bc2",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.02%3A_Visualize_Fractions#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/abc70ea14e282bc2.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/abc70ea14e282bc2.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-visualize-fractions-asset-bcece04de0d0fd8d",
+        "lessonId": "lesson-visualize-fractions",
+        "sourceSnapshotId": "snapshot-874d3ef1009c7400",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.02%3A_Visualize_Fractions#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-visualize-fractions/bcece04de0d0fd8d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-visualize-fractions/bcece04de0d0fd8d.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

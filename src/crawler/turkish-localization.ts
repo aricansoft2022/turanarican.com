@@ -60,6 +60,7 @@ export function localizeExercisePromptForTurkish(
     adaptInsuranceDeductibleExercise(normalizedPrompt) ??
     adaptSalePurchaseExercise(normalizedPrompt) ??
     adaptEnvelopeCounterExercise(normalizedPrompt) ??
+    adaptFractionVisualizationExercise(normalizedPrompt) ??
     adaptIntegerEquationExercise(normalizedPrompt) ??
     adaptAlgebraicEquationSentenceExercise(normalizedPrompt) ??
     adaptAlgebraicExpressionWritingExercise(normalizedPrompt) ??
@@ -244,6 +245,95 @@ export function localizeExercisePromptForTurkish(
     ) ??
     normalizedPrompt
   );
+}
+
+function adaptFractionVisualizationExercise(
+  prompt: InlineContent[],
+): InlineContent[] | null {
+  const text = inlineText(prompt);
+
+  const exactReplacements: Array<[string, string]> = [
+    [
+      "In the following exercises, name the fraction of each figure that is shaded.",
+      "Aşağıdaki alıştırmalarda her şeklin boyalı kısmını kesirle adlandırın. ⓐ 4 eş parçalı dairenin 1 parçası boyalıdır. ⓑ 4 eş parçalı dairenin 3 parçası boyalıdır. ⓒ 8 eş parçalı dairenin 3 parçası boyalıdır. ⓓ 8 eş parçalı dairenin 5 parçası boyalıdır.",
+    ],
+    [
+      "In the following exercises, name the improper fractions. Then write each improper fraction as a mixed number. In part “a”, two circles are shown. Each is divided into 4 equal pieces.",
+      "Aşağıdaki alıştırmalarda bileşik kesri adlandırın ve tam sayılı kesir olarak yazın. ⓐ İki daire 4 eş parçaya ayrılmıştır; soldaki dairenin tamamı, sağdaki dairenin 1 parçası boyalıdır. ⓑ İki daire 4 eş parçaya ayrılmıştır; soldaki dairenin tamamı, sağdaki dairenin 3 parçası boyalıdır. ⓒ İki daire 8 eş parçaya ayrılmıştır; soldaki dairenin tamamı, sağdaki dairenin 3 parçası boyalıdır.",
+    ],
+    [
+      "In the following exercises, name the improper fractions. Then write each improper fraction as a mixed number. In part “a”, 3 circles are shown.",
+      "Aşağıdaki alıştırmalarda bileşik kesri adlandırın ve tam sayılı kesir olarak yazın. ⓐ Üç daire 4 eş parçaya ayrılmıştır; ilk iki dairenin tamamı, üçüncü dairenin 3 parçası boyalıdır. ⓑ Üç daire 8 eş parçaya ayrılmıştır; ilk iki dairenin tamamı, üçüncü dairenin 3 parçası boyalıdır.",
+    ],
+    [
+      "Music Measures Fractions are used often in music.",
+      "Müzikte ölçüler: Kesirler müzikte sık kullanılır. 4/4'lük ölçüde bir ölçüde dört çeyrek nota vardır. ⓐ Sekiz çeyrek nota kaç ölçü eder? ⓑ “Happy Birthday to You” şarkısında 25 çeyrek nota varsa bu kaç ölçü eder?",
+    ],
+    [
+      "Give an example from your life experience",
+      "Okul dışındaki yaşamınızdan, kesirleri anlamanın önemli olduğu bir örnek verin.",
+    ],
+  ];
+
+  const exactReplacement = exactReplacements.find(([source]) =>
+    text.includes(source),
+  )?.[1];
+  if (exactReplacement) {
+    return [{ type: "text", value: exactReplacement }] satisfies InlineContent[];
+  }
+
+  const first = prompt[0];
+  if (first?.type !== "text") return null;
+
+  const replacements: Array<[string, string]> = [
+    [
+      "In the following exercises, shade parts of circles or squares to model the following fractions.",
+      "Aşağıdaki alıştırmalarda verilen kesri modellemek için daire veya kare parçalarını boyayın.",
+    ],
+    [
+      "In the following exercises, use fraction circles to make wholes using the following pieces.",
+      "Aşağıdaki alıştırmalarda verilen parçalarla kesir daireleri kullanarak bütünler oluşturun.",
+    ],
+    [
+      "In the following exercises, draw fraction circles to model the given fraction.",
+      "Aşağıdaki alıştırmalarda verilen kesri modellemek için kesir daireleri çizin.",
+    ],
+    [
+      "In the following exercises, rewrite the improper fraction as a mixed number.",
+      "Aşağıdaki alıştırmalarda bileşik kesri tam sayılı kesir olarak yazın.",
+    ],
+    [
+      "In the following exercises, rewrite the mixed number as an improper fraction.",
+      "Aşağıdaki alıştırmalarda tam sayılı kesri bileşik kesir olarak yazın.",
+    ],
+    [
+      "In the following exercises, use fraction tiles or draw a figure to find equivalent fractions.",
+      "Aşağıdaki alıştırmalarda denk kesirleri bulmak için kesir karoları kullanın veya şekil çizin.",
+    ],
+    [
+      "In the following exercises, find three fractions equivalent to the given fraction. Show your work, using figures or algebra.",
+      "Aşağıdaki alıştırmalarda verilen kesre denk üç kesir bulun. Çalışmanızı şekil veya cebirle gösterin.",
+    ],
+    [
+      "In the following exercises, plot the numbers on a number line.",
+      "Aşağıdaki alıştırmalarda sayıları sayı doğrusunda gösterin.",
+    ],
+    [
+      "In the following exercises, order each of the following pairs of numbers, using < or >.",
+      "Aşağıdaki alıştırmalarda her sayı çiftini < veya > kullanarak sıralayın.",
+    ],
+  ];
+
+  const replacement = replacements.find(([source]) =>
+    first.value.startsWith(source),
+  );
+
+  if (!replacement) return null;
+  const [source, target] = replacement;
+  return [
+    { ...first, value: first.value.replace(source, target) },
+    ...prompt.slice(1),
+  ] satisfies InlineContent[];
 }
 
 function adaptIntegerEquationExercise(

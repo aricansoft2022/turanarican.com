@@ -1921,4 +1921,229 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "351": "denklem-kurup-cozme",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "kesirler",
+    sourceNumber: "4.2",
+    catalogLesson: {
+      id: "lesson-visualize-fractions",
+      slug: "kesirleri-gorsellestirme",
+      displayTitle: "Kesirleri Görselleştirme",
+      summary:
+        "Kesirleri bütünün parçası olarak modelleyin, bileşik ve tam sayılı kesirleri dönüştürün, denk kesirleri ve sayı doğrusundaki yerlerini görün.",
+      sortOrder: 2,
+    },
+    objectives: [
+      "Kesrin bütünün eş parçalarını nasıl gösterdiğini açıklayabileceksiniz.",
+      "Bileşik kesirleri ve tam sayılı kesirleri modelleyebileceksiniz.",
+      "Bileşik kesirlerle tam sayılı kesirler arasında dönüşüm yapabileceksiniz.",
+      "Denk kesirleri modellerle gösterebileceksiniz.",
+      "Verilen kesre denk kesirler bulabileceksiniz.",
+      "Kesirleri ve tam sayılı kesirleri sayı doğrusunda gösterebileceksiniz.",
+      "Kesirleri ve tam sayılı kesirleri sıralayabileceksiniz.",
+    ],
+    sectionTitles: {
+      "Understand the Meaning of Fractions": "Kesrin Anlamı",
+      "Model Improper Fractions and Mixed Numbers":
+        "Bileşik Kesirler ve Tam Sayılı Kesirler",
+      "Convert between Improper Fractions and Mixed Numbers":
+        "Bileşik Kesir ve Tam Sayılı Kesir Dönüşümleri",
+      "Model Equivalent Fractions": "Denk Kesirleri Modelleme",
+      "Find Equivalent Fractions": "Denk Kesir Bulma",
+      "Locate Fractions and Mixed Numbers on the Number Line":
+        "Kesirleri Sayı Doğrusunda Gösterme",
+      "Order Fractions and Mixed Numbers": "Kesirleri Sıralama",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 4.1": p(
+        "Çözüm: Payda eş parça sayısını, pay ise boyalı parça sayısını verir. ⓐ 8 parçanın 3'ü boyalıdır: 3/8. ⓑ 9 parçanın 4'ü boyalıdır: 4/9.",
+      ),
+      "Sıra Sizde 4.2": p(
+        "Çözüm: ⓐ 5 eş parçanın 3'ü boyalı olduğu için kesir 3/5'tir. ⓑ 4 eş parçanın 3'ü boyalı olduğu için kesir 3/4'tür.",
+      ),
+      "Sıra Sizde 4.3": p(
+        "Çözüm: Payda 8 olduğu için daire 8 eş parçaya ayrılır; pay 6 olduğu için bu parçalardan 6'sı boyanır.",
+      ),
+      "Sıra Sizde 4.4": p(
+        "Çözüm: Dikdörtgen 5 eş parçaya ayrılmıştır. 2/5 modellemek için bu 5 parçanın 2'si boyanır.",
+      ),
+      "Sıra Sizde 4.5": p(
+        "Çözüm: 3 tane üçte bir parça bir bütünü tamamlar. Bu yüzden 3/3=1 olur.",
+      ),
+      "Sıra Sizde 4.6": p(
+        "Çözüm: 8 tane sekizde bir parça bir bütündür. Bu nedenle 8/8=1.",
+      ),
+      "Sıra Sizde 4.7": p(
+        "Çözüm: 3 tane üçte bir bir bütün yapar; 5 üçte bir parçada 1 bütün ve 2/3 kalır. Sonuç 1 2/3'tür.",
+      ),
+      "Sıra Sizde 4.8": p(
+        "Çözüm: 2 yarım 1 bütün yapar. 5 yarım parça 2 bütün ve 1/2 eder; sonuç 2 1/2'dir.",
+      ),
+      "Sıra Sizde 4.9": p(
+        "Çözüm: Toplam 5 tane üçte bir parça vardır. 3/3 bir bütün eder, 2/3 kalır; bileşik kesir 5/3, tam sayılı kesir 1 2/3'tür.",
+      ),
+      "Sıra Sizde 4.10": p(
+        "Çözüm: 13 tane sekizde bir parça vardır. 8/8 bir bütün, kalan 5/8 olur. Sonuç 13/8=1 5/8'tir.",
+      ),
+      "Sıra Sizde 4.11": p(
+        "Çözüm: 7/6, 6/6 bir bütün ve 1/6 kalan demektir. Bu yüzden 7/6=1 1/6.",
+      ),
+      "Sıra Sizde 4.12": p(
+        "Çözüm: 6/5 içinde 5/5 bir bütün vardır ve 1/5 kalır. Sonuç 1 1/5'tir.",
+      ),
+      "Sıra Sizde 4.13": p(
+        "Çözüm: 9/7 içinde 7/7 bir bütün vardır; 2/7 kalır. Bu yüzden 9/7=1 2/7.",
+      ),
+      "Sıra Sizde 4.14": p(
+        "Çözüm: 7/4 içinde 4/4 bir bütün vardır ve 3/4 kalır. Sonuç 1 3/4'tür.",
+      ),
+      "Sıra Sizde 4.15": p(
+        "Çözüm: 1 bütün 8/8 eder. 8/8 ile 3/8 toplanır ve 11/8 bulunur.",
+      ),
+      "Sıra Sizde 4.16": p(
+        "Çözüm: 1 bütün 6/6'dır. 6/6+5/6=11/6 olduğundan 1 5/6=11/6.",
+      ),
+      "Sıra Sizde 4.17": p(
+        "Çözüm: 13'ü 7'ye böleriz: bölüm 1, kalan 6'dır. Bu nedenle 13/7=1 6/7.",
+      ),
+      "Sıra Sizde 4.18": p(
+        "Çözüm: 14÷9 işleminde bölüm 1, kalan 5'tir. Sonuç 1 5/9 olur.",
+      ),
+      "Sıra Sizde 4.19": p(
+        "Çözüm: 23÷7=3 kalan 2 olduğundan 23/7=3 2/7.",
+      ),
+      "Sıra Sizde 4.20": p(
+        "Çözüm: 48÷11=4 kalan 4'tür. Bu yüzden 48/11=4 4/11.",
+      ),
+      "Sıra Sizde 4.21": p(
+        "Çözüm: 3 5/7 için 3 bütünü yedilere çeviririz: 3·7=21. 21+5=26, sonuç 26/7'dir.",
+      ),
+      "Sıra Sizde 4.22": p(
+        "Çözüm: 2 bütün 16/8 eder. 16/8+7/8=23/8 olduğundan sonuç 23/8'dir.",
+      ),
+      "Sıra Sizde 4.23": p(
+        "Çözüm: 4·11=44 ve 44+6=50. Bu nedenle 4 6/11=50/11.",
+      ),
+      "Sıra Sizde 4.24": p(
+        "Çözüm: 11·3=33 ve 33+1=34. Sonuç 34/3'tür.",
+      ),
+      "Sıra Sizde 4.25": p(
+        "Çözüm: Bir bütünün dörtte biri, sekizde ikiye eşittir. Çünkü 1/4=2/8.",
+      ),
+      "Sıra Sizde 4.26": p(
+        "Çözüm: 1/4 kesrini on ikilik parçalarla göstermek için pay ve paydayı 3 ile çarparız: 1/4=3/12.",
+      ),
+      "Sıra Sizde 4.27": p(
+        "Çözüm: Pay ve paydayı aynı sayıyla çarparız. Örneğin 3/5=6/10=9/15=12/20.",
+      ),
+      "Sıra Sizde 4.28": p(
+        "Çözüm: 4/5 kesrine denk üç örnek: 8/10, 12/15 ve 16/20. Hepsinde pay ve payda aynı çarpanla büyütülmüştür.",
+      ),
+      "Sıra Sizde 4.29": p(
+        "Çözüm: Paydanın 21 olması için 7, 3 ile çarpılır. Payı da 3 ile çarparız: 6/7=18/21.",
+      ),
+      "Sıra Sizde 4.30": p(
+        "Çözüm: 10'u 100 yapmak için 10 ile çarparız. Payı da 10 ile çarparız: 3/10=30/100.",
+      ),
+      "Sıra Sizde 4.31": p(
+        "Çözüm: Sayıları konumlandırırken bileşik kesirleri tam sayılı kesre çevirebiliriz: 5/4=1 1/4, 7/4=1 3/4, 9/2=4 1/2. Noktalar sırasıyla 1/3, 1 1/4, 1 3/4, 2 3/5 ve 4 1/2 konumlarındadır.",
+      ),
+      "Sıra Sizde 4.32": p(
+        "Çözüm: 9/4=2 1/4, 5/2=2 1/2 ve 11/4=2 3/4'tür. Noktalar 2/3, 2 1/4, 2 1/2, 2 3/4 ve 3 2/5 konumlarına yerleştirilir.",
+      ),
+      "Sıra Sizde 4.33": p(
+        "Çözüm: Negatifler sıfırın soluna, pozitifler sağına yerleştirilir. Soldan sağa sıralama -2 1/4, -3/2, -2/3, 2/3, 3/2, 2 1/4 şeklindedir.",
+      ),
+      "Sıra Sizde 4.34": p(
+        "Çözüm: Soldan sağa sıralama -7/3, -1 1/2, -3/4, 3/4, 1 1/2, 7/3 olur.",
+      ),
+      "Sıra Sizde 4.35": p(
+        "Çözüm: Negatif sayılarda sıfıra daha yakın olan daha büyüktür. ⓐ -1/3>-1. ⓑ -1 1/2>-2. ⓒ -2/3<-1/3. ⓓ -3<-7/3.",
+      ),
+      "Sıra Sizde 4.36": p(
+        "Çözüm: ⓐ -3>-17/5. ⓑ -2 1/4<-2. ⓒ -3/5>-4/5. ⓓ -4<-10/3.",
+      ),
+    },
+    exerciseAnswers: {
+      "1": answer("Çözüm: Payda toplam eş parça sayısı, pay boyalı parça sayısıdır. ⓐ 1/4, ⓑ 3/4, ⓒ 3/8, ⓓ 5/8."),
+      "3": answer("Çözüm: 1/2 için şekil 2 eş parçaya ayrılır ve 1 parça boyanır."),
+      "5": answer("Çözüm: 3/4 için şekil 4 eş parçaya ayrılır ve 3 parça boyanır."),
+      "7": answer("Çözüm: 5/6 için şekil 6 eş parçaya ayrılır ve 5 parça boyanır."),
+      "9": answer("Çözüm: 5/8 için şekil 8 eş parçaya ayrılır ve 5 parça boyanır."),
+      "11": answer("Çözüm: 3 tane üçte bir parça bir bütünü tamamlar; 3/3=1."),
+      "13": answer("Çözüm: 7 altıda bir parçada 6/6 bir bütün eder, 1/6 kalır. Sonuç 1 1/6'dır."),
+      "15": answer("Çözüm: 7 beşte bir parçada 5/5 bir bütün eder, 2/5 kalır. Sonuç 1 2/5'tir."),
+      "17": answer("Çözüm: ⓐ 5/4=1 1/4. ⓑ 7/4=1 3/4. ⓒ 11/8=1 3/8. Her durumda bir bütün tamamlandıktan sonra kalan parça yazılır."),
+      "19": answer("Çözüm: ⓐ 11/4=2 3/4; iki bütün 8/4 eder, 3/4 kalır. ⓑ 19/8=2 3/8; iki bütün 16/8 eder, 3/8 kalır."),
+      "21": answer("Çözüm: 4/4 bir bütündür. Modelde 4 eş parçanın tamamı boyanır."),
+      "23": answer("Çözüm: 5/3 için 3/3 bir bütün eder, 2/3 kalır. Model 1 2/3 gösterir."),
+      "25": answer("Çözüm: 13/8 için 8/8 bir bütün, kalan 5/8 olur. Sonuç 1 5/8'tir."),
+      "27": answer("Çözüm: 9/4 içinde 8/4 iki bütün vardır ve 1/4 kalır. Sonuç 2 1/4'tür."),
+      "29": answer("Çözüm: 5÷3 işleminde bölüm 1, kalan 2'dir. Bu yüzden 5/3=1 2/3."),
+      "31": answer("Çözüm: 13÷5=2 kalan 3 olduğundan 13/5=2 3/5."),
+      "33": answer("Çözüm: 28÷9 işleminde 9, 28'in içinde 3 kez vardır ve 1 artar. Bölüm tam kısım, kalan pay olduğu için sonuç 3 1/9'dur."),
+      "35": answer("Çözüm: 47÷15=3 kalan 2. Bu nedenle 47/15=3 2/15."),
+      "37": answer("Çözüm: 1 2/5 için 1 bütün 5/5'tir. 5/5+2/5=7/5."),
+      "39": answer("Çözüm: 2 bütün 12/6 eder. 12/6+5/6=17/6."),
+      "41": answer("Çözüm: 2·7=14 ve 14+5=19. Bu yüzden 2 5/7=19/7."),
+      "43": answer("Çözüm: 3·9=27 ve 27+5=32. Sonuç 32/9'dur."),
+      "45": answer("Çözüm: 1/3'ü on ikilik parçalarla yazmak için pay ve paydayı 4 ile çarparız: 1/3=4/12. Yani 4 tane on ikide bir gerekir."),
+      "47": answer("Çözüm: 3/4=9/12 olduğu için üçte dört, 9 tane on ikide bire eşittir."),
+      "49": answer("Çözüm: 3/2 kesrini altılı parçalarla yazarsak 3/2=9/6 olur. Yani 9 tane altıda bir gerekir."),
+      "51": answer("Çözüm: Pay ve paydayı aynı sayıyla çarparız. Örneğin 1/3=2/6=3/9=4/12."),
+      "53": answer("Çözüm: 5/6 kesrine denk üç örnek 10/12, 15/18 ve 20/24'tür; her biri aynı çarpanla genişletilmiştir."),
+      "55": answer("Çözüm: 5/9 için örnek denk kesirler 10/18, 15/27 ve 20/36'dır."),
+      "57": answer("Çözüm: 1/3, 0 ile 1 arasında; 7/4=1 3/4, 1 ile 2 arasında; 13/5=2 3/5, 2 ile 3 arasında işaretlenir."),
+      "59": answer("Çözüm: 7/10, 0 ile 1 arasında; 13/8=1 5/8, 1 ile 2 arasında; 5/2=2 1/2 ve 3 tam sayı noktasında gösterilir."),
+      "61": answer("Çözüm: 1 3/4 pozitif tarafta 1 ile 2 arasındadır. -1 3/5 negatif tarafta -2 ile -1 arasındadır."),
+      "63": answer("Çözüm: Soldan sağa sıralama -8/3, -1 3/4, -2/5, 2/5, 1 3/4, 8/3 şeklindedir; sayı doğrusunda noktalar buna göre yerleştirilir."),
+      "65": answer("Çözüm: -1, -1/3'ten daha soldadır. Bu yüzden -1<-1/3."),
+      "67": answer("Çözüm: -1 3/4 sayısı -2'den sıfıra daha yakındır. Bu nedenle -1 3/4>-2."),
+      "69": answer("Çözüm: -9/10, -3/10'dan daha küçüktür; çünkü sayı doğrusunda daha soldadır. Sonuç -9/10<-3/10."),
+      "71": answer("Çözüm: -23/6=-3 5/6'dır. -4 bu sayıdan daha solda olduğu için -4<-23/6."),
+      "73": answer("Çözüm: 4/4'lük ölçüde 4 çeyrek nota 1 ölçüdür. ⓐ 8 çeyrek nota 2 ölçü eder. ⓑ 25 çeyrek nota 25/4=6 1/4 ölçüdür."),
+      "75": answer("Çözüm: Örnek yanıt: Yemek yaparken 1/2 su bardağı ya da 3/4 tatlı kaşığı gibi ölçüler kullanmak için kesirleri anlamak gerekir."),
+    },
+    exerciseSectionSlugs: {
+      "1": "kesrin-anlami",
+      "3": "kesrin-anlami",
+      "5": "kesrin-anlami",
+      "7": "kesrin-anlami",
+      "9": "kesrin-anlami",
+      "11": "kesrin-anlami",
+      "13": "kesrin-anlami",
+      "15": "kesrin-anlami",
+      "17": "bilesik-kesirler-ve-tam-sayili-kesirler",
+      "19": "bilesik-kesirler-ve-tam-sayili-kesirler",
+      "21": "bilesik-kesirler-ve-tam-sayili-kesirler",
+      "23": "bilesik-kesirler-ve-tam-sayili-kesirler",
+      "25": "bilesik-kesirler-ve-tam-sayili-kesirler",
+      "27": "bilesik-kesirler-ve-tam-sayili-kesirler",
+      "29": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+      "31": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+      "33": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+      "35": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+      "37": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+      "39": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+      "41": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+      "43": "bilesik-kesir-ve-tam-sayili-kesir-donusumleri",
+      "45": "denk-kesirleri-modelleme",
+      "47": "denk-kesirleri-modelleme",
+      "49": "denk-kesirleri-modelleme",
+      "51": "denk-kesir-bulma",
+      "53": "denk-kesir-bulma",
+      "55": "denk-kesir-bulma",
+      "57": "kesirleri-sayi-dogrusunda-gosterme",
+      "59": "kesirleri-sayi-dogrusunda-gosterme",
+      "61": "kesirleri-sayi-dogrusunda-gosterme",
+      "63": "kesirleri-sayi-dogrusunda-gosterme",
+      "65": "kesirleri-siralama",
+      "67": "kesirleri-siralama",
+      "69": "kesirleri-siralama",
+      "71": "kesirleri-siralama",
+      "73": "kesirleri-siralama",
+      "75": "kesirleri-siralama",
+    },
+  },
 ];
