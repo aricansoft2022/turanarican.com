@@ -86,7 +86,7 @@ export default async function LessonPage({ params }: LessonPageProps) {
     provider: {
       "@type": "Organization",
       name: "Turan Arıcan Matematik",
-      url: "https://turanarican.com",
+      url: "https://www.turanarican.com",
     },
   };
 
@@ -103,4 +103,3 @@ export default async function LessonPage({ params }: LessonPageProps) {
     </div>
   );
 }
-

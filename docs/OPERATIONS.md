@@ -13,7 +13,9 @@ Proje şu anda:
 - Turso SQLite + Drizzle için hazırlanmış durumda.
 - Crawled görsel/şekil/tablo assetleri için ileride Cloudflare R2 kullanılacak.
 - Public crawler veya admin endpoint yok.
-- Domain hedefi `https://turanarican.com`.
+- Canlı canonical host şu an `https://www.turanarican.com`.
+- Apex `https://turanarican.com` Cloudflare tarafından `www` hostuna 301
+  yönleniyor.
 
 En önemli deploy kuralı:
 
@@ -117,7 +119,7 @@ placeholder değerleri gösterir.
 Şu an bilinen değişkenler:
 
 - `NEXT_PUBLIC_SITE_URL`: public site adresi. Production için
-  `https://turanarican.com`.
+  `https://www.turanarican.com`.
 - `TURSO_DATABASE_URL`: Turso database URL.
 - `TURSO_AUTH_TOKEN`: Turso auth token.
 - `CLOUDFLARE_ACCOUNT_ID`: Cloudflare account id. CI veya CLI akışında
@@ -269,22 +271,23 @@ npm run deploy
 Production hedef:
 
 ```text
-turanarican.com
 www.turanarican.com
+turanarican.com -> www.turanarican.com
 ```
 
 Dashboard'da kontrol edilecekler:
 
 1. Domain Cloudflare zone içinde mi?
 2. DNS kayıtları doğru Worker/route veya custom domain hedefine gidiyor mu?
-3. `turanarican.com` ve `www.turanarican.com` davranışı kararlaştırıldı mı?
-4. Canonical URL uygulamada `https://turanarican.com` olarak kalıyor mu?
+3. `turanarican.com` apex hostu `www.turanarican.com` adresine 301
+   yönleniyor mu?
+4. Canonical URL uygulamada `https://www.turanarican.com` olarak kalıyor mu?
 5. SSL/TLS aktif ve hata vermiyor mu?
 
 Öneri:
 
-- Ana canonical host `turanarican.com` olsun.
-- `www` varsa ana hosta yönlendirilsin veya aynı worker route'a bağlansın.
+- Ana canonical host şu an `www.turanarican.com`.
+- Apex host `www` hostuna yönlensin.
 
 ## Cloudflare Güvenlik Ayarları
 
@@ -496,7 +499,9 @@ source 2.3 -> display 2.2
 
 Deploy sonrası tarayıcıda kontrol et:
 
-- `https://turanarican.com` açılıyor.
+- `https://www.turanarican.com` açılıyor.
+- `https://turanarican.com` 301 ile `https://www.turanarican.com` adresine
+  gidiyor.
 - Ana sayfa mobil ve desktopta taşmıyor.
 - Ders route'u açılıyor:
   `/kitap/prealgebra-2e/cebir-diline-giris/ifadeleri-degerlendirme-sadelestirme-cevirme`
@@ -514,10 +519,11 @@ Deploy sonrası tarayıcıda kontrol et:
 Komutla hızlı kontrol örnekleri:
 
 ```bash
+curl -I https://www.turanarican.com
+curl -I https://www.turanarican.com/robots.txt
+curl -I https://www.turanarican.com/sitemap.xml
+curl -I "https://www.turanarican.com/og?title=Test&label=Kontrol"
 curl -I https://turanarican.com
-curl -I https://turanarican.com/robots.txt
-curl -I https://turanarican.com/sitemap.xml
-curl -I "https://turanarican.com/og?title=Test&label=Kontrol"
 ```
 
 ## Rollback

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { lessons } from "@/data/catalog";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://turanarican.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.turanarican.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -20,4 +20,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 }
-
