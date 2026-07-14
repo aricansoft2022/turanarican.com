@@ -425,6 +425,30 @@ npm run db:generate
 npm run db:migrate
 ```
 
+Seed ders fixture'ını DB satırlarına çevirip şemaya karşı kontrol etmek için:
+
+```bash
+npm run seed:lessons
+npm run seed:db-payload
+npm run seed:db-verify
+```
+
+Migration uygulanmış bir Turso veya lokal SQLite hedefine seed payload'ı yazmak
+için önce kuru koşuyu kontrol et:
+
+```bash
+npm run seed:db-apply
+```
+
+Yazma işlemi bilinçli bayrak ister:
+
+```bash
+TURSO_DATABASE_URL=libsql://... TURSO_AUTH_TOKEN=... npm run seed:db-apply -- --write
+```
+
+Bu komut `id` üzerinden upsert yapar; mevcut seed satırlarını günceller, aynı
+tablolardaki seed dışı satırları silmez. Migration'ı otomatik çalıştırmaz.
+
 Production Turso adımları:
 
 1. Turso dashboard'da production database oluştur.
