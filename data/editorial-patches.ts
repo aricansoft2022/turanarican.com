@@ -8807,6 +8807,250 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "4.6",
+    sections: [
+      {
+        sectionSlug: "en-kucuk-ortak-paydayi-bulma",
+        replaceBlocks: [
+          ...removeBlocks(26),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Paydaları farklı kesirleri doğrudan toplayıp çıkaramayız. Önce kesirleri aynı büyüklükte parçalara, yani ortak paydaya dönüştürürüz.",
+              ),
+              pt(
+                "Ortak paydaların en küçüğüne en küçük ortak payda, kısaca EKOP denir. EKOP, kesirlerin paydalarının EKOK'udur; paylar bu aşamada dikkate alınmaz.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\frac{1}{2}"),
+                t(" ve "),
+                m("\\frac{1}{3}"),
+                t(" için paydalar 2 ve 3'tür. EKOK 6 olduğundan EKOP 6'dır."),
+              ]),
+              ex(
+                "Örnek 4.63",
+                [t("Kesirlerin EKOP'unu bulun: "), m("\\frac{7}{12}"), t(" ve "), m("\\frac{5}{18}"), t(".")],
+                sol("Çözüm: 12=2²·3 ve 18=2·3². EKOK 2²·3²=36 olduğu için en küçük ortak payda 36'dır."),
+              ),
+              ex("Sıra Sizde 4.125", [t("Kesirlerin EKOP'unu bulun: "), m("\\frac{7}{12}"), t(" ve "), m("\\frac{11}{15}"), t(".")]),
+              ex("Sıra Sizde 4.126", [t("Kesirlerin EKOP'unu bulun: "), m("\\frac{13}{15}"), t(" ve "), m("\\frac{17}{5}"), t(".")]),
+              pt(
+                "Paydalar daha büyük olduğunda da aynı yöntem geçerlidir: paydaları asal çarpanlarına ayırır, her asal çarpanın en büyük kuvvetini alırız.",
+              ),
+              ex(
+                "Örnek 4.64",
+                [t("Kesirlerin EKOP'unu bulun: "), m("\\frac{8}{15}"), t(" ve "), m("\\frac{11}{24}"), t(".")],
+                sol("Çözüm: 15=3·5 ve 24=2³·3. EKOK 2³·3·5=120 olduğundan EKOP 120'dir."),
+              ),
+              ex("Sıra Sizde 4.127", [t("Kesirlerin EKOP'unu bulun: "), m("\\frac{13}{24}"), t(" ve "), m("\\frac{17}{32}"), t(".")]),
+              ex("Sıra Sizde 4.128", [t("Kesirlerin EKOP'unu bulun: "), m("\\frac{9}{28}"), t(" ve "), m("\\frac{21}{32}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "denk-kesirleri-ortak-paydayla-yazma",
+        replaceBlocks: [
+          ...removeBlocks(12),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "EKOP'u bulduktan sonra her kesri bu paydaya denk olacak biçimde genişletiriz. Bunu yaparken pay ve paydayı aynı sayı ile çarparız.",
+              ),
+              p([
+                m("\\frac{1}{4}=\\frac{3}{12}"),
+                t(" ve "),
+                m("\\frac{1}{6}=\\frac{2}{12}"),
+                t(" kesirleri buna örnektir; değer değişmez, yalnızca gösterim ortak paydaya uyarlanır."),
+              ]),
+              ex(
+                "Örnek 4.65",
+                [m("\\frac{1}{4}"), t(" ve "), m("\\frac{1}{6}"), t(" kesirlerini EKOP 12 ile denk kesirler olarak yazın.")],
+                sol("Çözüm: 1/4 kesrinin paydası 12 olmak için 3 ile genişler: 3/12. 1/6 kesri 2 ile genişler: 2/12."),
+              ),
+              ex("Sıra Sizde 4.129", [t("EKOP 12 ile denk kesirler yazın: "), m("\\frac{3}{4}"), t(" ve "), m("\\frac{5}{6}"), t(".")]),
+              ex("Sıra Sizde 4.130", [t("EKOP 60 ile denk kesirler yazın: "), m("-\\frac{7}{12}"), t(" ve "), m("\\frac{11}{15}"), t(".")]),
+              ex(
+                "Örnek 4.66",
+                [m("\\frac{8}{15}"), t(" ve "), m("\\frac{11}{24}"), t(" kesirlerini EKOP 120 ile denk kesirler olarak yazın.")],
+                sol("Çözüm: 8/15 kesri 8 ile genişleyip 64/120 olur. 11/24 kesri 5 ile genişleyip 55/120 olur."),
+              ),
+              ex("Sıra Sizde 4.131", [t("EKOP 96 ile denk kesirler yazın: "), m("\\frac{13}{24}"), t(" ve "), m("\\frac{17}{32}"), t(".")]),
+              ex("Sıra Sizde 4.132", [t("EKOP 224 ile denk kesirler yazın: "), m("\\frac{9}{28}"), t(" ve "), m("\\frac{27}{32}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "farkli-paydali-kesirlerde-toplama-ve-cikarma",
+        replaceBlocks: [
+          ...removeBlocks(25),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Farklı paydalı kesirlerde toplama ve çıkarma için önce ortak payda kurulur. Sonra denk kesirlerin payları toplanır ya da çıkarılır.",
+              ),
+              ex(
+                "Örnek 4.67",
+                [t("Toplayın: "), m("\\frac{1}{2}+\\frac{1}{3}"), t(".")],
+                sol("Çözüm: EKOP 6'dır. 1/2=3/6 ve 1/3=2/6 olduğundan toplam 5/6 olur."),
+              ),
+              ex("Sıra Sizde 4.133", [t("Toplayın: "), m("\\frac{1}{4}+\\frac{1}{3}"), t(".")]),
+              ex("Sıra Sizde 4.134", [t("Toplayın: "), m("\\frac{1}{2}+\\frac{1}{5}"), t(".")]),
+              ex(
+                "Örnek 4.68",
+                [t("Çıkarın: "), m("\\frac{1}{2}-\\left(-\\frac{1}{4}\\right)"), t(".")],
+                sol("Çözüm: Negatif kesri çıkarmak ekleme yapmaktır. 1/2+1/4=2/4+1/4=3/4."),
+              ),
+              ex("Sıra Sizde 4.135", [t("Sadeleştirin: "), m("\\frac{1}{2}-\\left(-\\frac{1}{8}\\right)")]),
+              ex("Sıra Sizde 4.136", [t("Sadeleştirin: "), m("\\frac{1}{3}-\\left(-\\frac{1}{6}\\right)")]),
+              ex(
+                "Örnek 4.69",
+                [t("Toplayın: "), m("\\frac{7}{12}+\\frac{5}{18}"), t(".")],
+                sol("Çözüm: EKOP 36'dır. 7/12=21/36 ve 5/18=10/36; toplam 31/36 olur."),
+              ),
+              ex("Sıra Sizde 4.137", [t("Toplayın: "), m("\\frac{7}{12}+\\frac{11}{15}")]),
+              ex("Sıra Sizde 4.138", [t("Toplayın: "), m("\\frac{13}{15}+\\frac{17}{20}")]),
+              pt(
+                "Ortak paydaya geçerken paydada eksik kalan çarpanları bulmak işi hızlandırır. Her kesri yalnızca eksik çarpanla genişletmek yeterlidir.",
+              ),
+              ex(
+                "Örnek 4.70",
+                [t("Çıkarın: "), m("\\frac{7}{15}-\\frac{19}{24}"), t(".")],
+                sol("Çözüm: EKOP 120'dir. 7/15=56/120 ve 19/24=95/120. Fark -39/120=-13/40 olur."),
+              ),
+              ex("Sıra Sizde 4.139", [t("Çıkarın: "), m("\\frac{13}{24}-\\frac{17}{32}")]),
+              ex("Sıra Sizde 4.140", [t("Çıkarın: "), m("\\frac{21}{32}-\\frac{9}{28}")]),
+              ex(
+                "Örnek 4.71",
+                [t("Toplayın: "), m("-\\frac{11}{30}+\\frac{23}{42}"), t(".")],
+                sol("Çözüm: EKOP 210'dur. -11/30=-77/210 ve 23/42=115/210. Toplam 38/210=19/105 olur."),
+              ),
+              ex("Sıra Sizde 4.141", [t("Toplayın: "), m("-\\frac{13}{42}+\\frac{17}{35}")]),
+              ex("Sıra Sizde 4.142", [t("Toplayın: "), m("-\\frac{19}{24}+\\frac{17}{32}")]),
+              pt(
+                "Paylarda değişken olduğunda da yöntem değişmez; ortak paydaya geçer, payları cebirsel ifade olarak birleştiririz.",
+              ),
+              ex(
+                "Örnek 4.72",
+                [t("Toplayın: "), m("\\frac{3}{5}+\\frac{x}{8}"), t(".")],
+                sol("Çözüm: EKOP 40'tır. 3/5=24/40 ve x/8=5x/40; toplam (5x+24)/40 olur."),
+              ),
+              ex("Sıra Sizde 4.143", [t("Toplayın: "), m("\\frac{y}{6}+\\frac{7}{9}")]),
+              ex("Sıra Sizde 4.144", [t("Toplayın: "), m("\\frac{x}{6}+\\frac{7}{15}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesir-islemlerini-secme-ve-kullanma",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Kesirlerde hangi işlemi yaptığımızı önce belirlemek gerekir. Toplama ve çıkarmada ortak payda gerekir; çarpma ve bölmede ise ortak payda aranmaz.",
+              ),
+              ex(
+                "Örnek 4.73",
+                [t("Sadeleştirin: ⓐ "), m("-\\frac{1}{4}+\\frac{1}{6}"), t(" ⓑ "), m("-\\frac{1}{4}\\div\\frac{1}{6}")],
+                sol("Çözüm: ⓐ Ortak payda 12'dir; -3/12+2/12=-1/12. ⓑ Bölmede ters çevirip çarparız: -1/4·6=-3/2."),
+              ),
+              ex("Sıra Sizde 4.145", [t("Sadeleştirin: ⓐ "), m("-\\frac{3}{4}-\\frac{1}{6}"), t(" ⓑ "), m("-\\frac{3}{4}\\cdot\\frac{1}{6}")]),
+              ex("Sıra Sizde 4.146", [t("Sadeleştirin: ⓐ "), m("\\frac{5}{6}\\div\\left(-\\frac{1}{4}\\right)"), t(" ⓑ "), m("\\frac{5}{6}-\\left(-\\frac{1}{4}\\right)")]),
+              ex(
+                "Örnek 4.74",
+                [t("Sadeleştirin: ⓐ "), m("\\frac{5x}{6}-\\frac{3}{10}"), t(" ⓑ "), m("\\frac{5x}{6}\\cdot\\frac{3}{10}")],
+                sol("Çözüm: ⓐ Ortak payda 30'dur; sonuç (25x-9)/30 olur. ⓑ Çarpma yapılır ve sadeleştirilince x/4 bulunur."),
+              ),
+              ex("Sıra Sizde 4.147", [t("Sadeleştirin: ⓐ "), m("\\frac{27a-32}{36}"), t(" ⓑ "), m("\\frac{2a}{3}")]),
+              ex("Sıra Sizde 4.148", [t("Sadeleştirin: ⓐ "), m("\\frac{24k+25}{30}"), t(" ⓑ "), m("\\frac{24k}{5}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "karmasik-kesirlerde-islem-onceligi",
+        replaceBlocks: [
+          ...removeBlocks(9),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karmaşık kesirlerde payda ya da payda kısmında yine kesir bulunabilir. Önce payı ve paydayı kendi içinde sadeleştirir, sonra ana kesir çizgisini bölme işlemi gibi okuruz.",
+              ),
+              p([
+                m("\\frac{\\frac{3}{4}}{\\frac{5}{8}}=\\frac{3}{4}\\div\\frac{5}{8}", true),
+              ]),
+              ex(
+                "Örnek 4.75",
+                [t("Sadeleştirin: "), m("\\frac{{(\\frac{1}{2})}^{2}}{4+3^{2}}"), t(".")],
+                sol("Çözüm: Pay (1/2)²=1/4, payda 4+9=13 olur. (1/4)/13=1/52."),
+              ),
+              ex("Sıra Sizde 4.149", [t("Sadeleştirin: "), m("\\frac{{(\\frac{1}{3})}^{2}}{2^{3}+2}")]),
+              ex("Sıra Sizde 4.150", [t("Sadeleştirin: "), m("\\frac{1+4^{2}}{{(\\frac{1}{4})}^{2}}")]),
+              ex(
+                "Örnek 4.76",
+                [t("Sadeleştirin: "), m("\\frac{\\frac{1}{2}+\\frac{2}{3}}{\\frac{3}{4}-\\frac{1}{6}}"), t(".")],
+                sol("Çözüm: Pay 1/2+2/3=7/6, payda 3/4-1/6=7/12 olur. (7/6)÷(7/12)=2."),
+              ),
+              ex("Sıra Sizde 4.151", [t("Sadeleştirin: "), m("\\frac{\\frac{1}{3}+\\frac{1}{2}}{\\frac{3}{4}-\\frac{1}{3}}")]),
+              ex("Sıra Sizde 4.152", [t("Sadeleştirin: "), m("\\frac{\\frac{2}{3}-\\frac{1}{2}}{\\frac{1}{4}+\\frac{1}{3}}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesirli-degerlerle-cebirsel-ifadeleri-hesaplama",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Cebirsel ifadeleri kesirli değerlerle hesaplarken değişkenin yerine verilen kesri yazar, sonra işlem önceliğini uygularız.",
+              ),
+              ex(
+                "Örnek 4.77",
+                [t("Hesaplayın: "), m("x+\\frac{1}{3}"), t("; ⓐ "), m("x=-\\frac{1}{3}"), t(" iken ⓑ "), m("x=-\\frac{3}{4}"), t(" iken.")],
+                sol("Çözüm: ⓐ -1/3+1/3=0. ⓑ -3/4+1/3=-9/12+4/12=-5/12."),
+              ),
+              ex("Sıra Sizde 4.153", [t("Hesaplayın: "), m("x+\\frac{3}{4}"), t("; ⓐ "), m("x=-\\frac{7}{4}"), t(" iken ⓑ "), m("x=-\\frac{5}{4}"), t(" iken.")]),
+              ex("Sıra Sizde 4.154", [t("Hesaplayın: "), m("y+\\frac{1}{2}"), t("; ⓐ "), m("y=\\frac{2}{3}"), t(" iken ⓑ "), m("y=-\\frac{3}{4}"), t(" iken.")]),
+              ex(
+                "Örnek 4.78",
+                [t("Hesaplayın: "), m("y-\\frac{5}{6}"), t("; "), m("y=-\\frac{2}{3}"), t(" iken.")],
+                sol("Çözüm: y yerine -2/3 yazılır. -2/3-5/6=-4/6-5/6=-9/6=-3/2 olur."),
+              ),
+              ex("Sıra Sizde 4.155", [t("Hesaplayın: "), m("y-\\frac{1}{2}"), t("; "), m("y=-\\frac{1}{4}"), t(" iken.")]),
+              ex("Sıra Sizde 4.156", [t("Hesaplayın: "), m("x-\\frac{3}{8}"), t("; "), m("x=-\\frac{5}{2}"), t(" iken.")]),
+              ex(
+                "Örnek 4.79",
+                [t("Hesaplayın: "), m("2x^{2}y"), t("; "), m("x=\\frac{1}{4}"), t(" ve "), m("y=-\\frac{2}{3}"), t(" iken.")],
+                sol("Çözüm: 2·(1/4)²·(-2/3)=2·1/16·(-2/3)=-1/12 olur."),
+              ),
+              ex("Sıra Sizde 4.157", [t("Hesaplayın: "), m("3ab^{2}"), t("; "), m("a=-\\frac{2}{3}"), t(" ve "), m("b=-\\frac{1}{2}"), t(" iken.")]),
+              ex("Sıra Sizde 4.158", [t("Hesaplayın: "), m("4c^{3}d"), t("; "), m("c=-\\frac{1}{2}"), t(" ve "), m("d=-\\frac{4}{3}"), t(" iken.")]),
+              ex(
+                "Örnek 4.80",
+                [t("Hesaplayın: "), m("\\frac{p+q}{r}"), t("; "), m("p=-4,q=-2,r=8"), t(" iken.")],
+                sol("Çözüm: p+q=-4+(-2)=-6. -6/8=-3/4 olur."),
+              ),
+              ex("Sıra Sizde 4.159", [t("Hesaplayın: "), m("\\frac{a+b}{c}"), t("; "), m("a=-8,b=-7,c=6"), t(" iken.")]),
+              ex("Sıra Sizde 4.160", [t("Hesaplayın: "), m("\\frac{x+y}{z}"), t("; "), m("x=9,y=-18,z=-6"), t(" iken.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

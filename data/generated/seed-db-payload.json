@@ -321,6 +321,28 @@
         "sortOrder": 4,
         "status": "draft",
         "rawHash": "85ec64de4f7fa47a647a49856ec0619b7df6d1588fbc9117a1fb02816edbfc83"
+      },
+      {
+        "id": "lesson-different-denominator-fractions",
+        "chapterId": "chapter-fractions",
+        "slug": "farkli-paydali-kesirlerde-toplama-cikarma",
+        "sourceNumber": "4.6",
+        "displayNumber": "3.5",
+        "sourceTitle": "Add and Subtract Fractions with Different Denominators",
+        "displayTitle": "Farklı Paydalı Kesirlerde Toplama ve Çıkarma",
+        "summary": "En küçük ortak paydayı bulun, kesirleri denk biçimlere dönüştürün ve farklı paydalı kesirlerle toplama, çıkarma ve işlem önceliği uygulayın.",
+        "objectivesJson": [
+          "En küçük ortak paydayı bulabileceksiniz.",
+          "Kesirleri en küçük ortak paydayla denk biçimde yazabileceksiniz.",
+          "Farklı paydalı kesirleri toplayıp çıkarabileceksiniz.",
+          "Kesir işlemlerini ayırt edip uygun yöntemi kullanabileceksiniz.",
+          "Karmaşık kesirleri işlem önceliğiyle sadeleştirebileceksiniz.",
+          "Kesirli değerler içeren cebirsel ifadeleri hesaplayabileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators",
+        "sortOrder": 5,
+        "status": "draft",
+        "rawHash": "d644df31974a0040a4036a0e4b4d677ef142d628ecf9a16ddfc9a051cf79577f"
       }
     ],
     "lessonSections": [
@@ -24068,6 +24090,1978 @@
             ]
           }
         ]
+      },
+      {
+        "id": "farkli-paydali-kesirlerde-toplama-cikarma-section-01",
+        "lessonId": "lesson-different-denominator-fractions",
+        "heading": "En Küçük Ortak Paydayı Bulma",
+        "slug": "en-kucuk-ortak-paydayi-bulma",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Paydaları farklı kesirleri doğrudan toplayıp çıkaramayız. Önce kesirleri aynı büyüklükte parçalara, yani ortak paydaya dönüştürürüz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ortak paydaların en küçüğüne en küçük ortak payda, kısaca EKOP denir. EKOP, kesirlerin paydalarının EKOK'udur; paylar bu aşamada dikkate alınmaz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{3}"
+              },
+              {
+                "type": "text",
+                "value": " için paydalar 2 ve 3'tür. EKOK 6 olduğundan EKOP 6'dır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.63",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesirlerin EKOP'unu bulun: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{12}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{18}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 12=2²·3 ve 18=2·3². EKOK 2²·3²=36 olduğu için en küçük ortak payda 36'dır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.125",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesirlerin EKOP'unu bulun: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{12}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{11}{15}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Paydalar 12 ve 15'tir. 12=2²·3, 15=3·5 olduğundan EKOK 2²·3·5=60'tır. EKOP 60 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.126",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesirlerin EKOP'unu bulun: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{13}{15}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{17}{5}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Paydalar 15 ve 5'tir. 15 zaten 5'in katıdır; bu yüzden en küçük ortak payda 15'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Paydalar daha büyük olduğunda da aynı yöntem geçerlidir: paydaları asal çarpanlarına ayırır, her asal çarpanın en büyük kuvvetini alırız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.64",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesirlerin EKOP'unu bulun: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{8}{15}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{11}{24}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 15=3·5 ve 24=2³·3. EKOK 2³·3·5=120 olduğundan EKOP 120'dir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.127",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesirlerin EKOP'unu bulun: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{13}{24}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{17}{32}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 24=2³·3 ve 32=2⁵ olduğundan EKOK 2⁵·3=96'dır. Ortak payda 96 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.128",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesirlerin EKOP'unu bulun: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{9}{28}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{21}{32}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 28=2²·7 ve 32=2⁵ olduğundan EKOK 2⁵·7=224'tür. En küçük ortak payda 224 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "farkli-paydali-kesirlerde-toplama-cikarma-section-02",
+        "lessonId": "lesson-different-denominator-fractions",
+        "heading": "Denk Kesirleri Ortak Paydayla Yazma",
+        "slug": "denk-kesirleri-ortak-paydayla-yazma",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "EKOP'u bulduktan sonra her kesri bu paydaya denk olacak biçimde genişletiriz. Bunu yaparken pay ve paydayı aynı sayı ile çarparız."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "\\frac{1}{4}=\\frac{3}{12}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{6}=\\frac{2}{12}"
+              },
+              {
+                "type": "text",
+                "value": " kesirleri buna örnektir; değer değişmez, yalnızca gösterim ortak paydaya uyarlanır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.65",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{1}{4}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{6}"
+              },
+              {
+                "type": "text",
+                "value": " kesirlerini EKOP 12 ile denk kesirler olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1/4 kesrinin paydası 12 olmak için 3 ile genişler: 3/12. 1/6 kesri 2 ile genişler: 2/12."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.129",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "EKOP 12 ile denk kesirler yazın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{6}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3/4 kesrini 3 ile, 5/6 kesrini 2 ile genişletiriz. Denk kesirler 9/12 ve 10/12 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.130",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "EKOP 60 ile denk kesirler yazın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{7}{12}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{11}{15}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -7/12 kesri 5 ile genişleyip -35/60 olur; 11/15 kesri 4 ile genişleyip 44/60 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.66",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{8}{15}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{11}{24}"
+              },
+              {
+                "type": "text",
+                "value": " kesirlerini EKOP 120 ile denk kesirler olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8/15 kesri 8 ile genişleyip 64/120 olur. 11/24 kesri 5 ile genişleyip 55/120 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.131",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "EKOP 96 ile denk kesirler yazın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{13}{24}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{17}{32}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 13/24 kesrini 4 ile genişletiriz: 52/96. 17/32 kesrini 3 ile genişletiriz: 51/96."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.132",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "EKOP 224 ile denk kesirler yazın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{9}{28}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{27}{32}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 9/28 kesri 8 ile genişleyip 72/224 olur; 27/32 kesri 7 ile genişleyip 189/224 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "lessonId": "lesson-different-denominator-fractions",
+        "heading": "Farklı Paydalı Kesirlerde Toplama ve Çıkarma",
+        "slug": "farkli-paydali-kesirlerde-toplama-ve-cikarma",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Farklı paydalı kesirlerde toplama ve çıkarma için önce ortak payda kurulur. Sonra denk kesirlerin payları toplanır ya da çıkarılır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.67",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}+\\frac{1}{3}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: EKOP 6'dır. 1/2=3/6 ve 1/3=2/6 olduğundan toplam 5/6 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.133",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{4}+\\frac{1}{3}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 12'dir. 1/4=3/12 ve 1/3=4/12 olduğundan toplam 7/12 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.134",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}+\\frac{1}{5}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 10'dur. 1/2=5/10 ve 1/5=2/10; toplam 7/10 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.68",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çıkarın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}-\\left(-\\frac{1}{4}\\right)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Negatif kesri çıkarmak ekleme yapmaktır. 1/2+1/4=2/4+1/4=3/4."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.135",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{2}-\\left(-\\frac{1}{8}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Negatif kesri çıkarmak ekleme yapmaktır. 1/2+1/8=4/8+1/8=5/8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.136",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{3}-\\left(-\\frac{1}{6}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1/3-(-1/6)=1/3+1/6=2/6+1/6=3/6=1/2 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.69",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{12}+\\frac{5}{18}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: EKOP 36'dır. 7/12=21/36 ve 5/18=10/36; toplam 31/36 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.137",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{12}+\\frac{11}{15}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 60'tır. 7/12=35/60 ve 11/15=44/60; toplam 79/60 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.138",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{13}{15}+\\frac{17}{20}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 60'tır. 13/15=52/60 ve 17/20=51/60; toplam 103/60 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ortak paydaya geçerken paydada eksik kalan çarpanları bulmak işi hızlandırır. Her kesri yalnızca eksik çarpanla genişletmek yeterlidir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.70",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çıkarın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{15}-\\frac{19}{24}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: EKOP 120'dir. 7/15=56/120 ve 19/24=95/120. Fark -39/120=-13/40 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.139",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çıkarın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{13}{24}-\\frac{17}{32}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 96'dır. 13/24=52/96 ve 17/32=51/96; fark 1/96 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.140",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çıkarın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{21}{32}-\\frac{9}{28}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 224'tür. 21/32=147/224 ve 9/28=72/224; fark 75/224 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.71",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{11}{30}+\\frac{23}{42}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: EKOP 210'dur. -11/30=-77/210 ve 23/42=115/210. Toplam 38/210=19/105 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.141",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{13}{42}+\\frac{17}{35}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 210'dur. -13/42=-65/210 ve 17/35=102/210; toplam 37/210 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.142",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{19}{24}+\\frac{17}{32}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 96'dır. -19/24=-76/96 ve 17/32=51/96; toplam -25/96 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Paylarda değişken olduğunda da yöntem değişmez; ortak paydaya geçer, payları cebirsel ifade olarak birleştiririz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.72",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{5}+\\frac{x}{8}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: EKOP 40'tır. 3/5=24/40 ve x/8=5x/40; toplam (5x+24)/40 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.143",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{y}{6}+\\frac{7}{9}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 18'dir. y/6=3y/18 ve 7/9=14/18; toplam (3y+14)/18 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.144",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{x}{6}+\\frac{7}{15}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Ortak payda 30'dur. x/6=5x/30 ve 7/15=14/30; toplam (5x+14)/30 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "lessonId": "lesson-different-denominator-fractions",
+        "heading": "Kesir İşlemlerini Seçme ve Kullanma",
+        "slug": "kesir-islemlerini-secme-ve-kullanma",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesirlerde hangi işlemi yaptığımızı önce belirlemek gerekir. Toplama ve çıkarmada ortak payda gerekir; çarpma ve bölmede ise ortak payda aranmaz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.73",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{1}{4}+\\frac{1}{6}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{1}{4}\\div\\frac{1}{6}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ Ortak payda 12'dir; -3/12+2/12=-1/12. ⓑ Bölmede ters çevirip çarparız: -1/4·6=-3/2."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.145",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{3}{4}-\\frac{1}{6}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{3}{4}\\cdot\\frac{1}{6}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -3/4-1/6=-9/12-2/12=-11/12. ⓑ -3/4·1/6=-3/24=-1/8."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.146",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{6}\\div\\left(-\\frac{1}{4}\\right)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{6}-\\left(-\\frac{1}{4}\\right)"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 5/6÷(-1/4)=5/6·(-4)=-10/3. ⓑ 5/6-(-1/4)=5/6+1/4=13/12."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.74",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5x}{6}-\\frac{3}{10}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5x}{6}\\cdot\\frac{3}{10}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ Ortak payda 30'dur; sonuç (25x-9)/30 olur. ⓑ Çarpma yapılır ve sadeleştirilince x/4 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.147",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{27a-32}{36}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2a}{3}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İlk ifade genel olarak daha fazla sadeleşmez: (27a-32)/36. İkinci ifade 2a/3 olarak kalır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.148",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{24k+25}{30}"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{24k}{5}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İlk ifade genel olarak daha fazla sadeleşmez: (24k+25)/30. İkinci ifade 24k/5 olarak kalır."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "lessonId": "lesson-different-denominator-fractions",
+        "heading": "Karmaşık Kesirlerde İşlem Önceliği",
+        "slug": "karmasik-kesirlerde-islem-onceligi",
+        "level": 2,
+        "sortOrder": 5,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesirlerde payda ya da payda kısmında yine kesir bulunabilir. Önce payı ve paydayı kendi içinde sadeleştirir, sonra ana kesir çizgisini bölme işlemi gibi okuruz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "\\frac{\\frac{3}{4}}{\\frac{5}{8}}=\\frac{3}{4}\\div\\frac{5}{8}",
+                "display": true
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.75",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{{(\\frac{1}{2})}^{2}}{4+3^{2}}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay (1/2)²=1/4, payda 4+9=13 olur. (1/4)/13=1/52."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.149",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{{(\\frac{1}{3})}^{2}}{2^{3}+2}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay (1/3)²=1/9, payda 2³+2=10 olur. (1/9)/10=1/90 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.150",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1+4^{2}}{{(\\frac{1}{4})}^{2}}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay 1+4²=17, payda (1/4)²=1/16 olur. 17÷1/16=272 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.76",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{\\frac{1}{2}+\\frac{2}{3}}{\\frac{3}{4}-\\frac{1}{6}}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay 1/2+2/3=7/6, payda 3/4-1/6=7/12 olur. (7/6)÷(7/12)=2."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.151",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{\\frac{1}{3}+\\frac{1}{2}}{\\frac{3}{4}-\\frac{1}{3}}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay 1/3+1/2=5/6, payda 3/4-1/3=5/12 olur. (5/6)÷(5/12)=2."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.152",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{\\frac{2}{3}-\\frac{1}{2}}{\\frac{1}{4}+\\frac{1}{3}}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Pay 2/3-1/2=1/6, payda 1/4+1/3=7/12 olur. (1/6)÷(7/12)=2/7."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "lessonId": "lesson-different-denominator-fractions",
+        "heading": "Kesirli Değerlerle Cebirsel İfadeleri Hesaplama",
+        "slug": "kesirli-degerlerle-cebirsel-ifadeleri-hesaplama",
+        "level": 2,
+        "sortOrder": 6,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeleri kesirli değerlerle hesaplarken değişkenin yerine verilen kesri yazar, sonra işlem önceliğini uygularız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.77",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "x+\\frac{1}{3}"
+              },
+              {
+                "type": "text",
+                "value": "; ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=-\\frac{1}{3}"
+              },
+              {
+                "type": "text",
+                "value": " iken ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=-\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -1/3+1/3=0. ⓑ -3/4+1/3=-9/12+4/12=-5/12."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.153",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "x+\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": "; ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=-\\frac{7}{4}"
+              },
+              {
+                "type": "text",
+                "value": " iken ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=-\\frac{5}{4}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -7/4+3/4=-1. ⓑ -5/4+3/4=-1/2."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.154",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "y+\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": "; ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "y=\\frac{2}{3}"
+              },
+              {
+                "type": "text",
+                "value": " iken ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "y=-\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 2/3+1/2=7/6. ⓑ -3/4+1/2=-1/4."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.78",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "y-\\frac{5}{6}"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "y=-\\frac{2}{3}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y yerine -2/3 yazılır. -2/3-5/6=-4/6-5/6=-9/6=-3/2 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.155",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "y-\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "y=-\\frac{1}{4}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y=-1/4 yazılır. -1/4-1/2=-1/4-2/4=-3/4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.156",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "x-\\frac{3}{8}"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "x=-\\frac{5}{2}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=-5/2 yazılır. -5/2-3/8=-20/8-3/8=-23/8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.79",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "2x^{2}y"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "x=\\frac{1}{4}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "y=-\\frac{2}{3}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2·(1/4)²·(-2/3)=2·1/16·(-2/3)=-1/12 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.157",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "3ab^{2}"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "a=-\\frac{2}{3}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "b=-\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: b²=(-1/2)²=1/4. 3·(-2/3)·1/4=-2·1/4=-1/2 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.158",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "4c^{3}d"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "c=-\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "d=-\\frac{4}{3}"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: c³=(-1/2)³=-1/8. 4·(-1/8)·(-4/3)=2/3 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.80",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{p+q}{r}"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "p=-4,q=-2,r=8"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: p+q=-4+(-2)=-6. -6/8=-3/4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.159",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{a+b}{c}"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "a=-8,b=-7,c=6"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: a+b=-8+(-7)=-15. -15/6=-5/2 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.160",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesaplayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{x+y}{z}"
+              },
+              {
+                "type": "text",
+                "value": "; "
+              },
+              {
+                "type": "math",
+                "value": "x=9,y=-18,z=-6"
+              },
+              {
+                "type": "text",
+                "value": " iken."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x+y=9+(-18)=-9. -9/(-6)=3/2 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -36590,6 +38584,1245 @@
         "sortOrder": 315,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-317",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-01",
+        "number": "317",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "En küçük ortak paydayı bulun: 3/4 ve 2/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 4 ve 5'in EKOK'u 20'dir; en küçük ortak payda 20 olur."
+          }
+        ],
+        "sortOrder": 317,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-319",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-01",
+        "number": "319",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "En küçük ortak paydayı bulun: 9/16 ve 7/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 16=2⁴ ve 12=2²·3 olduğundan EKOK 2⁴·3=48'dir."
+          }
+        ],
+        "sortOrder": 319,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-321",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-01",
+        "number": "321",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "En küçük ortak paydayı bulun: 23/30 ve 5/48."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 30=2·3·5 ve 48=2⁴·3 olduğundan EKOK 2⁴·3·5=240'tır."
+          }
+        ],
+        "sortOrder": 321,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-323",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-01",
+        "number": "323",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "En küçük ortak paydayı bulun: 18/35 ve 33/49."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 35=5·7 ve 49=7² olduğundan EKOK 5·7²=245'tir."
+          }
+        ],
+        "sortOrder": 323,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-325",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-01",
+        "number": "325",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "En küçük ortak paydayı bulun: 2/3, 1/4 ve 3/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3, 4 ve 5'in EKOK'u 60'tır; en küçük ortak payda 60 olur."
+          }
+        ],
+        "sortOrder": 325,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-327",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-02",
+        "number": "327",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "EKOP 20 iken kesirleri denk biçimde yazın: 1/4 ve 1/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Paydaları 20 yapmak için 1/4 kesrini 5 ile, 1/5 kesrini 4 ile genişletiriz. Sonuç 5/20 ve 4/20 olur."
+          }
+        ],
+        "sortOrder": 327,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-329",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-02",
+        "number": "329",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "EKOP 24 iken kesirleri denk biçimde yazın: 7/12 ve 5/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Paydaları 24 yapmak için 7/12 kesri 2 ile, 5/8 kesri 3 ile genişletilir. Sonuç 14/24 ve 15/24 olur."
+          }
+        ],
+        "sortOrder": 329,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-331",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-02",
+        "number": "331",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "EKOP 48 iken kesirleri denk biçimde yazın: 11/16 ve -5/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Payda 48 olmalıdır. 11/16 kesrini 3 ile genişletip 33/48, -5/12 kesrini 4 ile genişletip -20/48 buluruz."
+          }
+        ],
+        "sortOrder": 331,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-333",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-02",
+        "number": "333",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "EKOP 60 iken kesirleri denk biçimde yazın: 1/3, 3/4 ve 3/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/3=20/60, 3/4=45/60 ve 3/5=36/60 olur."
+          }
+        ],
+        "sortOrder": 333,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-335",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "335",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 1/4+1/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 20'dir. 1/4=5/20 ve 1/5=4/20; toplam 9/20 olur."
+          }
+        ],
+        "sortOrder": 335,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-337",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "337",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 1/3+1/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 24'tür. 1/3=8/24 ve 1/8=3/24; toplam 11/24 olur."
+          }
+        ],
+        "sortOrder": 337,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-339",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "339",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 1/4-(-1/8)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Negatif kesri çıkarmak ekleme yapmaktır. 1/4-(-1/8)=1/4+1/8=2/8+1/8=3/8 olur."
+          }
+        ],
+        "sortOrder": 339,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-341",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "341",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 1/2-(-1/6)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Negatif kesri çıkardığımız için toplama yaparız. 1/2-(-1/6)=1/2+1/6=3/6+1/6=2/3 olur."
+          }
+        ],
+        "sortOrder": 341,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-343",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "343",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 3/4+2/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 20'dir. 3/4=15/20 ve 2/5=8/20; toplam 23/20 olur."
+          }
+        ],
+        "sortOrder": 343,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-345",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "345",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 5/12+3/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 24'tür. 5/12=10/24 ve 3/8=9/24; toplam 19/24 olur."
+          }
+        ],
+        "sortOrder": 345,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-347",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "347",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 7/16-5/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 48'dir. 7/16=21/48 ve 5/12=20/48; fark 1/48 olur."
+          }
+        ],
+        "sortOrder": 347,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-349",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "349",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 5/8-7/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 24'tür. 5/8=15/24 ve 7/12=14/24; fark 1/24 olur."
+          }
+        ],
+        "sortOrder": 349,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-351",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "351",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 5/6-3/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 12'dir. 5/6=10/12 ve 3/4=9/12; fark 1/12 olur."
+          }
+        ],
+        "sortOrder": 351,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-353",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "353",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: -9/20+17/30."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 60'tır. -9/20=-27/60 ve 17/30=34/60; toplam 7/60 olur."
+          }
+        ],
+        "sortOrder": 353,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-355",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "355",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: -23/30+5/48."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 240'tır. -23/30=-184/240 ve 5/48=25/240; toplam -159/240=-53/80 olur."
+          }
+        ],
+        "sortOrder": 355,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-357",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "357",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: -33/49-18/35."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 245'tir. -33/49=-165/245 ve -18/35=-126/245; toplam -291/245 olur."
+          }
+        ],
+        "sortOrder": 357,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-359",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "359",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: -3/4-(-4/5)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -3/4-(-4/5)=-3/4+4/5=-15/20+16/20=1/20 olur."
+          }
+        ],
+        "sortOrder": 359,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-361",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "361",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: -7/20-(-5/8)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -7/20-(-5/8)=-7/20+5/8=-14/40+25/40=11/40 olur."
+          }
+        ],
+        "sortOrder": 361,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-363",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "363",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 1+5/6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Tam sayıyı altıda altı olarak yazarız. 1=6/6 olduğundan 1+5/6=11/6 olur."
+          }
+        ],
+        "sortOrder": 363,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-365",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "365",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: 1-3/10."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Tam sayıyı onda on olarak yazarız. 1=10/10 olduğundan 1-3/10=7/10 olur."
+          }
+        ],
+        "sortOrder": 365,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-367",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "367",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: y/2+2/3."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 6'dır. y/2=3y/6 ve 2/3=4/6; toplam (3y+4)/6 olur."
+          }
+        ],
+        "sortOrder": 367,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-369",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "369",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Toplayın ya da çıkarın. Sonucu sadeleştirilmiş biçimde yazın: x/5-1/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 20'dir. x/5=4x/20 ve 1/4=5/20; fark (4x-5)/20 olur."
+          }
+        ],
+        "sortOrder": 369,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-371",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "371",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemleri yapın ve sonuçları sadeleştirilmiş biçimde yazın: ⓐ 2/3+1/6 ⓑ 2/3÷1/6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 2/3+1/6=4/6+1/6=5/6. ⓑ 2/3÷1/6=2/3·6=4."
+          }
+        ],
+        "sortOrder": 371,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-373",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "373",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemleri yapın ve sonuçları sadeleştirilmiş biçimde yazın: ⓐ -4/5-1/8 ⓑ -4/5·1/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ -4/5-1/8=-32/40-5/40=-37/40. ⓑ -4/5·1/8=-4/40=-1/10."
+          }
+        ],
+        "sortOrder": 373,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-375",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "375",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemleri yapın ve sonuçları sadeleştirilmiş biçimde yazın: ⓐ 3a/8÷7/12 ⓑ 3a/8-7/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 3a/8÷7/12=3a/8·12/7=9a/14. ⓑ 3a/8-7/12=9a/24-14/24=(9a-14)/24."
+          }
+        ],
+        "sortOrder": 375,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-377",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "377",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemleri yapın ve sonuçları sadeleştirilmiş biçimde yazın: ⓐ 4/15·(-5q/9) ⓑ 4/15+(-5q/9)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 4/15·(-5q/9)=-20q/135=-4q/27. ⓑ 4/15+(-5q/9)=12/45-25q/45=(12-25q)/45."
+          }
+        ],
+        "sortOrder": 377,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-381",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "381",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: -1/8+7/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 24'tür. -1/8=-3/24 ve 7/12=14/24; toplam 11/24 olur."
+          }
+        ],
+        "sortOrder": 381,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-383",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "383",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: 5/9-1/6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 18'dir. 5/9=10/18 ve 1/6=3/18; fark 7/18 olur."
+          }
+        ],
+        "sortOrder": 383,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-385",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "385",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: 7/12·(-8/35)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7/12·(-8/35) işleminde 7 ile 35, 8 ile 12 sadeleşir; sonuç -2/15 olur."
+          }
+        ],
+        "sortOrder": 385,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-387",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "387",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: -3/8-x/11."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 88'dir. -3/8=-33/88 ve x/11=8x/88; sonuç -(8x+33)/88 olur."
+          }
+        ],
+        "sortOrder": 387,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-389",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-04",
+        "number": "389",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: 10y/13·8/(15y)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 10y/13·8/(15y)=80y/(195y). y'ler sadeleşir ve sonuç 16/39 olur; y sıfır olmamalıdır."
+          }
+        ],
+        "sortOrder": 389,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-391",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "391",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: ((1/3)^2)/(5+2^2)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Pay (1/3)²=1/9, payda 5+2²=9 olur. (1/9)/9=1/81 bulunur."
+          }
+        ],
+        "sortOrder": 391,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-393",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "393",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: (3^3-3^2)/((3/4)^2)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Pay 3³-3²=27-9=18, payda (3/4)²=9/16 olur. 18÷9/16=32 olur."
+          }
+        ],
+        "sortOrder": 393,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-395",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "395",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: ((3/4)^2)/((5/8)^2)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (3/4)²=9/16 ve (5/8)²=25/64. 9/16÷25/64=36/25 olur."
+          }
+        ],
+        "sortOrder": 395,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-397",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "397",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 5/(1/4+1/3)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Payda 1/4+1/3=7/12 olur. 5÷7/12=60/7 bulunur."
+          }
+        ],
+        "sortOrder": 397,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-399",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "399",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: (3/4+1/2)/(5/6-2/3)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Pay 3/4+1/2=5/4, payda 5/6-2/3=1/6 olur. (5/4)÷(1/6)=15/2."
+          }
+        ],
+        "sortOrder": 399,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-401",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "401",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: (3/4-3/5)/(1/4+2/5)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Pay 3/4-3/5=3/20, payda 1/4+2/5=13/20 olur. (3/20)÷(13/20)=3/13."
+          }
+        ],
+        "sortOrder": 401,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-403",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "403",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 1/3+2/5·3/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce çarpma yapılır: 2/5·3/4=3/10. Sonra 1/3+3/10=19/30 olur."
+          }
+        ],
+        "sortOrder": 403,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-405",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "405",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 1-5/6÷1/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce bölme yapılır: 5/6÷1/12=10. Sonra 1-10=-9 olur."
+          }
+        ],
+        "sortOrder": 405,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-407",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "407",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 2/3+1/4+3/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 60'tır. 2/3=40/60, 1/4=15/60, 3/5=36/60; toplam 91/60 olur."
+          }
+        ],
+        "sortOrder": 407,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-409",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "409",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 2/5+5/8-3/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Ortak payda 40'tır. 2/5=16/40, 5/8=25/40, 3/4=30/40; sonuç 11/40 olur."
+          }
+        ],
+        "sortOrder": 409,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-411",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "411",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 8(15/16-5/6)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Parantez içi 15/16-5/6=45/48-40/48=5/48 olur. 8·5/48=5/6."
+          }
+        ],
+        "sortOrder": 411,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-413",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "413",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: (1/6+3/10)/(14/30)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Pay 1/6+3/10=14/30 olur. (14/30)/(14/30)=1 bulunur."
+          }
+        ],
+        "sortOrder": 413,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-415",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-05",
+        "number": "415",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: (3/4+1/6)÷(5/8-1/3)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İlk parantez 3/4+1/6=11/12, ikinci parantez 5/8-1/3=7/24 olur. 11/12÷7/24=22/7."
+          }
+        ],
+        "sortOrder": 415,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-417",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "number": "417",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi hesaplayın: x+2/3; ⓐ x=-1/6 iken ⓑ x=-5/3 iken."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x yerine verilen değeri yazarız. ⓐ -1/6+2/3=1/2. ⓑ -5/3+2/3=-1."
+          }
+        ],
+        "sortOrder": 417,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-419",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "number": "419",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi hesaplayın: x+(-11/12); ⓐ x=11/12 iken ⓑ x=3/4 iken."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 11/12+(-11/12)=0. ⓑ 3/4+(-11/12)=9/12-11/12=-1/6."
+          }
+        ],
+        "sortOrder": 419,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-421",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "number": "421",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi hesaplayın: x-1/3; ⓐ x=2/3 iken ⓑ x=-2/3 iken."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x yerine verilen değeri yazarız ve 1/3 çıkarırız. ⓐ 2/3-1/3=1/3. ⓑ -2/3-1/3=-1."
+          }
+        ],
+        "sortOrder": 421,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-423",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "number": "423",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi hesaplayın: 5/12-w; ⓐ w=1/4 iken ⓑ w=-1/4 iken."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: w yerine verilen değeri yazarız. ⓐ 5/12-1/4=1/6. ⓑ 5/12-(-1/4)=2/3."
+          }
+        ],
+        "sortOrder": 423,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-425",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "number": "425",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi hesaplayın: 5m^2n; m=-2/5 ve n=1/3 iken."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: m=-2/5 için m²=4/25. 5·4/25·1/3=4/15 olur."
+          }
+        ],
+        "sortOrder": 425,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-427",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "number": "427",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi hesaplayın: 8u^2v^3; u=-3/4 ve v=-1/2 iken."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: u²=9/16 ve v³=-1/8. 8·9/16·(-1/8)=-9/16 olur."
+          }
+        ],
+        "sortOrder": 427,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-429",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "number": "429",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi hesaplayın: (m+n)/p; m=-6, n=-2 ve p=4 iken."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce payı hesaplarız: m+n=-6+(-2)=-8. Sonra paydaya böleriz: -8/4=-2 olur."
+          }
+        ],
+        "sortOrder": 429,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-431",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-06",
+        "number": "431",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi hesaplayın: (r-s)/(r+s); r=10 ve s=-5 iken."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: r-s=10-(-5)=15 ve r+s=10+(-5)=5. Sonuç 15/5=3 olur."
+          }
+        ],
+        "sortOrder": 431,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-433",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-03",
+        "number": "433",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Vanessa çikolata parçalı kurabiye ve yulaflı kurabiye pişiriyor. İlk tarif için 1 1/4 su bardağı, ikinci tarif için 1 1/8 su bardağı şekere ihtiyacı var. Toplam ne kadar şeker gerekir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1 1/4=5/4 ve 1 1/8=9/8. Toplam 10/8+9/8=19/8=2 3/8 su bardağı şekerdir."
+          }
+        ],
+        "sortOrder": 433,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-different-denominator-fractions-exercise-435",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sectionId": "farkli-paydali-kesirlerde-toplama-cikarma-section-01",
+        "number": "435",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İki kesrin en küçük ortak paydasını nasıl bulacağınızı açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce paydaların EKOK'unu buluruz. Bu sayı, kesirlerin en küçük ortak paydasıdır; sonra gerekirse kesirleri bu paydaya genişletiriz."
+          }
+        ],
+        "sortOrder": 435,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -36694,6 +39927,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators",
         "httpStatus": 200,
         "contentHash": "85ec64de4f7fa47a647a49856ec0619b7df6d1588fbc9117a1fb02816edbfc83",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators",
+        "httpStatus": 200,
+        "contentHash": "d644df31974a0040a4036a0e4b4d677ef142d628ecf9a16ddfc9a051cf79577f",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -41763,6 +45004,398 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/ede3b45e0ba907e3.json",
         "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/ede3b45e0ba907e3.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-000-da3fb2c7702799ed",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104407/69ec06b2064beaf36759f8e52a627cc21b67b3a5?revision=1",
+        "assetType": "figure",
+        "altText": "A quarter and a dime are shown. Below them, it reads 25 cents plus 10 cents. Below that, it reads 35 cents.",
+        "caption": "Figure 4.7 Together, a quarter and a dime are worth 35 35 cents, or 35 100 35 100 of a dollar.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/000-da3fb2c7702799ed.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/000-da3fb2c7702799ed.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-002-2614491acaf217f8",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104408/6d0f9cf321a5dc21a3bece350f7cca388f2b6424?revision=1",
+        "assetType": "image",
+        "altText": "Two rectangles are shown side by side. The first is labeled 1 half. The second is shorter and is labeled 1 third. Underneath the first rectangle is an equally sized rectangle split vertically into two pieces, each labeled 1 fourth. Underneath the second rectangle are two pieces, each labeled 1 fourth. These rectangles together are longer than the rectangle labeled as 1 third.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/002-2614491acaf217f8.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/002-2614491acaf217f8.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-003-c7cb73252c8ba036",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104406/26a8391320df786d7497c6cb21ac25a21eb3f558?revision=1",
+        "assetType": "image",
+        "altText": "Two rectangles are shown side by side. The first is labeled 1 half. The second is shorter and is labeled 1 third. Underneath the first rectangle is an equally sized rectangle split vertically into three pieces, each labeled 1 sixth. Underneath the second rectangle is an equally sized rectangle split vertically into 2 pieces, each labeled 1 sixth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/003-c7cb73252c8ba036.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/003-c7cb73252c8ba036.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-004-ad9f16150265627b",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104409/bbce814f59418c0b992231945ec7da2dd197ede3?revision=1",
+        "assetType": "image",
+        "altText": "Two rectangles are shown side by side. The first is labeled 1 half. The second is shorter and is labeled 1 third. Underneath the first rectangle are three smaller rectangles, each labeled 1 fifth. Together, these rectangles are longer than the 1 half rectangle. Below the 1 third rectangle are two smaller rectangles, each labeled 1 fifth. Together, these rectangles are longer than the 1 third rectangle.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/004-ad9f16150265627b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/004-ad9f16150265627b.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-005-7ab8b7e41696a277",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104412/30d4941bd09516186e15eaa829a25ed4a001e5a3?revision=1",
+        "assetType": "image",
+        "altText": "Two rectangles are shown side by side. The first is labeled 1 half. The second is shorter and is labeled 1 third. Underneath the first rectangle is an equally sized rectangle split vertically into 6 pieces, each labeled 1 twelfth. Underneath the second rectangle is an equally sized rectangle split vertically into 4 pieces, each labeled 1 twelfth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/005-7ab8b7e41696a277.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/005-7ab8b7e41696a277.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-009-1338f5bfd6d4c50b",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104417/1a0a61e8ab41b682fa54c36d7c6e9835b8f33dd4?revision=1",
+        "assetType": "image",
+        "altText": "The top line shows 15 equals 3 times 5. The next line shows 24 equals 2 times 2 times 2 times 3. The 3s are lined up vertically. The next line shows LCM equals 2 times 2 times 2 times 3 times 5. The last line shows LCM equals 120.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/009-1338f5bfd6d4c50b.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/009-1338f5bfd6d4c50b.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-010-0cbae5e4bedf71c9",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104421/3fd0455a4494cbb5391ab95b1abd8dab1d1cd4fb?revision=1",
+        "assetType": "image",
+        "altText": "On the left is a rectangle labeled 1 fourth. Below it is an identical rectangle split vertically into 3 equal pieces, each labeled 1 twelfth. On the right is a rectangle labeled 1 sixth. Below it is an identical rectangle split vertically into 2 equal pieces, each labeled 1 twelfth.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/010-0cbae5e4bedf71c9.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/010-0cbae5e4bedf71c9.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-025-f25a43a3b52ff7ab",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104437/d70cad964980636521678bc58bdb535e77dbf26c?revision=1",
+        "assetType": "image",
+        "altText": "The first line says 12 equals 2 times 2 times 3. There is a blank space next to the 3. The next line says 18 equals 2 times 3 times 3. There is a blank space between the 2 and the first 3. There are red lines drawn from the blank spaces. This is labeled as missing factors. There is a horizontal line. Below the line, it says LCD equals 2 times 2 times 3 times 3. Below this, it says LCD equals 36.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/025-f25a43a3b52ff7ab.png",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/025-f25a43a3b52ff7ab.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-084a5c289ea28ec0",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/084a5c289ea28ec0.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/084a5c289ea28ec0.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-2448e5eb0a206eef",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/2448e5eb0a206eef.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/2448e5eb0a206eef.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-0e263bb47c2ed5a3",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/0e263bb47c2ed5a3.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/0e263bb47c2ed5a3.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-96ee23f940cc681d",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/96ee23f940cc681d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/96ee23f940cc681d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-08c63fea07b2150b",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/08c63fea07b2150b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/08c63fea07b2150b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-dced6b7b920b2515",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/dced6b7b920b2515.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/dced6b7b920b2515.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-d0059490ec9801ff",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/d0059490ec9801ff.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/d0059490ec9801ff.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-01d4c9ea5f6f677c",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/01d4c9ea5f6f677c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/01d4c9ea5f6f677c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-bf51eb12924de98a",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": "The fractions have different denominators.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/bf51eb12924de98a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/bf51eb12924de98a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-324a2a8330b7e3c5",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Do the fractions have a common denominator? No.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/324a2a8330b7e3c5.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/324a2a8330b7e3c5.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-51e796bba3666ba7",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓑ The operation is division. We do not need a common denominator.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/51e796bba3666ba7.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/51e796bba3666ba7.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-0c5046bc1c8e14ae",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓐ The operation is subtraction. The fractions do not have a common denominator.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/0c5046bc1c8e14ae.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/0c5046bc1c8e14ae.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-653c4b8efef735d0",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓑ The operation is multiplication; no need for a common denominator.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/653c4b8efef735d0.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/653c4b8efef735d0.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-c60b9016e7194b1b",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/c60b9016e7194b1b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/c60b9016e7194b1b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-1cb2785e88f9fbc7",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/1cb2785e88f9fbc7.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/1cb2785e88f9fbc7.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-1d43cafccc245cec",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-15",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓐ To evaluate x+13x+13 when x=−13,x=−13, substitute −13−13 for xx in the expression.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/1d43cafccc245cec.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/1d43cafccc245cec.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-c33435e3f82916cd",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-16",
+        "assetType": "table",
+        "altText": null,
+        "caption": "ⓑ To evaluate x+13x+13 when x=−34,x=−34, we substitute −34−34 for xx in the expression.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/c33435e3f82916cd.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/c33435e3f82916cd.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-c57ccfc977a6f6f7",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-17",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We substitute −23−23 for yy in the expression.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/c57ccfc977a6f6f7.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/c57ccfc977a6f6f7.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-5461714ab803a44d",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-18",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Substitute the values into the expression. In 2x2y,2x2y, the exponent applies only to x.x.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/5461714ab803a44d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/5461714ab803a44d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-different-denominator-fractions-asset-2b14077e12f1e902",
+        "lessonId": "lesson-different-denominator-fractions",
+        "sourceSnapshotId": "snapshot-d644df31974a0040",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.06%3A_Add_and_Subtract_Fractions_with_Different_Denominators#table-19",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We substitute the values into the expression and simplify.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/2b14077e12f1e902.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-5-add-and-subtract-fractions-with-different-denominators/2b14077e12f1e902.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"
