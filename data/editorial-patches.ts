@@ -10087,6 +10087,123 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "5.5",
+    sections: [
+      {
+        sectionSlug: "ondalik-denklemlerde-cozum-kontrolu",
+        replaceBlocks: [
+          ...removeBlocks(8),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayılar para, ölçme ve günlük problem durumlarında sık kullanılır. Bu yüzden ondalık sayılar içeren denklemleri çözmek önemli bir beceridir.",
+              ),
+              pt(
+                "Bir sayının denklemin çözümü olup olmadığını kontrol etmek için değişkenin yerine o sayıyı yazarız. Eşitlik doğru çıkarsa sayı çözümdür; doğru çıkmazsa çözüm değildir.",
+              ),
+              ex(
+                "Örnek 5.40",
+                [t("Her değerin "), m("x-0{,}7=1{,}5"), t(" denklemini sağlayıp sağlamadığını belirleyin: ⓐ "), m("x=1"), t(" ⓑ "), m("x=-0{,}8"), t(" ⓒ "), m("x=2{,}2"), t(".")],
+                sol("Çözüm: x=1 için 1-0,7=0,3, çözüm değildir. x=-0,8 için -1,5, çözüm değildir. x=2,2 için 2,2-0,7=1,5, çözümdür."),
+              ),
+              ex("Sıra Sizde 5.79", [t("Her değerin "), m("x-0{,}6=1{,}3"), t(" denklemini sağlayıp sağlamadığını belirleyin: ⓐ "), m("x=0{,}7"), t(" ⓑ "), m("x=1{,}9"), t(" ⓒ "), m("x=-0{,}7"), t(".")]),
+              ex("Sıra Sizde 5.80", [t("Her değerin "), m("y-0{,}4=1{,}7"), t(" denklemini sağlayıp sağlamadığını belirleyin: ⓐ "), m("y=2{,}1"), t(" ⓑ "), m("y=1{,}3"), t(" ⓒ "), m("y=-1{,}3"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-denklemleri-cozme",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayılar içeren denklemleri çözerken eşitliğin özelliklerini kullanırız. Bir tarafa yaptığımız işlemi diğer tarafa da yaparsak eşitlik korunur.",
+              ),
+              pt(
+                "Amaç değişkeni yalnız bırakmaktır. Toplamayı çıkarmayla, çıkarmayı toplamayla, çarpmayı bölmeyle, bölmeyi çarpmayla tersine çeviririz.",
+              ),
+              ex(
+                "Örnek 5.41",
+                [t("Çözün: "), m("y+2{,}3=-4{,}7"), t(".")],
+                sol("Çözüm: Her iki taraftan 2,3 çıkarırız. y=-4,7-2,3=-7 olur. Kontrol: -7+2,3=-4,7."),
+              ),
+              ex("Sıra Sizde 5.81", [t("Çözün: "), m("y+2{,}7=-5{,}3"), t(".")]),
+              ex("Sıra Sizde 5.82", [t("Çözün: "), m("y+3{,}6=-4{,}8"), t(".")]),
+              ex(
+                "Örnek 5.42",
+                [t("Çözün: "), m("a-4{,}75=-1{,}39"), t(".")],
+                sol("Çözüm: Her iki tarafa 4,75 ekleriz. a=-1,39+4,75=3,36 olur."),
+              ),
+              ex("Sıra Sizde 5.83", [t("Çözün: "), m("a-3{,}93=-2{,}86"), t(".")]),
+              ex("Sıra Sizde 5.84", [t("Çözün: "), m("n-3{,}47=-2{,}64"), t(".")]),
+              ex(
+                "Örnek 5.43",
+                [t("Çözün: "), m("-4{,}8=0{,}8n"), t(".")],
+                sol("Çözüm: n'i yalnız bırakmak için her iki tarafı 0,8'e böleriz. n=-4,8÷0,8=-6 olur."),
+              ),
+              ex("Sıra Sizde 5.85", [t("Çözün: "), m("-8{,}4=0{,}7b"), t(".")]),
+              ex("Sıra Sizde 5.86", [t("Çözün: "), m("-5{,}6=0{,}7c"), t(".")]),
+              ex(
+                "Örnek 5.44",
+                [t("Çözün: "), m("\\frac{p}{-1{,}8}=-6{,}5"), t(".")],
+                sol("Çözüm: p, -1,8'e bölünmüş. Her iki tarafı -1,8 ile çarparız: p=(-6,5)(-1,8)=11,7."),
+              ),
+              ex("Sıra Sizde 5.87", [t("Çözün: "), m("\\frac{c}{-2{,}6}=-4{,}5"), t(".")]),
+              ex("Sıra Sizde 5.88", [t("Çözün: "), m("\\frac{b}{-1{,}2}=-5{,}4"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "sozel-durumlari-denkleme-cevirme",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sözel ifadeleri denkleme çevirirken işlem belirten sözcüklere dikkat ederiz. Fark çıkarma, toplam toplama, çarpım çarpma, bölüm bölme anlamına gelir.",
+              ),
+              ex(
+                "Örnek 5.45",
+                [t("Çevirin ve çözün: n ile 4,3'ün farkı 2,1'dir.")],
+                sol("Çözüm: Denklem n-4,3=2,1 olur. Her iki tarafa 4,3 ekleriz ve n=6,4 buluruz."),
+              ),
+              ex("Sıra Sizde 5.89", [t("Çevirin ve çözün: y ile 4,9'un farkı 2,8'dir.")]),
+              ex("Sıra Sizde 5.90", [t("Çevirin ve çözün: z ile 5,7'nin farkı 3,4'tür.")]),
+              ex(
+                "Örnek 5.46",
+                [t("Çevirin ve çözün: -3,1 ile x'in çarpımı 5,27'dir.")],
+                sol("Çözüm: Denklem -3,1x=5,27 olur. Her iki tarafı -3,1'e böleriz ve x=-1,7 buluruz."),
+              ),
+              ex("Sıra Sizde 5.91", [t("Çevirin ve çözün: -4,3 ile x'in çarpımı 12,04'tür.")]),
+              ex("Sıra Sizde 5.92", [t("Çevirin ve çözün: -3,1 ile m'nin çarpımı 26,66'dır.")]),
+              ex(
+                "Örnek 5.47",
+                [t("Çevirin ve çözün: p'nin -2,4'e bölümü 6,5'tir.")],
+                sol("Çözüm: Denklem p/(-2,4)=6,5 olur. Her iki tarafı -2,4 ile çarparız ve p=-15,6 buluruz."),
+              ),
+              ex("Sıra Sizde 5.93", [t("Çevirin ve çözün: q'nun -3,4'e bölümü 4,5'tir.")]),
+              ex("Sıra Sizde 5.94", [t("Çevirin ve çözün: r'nin -2,6'ya bölümü 2,5'tir.")]),
+              ex(
+                "Örnek 5.48",
+                [t("Çevirin ve çözün: n ile 2,9'un toplamı 1,7'dir.")],
+                sol("Çözüm: Denklem n+2,9=1,7 olur. Her iki taraftan 2,9 çıkarırız ve n=-1,2 buluruz."),
+              ),
+              ex("Sıra Sizde 5.95", [t("Çevirin ve çözün: j ile 3,8'in toplamı 2,6'dır.")]),
+              ex("Sıra Sizde 5.96", [t("Çevirin ve çözün: k ile 4,7'nin toplamı 0,3'tür.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

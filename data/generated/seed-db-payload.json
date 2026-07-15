@@ -457,6 +457,25 @@
         "sortOrder": 3,
         "status": "draft",
         "rawHash": "4bc33607e8900ff9d706b3f9f6d2a037c28cbec177e072daa61d87486836cf67"
+      },
+      {
+        "id": "lesson-decimal-equations",
+        "chapterId": "chapter-decimals",
+        "slug": "ondalik-denklemler",
+        "sourceNumber": "5.5",
+        "displayNumber": "4.4",
+        "sourceTitle": "Solve Equations with Decimals",
+        "displayTitle": "Ondalık Denklemler",
+        "summary": "Ondalık sayılı denklemlerde çözüm kontrolü yapın, eşitliğin özellikleriyle denklemleri çözün ve sözel durumları denkleme çevirin.",
+        "objectivesJson": [
+          "Ondalık sayının bir denklemin çözümü olup olmadığını belirleyebileceksiniz.",
+          "Ondalık sayılar içeren denklemleri çözebileceksiniz.",
+          "Sözel durumları denkleme çevirip çözebileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals",
+        "sortOrder": 4,
+        "status": "draft",
+        "rawHash": "1343fbcd5158fff13e8812e7cfd92551654da4fd0ff1a88fff7683f280d1741a"
       }
     ],
     "lessonSections": [
@@ -32740,6 +32759,840 @@
             ]
           }
         ]
+      },
+      {
+        "id": "ondalik-denklemler-section-01",
+        "lessonId": "lesson-decimal-equations",
+        "heading": "Ondalık Denklemlerde Çözüm Kontrolü",
+        "slug": "ondalik-denklemlerde-cozum-kontrolu",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ondalık sayılar para, ölçme ve günlük problem durumlarında sık kullanılır. Bu yüzden ondalık sayılar içeren denklemleri çözmek önemli bir beceridir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir sayının denklemin çözümü olup olmadığını kontrol etmek için değişkenin yerine o sayıyı yazarız. Eşitlik doğru çıkarsa sayı çözümdür; doğru çıkmazsa çözüm değildir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.40",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her değerin "
+              },
+              {
+                "type": "math",
+                "value": "x-0{,}7=1{,}5"
+              },
+              {
+                "type": "text",
+                "value": " denklemini sağlayıp sağlamadığını belirleyin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=1"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=-0{,}8"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "x=2{,}2"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=1 için 1-0,7=0,3, çözüm değildir. x=-0,8 için -1,5, çözüm değildir. x=2,2 için 2,2-0,7=1,5, çözümdür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.79",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her değerin "
+              },
+              {
+                "type": "math",
+                "value": "x-0{,}6=1{,}3"
+              },
+              {
+                "type": "text",
+                "value": " denklemini sağlayıp sağlamadığını belirleyin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=0{,}7"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=1{,}9"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "x=-0{,}7"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=0,7 için 0,7-0,6=0,1, çözüm değildir. x=1,9 için 1,9-0,6=1,3, çözümdür. x=-0,7 için -0,7-0,6=-1,3, çözüm değildir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.80",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her değerin "
+              },
+              {
+                "type": "math",
+                "value": "y-0{,}4=1{,}7"
+              },
+              {
+                "type": "text",
+                "value": " denklemini sağlayıp sağlamadığını belirleyin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "y=2{,}1"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "y=1{,}3"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "y=-1{,}3"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y=2,1 için 2,1-0,4=1,7, çözümdür. y=1,3 için 0,9, y=-1,3 için -1,7 elde edilir; bunlar çözüm değildir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-denklemler-section-02",
+        "lessonId": "lesson-decimal-equations",
+        "heading": "Ondalık Denklemleri Çözme",
+        "slug": "ondalik-denklemleri-cozme",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ondalık sayılar içeren denklemleri çözerken eşitliğin özelliklerini kullanırız. Bir tarafa yaptığımız işlemi diğer tarafa da yaparsak eşitlik korunur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Amaç değişkeni yalnız bırakmaktır. Toplamayı çıkarmayla, çıkarmayı toplamayla, çarpmayı bölmeyle, bölmeyi çarpmayla tersine çeviririz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.41",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+2{,}3=-4{,}7"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraftan 2,3 çıkarırız. y=-4,7-2,3=-7 olur. Kontrol: -7+2,3=-4,7."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.81",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+2{,}7=-5{,}3"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraftan 2,7 çıkarırız: y=-5,3-2,7=-8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.82",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+3{,}6=-4{,}8"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraftan 3,6 çıkarınca y=-4,8-3,6=-8,4 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.42",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "a-4{,}75=-1{,}39"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafa 4,75 ekleriz. a=-1,39+4,75=3,36 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.83",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "a-3{,}93=-2{,}86"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Çıkarmayı gidermek için her iki tarafa 3,93 ekleriz. a=-2,86+3,93=1,07 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.84",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "n-3{,}47=-2{,}64"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafa 3,47 ekleriz: n=-2,64+3,47=0,83."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.43",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-4{,}8=0{,}8n"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: n'i yalnız bırakmak için her iki tarafı 0,8'e böleriz. n=-4,8÷0,8=-6 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.85",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-8{,}4=0{,}7b"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafı 0,7'ye böleriz. b=-8,4÷0,7=-12 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.86",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-5{,}6=0{,}7c"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafı 0,7'ye böleriz. c=-5,6÷0,7=-8 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.44",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{p}{-1{,}8}=-6{,}5"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: p, -1,8'e bölünmüş. Her iki tarafı -1,8 ile çarparız: p=(-6,5)(-1,8)=11,7."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.87",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{c}{-2{,}6}=-4{,}5"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: c, -2,6'ya bölünmüş. Her iki tarafı -2,6 ile çarparız: c=(-4,5)(-2,6)=11,7."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.88",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{b}{-1{,}2}=-5{,}4"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafı -1,2 ile çarparız: b=(-5,4)(-1,2)=6,48."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-denklemler-section-03",
+        "lessonId": "lesson-decimal-equations",
+        "heading": "Sözel Durumları Denkleme Çevirme",
+        "slug": "sozel-durumlari-denkleme-cevirme",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Sözel ifadeleri denkleme çevirirken işlem belirten sözcüklere dikkat ederiz. Fark çıkarma, toplam toplama, çarpım çarpma, bölüm bölme anlamına gelir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.45",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: n ile 4,3'ün farkı 2,1'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Denklem n-4,3=2,1 olur. Her iki tarafa 4,3 ekleriz ve n=6,4 buluruz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.89",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: y ile 4,9'un farkı 2,8'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “y ile 4,9'un farkı 2,8” ifadesi y-4,9=2,8 olur. Her iki tarafa 4,9 ekleyince y=7,7 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.90",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: z ile 5,7'nin farkı 3,4'tür."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Denklem z-5,7=3,4'tür. Her iki tarafa 5,7 eklenirse z=9,1 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.46",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: -3,1 ile x'in çarpımı 5,27'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Denklem -3,1x=5,27 olur. Her iki tarafı -3,1'e böleriz ve x=-1,7 buluruz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.91",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: -4,3 ile x'in çarpımı 12,04'tür."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: “-4,3 ile x'in çarpımı 12,04” denklemi -4,3x=12,04'tür. x=12,04÷(-4,3)=-2,8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.92",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: -3,1 ile m'nin çarpımı 26,66'dır."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Denklem -3,1m=26,66 olur. Her iki tarafı -3,1'e böleriz ve m=-8,6 buluruz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.47",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: p'nin -2,4'e bölümü 6,5'tir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Denklem p/(-2,4)=6,5 olur. Her iki tarafı -2,4 ile çarparız ve p=-15,6 buluruz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.93",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: q'nun -3,4'e bölümü 4,5'tir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: q/(-3,4)=4,5 denklemini kurarız. Her iki tarafı -3,4 ile çarparız: q=-15,3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.94",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: r'nin -2,6'ya bölümü 2,5'tir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: r/(-2,6)=2,5 olur. Her iki tarafı -2,6 ile çarptığımızda r=-6,5 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.48",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: n ile 2,9'un toplamı 1,7'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Denklem n+2,9=1,7 olur. Her iki taraftan 2,9 çıkarırız ve n=-1,2 buluruz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.95",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: j ile 3,8'in toplamı 2,6'dır."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: j+3,8=2,6 denkleminde her iki taraftan 3,8 çıkarırız. j=-1,2 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.96",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: k ile 4,7'nin toplamı 0,3'tür."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: k+4,7=0,3 denklemini çözeriz. k=0,3-4,7=-4,4 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -50932,6 +51785,762 @@
         "sortOrder": 283,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-285",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-01",
+        "number": "285",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen değerlerden hangilerinin denklemi sağladığını belirleyin: x-0,8=2,3; ⓐ x=2 ⓑ x=-1,5 ⓒ x=3,1."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x=2 için 2-0,8=1,2, çözüm değildir. x=-1,5 için -2,3, çözüm değildir. x=3,1 için 3,1-0,8=2,3, çözümdür."
+          }
+        ],
+        "sortOrder": 285,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-287",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-01",
+        "number": "287",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen değerlerden hangilerinin denklemi sağladığını belirleyin: h/1,5=-4,3; ⓐ h=6,45 ⓑ h=-6,45 ⓒ h=-2,1."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: h=6,45 için bölüm 4,3 olur, çözüm değildir. h=-6,45 için -6,45÷1,5=-4,3, çözümdür. h=-2,1 için -1,4 olur, çözüm değildir."
+          }
+        ],
+        "sortOrder": 287,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-289",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "289",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: y+2,9=5,7."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 2,9 çıkarırız. y=5,7-2,9=2,8 olur."
+          }
+        ],
+        "sortOrder": 289,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-291",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "291",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: f+3,45=2,6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 3,45 çıkarırız. f=2,6-3,45=-0,85 bulunur."
+          }
+        ],
+        "sortOrder": 291,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-293",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "293",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: a+6,2=-1,7."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 6,2 çıkarırız. a=-1,7-6,2=-7,9 olur."
+          }
+        ],
+        "sortOrder": 293,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-295",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "295",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: c+1,15=-3,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 1,15 çıkarırız. c=-3,5-1,15=-4,65 bulunur."
+          }
+        ],
+        "sortOrder": 295,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-297",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "297",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: n-2,6=1,8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafa 2,6 ekleriz. n=1,8+2,6=4,4 olur."
+          }
+        ],
+        "sortOrder": 297,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-299",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "299",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: x-0,4=-3,9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafa 0,4 ekleriz. x=-3,9+0,4=-3,5 olur."
+          }
+        ],
+        "sortOrder": 299,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-301",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "301",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: j-1,82=-6,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafa 1,82 ekleriz. j=-6,5+1,82=-4,68 bulunur."
+          }
+        ],
+        "sortOrder": 301,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-303",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "303",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: m-0,25=-1,67."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafa 0,25 eklenir. m=-1,67+0,25=-1,42 olur."
+          }
+        ],
+        "sortOrder": 303,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-305",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "305",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: 0,5x=3,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı 0,5'e böleriz. x=3,5÷0,5=7 olur."
+          }
+        ],
+        "sortOrder": 305,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-307",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "307",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -1,7c=8,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı -1,7'ye böleriz. c=8,5÷(-1,7)=-5 olur."
+          }
+        ],
+        "sortOrder": 307,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-309",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "309",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -1,4p=-4,2."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı -1,4'e böleriz. p=(-4,2)÷(-1,4)=3 olur."
+          }
+        ],
+        "sortOrder": 309,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-311",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "311",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -120=1,5q."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı 1,5'e böleriz. q=-120÷1,5=-80 bulunur."
+          }
+        ],
+        "sortOrder": 311,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-313",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "313",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: 0,24x=4,8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı 0,24'e böleriz. x=4,8÷0,24=20 olur."
+          }
+        ],
+        "sortOrder": 313,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-315",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "315",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -3,4z=-9,18."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı -3,4'e böleriz. z=(-9,18)÷(-3,4)=2,7 olur."
+          }
+        ],
+        "sortOrder": 315,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-317",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "317",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: a/0,4=-20."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: a/0,4=-20 olduğundan her iki tarafı 0,4 ile çarparız. a=-8 olur."
+          }
+        ],
+        "sortOrder": 317,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-319",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "319",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: x/0,7=-0,4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı 0,7 ile çarparız. x=(-0,4)(0,7)=-0,28 olur."
+          }
+        ],
+        "sortOrder": 319,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-321",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "321",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: p/(-5)=-1,65."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: p, -5'e bölünmüş. Her iki tarafı -5 ile çarparız: p=8,25 olur."
+          }
+        ],
+        "sortOrder": 321,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-323",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "323",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: r/(-1,2)=-6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı -1,2 ile çarparız. r=(-6)(-1,2)=7,2 bulunur."
+          }
+        ],
+        "sortOrder": 323,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-325",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "325",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: x-5=-11."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafa 5 ekleriz. x=-6 olur; kontrol: -6-5=-11."
+          }
+        ],
+        "sortOrder": 325,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-327",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "327",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: p+8=-2."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 8 çıkarırız. p=-10 olur; kontrol: -10+8=-2."
+          }
+        ],
+        "sortOrder": 327,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-329",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "329",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: -4,2m=-33,6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı -4,2'ye böleriz. m=8 olur; kontrol: -4,2·8=-33,6."
+          }
+        ],
+        "sortOrder": 329,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-331",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "331",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: q+5/6=1/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 5/6 çıkarırız. q=1/12-5/6=1/12-10/12=-3/4 olur."
+          }
+        ],
+        "sortOrder": 331,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-333",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "333",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: (7/8)m=1/10."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı 7/8'e böleriz. m=(1/10)÷(7/8)=1/10·8/7=4/35 olur."
+          }
+        ],
+        "sortOrder": 333,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-335",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "335",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: -2/3=y+3/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 3/8 çıkarırız. y=-2/3-3/8=-16/24-9/24=-25/24 olur."
+          }
+        ],
+        "sortOrder": 335,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-337",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "337",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: 11/20=-f."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 11/20=-f ise her iki tarafın zıttını alırız. f=-11/20 olur."
+          }
+        ],
+        "sortOrder": 337,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-339",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "339",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: -4,2a=3,36."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı -4,2'ye böleriz. a=3,36÷(-4,2)=-0,8 olur."
+          }
+        ],
+        "sortOrder": 339,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-341",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "341",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: r-1,25=-2,7."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafa 1,25 ekleriz. r=-2,7+1,25=-1,45 olur."
+          }
+        ],
+        "sortOrder": 341,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-343",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-02",
+        "number": "343",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün ve kontrol edin: h/(-3)=-8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: h, -3'e bölünmüş. Her iki tarafı -3 ile çarparız ve h=24 buluruz."
+          }
+        ],
+        "sortOrder": 343,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-345",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-03",
+        "number": "345",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çevirin ve çözün: n ile 1,9'un farkı 3,4'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: “Fark” çıkarma demektir: n-1,9=3,4. Her iki tarafa 1,9 eklenince n=5,3 olur."
+          }
+        ],
+        "sortOrder": 345,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-347",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-03",
+        "number": "347",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çevirin ve çözün: -6,2 ile x'in çarpımı -4,96'dır."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Denklem -6,2x=-4,96 olur. Her iki tarafı -6,2'ye böleriz ve x=0,8 bulunur."
+          }
+        ],
+        "sortOrder": 347,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-349",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-03",
+        "number": "349",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çevirin ve çözün: y'nin -1,7'ye bölümü -5'tir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Denklem y/(-1,7)=-5 olur. Her iki tarafı -1,7 ile çarparız; y=8,5 olur."
+          }
+        ],
+        "sortOrder": 349,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-351",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-03",
+        "number": "351",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çevirin ve çözün: n ile -7,3'ün toplamı 2,4'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Denklem n+(-7,3)=2,4'tür. Her iki tarafa 7,3 ekleriz ve n=9,7 buluruz."
+          }
+        ],
+        "sortOrder": 351,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-353",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-03",
+        "number": "353",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Shawn indirimde 78 dolara bir ayakkabı aldı. Ayakkabının asıl fiyatı p ise 0,75p=78 denklemini çözün."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,75p=78 denkleminde her iki tarafı 0,75'e böleriz. p=78÷0,75=104 dolar olur."
+          }
+        ],
+        "sortOrder": 353,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimal-equations-exercise-355",
+        "lessonId": "lesson-decimal-equations",
+        "sectionId": "ondalik-denklemler-section-03",
+        "number": "355",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "1,2y=60 denklemini çözmeden düşünün: çözüm 60'tan büyük mü küçük mü olmalı? Açıklayın, sonra denklemi çözerek kontrol edin."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1,2, 1'den büyük olduğu için 1,2y=60 denkleminde y'nin 60'tan küçük olması beklenir. Çözünce y=60÷1,2=50 çıkar; düşünce doğrudur."
+          }
+        ],
+        "sortOrder": 355,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -51084,6 +52693,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions",
         "httpStatus": 200,
         "contentHash": "4bc33607e8900ff9d706b3f9f6d2a037c28cbec177e072daa61d87486836cf67",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals",
+        "httpStatus": 200,
+        "contentHash": "1343fbcd5158fff13e8812e7cfd92551654da4fd0ff1a88fff7683f280d1741a",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -58239,6 +59856,174 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/f3f03c0710cbee7a.json",
         "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/f3f03c0710cbee7a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-bbaa049f4197722f",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/bbaa049f4197722f.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/bbaa049f4197722f.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-346cc7a973952bda",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Since x=1x=1 does not result in a true equation, 11 is not a solution to the equation.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/346cc7a973952bda.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/346cc7a973952bda.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-b3ec5fa01c855ec1",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Since x=−0.8x=−0.8 does not result in a true equation, −0.8−0.8 is not a solution to the equation.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/b3ec5fa01c855ec1.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/b3ec5fa01c855ec1.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-2377b756734d9577",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/2377b756734d9577.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/2377b756734d9577.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-58d1f658cbd5717d",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We will use the Subtraction Property of Equality to isolate the variable.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/58d1f658cbd5717d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/58d1f658cbd5717d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-a62342f56fd6a3e6",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We will use the Addition Property of Equality.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/a62342f56fd6a3e6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/a62342f56fd6a3e6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-7f3a0d32e7f311ed",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Use the Properties of Equality to find a value for n.n.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/7f3a0d32e7f311ed.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/7f3a0d32e7f311ed.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-1768aefecaf4d13b",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We will use the Multiplication Property of Equality.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/1768aefecaf4d13b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/1768aefecaf4d13b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-9185645c5a680dd1",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/9185645c5a680dd1.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/9185645c5a680dd1.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-54d68bde6babc6d2",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/54d68bde6babc6d2.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/54d68bde6babc6d2.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-c494e83f819a094e",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/c494e83f819a094e.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/c494e83f819a094e.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimal-equations-asset-582d0c938a4f580e",
+        "lessonId": "lesson-decimal-equations",
+        "sourceSnapshotId": "snapshot-1343fbcd5158fff1",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.05%3A_Solve_Equations_with_Decimals#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/582d0c938a4f580e.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-4-solve-equations-with-decimals/582d0c938a4f580e.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"
