@@ -9,7 +9,7 @@ export const sourceBooks = [
     targetLocale: "tr-TR",
     numberingPolicy: "skip_intro_shift",
     targetRanges: [
-      ["2.2", "2.6"],
+      ["2.3", "2.6"],
       ["3.2", "3.6"],
       ["4.2", "4.8"],
       ["5.2", "5.8"],

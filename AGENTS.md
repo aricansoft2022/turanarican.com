@@ -76,7 +76,7 @@ License observed on LibreTexts: CC BY 4.0, author/source OpenStax.
 
 Initial target ranges:
 
-- 2.2 through 2.6
+- 2.3 through 2.6
 - 3.2 through 3.6
 - 4.2 through 4.8
 - 5.2 through 5.8
@@ -90,10 +90,11 @@ Initial target ranges:
 Important numbering rule: for this book, the Turkish product flow starts at
 source chapter 2 and displays it as chapter 1. Source chapter numbers from `2`
 onward are shifted down by one for display, and early pages such as `2.1` may
-also be skipped. For example, source `2.2` displays as `1.1`, source `3.2`
-displays as `2.1`, and source `4.3` displays as `3.2`. Preserve the real source
-number separately from the displayed product number so attribution and source
-lookup remain exact.
+also be skipped. The first included source lesson in each target range displays
+as `.1`. For example, source `2.3` displays as `1.1`, source `3.2` displays as
+`2.1`, and source `4.3` displays as `3.2`. Preserve the real source number
+separately from the displayed product number so attribution and source lookup
+remain exact.
 
 ### Elementary Algebra (LibreTexts)
 

@@ -34,14 +34,14 @@ export const books: Book[] = [
             chapterId: "chapter-language-of-algebra",
             slug: "cebirsel-ifadeler",
             sourceNumber: "2.3",
-            displayNumber: "1.2",
+            displayNumber: "1.1",
             sourceTitle: "Evaluate, Simplify, and Translate Expressions",
             displayTitle: "Cebirsel İfadeler",
             summary:
               "Cebirsel ifadelerin değerini hesaplayın, terim ve katsayıları ayırt edin, benzer terimleri birleştirin ve sözel durumları cebirsel ifadeyle gösterin.",
             sourceUrl:
               "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/02%3A_Introduction_to_the_Language_of_Algebra/2.03%3A_Evaluate_Simplify_and_Translate_Expressions",
-            sortOrder: 2,
+            sortOrder: 1,
           },
         ],
       },

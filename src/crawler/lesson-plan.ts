@@ -42,6 +42,7 @@ export async function discoverPlannedLessons(sourceBook: SourceBookPlan) {
       const displayNumber = resolveDisplayNumber(
         lesson.sourceNumber,
         sourceBook.numberingPolicy,
+        sourceBook.targetRanges,
       );
 
       lessons.push({
@@ -75,18 +76,41 @@ export function isInTargetRanges(
 export function resolveDisplayNumber(
   sourceNumber: string,
   numberingPolicy: SourceBookPlan["numberingPolicy"],
+  targetRanges: SourceBookPlan["targetRanges"] = [],
 ) {
   if (numberingPolicy !== "skip_intro_shift") return sourceNumber;
 
   const parsed = parseLessonNumber(sourceNumber);
   const displayChapter =
     Number(parsed.chapter) > 1 ? Number(parsed.chapter) - 1 : 1;
+  const rangeStartLesson = findRangeStartLesson(sourceNumber, targetRanges);
   const displayLesson =
-    typeof parsed.lesson === "number" && parsed.lesson > 1
-      ? parsed.lesson - 1
-      : parsed.lesson;
+    typeof parsed.lesson === "number" && typeof rangeStartLesson === "number"
+      ? parsed.lesson - rangeStartLesson + 1
+      : typeof parsed.lesson === "number" && parsed.lesson > 1
+        ? parsed.lesson - 1
+        : parsed.lesson;
 
   return `${displayChapter}.${displayLesson}`;
+}
+
+function findRangeStartLesson(
+  sourceNumber: string,
+  ranges: SourceBookPlan["targetRanges"],
+) {
+  const matchingRange = ranges.find(([start, end]) => {
+    return (
+      compareLessonNumbers(sourceNumber, start) >= 0 &&
+      compareLessonNumbers(sourceNumber, end) <= 0
+    );
+  });
+
+  if (!matchingRange) return undefined;
+
+  const parsedStart = parseLessonNumber(matchingRange[0]);
+  return typeof parsedStart.lesson === "number"
+    ? parsedStart.lesson
+    : undefined;
 }
 
 function compareLessonNumbers(left: string, right: string) {

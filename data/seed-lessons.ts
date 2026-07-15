@@ -318,7 +318,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Eşitlik ve Denklem",
       summary:
         "Bir değerin denklemi sağlayıp sağlamadığını kontrol edin, eşitliği koruyarak denklem çözün ve sözel durumları denklemle gösterin.",
-      sortOrder: 3,
+      sortOrder: 2,
     },
     objectives: [
       "Bir sayının bir denklemin çözümü olup olmadığını kontrol edebileceksiniz.",
@@ -563,7 +563,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Çarpanlar ve Katlar",
       summary:
         "Doğal sayıların katlarını ve çarpanlarını bulun, bölünebilme kurallarını kullanın ve asal-bileşik sayıları ayırt edin.",
-      sortOrder: 4,
+      sortOrder: 3,
     },
     objectives: [
       "Doğal sayıların katlarını belirleyebileceksiniz.",
@@ -744,7 +744,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Asal Çarpanlar ve EKOK",
       summary:
         "Bileşik sayıları asal çarpanlarına ayırın ve iki sayının en küçük ortak katını farklı yöntemlerle bulun.",
-      sortOrder: 5,
+      sortOrder: 4,
     },
     objectives: [
       "Bileşik sayıları asal çarpanlarına ayırabileceksiniz.",
