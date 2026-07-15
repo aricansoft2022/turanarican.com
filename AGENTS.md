@@ -24,12 +24,20 @@ navigation, SEO, attribution, and ingestion workflows.
 ## Current Repository State
 
 - Current branch after the last handoff: `main`.
-- Recent local-only production commits include:
+- Recent production commits include:
+  - `6f16ea1 Add fraction multiplication division seed lesson`
+  - `3317b15 Add fractions visualization seed lesson`
   - `5ddbf79 Add integer equations seed lesson`
   - `a56b0ef Add integer multiplication division seed lesson`
   - `9005ce6 Add integer subtraction seed lesson`
-  - `06586af Clean stale seed DB rows on apply`
-  - `f6660eb Add integer addition seed lesson`
+- Latest confirmed seed DB write count:
+  - `books`: 1
+  - `chapters`: 3
+  - `lessons`: 11
+  - `lessonSections`: 58
+  - `exercises`: 386
+  - `sourceSnapshots`: 11
+  - `sourceAssets`: 334
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -307,17 +315,22 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. Done; ten seed
+8. Seed one or two lessons end-to-end before mass ingestion. Done; eleven seed
    lessons now build end-to-end for Prealgebra 2.3, 2.4, 2.5, 2.6, 3.2, 3.3,
-   3.4, 3.5, 3.6, and 4.2.
+   3.4, 3.5, 3.6, 4.2, and 4.3.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
 11. Add informational language coverage report and initial Turkish localization
     cleanup hooks for exercise prompts/math text. Started.
 
-Current next seed candidate after the latest local work: Prealgebra 4.3
-`Multiply and Divide Fractions`, displayed as product lesson 4.2 under
-`Kesirler`.
+Current next seed candidate after the latest local work: Prealgebra 4.4
+`Multiply and Divide Mixed Numbers and Complex Fractions`, displayed as product
+lesson 4.3 under `Kesirler`.
+
+Latest completed seed lesson: Prealgebra 4.3 `Multiply and Divide Fractions`,
+displayed as `Kesirlerle Çarpma ve Bölme`. It includes 4 Turkish editorial
+sections, 36 Sıra Sizde solutions, 51 source exercises with explanatory reveal
+solutions, and 37 extracted source assets.
 
 ## Quality Gates
 

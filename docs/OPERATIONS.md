@@ -16,6 +16,8 @@ Proje şu anda:
 - Canlı canonical host şu an `https://turanarican.com`.
 - `https://www.turanarican.com` Cloudflare tarafından apex hosta 301
   yönleniyor.
+- Son doğrulanan seed DB içeriği 11 ders, 58 ders bölümü, 386 alıştırma ve 334
+  kaynak asset içeriyor.
 
 En önemli deploy kuralı:
 
@@ -441,6 +443,25 @@ Turnstile:
 db/migrations/
 ```
 
+Son doğrulanan seed DB yazımı:
+
+```json
+{
+  "books": 1,
+  "chapters": 3,
+  "lessons": 11,
+  "lessonSections": 58,
+  "exercises": 386,
+  "sourceSnapshots": 11,
+  "sourceAssets": 334
+}
+```
+
+Bu veri seti Prealgebra 2e için `2.3-4.3` aralığını kapsar. Son eklenen ders
+`4.3 Multiply and Divide Fractions` / `Kesirlerle Çarpma ve Bölme`; sıradaki
+aday `4.4 Multiply and Divide Mixed Numbers and Complex Fractions` olarak
+raporlanır.
+
 Schema değiştiğinde:
 
 ```bash
@@ -554,6 +575,11 @@ Asset statüleri:
 - `uploaded`: production asset storage'a yüklendi.
 - `fallback_original`: yeniden üretim güvenilir olmadığı için kaynak asset
   kullanılacak.
+
+Mevcut crawler/seed hattı kaynak görsel, figür, SVG ve tabloları asset manifest
+olarak çıkarır; bazılarını `redraw_tr_preferred`, tabloları `rebuild_html_tr`,
+bazılarını `reuse_original` olarak işaretler. Türkçe yeniden çizim ve R2 upload
+hattı henüz production otomasyonuna bağlanmadı.
 
 ## Crawl ve Ingestion
 
