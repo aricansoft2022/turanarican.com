@@ -16,8 +16,10 @@ Proje şu anda:
 - Canlı canonical host şu an `https://turanarican.com`.
 - `https://www.turanarican.com` Cloudflare tarafından apex hosta 301
   yönleniyor.
-- Son doğrulanan seed DB içeriği 12 ders, 62 ders bölümü, 425 alıştırma ve 348
-  kaynak asset içeriyor.
+- Turso'ya yazıldığı son doğrulanan seed DB içeriği 12 ders, 62 ders bölümü,
+  425 alıştırma ve 348 kaynak asset içeriyor.
+- Son yerel/generated seed payload 13 ders, 66 ders bölümü, 456 alıştırma ve
+  362 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
 
 En önemli deploy kuralı:
 
@@ -449,17 +451,22 @@ Son doğrulanan seed DB yazımı:
 {
   "books": 1,
   "chapters": 3,
-  "lessons": 11,
-  "lessonSections": 58,
-  "exercises": 386,
-  "sourceSnapshots": 11,
-  "sourceAssets": 334
+  "lessons": 12,
+  "lessonSections": 62,
+  "exercises": 425,
+  "sourceSnapshots": 12,
+  "sourceAssets": 348
 }
 ```
 
-Bu veri seti Prealgebra 2e için `2.3-4.3` aralığını kapsar. Son eklenen ders
-`4.3 Multiply and Divide Fractions` / `Kesirlerle Çarpma ve Bölme`; sıradaki
-aday `4.4 Multiply and Divide Mixed Numbers and Complex Fractions` olarak
+Bu Turso yazımı Prealgebra 2e için `2.3-4.4` aralığını kapsar. Son yazılmış
+ders `4.4 Multiply and Divide Mixed Numbers and Complex Fractions` / `Karma
+Kesirler ve Karmaşık Kesirler` idi.
+
+Son yerel/generated seed payload `2.3-4.5` aralığını kapsar ve henüz Turso'ya
+yazılmadı. Bu payload'ta son eklenen ders `4.5 Add and Subtract Fractions with
+Common Denominators` / `Ortak Paydalı Kesirlerde Toplama ve Çıkarma`; sıradaki
+aday `4.6 Add and Subtract Fractions with Different Denominators` olarak
 raporlanır.
 
 Schema değiştiğinde:

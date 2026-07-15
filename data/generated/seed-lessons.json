@@ -37241,6 +37241,1757 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "4.5",
+      "displayNumber": "3.4",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators",
+      "contentHash": "85ec64de4f7fa47a647a49856ec0619b7df6d1588fbc9117a1fb02816edbfc83",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-0eb4b66e216268c2",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104397/fa5d20896db340adc63225f7e0270512a75a2590?revision=1",
+          "type": "image",
+          "altText": "Three U.S. quarters are shown. One is shown on the left, and two are shown on the right.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/000-0eb4b66e216268c2.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/000-0eb4b66e216268c2.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "013-a6abcd298481bb7e",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104414/99e7915efd2615467476a86d548f900853cbc0eb?revision=1",
+          "type": "image",
+          "altText": "The bottom reads 7 twelfths minus 2 twelfths equals 5 twelfths. Above 7 twelfths, there is a circle divided into 12 equal pieces, with 7 pieces shaded in orange. Above 2 twelfths, the same circle is shown, but 2 of the 7 pieces are shaded in grey. Above 5 twelfths, the 2 grey pieces are no longer shaded, so there is a circle divided into 12 pieces with 5 of the pieces shaded in orange.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/013-a6abcd298481bb7e.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/013-a6abcd298481bb7e.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "014-7e5be88e1fe0fefc",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104418/fda50928594c3f1ff7206e29a1ef3a6e3eeb9738?revision=1",
+          "type": "image",
+          "altText": "The bottom reads 4 fifths minus 1 fifth equals 3 fifths. Above 4 fifths, there is a circle divided into 5 equal pieces, with 4 pieces shaded in orange. Above 1 fifth, the same circle is shown, but 1 of the 4 shaded pieces is shaded in grey. Above 3 fifths, the 1 grey piece is no longer shaded, so there is a circle divided into 5 pieces with 3 of the pieces shaded in orange.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/014-7e5be88e1fe0fefc.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/014-7e5be88e1fe0fefc.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "d4117a876a06fbbc",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-0",
+          "type": "table",
+          "caption": "Let’s use fraction circles to model the same example, 14+24.14+24.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/d4117a876a06fbbc.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/d4117a876a06fbbc.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c1c539d483593e89",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/c1c539d483593e89.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/c1c539d483593e89.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "2049a35525ac0135",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/2049a35525ac0135.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/2049a35525ac0135.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d6cf793876791b0a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/d6cf793876791b0a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/d6cf793876791b0a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ccc06b557b7413a0",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-4",
+          "type": "table",
+          "caption": "− a b = − a b − a b = − a b",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/ccc06b557b7413a0.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/ccc06b557b7413a0.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "0359c26a58185db0",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/0359c26a58185db0.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/0359c26a58185db0.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "3e0c6b1fadf70c6f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/3e0c6b1fadf70c6f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/3e0c6b1fadf70c6f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1c593c6b7ee43cbe",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/1c593c6b7ee43cbe.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/1c593c6b7ee43cbe.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b461f9547358fe41",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/b461f9547358fe41.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/b461f9547358fe41.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "fbb4c1b6b16f3766",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-9",
+          "type": "table",
+          "caption": "Remember, the fraction −10x−10x can be written as −10x.−10x.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/fbb4c1b6b16f3766.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/fbb4c1b6b16f3766.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ede3b45e0ba907e3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/ede3b45e0ba907e3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-4-add-and-subtract-fractions-with-common-denominators/ede3b45e0ba907e3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 4,
+        "sections": 4,
+        "blocks": 40,
+        "examples": 11,
+        "tryIts": 22,
+        "sourceExercises": 31,
+        "exercises": 31,
+        "mathTokens": 37,
+        "assets": 14
+      },
+      "lesson": {
+        "id": "lesson-common-denominator-fractions",
+        "slug": "ortak-paydali-kesirlerde-toplama-cikarma",
+        "displayTitle": "Ortak Paydalı Kesirlerde Toplama ve Çıkarma",
+        "summary": "Ortak paydalı kesirleri modellerle toplayıp çıkarın, payları birleştirerek işlemleri sadeleştirin ve negatif kesirlerle çalışın.",
+        "sortOrder": 4,
+        "chapterId": "chapter-fractions",
+        "sourceNumber": "4.5",
+        "displayNumber": "3.4",
+        "sourceTitle": "Add and Subtract Fractions with Common Denominators",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.05%3A_Add_and_Subtract_Fractions_with_Common_Denominators",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "kesirler",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Kesir toplamayı modelleyebileceksiniz.",
+          "Ortak paydalı kesirleri toplayabileceksiniz.",
+          "Kesir çıkarmayı modelleyebileceksiniz.",
+          "Ortak paydalı kesirleri çıkarabileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "ortak-paydali-kesirlerde-toplama-cikarma-section-01",
+            "heading": "Kesir Toplamayı Modelleme",
+            "slug": "kesir-toplamayi-modelleme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Aynı büyüklükteki kesir parçalarını toplarken parçaların sayısını birleştiririz. Payda, parçaların büyüklüğünü gösterdiği için aynı kalır; paylar toplanır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin bir çeyrek ile iki çeyrek birlikte üç çeyrek eder: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{1}{4}+\\frac{2}{4}=\\frac{3}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.52",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{1}{4}+\\frac{2}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Dörtte bir parçalardan önce 1 tane, sonra 2 tane daha alırız. Toplam 3 tane dörtte bir parça olur."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Sonuç 3/4'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.103",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{1}{8}+\\frac{4}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sekizlik parçalardan 1 tane ve 4 tane birlikte 5 tane sekizlik parça eder. Sonuç 5/8'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.104",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{1}{6}+\\frac{4}{6}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Paydalar aynı olduğu için altılık parçaları sayarız. 1/6+4/6=5/6 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ortak-paydali-kesirlerde-toplama-cikarma-section-02",
+            "heading": "Ortak Paydalı Kesirleri Toplama",
+            "slug": "ortak-paydali-kesirleri-toplama",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Paydaları aynı olan kesirleri toplarken payda değişmez, paylar toplanır: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{a}{c}+\\frac{b}{c}=\\frac{a+b}{c}"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Sonuç mümkünse sadeleştirilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.53",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3}{5}+\\frac{1}{5}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 5 aynı kalır. 3+1=4 olduğu için sonuç 4/5'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.105",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3}{6}+\\frac{2}{6}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak payda 6 kalır, paylar toplanır: 3+2=5. Sonuç 5/6'dır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.106",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3}{10}+\\frac{7}{10}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Paydalar aynı olduğu için 3+7=10 yazılır. 10/10=1 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.54",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{x}{3}+\\frac{2}{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 3 ortak kalır. Paylar x+2 olur; sonuç (x+2)/3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.107",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{x}{4}+\\frac{3}{4}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak payda 4'tür. Payları toplarız: x+3. Sonuç (x+3)/4 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.108",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{y}{8}+\\frac{5}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 8 aynı kalır. Paylar y+5 olarak birleşir; sonuç (y+5)/8'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.55",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{9}{d}+\\frac{3}{d}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda d ortak kalır. -9+3=-6 olduğundan sonuç -6/d olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.109",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{7}{d}+\\frac{8}{d}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda d aynı kalır. Paylar -7+8=1 verir. Sonuç 1/d'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.110",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{6}{m}+\\frac{9}{m}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda m ortak olduğu için paylar toplanır: -6+9=3. Sonuç 3/m olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.56",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{2n}{11}+\\frac{5n}{11}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 11 aynı kalır. 2n+5n=7n olduğu için sonuç 7n/11'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.111",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3p}{8}+\\frac{6p}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 8 aynı kalır. 3p+6p=9p olduğundan sonuç 9p/8'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.112",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{2q}{5}+\\frac{7q}{5}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 5 ortak kalır. 2q+7q=9q, bu yüzden sonuç 9q/5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.57",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{3}{12}+\\left(-\\frac{5}{12}\\right)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 12 ortak kalır. -3+(-5)=-8 ve -8/12=-2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.113",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{4}{15}+\\left(-\\frac{6}{15}\\right)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 15'tir. -4+(-6)=-10 olduğu için -10/15=-2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.114",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{5}{21}+\\left(-\\frac{9}{21}\\right)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 21'dir. -5+(-9)=-14 ve -14/21=-2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ortak-paydali-kesirlerde-toplama-cikarma-section-03",
+            "heading": "Kesir Çıkarmayı Modelleme",
+            "slug": "kesir-cikarmayi-modelleme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Ortak paydalı kesirlerde çıkarma, aynı büyüklükteki parçalardan bazılarını geri almak demektir. Payda aynı kalır, paylar çıkarılır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{7}{12}-\\frac{2}{12}=\\frac{5}{12}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " çünkü on ikilik 7 parçadan 2 parça çıkarılınca 5 parça kalır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.58",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{7}{12}-\\frac{2}{12}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7 tane on ikide bir parçadan 2 tanesi çıkarılır. Geriye 5 tane on ikide bir parça kalır; sonuç 5/12'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.115",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{7}{8}-\\frac{4}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sekizde yedi parçadan dört parça çıkarılır; üç sekizlik parça kalır. Sonuç 3/8'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.116",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{5}{6}-\\frac{4}{6}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Altıda beş parçadan dört parça çıkarılır. Geriye 1/6 kalır."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ortak-paydali-kesirlerde-toplama-cikarma-section-04",
+            "heading": "Ortak Paydalı Kesirleri Çıkarma",
+            "slug": "ortak-paydali-kesirleri-cikarma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Paydaları aynı olan kesirleri çıkarırken payda değişmez, paylar çıkarılır: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{a}{c}-\\frac{b}{c}=\\frac{a-b}{c}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.59",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{23}{24}-\\frac{14}{24}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 24 aynı kalır. 23-14=9 olduğundan 9/24=3/8 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.117",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{19}{28}-\\frac{7}{28}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 28 aynı kalır. 19-7=12 olduğundan 12/28=3/7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.118",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{27}{32}-\\frac{11}{32}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 32 aynı kalır. 27-11=16 ve 16/32=1/2 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.60",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{y}{6}-\\frac{1}{6}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 6 ortak kalır. Paylar y-1 olur; sonuç (y-1)/6'dır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.119",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{x}{7}-\\frac{2}{7}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 7 ortak kalır. Paylar x-2 olarak birleşir; sonuç (x-2)/7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.120",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{y}{14}-\\frac{13}{14}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 14 aynı kalır. Paylar y-13 olur; sonuç (y-13)/14'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.61",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{10}{x}-\\frac{4}{x}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda x ortak kalır. -10-4=-14 olduğundan sonuç -14/x olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.121",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{9}{x}-\\frac{7}{x}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak payda x'tir. -9-7=-16 olduğu için sonuç -16/x olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.122",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{17}{a}-\\frac{5}{a}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda a ortak kalır. -17-5=-22, sonuç -22/a'dır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir ifadede toplama ve çıkarma birlikte varsa paydalar ortaksa payları soldan sağa birleştirebiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.62",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3}{8}+\\left(-\\frac{5}{8}\\right)-\\frac{1}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 8 ortak kalır. 3+(-5)-1=-3 olduğundan sonuç -3/8'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.123",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{2}{5}+\\left(-\\frac{4}{5}\\right)-\\frac{3}{5}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 5 ortak olduğu için payları soldan sağa toplarız: 2+(-4)-3=-5. Sonuç -5/5=-1 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.124",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{5}{9}+\\left(-\\frac{4}{9}\\right)-\\frac{7}{9}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Payda 9 ortak kalır. 5+(-4)-7=-6 olduğundan -6/9=-2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-255",
+            "number": "255",
+            "sectionSlug": "kesir-toplamayi-modelleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{3}{10}+\\frac{4}{10}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Paydalar aynı olduğu için payları toplarız: 3+4=7. Sonuç 7/10'dur."
+              }
+            ],
+            "sortOrder": 255
+          },
+          {
+            "id": "exercise-257",
+            "number": "257",
+            "sectionSlug": "kesir-toplamayi-modelleme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{3}{8}+\\frac{3}{8}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ortak payda 8 kalır. 3+3=6 olduğundan 6/8=3/4 olur."
+              }
+            ],
+            "sortOrder": 257
+          },
+          {
+            "id": "exercise-259",
+            "number": "259",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: 2/9+5/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 9 aynı kalır. 2+5=7, bu yüzden toplam 7/9'dur."
+              }
+            ],
+            "sortOrder": 259
+          },
+          {
+            "id": "exercise-261",
+            "number": "261",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: 9/15+7/15."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 15 ortak kalır. 9+7=16 olduğundan sonuç 16/15=1 1/15 olur."
+              }
+            ],
+            "sortOrder": 261
+          },
+          {
+            "id": "exercise-263",
+            "number": "263",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: y/3+2/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 3 aynıdır. Paylar y+2 olarak birleşir; toplam (y+2)/3 olur."
+              }
+            ],
+            "sortOrder": 263
+          },
+          {
+            "id": "exercise-265",
+            "number": "265",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: 8/q+6/q."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda q ortak kalır. 8+6=14 olduğundan sonuç 14/q olur; q sıfır olmamalıdır."
+              }
+            ],
+            "sortOrder": 265
+          },
+          {
+            "id": "exercise-267",
+            "number": "267",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: 5a/7+4a/7."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 7 aynıdır. 5a+4a=9a, sonuç 9a/7 olur."
+              }
+            ],
+            "sortOrder": 267
+          },
+          {
+            "id": "exercise-269",
+            "number": "269",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: -11x/5+7x/5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 5 ortak kalır. -11x+7x=-4x olduğu için toplam -4x/5'tir."
+              }
+            ],
+            "sortOrder": 269
+          },
+          {
+            "id": "exercise-271",
+            "number": "271",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: -1/8+(-5/8)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 8'dir. -1+(-5)=-6 ve -6/8=-3/4 olur."
+              }
+            ],
+            "sortOrder": 271
+          },
+          {
+            "id": "exercise-273",
+            "number": "273",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: -5/16+(-9/16)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 16 ortak kalır. -5+(-9)=-14 ve -14/16=-7/8 bulunur."
+              }
+            ],
+            "sortOrder": 273
+          },
+          {
+            "id": "exercise-275",
+            "number": "275",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: -9/19+17/19."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 19 aynı kalır. -9+17=8 olduğundan toplam 8/19'dur."
+              }
+            ],
+            "sortOrder": 275
+          },
+          {
+            "id": "exercise-277",
+            "number": "277",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı bulun: 5/12+(-7/12)+(-11/12)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 12 ortak olduğu için payları toplarız: 5+(-7)+(-11)=-13. Sonuç -13/12 olur."
+              }
+            ],
+            "sortOrder": 277
+          },
+          {
+            "id": "exercise-279",
+            "number": "279",
+            "sectionSlug": "kesir-cikarmayi-modelleme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Model kullanarak çıkarın ve bir diyagramla gösterin: 5/6-2/6."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Altıda beş parçadan iki parça çıkarılır. Üç altılık parça kalır; 3/6=1/2 olur."
+              }
+            ],
+            "sortOrder": 279
+          },
+          {
+            "id": "exercise-281",
+            "number": "281",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 4/5-3/5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Paydalar aynı olduğu için payları çıkarırız: 4-3=1. Sonuç 1/5'tir."
+              }
+            ],
+            "sortOrder": 281
+          },
+          {
+            "id": "exercise-283",
+            "number": "283",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 9/13-4/13."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 13 kalır. 9-4=5 olduğundan fark 5/13'tür."
+              }
+            ],
+            "sortOrder": 283
+          },
+          {
+            "id": "exercise-285",
+            "number": "285",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 7/12-5/12."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 12 ortak kalır. 7-5=2 ve 2/12=1/6 olur."
+              }
+            ],
+            "sortOrder": 285
+          },
+          {
+            "id": "exercise-287",
+            "number": "287",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: -8/9-16/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 9 aynıdır. -8-16=-24 olduğundan -24/9=-8/3 olur."
+              }
+            ],
+            "sortOrder": 287
+          },
+          {
+            "id": "exercise-289",
+            "number": "289",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: x/19-8/19."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 19 ortak kalır. Paylar x-8 olarak birleşir; sonuç (x-8)/19 olur."
+              }
+            ],
+            "sortOrder": 289
+          },
+          {
+            "id": "exercise-291",
+            "number": "291",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 11z/13-8/13."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 13 aynıdır. 11z-8 ifadesi payda kalır; sonuç (11z-8)/13'tür."
+              }
+            ],
+            "sortOrder": 291
+          },
+          {
+            "id": "exercise-293",
+            "number": "293",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: -7/c-7/c."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda c ortak kalır. -7-7=-14 olduğu için fark -14/c olur."
+              }
+            ],
+            "sortOrder": 293
+          },
+          {
+            "id": "exercise-295",
+            "number": "295",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: -29/v-26/v."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda v aynıdır. -29-26=-55, bu yüzden sonuç -55/v olur."
+              }
+            ],
+            "sortOrder": 295
+          },
+          {
+            "id": "exercise-297",
+            "number": "297",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 12d/11-9d/11."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 11 ortak kalır. 12d-9d=3d olduğundan fark 3d/11 olur."
+              }
+            ],
+            "sortOrder": 297
+          },
+          {
+            "id": "exercise-299",
+            "number": "299",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: -7s/3-7s/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 3 aynıdır. -7s-7s=-14s, sonuç -14s/3 olur."
+              }
+            ],
+            "sortOrder": 299
+          },
+          {
+            "id": "exercise-301",
+            "number": "301",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: -3/7-(-5/7)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Negatif bir kesri çıkarmak, karşıtını eklemektir. -3/7-(-5/7)=(-3+5)/7=2/7 olur."
+              }
+            ],
+            "sortOrder": 301
+          },
+          {
+            "id": "exercise-303",
+            "number": "303",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: -8/11-(-5/11)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -8/11-(-5/11)=(-8+5)/11=-3/11 olur; payda değişmez."
+              }
+            ],
+            "sortOrder": 303
+          },
+          {
+            "id": "exercise-305",
+            "number": "305",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: -3/14·7/12."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpma işleminde önce sadeleştiririz. -3/14·7/12 işleminde 7 ile 14 sadeleşir; sonuç -3/24=-1/8 olur."
+              }
+            ],
+            "sortOrder": 305
+          },
+          {
+            "id": "exercise-307",
+            "number": "307",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: 6/11-s/11."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ortak payda 11 kalır. Paylar 6-s olarak yazılır; sonuç (6-s)/11 olur."
+              }
+            ],
+            "sortOrder": 307
+          },
+          {
+            "id": "exercise-309",
+            "number": "309",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: -5/18+1/18."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Payda 18 aynıdır. -5+1=-4 ve -4/18=-2/9 olur."
+              }
+            ],
+            "sortOrder": 309
+          },
+          {
+            "id": "exercise-311",
+            "number": "311",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sadeleştirilmiş biçimde yazın: 7/12÷9/28."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bölme yerine ters kesirle çarparız: 7/12·28/9. 28 ile 12 sadeleşir ve sonuç 49/27 olur."
+              }
+            ],
+            "sortOrder": 311
+          },
+          {
+            "id": "exercise-313",
+            "number": "313",
+            "sectionSlug": "ortak-paydali-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Janet bir tarif için 5/8 su bardağı una ihtiyaç duyuyor. Elinde 3/8 su bardağı un var. Komşusundan ne kadar un ödünç almalı?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Gereken un 5/8, elindeki un 3/8'tir. Eksik miktar 5/8-3/8=2/8=1/4 su bardağıdır."
+              }
+            ],
+            "sortOrder": 313
+          },
+          {
+            "id": "exercise-315",
+            "number": "315",
+            "sectionSlug": "ortak-paydali-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir partiden sonra Lupe'nin 5/12 peynirli pizza, 4/12 pepperonili pizza ve 4/12 sebzeli pizza dilimi kaldı. Bunların hepsi 1 pizza kutusuna sığar mı? Gerekçenizi açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kalan dilimler toplamı 5/12+4/12+4/12=13/12'dir. Bu 1 pizzadan fazla olduğu için hepsi 1 pizza kutusuna sığmaz."
+              }
+            ],
+            "sortOrder": 315
+          }
+        ]
+      }
     }
   ]
 }

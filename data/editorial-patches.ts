@@ -8648,6 +8648,165 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "4.5",
+    sections: [
+      {
+        sectionSlug: "kesir-toplamayi-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Aynı büyüklükteki kesir parçalarını toplarken parçaların sayısını birleştiririz. Payda, parçaların büyüklüğünü gösterdiği için aynı kalır; paylar toplanır.",
+              ),
+              p([
+                t("Örneğin bir çeyrek ile iki çeyrek birlikte üç çeyrek eder: "),
+                m("\\frac{1}{4}+\\frac{2}{4}=\\frac{3}{4}"),
+                t("."),
+              ]),
+              ex(
+                "Örnek 4.52",
+                [t("Model kullanarak bulun: "), m("\\frac{1}{4}+\\frac{2}{4}"), t(".")],
+                sol(
+                  "Çözüm: Dörtte bir parçalardan önce 1 tane, sonra 2 tane daha alırız. Toplam 3 tane dörtte bir parça olur.",
+                  "Sonuç 3/4'tür.",
+                ),
+              ),
+              ex("Sıra Sizde 4.103", [t("Model kullanarak toplamı bulun: "), m("\\frac{1}{8}+\\frac{4}{8}")]),
+              ex("Sıra Sizde 4.104", [t("Model kullanarak toplamı bulun: "), m("\\frac{1}{6}+\\frac{4}{6}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ortak-paydali-kesirleri-toplama",
+        replaceBlocks: [
+          ...removeBlocks(16),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Paydaları aynı olan kesirleri toplarken payda değişmez, paylar toplanır: "),
+                m("\\frac{a}{c}+\\frac{b}{c}=\\frac{a+b}{c}"),
+                t(". Sonuç mümkünse sadeleştirilir."),
+              ]),
+              ex(
+                "Örnek 4.53",
+                [t("Toplamı bulun: "), m("\\frac{3}{5}+\\frac{1}{5}"), t(".")],
+                sol("Çözüm: Payda 5 aynı kalır. 3+1=4 olduğu için sonuç 4/5'tir."),
+              ),
+              ex("Sıra Sizde 4.105", [t("Toplamı bulun: "), m("\\frac{3}{6}+\\frac{2}{6}")]),
+              ex("Sıra Sizde 4.106", [t("Toplamı bulun: "), m("\\frac{3}{10}+\\frac{7}{10}")]),
+              ex(
+                "Örnek 4.54",
+                [t("Toplamı bulun: "), m("\\frac{x}{3}+\\frac{2}{3}"), t(".")],
+                sol("Çözüm: Payda 3 ortak kalır. Paylar x+2 olur; sonuç (x+2)/3'tür."),
+              ),
+              ex("Sıra Sizde 4.107", [t("Toplamı bulun: "), m("\\frac{x}{4}+\\frac{3}{4}")]),
+              ex("Sıra Sizde 4.108", [t("Toplamı bulun: "), m("\\frac{y}{8}+\\frac{5}{8}")]),
+              ex(
+                "Örnek 4.55",
+                [t("Toplamı bulun: "), m("-\\frac{9}{d}+\\frac{3}{d}"), t(".")],
+                sol("Çözüm: Payda d ortak kalır. -9+3=-6 olduğundan sonuç -6/d olur."),
+              ),
+              ex("Sıra Sizde 4.109", [t("Toplamı bulun: "), m("-\\frac{7}{d}+\\frac{8}{d}")]),
+              ex("Sıra Sizde 4.110", [t("Toplamı bulun: "), m("-\\frac{6}{m}+\\frac{9}{m}")]),
+              ex(
+                "Örnek 4.56",
+                [t("Toplamı bulun: "), m("\\frac{2n}{11}+\\frac{5n}{11}"), t(".")],
+                sol("Çözüm: Payda 11 aynı kalır. 2n+5n=7n olduğu için sonuç 7n/11'dir."),
+              ),
+              ex("Sıra Sizde 4.111", [t("Toplamı bulun: "), m("\\frac{3p}{8}+\\frac{6p}{8}")]),
+              ex("Sıra Sizde 4.112", [t("Toplamı bulun: "), m("\\frac{2q}{5}+\\frac{7q}{5}")]),
+              ex(
+                "Örnek 4.57",
+                [t("Toplamı bulun: "), m("-\\frac{3}{12}+\\left(-\\frac{5}{12}\\right)"), t(".")],
+                sol("Çözüm: Payda 12 ortak kalır. -3+(-5)=-8 ve -8/12=-2/3 olur."),
+              ),
+              ex("Sıra Sizde 4.113", [t("Toplamı bulun: "), m("-\\frac{4}{15}+\\left(-\\frac{6}{15}\\right)")]),
+              ex("Sıra Sizde 4.114", [t("Toplamı bulun: "), m("-\\frac{5}{21}+\\left(-\\frac{9}{21}\\right)")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesir-cikarmayi-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(8),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ortak paydalı kesirlerde çıkarma, aynı büyüklükteki parçalardan bazılarını geri almak demektir. Payda aynı kalır, paylar çıkarılır.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\frac{7}{12}-\\frac{2}{12}=\\frac{5}{12}"),
+                t(" çünkü on ikilik 7 parçadan 2 parça çıkarılınca 5 parça kalır."),
+              ]),
+              ex(
+                "Örnek 4.58",
+                [t("Model kullanarak bulun: "), m("\\frac{7}{12}-\\frac{2}{12}"), t(".")],
+                sol("Çözüm: 7 tane on ikide bir parçadan 2 tanesi çıkarılır. Geriye 5 tane on ikide bir parça kalır; sonuç 5/12'dir."),
+              ),
+              ex("Sıra Sizde 4.115", [t("Model kullanarak farkı bulun: "), m("\\frac{7}{8}-\\frac{4}{8}")]),
+              ex("Sıra Sizde 4.116", [t("Model kullanarak farkı bulun: "), m("\\frac{5}{6}-\\frac{4}{6}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ortak-paydali-kesirleri-cikarma",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Paydaları aynı olan kesirleri çıkarırken payda değişmez, paylar çıkarılır: "),
+                m("\\frac{a}{c}-\\frac{b}{c}=\\frac{a-b}{c}"),
+                t("."),
+              ]),
+              ex(
+                "Örnek 4.59",
+                [t("Farkı bulun: "), m("\\frac{23}{24}-\\frac{14}{24}"), t(".")],
+                sol("Çözüm: Payda 24 aynı kalır. 23-14=9 olduğundan 9/24=3/8 olur."),
+              ),
+              ex("Sıra Sizde 4.117", [t("Farkı bulun: "), m("\\frac{19}{28}-\\frac{7}{28}")]),
+              ex("Sıra Sizde 4.118", [t("Farkı bulun: "), m("\\frac{27}{32}-\\frac{11}{32}")]),
+              ex(
+                "Örnek 4.60",
+                [t("Farkı bulun: "), m("\\frac{y}{6}-\\frac{1}{6}"), t(".")],
+                sol("Çözüm: Payda 6 ortak kalır. Paylar y-1 olur; sonuç (y-1)/6'dır."),
+              ),
+              ex("Sıra Sizde 4.119", [t("Farkı bulun: "), m("\\frac{x}{7}-\\frac{2}{7}")]),
+              ex("Sıra Sizde 4.120", [t("Farkı bulun: "), m("\\frac{y}{14}-\\frac{13}{14}")]),
+              ex(
+                "Örnek 4.61",
+                [t("Farkı bulun: "), m("-\\frac{10}{x}-\\frac{4}{x}"), t(".")],
+                sol("Çözüm: Payda x ortak kalır. -10-4=-14 olduğundan sonuç -14/x olur."),
+              ),
+              ex("Sıra Sizde 4.121", [t("Farkı bulun: "), m("-\\frac{9}{x}-\\frac{7}{x}")]),
+              ex("Sıra Sizde 4.122", [t("Farkı bulun: "), m("-\\frac{17}{a}-\\frac{5}{a}")]),
+              pt(
+                "Bir ifadede toplama ve çıkarma birlikte varsa paydalar ortaksa payları soldan sağa birleştirebiliriz.",
+              ),
+              ex(
+                "Örnek 4.62",
+                [t("Sadeleştirin: "), m("\\frac{3}{8}+\\left(-\\frac{5}{8}\\right)-\\frac{1}{8}"), t(".")],
+                sol("Çözüm: Payda 8 ortak kalır. 3+(-5)-1=-3 olduğundan sonuç -3/8'dir."),
+              ),
+              ex("Sıra Sizde 4.123", [t("Sadeleştirin: "), m("\\frac{2}{5}+\\left(-\\frac{4}{5}\\right)-\\frac{3}{5}")]),
+              ex("Sıra Sizde 4.124", [t("Sadeleştirin: "), m("\\frac{5}{9}+\\left(-\\frac{4}{9}\\right)-\\frac{7}{9}")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({
