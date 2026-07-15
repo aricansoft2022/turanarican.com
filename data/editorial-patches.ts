@@ -10204,6 +10204,155 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "5.6",
+    sections: [
+      {
+        sectionSlug: "aritmetik-ortalama",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Aritmetik ortalama, bir veri grubunun toplamını veri sayısına bölerek bulunur. Günlük dilde çoğu zaman sadece “ortalama” deriz.",
+              ),
+              p([
+                t("Bir veri grubunda "),
+                m("n"),
+                t(" değer varsa, aritmetik ortalama "),
+                m("\\frac{\\text{verilerin toplamı}}{n}"),
+                t(" biçiminde hesaplanır."),
+              ]),
+              ex(
+                "Örnek 5.49",
+                [t("Sayıların aritmetik ortalamasını bulun: "), m("8,12,15,9,6"), t(".")],
+                sol("Çözüm: Toplam 8+12+15+9+6=50'dir. Beş sayı olduğu için ortalama 50÷5=10 olur."),
+              ),
+              ex("Sıra Sizde 5.97", [t("Sayıların aritmetik ortalamasını bulun: "), m("8,9,7,12,10,5"), t(".")]),
+              ex("Sıra Sizde 5.98", [t("Sayıların aritmetik ortalamasını bulun: "), m("9,13,11,7,5"), t(".")]),
+              ex(
+                "Örnek 5.50",
+                [t("Bir doğum günü buluşmasındaki aile üyelerinin yaşları "), m("16,26,53,56,65,70,93,97"), t(" idi. Ortalama yaşı bulun.")],
+                sol("Çözüm: Yaşların toplamı 476'dır. Sekiz kişi olduğu için ortalama 476÷8=59,5 yaştır."),
+              ),
+              ex("Sıra Sizde 5.99", [t("Ben'in araç paylaşımındaki dört öğrencinin yaşları "), m("25,18,21,22"), t(". Ortalama yaşı bulun.")]),
+              ex("Sıra Sizde 5.100", [t("Yen'in geçen hafta aldığı e-posta sayıları "), m("4,9,15,12,10,12,8"), t(". Ortalama e-posta sayısını bulun.")]),
+              pt(
+                "Tüm veriler tam sayı olsa bile ortalama ondalık çıkabilir. Para gibi ölçülerde sonucu kullanılan birime uygun basamağa yuvarlarız.",
+              ),
+              ex(
+                "Örnek 5.51",
+                [t("Daisy'nin son dört ay telefon faturaları 42,75 dolar, 50,12 dolar, 41,54 dolar ve 48,15 dolardır. Ortalama faturayı bulun.")],
+                sol("Çözüm: Toplam 182,56 dolardır. Dört aya böleriz: 182,56÷4=45,64 dolar."),
+              ),
+              ex("Sıra Sizde 5.101", [t("Ray'in hafta içi öğle yemeği harcamaları 6,50 dolar, 7,25 dolar, 4,90 dolar, 5,30 dolar ve 12,00 dolardır. Günlük ortalamayı bulun.")]),
+              ex("Sıra Sizde 5.102", [t("Lisa'nın benzin fişleri 34,87 dolar, 42,31 dolar, 38,04 dolar ve 43,26 dolardır. Ortalama tutarı bulun.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ortanca-deger",
+        replaceBlocks: [
+          ...removeBlocks(15),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ortanca değer, veriler küçükten büyüğe sıralandığında ortada kalan değerdir. Veri sayısı tekse tek bir orta değer vardır.",
+              ),
+              pt(
+                "Veri sayısı çiftse ortada iki değer kalır. Bu durumda ortanca değer, bu iki orta değerin aritmetik ortalamasıdır.",
+              ),
+              ex(
+                "Örnek 5.52",
+                [t("Veri grubunun ortanca değerini bulun: "), m("59,60,65,68,70"), t(".")],
+                sol("Çözüm: Veriler zaten sıralıdır. Beş değer olduğu için ortadaki üçüncü değer 65'tir."),
+              ),
+              ex("Sıra Sizde 5.103", [t("Veri grubunun ortanca değerini bulun: "), m("43,38,51,40,46"), t(".")]),
+              ex("Sıra Sizde 5.104", [t("Veri grubunun ortanca değerini bulun: "), m("15,35,20,45,50,25,30"), t(".")]),
+              ex(
+                "Örnek 5.53",
+                [t("Kristen'in haftalık matematik kısa sınav puanları "), m("83,79,85,86,92,100,76,90,88,64"), t(". Ortanca puanı bulun.")],
+                sol("Çözüm: Sıralama 64, 76, 79, 83, 85, 86, 88, 90, 92, 100 olur. On değer vardır; orta iki değer 85 ve 86'dır. Ortanca değer (85+86)÷2=85,5 olur."),
+              ),
+              ex("Sıra Sizde 5.105", [t("Veri grubunun ortanca değerini bulun: "), m("8,7,5,10,9,12"), t(".")]),
+              ex("Sıra Sizde 5.106", [t("Veri grubunun ortanca değerini bulun: "), m("21,25,19,17,22,18,20,24"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "tepe-deger",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Tepe değer, bir veri grubunda en sık görülen değerdir. Bir değerin kaç kez göründüğüne frekans denir.",
+              ),
+              pt(
+                "Bir veri grubunun tepe değeri olmayabilir; çünkü tüm değerler aynı sıklıkta görünebilir. En yüksek frekansı paylaşan birden çok değer varsa veri grubunun birden çok tepe değeri vardır.",
+              ),
+              ex(
+                "Örnek 5.54",
+                [t("Yaşlar "), m("18,18,18,18,19,19,19,20,20,20,20,20,20,20,21,21,22,22,22,22,22,23,24,24,25,29,30,40,44"), t(" olarak verilmiştir. Tepe değeri belirleyin.")],
+                sol("Çözüm: 20 yaşı yedi kez görünür ve en yüksek frekansa sahiptir. Tepe değer 20'dir."),
+              ),
+              ex("Sıra Sizde 5.107", [t("Geçen yıl kullanılan hastalık günü sayıları "), m("3,6,2,3,7,5,6,2,4,2"), t(". Tepe değeri belirleyin.")]),
+              ex("Sıra Sizde 5.108", [t("Bir kitap kulübündeki kadınların çanta sayıları "), m("5,6,3,1,5,8,1,5,8,5"), t(". Tepe değeri belirleyin.")]),
+              ex(
+                "Örnek 5.55",
+                [t("Bir istatistik sınıfındaki öğrencilerin boyları verilmiştir: "), m("56,61,63,64,65,66,67,67,60,62,63,64,65,66,67,70,60,63,63,64,66,66,67,74,61,63,64,65,66,67,67"), t(". Tepe değeri belirleyin.")],
+                sol("Çözüm: Frekansları sayınca 67 değeri altı kez görünür. Diğer boylar daha az tekrar ettiği için tepe değer 67 inçtir."),
+              ),
+              ex("Sıra Sizde 5.109", [t("Öğrencilerin yaşları "), m("19,20,23,23,38,21,19,21,19,21,20,43,20,23,17,21,21,20,29,18,28"), t(". Tepe değeri belirleyin.")]),
+              ex("Sıra Sizde 5.110", [t("Öğrencilerin evlerindeki kişi sayıları "), m("6,2,5,6,3,7,5,6,5,3,4,4,5,7,6,4,5,2,1,5"), t(". Tepe değeri belirleyin.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "olasilik",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Olasılık, bir olayın gerçekleşme ihtimalini sayıyla ifade eder. Basit durumlarda olasılığı kesir veya ondalık sayı olarak yazabiliriz.",
+              ),
+              p([
+                t("Tüm sonuçlar eş olasılıklıysa "),
+                m("\\text{olasılık}=\\frac{\\text{istenen sonuç sayısı}}{\\text{toplam sonuç sayısı}}"),
+                t(" formülünü kullanırız."),
+              ]),
+              pt(
+                "Örneğin bir kasede 3 muz ve 2 elma varsa toplam 5 meyve vardır. Rastgele seçilen meyvenin muz olma olasılığı 3/5, yani 0,6'dır.",
+              ),
+              ex(
+                "Örnek 5.56",
+                [t("Bir çekilişte 100 bilet satılmıştır. Cherie 1 bilet almıştır. ⓐ Kazanma olasılığını bulun. ⓑ Kesri ondalık biçime çevirin.")],
+                sol("Çözüm: Cherie için 1 uygun sonuç, toplam 100 sonuç vardır. Olasılık 1/100'dür; ondalık biçimi 0,01 olur."),
+              ),
+              ex("Sıra Sizde 5.111", [t("Ignaly, 10 kişilik masalarda oturulan bir gösteridedir. Her masadan rastgele bir kişi kapı ödülü alacaktır. ⓐ Ignaly'nin kazanma olasılığını bulun. ⓑ Kesri ondalık biçime çevirin.")]),
+              ex("Sıra Sizde 5.112", [t("Hoang jüri için uygun 20 kişi arasındadır. Bu 20 kişiden biri rastgele seçilecektir. ⓐ Hoang'ın seçilme olasılığını bulun. ⓑ Kesri ondalık biçime çevirin.")]),
+              ex(
+                "Örnek 5.57",
+                [t("Bir iş için 3 kadın ve 5 erkek aday görüşmeye girmiştir. İş adaylardan birine verilecektir. ⓐ İşin bir kadına verilme olasılığını bulun. ⓑ Kesri ondalık biçime çevirin.")],
+                sol("Çözüm: Toplam 8 aday vardır ve 3 uygun sonuç kadındır. Olasılık 3/8'dir; ondalık biçimi 0,375 olur."),
+              ),
+              ex("Sıra Sizde 5.113", [t("Bir şeker kasesinde 5 çikolatalı ve 3 limonlu şeker vardır. Tanya rastgele bir şeker seçecektir. ⓐ Çikolatalı şeker seçme olasılığını bulun. ⓑ Kesri ondalık biçime çevirin.")]),
+              ex("Sıra Sizde 5.114", [t("Dan'in 2 çift siyah ve 6 çift mavi çorabı vardır. Yarın giymek için rastgele bir çift seçecektir. ⓐ Siyah çorap seçme olasılığını bulun. ⓑ Kesri ondalık biçime çevirin.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

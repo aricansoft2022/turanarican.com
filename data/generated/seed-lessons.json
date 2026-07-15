@@ -55717,6 +55717,1503 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "5.6",
+      "displayNumber": "4.5",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability",
+      "contentHash": "4f258c2c7b909fe02fce6eb7ac1853ac0933d8e905a13faac3ee53b199e49c5d",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-83be82435c7cd74d",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102981/e29a1d263c4be0c249924968493a06014d06b341?revision=1",
+          "type": "image",
+          "altText": "The numbers 59, 60, 65, 68, and 70 are listed. 59 and 60 have a brace beneath them and in red are labeled “2 below.” 68 and 70 have a brace beneath them and in red are labeled “2 above.” 65 has an arrow pointing to it and is labeled as the median.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/000-83be82435c7cd74d.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/000-83be82435c7cd74d.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "001-6852a2608410ad6d",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102982/33045ed6153b520e9ccee2d8ebcf2101ef94fbac?revision=1",
+          "type": "image",
+          "altText": "The numbers 59, 60, and 62 are listed, followed by a blank space, then 65, 68, and 70.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/001-6852a2608410ad6d.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/001-6852a2608410ad6d.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "002-226d2f121aa8fd0c",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102984/862b2b07023db4ea0d08a75eede663b12b98819d?revision=1",
+          "type": "image",
+          "altText": "The numbers 9, 11, 12, 13, 15, 18, and 19 are listed. 9, 11, and 12 have a brace beneath them and are labeled “3 below.” 15, 18, and 19 have a brace beneath them and are labeled “3 above.” 13 has an arrow pointing to it and is labeled as the median.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/002-226d2f121aa8fd0c.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/002-226d2f121aa8fd0c.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "005-81828682ec6ff5ca",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102988/92f734d4fa1a5ed7c8d01ff3e20bcd19c01932a8?revision=1",
+          "type": "figure",
+          "altText": "An image of a calendar is shown. On Thursday the first, labeled New Year's Day, is written 2 mi. On Saturday the third is written 15 mi. On the 4th, 8 mi. On the 6th, 3 mi. On the 7th, 8 mi. On the 9th, 5 mi. On the 10th, 8 mi.",
+          "caption": "Figure 5.7",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/005-81828682ec6ff5ca.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/005-81828682ec6ff5ca.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "007-5d67a44ac66d84e6",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102989/7880af7e5df615c3516d5372e70e767132c6a02d?revision=1",
+          "type": "figure",
+          "altText": "A table is shown with 2 rows. The first row is labeled 'Age' and lists the values: 18, 19, 20, 21, 22, 23, 24, 25, 29, 30, 40, and 44. The second row is labeled 'Frequency' and lists the values: 4, 3, 7, 2, 5, 1, 2, 1, 1, 1, 1, and 1.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/007-5d67a44ac66d84e6.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/007-5d67a44ac66d84e6.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "009-719bfe4e80ced6fc",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102993/1e02d69161c6e2d21b68faf77b7befa76a020552?revision=1",
+          "type": "figure",
+          "altText": "A table is shown with 2 rows. The first row is labeled “Number” and lists the values: 56, 60, 61, 62, 63, 64, 65, 66, 67, 70, and 74. The second row is labeled “Frequency” and lists the values: 1, 2, 2, 1, 5, 4, 3, 5, 6, 1, and 1.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/009-719bfe4e80ced6fc.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/009-719bfe4e80ced6fc.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "011-da773751eb88c52f",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102992/833e7d25c102d4dc96b74a6c95f503f71f51b5f7?revision=1",
+          "type": "image",
+          "altText": "Two equations are shown. The top equation says the probability of an event equals the number of favorable outcomes over the total number of outcomes. The bottom equation says the probability of choosing a banana equals 3 over 5. There is a blue arrow pointing to the 3 with the text, 'There are 3 bananas.' There is a blue arrow pointing to the 5 with the text, 'There are 5 pieces of fruit.'",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/011-da773751eb88c52f.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/011-da773751eb88c52f.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "61a6f3509b6dd096",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/61a6f3509b6dd096.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/61a6f3509b6dd096.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e619bfc62c9dd21e",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/e619bfc62c9dd21e.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/e619bfc62c9dd21e.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "3f7158d816d3cd7a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/3f7158d816d3cd7a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/3f7158d816d3cd7a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c3a23a95af9b7559",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/c3a23a95af9b7559.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/c3a23a95af9b7559.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7d0b58765a8265e2",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/7d0b58765a8265e2.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/7d0b58765a8265e2.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "84172a487f13a43d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/84172a487f13a43d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/84172a487f13a43d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "960096131aea81d3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/960096131aea81d3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/960096131aea81d3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "8bb3dd21476cf4b2",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/8bb3dd21476cf4b2.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/8bb3dd21476cf4b2.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d7717470078968f9",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/d7717470078968f9.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/d7717470078968f9.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1cfdaec030cd14eb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/1cfdaec030cd14eb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/1cfdaec030cd14eb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "874796511876a644",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-5-averages-and-probability/874796511876a644.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-5-averages-and-probability/874796511876a644.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 4,
+        "sections": 4,
+        "blocks": 37,
+        "examples": 9,
+        "tryIts": 18,
+        "sourceExercises": 23,
+        "exercises": 23,
+        "mathTokens": 21,
+        "assets": 18
+      },
+      "lesson": {
+        "id": "lesson-averages-probability",
+        "slug": "ortalama-ve-olasilik",
+        "displayTitle": "Ortalama ve Olasılık",
+        "summary": "Aritmetik ortalama, ortanca değer ve tepe değeri bulun; basit olasılıkları kesir ve ondalık biçimde yazın.",
+        "sortOrder": 5,
+        "chapterId": "chapter-decimals",
+        "sourceNumber": "5.6",
+        "displayNumber": "4.5",
+        "sourceTitle": "Averages and Probability",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.06%3A_Averages_and_Probability",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "ondalik-sayilar",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Bir veri grubunun aritmetik ortalamasını hesaplayabileceksiniz.",
+          "Bir veri grubunun ortanca değerini bulabileceksiniz.",
+          "Bir veri grubunun tepe değerini belirleyebileceksiniz.",
+          "Basit olasılıkları kesir ve ondalık biçimde gösterebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "ortalama-ve-olasilik-section-01",
+            "heading": "Aritmetik Ortalama",
+            "slug": "aritmetik-ortalama",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Aritmetik ortalama, bir veri grubunun toplamını veri sayısına bölerek bulunur. Günlük dilde çoğu zaman sadece “ortalama” deriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir veri grubunda "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n"
+                  },
+                  {
+                    "type": "text",
+                    "value": " değer varsa, aritmetik ortalama "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\text{verilerin toplamı}}{n}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " biçiminde hesaplanır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.49",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sayıların aritmetik ortalamasını bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8,12,15,9,6"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam 8+12+15+9+6=50'dir. Beş sayı olduğu için ortalama 50÷5=10 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.97",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sayıların aritmetik ortalamasını bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8,9,7,12,10,5"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sayıları toplarız: 8+9+7+12+10+5=51. Altı sayı olduğu için ortalama 51÷6=8,5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.98",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sayıların aritmetik ortalamasını bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9,13,11,7,5"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam 9+13+11+7+5=45'tir. Beş sayı olduğundan ortalama 45÷5=9 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.50",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir doğum günü buluşmasındaki aile üyelerinin yaşları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "16,26,53,56,65,70,93,97"
+                  },
+                  {
+                    "type": "text",
+                    "value": " idi. Ortalama yaşı bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yaşların toplamı 476'dır. Sekiz kişi olduğu için ortalama 476÷8=59,5 yaştır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.99",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Ben'in araç paylaşımındaki dört öğrencinin yaşları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "25,18,21,22"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Ortalama yaşı bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yaşların toplamı 25+18+21+22=86'dır. Dört öğrenci olduğu için ortalama 86÷4=21,5 yaştır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.100",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Yen'in geçen hafta aldığı e-posta sayıları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4,9,15,12,10,12,8"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Ortalama e-posta sayısını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: E-posta sayılarının toplamı 70'tir. Yedi gün olduğu için ortalama 70÷7=10 e-postadır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Tüm veriler tam sayı olsa bile ortalama ondalık çıkabilir. Para gibi ölçülerde sonucu kullanılan birime uygun basamağa yuvarlarız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.51",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Daisy'nin son dört ay telefon faturaları 42,75 dolar, 50,12 dolar, 41,54 dolar ve 48,15 dolardır. Ortalama faturayı bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam 182,56 dolardır. Dört aya böleriz: 182,56÷4=45,64 dolar."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.101",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Ray'in hafta içi öğle yemeği harcamaları 6,50 dolar, 7,25 dolar, 4,90 dolar, 5,30 dolar ve 12,00 dolardır. Günlük ortalamayı bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Harcamaların toplamı 35,95 dolardır. Beş güne böleriz: 35,95÷5=7,19 dolar."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.102",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Lisa'nın benzin fişleri 34,87 dolar, 42,31 dolar, 38,04 dolar ve 43,26 dolardır. Ortalama tutarı bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tutarların toplamı 158,48 dolardır. Dörde böleriz: 158,48÷4=39,62 dolar."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ortalama-ve-olasilik-section-02",
+            "heading": "Ortanca Değer",
+            "slug": "ortanca-deger",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Ortanca değer, veriler küçükten büyüğe sıralandığında ortada kalan değerdir. Veri sayısı tekse tek bir orta değer vardır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Veri sayısı çiftse ortada iki değer kalır. Bu durumda ortanca değer, bu iki orta değerin aritmetik ortalamasıdır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.52",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Veri grubunun ortanca değerini bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "59,60,65,68,70"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Veriler zaten sıralıdır. Beş değer olduğu için ortadaki üçüncü değer 65'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.103",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Veri grubunun ortanca değerini bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "43,38,51,40,46"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Verileri sıralayın: 38, 40, 43, 46, 51. Ortadaki değer 43'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.104",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Veri grubunun ortanca değerini bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15,35,20,45,50,25,30"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sıralama 15, 20, 25, 30, 35, 45, 50 olur. Ortadaki değer 30'dur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.53",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Kristen'in haftalık matematik kısa sınav puanları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "83,79,85,86,92,100,76,90,88,64"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Ortanca puanı bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sıralama 64, 76, 79, 83, 85, 86, 88, 90, 92, 100 olur. On değer vardır; orta iki değer 85 ve 86'dır. Ortanca değer (85+86)÷2=85,5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.105",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Veri grubunun ortanca değerini bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8,7,5,10,9,12"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sıralama 5, 7, 8, 9, 10, 12 olur. İki orta değer 8 ve 9'dur; ortanca değer (8+9)÷2=8,5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.106",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Veri grubunun ortanca değerini bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "21,25,19,17,22,18,20,24"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sıralama 17, 18, 19, 20, 21, 22, 24, 25 olur. Ortanca değer (20+21)÷2=20,5'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ortalama-ve-olasilik-section-03",
+            "heading": "Tepe Değer",
+            "slug": "tepe-deger",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Tepe değer, bir veri grubunda en sık görülen değerdir. Bir değerin kaç kez göründüğüne frekans denir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir veri grubunun tepe değeri olmayabilir; çünkü tüm değerler aynı sıklıkta görünebilir. En yüksek frekansı paylaşan birden çok değer varsa veri grubunun birden çok tepe değeri vardır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.54",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Yaşlar "
+                  },
+                  {
+                    "type": "math",
+                    "value": "18,18,18,18,19,19,19,20,20,20,20,20,20,20,21,21,22,22,22,22,22,23,24,24,25,29,30,40,44"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olarak verilmiştir. Tepe değeri belirleyin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 20 yaşı yedi kez görünür ve en yüksek frekansa sahiptir. Tepe değer 20'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.107",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Geçen yıl kullanılan hastalık günü sayıları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3,6,2,3,7,5,6,2,4,2"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Tepe değeri belirleyin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 değeri üç kez görünür; diğer değerler daha az tekrar eder. Tepe değer 2'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.108",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir kitap kulübündeki kadınların çanta sayıları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5,6,3,1,5,8,1,5,8,5"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Tepe değeri belirleyin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 değeri dört kez görünür ve en sık tekrar eden değerdir. Tepe değer 5'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.55",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir istatistik sınıfındaki öğrencilerin boyları verilmiştir: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "56,61,63,64,65,66,67,67,60,62,63,64,65,66,67,70,60,63,63,64,66,66,67,74,61,63,64,65,66,67,67"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Tepe değeri belirleyin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Frekansları sayınca 67 değeri altı kez görünür. Diğer boylar daha az tekrar ettiği için tepe değer 67 inçtir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.109",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Öğrencilerin yaşları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "19,20,23,23,38,21,19,21,19,21,20,43,20,23,17,21,21,20,29,18,28"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Tepe değeri belirleyin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 21 yaşı beş kez görünür; bu en yüksek frekanstır. Tepe değer 21'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.110",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Öğrencilerin evlerindeki kişi sayıları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6,2,5,6,3,7,5,6,5,3,4,4,5,7,6,4,5,2,1,5"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Tepe değeri belirleyin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 değeri altı kez görünür ve diğerlerinden daha sık tekrar eder. Tepe değer 5'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ortalama-ve-olasilik-section-04",
+            "heading": "Olasılık",
+            "slug": "olasilik",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Olasılık, bir olayın gerçekleşme ihtimalini sayıyla ifade eder. Basit durumlarda olasılığı kesir veya ondalık sayı olarak yazabiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Tüm sonuçlar eş olasılıklıysa "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{olasılık}=\\frac{\\text{istenen sonuç sayısı}}{\\text{toplam sonuç sayısı}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " formülünü kullanırız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin bir kasede 3 muz ve 2 elma varsa toplam 5 meyve vardır. Rastgele seçilen meyvenin muz olma olasılığı 3/5, yani 0,6'dır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.56",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir çekilişte 100 bilet satılmıştır. Cherie 1 bilet almıştır. ⓐ Kazanma olasılığını bulun. ⓑ Kesri ondalık biçime çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Cherie için 1 uygun sonuç, toplam 100 sonuç vardır. Olasılık 1/100'dür; ondalık biçimi 0,01 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.111",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Ignaly, 10 kişilik masalarda oturulan bir gösteridedir. Her masadan rastgele bir kişi kapı ödülü alacaktır. ⓐ Ignaly'nin kazanma olasılığını bulun. ⓑ Kesri ondalık biçime çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Masada 10 kişi vardır ve Ignaly için 1 uygun sonuç vardır. Olasılık 1/10=0,1 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.112",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Hoang jüri için uygun 20 kişi arasındadır. Bu 20 kişiden biri rastgele seçilecektir. ⓐ Hoang'ın seçilme olasılığını bulun. ⓑ Kesri ondalık biçime çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 20 kişi arasından Hoang'ın seçilmesi 1 uygun sonuçtur. Olasılık 1/20=0,05'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.57",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir iş için 3 kadın ve 5 erkek aday görüşmeye girmiştir. İş adaylardan birine verilecektir. ⓐ İşin bir kadına verilme olasılığını bulun. ⓑ Kesri ondalık biçime çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam 8 aday vardır ve 3 uygun sonuç kadındır. Olasılık 3/8'dir; ondalık biçimi 0,375 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.113",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir şeker kasesinde 5 çikolatalı ve 3 limonlu şeker vardır. Tanya rastgele bir şeker seçecektir. ⓐ Çikolatalı şeker seçme olasılığını bulun. ⓑ Kesri ondalık biçime çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam 8 şekerin 5'i çikolatadır. Olasılık 5/8=0,625 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.114",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Dan'in 2 çift siyah ve 6 çift mavi çorabı vardır. Yarın giymek için rastgele bir çift seçecektir. ⓐ Siyah çorap seçme olasılığını bulun. ⓑ Kesri ondalık biçime çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam 8 çift çorabın 2 çifti siyahtır. Olasılık 2/8=1/4=0,25 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-357",
+            "number": "357",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aritmetik ortalamayı bulun: 3, 8, 2, 2, 5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam 3+8+2+2+5=20'dir. Beş sayı olduğundan aritmetik ortalama 20÷5=4 olur."
+              }
+            ],
+            "sortOrder": 357
+          },
+          {
+            "id": "exercise-359",
+            "number": "359",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aritmetik ortalamayı bulun: 65, 13, 48, 32, 19, 33."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam 65+13+48+32+19+33=210'dur. Altı sayıya böleriz: 210÷6=35."
+              }
+            ],
+            "sortOrder": 359
+          },
+          {
+            "id": "exercise-361",
+            "number": "361",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aritmetik ortalamayı bulun: 202, 241, 265, 274."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam 202+241+265+274=982'dir. Dört değere böleriz ve ortalama 982÷4=245,5 olur."
+              }
+            ],
+            "sortOrder": 361
+          },
+          {
+            "id": "exercise-363",
+            "number": "363",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aritmetik ortalamayı bulun: 12,45, 12,99, 10,50, 11,25, 9,99, 12,72."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam 69,90'dır. Altı sayı olduğu için ortalama 69,90÷6=11,65 olur."
+              }
+            ],
+            "sortOrder": 363
+          },
+          {
+            "id": "exercise-365",
+            "number": "365",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir alışveriş merkezinden çıkan dört kişiye ne kadar harcadıkları soruldu: 0 dolar, 14,95 dolar, 35,25 dolar ve 25,16 dolar. Ortalama harcamayı bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Harcamaların toplamı 0+14,95+35,25+25,16=75,36 dolardır. Dörde böleriz: 75,36÷4=18,84 dolar."
+              }
+            ],
+            "sortOrder": 365
+          },
+          {
+            "id": "exercise-367",
+            "number": "367",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Jim'in son altı günde okula bisikletle gitme süreleri 21, 18, 16, 19, 24 ve 19 dakikadır. Ortalama süreyi bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sürelerin toplamı 21+18+16+19+24+19=117 dakikadır. Altı güne böleriz: 117÷6=19,5 dakika."
+              }
+            ],
+            "sortOrder": 367
+          },
+          {
+            "id": "exercise-369",
+            "number": "369",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir softbol ligindeki en iyi sekiz vurucunun ortalamaları 0,373, 0,360, 0,321, 0,321, 0,320, 0,312, 0,311 ve 0,311'dir. Aritmetik ortalamayı en yakın binde birliğe yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam 2,629'dur. Sekiz değere böleriz: 2,629÷8=0,328625. En yakın binde birliğe yuvarlanınca 0,329 olur."
+              }
+            ],
+            "sortOrder": 369
+          },
+          {
+            "id": "exercise-371",
+            "number": "371",
+            "sectionSlug": "ortanca-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ortanca değeri bulun: 24, 19, 18, 29, 21."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Verileri sıralayın: 18, 19, 21, 24, 29. Beş değer olduğundan ortadaki değer 21'dir."
+              }
+            ],
+            "sortOrder": 371
+          },
+          {
+            "id": "exercise-373",
+            "number": "373",
+            "sectionSlug": "ortanca-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ortanca değeri bulun: 65, 56, 35, 34, 44, 39, 55, 52, 45."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sıralama 34, 35, 39, 44, 45, 52, 55, 56, 65 olur. Dokuz değerin ortasındaki değer 45'tir."
+              }
+            ],
+            "sortOrder": 373
+          },
+          {
+            "id": "exercise-375",
+            "number": "375",
+            "sectionSlug": "ortanca-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ortanca değeri bulun: 4, 8, 1, 5, 14, 3, 1, 12."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sıralama 1, 1, 3, 4, 5, 8, 12, 14 olur. İki orta değer 4 ve 5'tir; ortanca değer 4,5 olur."
+              }
+            ],
+            "sortOrder": 375
+          },
+          {
+            "id": "exercise-377",
+            "number": "377",
+            "sectionSlug": "ortanca-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ortanca değeri bulun: 99,2, 101,9, 98,6, 99,5, 100,8, 99,8."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sıralama 98,6, 99,2, 99,5, 99,8, 100,8, 101,9 olur. Ortanca değer (99,5+99,8)÷2=99,65'tir."
+              }
+            ],
+            "sortOrder": 377
+          },
+          {
+            "id": "exercise-379",
+            "number": "379",
+            "sectionSlug": "ortanca-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ray geçen hafta her iş gününde öğle yemeğine 6,50 dolar, 7,25 dolar, 4,90 dolar, 5,30 dolar ve 12,00 dolar harcadı. Ortanca harcamayı bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Harcamaları sıralayın: 4,90, 5,30, 6,50, 7,25, 12,00. Beş değerin ortasındaki harcama 6,50 dolardır."
+              }
+            ],
+            "sortOrder": 379
+          },
+          {
+            "id": "exercise-381",
+            "number": "381",
+            "sectionSlug": "ortanca-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Brian 6 üç yaşındaki çocuğa yüzme dersi veriyor. Yaşları ay cinsinden 38, 41, 45, 36, 40 ve 42'dir. Ortanca yaşı bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ayları sıralayın: 36, 38, 40, 41, 42, 45. Ortanca değer (40+41)÷2=40,5 aydır."
+              }
+            ],
+            "sortOrder": 381
+          },
+          {
+            "id": "exercise-383",
+            "number": "383",
+            "sectionSlug": "tepe-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tepe değeri belirleyin: 2, 5, 1, 5, 2, 1, 2, 3, 2, 3, 1."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 değeri dört kez görünür; bu en yüksek tekrardır. Bu yüzden tepe değer 2'dir."
+              }
+            ],
+            "sortOrder": 383
+          },
+          {
+            "id": "exercise-385",
+            "number": "385",
+            "sectionSlug": "tepe-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tepe değeri belirleyin: 18, 22, 17, 20, 19, 20, 22, 19, 29, 18, 23, 25, 22, 24, 23, 22, 18, 20, 22, 20."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 22 değeri beş kez görünür ve listedeki en sık değerdir. Tepe değer 22'dir."
+              }
+            ],
+            "sortOrder": 385
+          },
+          {
+            "id": "exercise-387",
+            "number": "387",
+            "sectionSlug": "tepe-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir sokaktaki ev başına çocuk sayıları şöyledir: 1, 4, 2, 3, 3, 2, 6, 2, 4, 2, 0, 3, 0. Tepe değeri belirleyin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 değeri dört kez görünür; diğer değerler daha az tekrar eder. Tepe değer 2 çocuktur."
+              }
+            ],
+            "sortOrder": 387
+          },
+          {
+            "id": "exercise-389",
+            "number": "389",
+            "sectionSlug": "tepe-deger",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir sınıftaki öğrencilerin aldığı ders birimi sayıları şöyledir: 12, 5, 11, 10, 10, 11, 5, 11, 11, 11, 10, 12. Tepe değeri belirleyin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 11 değeri beş kez görünür ve en yüksek frekansa sahiptir. Tepe değer 11 birimdir."
+              }
+            ],
+            "sortOrder": 389
+          },
+          {
+            "id": "exercise-391",
+            "number": "391",
+            "sectionSlug": "olasilik",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Josue 20 üyeli bir kitap kulübündedir. Gelecek ayın kitabını seçmek için her ay rastgele bir üye seçiliyor. Josue'nin seçilme olasılığını kesir ve ondalık biçimde yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 20 üye arasından Josue için 1 uygun sonuç vardır. Olasılık 1/20'dir; ondalık biçimi 0,05 olur."
+              }
+            ],
+            "sortOrder": 391
+          },
+          {
+            "id": "exercise-393",
+            "number": "393",
+            "sectionSlug": "olasilik",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dane'in bölümünde 24 kişi çalışıyor. Gelecek hafta rastgele bir kişi çörek getirmek için seçilecek. Dane'in seçilme olasılığını kesir ve en yakın binde birliğe yuvarlanmış ondalık biçimde yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 24 kişi arasından Dane için 1 uygun sonuç vardır. Olasılık 1/24'tür; 1÷24=0,0416... olduğundan en yakın binde birliğe 0,042 olur."
+              }
+            ],
+            "sortOrder": 393
+          },
+          {
+            "id": "exercise-395",
+            "number": "395",
+            "sectionSlug": "olasilik",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Michel'in arabasında dört rock CD'si ve altı country CD'si var. İşe giderken rastgele bir CD seçecek. Rock CD seçme olasılığını bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam 10 CD'nin 4'ü rock CD'dir. Olasılık 4/10=2/5 olur; ondalık biçimi 0,4'tür."
+              }
+            ],
+            "sortOrder": 395
+          },
+          {
+            "id": "exercise-397",
+            "number": "397",
+            "sectionSlug": "olasilik",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Donovan 10 eyalet dışı ve 4 kendi eyaletindeki kolej arasından bahar tatilinde ziyaret etmek için rastgele bir kolej seçecek. Eyalet dışı kolej seçme olasılığını bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam 14 kolejin 10'u eyalet dışıdır. Olasılık 10/14=5/7 olur; ondalık biçimi yaklaşık 0,714'tür."
+              }
+            ],
+            "sortOrder": 397
+          },
+          {
+            "id": "exercise-399",
+            "number": "399",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Joaquin'in son 8 cuma aldığı ücretler 315 dolar, 236,25 dolar, 236,25 dolar, 236,25 dolar, 315 dolar, 315 dolar, 236,25 dolar ve 393,75 dolardır. ⓐ Aritmetik ortalamayı, ⓑ ortanca değeri, ⓒ tepe değeri bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam ücret 2.283,75 dolardır; 8'e bölünce ortalama yaklaşık 285,47 dolar olur. Sıralamada orta iki değer 236,25 ve 315'tir; ortanca değer 275,63 dolardır. En sık görülen ücret 236,25 dolar olduğu için tepe değer budur."
+              }
+            ],
+            "sortOrder": 399
+          },
+          {
+            "id": "exercise-401",
+            "number": "401",
+            "sectionSlug": "aritmetik-ortalama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aritmetik ortalama, ortanca değer ve tepe değer arasındaki farkı kendi sözlerinizle açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Aritmetik ortalama, değerlerin toplamının değer sayısına bölümüdür. Ortanca değer, sıralanmış verinin ortasında kalan değerdir. Tepe değer ise en sık tekrar eden değerdir."
+              }
+            ],
+            "sortOrder": 401
+          }
+        ]
+      }
     }
   ]
 }
