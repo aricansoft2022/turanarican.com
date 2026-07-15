@@ -437,6 +437,26 @@
         "sortOrder": 2,
         "status": "draft",
         "rawHash": "e87823a56fc62d7f2be092dac2681cca7a0fc9e038f82809a7fa440f549f9cd0"
+      },
+      {
+        "id": "lesson-decimals-and-fractions",
+        "chapterId": "chapter-decimals",
+        "slug": "ondalik-sayilar-ve-kesirler",
+        "sourceNumber": "5.4",
+        "displayNumber": "4.3",
+        "sourceTitle": "Decimals and Fractions",
+        "displayTitle": "Ondalık Sayılar ve Kesirler",
+        "summary": "Kesirleri ondalık sayıya dönüştürün, devirli ondalıkları tanıyın, kesir ve ondalıkları sıralayın; çember çevresi ve alanını yaklaşık hesaplayın.",
+        "objectivesJson": [
+          "Kesirleri ondalık sayıya dönüştürebileceksiniz.",
+          "Ondalık sayılar ve kesirleri sıralayabileceksiniz.",
+          "İşlem sırasını kullanarak ifadeleri sadeleştirebileceksiniz.",
+          "Çemberin çevresini ve alanını hesaplayabileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions",
+        "sortOrder": 3,
+        "status": "draft",
+        "rawHash": "4bc33607e8900ff9d706b3f9f6d2a037c28cbec177e072daa61d87486836cf67"
       }
     ],
     "lessonSections": [
@@ -31539,6 +31559,1187 @@
             ]
           }
         ]
+      },
+      {
+        "id": "ondalik-sayilar-ve-kesirler-section-01",
+        "lessonId": "lesson-decimals-and-fractions",
+        "heading": "Kesirleri Ondalık Sayıya Dönüştürme",
+        "slug": "kesirleri-ondalik-sayiya-donusturme",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesir çizgisi bölme işlemini gösterir. Bu yüzden bir kesri ondalık sayıya dönüştürmek için payı paydaya böleriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.28",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3'ü 4'e böleriz. 3÷4=0,75 olduğundan 3/4=0,75 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.55",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{1}{4}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Kesir çizgisi bölme demektir. 1÷4=0,25 olduğundan 1/4=0,25 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.56",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{3}{8}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3÷8=0,375 olur. Bu yüzden 3/8 ondalık gösterimde 0,375'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.29",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "-\\frac{7}{2}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce 7÷2=3,5 buluruz. Kesir negatif olduğu için sonuç -3,5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.57",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "-\\frac{9}{4}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce 9÷4=2,25 bulunur. Kesir negatif olduğu için sonuç -2,25 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.58",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "-\\frac{11}{2}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 11÷2=5,5 olduğundan -11/2=-5,5 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-ve-kesirler-section-02",
+        "lessonId": "lesson-decimals-and-fractions",
+        "heading": "Devirli Ondalık Sayılar",
+        "slug": "devirli-ondalik-sayilar",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bazı kesirleri böldüğümüzde kalan hiç sıfır olmaz; aynı kalanlar tekrar ettiği için ondalık basamaklar da sonsuza kadar tekrar eder. Böyle sayılara devirli ondalık sayı denir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "\\frac{4}{3}=1{,}333\\ldots"
+              },
+              {
+                "type": "text",
+                "value": " yazımında 3 rakamı sürekli tekrar eder. Kısa gösterimde tekrar eden rakamın üzerine çizgi koyarız: "
+              },
+              {
+                "type": "math",
+                "value": "1{,}\\overline{3}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Tekrarlayan bölüm birden fazla basamak olabilir. Örneğin 0,271271... sayısında tekrar eden blok 271'dir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.30",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{43}{22}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 43÷22=1,95454... olur. İlk 9 tekrar etmez; 54 bloğu tekrar eder. Sonuç 1,9 ardından 54 devirli biçimindedir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.59",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{27}{11}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 27÷11=2,4545... olur. Tekrarlayan blok 45'tir; sonuç 2,45 devirli diye yazılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.60",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{51}{22}"
+              },
+              {
+                "type": "text",
+                "value": " kesrini ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 51÷22=2,31818... olur. İlk 3'ten sonra 18 tekrar eder; sonuç 2,3 ardından 18 devirli biçimindedir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kesir ve ondalık sayı birlikte verilirse önce aynı gösterime geçmek işlemi kolaylaştırır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.31",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{8}+6{,}4"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7/8=0,875. 0,875+6,4=7,275 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.61",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{8}+4{,}9"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3/8=0,375. 0,375+4,9=5,275 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.62",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "5{,}7+\\frac{13}{20}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 13/20=0,65. 5,7+0,65=6,35 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-ve-kesirler-section-03",
+        "lessonId": "lesson-decimals-and-fractions",
+        "heading": "Ondalık Sayılar ve Kesirleri Sıralama",
+        "slug": "ondalik-sayilar-ve-kesirleri-siralama",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir kesir ile ondalık sayıyı karşılaştırırken kesri ondalık sayıya dönüştürür, sonra iki ondalık sayıyı karşılaştırırız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.32",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{8}\\_\\_0{,}4"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3/8=0,375. 0,375<0,4 olduğu için 3/8<0,4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.63",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{17}{20}\\_\\_0{,}82"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 17/20=0,85 ve 0,85>0,82 olduğu için 17/20>0,82 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.64",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{4}\\_\\_0{,}785"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3/4=0,75 ve 0,75<0,785 olduğu için 3/4<0,785 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Negatif sayılarda sıfıra daha yakın olan sayı daha büyüktür. Bu yüzden karşılaştırmadan sonra sayı doğrusundaki konumu düşünmek yararlıdır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.33",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "-0{,}5\\_\\_-\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -3/4=-0,75. -0,5, -0,75'in sağındadır; bu yüzden -0,5>-3/4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.65",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{5}{8}\\_\\_-0{,}58"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -5/8=-0,625. -0,625, -0,58'den küçüktür; bu yüzden -5/8<-0,58 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.66",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "-0{,}53\\_\\_-\\frac{11}{20}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -11/20=-0,55. -0,53 sıfıra daha yakın olduğu için -0,53>-11/20 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.34",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Küçükten büyüğe sıralayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{13}{20},0{,}61,\\frac{11}{16}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 13/20=0,65 ve 11/16=0,6875. Sıralama 0,61, 13/20, 11/16 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.67",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Küçükten büyüğe sıralayın: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{7}{8},\\frac{4}{5},0{,}82"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7/8=0,875 ve 4/5=0,8. Küçükten büyüğe sıralama 4/5, 0,82, 7/8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.68",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Küçükten büyüğe sıralayın: "
+              },
+              {
+                "type": "math",
+                "value": "0{,}835,\\frac{13}{16},\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 13/16=0,8125 ve 3/4=0,75. Küçükten büyüğe sıralama 3/4, 13/16, 0,835 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-ve-kesirler-section-04",
+        "lessonId": "lesson-decimals-and-fractions",
+        "heading": "İşlem Sırası ile Sadeleştirme",
+        "slug": "islem-sirasi-ile-sadelestirme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "İşlem sırası ondalık sayılar ve kesirler için de aynıdır: önce parantezler, sonra üsler, sonra soldan sağa çarpma-bölme, en son toplama-çıkarma yapılır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.35",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "7(18{,}3-21{,}7)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2}{3}(8{,}3-3{,}8)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ Parantez -3,4 olur; 7·(-3,4)=-23,8. ⓑ Parantez 4,5 olur; 2/3·4,5=3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.69",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "8(14{,}6-37{,}5)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{5}(9{,}6-2{,}1)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 14,6-37,5=-22,9 ve 8·(-22,9)=-183,2. ⓑ 9,6-2,1=7,5 ve 3/5·7,5=4,5."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.70",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "25(25{,}69-56{,}74)"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2}{7}(11{,}9-4{,}2)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 25,69-56,74=-31,05 ve 25·(-31,05)=-776,25. ⓑ 11,9-4,2=7,7 ve 2/7·7,7=2,2."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.36",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "6\\div0{,}6+(0{,}2)4-(0{,}1)^2"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "(\\frac{1}{10})^2+(3{,}5)(0{,}9)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ Üs, bölme ve çarpma sonrası 10+0,8-0,01=10,79. ⓑ 1/100=0,01 ve 3,5·0,9=3,15; toplam 3,16 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.71",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "9\\div0{,}9+(0{,}4)3-(0{,}2)^2"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Önce üs ve bölme/çarpma yapılır: 9÷0,9=10, 0,4·3=1,2 ve (0,2)^2=0,04. Sonuç 10+1,2-0,04=11,16 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.72",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: "
+              },
+              {
+                "type": "math",
+                "value": "(\\frac{1}{2})^2+(0{,}3)(4{,}2)"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (1/2)^2=0,25 ve 0,3·4,2=1,26. Toplam 1,51 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-ve-kesirler-section-05",
+        "lessonId": "lesson-decimals-and-fractions",
+        "heading": "Çemberin Çevresi ve Alanı",
+        "slug": "cemberin-cevresi-ve-alani",
+        "level": 2,
+        "sortOrder": 5,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Çemberin çevresi, çemberin etrafındaki uzaklıktır. Çemberin merkezi ile üzerindeki bir nokta arasındaki uzaklığa yarıçap, çemberi en geniş yerinden kesen doğru parçasına çap denir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Her çemberde çevrenin çapa oranı aynı sayıdır; bu sayı pi, yani π ile gösterilir. Yaklaşık hesaplarda π≈3,14 kullanabiliriz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Çevre formülü "
+              },
+              {
+                "type": "math",
+                "value": "C=2\\pi r"
+              },
+              {
+                "type": "text",
+                "value": ", alan formülü ise "
+              },
+              {
+                "type": "math",
+                "value": "A=\\pi r^2"
+              },
+              {
+                "type": "text",
+                "value": "'dir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Alan hesaplarında birim kare olur: santimetre kare, metre kare gibi."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.37",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı 10 cm olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ C≈2·3,14·10=62,8 cm. ⓑ A≈3,14·10^2=314 cm kare."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.73",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı 50 inç olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: r=50 inç için C≈2·3,14·50=314 inç ve A≈3,14·50^2=7850 inç kare olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.74",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı 100 feet olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: r=100 feet için C≈628 feet ve A≈31.400 feet kare olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.38",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı 42,5 cm olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ C≈2·3,14·42,5=266,9 cm. ⓑ A≈3,14·42,5^2=5671,625 cm kare."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.75",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı 51,8 cm olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: r=51,8 cm için C≈2·3,14·51,8=325,304 cm ve A≈3,14·51,8^2=8425,3736 cm kare olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.76",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı 26,4 m olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: r=26,4 m için C≈165,792 m ve A≈2188,4544 m kare olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-ve-kesirler-section-06",
+        "lessonId": "lesson-decimals-and-fractions",
+        "heading": "Pi Sayısını Kesirle Yaklaşık Hesaplama",
+        "slug": "pi-sayisini-kesirle-yaklasik-hesaplama",
+        "level": 2,
+        "sortOrder": 6,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "22/7 kesri ondalık olarak 3,142857... değerini verir. Yüzde birliğe yuvarlandığında 3,14 olduğu için π yerine kesirli hesaplarda 22/7 kullanılabilir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.39",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{14}{15}"
+              },
+              {
+                "type": "text",
+                "value": " m olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: π≈22/7 alırız. ⓐ C≈2·22/7·14/15=88/15 m. ⓑ A≈22/7·(14/15)^2=616/225 m kare."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.77",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{21}"
+              },
+              {
+                "type": "text",
+                "value": " m olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Kesirli yarıçapta π≈22/7 kullanırız. r=5/21 için C≈220/147 m ve A≈550/3087 m kare olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.78",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yarıçapı "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{10}{33}"
+              },
+              {
+                "type": "text",
+                "value": " inç olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: r=10/33 inç için C≈40/21 inç ve A≈200/693 inç kare olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -48849,6 +50050,888 @@
         "sortOrder": 199,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-201",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-01",
+        "number": "201",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesri ondalık sayıya dönüştürün: 2/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2÷5=0,4 olduğundan 2/5 ondalık gösterimde 0,4 olur."
+          }
+        ],
+        "sortOrder": 201,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-203",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-01",
+        "number": "203",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesri ondalık sayıya dönüştürün: -3/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3÷8=0,375 bulunur. Kesir negatif olduğu için sonuç -0,375 olur."
+          }
+        ],
+        "sortOrder": 203,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-205",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-01",
+        "number": "205",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesri ondalık sayıya dönüştürün: 17/20."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Kesir çizgisi bölme demektir. 17'yi 20'ye böleriz: 17÷20=0,85, yani 17/20=0,85 olur."
+          }
+        ],
+        "sortOrder": 205,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-207",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-01",
+        "number": "207",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesri ondalık sayıya dönüştürün: 11/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 11÷4=2,75. Bu yüzden 11/4 ondalık gösterimde 2,75'tir."
+          }
+        ],
+        "sortOrder": 207,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-209",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-01",
+        "number": "209",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesri ondalık sayıya dönüştürün: -310/25."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 310÷25=12,4 ve kesir negatif olduğundan sonuç -12,4 olur."
+          }
+        ],
+        "sortOrder": 209,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-211",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-02",
+        "number": "211",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesri ondalık sayıya dönüştürün: 5/9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5÷9=0,555... olur. 5 rakamı sürekli tekrar ettiği için sonuç 0,5 devirlidir."
+          }
+        ],
+        "sortOrder": 211,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-213",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-02",
+        "number": "213",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesri ondalık sayıya dönüştürün: 15/11."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 15÷11=1,3636... olur. Tekrarlayan blok 36'dır; sonuç 1,36 devirlidir."
+          }
+        ],
+        "sortOrder": 213,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-215",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-02",
+        "number": "215",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kesri ondalık sayıya dönüştürün: 15/111."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 15/111 sadeleşince 5/37 olur. Bölme 0,135135... verir; 135 bloğu tekrar eder."
+          }
+        ],
+        "sortOrder": 215,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-217",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-02",
+        "number": "217",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi sadeleştirin: 1/2+6,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/2=0,5. 0,5+6,5=7 olduğundan ifade 7'ye sadeleşir."
+          }
+        ],
+        "sortOrder": 217,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-219",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-02",
+        "number": "219",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi sadeleştirin: 2,4+5/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce kesri ondalığa çeviririz: 5/8=0,625. Sonra 2,4+0,625=3,025 olur."
+          }
+        ],
+        "sortOrder": 219,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-221",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-02",
+        "number": "221",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "İfadeyi sadeleştirin: 9,73+17/20."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce 17/20 kesrini ondalık yazarız: 17/20=0,85. Ardından 9,73+0,85=10,58 olur."
+          }
+        ],
+        "sortOrder": 221,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-223",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "223",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: 1/8 ___ 0,8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/8=0,125 ve 0,125<0,8 olduğu için 1/8<0,8 olur."
+          }
+        ],
+        "sortOrder": 223,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-225",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "225",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: 2/5 ___ 0,25."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2/5=0,4 ve 0,4>0,25 olduğu için 2/5>0,25 olur."
+          }
+        ],
+        "sortOrder": 225,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-227",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "227",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: 0,725 ___ 3/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3/4=0,75. 0,725<0,75 olduğu için 0,725<3/4 olur."
+          }
+        ],
+        "sortOrder": 227,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-229",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "229",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: 0,66 ___ 2/3."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 2/3=0,666... biçiminde devirli ondalıktır. 0,66 bundan küçük olduğu için 0,66<2/3 olur."
+          }
+        ],
+        "sortOrder": 229,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-231",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "231",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: -0,75 ___ -4/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -4/5=-0,8. -0,75 sayı doğrusunda -0,8'in sağındadır; bu yüzden -0,75>-4/5 olur."
+          }
+        ],
+        "sortOrder": 231,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-233",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "233",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: -3/4 ___ -0,925."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -3/4=-0,75. -0,75, -0,925'ten büyüktür; bu nedenle -3/4>-0,925 olur."
+          }
+        ],
+        "sortOrder": 233,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-235",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "235",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıları küçükten büyüğe sıralayın: 3/5, 9/16, 0,55."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3/5=0,6 ve 9/16=0,5625. Küçükten büyüğe sıralama 0,55, 9/16, 3/5 olur."
+          }
+        ],
+        "sortOrder": 235,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-237",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "237",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıları küçükten büyüğe sıralayın: 0,702, 13/20, 5/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 13/20=0,65 ve 5/8=0,625. Küçükten büyüğe sıralama 5/8, 13/20, 0,702 olur."
+          }
+        ],
+        "sortOrder": 237,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-239",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "239",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıları küçükten büyüğe sıralayın: -0,3, -1/3, -7/20."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -1/3≈-0,333 ve -7/20=-0,35. En küçük en soldaki sayı olduğundan sıralama -7/20, -1/3, -0,3 olur."
+          }
+        ],
+        "sortOrder": 239,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-241",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-03",
+        "number": "241",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıları küçükten büyüğe sıralayın: -3/4, -7/9, -0,7."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -3/4=-0,75 ve -7/9≈-0,778. Küçükten büyüğe sıralama -7/9, -3/4, -0,7 olur."
+          }
+        ],
+        "sortOrder": 241,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-243",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "243",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 10(25,1-43,8)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce parantez: 25,1-43,8=-18,7. Sonra 10·(-18,7)=-187 olur."
+          }
+        ],
+        "sortOrder": 243,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-245",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "245",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 62(9,75-4,99)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce parantez: 9,75-4,99=4,76. Sonra 62·4,76=295,12 olur."
+          }
+        ],
+        "sortOrder": 245,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-247",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "247",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 3/4(12,4-4,2)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 12,4-4,2=8,2. 8,2'nin 3/4'ü 6,15 olduğundan sonuç 6,15 olur."
+          }
+        ],
+        "sortOrder": 247,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-249",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "249",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 5/12(30,58+17,9)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce parantez: 30,58+17,9=48,48. Sonra 5/12·48,48=20,2 olur."
+          }
+        ],
+        "sortOrder": 249,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-251",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "251",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: 10÷0,1+(1,8)4-(0,3)^2."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 10÷0,1=100, 1,8·4=7,2 ve (0,3)^2=0,09. Sonuç 100+7,2-0,09=107,11 olur."
+          }
+        ],
+        "sortOrder": 251,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-253",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "253",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: (37,1+52,7)÷(12,5÷62,5)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Pay 37,1+52,7=89,8, payda 12,5÷62,5=0,2 olur. 89,8÷0,2=449 bulunur."
+          }
+        ],
+        "sortOrder": 253,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-255",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "255",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: (1/5)^2+(1,4)(6,5)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (1/5)^2=0,04 ve 1,4·6,5=9,1. Toplam 9,14 olur."
+          }
+        ],
+        "sortOrder": 255,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-257",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "257",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sadeleştirin: -9/10·8/15+0,25."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -9/10·8/15=-72/150=-0,48. -0,48+0,25=-0,23 olur."
+          }
+        ],
+        "sortOrder": 257,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-259",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "259",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sonuç vererek sadeleştirin: 3 1/4-6,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce karma sayıyı ondalığa çeviririz: 3 1/4=3,25. Sonra 3,25-6,5=-3,25 olur."
+          }
+        ],
+        "sortOrder": 259,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-261",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "261",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sonuç vererek sadeleştirin: 10,86÷2/3."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 10,86÷2/3, 10,86·3/2 demektir. 10,86·1,5=16,29 olur."
+          }
+        ],
+        "sortOrder": 261,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-263",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "263",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sonuç vererek sadeleştirin: 7/8(103,48)+1 1/2(361)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7/8·103,48=90,545 ve 1 1/2·361=541,5. Toplam 632,045 olur."
+          }
+        ],
+        "sortOrder": 263,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-265",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "265",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sonuç vererek sadeleştirin: 3,6(9/8-2,72)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 9/8=1,125. Parantez 1,125-2,72=-1,595 olur; 3,6·(-1,595)=-5,742 bulunur."
+          }
+        ],
+        "sortOrder": 265,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-267",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-05",
+        "number": "267",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Yarıçapı 5 inç olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: r=5 için C≈2·3,14·5=31,4 inç ve A≈3,14·25=78,5 inç kare olur."
+          }
+        ],
+        "sortOrder": 267,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-269",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-05",
+        "number": "269",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Yarıçapı 9 feet olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: r=9 için C≈2·3,14·9=56,52 feet ve A≈3,14·81=254,34 feet kare olur."
+          }
+        ],
+        "sortOrder": 269,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-271",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-05",
+        "number": "271",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Yarıçapı 46 cm olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: r=46 için C≈2·3,14·46=288,88 cm ve A≈3,14·46^2=6644,24 cm kare olur."
+          }
+        ],
+        "sortOrder": 271,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-273",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-05",
+        "number": "273",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Yarıçapı 18,6 m olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: r=18,6 için C≈2·3,14·18,6=116,808 m ve A≈3,14·18,6^2=1086,3144 m kare olur."
+          }
+        ],
+        "sortOrder": 273,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-275",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-06",
+        "number": "275",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Yarıçapı 7/10 mil olan çemberin ⓐ çevresini ⓑ alanını kesir biçiminde yaklaşık hesaplayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Kesirli ölçüde π≈22/7 alırız. r=7/10 için C≈22/5 mil ve A≈77/50 mil kare olur."
+          }
+        ],
+        "sortOrder": 275,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-277",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-06",
+        "number": "277",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Yarıçapı 3/8 yard olan çemberin ⓐ çevresini ⓑ alanını kesir biçiminde yaklaşık hesaplayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: r=3/8 için C≈2·22/7·3/8=33/14 yard ve A≈22/7·(3/8)^2=99/224 yard kare olur."
+          }
+        ],
+        "sortOrder": 277,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-279",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-06",
+        "number": "279",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Çapı 5/6 m olan çemberin ⓐ çevresini ⓑ alanını kesir biçiminde yaklaşık hesaplayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Çap 5/6 m olduğundan C≈22/7·5/6=55/21 m. Yarıçap 5/12 m, alan A≈22/7·(5/12)^2=275/504 m kare olur."
+          }
+        ],
+        "sortOrder": 279,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-281",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-04",
+        "number": "281",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Kelly, normal fiyatı 84,99 dolar olan botları fiyatın 2/3'ü kadar indirimli satış fiyatıyla almak istiyor. Satış fiyatı nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Satış fiyatı normal fiyatın 2/3'üdür. 84,99÷3=28,33 ve 2·28,33=56,66 dolar olur."
+          }
+        ],
+        "sortOrder": 281,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-and-fractions-exercise-283",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sectionId": "ondalik-sayilar-ve-kesirler-section-01",
+        "number": "283",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sizin için ondalık sayıyı kesre dönüştürmek mi, kesri ondalık sayıya dönüştürmek mi daha kolay? Açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Olası açıklama: Kesri ondalığa çevirmek, kesir çizgisini bölme olarak yorumladığımda daha kolaydır; payı paydaya bölerek doğrudan ondalık gösterimi bulabilirim."
+          }
+        ],
+        "sortOrder": 283,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -48993,6 +51076,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations",
         "httpStatus": 200,
         "contentHash": "e87823a56fc62d7f2be092dac2681cca7a0fc9e038f82809a7fa440f549f9cd0",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions",
+        "httpStatus": 200,
+        "contentHash": "4bc33607e8900ff9d706b3f9f6d2a037c28cbec177e072daa61d87486836cf67",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -55812,6 +57903,342 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/34958fb9bb0f7adb.json",
         "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/34958fb9bb0f7adb.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-000-0ff1c5b8130af474",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102953/636f6ea76d9b9e2f5ed2997331d015470fe25036?revision=1",
+        "assetType": "image",
+        "altText": "A division problem is shown. 3 is on the inside of the division sign and 4 is on the outside.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/000-0ff1c5b8130af474.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/000-0ff1c5b8130af474.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-001-908cffcf13b8e215",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102956/9872e06eac2e4311f453eb2a43abdc698a7df8e1?revision=1",
+        "assetType": "image",
+        "altText": "A division problem is shown. 3.00 is on the inside of the division sign and 4 is on the outside. Below the 3.00 is a 28 with a line below it. Below the line is a 20. Below the 20 is another 20 with a line below it. Below the line is a 0. Above the division sign is 0.75.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/001-908cffcf13b8e215.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/001-908cffcf13b8e215.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-002-69fe270f39a4aab8",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102954/51edbc76351d6873e342cb30104c59479117f874?revision=1",
+        "assetType": "image",
+        "altText": "A division problem is shown. 7.0 is on the inside of the division sign and 2 is on the outside. Below the 7 is a 6 with a line below it. Below the line is a 10. Below the 10 is another 10 with a line below it. Below the line is a 0. 3.5 is written above the division sign.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/002-69fe270f39a4aab8.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/002-69fe270f39a4aab8.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-003-d4691f394b0c4cf8",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102958/f1fc336a6fe56b3deb1172abd14ae6aa0fb76f3c?revision=1",
+        "assetType": "image",
+        "altText": "A division problem is shown. 4.000 is on the inside of the division sign and 3 is on the outside. Below the 4 is a 3 with a line below it. Below the line is a 10. Below the 10 is a 9 with a line below it. Below the line is another 10, followed by another 9 with a line, followed by another 10, followed by another 9 with a line, followed by a 1. Above the division sign is 1.333...",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/003-d4691f394b0c4cf8.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/003-d4691f394b0c4cf8.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-004-ad04c5e3c319e08f",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102955/e4c9d01907f0f1d782445de2d85b0202d03ec24f?revision=1",
+        "assetType": "image",
+        "altText": "A division problem is shown. 43.00000 is on the inside of the division sign and 22 is on the outside. Below the 43 is a 22 with a line below it. Below the line is a 210 with a 198 with a line below it. Below the line is a 120 with 110 and a line below it. Below the line is 100 with 88 and a line below it. Below the line is 120 with 110 and a line below it. Below the line is 100 with 88 and a line below it. Below the line is an ellipses. There are arrows pointing to the 120s saying 120 repeats. There are arrows pointing to the 100s saying 100 repeats. There are arrows pointing to the 88s saying, in red, “The pattern repeats, so the numbers in the quotient will repeat as well.” The quotient is shown above the division sign. It is 1.95454.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/004-ad04c5e3c319e08f.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/004-ad04c5e3c319e08f.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-006-493db4454071ef33",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102961/a2f4ddce207fa654cb6d29211db0dfb8c1b26b56?revision=1",
+        "assetType": "figure",
+        "altText": "A circle is shown. A dotted line running through the widest portion of the circle is labeled as a diameter. A dotted line from the center of the circle to a point on the circle is labeled as a radius. Along the edge of the circle is the circumference.",
+        "caption": "Figure 5.6",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/006-493db4454071ef33.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/006-493db4454071ef33.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-008-13922f2b5846116f",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102965/860bc8d9ee2c7bdaae3140f6726a6f2bf7b2e515?revision=1",
+        "assetType": "image",
+        "altText": "A circle is shown. A line runs through the widest portion of the circle. There is a red dot at the center of the circle. The half of the line from the center of the circle to a point on the right of the circle is labeled with an r. The half of the line from the center of the circle to a point on the left of the circle is also labeled with an r. The two sections labeled r have a brace drawn underneath showing that the entire segment is labeled d.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/008-13922f2b5846116f.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/008-13922f2b5846116f.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-21f6b832c9e6015f",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/21f6b832c9e6015f.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/21f6b832c9e6015f.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-17f903f72dd63b08",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/17f903f72dd63b08.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/17f903f72dd63b08.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-5e6b1365dc5112b4",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/5e6b1365dc5112b4.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/5e6b1365dc5112b4.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-4d94dafd70def88c",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/4d94dafd70def88c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/4d94dafd70def88c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-87206bf3f4cf6980",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/87206bf3f4cf6980.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/87206bf3f4cf6980.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-e8537e61fae5b9dd",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/e8537e61fae5b9dd.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/e8537e61fae5b9dd.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-05a0722c1d1e4313",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/05a0722c1d1e4313.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/05a0722c1d1e4313.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-ba12e464c65f06d3",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/ba12e464c65f06d3.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/ba12e464c65f06d3.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-d6865bb94570682d",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/d6865bb94570682d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/d6865bb94570682d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-1d55191d2b70f0d6",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/1d55191d2b70f0d6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/1d55191d2b70f0d6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-edb31d41fff641a8",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/edb31d41fff641a8.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/edb31d41fff641a8.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-48a4f19f087bdd26",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/48a4f19f087bdd26.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/48a4f19f087bdd26.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-1e1c3cbdafc2ee84",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/1e1c3cbdafc2ee84.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/1e1c3cbdafc2ee84.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-2292cdedcfe2d06c",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/2292cdedcfe2d06c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/2292cdedcfe2d06c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-59cfccc395bda0e4",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/59cfccc395bda0e4.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/59cfccc395bda0e4.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-6e71ca91ede9a3f6",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-15",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/6e71ca91ede9a3f6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/6e71ca91ede9a3f6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-and-fractions-asset-f3f03c0710cbee7a",
+        "lessonId": "lesson-decimals-and-fractions",
+        "sourceSnapshotId": "snapshot-4bc33607e8900ff9",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.04%3A_Decimals_and_Fractions#table-16",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/f3f03c0710cbee7a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-3-decimals-and-fractions/f3f03c0710cbee7a.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

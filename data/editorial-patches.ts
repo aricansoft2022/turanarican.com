@@ -9885,6 +9885,208 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "5.4",
+    sections: [
+      {
+        sectionSlug: "kesirleri-ondalik-sayiya-donusturme",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Kesir çizgisi bölme işlemini gösterir. Bu yüzden bir kesri ondalık sayıya dönüştürmek için payı paydaya böleriz.",
+              ),
+              ex(
+                "Örnek 5.28",
+                [m("\\frac{3}{4}"), t(" kesrini ondalık sayı olarak yazın.")],
+                sol("Çözüm: 3'ü 4'e böleriz. 3÷4=0,75 olduğundan 3/4=0,75 olur."),
+              ),
+              ex("Sıra Sizde 5.55", [m("\\frac{1}{4}"), t(" kesrini ondalık sayı olarak yazın.")]),
+              ex("Sıra Sizde 5.56", [m("\\frac{3}{8}"), t(" kesrini ondalık sayı olarak yazın.")]),
+              ex(
+                "Örnek 5.29",
+                [m("-\\frac{7}{2}"), t(" kesrini ondalık sayı olarak yazın.")],
+                sol("Çözüm: Önce 7÷2=3,5 buluruz. Kesir negatif olduğu için sonuç -3,5 olur."),
+              ),
+              ex("Sıra Sizde 5.57", [m("-\\frac{9}{4}"), t(" kesrini ondalık sayı olarak yazın.")]),
+              ex("Sıra Sizde 5.58", [m("-\\frac{11}{2}"), t(" kesrini ondalık sayı olarak yazın.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "devirli-ondalik-sayilar",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bazı kesirleri böldüğümüzde kalan hiç sıfır olmaz; aynı kalanlar tekrar ettiği için ondalık basamaklar da sonsuza kadar tekrar eder. Böyle sayılara devirli ondalık sayı denir.",
+              ),
+              p([
+                m("\\frac{4}{3}=1{,}333\\ldots"),
+                t(" yazımında 3 rakamı sürekli tekrar eder. Kısa gösterimde tekrar eden rakamın üzerine çizgi koyarız: "),
+                m("1{,}\\overline{3}"),
+                t("."),
+              ]),
+              pt(
+                "Tekrarlayan bölüm birden fazla basamak olabilir. Örneğin 0,271271... sayısında tekrar eden blok 271'dir.",
+              ),
+              ex(
+                "Örnek 5.30",
+                [m("\\frac{43}{22}"), t(" kesrini ondalık sayı olarak yazın.")],
+                sol("Çözüm: 43÷22=1,95454... olur. İlk 9 tekrar etmez; 54 bloğu tekrar eder. Sonuç 1,9 ardından 54 devirli biçimindedir."),
+              ),
+              ex("Sıra Sizde 5.59", [m("\\frac{27}{11}"), t(" kesrini ondalık sayı olarak yazın.")]),
+              ex("Sıra Sizde 5.60", [m("\\frac{51}{22}"), t(" kesrini ondalık sayı olarak yazın.")]),
+              pt(
+                "Kesir ve ondalık sayı birlikte verilirse önce aynı gösterime geçmek işlemi kolaylaştırır.",
+              ),
+              ex(
+                "Örnek 5.31",
+                [t("Sadeleştirin: "), m("\\frac{7}{8}+6{,}4"), t(".")],
+                sol("Çözüm: 7/8=0,875. 0,875+6,4=7,275 olur."),
+              ),
+              ex("Sıra Sizde 5.61", [t("Sadeleştirin: "), m("\\frac{3}{8}+4{,}9"), t(".")]),
+              ex("Sıra Sizde 5.62", [t("Sadeleştirin: "), m("5{,}7+\\frac{13}{20}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilar-ve-kesirleri-siralama",
+        replaceBlocks: [
+          ...removeBlocks(11),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir kesir ile ondalık sayıyı karşılaştırırken kesri ondalık sayıya dönüştürür, sonra iki ondalık sayıyı karşılaştırırız.",
+              ),
+              ex(
+                "Örnek 5.32",
+                [t("< ya da > kullanın: "), m("\\frac{3}{8}\\_\\_0{,}4"), t(".")],
+                sol("Çözüm: 3/8=0,375. 0,375<0,4 olduğu için 3/8<0,4 olur."),
+              ),
+              ex("Sıra Sizde 5.63", [t("< ya da > kullanın: "), m("\\frac{17}{20}\\_\\_0{,}82")]),
+              ex("Sıra Sizde 5.64", [t("< ya da > kullanın: "), m("\\frac{3}{4}\\_\\_0{,}785")]),
+              pt(
+                "Negatif sayılarda sıfıra daha yakın olan sayı daha büyüktür. Bu yüzden karşılaştırmadan sonra sayı doğrusundaki konumu düşünmek yararlıdır.",
+              ),
+              ex(
+                "Örnek 5.33",
+                [t("< ya da > kullanın: "), m("-0{,}5\\_\\_-\\frac{3}{4}"), t(".")],
+                sol("Çözüm: -3/4=-0,75. -0,5, -0,75'in sağındadır; bu yüzden -0,5>-3/4 olur."),
+              ),
+              ex("Sıra Sizde 5.65", [t("< ya da > kullanın: "), m("-\\frac{5}{8}\\_\\_-0{,}58")]),
+              ex("Sıra Sizde 5.66", [t("< ya da > kullanın: "), m("-0{,}53\\_\\_-\\frac{11}{20}")]),
+              ex(
+                "Örnek 5.34",
+                [t("Küçükten büyüğe sıralayın: "), m("\\frac{13}{20},0{,}61,\\frac{11}{16}"), t(".")],
+                sol("Çözüm: 13/20=0,65 ve 11/16=0,6875. Sıralama 0,61, 13/20, 11/16 olur."),
+              ),
+              ex("Sıra Sizde 5.67", [t("Küçükten büyüğe sıralayın: "), m("\\frac{7}{8},\\frac{4}{5},0{,}82"), t(".")]),
+              ex("Sıra Sizde 5.68", [t("Küçükten büyüğe sıralayın: "), m("0{,}835,\\frac{13}{16},\\frac{3}{4}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "islem-sirasi-ile-sadelestirme",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "İşlem sırası ondalık sayılar ve kesirler için de aynıdır: önce parantezler, sonra üsler, sonra soldan sağa çarpma-bölme, en son toplama-çıkarma yapılır.",
+              ),
+              ex(
+                "Örnek 5.35",
+                [t("Sadeleştirin: ⓐ "), m("7(18{,}3-21{,}7)"), t(" ⓑ "), m("\\frac{2}{3}(8{,}3-3{,}8)"), t(".")],
+                sol("Çözüm: ⓐ Parantez -3,4 olur; 7·(-3,4)=-23,8. ⓑ Parantez 4,5 olur; 2/3·4,5=3."),
+              ),
+              ex("Sıra Sizde 5.69", [t("Sadeleştirin: ⓐ "), m("8(14{,}6-37{,}5)"), t(" ⓑ "), m("\\frac{3}{5}(9{,}6-2{,}1)"), t(".")]),
+              ex("Sıra Sizde 5.70", [t("Sadeleştirin: ⓐ "), m("25(25{,}69-56{,}74)"), t(" ⓑ "), m("\\frac{2}{7}(11{,}9-4{,}2)"), t(".")]),
+              ex(
+                "Örnek 5.36",
+                [t("Sadeleştirin: ⓐ "), m("6\\div0{,}6+(0{,}2)4-(0{,}1)^2"), t(" ⓑ "), m("(\\frac{1}{10})^2+(3{,}5)(0{,}9)"), t(".")],
+                sol("Çözüm: ⓐ Üs, bölme ve çarpma sonrası 10+0,8-0,01=10,79. ⓑ 1/100=0,01 ve 3,5·0,9=3,15; toplam 3,16 olur."),
+              ),
+              ex("Sıra Sizde 5.71", [t("Sadeleştirin: "), m("9\\div0{,}9+(0{,}4)3-(0{,}2)^2"), t(".")]),
+              ex("Sıra Sizde 5.72", [t("Sadeleştirin: "), m("(\\frac{1}{2})^2+(0{,}3)(4{,}2)"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "cemberin-cevresi-ve-alani",
+        replaceBlocks: [
+          ...removeBlocks(18),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Çemberin çevresi, çemberin etrafındaki uzaklıktır. Çemberin merkezi ile üzerindeki bir nokta arasındaki uzaklığa yarıçap, çemberi en geniş yerinden kesen doğru parçasına çap denir.",
+              ),
+              pt(
+                "Her çemberde çevrenin çapa oranı aynı sayıdır; bu sayı pi, yani π ile gösterilir. Yaklaşık hesaplarda π≈3,14 kullanabiliriz.",
+              ),
+              p([
+                t("Çevre formülü "),
+                m("C=2\\pi r"),
+                t(", alan formülü ise "),
+                m("A=\\pi r^2"),
+                t("'dir."),
+              ]),
+              pt(
+                "Alan hesaplarında birim kare olur: santimetre kare, metre kare gibi.",
+              ),
+              ex(
+                "Örnek 5.37",
+                [t("Yarıçapı 10 cm olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")],
+                sol("Çözüm: ⓐ C≈2·3,14·10=62,8 cm. ⓑ A≈3,14·10^2=314 cm kare."),
+              ),
+              ex("Sıra Sizde 5.73", [t("Yarıçapı 50 inç olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")]),
+              ex("Sıra Sizde 5.74", [t("Yarıçapı 100 feet olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")]),
+              ex(
+                "Örnek 5.38",
+                [t("Yarıçapı 42,5 cm olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")],
+                sol("Çözüm: ⓐ C≈2·3,14·42,5=266,9 cm. ⓑ A≈3,14·42,5^2=5671,625 cm kare."),
+              ),
+              ex("Sıra Sizde 5.75", [t("Yarıçapı 51,8 cm olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")]),
+              ex("Sıra Sizde 5.76", [t("Yarıçapı 26,4 m olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "pi-sayisini-kesirle-yaklasik-hesaplama",
+        replaceBlocks: [
+          ...removeBlocks(4),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "22/7 kesri ondalık olarak 3,142857... değerini verir. Yüzde birliğe yuvarlandığında 3,14 olduğu için π yerine kesirli hesaplarda 22/7 kullanılabilir.",
+              ),
+              ex(
+                "Örnek 5.39",
+                [t("Yarıçapı "), m("\\frac{14}{15}"), t(" m olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")],
+                sol("Çözüm: π≈22/7 alırız. ⓐ C≈2·22/7·14/15=88/15 m. ⓑ A≈22/7·(14/15)^2=616/225 m kare."),
+              ),
+              ex("Sıra Sizde 5.77", [t("Yarıçapı "), m("\\frac{5}{21}"), t(" m olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")]),
+              ex("Sıra Sizde 5.78", [t("Yarıçapı "), m("\\frac{10}{33}"), t(" inç olan çemberin ⓐ çevresini ⓑ alanını yaklaşık hesaplayın.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({
