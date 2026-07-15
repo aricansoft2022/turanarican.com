@@ -33,13 +33,13 @@ navigation, SEO, attribution, and ingestion workflows.
   - `9005ce6 Add integer subtraction seed lesson`
 - Latest confirmed seed DB write count:
   - `books`: 1
-  - `chapters`: 3
-  - `lessons`: 12
-  - `lessonSections`: 62
-  - `exercises`: 425
-  - `sourceSnapshots`: 12
-  - `sourceAssets`: 348
-- Latest generated local seed payload count, not yet written to the remote DB:
+  - `chapters`: 4
+  - `lessons`: 17
+  - `lessonSections`: 89
+  - `exercises`: 631
+  - `sourceSnapshots`: 17
+  - `sourceAssets`: 457
+- Latest generated local seed payload count, matching the latest remote DB write:
   - `books`: 1
   - `chapters`: 4
   - `lessons`: 17
