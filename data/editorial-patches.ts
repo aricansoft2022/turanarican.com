@@ -9051,6 +9051,197 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "4.7",
+    sections: [
+      {
+        sectionSlug: "karma-kesir-toplamayi-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karma kesirler bir tam sayı ile bir kesirden oluşur. Toplama yaparken tam kısımları ve kesir kısımlarını ayrı ayrı düşünebiliriz.",
+              ),
+              p([
+                t("Örneğin "),
+                m("1\\frac{1}{4}+2\\frac{1}{4}"),
+                t(" işleminde tam kısımlar 3, kesir kısımları "),
+                m("\\frac{2}{4}=\\frac{1}{2}"),
+                t(" eder. Sonuç "),
+                m("3\\frac{1}{2}"),
+                t("'dir."),
+              ]),
+              ex("Sıra Sizde 4.161", [t("Model kullanarak toplayın: "), m("1\\frac{2}{5}+3\\frac{3}{5}")]),
+              ex("Sıra Sizde 4.162", [t("Model kullanarak toplayın: "), m("2\\frac{1}{6}+2\\frac{5}{6}")]),
+              ex(
+                "Örnek 4.82",
+                [t("Modelleyin ve toplamı karma kesir olarak yazın: "), m("1\\frac{3}{5}+2\\frac{3}{5}"), t(".")],
+                sol("Çözüm: Tam kısımlar 3 eder. Kesir kısımları 6/5=1 1/5 olduğundan toplam 4 1/5 olur."),
+              ),
+              ex("Sıra Sizde 4.163", [t("Modelleyin ve toplamı karma kesir olarak yazın: "), m("2\\frac{5}{6}+1\\frac{5}{6}")]),
+              ex("Sıra Sizde 4.164", [t("Modelleyin ve toplamı karma kesir olarak yazın: "), m("1\\frac{5}{8}+1\\frac{7}{8}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "karma-kesirleri-toplama",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karma kesirleri toplarken önce tam kısımları, sonra kesir kısımlarını toplarız. Kesir kısmı 1 tamı aşarsa bunu tam kısma ekleriz.",
+              ),
+              ex(
+                "Örnek 4.83",
+                [t("Toplayın: "), m("3\\frac{4}{9}+2\\frac{2}{9}"), t(".")],
+                sol("Çözüm: Tam kısımlar 5, kesir kısımları 6/9=2/3 eder. Toplam 5 2/3 olur."),
+              ),
+              ex("Sıra Sizde 4.165", [t("Toplamı bulun: "), m("4\\frac{4}{7}+1\\frac{2}{7}")]),
+              ex("Sıra Sizde 4.166", [t("Toplamı bulun: "), m("2\\frac{3}{11}+5\\frac{6}{11}")]),
+              pt(
+                "Kesir kısımlarının toplamı bileşik kesir olursa onu tam sayılı kesre çevirip tam kısma ekleriz.",
+              ),
+              ex(
+                "Örnek 4.84",
+                [t("Toplamı bulun: "), m("9\\frac{5}{9}+5\\frac{7}{9}"), t(".")],
+                sol("Çözüm: Tam kısımlar 14, kesir kısımları 12/9=1 1/3 eder. Toplam 15 1/3 olur."),
+              ),
+              ex("Sıra Sizde 4.167", [t("Toplamı bulun: "), m("8\\frac{7}{8}+7\\frac{5}{8}")]),
+              ex("Sıra Sizde 4.168", [t("Toplamı bulun: "), m("6\\frac{7}{9}+8\\frac{5}{9}")]),
+              pt(
+                "İsterseniz karma kesirleri önce bileşik kesre çevirip de toplayabilirsiniz. Bu yöntem özellikle yatay işlemlerde düzenlidir.",
+              ),
+              ex(
+                "Örnek 4.85",
+                [t("Bileşik kesre çevirerek toplayın: "), m("3\\frac{7}{8}+4\\frac{3}{8}"), t(".")],
+                sol("Çözüm: 3 7/8=31/8 ve 4 3/8=35/8. Toplam 66/8=8 1/4 olur."),
+              ),
+              ex("Sıra Sizde 4.169", [t("Bileşik kesre çevirerek toplamı bulun: "), m("5\\frac{5}{9}+3\\frac{7}{9}")]),
+              ex("Sıra Sizde 4.170", [t("Bileşik kesre çevirerek toplamı bulun: "), m("3\\frac{7}{10}+2\\frac{9}{10}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "karma-kesir-cikarmayi-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(23),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karma kesirlerde çıkarma yaparken bazen bir tamı kesir parçalarına ayırmamız gerekir. Bu, modelde bir tam daireyi eş parçalara bölmek gibidir.",
+              ),
+              ex(
+                "Örnek 4.86",
+                [t("Model kullanarak çıkarın: "), m("1-\\frac{1}{3}"), t(".")],
+                sol("Çözüm: 1 tamı 3/3 olarak böleriz. 3/3-1/3=2/3 kalır."),
+              ),
+              ex("Sıra Sizde 4.171", [t("Model kullanarak çıkarın: "), m("1-\\frac{1}{4}")]),
+              ex("Sıra Sizde 4.172", [t("Model kullanarak çıkarın: "), m("1-\\frac{1}{5}")]),
+              ex(
+                "Örnek 4.87",
+                [t("Model kullanarak çıkarın: "), m("2-\\frac{3}{4}"), t(".")],
+                sol("Çözüm: 2 tamdan birini 4/4 olarak ayırırız. 1 tam ve 1/4 kalır; sonuç 1 1/4 olur."),
+              ),
+              ex("Sıra Sizde 4.173", [t("Model kullanarak çıkarın: "), m("2-\\frac{1}{5}")]),
+              ex("Sıra Sizde 4.174", [t("Model kullanarak çıkarın: "), m("2-\\frac{1}{3}")]),
+              ex(
+                "Örnek 4.88",
+                [t("Model kullanarak çıkarın: "), m("2-1\\frac{2}{5}"), t(".")],
+                sol("Çözüm: 2 tamdan 1 tam çıkarılır; kalan 1 tamdan 2/5 çıkarınca 3/5 kalır."),
+              ),
+              ex("Sıra Sizde 4.175", [t("Model kullanarak çıkarın: "), m("2-1\\frac{1}{3}")]),
+              ex("Sıra Sizde 4.176", [t("Model kullanarak çıkarın: "), m("2-1\\frac{1}{4}")]),
+              pt(
+                "Bir karma kesirden yalnızca kesir çıkarırken de gerekirse tam kısımdan ödünç alıp kesir parçalarına çeviririz.",
+              ),
+              ex(
+                "Örnek 4.89",
+                [t("Model kullanarak çıkarın: "), m("1\\frac{1}{4}-\\frac{3}{4}"), t(".")],
+                sol("Çözüm: 1 1/4 sayısı 5/4'tür. 5/4-3/4=2/4=1/2 olur."),
+              ),
+              ex("Sıra Sizde 4.177", [t("Model kullanarak çıkarın: "), m("1\\frac{1}{3}-\\frac{2}{3}")]),
+              ex("Sıra Sizde 4.178", [t("Model kullanarak çıkarın: "), m("1\\frac{1}{5}-\\frac{4}{5}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ortak-paydali-karma-kesirleri-cikarma",
+        replaceBlocks: [
+          ...removeBlocks(8),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Model olmadan çıkarma yaparken kesir kısmı yetmiyorsa tam kısımdan 1 tam ödünç alır ve bunu payda kadar parçaya çeviririz.",
+              ),
+              ex(
+                "Örnek 4.90",
+                [t("Farkı bulun: "), m("5\\frac{3}{5}-2\\frac{4}{5}"), t(".")],
+                sol("Çözüm: 5 3/5 yerine 4 8/5 yazılır. 4 8/5-2 4/5=2 4/5 olur."),
+              ),
+              ex("Sıra Sizde 4.179", [t("Farkı bulun: "), m("6\\frac{4}{9}-3\\frac{7}{9}")]),
+              ex("Sıra Sizde 4.180", [t("Farkı bulun: "), m("4\\frac{4}{7}-2\\frac{6}{7}")]),
+              pt(
+                "Çıkarma işlemini bileşik kesirlere çevirerek de yapabiliriz. Sonucu yine karma kesir biçiminde yazmak genellikle daha okunaklıdır.",
+              ),
+              ex(
+                "Örnek 4.91",
+                [t("Bileşik kesre çevirerek farkı bulun: "), m("9\\frac{6}{11}-7\\frac{10}{11}"), t(".")],
+                sol("Çözüm: 105/11-87/11=18/11=1 7/11 olur."),
+              ),
+              ex("Sıra Sizde 4.181", [t("Bileşik kesre çevirerek farkı bulun: "), m("6\\frac{4}{9}-3\\frac{7}{9}")]),
+              ex("Sıra Sizde 4.182", [t("Bileşik kesre çevirerek farkı bulun: "), m("4\\frac{4}{7}-2\\frac{6}{7}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug:
+          "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Paydalar farklıysa önce kesir kısımlarını ortak paydaya taşırız. Sonra karma kesirlerde kullandığımız toplama, çıkarma ve ödünç alma adımlarını uygularız.",
+              ),
+              ex(
+                "Örnek 4.92",
+                [t("Toplayın: "), m("2\\frac{1}{2}+5\\frac{2}{3}"), t(".")],
+                sol("Çözüm: Ortak payda 6'dır. 2 3/6+5 4/6=7 7/6=8 1/6 olur."),
+              ),
+              ex("Sıra Sizde 4.183", [t("Toplayın: "), m("1\\frac{5}{6}+4\\frac{3}{4}")]),
+              ex("Sıra Sizde 4.184", [t("Toplayın: "), m("3\\frac{4}{5}+8\\frac{1}{2}")]),
+              ex(
+                "Örnek 4.93",
+                [t("Farkı bulun: "), m("4\\frac{3}{4}-2\\frac{7}{8}"), t(".")],
+                sol("Çözüm: 4 6/8-2 7/8 işleminde ödünç alınır: 3 14/8-2 7/8=1 7/8 olur."),
+              ),
+              ex("Sıra Sizde 4.185", [t("Farkı bulun: "), m("8\\frac{1}{2}-3\\frac{4}{5}")]),
+              ex("Sıra Sizde 4.186", [t("Farkı bulun: "), m("4\\frac{3}{4}-1\\frac{5}{6}")]),
+              ex(
+                "Örnek 4.94",
+                [t("Çıkarın: "), m("3\\frac{5}{11}-4\\frac{3}{4}"), t(".")],
+                sol("Çözüm: Bileşik kesirler 38/11 ve 19/4'tür. Ortak payda 44 ile 152/44-209/44=-57/44=-1 13/44 olur."),
+              ),
+              ex("Sıra Sizde 4.187", [t("Çıkarın: "), m("1\\frac{3}{4}-6\\frac{7}{8}")]),
+              ex("Sıra Sizde 4.188", [t("Çıkarın: "), m("10\\frac{3}{7}-22\\frac{4}{9}")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

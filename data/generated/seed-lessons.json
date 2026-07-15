@@ -42343,6 +42343,2025 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "4.7",
+      "displayNumber": "3.6",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers",
+      "contentHash": "4394a71e8ea0333e9d9b75e5bd01e61abfaaac8274c815c2062aac8b0b838b94",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "021-2de741b987a362a0",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104479/46be2c0ea55e31a59ec44b6e9f36ef356665762d?revision=1",
+          "type": "image",
+          "altText": "A shaded circle is shown. Below it is a 1. There are arrows pointing to a shaded circle divided into 2 equal parts. Below it is 2 over 2. Next to this are two circles, each divided into 2 equal parts. The top circle has the right half shaded and the bottom circle has the left half shaded.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/021-2de741b987a362a0.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/021-2de741b987a362a0.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "022-05f51a9b3dac8c4d",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104481/c675f010f59181d556153535fdbaa9d5f9b35e15?revision=1",
+          "type": "image",
+          "altText": "On the left, it says 1 minus 1 half. There is an arrow pointing to 2 over 2 minus 1 over 2. There is another arrow pointing to 2 over 2 minus 1 over 2 equals 1 over 2.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/022-05f51a9b3dac8c4d.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/022-05f51a9b3dac8c4d.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "023-ae9e73e72bb52c2a",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104483/fabe46784f497626d25c163336ab265dbc45638c?revision=1",
+          "type": "image",
+          "altText": "There is a table with five rows and three columns. The first column is not labeled. The second column is labeled “Model.” The third column is labeled “Math Notation.” In the first column, the first row says, “Rewrite vertically. Start with one whole.” The next row says, “Since one-third has denominator 3, cut the whole into 3 pieces. The 1 whole becomes 3 thirds.” The next row says, “Take away one-third.” The last row says, “There are two-thirds left.” In the “Model” column, there is a picture of a shaded circle. Below that is a picture of a shaded circle divided into 3 equal pieces. Below that is a picture of a circle divided into 3 equal pieces with 2 pieces shaded. In the “Math Notation” column, the first row shows 1 minus 1 third. The next row says 3 thirds minus 1 third. The last row says 3 thirds minus 1 third is 2 thirds.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/023-ae9e73e72bb52c2a.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/023-ae9e73e72bb52c2a.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "024-17bc43ca18aa9aad",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104486/9ea562a7db01489ec57ed67aa2a6b1c58918b1fc?revision=1",
+          "type": "image",
+          "altText": "There is a table with four rows and three columns. The first column is not labeled. The second column is labeled “Model.” The third column is labeled “Math Notation.” In the first column, the first row says, “Rewrite vertically. Start with two wholes.” The next row says, “Since three-fourths has denominator 4, cut one of the wholes into 4 pieces. You have one whole and 4 fourths.” The next row says, “Take away three-fourths.” The last row says, “There is 1 and 1 fourth left.” In the “Model” column, there is a picture of two shaded circles. Below that is a picture of two shaded circles. One of the circles is divided into 4 equal pieces. Below that is a picture of one full shaded circle and a circle divided into 4 equal pieces with 1 piece shaded. In the “Math Notation” column, the first row shows 2 minus 3 fourths. The next row says 1 and 4 fourths minus 3 fourths. The last row says 1 and 4 fourths minus 3 fourths equals 1 and 1 fourth.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/024-17bc43ca18aa9aad.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/024-17bc43ca18aa9aad.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "025-6a652de5a58fddff",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104488/24f1ad83bab90c86929db85e3800ca3a557cd320?revision=1",
+          "type": "image",
+          "altText": "There is a table with five rows and three columns. The first column is not labeled. The second column is labeled “Model.” The third column is labeled “Math Notation.” In the first column, the first row says, “Rewrite vertically. Start with two wholes.” The next row says, “Since two-fifths has denominator 5, cut one of the wholes into 5 pieces. You have one whole and 5 fifths.” The next row says, “Take away 1 and two-fifths.” The last row says, “There is 3 fifths left.” In the “Model” column, there is a picture of two shaded circles. Below that is a picture of two shaded circles. One of the circles is divided into 5 equal pieces. Below that is a picture of one full unshaded circle and a circle divided into 5 equal pieces with 3 pieces shaded. In the “Math Notation” column, the first row shows 2 minus 1 and 2 fifths. The next row says 1 and 5 fifths minus 1 and 2 fifths. The last row says 1 and 5 fifths minus 1 and 2 fifths equals 3 fifths.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/025-6a652de5a58fddff.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/025-6a652de5a58fddff.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "037-f78b32cf945cca47",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104500/c557ea7df86ca8e00f35e8d1d5157e5a7c403fde?revision=1",
+          "type": "image",
+          "altText": "There are three vertical addition problems. The first shows 2 and 1 half plus 5 and 2 thirds. There is an arrow pointing to the next. This one shows 2 and 1 times a red 3 over 2 times a red 3, with an arrow pointing to the top red 3 that says, “Change into equivalent,” plus 5 and 2 times a red 2 over 3 times a red 2. There is an arrow pointing to the next. This one shows 2 and 3 sixths plus 5 and 4 sixths equals 7 and 7 sixths. Below are instructions to add and rewrite in simplest form. There is an arrow pointing to a red 8 and 1 sixth.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/037-f78b32cf945cca47.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/037-f78b32cf945cca47.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "038-91ad3d8882083e3c",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104499/e89ebb6bc8df1893dd298b69a4488d19bff37b71?revision=1",
+          "type": "image",
+          "altText": "There are four vertical subtraction problems. The first shows 4 and 3 fourths minus 2 and 7 eighths. There is an arrow pointing to the next. This shows 4 and 3 times a red 2 over 4 times a red 2, with an arrow above saying, “change into equivalent,” minus 2 and 7 eighths. There is an arrow pointing to the next. This shows 4 and 6 eighths minus 2 and 7 eighths. There is an arrow pointing to the next. It says to borrow 1 whole from the 4, since we cannot subtract 7 eighths from 6 eighths, and shows 3 and 14 eighths minus 2 and 7 eighths equals 1 and 7 eighths.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/038-91ad3d8882083e3c.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/038-91ad3d8882083e3c.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "0e0feb151a97f615",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-0",
+          "type": "table",
+          "caption": "We can use fraction circles to model this same example:",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/0e0feb151a97f615.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/0e0feb151a97f615.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "512de9bbabd06f11",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-1",
+          "type": "table",
+          "caption": "We will use fraction circles, whole circles for the whole numbers and 1313 pieces for the fractions.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/512de9bbabd06f11.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/512de9bbabd06f11.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e60cadba56f24fc2",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-2",
+          "type": "table",
+          "caption": "We will use fraction circles, whole circles for the whole numbers and 1515 pieces for the fractions.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/e60cadba56f24fc2.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/e60cadba56f24fc2.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b08aa6315e8c0fc5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/b08aa6315e8c0fc5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/b08aa6315e8c0fc5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5a7f5ec14a3cef6c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/5a7f5ec14a3cef6c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/5a7f5ec14a3cef6c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "731103a5837350fd",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/731103a5837350fd.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/731103a5837350fd.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e844afb77b7dcac9",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/e844afb77b7dcac9.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/e844afb77b7dcac9.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "3a976e2ac8129926",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/3a976e2ac8129926.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/3a976e2ac8129926.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "938807954c7012ff",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/938807954c7012ff.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/938807954c7012ff.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "0402e68ea7f11dca",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/0402e68ea7f11dca.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/0402e68ea7f11dca.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "630e3f5dc3f737ad",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers#table-10",
+          "type": "table",
+          "caption": "We can see the answer will be negative since we are subtracting 44 from 3.3. Generally, when we know the answer will be negative it is easier to subtract with improper fractions rather than mixed numbers.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/630e3f5dc3f737ad.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/630e3f5dc3f737ad.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 5,
+        "sections": 5,
+        "blocks": 51,
+        "examples": 13,
+        "tryIts": 28,
+        "sourceExercises": 31,
+        "exercises": 31,
+        "mathTokens": 44,
+        "assets": 18
+      },
+      "lesson": {
+        "id": "lesson-mixed-number-addition-subtraction",
+        "slug": "karma-kesirlerde-toplama-cikarma",
+        "displayTitle": "Karma Kesirlerde Toplama ve Çıkarma",
+        "summary": "Karma kesirleri modelleyerek toplayıp çıkarın, gerektiğinde ödünç alma yapın ve farklı paydalı karma kesirlerle çalışın.",
+        "sortOrder": 6,
+        "chapterId": "chapter-fractions",
+        "sourceNumber": "4.7",
+        "displayNumber": "3.6",
+        "sourceTitle": "Add and Subtract Mixed Numbers",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "kesirler",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Ortak paydalı karma kesirlerin toplamını modelleyebileceksiniz.",
+          "Ortak paydalı karma kesirleri toplayabileceksiniz.",
+          "Karma kesirlerde çıkarmayı modelleyebileceksiniz.",
+          "Ortak paydalı karma kesirleri çıkarabileceksiniz.",
+          "Farklı paydalı karma kesirleri toplayıp çıkarabileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "karma-kesirlerde-toplama-cikarma-section-01",
+            "heading": "Karma Kesir Toplamayı Modelleme",
+            "slug": "karma-kesir-toplamayi-modelleme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karma kesirler bir tam sayı ile bir kesirden oluşur. Toplama yaparken tam kısımları ve kesir kısımlarını ayrı ayrı düşünebiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{1}{4}+2\\frac{1}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " işleminde tam kısımlar 3, kesir kısımları "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{2}{4}=\\frac{1}{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " eder. Sonuç "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{1}{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.161",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{2}{5}+3\\frac{3}{5}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 1+3=4, kesir kısımları 2/5+3/5=5/5=1 olur. Toplam 5'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.162",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{1}{6}+2\\frac{5}{6}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 2+2=4, kesir kısımları 1/6+5/6=1 olur. Toplam 5'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.82",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin ve toplamı karma kesir olarak yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{3}{5}+2\\frac{3}{5}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 3 eder. Kesir kısımları 6/5=1 1/5 olduğundan toplam 4 1/5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.163",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin ve toplamı karma kesir olarak yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{5}{6}+1\\frac{5}{6}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 3 eder. Kesir kısımları 10/6=1 2/3 olduğu için toplam 4 2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.164",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Modelleyin ve toplamı karma kesir olarak yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{5}{8}+1\\frac{7}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 2 eder. Kesir kısımları 12/8=1 1/2 olduğundan toplam 3 1/2 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karma-kesirlerde-toplama-cikarma-section-02",
+            "heading": "Karma Kesirleri Toplama",
+            "slug": "karma-kesirleri-toplama",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karma kesirleri toplarken önce tam kısımları, sonra kesir kısımlarını toplarız. Kesir kısmı 1 tamı aşarsa bunu tam kısma ekleriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.83",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{4}{9}+2\\frac{2}{9}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 5, kesir kısımları 6/9=2/3 eder. Toplam 5 2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.165",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4\\frac{4}{7}+1\\frac{2}{7}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 5, kesir kısımları 6/7 eder. Toplam 5 6/7'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.166",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{3}{11}+5\\frac{6}{11}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 7, kesir kısımları 9/11 eder. Sonuç 7 9/11 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kesir kısımlarının toplamı bileşik kesir olursa onu tam sayılı kesre çevirip tam kısma ekleriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.84",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9\\frac{5}{9}+5\\frac{7}{9}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 14, kesir kısımları 12/9=1 1/3 eder. Toplam 15 1/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.167",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8\\frac{7}{8}+7\\frac{5}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 15, kesir kısımları 12/8=1 1/2 eder. Toplam 16 1/2 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.168",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6\\frac{7}{9}+8\\frac{5}{9}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Tam kısımlar 14, kesir kısımları 12/9=1 1/3 eder. Toplam 15 1/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İsterseniz karma kesirleri önce bileşik kesre çevirip de toplayabilirsiniz. Bu yöntem özellikle yatay işlemlerde düzenlidir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.85",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bileşik kesre çevirerek toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{7}{8}+4\\frac{3}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3 7/8=31/8 ve 4 3/8=35/8. Toplam 66/8=8 1/4 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.169",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bileşik kesre çevirerek toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5\\frac{5}{9}+3\\frac{7}{9}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bileşik kesre çevirsek de aynı sonuç çıkar: 5 5/9+3 7/9=9 1/3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.170",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bileşik kesre çevirerek toplamı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{7}{10}+2\\frac{9}{10}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Kesir kısımları 16/10=1 3/5 eder; tam kısımlarla birlikte sonuç 6 3/5 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karma-kesirlerde-toplama-cikarma-section-03",
+            "heading": "Karma Kesir Çıkarmayı Modelleme",
+            "slug": "karma-kesir-cikarmayi-modelleme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karma kesirlerde çıkarma yaparken bazen bir tamı kesir parçalarına ayırmamız gerekir. Bu, modelde bir tam daireyi eş parçalara bölmek gibidir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.86",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1-\\frac{1}{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 tamı 3/3 olarak böleriz. 3/3-1/3=2/3 kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.171",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1-\\frac{1}{4}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 tamı 4/4 olarak düşünürüz. 4/4-1/4=3/4 kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.172",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1-\\frac{1}{5}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 tamı 5/5 olarak parçalarız. 5/5-1/5=4/5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.87",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2-\\frac{3}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 tamdan birini 4/4 olarak ayırırız. 1 tam ve 1/4 kalır; sonuç 1 1/4 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.173",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2-\\frac{1}{5}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 tamdan 1/5 çıkarılırsa bir tam ve 4/5 kalır. Sonuç 1 4/5'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.174",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2-\\frac{1}{3}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 tamdan 1/3 çıkarılırsa bir tam ve 2/3 kalır. Sonuç 1 2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.88",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2-1\\frac{2}{5}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 tamdan 1 tam çıkarılır; kalan 1 tamdan 2/5 çıkarınca 3/5 kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.175",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2-1\\frac{1}{3}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2-1 1/3 işleminde 2 tamdan 1 tam çıkarılır, sonra 1/3 çıkarılır. Kalan 2/3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.176",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2-1\\frac{1}{4}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2-1 1/4=1-1/4 olur. 1 tamı 4/4 yazınca kalan 3/4'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir karma kesirden yalnızca kesir çıkarırken de gerekirse tam kısımdan ödünç alıp kesir parçalarına çeviririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.89",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{1}{4}-\\frac{3}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 1/4 sayısı 5/4'tür. 5/4-3/4=2/4=1/2 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.177",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{1}{3}-\\frac{2}{3}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 1/3 içindeki 1 tamı 3/3 olarak ödünç alırız: 4/3-2/3=2/3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.178",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Model kullanarak çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{1}{5}-\\frac{4}{5}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 1/5 sayısı 6/5'tir. 6/5-4/5=2/5 kalır."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karma-kesirlerde-toplama-cikarma-section-04",
+            "heading": "Ortak Paydalı Karma Kesirleri Çıkarma",
+            "slug": "ortak-paydali-karma-kesirleri-cikarma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Model olmadan çıkarma yaparken kesir kısmı yetmiyorsa tam kısımdan 1 tam ödünç alır ve bunu payda kadar parçaya çeviririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.90",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5\\frac{3}{5}-2\\frac{4}{5}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 3/5 yerine 4 8/5 yazılır. 4 8/5-2 4/5=2 4/5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.179",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6\\frac{4}{9}-3\\frac{7}{9}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6 4/9 sayısından 1 tam ödünç alınır: 5 13/9-3 7/9=2 6/9=2 2/3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.180",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4\\frac{4}{7}-2\\frac{6}{7}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4 4/7 sayısını 3 11/7 olarak yazarız. 3 11/7-2 6/7=1 5/7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarma işlemini bileşik kesirlere çevirerek de yapabiliriz. Sonucu yine karma kesir biçiminde yazmak genellikle daha okunaklıdır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.91",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bileşik kesre çevirerek farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9\\frac{6}{11}-7\\frac{10}{11}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 105/11-87/11=18/11=1 7/11 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.181",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bileşik kesre çevirerek farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6\\frac{4}{9}-3\\frac{7}{9}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bileşik kesirle 6 4/9=58/9 ve 3 7/9=34/9. Fark 24/9=2 2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.182",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bileşik kesre çevirerek farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4\\frac{4}{7}-2\\frac{6}{7}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4 4/7=32/7 ve 2 6/7=20/7. Fark 12/7=1 5/7 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karma-kesirlerde-toplama-cikarma-section-05",
+            "heading": "Farklı Paydalı Karma Kesirlerde Toplama ve Çıkarma",
+            "slug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Paydalar farklıysa önce kesir kısımlarını ortak paydaya taşırız. Sonra karma kesirlerde kullandığımız toplama, çıkarma ve ödünç alma adımlarını uygularız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.92",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{1}{2}+5\\frac{2}{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak payda 6'dır. 2 3/6+5 4/6=7 7/6=8 1/6 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.183",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{5}{6}+4\\frac{3}{4}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak payda 12'dir. 1 10/12+4 9/12=5 19/12=6 7/12 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.184",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{4}{5}+8\\frac{1}{2}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak payda 10'dur. 3 8/10+8 5/10=11 13/10=12 3/10 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.93",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4\\frac{3}{4}-2\\frac{7}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4 6/8-2 7/8 işleminde ödünç alınır: 3 14/8-2 7/8=1 7/8 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.185",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8\\frac{1}{2}-3\\frac{4}{5}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8 1/2=8 5/10 ve 3 4/5=3 8/10. Ödünç alarak 7 15/10-3 8/10=4 7/10."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.186",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Farkı bulun: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4\\frac{3}{4}-1\\frac{5}{6}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak payda 12'dir. 4 3/4=4 9/12 ve 1 5/6=1 10/12. Ödünç alınca sonuç 2 11/12 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.94",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{5}{11}-4\\frac{3}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bileşik kesirler 38/11 ve 19/4'tür. Ortak payda 44 ile 152/44-209/44=-57/44=-1 13/44 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.187",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{3}{4}-6\\frac{7}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bileşik kesirlerle 1 3/4=14/8 ve 6 7/8=55/8. Fark -41/8=-5 1/8 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.188",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10\\frac{3}{7}-22\\frac{4}{9}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak payda 63'tür. 10 3/7=657/63 ve 22 4/9=1414/63. Fark -757/63=-12 1/63 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-437",
+            "number": "437",
+            "sectionSlug": "karma-kesir-toplamayi-modelleme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: 2 1/3+1 1/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar 2+1=3, kesir kısımları 1/3+1/3=2/3 eder. Toplam 3 2/3 olur."
+              }
+            ],
+            "sortOrder": 437
+          },
+          {
+            "id": "exercise-439",
+            "number": "439",
+            "sectionSlug": "karma-kesir-toplamayi-modelleme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: 1 5/6+1 5/6."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar 2 eder, kesir kısımları 10/6=1 2/3 eder. Toplam 3 2/3 olur."
+              }
+            ],
+            "sortOrder": 439
+          },
+          {
+            "id": "exercise-441",
+            "number": "441",
+            "sectionSlug": "karma-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: 2 4/9+5 1/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar 7, kesir kısımları 5/9 eder. Sonuç 7 5/9'dur."
+              }
+            ],
+            "sortOrder": 441
+          },
+          {
+            "id": "exercise-443",
+            "number": "443",
+            "sectionSlug": "karma-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: 7 9/10+3 1/10."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar 10, kesir kısımları 10/10=1 eder. Toplam 11 olur."
+              }
+            ],
+            "sortOrder": 443
+          },
+          {
+            "id": "exercise-445",
+            "number": "445",
+            "sectionSlug": "karma-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: 9 2/3+1 2/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar 10, kesir kısımları 4/3=1 1/3 eder. Toplam 11 1/3 olur."
+              }
+            ],
+            "sortOrder": 445
+          },
+          {
+            "id": "exercise-447",
+            "number": "447",
+            "sectionSlug": "karma-kesirleri-toplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın: 8 4/9+2 8/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar 10, kesir kısımları 12/9=1 1/3 eder. Toplam 11 1/3 olur."
+              }
+            ],
+            "sortOrder": 447
+          },
+          {
+            "id": "exercise-449",
+            "number": "449",
+            "sectionSlug": "karma-kesir-cikarmayi-modelleme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Model kullanarak farkı bulun ve modelinizi gösteren bir çizim düşünün: 1 1/8-5/8."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1 1/8 sayısı 9/8'dir. 9/8-5/8=4/8=1/2 kalır; modelde sekizde dört parça kalır."
+              }
+            ],
+            "sortOrder": 449
+          },
+          {
+            "id": "exercise-451",
+            "number": "451",
+            "sectionSlug": "ortak-paydali-karma-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 2 7/12-1 5/12."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar farkı 1, kesir kısımları farkı 2/12 olur. 2/12=1/6, sonuç 1 1/6'dır."
+              }
+            ],
+            "sortOrder": 451
+          },
+          {
+            "id": "exercise-453",
+            "number": "453",
+            "sectionSlug": "ortak-paydali-karma-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 19 13/15-13 7/15."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar 6, kesir kısımları 6/15 eder. 6/15=2/5 olduğundan sonuç 6 2/5 olur."
+              }
+            ],
+            "sortOrder": 453
+          },
+          {
+            "id": "exercise-455",
+            "number": "455",
+            "sectionSlug": "ortak-paydali-karma-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 5 2/9-3 4/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5 2/9'dan 1 tam ödünç alırız: 4 11/9-3 4/9=1 7/9 olur."
+              }
+            ],
+            "sortOrder": 455
+          },
+          {
+            "id": "exercise-457",
+            "number": "457",
+            "sectionSlug": "ortak-paydali-karma-kesirleri-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Farkı bulun: 2 5/12-1 7/12."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 5/12 sayısını 1 17/12 olarak yazarız. 1 17/12-1 7/12=10/12=5/6 olur."
+              }
+            ],
+            "sortOrder": 457
+          },
+          {
+            "id": "exercise-459",
+            "number": "459",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı ya da farkı sadeleştirilmiş karma kesir olarak yazın: 2 1/6+5 3/4."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ortak payda 12'dir. 2 2/12+5 9/12=7 11/12 olur."
+              }
+            ],
+            "sortOrder": 459
+          },
+          {
+            "id": "exercise-461",
+            "number": "461",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı ya da farkı sadeleştirilmiş karma kesir olarak yazın: 7 2/3+8 1/2."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ortak payda 6'dır. 7 4/6+8 3/6=15 7/6=16 1/6 olur."
+              }
+            ],
+            "sortOrder": 461
+          },
+          {
+            "id": "exercise-463",
+            "number": "463",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı ya da farkı sadeleştirilmiş karma kesir olarak yazın: 6 4/5-1 1/4."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ortak payda 20'dir. 6 16/20-1 5/20=5 11/20 olur."
+              }
+            ],
+            "sortOrder": 463
+          },
+          {
+            "id": "exercise-465",
+            "number": "465",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplamı ya da farkı sadeleştirilmiş karma kesir olarak yazın: 2 7/8-4 1/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bileşik kesre çeviririz: 23/8-13/3=69/24-104/24=-35/24=-1 11/24 olur."
+              }
+            ],
+            "sortOrder": 465
+          },
+          {
+            "id": "exercise-467",
+            "number": "467",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş karma kesir olarak yazın: 1 2/3·4 1/6."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Karma kesirleri bileşik kesre çeviririz: 5/3·25/6=125/18=6 17/18 olur."
+              }
+            ],
+            "sortOrder": 467
+          },
+          {
+            "id": "exercise-469",
+            "number": "469",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş biçimde yazın: 2/9+5/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Paydalar aynı olduğu için payları toplarız. 2/9+5/9=7/9 olur."
+              }
+            ],
+            "sortOrder": 469
+          },
+          {
+            "id": "exercise-471",
+            "number": "471",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş biçimde yazın: 2 3/10÷1/10."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 3/10=23/10. 23/10÷1/10=23/10·10=23 olur."
+              }
+            ],
+            "sortOrder": 471
+          },
+          {
+            "id": "exercise-473",
+            "number": "473",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş karma kesir olarak yazın: 15 5/8-6 7/8."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 15 5/8'den 1 tam ödünç alırız: 14 13/8-6 7/8=8 6/8=8 3/4 olur."
+              }
+            ],
+            "sortOrder": 473
+          },
+          {
+            "id": "exercise-475",
+            "number": "475",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş biçimde yazın: 11/15-7/15."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Paydalar aynı olduğu için 11-7=4 yazılır. Sonuç 4/15'tir."
+              }
+            ],
+            "sortOrder": 475
+          },
+          {
+            "id": "exercise-477",
+            "number": "477",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş karma kesir olarak yazın: 6-2/5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6 tamdan 2/5 çıkarırken 1 tamı 5/5 olarak ayırırız. Kalan 5 3/5 olur."
+              }
+            ],
+            "sortOrder": 477
+          },
+          {
+            "id": "exercise-479",
+            "number": "479",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş biçimde yazın: 7/24÷14/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bölme yerine ters kesirle çarparız: 7/24·3/14=21/336=1/16 olur."
+              }
+            ],
+            "sortOrder": 479
+          },
+          {
+            "id": "exercise-481",
+            "number": "481",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş karma kesir olarak yazın: 8 5/13+4 9/13."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Tam kısımlar 12, kesir kısımları 14/13=1 1/13 eder. Toplam 13 1/13 olur."
+              }
+            ],
+            "sortOrder": 481
+          },
+          {
+            "id": "exercise-483",
+            "number": "483",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş karma kesir olarak yazın: 2 5/6+4 1/5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ortak payda 30'dur. 2 25/30+4 6/30=6 31/30=7 1/30 olur."
+              }
+            ],
+            "sortOrder": 483
+          },
+          {
+            "id": "exercise-485",
+            "number": "485",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş biçimde yazın: 5/12·8/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpma yapıp sadeleştiririz: 5/12·8/9=40/108=10/27 olur."
+              }
+            ],
+            "sortOrder": 485
+          },
+          {
+            "id": "exercise-487",
+            "number": "487",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş karma kesir olarak yazın: 6 5/9-4 2/5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ortak payda 45'tir. 6 25/45-4 18/45=2 7/45 olur."
+              }
+            ],
+            "sortOrder": 487
+          },
+          {
+            "id": "exercise-489",
+            "number": "489",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İşlemi yapın ve sonucu sadeleştirilmiş biçimde yazın: 4 3/8-3 2/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ortak payda 24'tür. 4 9/24-3 16/24 için ödünç alınır; sonuç 17/24 olur."
+              }
+            ],
+            "sortOrder": 489
+          },
+          {
+            "id": "exercise-491",
+            "number": "491",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Pauline'in ceket dikmek için 3 1/4 yard kumaşı var. Ceket 2 2/3 yard kumaş kullanıyor. Ceketten sonra ne kadar kumaşı kalır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kalan kumaş 3 1/4-2 2/3'tür. 13/4-8/3=39/12-32/12=7/12 yard kalır."
+              }
+            ],
+            "sortOrder": 491
+          },
+          {
+            "id": "exercise-493",
+            "number": "493",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tessa'nın aldığı fotoğraf 8 inç genişliğinde. Çerçeve fotoğrafın her iki yanında 2 5/8 inç genişlik ekliyor. Çerçeveli fotoğraf toplam kaç inç geniş olur?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çerçeve iki yanda 2 5/8 inç ekler. Toplam genişlik 8+2·2 5/8=8+5 1/4=13 1/4 inç olur."
+              }
+            ],
+            "sortOrder": 493
+          },
+          {
+            "id": "exercise-495",
+            "number": "495",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Edgar şehre gitmek için 3,75 dolar geçiş ücreti ödeyecek. ⓐ 10 dolarlık banknotunu yola çıkmadan nasıl bozdurursa tam ödeme yapabilir? ⓑ Bu durum 10-3 3/4 işlemiyle nasıl benzerdir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Edgar 3 dolar ve 3 çeyrek dolar hazırlarsa 3,75 doları tam öder. Bu, 10-3 3/4 işleminde 10 tamdan 1 tamı 4/4 olarak bozup 9 4/4-3 3/4=6 1/4 bulmaya benzer."
+              }
+            ],
+            "sortOrder": 495
+          },
+          {
+            "id": "exercise-497",
+            "number": "497",
+            "sectionSlug": "farkli-paydali-karma-kesirlerde-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "3 7/8-4 5/12 işlemini iki kez yapın: önce karma kesir olarak, sonra bileşik kesre çevirerek. Hangi yöntemi tercih edersiniz, neden?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Karma kesirle işlem yapmak için ortak payda 24 alınır; 3 21/24-4 10/24=-13/24 olur. Bileşik kesirle de 31/8-53/12=93/24-106/24=-13/24 bulunur. Bu örnekte bileşik kesir yöntemi daha nettir."
+              }
+            ],
+            "sortOrder": 497
+          }
+        ]
+      }
     }
   ]
 }
