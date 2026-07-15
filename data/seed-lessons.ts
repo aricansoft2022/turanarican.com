@@ -318,7 +318,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Eşitlik ve Denklem",
       summary:
         "Bir değerin denklemi sağlayıp sağlamadığını kontrol edin, eşitliği koruyarak denklem çözün ve sözel durumları denklemle gösterin.",
-      sortOrder: 4,
+      sortOrder: 3,
     },
     objectives: [
       "Bir sayının bir denklemin çözümü olup olmadığını kontrol edebileceksiniz.",
@@ -563,7 +563,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Çarpanlar ve Katlar",
       summary:
         "Doğal sayıların katlarını ve çarpanlarını bulun, bölünebilme kurallarını kullanın ve asal-bileşik sayıları ayırt edin.",
-      sortOrder: 5,
+      sortOrder: 4,
     },
     objectives: [
       "Doğal sayıların katlarını belirleyebileceksiniz.",
@@ -744,7 +744,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Asal Çarpanlar ve EKOK",
       summary:
         "Bileşik sayıları asal çarpanlarına ayırın ve iki sayının en küçük ortak katını farklı yöntemlerle bulun.",
-      sortOrder: 6,
+      sortOrder: 5,
     },
     objectives: [
       "Bileşik sayıları asal çarpanlarına ayırabileceksiniz.",
@@ -918,7 +918,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Tam Sayılar ve Mutlak Değer",
       summary:
         "Pozitif ve negatif sayıları sayı doğrusunda gösterin, tam sayıları karşılaştırın, zıt sayıları ve mutlak değeri kullanın.",
-      sortOrder: 2,
+      sortOrder: 1,
     },
     objectives: [
       "Pozitif ve negatif sayıları sayı doğrusunda gösterebileceksiniz.",
@@ -1158,7 +1158,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Tam Sayılarla Toplama",
       summary:
         "Pozitif ve negatif tam sayıları modelleyerek toplayın, değişkenli ifadeleri değerlendirin ve günlük yaşam problemlerini tam sayılarla çözün.",
-      sortOrder: 3,
+      sortOrder: 2,
     },
     objectives: [
       "Tam sayılarla toplamayı modelleyebileceksiniz.",
@@ -1354,7 +1354,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Tam Sayılarla Çıkarma",
       summary:
         "Tam sayılarla çıkarmayı sayaç modeliyle anlamlandırın, zıttını ekleme kuralını kullanın ve uygulama problemlerini çözün.",
-      sortOrder: 4,
+      sortOrder: 3,
     },
     objectives: [
       "Tam sayılarla çıkarmayı modelleyebileceksiniz.",
@@ -1576,7 +1576,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Tam Sayılarla Çarpma ve Bölme",
       summary:
         "Tam sayılarla çarpma ve bölme kurallarını öğrenin, işlem önceliğiyle ifadeleri sadeleştirin ve değişkenli ifadeleri değerlendirin.",
-      sortOrder: 5,
+      sortOrder: 4,
     },
     objectives: [
       "Tam sayılarla çarpma işlemi yapabileceksiniz.",
@@ -1764,7 +1764,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Tam Sayılarla Denklem Çözme",
       summary:
         "Tam sayılarla denklemlerde çözüm kontrolü yapın, eşitliğin toplama, çıkarma ve bölme özellikleriyle denklem çözün.",
-      sortOrder: 6,
+      sortOrder: 5,
     },
     objectives: [
       "Bir tam sayının denklemin çözümü olup olmadığını belirleyebileceksiniz.",
@@ -1932,7 +1932,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Kesirleri Görselleştirme",
       summary:
         "Kesirleri bütünün parçası olarak modelleyin, bileşik ve tam sayılı kesirleri dönüştürün, denk kesirleri ve sayı doğrusundaki yerlerini görün.",
-      sortOrder: 2,
+      sortOrder: 1,
     },
     objectives: [
       "Kesrin bütünün eş parçalarını nasıl gösterdiğini açıklayabileceksiniz.",
@@ -2157,7 +2157,7 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       displayTitle: "Kesirlerle Çarpma ve Bölme",
       summary:
         "Kesirleri sadeleştirin, kesirlerle çarpma yapın, ters kesri bulun ve kesirlerle bölme işlemini açıklayarak çözün.",
-      sortOrder: 3,
+      sortOrder: 2,
     },
     objectives: [
       "Kesirleri ortak çarpanları kullanarak sadeleştirebileceksiniz.",

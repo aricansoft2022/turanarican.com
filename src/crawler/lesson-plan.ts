@@ -79,11 +79,14 @@ export function resolveDisplayNumber(
   if (numberingPolicy !== "skip_intro_shift") return sourceNumber;
 
   const parsed = parseLessonNumber(sourceNumber);
-  if (typeof parsed.lesson !== "number" || parsed.lesson <= 1) {
-    return sourceNumber;
-  }
+  const displayChapter =
+    Number(parsed.chapter) > 1 ? Number(parsed.chapter) - 1 : 1;
+  const displayLesson =
+    typeof parsed.lesson === "number" && parsed.lesson > 1
+      ? parsed.lesson - 1
+      : parsed.lesson;
 
-  return `${parsed.chapter}.${parsed.lesson - 1}`;
+  return `${displayChapter}.${displayLesson}`;
 }
 
 function compareLessonNumbers(left: string, right: string) {

@@ -76,7 +76,6 @@ License observed on LibreTexts: CC BY 4.0, author/source OpenStax.
 
 Initial target ranges:
 
-- 1.2 through 1.6
 - 2.2 through 2.6
 - 3.2 through 3.6
 - 4.2 through 4.8
@@ -88,9 +87,13 @@ Initial target ranges:
 - 10.2 through 10.7
 - 11.2 through 11.5
 
-Important numbering rule: for this book, some early pages such as `2.1` may be
-skipped in the Turkish product flow. Preserve the real source number separately
-from the displayed product number so attribution and source lookup remain exact.
+Important numbering rule: for this book, the Turkish product flow starts at
+source chapter 2 and displays it as chapter 1. Source chapter numbers from `2`
+onward are shifted down by one for display, and early pages such as `2.1` may
+also be skipped. For example, source `2.2` displays as `1.1`, source `3.2`
+displays as `2.1`, and source `4.3` displays as `3.2`. Preserve the real source
+number separately from the displayed product number so attribution and source
+lookup remain exact.
 
 ### Elementary Algebra (LibreTexts)
 
@@ -325,12 +328,12 @@ Expected first build milestones:
 
 Current next seed candidate after the latest local work: Prealgebra 4.4
 `Multiply and Divide Mixed Numbers and Complex Fractions`, displayed as product
-lesson 4.3 under `Kesirler`.
+lesson 3.3 under `Kesirler`.
 
 Latest completed seed lesson: Prealgebra 4.3 `Multiply and Divide Fractions`,
-displayed as `Kesirlerle Çarpma ve Bölme`. It includes 4 Turkish editorial
-sections, 36 Sıra Sizde solutions, 51 source exercises with explanatory reveal
-solutions, and 37 extracted source assets.
+displayed as product lesson 3.2 `Kesirlerle Çarpma ve Bölme`. It includes 4
+Turkish editorial sections, 36 Sıra Sizde solutions, 51 source exercises with
+explanatory reveal solutions, and 37 extracted source assets.
 
 ## Quality Gates
 
