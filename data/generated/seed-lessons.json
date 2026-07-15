@@ -57214,6 +57214,2052 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "5.7",
+      "displayNumber": "4.6",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate",
+      "contentHash": "b36009b9e1a01e5e6f208ab8ac2e2a273d2050434b95fcdd0db64febe08619ff",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-65fd10b337efc8a1",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103005/d9c08eca1194bed097ab8acfb6957335dde5c520?revision=1",
+          "type": "image",
+          "altText": "A fraction is shown with 0.8 in the numerator and 0.05 in the denominator. Below it is the same fraction with both the numerator and denominator multiplied by 100. Below that is a fraction with 80 in the numerator and 5 in the denominator.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/000-65fd10b337efc8a1.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/000-65fd10b337efc8a1.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "001-1a2c3447ed05e54f",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103007/1681ab970a86f712e925001dbf3968a14cb42bab?revision=1",
+          "type": "image",
+          "altText": "The top line says 0.80 over 0.05. There are blue arrows moving the decimal points over 2 places to the right.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/001-1a2c3447ed05e54f.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/001-1a2c3447ed05e54f.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "bbb769c2fa702fd8",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/bbb769c2fa702fd8.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/bbb769c2fa702fd8.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c1e91b19d1f45eef",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/c1e91b19d1f45eef.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/c1e91b19d1f45eef.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "805f8aef79a6912a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-2",
+          "type": "table",
+          "caption": "Do you see a shortcut to find the equivalent fraction? Notice that 0.8=8100.8=810 and 0.05=5100.0.05=5100. The least common denominator of 810810 and 51005100 is 100.100. By multiplying the numerator and denominator of 0.80.050.80.05 by 100",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/805f8aef79a6912a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/805f8aef79a6912a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c33d09ab5780d5a4",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/c33d09ab5780d5a4.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/c33d09ab5780d5a4.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "943c7e3d6d1d293c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-4",
+          "type": "table",
+          "caption": "So 4.8to11.24.8to11.2 is equivalent to 37.37.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/943c7e3d6d1d293c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/943c7e3d6d1d293c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "18c9735809f98a0f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/18c9735809f98a0f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/18c9735809f98a0f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c8ad222cc2541c9c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-6",
+          "type": "table",
+          "caption": "ⓐ First, write the words that express the ratio. We want to know the ratio of Hector's total cholesterol to his HDL cholesterol.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/c8ad222cc2541c9c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/c8ad222cc2541c9c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1f89e273f1b686ff",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-7",
+          "type": "table",
+          "caption": "Write the words that express the ratio.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/1f89e273f1b686ff.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/1f89e273f1b686ff.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "94351fe53e0e5515",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/94351fe53e0e5515.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/94351fe53e0e5515.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d147e4594c7468ca",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/d147e4594c7468ca.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/d147e4594c7468ca.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "84b1f06f10a808a2",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/84b1f06f10a808a2.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/84b1f06f10a808a2.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e5de9a0582ba7698",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-11",
+          "type": "table",
+          "caption": "Start with a rate of miles to gallons. Then divide.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/e5de9a0582ba7698.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/e5de9a0582ba7698.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "714d08e5db3cc08a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-12",
+          "type": "table",
+          "caption": "What are we asked to find? We are asked to find the unit price, which is the price per bottle.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/714d08e5db3cc08a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/714d08e5db3cc08a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c894bfb3062f3699",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/c894bfb3062f3699.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/c894bfb3062f3699.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "12e8be16e3a1ad45",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/12e8be16e3a1ad45.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/12e8be16e3a1ad45.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7386a8fe09ce125e",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-15",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/7386a8fe09ce125e.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/7386a8fe09ce125e.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "66fdd212bb721c27",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate#table-16",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-6-ratios-and-rate/66fdd212bb721c27.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-6-ratios-and-rate/66fdd212bb721c27.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 5,
+        "sections": 8,
+        "blocks": 48,
+        "examples": 11,
+        "tryIts": 22,
+        "sourceExercises": 43,
+        "exercises": 43,
+        "mathTokens": 18,
+        "assets": 19
+      },
+      "lesson": {
+        "id": "lesson-ratios-rates",
+        "slug": "oran-ve-birim-oran",
+        "displayTitle": "Oran ve Birim Oran",
+        "summary": "Oranları kesir olarak yazın, birimli oran ve birim fiyat hesaplayın, oran içeren sözel ifadeleri cebirsel gösterimlere çevirin.",
+        "sortOrder": 6,
+        "chapterId": "chapter-decimals",
+        "sourceNumber": "5.7",
+        "displayNumber": "4.6",
+        "sourceTitle": "Ratios and Rate",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.07%3A_Ratios_and_Rate",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "ondalik-sayilar",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Oranları kesir olarak yazabileceksiniz.",
+          "Birimli oranları kesir olarak gösterebileceksiniz.",
+          "Birim oranları hesaplayabileceksiniz.",
+          "Birim fiyatları karşılaştırabileceksiniz.",
+          "Oran ve birim oran içeren sözel ifadeleri kesirli cebirsel ifadelere çevirebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "oran-ve-birim-oran-section-01",
+            "heading": "Oranı Kesir Olarak Yazma",
+            "slug": "orani-kesir-olarak-yazma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Oran, aynı birimle ölçülen iki çokluğu karşılaştırır. a ile b karşılaştırılıyorsa bu oran “a'nın b'ye oranı”, a/b ya da a:b biçiminde yazılabilir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bu bölümde oranları kesir biçiminde yazacağız. Oran kesri sadeleştirilir; ancak bileşik kesirse karma sayıya çevrilmez, çünkü iki çokluğun karşılaştırmasını görmek isteriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.58",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her oranı kesir olarak yazın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "15\\text{ to }27"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "45\\text{ to }18"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 15/27 kesri 3 ile sadeleşir ve 5/9 olur. ⓑ 45/18 kesri 9 ile sadeleşir ve 5/2 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.115",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her oranı kesir olarak yazın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "21\\text{ to }56"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "48\\text{ to }32"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 21/56 kesri 7 ile sadeleşir ve 3/8 olur. ⓑ 48/32 kesri 16 ile sadeleşir ve 3/2 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.116",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her oranı kesir olarak yazın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "27\\text{ to }72"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "51\\text{ to }34"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 27/72 kesri 9 ile sadeleşir ve 3/8 olur. ⓑ 51/34 kesri 17 ile sadeleşir ve 3/2 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oran-ve-birim-oran-section-02",
+            "heading": "Ondalık Sayılarla Oranlar",
+            "slug": "ondalik-sayilarla-oranlar",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Para ve ölçme durumlarında oranlar ondalık sayılar içerebilir. Böyle oranları sadeleştirmek için payı ve paydayı aynı 10 kuvvetiyle çarpar, ondalık basamakları kaldırırız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}8\\text{ to }0{,}05"
+                  },
+                  {
+                    "type": "text",
+                    "value": " oranı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{0{,}8}{0{,}05}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olarak yazılır. Her iki tarafı 100 ile çarparsak "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{80}{5}=\\frac{16}{1}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " elde ederiz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.59",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her oranı tam sayılı kesir olarak yazın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4{,}8\\text{ to }11{,}2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2{,}7\\text{ to }0{,}54"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 4,8/11,2 oranını 10 ile genişletiriz: 48/112=3/7. ⓑ 2,7/0,54 oranını 100 ile genişletiriz: 270/54=5/1."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.117",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her oranı kesir olarak yazın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4{,}6\\text{ to }11{,}5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2{,}3\\text{ to }0{,}69"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 4,6/11,5 oranını 10 ile genişletiriz: 46/115=2/5. ⓑ 2,3/0,69 oranını 100 ile genişletiriz: 230/69=10/3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.118",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her oranı kesir olarak yazın: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3{,}4\\text{ to }15{,}3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3{,}4\\text{ to }0{,}68"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 3,4/15,3 oranı 34/153=2/9 olur. ⓑ 3,4/0,68 oranı 340/68=5/1 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bazı oranlar karma sayılar içerir. Bu durumda önce karma sayıları bileşik kesre çevirir, sonra kesir bölmesini yaparız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.60",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Oranı kesir olarak yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{1}{4}\\text{ to }2\\frac{3}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 tam 1/4=5/4 ve 2 tam 3/8=19/8. Oran (5/4)/(19/8)=5/4·8/19=10/19 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.119",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Oranı kesir olarak yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{3}{4}\\text{ to }2\\frac{5}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 tam 3/4=7/4 ve 2 tam 5/8=21/8. Oran (7/4)/(21/8)=7/4·8/21=2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.120",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Oranı kesir olarak yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{1}{8}\\text{ to }2\\frac{3}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 tam 1/8=9/8 ve 2 tam 3/4=11/4. Oran (9/8)/(11/4)=9/8·4/11=9/22 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oran-ve-birim-oran-section-03",
+            "heading": "Oran Uygulamaları",
+            "slug": "oran-uygulamalari",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Oranlar sağlık, alışveriş ve ölçme gibi pek çok gerçek durum için kullanılır. Örneğin toplam kolesterolün HDL kolesterole oranı, doktorların izlediği oranlardan biridir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.61",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Hector'ın toplam kolesterolü 249 mg/dL, HDL kolesterolü 39 mg/dL'dir. ⓐ Toplam kolesterolün HDL kolesterole oranını bulun. ⓑ 5'e 1'den küçük oran iyi kabul edilirse Hector'a ne önerirsiniz?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ Oran 249/39=83/13 olur. ⓑ 83÷13≈6,4 olduğundan oran yaklaşık 6,4'e 1'dir; bu 5'e 1'den büyüktür. Hector toplam kolesterolünü düşürmeli ya da HDL değerini yükseltmelidir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.121",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplam kolesterol 185 mg/dL ve HDL kolesterol 40 mg/dL ise toplam kolesterolün HDL kolesterole oranını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Oran toplam kolesterolün HDL kolesterole oranıdır: 185/40=37/8. Bu yaklaşık 4,625'e 1'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.122",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplam kolesterol 204 mg/dL ve HDL kolesterol 38 mg/dL ise toplam kolesterolün HDL kolesterole oranını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 204/38 kesri 2 ile sadeleşir ve 102/19 olur. Yaklaşık 5,37'ye 1 olduğundan oran 5'e 1'den büyüktür."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oran-ve-birim-oran-section-04",
+            "heading": "Farklı Birimlerde Oranlar",
+            "slug": "farkli-birimlerde-oranlar",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İki ölçünün oranını bulurken önce birimlerin aynı olduğundan emin oluruz. Birimler farklıysa oranı yazmadan önce ortak birime çeviririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.62",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Engelli rampaları için kural, her 1 foot yatay uzunlukta en fazla 1 inch yükselmedir. Yükselmenin yatay uzunluğa oranı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Aynı birime çevirelim: 1 foot=12 inch. Oran 1 inch/12 inch=1/12 olur. Yani rampa her 12 inch yatayda 1 inch yükselmelidir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.123",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "İlk uzunluğun ikinci uzunluğa oranını bulun: 32 inch'e 1 foot."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 foot=12 inches. Oran 32 inches/12 inches=32/12=8/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.124",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "İlk uzunluğun ikinci uzunluğa oranını bulun: 1 foot'a 54 inch."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 foot=12 inches. Oran 12 inches/54 inches=12/54=2/9 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oran-ve-birim-oran-section-05",
+            "heading": "Birimli Oranı Kesir Olarak Yazma",
+            "slug": "birimli-orani-kesir-olarak-yazma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Farklı türden ölçüleri karşılaştırdığımızda birimli oran kullanırız: mil/saat, kalori/ons, dolar/saat gibi."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Birimli oranı kesir olarak yazarken ilk verilen miktarı ve birimini paya, ikinci verilen miktarı ve birimini paydaya yazarız. Sadeleştirirken birimler de kesirde kalır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.63",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bob arabasıyla 9 saatte 525 mil gitmiştir. Bu birimli oranı kesir olarak yazın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Oran 525 miles/9 hours olur. 3 ile sadeleştirince 175 miles/3 hours elde edilir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.125",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birimli oranı kesir olarak yazın: 8 saatte 492 mil."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Oranı kesir olarak yazarız: 492 miles/8 hours. 4 ile sadeleşir ve 123 miles/2 hours olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.126",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birimli oranı kesir olarak yazın: 6 saatte 242 mil."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Oran 242 miles/6 hours olur. 2 ile sadeleşir ve 121 miles/3 hours bulunur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oran-ve-birim-oran-section-06",
+            "heading": "Birim Oran Bulma",
+            "slug": "birim-oran-bulma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Paydası 1 birim olan birimli orana birim oran denir. Örneğin 68 mil/saat, 1 saatte 68 mil gidildiğini anlatır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir oranı birim orana çevirmek için payı paydaya böleriz. Böylece “1 birim başına kaç?” sorusunu yanıtlarız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.64",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Anita geçen hafta 32 saat çalışıp 384 dolar kazandı. Saatlik ücretini bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 384 doları 32 saate böleriz. 384÷32=12 olduğundan Anita'nın saatlik ücreti 12 dolar/saat olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.127",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birim oranı bulun: 35 saat için 630 dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Saatlik ücret 630÷35=18 dolardır. Birim oran 18 dolar/saat olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.128",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birim oranı bulun: 36 saat için 684 dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Saatlik ücret 684÷36=19 dolardır. Birim oran 19 dolar/saat olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.65",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sven arabasıyla 14 galon benzin kullanarak 455 mil gidiyor. Arabası galon başına kaç mil gider?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 455 miles/14 gallons oranını böleriz. 455÷14=32,5 olduğundan birim oran 32,5 miles/gallon olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.129",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birim oranı bulun: 18 galon benzinle 423 mil."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 423 miles/18 gallons oranında 423÷18=23,5 olur. Birim oran 23,5 miles/gallon'dır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.130",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birim oranı bulun: 14,5 galon benzinle 406 mil."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 406 miles/14,5 gallons oranında 406÷14,5=28 olur. Birim oran 28 miles/gallon'dır."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oran-ve-birim-oran-section-07",
+            "heading": "Birim Fiyat Bulma",
+            "slug": "birim-fiyat-bulma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Birim fiyat, bir ürünün tek birim başına maliyetidir. Toplam fiyatı ürün sayısına ya da miktarına bölerek bulunur."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.66",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir market 24 şişelik su kolisini 3,99 dolara satıyor. Bir şişenin yaklaşık fiyatı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3,99÷24=0,16625 dolar olur. En yakın sente yuvarlarsak bir şişe yaklaşık 0,17 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.131",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birim fiyatı bulun; gerekirse en yakın sente yuvarlayın: 24'lü meyve suyu kutusu 6,99 dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6,99 doları 24 kutuya böleriz: 6,99÷24=0,29125. En yakın sente göre birim fiyat 0,29 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.132",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birim fiyatı bulun; gerekirse en yakın sente yuvarlayın: 24'lü buzlu çay şişesi 12,72 dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 12,72 doları 24 şişeye böleriz: 12,72÷24=0,53. Birim fiyat 0,53 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İki ürünü karşılaştırırken daha düşük birim fiyata sahip olan ürün daha uygun alışveriştir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.67",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sıvı deterjan 64 yıkama için 14,99 dolar, aynı markanın toz deterjanı 80 yıkama için 15,99 dolardır. Hangi ürünün yıkama başına maliyeti daha düşüktür?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Sıvı deterjan için 14,99÷64≈0,23 dolar/yıkama, toz deterjan için 15,99÷80≈0,20 dolar/yıkama olur. Daha düşük birim fiyat toz deterjandadır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.133",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her birim fiyatı bulun ve daha uygun olanı belirleyin: A marka saklama poşeti 40 adet 4,59 dolar; B marka saklama poşeti 30 adet 3,99 dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: A markası 4,59÷40≈0,11 dolar/adet, B markası 3,99÷30≈0,13 dolar/adet eder. Daha düşük birim fiyat A markasındadır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.134",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her birim fiyatı bulun ve daha uygun olanı belirleyin: C marka tavuklu noodle çorbası 26 ons 1,89 dolar; D marka tavuklu noodle çorbası 10,75 ons 0,95 dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: C markası 1,89÷26≈0,07 dolar/ons, D markası 0,95÷10,75≈0,09 dolar/ons eder. Daha uygun olan C markasıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Birim fiyatlar birbirine çok yakınsa yuvarlamadan önce bir basamak daha hesaplamak doğru ürünü seçmeyi kolaylaştırır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oran-ve-birim-oran-section-08",
+            "heading": "Kesirli Cebirsel İfadeler",
+            "slug": "kesirli-cebirsel-ifadeler",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "“Oranı”, “başına”, “için”, “saatte”, “-de/-da” gibi ifadeler çoğu zaman bir oran ya da birimli oran kurmamızı ister. Bu durumda kesir biçiminde cebirsel ifade yazarız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.68",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sözel ifadeleri cebirsel ifadeye çevirin: ⓐ h saatte 427 mil ⓑ 3 öğretmene x öğrenci ⓒ 18 saat için y dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 427/h yazılır. ⓑ x/3 yazılır. ⓒ y/18 yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.135",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sözel ifadeleri cebirsel ifadeye çevirin: ⓐ h saatte 689 mil ⓑ 22 öğrenciye y veli ⓒ 9 dakika için d dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 689 miles/h hours ifadesi 689/h olur. ⓑ y parents to 22 students ifadesi y/22 olur. ⓒ d dollars for 9 minutes ifadesi d/9 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.136",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sözel ifadeleri cebirsel ifadeye çevirin: ⓐ 9 saatte m mil ⓑ 8 otobüse x öğrenci ⓒ 40 saat için y dolar."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ m miles per 9 hours ifadesi m/9 olur. ⓑ x students to 8 buses ifadesi x/8 olur. ⓒ y dollars for 40 hours ifadesi y/40 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-403",
+            "number": "403",
+            "sectionSlug": "orani-kesir-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 20'ye 36."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Oranı 20/36 olarak yazarız. 4 ile sadeleştirince 5/9 elde edilir."
+              }
+            ],
+            "sortOrder": 403
+          },
+          {
+            "id": "exercise-405",
+            "number": "405",
+            "sectionSlug": "orani-kesir-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 42'ye 48."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Oran 42/48'dir. 6 ile sadeleşir ve 7/8 olur."
+              }
+            ],
+            "sortOrder": 405
+          },
+          {
+            "id": "exercise-407",
+            "number": "407",
+            "sectionSlug": "orani-kesir-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 49'a 21."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Oran 49/21'dir. 7 ile sadeleşir ve 7/3 olur; oranlarda bileşik kesir bırakılabilir."
+              }
+            ],
+            "sortOrder": 407
+          },
+          {
+            "id": "exercise-409",
+            "number": "409",
+            "sectionSlug": "orani-kesir-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 84'e 36."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Oran 84/36'dır. 12 ile sadeleştirince 7/3 bulunur."
+              }
+            ],
+            "sortOrder": 409
+          },
+          {
+            "id": "exercise-411",
+            "number": "411",
+            "sectionSlug": "ondalik-sayilarla-oranlar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 0,56'ya 2,8."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 0,56/2,8 oranını 100 ile genişletiriz: 56/280. 56 ile sadeleşince 1/5 olur."
+              }
+            ],
+            "sortOrder": 411
+          },
+          {
+            "id": "exercise-413",
+            "number": "413",
+            "sectionSlug": "ondalik-sayilarla-oranlar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 1 tam 2/3'e 2 tam 5/6."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1 tam 2/3=5/3 ve 2 tam 5/6=17/6. Oran (5/3)/(17/6)=5/3·6/17=10/17 olur."
+              }
+            ],
+            "sortOrder": 413
+          },
+          {
+            "id": "exercise-415",
+            "number": "415",
+            "sectionSlug": "ondalik-sayilarla-oranlar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 4 tam 1/6'ya 3 tam 1/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4 tam 1/6=25/6 ve 3 tam 1/3=10/3. Oran (25/6)/(10/3)=25/6·3/10=5/4 olur."
+              }
+            ],
+            "sortOrder": 415
+          },
+          {
+            "id": "exercise-417",
+            "number": "417",
+            "sectionSlug": "oran-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 18 dolara 63 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Aynı birimlerde oran 18/63'tür. 9 ile sadeleştirince 2/7 bulunur."
+              }
+            ],
+            "sortOrder": 417
+          },
+          {
+            "id": "exercise-419",
+            "number": "419",
+            "sectionSlug": "ondalik-sayilarla-oranlar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 1,21 dolara 0,44 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1,21/0,44 oranını 100 ile genişletiriz: 121/44. 11 ile sadeleşir ve 11/4 olur."
+              }
+            ],
+            "sortOrder": 419
+          },
+          {
+            "id": "exercise-421",
+            "number": "421",
+            "sectionSlug": "farkli-birimlerde-oranlar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 28 ons'a 84 ons."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Aynı birimlerde oran 28/84'tür. 28 ile sadeleşince 1/3 olur."
+              }
+            ],
+            "sortOrder": 421
+          },
+          {
+            "id": "exercise-423",
+            "number": "423",
+            "sectionSlug": "farkli-birimlerde-oranlar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 12 feet'e 46 feet."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Oran 12/46'dır. 2 ile sadeleşir ve 6/23 olur."
+              }
+            ],
+            "sortOrder": 423
+          },
+          {
+            "id": "exercise-425",
+            "number": "425",
+            "sectionSlug": "farkli-birimlerde-oranlar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 246 miligrama 45 miligram."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Oran 246/45'tir. 3 ile sadeleştirince 82/15 elde edilir."
+              }
+            ],
+            "sortOrder": 425
+          },
+          {
+            "id": "exercise-427",
+            "number": "427",
+            "sectionSlug": "oran-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplam kolesterol 175 ve HDL kolesterol 45 ise toplam kolesterolün HDL kolesterole oranını kesir olarak yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam kolesterolün HDL kolesterole oranı 175/45'tir. 5 ile sadeleşir ve 35/9 olur."
+              }
+            ],
+            "sortOrder": 427
+          },
+          {
+            "id": "exercise-429",
+            "number": "429",
+            "sectionSlug": "farkli-birimlerde-oranlar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Oranı kesir olarak yazın ve sadeleştirin: 27 inch'e 1 foot."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Birimleri aynı yaparız: 1 foot=12 inch. Oran 27/12=9/4 olur."
+              }
+            ],
+            "sortOrder": 429
+          },
+          {
+            "id": "exercise-431",
+            "number": "431",
+            "sectionSlug": "birimli-orani-kesir-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birimli oranı kesir olarak yazın: 12 ons başına 140 kalori."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Birimli oran 140 kalori/12 ons olarak yazılır. 4 ile sadeleşirse 35 kalori/3 ons olur."
+              }
+            ],
+            "sortOrder": 431
+          },
+          {
+            "id": "exercise-433",
+            "number": "433",
+            "sectionSlug": "birimli-orani-kesir-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birimli oranı kesir olarak yazın: 3 inç kare başına 8,2 pound."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Birimli oran 8,2 pound/3 inç kare biçimindedir. 8,2=41/5 olduğundan oran 41 pound/15 inç kare olarak yazılabilir."
+              }
+            ],
+            "sortOrder": 433
+          },
+          {
+            "id": "exercise-435",
+            "number": "435",
+            "sectionSlug": "birimli-orani-kesir-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birimli oranı kesir olarak yazın: 7 saatte 488 mil."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Birimli oran 488 mil/7 saat olur. 488 ve 7 ortak çarpan taşımadığı için bu kesir sadeleşmez."
+              }
+            ],
+            "sortOrder": 435
+          },
+          {
+            "id": "exercise-437",
+            "number": "437",
+            "sectionSlug": "birimli-orani-kesir-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birimli oranı kesir olarak yazın: 40 saat için 595 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Birimli oran 595 dolar/40 saat olur. 5 ile sadeleştirince 119 dolar/8 saat elde edilir."
+              }
+            ],
+            "sortOrder": 437
+          },
+          {
+            "id": "exercise-439",
+            "number": "439",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim oranı bulun; gerekirse iki ondalık basamağa yuvarlayın: 12 ons başına 140 kalori."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Birim oran için 140÷12=11,666... hesaplanır. İki ondalık basamağa göre 11,67 kalori/ons olur."
+              }
+            ],
+            "sortOrder": 439
+          },
+          {
+            "id": "exercise-441",
+            "number": "441",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim oranı bulun; gerekirse iki ondalık basamağa yuvarlayın: 3 inç kare başına 8,2 pound."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8,2÷3=2,733... olduğundan birim oran yaklaşık 2,73 pound/inç kare olur."
+              }
+            ],
+            "sortOrder": 441
+          },
+          {
+            "id": "exercise-443",
+            "number": "443",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim oranı bulun; gerekirse iki ondalık basamağa yuvarlayın: 7 saatte 488 mil."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 488÷7=69,714... bulunur. İki ondalık basamakla 69,71 mil/saat olur."
+              }
+            ],
+            "sortOrder": 443
+          },
+          {
+            "id": "exercise-445",
+            "number": "445",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim oranı bulun; gerekirse iki ondalık basamağa yuvarlayın: 40 saat için 595 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 595÷40=14,875'tir. İki ondalık basamağa yuvarlayınca 14,88 dolar/saat olur."
+              }
+            ],
+            "sortOrder": 445
+          },
+          {
+            "id": "exercise-447",
+            "number": "447",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim oranı bulun; gerekirse iki ondalık basamağa yuvarlayın: 18 galon benzinle 576 mil."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 576÷18=32 olduğundan birim oran 32 mil/galon olur."
+              }
+            ],
+            "sortOrder": 447
+          },
+          {
+            "id": "exercise-449",
+            "number": "449",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim oranı bulun; gerekirse iki ondalık basamağa yuvarlayın: 16 haftada 43 pound."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 43÷16=2,6875'tir. İki ondalık basamakla 2,69 pound/hafta olur."
+              }
+            ],
+            "sortOrder": 449
+          },
+          {
+            "id": "exercise-451",
+            "number": "451",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim oranı bulun; gerekirse iki ondalık basamağa yuvarlayın: 0,5 dakikada 46 kalp atışı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 0,5 dakikada 46 atış varsa 1 dakikada bunun iki katı vardır. Birim oran 92 atış/dakikadır."
+              }
+            ],
+            "sortOrder": 451
+          },
+          {
+            "id": "exercise-453",
+            "number": "453",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir matbaadaki ciltleme bölümü 12 saatte 96.000 dergi hazırlıyor. Bir saatte kaç dergi hazırlanır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 96.000 dergiyi 12 saate böleriz. 96.000÷12=8.000 olduğundan saatte 8.000 dergi hazırlanır."
+              }
+            ],
+            "sortOrder": 453
+          },
+          {
+            "id": "exercise-455",
+            "number": "455",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim fiyatı en yakın sente yuvarlayın: 8 sabun 8,69 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8,69÷8=1,08625 dolar eder. En yakın sente yuvarlanınca bir sabun yaklaşık 1,09 dolardır."
+              }
+            ],
+            "sortOrder": 455
+          },
+          {
+            "id": "exercise-457",
+            "number": "457",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim fiyatı en yakın sente yuvarlayın: 6 çift kadın spor çorabı 7,99 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 7,99÷6=1,3316... dolar eder. Bir çift çorap yaklaşık 1,33 dolardır."
+              }
+            ],
+            "sortOrder": 457
+          },
+          {
+            "id": "exercise-459",
+            "number": "459",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim fiyatı en yakın sente yuvarlayın: 12 kurabiye paketi 5,79 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5,79÷12=0,4825 dolar eder. En yakın sente göre bir paket yaklaşık 0,48 dolardır."
+              }
+            ],
+            "sortOrder": 459
+          },
+          {
+            "id": "exercise-461",
+            "number": "461",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birim fiyatı en yakın sente yuvarlayın: 25 CD-RW disk 14,99 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 14,99÷25=0,5996 dolar eder. En yakın sente göre bir disk yaklaşık 0,60 dolardır."
+              }
+            ],
+            "sortOrder": 461
+          },
+          {
+            "id": "exercise-463",
+            "number": "463",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Market 3 kutu makarna-peyniri 3,87 dolara satıyor. Bir kutu kaç dolardır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3,87 doları 3 kutuya böleriz. 3,87÷3=1,29 dolar; bir kutu 1,29 dolardır."
+              }
+            ],
+            "sortOrder": 463
+          },
+          {
+            "id": "exercise-465",
+            "number": "465",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her birim fiyatı bulun ve daha uygun olanı belirleyin: 50,7 ons ağız çalkalama suyu 6,99 dolar ya da 33,8 ons ağız çalkalama suyu 4,79 dolar. Üç ondalık basamağa yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6,99÷50,7≈0,138 dolar/ons, 4,79÷33,8≈0,142 dolar/ons olur. Daha düşük birim fiyat 50,7 ons şişededir."
+              }
+            ],
+            "sortOrder": 465
+          },
+          {
+            "id": "exercise-467",
+            "number": "467",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her birim fiyatı bulun ve daha uygun olanı belirleyin: 18 ons kahvaltılık gevrek 3,99 dolar ya da 14 ons kahvaltılık gevrek 3,29 dolar. Üç ondalık basamağa yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3,99÷18≈0,222 dolar/ons, 3,29÷14=0,235 dolar/ons olur. Daha uygun olan 18 ons pakettir."
+              }
+            ],
+            "sortOrder": 467
+          },
+          {
+            "id": "exercise-469",
+            "number": "469",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her birim fiyatı bulun ve daha uygun olanı belirleyin: 40 ons normal ketçap 2,99 dolar ya da 64 ons sıkmalı ketçap 4,39 dolar. Üç ondalık basamağa yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2,99÷40≈0,075 dolar/ons, 4,39÷64≈0,069 dolar/ons olur. Daha uygun olan 64 ons sıkmalı şişedir."
+              }
+            ],
+            "sortOrder": 469
+          },
+          {
+            "id": "exercise-471",
+            "number": "471",
+            "sectionSlug": "birim-fiyat-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her birim fiyatı bulun ve daha uygun olanı belirleyin: 1 lb peynir 6,49 dolar ya da 1/2 lb peynir 3,39 dolar. Üç ondalık basamağa yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1 lb blokta birim fiyat 6,49 dolar/lb'dir. 1/2 lb blok için 3,39÷0,5=6,78 dolar/lb olur; daha uygun olan 1 lb bloktur."
+              }
+            ],
+            "sortOrder": 471
+          },
+          {
+            "id": "exercise-473",
+            "number": "473",
+            "sectionSlug": "kesirli-cebirsel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sözel ifadeyi cebirsel ifadeye çevirin: p saatte 793 mil."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “p saatte 793 mil” oranı 793/p biçiminde yazılır; birimi mil/saat olarak yorumlanır."
+              }
+            ],
+            "sortOrder": 473
+          },
+          {
+            "id": "exercise-475",
+            "number": "475",
+            "sectionSlug": "kesirli-cebirsel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sözel ifadeyi cebirsel ifadeye çevirin: 0,5 lb için 3 dolar."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “0,5 lb için 3 dolar” ifadesi 3/0,5 biçiminde yazılır. Birim fiyat istenirse bu 6 dolar/lb olur."
+              }
+            ],
+            "sortOrder": 475
+          },
+          {
+            "id": "exercise-477",
+            "number": "477",
+            "sectionSlug": "kesirli-cebirsel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sözel ifadeyi cebirsel ifadeye çevirin: x ons içinde 105 kalori."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: “x ons içinde 105 kalori” ifadesi 105/x biçiminde yazılır; birimi kalori/ons olur."
+              }
+            ],
+            "sortOrder": 477
+          },
+          {
+            "id": "exercise-479",
+            "number": "479",
+            "sectionSlug": "kesirli-cebirsel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sözel ifadeyi cebirsel ifadeye çevirin: y ile 5x'in oranı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: y ile 5x'in oranında ilk ifade paya, ikinci ifade paydaya yazılır. Cebirsel ifade y/(5x) olur."
+              }
+            ],
+            "sortOrder": 479
+          },
+          {
+            "id": "exercise-481",
+            "number": "481",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ohio'daki bir ilkokulda 684 öğrenci ve 45 öğretmen vardır. Öğrenci-öğretmen oranını birim oran olarak yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Öğrenci-öğretmen oranı 684/45'tir. Bir öğretmen başına öğrenci sayısı 684÷45=15,2 olduğundan birim oran 15,2 öğrenci/öğretmendir."
+              }
+            ],
+            "sortOrder": 481
+          },
+          {
+            "id": "exercise-483",
+            "number": "483",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir fast food burgeri 7,5 ons gelir ve 540 kalori, 29 gram yağ, 43 gram karbonhidrat, 25 gram protein içerir. ⓐ Ons başına kalori, ⓑ ons başına yağ gramı, ⓒ ons başına karbonhidrat gramı, ⓓ ons başına protein gramı birim oranlarını bulun. İki ondalık basamağa yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Her değeri 7,5 ons'a böleriz. ⓐ 540÷7,5=72 kalori/ons. ⓑ 29÷7,5≈3,87 g/ons. ⓒ 43÷7,5≈5,73 g/ons. ⓓ 25÷7,5≈3,33 g/ons."
+              }
+            ],
+            "sortOrder": 483
+          },
+          {
+            "id": "exercise-485",
+            "number": "485",
+            "sectionSlug": "oran-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Gelirinizin arkadaşınızın gelirine oranının 3/1 mi yoksa 1/3 mü olmasını tercih ederdiniz? Açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Gelirim arkadaşımın gelirine oranlanıyorsa 3/1 oranını tercih ederim; bu, benim gelirimin arkadaşımın gelirinin 3 katı olduğu anlamına gelir. 1/3 ise benim gelirimin onun gelirinin üçte biri olduğunu gösterir."
+              }
+            ],
+            "sortOrder": 485
+          },
+          {
+            "id": "exercise-487",
+            "number": "487",
+            "sectionSlug": "birim-oran-bulma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kathryn 115 kalorilik 4 ons donmuş yoğurt yedi ve sonra yüzmeye gitti. Yüzme saatte 422 kalori yaktırır. Yoğurttaki kaloriyi yakmak için kaç dakika yüzmelidir? Açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 422 kalori 60 dakikada yanıyorsa dakika başına 422/60 kalori yanar. 115 kaloriyi yakma süresi 115÷422 saat, yani (115/422)·60≈16,35 dakikadır. En az bu kadar, pratikte yaklaşık 17 dakika yüzmelidir."
+              }
+            ],
+            "sortOrder": 487
+          }
+        ]
+      }
     }
   ]
 }

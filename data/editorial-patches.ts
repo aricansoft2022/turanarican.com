@@ -10353,6 +10353,228 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "5.7",
+    sections: [
+      {
+        sectionSlug: "orani-kesir-olarak-yazma",
+        replaceBlocks: [
+          ...removeBlocks(6),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Oran, aynı birimle ölçülen iki çokluğu karşılaştırır. a ile b karşılaştırılıyorsa bu oran “a'nın b'ye oranı”, a/b ya da a:b biçiminde yazılabilir.",
+              ),
+              pt(
+                "Bu bölümde oranları kesir biçiminde yazacağız. Oran kesri sadeleştirilir; ancak bileşik kesirse karma sayıya çevrilmez, çünkü iki çokluğun karşılaştırmasını görmek isteriz.",
+              ),
+              ex(
+                "Örnek 5.58",
+                [t("Her oranı kesir olarak yazın: ⓐ "), m("15\\text{ to }27"), t(" ⓑ "), m("45\\text{ to }18"), t(".")],
+                sol("Çözüm: ⓐ 15/27 kesri 3 ile sadeleşir ve 5/9 olur. ⓑ 45/18 kesri 9 ile sadeleşir ve 5/2 olur."),
+              ),
+              ex("Sıra Sizde 5.115", [t("Her oranı kesir olarak yazın: ⓐ "), m("21\\text{ to }56"), t(" ⓑ "), m("48\\text{ to }32"), t(".")]),
+              ex("Sıra Sizde 5.116", [t("Her oranı kesir olarak yazın: ⓐ "), m("27\\text{ to }72"), t(" ⓑ "), m("51\\text{ to }34"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilarla-oranlar",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Para ve ölçme durumlarında oranlar ondalık sayılar içerebilir. Böyle oranları sadeleştirmek için payı ve paydayı aynı 10 kuvvetiyle çarpar, ondalık basamakları kaldırırız.",
+              ),
+              p([
+                t("Örneğin "),
+                m("0{,}8\\text{ to }0{,}05"),
+                t(" oranı "),
+                m("\\frac{0{,}8}{0{,}05}"),
+                t(" olarak yazılır. Her iki tarafı 100 ile çarparsak "),
+                m("\\frac{80}{5}=\\frac{16}{1}"),
+                t(" elde ederiz."),
+              ]),
+              ex(
+                "Örnek 5.59",
+                [t("Her oranı tam sayılı kesir olarak yazın: ⓐ "), m("4{,}8\\text{ to }11{,}2"), t(" ⓑ "), m("2{,}7\\text{ to }0{,}54"), t(".")],
+                sol("Çözüm: ⓐ 4,8/11,2 oranını 10 ile genişletiriz: 48/112=3/7. ⓑ 2,7/0,54 oranını 100 ile genişletiriz: 270/54=5/1."),
+              ),
+              ex("Sıra Sizde 5.117", [t("Her oranı kesir olarak yazın: ⓐ "), m("4{,}6\\text{ to }11{,}5"), t(" ⓑ "), m("2{,}3\\text{ to }0{,}69"), t(".")]),
+              ex("Sıra Sizde 5.118", [t("Her oranı kesir olarak yazın: ⓐ "), m("3{,}4\\text{ to }15{,}3"), t(" ⓑ "), m("3{,}4\\text{ to }0{,}68"), t(".")]),
+              pt(
+                "Bazı oranlar karma sayılar içerir. Bu durumda önce karma sayıları bileşik kesre çevirir, sonra kesir bölmesini yaparız.",
+              ),
+              ex(
+                "Örnek 5.60",
+                [t("Oranı kesir olarak yazın: "), m("1\\frac{1}{4}\\text{ to }2\\frac{3}{8}"), t(".")],
+                sol("Çözüm: 1 tam 1/4=5/4 ve 2 tam 3/8=19/8. Oran (5/4)/(19/8)=5/4·8/19=10/19 olur."),
+              ),
+              ex("Sıra Sizde 5.119", [t("Oranı kesir olarak yazın: "), m("1\\frac{3}{4}\\text{ to }2\\frac{5}{8}"), t(".")]),
+              ex("Sıra Sizde 5.120", [t("Oranı kesir olarak yazın: "), m("1\\frac{1}{8}\\text{ to }2\\frac{3}{4}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "oran-uygulamalari",
+        replaceBlocks: [
+          ...removeBlocks(4),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Oranlar sağlık, alışveriş ve ölçme gibi pek çok gerçek durum için kullanılır. Örneğin toplam kolesterolün HDL kolesterole oranı, doktorların izlediği oranlardan biridir.",
+              ),
+              ex(
+                "Örnek 5.61",
+                [t("Hector'ın toplam kolesterolü 249 mg/dL, HDL kolesterolü 39 mg/dL'dir. ⓐ Toplam kolesterolün HDL kolesterole oranını bulun. ⓑ 5'e 1'den küçük oran iyi kabul edilirse Hector'a ne önerirsiniz?")],
+                sol("Çözüm: ⓐ Oran 249/39=83/13 olur. ⓑ 83÷13≈6,4 olduğundan oran yaklaşık 6,4'e 1'dir; bu 5'e 1'den büyüktür. Hector toplam kolesterolünü düşürmeli ya da HDL değerini yükseltmelidir."),
+              ),
+              ex("Sıra Sizde 5.121", [t("Toplam kolesterol 185 mg/dL ve HDL kolesterol 40 mg/dL ise toplam kolesterolün HDL kolesterole oranını bulun.")]),
+              ex("Sıra Sizde 5.122", [t("Toplam kolesterol 204 mg/dL ve HDL kolesterol 38 mg/dL ise toplam kolesterolün HDL kolesterole oranını bulun.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "farkli-birimlerde-oranlar",
+        replaceBlocks: [
+          ...removeBlocks(5),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "İki ölçünün oranını bulurken önce birimlerin aynı olduğundan emin oluruz. Birimler farklıysa oranı yazmadan önce ortak birime çeviririz.",
+              ),
+              ex(
+                "Örnek 5.62",
+                [t("Engelli rampaları için kural, her 1 foot yatay uzunlukta en fazla 1 inch yükselmedir. Yükselmenin yatay uzunluğa oranı nedir?")],
+                sol("Çözüm: Aynı birime çevirelim: 1 foot=12 inch. Oran 1 inch/12 inch=1/12 olur. Yani rampa her 12 inch yatayda 1 inch yükselmelidir."),
+              ),
+              ex("Sıra Sizde 5.123", [t("İlk uzunluğun ikinci uzunluğa oranını bulun: 32 inch'e 1 foot.")]),
+              ex("Sıra Sizde 5.124", [t("İlk uzunluğun ikinci uzunluğa oranını bulun: 1 foot'a 54 inch.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "birimli-orani-kesir-olarak-yazma",
+        replaceBlocks: [
+          ...removeBlocks(5),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Farklı türden ölçüleri karşılaştırdığımızda birimli oran kullanırız: mil/saat, kalori/ons, dolar/saat gibi.",
+              ),
+              pt(
+                "Birimli oranı kesir olarak yazarken ilk verilen miktarı ve birimini paya, ikinci verilen miktarı ve birimini paydaya yazarız. Sadeleştirirken birimler de kesirde kalır.",
+              ),
+              ex(
+                "Örnek 5.63",
+                [t("Bob arabasıyla 9 saatte 525 mil gitmiştir. Bu birimli oranı kesir olarak yazın.")],
+                sol("Çözüm: Oran 525 miles/9 hours olur. 3 ile sadeleştirince 175 miles/3 hours elde edilir."),
+              ),
+              ex("Sıra Sizde 5.125", [t("Birimli oranı kesir olarak yazın: 8 saatte 492 mil.")]),
+              ex("Sıra Sizde 5.126", [t("Birimli oranı kesir olarak yazın: 6 saatte 242 mil.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "birim-oran-bulma",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Paydası 1 birim olan birimli orana birim oran denir. Örneğin 68 mil/saat, 1 saatte 68 mil gidildiğini anlatır.",
+              ),
+              pt(
+                "Bir oranı birim orana çevirmek için payı paydaya böleriz. Böylece “1 birim başına kaç?” sorusunu yanıtlarız.",
+              ),
+              ex(
+                "Örnek 5.64",
+                [t("Anita geçen hafta 32 saat çalışıp 384 dolar kazandı. Saatlik ücretini bulun.")],
+                sol("Çözüm: 384 doları 32 saate böleriz. 384÷32=12 olduğundan Anita'nın saatlik ücreti 12 dolar/saat olur."),
+              ),
+              ex("Sıra Sizde 5.127", [t("Birim oranı bulun: 35 saat için 630 dolar.")]),
+              ex("Sıra Sizde 5.128", [t("Birim oranı bulun: 36 saat için 684 dolar.")]),
+              ex(
+                "Örnek 5.65",
+                [t("Sven arabasıyla 14 galon benzin kullanarak 455 mil gidiyor. Arabası galon başına kaç mil gider?")],
+                sol("Çözüm: 455 miles/14 gallons oranını böleriz. 455÷14=32,5 olduğundan birim oran 32,5 miles/gallon olur."),
+              ),
+              ex("Sıra Sizde 5.129", [t("Birim oranı bulun: 18 galon benzinle 423 mil.")]),
+              ex("Sıra Sizde 5.130", [t("Birim oranı bulun: 14,5 galon benzinle 406 mil.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "birim-fiyat-bulma",
+        replaceBlocks: [
+          ...removeBlocks(9),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Birim fiyat, bir ürünün tek birim başına maliyetidir. Toplam fiyatı ürün sayısına ya da miktarına bölerek bulunur.",
+              ),
+              ex(
+                "Örnek 5.66",
+                [t("Bir market 24 şişelik su kolisini 3,99 dolara satıyor. Bir şişenin yaklaşık fiyatı nedir?")],
+                sol("Çözüm: 3,99÷24=0,16625 dolar olur. En yakın sente yuvarlarsak bir şişe yaklaşık 0,17 dolardır."),
+              ),
+              ex("Sıra Sizde 5.131", [t("Birim fiyatı bulun; gerekirse en yakın sente yuvarlayın: 24'lü meyve suyu kutusu 6,99 dolar.")]),
+              ex("Sıra Sizde 5.132", [t("Birim fiyatı bulun; gerekirse en yakın sente yuvarlayın: 24'lü buzlu çay şişesi 12,72 dolar.")]),
+              pt(
+                "İki ürünü karşılaştırırken daha düşük birim fiyata sahip olan ürün daha uygun alışveriştir.",
+              ),
+              ex(
+                "Örnek 5.67",
+                [t("Sıvı deterjan 64 yıkama için 14,99 dolar, aynı markanın toz deterjanı 80 yıkama için 15,99 dolardır. Hangi ürünün yıkama başına maliyeti daha düşüktür?")],
+                sol("Çözüm: Sıvı deterjan için 14,99÷64≈0,23 dolar/yıkama, toz deterjan için 15,99÷80≈0,20 dolar/yıkama olur. Daha düşük birim fiyat toz deterjandadır."),
+              ),
+              ex("Sıra Sizde 5.133", [t("Her birim fiyatı bulun ve daha uygun olanı belirleyin: A marka saklama poşeti 40 adet 4,59 dolar; B marka saklama poşeti 30 adet 3,99 dolar.")]),
+              ex("Sıra Sizde 5.134", [t("Her birim fiyatı bulun ve daha uygun olanı belirleyin: C marka tavuklu noodle çorbası 26 ons 1,89 dolar; D marka tavuklu noodle çorbası 10,75 ons 0,95 dolar.")]),
+              pt(
+                "Birim fiyatlar birbirine çok yakınsa yuvarlamadan önce bir basamak daha hesaplamak doğru ürünü seçmeyi kolaylaştırır.",
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesirli-cebirsel-ifadeler",
+        replaceBlocks: [
+          ...removeBlocks(5),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "“Oranı”, “başına”, “için”, “saatte”, “-de/-da” gibi ifadeler çoğu zaman bir oran ya da birimli oran kurmamızı ister. Bu durumda kesir biçiminde cebirsel ifade yazarız.",
+              ),
+              ex(
+                "Örnek 5.68",
+                [t("Sözel ifadeleri cebirsel ifadeye çevirin: ⓐ h saatte 427 mil ⓑ 3 öğretmene x öğrenci ⓒ 18 saat için y dolar.")],
+                sol("Çözüm: ⓐ 427/h yazılır. ⓑ x/3 yazılır. ⓒ y/18 yazılır."),
+              ),
+              ex("Sıra Sizde 5.135", [t("Sözel ifadeleri cebirsel ifadeye çevirin: ⓐ h saatte 689 mil ⓑ 22 öğrenciye y veli ⓒ 9 dakika için d dolar.")]),
+              ex("Sıra Sizde 5.136", [t("Sözel ifadeleri cebirsel ifadeye çevirin: ⓐ 9 saatte m mil ⓑ 8 otobüse x öğrenci ⓒ 40 saat için y dolar.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({
