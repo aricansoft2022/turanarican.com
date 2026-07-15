@@ -16,10 +16,10 @@ Proje şu anda:
 - Canlı canonical host şu an `https://turanarican.com`.
 - `https://www.turanarican.com` Cloudflare tarafından apex hosta 301
   yönleniyor.
-- Turso'ya yazıldığı son doğrulanan seed DB içeriği 17 ders, 89 ders bölümü,
-  631 alıştırma ve 457 kaynak asset içeriyor.
+- Turso'ya yazıldığı son doğrulanan seed DB içeriği 19 ders, 101 ders bölümü,
+  726 alıştırma ve 511 kaynak asset içeriyor.
 - Son yerel/generated seed payload 19 ders, 101 ders bölümü, 726 alıştırma ve
-  511 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
+  511 kaynak asset içeriyor; bu payload son Turso yazımıyla eşleşiyor.
 
 En önemli deploy kuralı:
 
@@ -451,20 +451,19 @@ Son doğrulanan seed DB yazımı:
 {
   "books": 1,
   "chapters": 4,
-  "lessons": 17,
-  "lessonSections": 89,
-  "exercises": 631,
-  "sourceSnapshots": 17,
-  "sourceAssets": 457
+  "lessons": 19,
+  "lessonSections": 101,
+  "exercises": 726,
+  "sourceSnapshots": 19,
+  "sourceAssets": 511
 }
 ```
 
-Bu Turso yazımı Prealgebra 2e için `2.3-5.2` aralığını kapsar. Son yazılmış ders
-`5.2 Decimals` / `Ondalık Sayılar` idi.
+Bu Turso yazımı Prealgebra 2e için `2.3-5.4` aralığını kapsar. Son yazılmış ders
+`5.4 Decimals and Fractions` / `Ondalık Sayılar ve Kesirler` idi.
 
-Son yerel/generated seed payload `2.3-5.4` aralığını kapsar ve henüz Turso'ya
-yazılmadı. Bu payload'ta son eklenen ders `5.4 Decimals and Fractions` /
-`Ondalık Sayılar ve Kesirler`; sıradaki aday `5.5 Solve Equations with Decimals` olarak
+Son yerel/generated seed payload da `2.3-5.4` aralığını kapsar ve son Turso
+yazımıyla eşleşir. Sıradaki aday `5.5 Solve Equations with Decimals` olarak
 raporlanır.
 
 Schema değiştiğinde:

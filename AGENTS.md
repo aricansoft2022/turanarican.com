@@ -34,12 +34,12 @@ navigation, SEO, attribution, and ingestion workflows.
 - Latest confirmed seed DB write count:
   - `books`: 1
   - `chapters`: 4
-  - `lessons`: 17
-  - `lessonSections`: 89
-  - `exercises`: 631
-  - `sourceSnapshots`: 17
-  - `sourceAssets`: 457
-- Latest generated local seed payload count, not yet written to the remote DB:
+  - `lessons`: 19
+  - `lessonSections`: 101
+  - `exercises`: 726
+  - `sourceSnapshots`: 19
+  - `sourceAssets`: 511
+- Latest generated local seed payload count, matching the latest remote DB write:
   - `books`: 1
   - `chapters`: 4
   - `lessons`: 19
