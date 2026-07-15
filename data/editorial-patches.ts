@@ -11108,6 +11108,160 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "6.3",
+    sections: [
+      {
+        sectionSlug: "temel-yuzde-denklemleri",
+        replaceBlocks: [
+          ...removeBlocks(26),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Yüzde problemlerini çözmek için sözel ifadeyi cebirsel denkleme çeviririz. “Bir sayının yüzde kaçı”, “hangi sayının yüzde kaçı” ve “yüzde kaçıdır” gibi kalıplar farklı bilinmeyenlere götürür.",
+              ),
+              p([
+                t("Temel fikir şudur: "),
+                m("\\text{yüzde}\\cdot\\text{bütün}=\\text{parça}"),
+                t(". Yüzdeyi denkleme yazarken önce ondalık sayıya çeviririz."),
+              ]),
+              pt(
+                "Örneğin 80 dolarlık bir restoran hesabının 20%'i bahşiş olarak bırakılacaksa 20%=0,20 yazılır ve 0,20·80=16 dolar bulunur.",
+              ),
+              ex(
+                "Örnek 6.14",
+                [t("90'ın 35%'i hangi sayıdır?")],
+                sol("Çözüm: Aranan sayı n olsun. 35%=0,35 olduğundan n=0,35·90=31,5 olur."),
+              ),
+              ex("Sıra Sizde 6.27", [t("80'in 45%'i hangi sayıdır?")]),
+              ex("Sıra Sizde 6.28", [t("60'ın 55%'i hangi sayıdır?")]),
+              ex(
+                "Örnek 6.15",
+                [t("28'in 125%'i hangi sayıdır?")],
+                sol("Çözüm: 125%=1,25. Aranan sayı a ise a=1,25·28=35 olur. 125%, 100%'den büyük olduğu için sonuç 28'den büyüktür."),
+              ),
+              ex("Sıra Sizde 6.29", [t("78'in 150%'i hangi sayıdır?")]),
+              ex("Sıra Sizde 6.30", [t("72'nin 175%'i hangi sayıdır?")]),
+              pt(
+                "Bazen parça ve yüzde verilir, bütün sorulur. Bu durumda denklemi kurar ve yüzde katsayısına böleriz.",
+              ),
+              ex(
+                "Örnek 6.16",
+                [t("36 hangi sayının 75%'idir?")],
+                sol("Çözüm: Bütün sayı b olsun. 36=0,75b denkleminden b=36÷0,75=48 bulunur."),
+              ),
+              ex("Sıra Sizde 6.31", [t("17 hangi sayının 25%'idir?")]),
+              ex("Sıra Sizde 6.32", [t("40 hangi sayının 62,5%'idir?")]),
+              ex(
+                "Örnek 6.17",
+                [t("1,17 dolar hangi sayının 6,5%'idir?")],
+                sol("Çözüm: 6,5%=0,065. 0,065b=1,17 olduğundan b=1,17÷0,065=18 dolar olur."),
+              ),
+              ex("Sıra Sizde 6.33", [t("1,95 dolar hangi sayının 7,5%'idir?")]),
+              ex("Sıra Sizde 6.34", [t("3,06 dolar hangi sayının 8,5%'idir?")]),
+              pt(
+                "Bazen de parça ve bütün verilir, yüzde sorulur. Bu durumda parça/bütün oranını bulur, sonra yüzdeye çeviririz.",
+              ),
+              ex(
+                "Örnek 6.18",
+                [t("9, 36'nın yüzde kaçıdır?")],
+                sol("Çözüm: p·36=9 denkleminden p=9/36=0,25 olur. 0,25 yüzde olarak 25%'tir."),
+              ),
+              ex("Sıra Sizde 6.35", [t("57, 76'nın yüzde kaçıdır?")]),
+              ex("Sıra Sizde 6.36", [t("96, 120'nin yüzde kaçıdır?")]),
+              ex(
+                "Örnek 6.19",
+                [t("144, 96'nın yüzde kaçıdır?")],
+                sol("Çözüm: p=144/96=1,5 bulunur. 1,5 sayısı yüzde olarak 150%'tir."),
+              ),
+              ex("Sıra Sizde 6.37", [t("110, 88'in yüzde kaçıdır?")]),
+              ex("Sıra Sizde 6.38", [t("126, 72'nin yüzde kaçıdır?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "yuzde-uygulamalari",
+        replaceBlocks: [
+          ...removeBlocks(12),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Yüzde uygulamaları günlük hayatta sık görülür: bahşiş, vergi, indirim, besin değerleri, kira oranı ve benzeri durumlar. Çözüm için önce neyin arandığını belirler, sonra yüzde denklemini kurarız.",
+              ),
+              pt(
+                "Sonucun mantıklı olup olmadığını kontrol etmek önemlidir. Örneğin 70 dolar civarında bir hesabın 20%'i yaklaşık 14 dolardır; bulunan bahşiş bu büyüklüğe yakın olmalıdır.",
+              ),
+              ex(
+                "Örnek 6.20",
+                [t("Dezohn ve kız arkadaşının restoran hesabı 68,50 dolardır. Hesabın 18%'i kadar bahşiş bırakmak istiyorlar. Bahşiş ne kadar olmalıdır?")],
+                sol("Çözüm: Bahşiş t olsun. t=0,18·68,50=12,33 dolar olur. Yaklaşık 70 doların 20%'i 14 dolar olduğu için sonuç mantıklıdır."),
+              ),
+              ex("Sıra Sizde 6.39", [t("Cierra ve kardeşinin restoran hesabı 81,50 dolardır. Toplam hesabın 18%'i kadar bahşiş bırakmak isterse ne kadar bırakmalıdır?")]),
+              ex("Sıra Sizde 6.40", [t("Kimngoc'un öğle yemeği hesabı 14,40 dolardır. 15% bahşiş bırakmak isterse bahşiş ne kadar olur?")]),
+              ex(
+                "Örnek 6.21",
+                [t("Bir porsiyon kahvaltılık gevrek 85 mg potasyum içerir ve bu önerilen günlük miktarın 2%'idir. Önerilen günlük toplam potasyum miktarı nedir?")],
+                sol("Çözüm: Toplam miktar a olsun. 85=0,02a yazılır. a=85÷0,02=4.250 mg bulunur."),
+              ),
+              ex("Sıra Sizde 6.41", [t("Bir porsiyon wheat square cereal 7 gram lif içerir ve bu önerilen günlük miktarın 29%'idir. Önerilen günlük toplam lif miktarı nedir?")]),
+              ex("Sıra Sizde 6.42", [t("Bir porsiyon rice cereal 190 mg sodyum içerir ve bu önerilen günlük miktarın 8%'idir. Önerilen günlük toplam sodyum miktarı nedir?")]),
+              ex(
+                "Örnek 6.22",
+                [t("Bir brownie 480 kaloridir ve bunun 240 kalorisi yağdan gelir. Toplam kalorinin yüzde kaçı yağdan gelir?")],
+                sol("Çözüm: p=240/480=0,5 olur. Yüzde biçimi 50%'tir; kalorinin yarısı yağdan gelmektedir."),
+              ),
+              ex("Sıra Sizde 6.43", [t("Bir muffin 230 kaloridir ve 60 kalorisi yağdan gelir. Toplam kalorinin yüzde kaçı yağdan gelir? En yakın tam yüzdeye yuvarlayın.")]),
+              ex("Sıra Sizde 6.44", [t("Bir brownie 190 kaloridir ve 70 kalorisi yağdan gelir. Toplam kalorinin yüzde kaçı yağdan gelir?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "yuzde-artisi-ve-azalisi",
+        replaceBlocks: [
+          ...removeBlocks(9),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir miktarın zaman içinde ne kadar arttığını veya azaldığını çoğu zaman yüzdeyle ifade ederiz. Karşılaştırma her zaman başlangıç değerine göre yapılır.",
+              ),
+              p([
+                t("Yüzde artışı için önce "),
+                m("\\text{artış}=\\text{yeni değer}-\\text{eski değer}"),
+                t(" bulunur. Sonra "),
+                m("\\frac{\\text{artış}}{\\text{eski değer}}"),
+                t(" oranı yüzdeye çevrilir."),
+              ]),
+              ex(
+                "Örnek 6.23",
+                [t("Bir okulda birim ücret 26 dolardan 36 dolara çıkarılmıştır. Yüzde artışı en yakın onda birliğe yuvarlayın.")],
+                sol("Çözüm: Artış 36-26=10 dolardır. 10/26≈0,3846 olduğundan yüzde artış yaklaşık 38,5%'tir."),
+              ),
+              ex("Sıra Sizde 6.45", [t("IRS indirilebilir mil ücretini 51 sentten 55,5 sente çıkardı. Yüzde artışı en yakın onda birliğe yuvarlayın.")]),
+              ex("Sıra Sizde 6.46", [t("Chicago'da standart otobüs ücreti 1995'te 1,50 dolar, 2008'de 2,25 dolardı. Yüzde artışı bulun.")]),
+              p([
+                t("Yüzde azalışında önce "),
+                m("\\text{azalış}=\\text{eski değer}-\\text{yeni değer}"),
+                t(" bulunur. Sonra yine başlangıç değerine bölüp yüzdeye çeviririz."),
+              ]),
+              ex(
+                "Örnek 6.24",
+                [t("Bir şehirde benzinin galon fiyatı haziranda 3,71 dolar, temmuzda 3,64 dolardır. Yüzde azalışı bulun.")],
+                sol("Çözüm: Azalış 3,71-3,64=0,07 dolardır. 0,07/3,71≈0,0189 olduğundan fiyat yaklaşık 1,9% azalmıştır."),
+              ),
+              ex("Sıra Sizde 6.47", [t("Bir şehrin nüfusu 2010'da yaklaşık 672.000 idi; 2020'de yaklaşık 630.000 olacağı öngörülüyor. Yüzde azalışı en yakın onda birliğe yuvarlayın.")]),
+              ex("Sıra Sizde 6.48", [t("Sheila'nın geçen yılki maaşı 42.000 dolardı. Bu yıl maaşı 37.800 dolar oldu. Yüzde azalışı en yakın onda birliğe yuvarlayın.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

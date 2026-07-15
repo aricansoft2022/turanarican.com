@@ -64231,6 +64231,1506 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "6.3",
+      "displayNumber": "5.2",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent",
+      "contentHash": "243f63420a301110c09ba352ed2725a0a5272dbc14dbff35737a1764cbb64f15",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-de49009d3117839a",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104956/9662db5449826b3f130f0cb3fead6b50c850f764?revision=1",
+          "type": "figure",
+          "altText": "The figure shows a customer copy of a restaurant receipt with the amount of the bill, $80, and the amount of the tip, $16. There is a group of bills totaling $16.",
+          "caption": "Figure 6.6 A 20% 20% tip for an $80 $80 restaurant bill comes out to $16 . $16 .",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/000-de49009d3117839a.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/000-de49009d3117839a.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "023-e43fa13e3efb9cc1",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104984/dc25eb5c4c477ab8fbbca2d033426ce04a4740ee?revision=1",
+          "type": "image",
+          "altText": "The figures shows the nutrition facts for cereal.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/023-e43fa13e3efb9cc1.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/023-e43fa13e3efb9cc1.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "7d0406b59976c869",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/7d0406b59976c869.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/7d0406b59976c869.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "30b0b56355c92f3d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/30b0b56355c92f3d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/30b0b56355c92f3d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "296a8128ded73765",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/296a8128ded73765.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/296a8128ded73765.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "588f1e70901fe223",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/588f1e70901fe223.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/588f1e70901fe223.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "f3f38d30edd0d354",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/f3f38d30edd0d354.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/f3f38d30edd0d354.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "3e37e155e2e08daa",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/3e37e155e2e08daa.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/3e37e155e2e08daa.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "40cf1d4908b1d308",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/40cf1d4908b1d308.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/40cf1d4908b1d308.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "6efd9ec32be8c871",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/6efd9ec32be8c871.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/6efd9ec32be8c871.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a4bf634eb607259b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/a4bf634eb607259b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/a4bf634eb607259b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "cd37014a1a0a8aa7",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/cd37014a1a0a8aa7.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/cd37014a1a0a8aa7.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "162da335a7450a39",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/162da335a7450a39.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-2-solve-general-applications-of-percent/162da335a7450a39.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 3,
+        "sections": 3,
+        "blocks": 43,
+        "examples": 11,
+        "tryIts": 22,
+        "sourceExercises": 27,
+        "exercises": 27,
+        "mathTokens": 4,
+        "assets": 13
+      },
+      "lesson": {
+        "id": "lesson-percent-applications",
+        "slug": "yuzde-problemleri",
+        "displayTitle": "Yüzde Problemleri",
+        "summary": "Temel yüzde denklemlerini kurup çözün, günlük yüzde uygulamalarını modelleyin ve yüzde artışı ile yüzde azalışını hesaplayın.",
+        "sortOrder": 2,
+        "chapterId": "chapter-percents",
+        "sourceNumber": "6.3",
+        "displayNumber": "5.2",
+        "sourceTitle": "Solve General Applications of Percent",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.03%3A_Solve_General_Applications_of_Percent",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "yuzdeler",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Temel yüzde denklemlerini sözel ifadeden cebirsel denkleme çevirebileceksiniz.",
+          "Yüzde içeren günlük yaşam problemlerini çözebileceksiniz.",
+          "Yüzde artışı ve yüzde azalışını hesaplayabileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "yuzde-problemleri-section-01",
+            "heading": "Temel Yüzde Denklemleri",
+            "slug": "temel-yuzde-denklemleri",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzde problemlerini çözmek için sözel ifadeyi cebirsel denkleme çeviririz. “Bir sayının yüzde kaçı”, “hangi sayının yüzde kaçı” ve “yüzde kaçıdır” gibi kalıplar farklı bilinmeyenlere götürür."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Temel fikir şudur: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{yüzde}\\cdot\\text{bütün}=\\text{parça}"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Yüzdeyi denkleme yazarken önce ondalık sayıya çeviririz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin 80 dolarlık bir restoran hesabının 20%'i bahşiş olarak bırakılacaksa 20%=0,20 yazılır ve 0,20·80=16 dolar bulunur."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.14",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "90'ın 35%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Aranan sayı n olsun. 35%=0,35 olduğundan n=0,35·90=31,5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.27",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "80'in 45%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 45% değerini 0,45 olarak yazarız. 0,45·80=36 olduğundan aranan sayı 36'dır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.28",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "60'ın 55%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 55%=0,55. Bu yüzden 0,55·60=33 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.15",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "28'in 125%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 125%=1,25. Aranan sayı a ise a=1,25·28=35 olur. 125%, 100%'den büyük olduğu için sonuç 28'den büyüktür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.29",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "78'in 150%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 150%=1,5 olduğundan 1,5·78=117 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.30",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "72'nin 175%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 175%=1,75. 1,75·72=126 olduğundan aranan sayı 126'dır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bazen parça ve yüzde verilir, bütün sorulur. Bu durumda denklemi kurar ve yüzde katsayısına böleriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.16",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "36 hangi sayının 75%'idir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bütün sayı b olsun. 36=0,75b denkleminden b=36÷0,75=48 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.31",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "17 hangi sayının 25%'idir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 17 sayısı bir sayının 25%'i ise 17=0,25n yazarız. n=17÷0,25=68 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.32",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "40 hangi sayının 62,5%'idir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 62,5%=0,625. Denklem 40=0,625n olur. n=40÷0,625=64 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.17",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "1,17 dolar hangi sayının 6,5%'idir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6,5%=0,065. 0,065b=1,17 olduğundan b=1,17÷0,065=18 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.33",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "1,95 dolar hangi sayının 7,5%'idir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7,5%=0,075. 0,075n=1,95 denkleminden n=1,95÷0,075=26 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.34",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "3,06 dolar hangi sayının 8,5%'idir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8,5%=0,085. 0,085n=3,06 olduğundan n=3,06÷0,085=36 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bazen de parça ve bütün verilir, yüzde sorulur. Bu durumda parça/bütün oranını bulur, sonra yüzdeye çeviririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.18",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "9, 36'nın yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: p·36=9 denkleminden p=9/36=0,25 olur. 0,25 yüzde olarak 25%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.35",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "57, 76'nın yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: p·76=57 denkleminden p=57/76=0,75 olur. Yüzde biçimi 75%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.36",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "96, 120'nin yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: p·120=96 ise p=96/120=0,8 olur. Bu da 80%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.19",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "144, 96'nın yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: p=144/96=1,5 bulunur. 1,5 sayısı yüzde olarak 150%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.37",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "110, 88'in yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 110 sayısı 88'in p yüzdesi ise p=110/88=1,25 olur. Yüzde olarak 125%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.38",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "126, 72'nin yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: p=126/72=1,75 bulunur. 1,75 sayısı yüzde olarak 175%'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "yuzde-problemleri-section-02",
+            "heading": "Yüzde Uygulamaları",
+            "slug": "yuzde-uygulamalari",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzde uygulamaları günlük hayatta sık görülür: bahşiş, vergi, indirim, besin değerleri, kira oranı ve benzeri durumlar. Çözüm için önce neyin arandığını belirler, sonra yüzde denklemini kurarız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sonucun mantıklı olup olmadığını kontrol etmek önemlidir. Örneğin 70 dolar civarında bir hesabın 20%'i yaklaşık 14 dolardır; bulunan bahşiş bu büyüklüğe yakın olmalıdır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.20",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Dezohn ve kız arkadaşının restoran hesabı 68,50 dolardır. Hesabın 18%'i kadar bahşiş bırakmak istiyorlar. Bahşiş ne kadar olmalıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bahşiş t olsun. t=0,18·68,50=12,33 dolar olur. Yaklaşık 70 doların 20%'i 14 dolar olduğu için sonuç mantıklıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.39",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Cierra ve kardeşinin restoran hesabı 81,50 dolardır. Toplam hesabın 18%'i kadar bahşiş bırakmak isterse ne kadar bırakmalıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bahşiş toplam hesabın 18%'idir. 0,18·81,50=14,67 dolar bırakmalıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.40",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Kimngoc'un öğle yemeği hesabı 14,40 dolardır. 15% bahşiş bırakmak isterse bahşiş ne kadar olur?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 15%=0,15 olduğundan bahşiş 0,15·14,40=2,16 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.21",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir porsiyon kahvaltılık gevrek 85 mg potasyum içerir ve bu önerilen günlük miktarın 2%'idir. Önerilen günlük toplam potasyum miktarı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam miktar a olsun. 85=0,02a yazılır. a=85÷0,02=4.250 mg bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.41",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir porsiyon wheat square cereal 7 gram lif içerir ve bu önerilen günlük miktarın 29%'idir. Önerilen günlük toplam lif miktarı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7 gram, günlük miktarın 29%'i ise 7=0,29a. a=7÷0,29≈24,1 gram olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.42",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir porsiyon rice cereal 190 mg sodyum içerir ve bu önerilen günlük miktarın 8%'idir. Önerilen günlük toplam sodyum miktarı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 190 mg, günlük miktarın 8%'idir. 190=0,08a ve a=190÷0,08=2.375 mg bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.22",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir brownie 480 kaloridir ve bunun 240 kalorisi yağdan gelir. Toplam kalorinin yüzde kaçı yağdan gelir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: p=240/480=0,5 olur. Yüzde biçimi 50%'tir; kalorinin yarısı yağdan gelmektedir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.43",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir muffin 230 kaloridir ve 60 kalorisi yağdan gelir. Toplam kalorinin yüzde kaçı yağdan gelir? En yakın tam yüzdeye yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yağdan gelen kalori oranı 60/230≈0,2609'dur. En yakın tam yüzdeyle 26% olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.44",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir brownie 190 kaloridir ve 70 kalorisi yağdan gelir. Toplam kalorinin yüzde kaçı yağdan gelir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 70/190≈0,3684 olduğundan yağdan gelen kalori yaklaşık 37%'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "yuzde-problemleri-section-03",
+            "heading": "Yüzde Artışı ve Azalışı",
+            "slug": "yuzde-artisi-ve-azalisi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir miktarın zaman içinde ne kadar arttığını veya azaldığını çoğu zaman yüzdeyle ifade ederiz. Karşılaştırma her zaman başlangıç değerine göre yapılır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzde artışı için önce "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{artış}=\\text{yeni değer}-\\text{eski değer}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " bulunur. Sonra "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\text{artış}}{\\text{eski değer}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " oranı yüzdeye çevrilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.23",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir okulda birim ücret 26 dolardan 36 dolara çıkarılmıştır. Yüzde artışı en yakın onda birliğe yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Artış 36-26=10 dolardır. 10/26≈0,3846 olduğundan yüzde artış yaklaşık 38,5%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.45",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "IRS indirilebilir mil ücretini 51 sentten 55,5 sente çıkardı. Yüzde artışı en yakın onda birliğe yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Artış 55,5-51=4,5 senttir. 4,5/51≈0,0882 olduğundan yüzde artış 8,8%'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.46",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Chicago'da standart otobüs ücreti 1995'te 1,50 dolar, 2008'de 2,25 dolardı. Yüzde artışı bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Artış 2,25-1,50=0,75 dolardır. 0,75/1,50=0,5 olduğundan yüzde artış 50%'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzde azalışında önce "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{azalış}=\\text{eski değer}-\\text{yeni değer}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " bulunur. Sonra yine başlangıç değerine bölüp yüzdeye çeviririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.24",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir şehirde benzinin galon fiyatı haziranda 3,71 dolar, temmuzda 3,64 dolardır. Yüzde azalışı bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Azalış 3,71-3,64=0,07 dolardır. 0,07/3,71≈0,0189 olduğundan fiyat yaklaşık 1,9% azalmıştır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.47",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir şehrin nüfusu 2010'da yaklaşık 672.000 idi; 2020'de yaklaşık 630.000 olacağı öngörülüyor. Yüzde azalışı en yakın onda birliğe yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Azalış 672.000-630.000=42.000 kişidir. 42.000/672.000=0,0625; en yakın onda bir yüzdeyle 6,3% azalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.48",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sheila'nın geçen yılki maaşı 42.000 dolardı. Bu yıl maaşı 37.800 dolar oldu. Yüzde azalışı en yakın onda birliğe yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Maaş azalışı 42.000-37.800=4.200 dolardır. 4.200/42.000=0,10 olduğundan azalış 10%'dur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-97",
+            "number": "97",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: 120'nin 45%'i hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 45%=0,45 olduğundan sayı 0,45·120=54 olur."
+              }
+            ],
+            "sortOrder": 97
+          },
+          {
+            "id": "exercise-99",
+            "number": "99",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirin ve çözün: 112'nin 24%'ü hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yüzdeyi ondalığa çeviririz: 24%=0,24. 0,24·112=26,88 bulunur."
+              }
+            ],
+            "sortOrder": 99
+          },
+          {
+            "id": "exercise-101",
+            "number": "101",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "65'in 250%'i hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 250%=2,5'tir. 2,5·65=162,5 olduğundan aranan sayı 162,5'tir."
+              }
+            ],
+            "sortOrder": 101
+          },
+          {
+            "id": "exercise-103",
+            "number": "103",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "2.250'nin 800%'ü hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 800%=8 olur. 2.250'nin 8 katı 18.000 olduğundan sonuç 18.000'dir."
+              }
+            ],
+            "sortOrder": 103
+          },
+          {
+            "id": "exercise-105",
+            "number": "105",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "28 hangi sayının 25%'idir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 28=0,25n denklemini kurarız. n=28÷0,25=112 olur."
+              }
+            ],
+            "sortOrder": 105
+          },
+          {
+            "id": "exercise-107",
+            "number": "107",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "81 hangi sayının 75%'idir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 81=0,75n olduğundan n=81÷0,75=108 bulunur."
+              }
+            ],
+            "sortOrder": 107
+          },
+          {
+            "id": "exercise-109",
+            "number": "109",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "2,87 dolar hangi sayının 8,2%'idir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8,2%=0,082. Denklem 0,082n=2,87 olur; n=2,87÷0,082=35'tir."
+              }
+            ],
+            "sortOrder": 109
+          },
+          {
+            "id": "exercise-111",
+            "number": "111",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "108,10 dolar hangi sayının 11,5%'idir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 11,5%=0,115. 0,115n=108,10 denklemini çözersek n=940 dolar olur."
+              }
+            ],
+            "sortOrder": 111
+          },
+          {
+            "id": "exercise-113",
+            "number": "113",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "78, 260'ın yüzde kaçıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 78, 260'ın p yüzdesi ise p=78/260=0,30 olur. Yüzde biçimi 30%'dur."
+              }
+            ],
+            "sortOrder": 113
+          },
+          {
+            "id": "exercise-115",
+            "number": "115",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "540, 1.500'ün yüzde kaçıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: p=540/1.500=0,36 bulunur. Bu da 36% demektir."
+              }
+            ],
+            "sortOrder": 115
+          },
+          {
+            "id": "exercise-117",
+            "number": "117",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "30, 20'nin yüzde kaçıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: p=30/20=1,5 olur. 1,5 sayısı yüzde olarak 150%'tir."
+              }
+            ],
+            "sortOrder": 117
+          },
+          {
+            "id": "exercise-119",
+            "number": "119",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "840, 480'in yüzde kaçıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: p=840/480=1,75 bulunur. Yüzde biçimi 175%'tir."
+              }
+            ],
+            "sortOrder": 119
+          },
+          {
+            "id": "exercise-121",
+            "number": "121",
+            "sectionSlug": "yuzde-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Geneva ailesine restoranda yemek ısmarladı. Hesap 74,25 dolar geldi. Toplam hesabın 16%'i kadar bahşiş bırakmak istiyor. Bahşiş ne kadar olmalıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bahşiş 74,25 doların 16%'idir. 0,16·74,25=11,88 dolar olur."
+              }
+            ],
+            "sortOrder": 121
+          },
+          {
+            "id": "exercise-123",
+            "number": "123",
+            "sectionSlug": "yuzde-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Trong her maaş çekinin 12%'ini otomatik olarak birikim hesabına yatırıyor. Son maaş çeki 2.165 dolardı. Birikim hesabına ne kadar para yatırıldı?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Birikime ayrılan para maaşın 12%'idir. 0,12·2.165=259,80 dolar yatırılır."
+              }
+            ],
+            "sortOrder": 123
+          },
+          {
+            "id": "exercise-125",
+            "number": "125",
+            "sectionSlug": "yuzde-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir porsiyon yulaf ezmesi 8 gram lif içerir ve bu günlük önerilen miktarın 33%'idir. Günlük önerilen toplam lif miktarı nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam günlük lif miktarı a olsun. 8=0,33a olduğundan a=8÷0,33≈24,24 gramdır."
+              }
+            ],
+            "sortOrder": 125
+          },
+          {
+            "id": "exercise-127",
+            "number": "127",
+            "sectionSlug": "yuzde-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir bacon cheeseburger 2.070 mg sodyum içerir ve bu günlük önerilen miktarın 86%'idir. Günlük önerilen toplam sodyum miktarı nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam önerilen sodyum miktarı a olsun. 2.070=0,86a ve a≈2.406,98 mg; yaklaşık 2.407 mg bulunur."
+              }
+            ],
+            "sortOrder": 127
+          },
+          {
+            "id": "exercise-129",
+            "number": "129",
+            "sectionSlug": "yuzde-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir balık sandviçinde 380 kalori vardır ve 171 kalorisi yağdan gelir. Toplam kalorinin yüzde kaçı yağdan gelir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yağdan gelen kalori oranı 171/380=0,45'tir. Yüzde biçimi 45%'tir."
+              }
+            ],
+            "sortOrder": 129
+          },
+          {
+            "id": "exercise-131",
+            "number": "131",
+            "sectionSlug": "yuzde-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Emma ayda 3.000 dolar kazanıyor. Kira için ayda 750 dolar ödüyor. Aylık gelirinin yüzde kaçı kiraya gider?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kiranın gelire oranı 750/3.000=0,25 olur. Emma gelirinin 25%'ini kiraya verir."
+              }
+            ],
+            "sortOrder": 131
+          },
+          {
+            "id": "exercise-133",
+            "number": "133",
+            "sectionSlug": "yuzde-artisi-ve-azalisi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tamanika'nın saatlik ücreti 15,50 dolardan 17,55 dolara çıktı. Yüzde artışı bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Artış 17,55-15,50=2,05 dolardır. 2,05/15,50≈0,1323 olduğundan yüzde artış yaklaşık 13,2%'dir."
+              }
+            ],
+            "sortOrder": 133
+          },
+          {
+            "id": "exercise-135",
+            "number": "135",
+            "sectionSlug": "yuzde-artisi-ve-azalisi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "University of California'da yıllık öğrenci ücretleri 2000'de yaklaşık 4.000 dolardan 2014'te yaklaşık 9.000 dolara çıktı. Yüzde artışı bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Artış 9.000-4.000=5.000 dolardır. 5.000/4.000=1,25 olduğundan yüzde artış 125%'tir."
+              }
+            ],
+            "sortOrder": 135
+          },
+          {
+            "id": "exercise-137",
+            "number": "137",
+            "sectionSlug": "yuzde-artisi-ve-azalisi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kişi başına yıllık küresel deniz ürünü tüketimi 1960'ta 22 pound iken bugün 38 pound oldu. Yüzde artışı en yakın onda birliğe yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Artış 38-22=16 pound'dur. 16/22≈0,7273 olduğundan en yakın onda birliğe 72,7% artış vardır."
+              }
+            ],
+            "sortOrder": 137
+          },
+          {
+            "id": "exercise-139",
+            "number": "139",
+            "sectionSlug": "yuzde-artisi-ve-azalisi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir market ekmek fiyatını 2,80 dolardan 2,73 dolara düşürdü. Yüzde azalışı bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Azalış 2,80-2,73=0,07 dolardır. 0,07/2,80=0,025 olduğundan yüzde azalış 2,5%'tir."
+              }
+            ],
+            "sortOrder": 139
+          },
+          {
+            "id": "exercise-141",
+            "number": "141",
+            "sectionSlug": "yuzde-artisi-ve-azalisi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hernando'nun maaşı geçen yıl 49.500 dolardı. Bu yıl 44.055 dolara düştü. Yüzde azalışı bulun."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Azalış 49.500-44.055=5.445 dolardır. 5.445/49.500=0,11 olduğundan yüzde azalış 11%'dir."
+              }
+            ],
+            "sortOrder": 141
+          },
+          {
+            "id": "exercise-143",
+            "number": "143",
+            "sectionSlug": "yuzde-artisi-ve-azalisi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir ayda Batı bölgesindeki ortanca ev fiyatı 203.400 dolardan 192.300 dolara düştü. Yüzde azalışı en yakın onda birliğe yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Azalış 203.400-192.300=11.100 dolardır. 11.100/203.400≈0,0546; en yakın onda birliğe 5,5% azalır."
+              }
+            ],
+            "sortOrder": 143
+          },
+          {
+            "id": "exercise-145",
+            "number": "145",
+            "sectionSlug": "yuzde-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kampüs kahve arabasında orta boy kahve 1,65 dolardır. MaryAnne 2,00 dolar verir ve para üstünü bahşiş bırakır. Yüzde kaç bahşiş bırakır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Para üstü 2,00-1,65=0,35 dolardır. 0,35/1,65≈0,2121 olduğundan yaklaşık 21,2% bahşiş bırakır."
+              }
+            ],
+            "sortOrder": 145
+          },
+          {
+            "id": "exercise-147",
+            "number": "147",
+            "sectionSlug": "temel-yuzde-denklemleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "“44 hangi sayının 80%'idir?” problemini çözmeden düşünün. Çözüm 44'ten büyük mü küçük mü olmalıdır? Açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 80% bir bütünün tamamından küçüktür. 44, sayının yalnızca 80%'i ise bütün sayı 44'ten büyük olmalıdır; gerçekten 44÷0,80=55 olur."
+              }
+            ],
+            "sortOrder": 147
+          },
+          {
+            "id": "exercise-149",
+            "number": "149",
+            "sectionSlug": "yuzde-artisi-ve-azalisi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Alex tatilden dönünce 50% daha az şort ve 200% daha fazla gömlek koymalıydım dedi. Ne demek istediğini açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 50% daha az şort, şort sayısının yarısı kadar götürmek demektir. 200% daha fazla gömlek ise mevcut sayıya iki katı kadar daha eklemek, yani toplamda üç kat gömlek götürmek demektir."
+              }
+            ],
+            "sortOrder": 149
+          }
+        ]
+      }
     }
   ]
 }

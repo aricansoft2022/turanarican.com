@@ -18,8 +18,8 @@ Proje şu anda:
   yönleniyor.
 - Turso'ya yazıldığı son doğrulanan seed DB içeriği 23 ders, 128 ders bölümü,
   851 alıştırma ve 585 kaynak asset içeriyor.
-- Son yerel/generated seed payload 24 ders, 131 ders bölümü, 899 alıştırma ve
-  617 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
+- Son yerel/generated seed payload 25 ders, 134 ders bölümü, 926 alıştırma ve
+  630 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
 
 En önemli deploy kuralı:
 
@@ -450,22 +450,22 @@ Son doğrulanan seed DB yazımı:
 ```json
 {
   "books": 1,
-  "chapters": 4,
-  "lessons": 23,
-  "lessonSections": 128,
-  "exercises": 851,
-  "sourceSnapshots": 23,
-  "sourceAssets": 585
+  "chapters": 5,
+  "lessons": 24,
+  "lessonSections": 131,
+  "exercises": 899,
+  "sourceSnapshots": 24,
+  "sourceAssets": 617
 }
 ```
 
-Bu Turso yazımı Prealgebra 2e için `2.3-5.8` aralığını kapsar. Son yazılmış ders
-`5.8 Simplify and Use Square Roots` / `Karekökler ve Uygulamalar` idi.
+Bu Turso yazımı Prealgebra 2e için `2.3-6.2` aralığını kapsar. Son yazılmış ders
+`6.2 Understand Percent` / `Yüzde Kavramı` idi.
 
-Son yerel/generated seed payload `2.3-6.2` aralığını kapsar; son yerel ders
-`6.2 Understand Percent` / `Yüzde Kavramı` olarak üretildi ve henüz Turso'ya
-yazılmadı. Sıradaki aday `6.3 Solve General Applications of Percent` olarak
-raporlanır.
+Son yerel/generated seed payload `2.3-6.3` aralığını kapsar; son yerel ders
+`6.3 Solve General Applications of Percent` / `Yüzde Problemleri` olarak
+üretildi ve henüz Turso'ya yazılmadı. Sıradaki aday
+`6.4 Solve Sales Tax, Commission, and Discount Applications` olarak raporlanır.
 
 Schema değiştiğinde:
 
