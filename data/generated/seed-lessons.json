@@ -48882,6 +48882,2991 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "5.3",
+      "displayNumber": "4.2",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations",
+      "contentHash": "e87823a56fc62d7f2be092dac2681cca7a0fc9e038f82809a7fa440f549f9cd0",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-16b21749f1aa62a2",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102916/b87da59880c0d37466110aed90cae1dbbd7300bb?revision=1",
+          "type": "image",
+          "altText": "A vertical addition problem is shown. The top line shows $3.45 for a sandwich, the next line shows $1.25 for water, and the last line shows $0.33 for tax. The total is shown to be $5.03.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/000-16b21749f1aa62a2.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/000-16b21749f1aa62a2.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "010-e953c3d7217ef6b6",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102932/88be49d42706d4e0cbad43e779508cf45d0b01a6?revision=1",
+          "type": "image",
+          "altText": "The top line says 0.01 times 0.004 equals 0.00004. Below the 0.01, it says 2 places. Below the 0.004, it says 3 places. Below the 0.00004, it says 5 places. The bottom line says 1 over 100 times 4 over 1000 equals 4 over 100,000.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/010-e953c3d7217ef6b6.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/010-e953c3d7217ef6b6.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "019-030ce12b67156b1e",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102944/c667727e4e0a45b35806b58f33cad22c6f4e6150?revision=1",
+          "type": "image",
+          "altText": "The top row says 1.9436 times 10, then 1.9436 times 100, then 1.9436 times 1000. Below each is a vertical multiplication problem. These show that 1.9436 times 10 is 19.4360, 1.9436 times 100 is 194.3600, and 1.9436 times 1000 is 1943.6000.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/019-030ce12b67156b1e.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/019-030ce12b67156b1e.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "020-9f143839fe4b9b59",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102945/6a4d6b4b5a6ab8c0b119043b8851ce9ebda9a12f?revision=1",
+          "type": "image",
+          "altText": "45.86 times 100 is shown to equal 4586. There is an arrow from the decimal going over 2 places from after the 5 to after the 6.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/020-9f143839fe4b9b59.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/020-9f143839fe4b9b59.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "021-4f2a73626d7996d0",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102946/89e8963d275a101384d7d2c16883bd714fe69e1c?revision=1",
+          "type": "image",
+          "altText": "2.4 times 100 is shown to equal 240. There is an arrow from the decimal going over 2 places from after the 2 to after the 0.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/021-4f2a73626d7996d0.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/021-4f2a73626d7996d0.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "025-871c3b5b59af8672",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102951/fff3c6258d29987ebd84942dd5a6cccb8be38f06?revision=1",
+          "type": "figure",
+          "altText": "A number line is shown with 0, 0.2, 0.4, 0.6, 0.8, and 1. There are braces showing a distance of 0.2 between each adjacent set of 2 numbers.",
+          "caption": "Figure 5.5",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/025-871c3b5b59af8672.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/025-871c3b5b59af8672.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "027-80baf2d950c55812",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102950/a6b31d9a8927e24ffa0eedccd1cb9cf05f169d60?revision=1",
+          "type": "image",
+          "altText": "A division problem is shown. 0.8 is on the inside of the division sign, 4 is on the outside. Above the division sign is 0.2.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/027-80baf2d950c55812.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/027-80baf2d950c55812.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "032-40076e8dcfc06980",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102960/fff3c6258d29987ebd84942dd5a6cccb8be38f06_i2o8?revision=1",
+          "type": "image",
+          "altText": "A number line is shown with 0, 0.2, 0.4, 0.6, 0.8, and 1. There are braces showing a distance of 0.2 between each adjacent set of 2 numbers.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/032-40076e8dcfc06980.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/032-40076e8dcfc06980.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "033-c0224e0e39e420b8",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/102963/e883d30c97cd69b2dbb9d1b3321e63360f4456dc?revision=1",
+          "type": "image",
+          "altText": "a divided by b is shown with a labeled as the dividend and b labeled as the divisor. Then a over b is shown with a labeled as the divided and b labeled as the divisor. Then a is shown inside a division problem with b on the outside with a labeled as the dividend and b labeled as the divisor.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/033-c0224e0e39e420b8.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/033-c0224e0e39e420b8.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "1ee181d0ae8f1e8f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/1ee181d0ae8f1e8f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/1ee181d0ae8f1e8f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "370fc46998839ceb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/370fc46998839ceb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/370fc46998839ceb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c4cbeb607e3bde69",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/c4cbeb607e3bde69.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/c4cbeb607e3bde69.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "565ddde9921854a9",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-3",
+          "type": "table",
+          "caption": "If we subtract 7.47.4 from 2.51,2.51, the answer will be negative since 7.4>2.51.7.4>2.51. To subtract easily, we can subtract 2.512.51 from 7.4.7.4. Then we will place the negative sign in the result.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/565ddde9921854a9.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/565ddde9921854a9.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d0e0d494336b0e18",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/d0e0d494336b0e18.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/d0e0d494336b0e18.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "180e53b7b2a0c70d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/180e53b7b2a0c70d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/180e53b7b2a0c70d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "026a91a0ade15157",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/026a91a0ade15157.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/026a91a0ade15157.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "07e8a3ec65174cfb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/07e8a3ec65174cfb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/07e8a3ec65174cfb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "dc121fc7cc23e1cb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/dc121fc7cc23e1cb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/dc121fc7cc23e1cb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5f51964001de51df",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-9",
+          "type": "table",
+          "caption": "By looking at the number of zeros in the multiple of ten, we see the number of places we need to move the decimal to the right.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/5f51964001de51df.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/5f51964001de51df.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b2efb9b4ac4d8197",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/b2efb9b4ac4d8197.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/b2efb9b4ac4d8197.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "31f32ab696ebd508",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/31f32ab696ebd508.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/31f32ab696ebd508.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "cafdfd5ad8967bae",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-12",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/cafdfd5ad8967bae.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/cafdfd5ad8967bae.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "f28e3ce224d1809d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/f28e3ce224d1809d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/f28e3ce224d1809d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d0ee66163759383e",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/d0ee66163759383e.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/d0ee66163759383e.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ee0740c200ab9f28",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-15",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/ee0740c200ab9f28.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/ee0740c200ab9f28.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5362ec152a9630dd",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-16",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/5362ec152a9630dd.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/5362ec152a9630dd.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "4f95e5de0268a4c0",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-17",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/4f95e5de0268a4c0.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/4f95e5de0268a4c0.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "9df3201b7be740ec",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-18",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/9df3201b7be740ec.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/9df3201b7be740ec.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "fd8b25cdb4e8170c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-19",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/fd8b25cdb4e8170c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/fd8b25cdb4e8170c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "34958fb9bb0f7adb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations#table-20",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-2-decimal-operations/34958fb9bb0f7adb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-2-decimal-operations/34958fb9bb0f7adb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 4,
+        "sections": 6,
+        "blocks": 69,
+        "examples": 17,
+        "tryIts": 34,
+        "sourceExercises": 53,
+        "exercises": 53,
+        "mathTokens": 55,
+        "assets": 30
+      },
+      "lesson": {
+        "id": "lesson-decimal-operations",
+        "slug": "ondalik-sayilarla-islemler",
+        "displayTitle": "Ondalık Sayılarla İşlemler",
+        "summary": "Ondalık sayılarla toplama, çıkarma, çarpma ve bölme işlemlerini yapın; para problemlerinde işlem sırasını kullanın.",
+        "sortOrder": 2,
+        "chapterId": "chapter-decimals",
+        "sourceNumber": "5.3",
+        "displayNumber": "4.2",
+        "sourceTitle": "Decimal Operations",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.03%3A_Decimal_Operations",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "ondalik-sayilar",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Ondalık sayılarla toplama ve çıkarma işlemlerini yapabileceksiniz.",
+          "Ondalık sayılarla çarpma işlemini yapabileceksiniz.",
+          "Ondalık sayıları bölebileceksiniz.",
+          "Para problemlerinde ondalık işlemleri kullanabileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "ondalik-sayilarla-islemler-section-01",
+            "heading": "Ondalık Sayılarla Toplama ve Çıkarma",
+            "slug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Ondalık sayıları toplarken veya çıkarırken virgülleri alt alta getiririz. Böylece onda birler onda birlerle, yüzde birler yüzde birlerle işlem görür."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Basamak sayıları farklıysa sayının sonuna sıfır ekleyebiliriz; bu, sayının değerini değiştirmez."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.11",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3{,}7+12{,}4"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Virgülleri hizalarız. 3,7+12,4=16,1 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.21",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5{,}7+11{,}9"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Virgülleri alt alta hizalarız. 5,7+11,9=17,6 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.22",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "18{,}32+14{,}79"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yüzde birlikleri hizalayıp toplarız: 18,32+14,79=33,11."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.12",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "23{,}5+41{,}38"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 23,5 sayısını 23,50 olarak yazarız. 23,50+41,38=64,88 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.23",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4{,}8+11{,}69"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4,8 sayısını 4,80 gibi düşünürüz. 4,80+11,69=16,49 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.24",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Toplayın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5{,}123+18{,}47"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 18,47 sayısını 18,470 olarak hizalarız. 5,123+18,470=23,593 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarma yaparken de aynı hizalamayı kullanırız. Bir tam sayı varsa virgülün sağında gerekli kadar sıfır düşünürüz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.13",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "20-14{,}65"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 20 sayısını 20,00 olarak yazarız. 20,00-14,65=5,35 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.25",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10-9{,}58"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 10 sayısını 10,00 olarak yazarız. 10,00-9,58=0,42 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.26",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "50-37{,}42"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 50,00-37,42=12,58 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.14",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2{,}51-7{,}4"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7,4 sayısını 7,40 olarak hizalarız. 7,40-2,51=4,89 ve ilk sayı küçük olduğu için sonuç -4,89 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.27",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4{,}77-6{,}3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4,77-6,30 işleminde ikinci sayı büyüktür. 6,30-4,77=1,53, bu yüzden sonuç -1,53'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.28",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8{,}12-11{,}7"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8,12-11,70 işleminde sonuç negatiftir. 11,70-8,12=3,58 olduğundan sonuç -3,58 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ondalik-sayilarla-islemler-section-02",
+            "heading": "Ondalık Sayılarla Çarpma",
+            "slug": "ondalik-sayilarla-carpma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Ondalık sayıları çarparken önce virgülleri yokmuş gibi çarparız. Sonra çarpanlardaki toplam ondalık basamak sayısı kadar virgülü sonuçta soldan yerleştiririz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "0{,}3\\cdot0{,}7=0{,}21"
+                  },
+                  {
+                    "type": "text",
+                    "value": " örneğinde çarpanlarda toplam iki ondalık basamak vardır; sonuç da iki basamaklıdır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İşaretli ondalıklarda önce işareti belirleriz: aynı işaretli çarpanların çarpımı pozitif, farklı işaretli çarpanların çarpımı negatiftir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.15",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(3{,}9)(4{,}075)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 39·4075=158925 ve toplam dört ondalık basamak vardır. Sonuç 15,8925 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.29",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4{,}5(6{,}107)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 45·6107=274815 ve toplam dört ondalık basamak vardır. Sonuç 27,4815'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.30",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10{,}79(8{,}12)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1079·812=876148 ve toplam dört ondalık basamak vardır. Sonuç 87,6148 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.16",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(-8{,}2)(5{,}19)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İşaretler farklıdır, sonuç negatif olur. 82·519=42558 ve üç ondalık basamak olduğundan sonuç -42,558'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.31",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(4{,}63)(-2{,}9)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İşaretler farklı olduğu için sonuç negatiftir. 4,63·2,9=13,427, sonuç -13,427 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.32",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(-7{,}78)(4{,}9)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İşaretler farklıdır. 7,78·4,9=38,122 olduğundan sonuç -38,122 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sonuçta yeterli basamak yoksa başa sıfır ekleriz. Örneğin beş ondalık basamak gerekiyorsa 348 sayısı 0,00348 biçiminde yazılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.17",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(0{,}03)(0{,}045)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3·45=135 ve toplam beş ondalık basamak vardır. Sonuç 0,00135 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.33",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(0{,}04)(0{,}087)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4·87=348 ve toplam beş ondalık basamak vardır. Sonuç 0,00348 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.34",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(0{,}09)(0{,}067)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 9·67=603 ve toplam beş ondalık basamak vardır. Sonuç 0,00603 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ondalik-sayilarla-islemler-section-03",
+            "heading": "10'un Kuvvetleriyle Çarpma",
+            "slug": "10-un-kuvvetleriyle-carpma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir ondalık sayıyı 10, 100, 1000 gibi 10'un kuvvetleriyle çarptığımızda virgülü sağa taşırız. Kaç sıfır varsa virgül o kadar basamak sağa gider."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "1{,}9436\\cdot10=19{,}436"
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1{,}9436\\cdot100=194{,}36"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1{,}9436\\cdot1000=1943{,}6"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Virgülü taşıyacak yeterli basamak yoksa sayının sonuna sıfır ekleriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.18",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "5{,}63"
+                  },
+                  {
+                    "type": "text",
+                    "value": " sayısını ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "100"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1000"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile çarpın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Virgülü sırasıyla 1, 2 ve 3 basamak sağa taşırız: ⓐ 56,3 ⓑ 563 ⓒ 5630."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.35",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "2{,}58"
+                  },
+                  {
+                    "type": "text",
+                    "value": " sayısını ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "100"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1000"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile çarpın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 10, 100 ve 1000 ile çarparken virgülü sırasıyla 1, 2 ve 3 basamak sağa taşırız: 25,8; 258; 2580."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.36",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "14{,}2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " sayısını ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "10"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "100"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1000"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile çarpın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 14,2·10=142, 14,2·100=1420 ve 14,2·1000=14200 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ondalik-sayilarla-islemler-section-04",
+            "heading": "Ondalık Sayıları Bölme",
+            "slug": "ondalik-sayilari-bolme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Ondalık bir sayıyı tam sayıya bölerken bölmede virgül, bölünen sayıdaki virgülün tam üstüne yerleştirilir. Sonra tam sayılarda olduğu gibi böleriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "0{,}8\\div4=0{,}2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " çünkü 8 onda birlik 4 eş gruba ayrıldığında her grupta 2 onda birlik vardır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Gerekirse bölmeyi sürdürmek için bölünen sayının sonuna sıfırlar ekleriz. Para problemlerinde genellikle en yakın sente yuvarlarız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.19",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}12\\div3"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Virgülü bölümde aynı hizaya koyarız. 12 yüzde birlik 3'e bölününce 4 yüzde birlik eder; sonuç 0,04 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.37",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}28\\div4"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 0,28'i 4 eş parçaya böleriz. 28 yüzde birlik 4'e bölününce 7 yüzde birlik kalır; sonuç 0,07 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.38",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}56\\div7"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 0,56÷7=0,08 çünkü 56 yüzde birlik 7'ye bölününce 8 yüzde birlik eder."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.20",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3{,}99\\div24"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3,99÷24=0,166... Para biriminde en yakın sente yuvarlanır; şişe başına yaklaşık 0,17 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.39",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6{,}99\\div36"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6,99÷36=0,194... Para biriminde en yakın sente yuvarlarız; sonuç yaklaşık 0,19 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.40",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4{,}99\\div12"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4,99÷12=0,4158... En yakın sente yuvarlayınca yaklaşık 0,42 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ondalik-sayilarla-islemler-section-05",
+            "heading": "Ondalık Sayıyı Ondalık Sayıya Bölme",
+            "slug": "ondalik-sayiyi-ondalik-sayiya-bolme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir ondalık sayıyı başka bir ondalık sayıya bölerken böleni tam sayı yaparız. Bunun için bölen ve bölünenin virgülünü aynı sayıda basamak sağa taşırız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "0{,}8\\div0{,}2"
+                  },
+                  {
+                    "type": "text",
+                    "value": " işlemi, her iki sayıyı 10 ile çarptığımızda "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8\\div2=4"
+                  },
+                  {
+                    "type": "text",
+                    "value": " işlemine dönüşür."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İşaretli bölmelerde önce işareti belirleriz. Aynı işaretli sayıların bölümü pozitif, farklı işaretli sayıların bölümü negatiftir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.21",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2{,}89\\div3{,}4"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İşaretler farklıdır, sonuç negatiftir. Virgülleri bir basamak sağa taşırız: 28,9÷34=0,85. Sonuç -0,85 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.41",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-1{,}989\\div5{,}1"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İşaretler farklıdır. 1,989÷5,1 için her iki sayıyı 10 ile çarparız: 19,89÷51=0,39. Sonuç -0,39'dur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.42",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-2{,}04\\div5{,}1"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İşaretler farklıdır. 2,04÷5,1 = 20,4÷51 = 0,4 olduğundan sonuç -0,4 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.22",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-25{,}65\\div(-0{,}06)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İki sayı da negatif olduğu için bölüm pozitiftir. Virgülleri iki basamak sağa taşırız: 2565÷6=427,5."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.43",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-23{,}492\\div(-0{,}04)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İki sayı da negatif olduğu için bölüm pozitiftir. 23,492÷0,04 = 2349,2÷4 = 587,3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.44",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-4{,}11\\div(-0{,}12)"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İki negatif sayının bölümü pozitiftir. 4,11÷0,12 = 411÷12 = 34,25 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.23",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4\\div0{,}05"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 0,05'i tam sayı yapmak için iki basamak sağa taşırız: 400÷5=80. Bu, 4 dolarda 80 tane 5 sent olduğunu da gösterir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.45",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "6\\div0{,}03"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 0,03'ü tam sayıya çevirmek için iki basamak sağa taşırız: 6÷0,03 = 600÷3 = 200."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.46",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "7\\div0{,}02"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7÷0,02 = 700÷2 = 350 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ondalik-sayilarla-islemler-section-06",
+            "heading": "Para Problemlerinde Ondalık Sayılar",
+            "slug": "para-problemlerinde-ondalik-sayilar",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Para problemlerinde önce neyin sorulduğunu belirler, sonra uygun işlemi yazarız. Toplam harcama için toplama, kalan para için çıkarma, birim fiyat için bölme, çoklu alım için çarpma kullanılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.24",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Paul doğum gününde 50 dolar aldı ve 31,64 dolarlık oyun aldı. Ne kadar parası kaldı?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Kalan para 50,00-31,64=18,36 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.47",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Nicole 35 dolar kazandı ve 18,48 dolar harcadı. Ne kadar parası kaldı?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Nicole'un kalan parası 35,00-18,48=16,52 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.48",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Amber 24,75 dolarlık ayakkabı, 36,90 dolarlık çanta aldı ve 4,32 dolar vergi ödedi. Toplam ne kadar harcadı?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Toplam harcama 24,75+36,90+4,32=65,97 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.25",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Jessie 8 galon benzin aldı. Bir galon 3,529 dolarsa toplam tutar nedir? En yakın sente yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8·3,529=28,232 dolar. En yakın sente yuvarlayınca 28,23 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.49",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Hector 13 galon benzin aldı. Bir galon 3,175 dolarsa toplam tutarı en yakın sente yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 13·3,175=41,275 dolar eder. En yakın sente yuvarlanınca 41,28 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.50",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Christopher takımı için 5 pizza aldı. Her pizza 9,75 dolarsa toplam tutar nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 pizza için 5·9,75=48,75 dolar ödenir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.26",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Dört arkadaş 31,76 dolarlık yemeği eşit paylaşıyor. Her biri ne kadar öder?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 31,76÷4=7,94 dolar. Her kişi 7,94 dolar öder."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.51",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Altı arkadaş 92,82 dolarlık hesabı eşit paylaşıyor. Her biri ne kadar öder?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 92,82 dolar 6 kişiye eşit bölünür: 92,82÷6=15,47 dolar."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.52",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Chad 40 saat çalışıp 570 dolar kazandı. Saatlik ücreti nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Saatlik ücret 570÷40=14,25 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Birden fazla ürün varsa önce her ürün grubunun tutarını bulur, sonra toplamlarız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.27",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Marla tanesi 0,22 dolar olan 6 muz ve tanesi 0,49 dolar olan 4 portakal aldı. Toplam tutar nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6·0,22=1,32 dolar ve 4·0,49=1,96 dolar. Toplam 3,28 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.53",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Suzanne tanesi 0,75 dolar olan 3 fasulye konservesi ve tanesi 0,62 dolar olan 6 mısır konservesi aldı. Toplam tutar nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Fasulyeler 3·0,75=2,25 dolar, mısırlar 6·0,62=3,72 dolar tutar. Toplam 5,97 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.54",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Lydia iki yetişkin bileti için 9,50'ar dolar, dört çocuk bileti için 6,00'şar dolar ödedi. Toplam bilet tutarı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yetişkin biletleri 2·9,50=19,00 dolar, çocuk biletleri 4·6,00=24,00 dolar tutar. Toplam 43,00 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-95",
+            "number": "95",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 16,92+7,56."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Virgülleri hizalayıp toplarız: 16,92+7,56=24,48."
+              }
+            ],
+            "sortOrder": 95
+          },
+          {
+            "id": "exercise-97",
+            "number": "97",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 256,37-85,49."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 256,37-85,49 işleminde basamakları hizalarız. Sonuç 170,88 olur."
+              }
+            ],
+            "sortOrder": 97
+          },
+          {
+            "id": "exercise-99",
+            "number": "99",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 21,76-30,99."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İkinci sayı daha büyüktür. 30,99-21,76=9,23 olduğundan sonuç -9,23 olur."
+              }
+            ],
+            "sortOrder": 99
+          },
+          {
+            "id": "exercise-101",
+            "number": "101",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 37,5+12,23."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 37,50+12,23=49,73; 37,5 sayısına sıfır eklemek değeri değiştirmez."
+              }
+            ],
+            "sortOrder": 101
+          },
+          {
+            "id": "exercise-103",
+            "number": "103",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: -16,53-24,38."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İki sayı da negatiftir; mutlak değerleri toplarız. 16,53+24,38=40,91, sonuç -40,91 olur."
+              }
+            ],
+            "sortOrder": 103
+          },
+          {
+            "id": "exercise-105",
+            "number": "105",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: -38,69+31,47."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İşaretler farklıdır. 38,69-31,47=7,22 ve mutlak değeri büyük olan sayı negatif olduğu için sonuç -7,22 olur."
+              }
+            ],
+            "sortOrder": 105
+          },
+          {
+            "id": "exercise-107",
+            "number": "107",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: -4,2+(-9,3)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İki negatif sayı toplanır: -4,2+(-9,3)=-(4,2+9,3)=-13,5."
+              }
+            ],
+            "sortOrder": 107
+          },
+          {
+            "id": "exercise-109",
+            "number": "109",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 100-64,2."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 100 sayısını 100,0 olarak düşünürüz. 100,0-64,2=35,8 olur."
+              }
+            ],
+            "sortOrder": 109
+          },
+          {
+            "id": "exercise-111",
+            "number": "111",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 72,5-100."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 72,5-100 işleminde sonuç negatiftir. 100-72,5=27,5 olduğundan sonuç -27,5 olur."
+              }
+            ],
+            "sortOrder": 111
+          },
+          {
+            "id": "exercise-113",
+            "number": "113",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 15+0,73."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 15 sayısını 15,00 olarak hizalarız. 15,00+0,73=15,73."
+              }
+            ],
+            "sortOrder": 113
+          },
+          {
+            "id": "exercise-115",
+            "number": "115",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 2,51+40."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 40 sayısını 40,00 olarak yazarız. 2,51+40,00=42,51."
+              }
+            ],
+            "sortOrder": 115
+          },
+          {
+            "id": "exercise-117",
+            "number": "117",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 91,75-(-10,462)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Negatif sayıyı çıkarmak zıttını eklemektir. 91,75-(-10,462)=91,75+10,462=102,212."
+              }
+            ],
+            "sortOrder": 117
+          },
+          {
+            "id": "exercise-119",
+            "number": "119",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 55,01-3,7."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3,7 sayısını 3,70 olarak hizalarız. 55,01-3,70=51,31."
+              }
+            ],
+            "sortOrder": 119
+          },
+          {
+            "id": "exercise-121",
+            "number": "121",
+            "sectionSlug": "ondalik-sayilarla-toplama-ve-cikarma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Toplayın veya çıkarın: 2,51-7,4."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2,51-7,40 işleminde sonuç negatiftir. 7,40-2,51=4,89; sonuç -4,89 olur."
+              }
+            ],
+            "sortOrder": 121
+          },
+          {
+            "id": "exercise-123",
+            "number": "123",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (0,3)(0,4)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3·4=12 ve toplam iki ondalık basamak vardır. Sonuç 0,12 olur."
+              }
+            ],
+            "sortOrder": 123
+          },
+          {
+            "id": "exercise-125",
+            "number": "125",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (0,24)(0,6)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 24·6=144 ve toplam üç ondalık basamak vardır. Sonuç 0,144 olur."
+              }
+            ],
+            "sortOrder": 125
+          },
+          {
+            "id": "exercise-127",
+            "number": "127",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (5,9)(7,12)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 59·712=42008 ve toplam üç ondalık basamak vardır. Sonuç 42,008 olur."
+              }
+            ],
+            "sortOrder": 127
+          },
+          {
+            "id": "exercise-129",
+            "number": "129",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (8,52)(3,14)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 852·314=267528 ve toplam dört ondalık basamak vardır. Sonuç 26,7528 olur."
+              }
+            ],
+            "sortOrder": 129
+          },
+          {
+            "id": "exercise-131",
+            "number": "131",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (-4,3)(2,71)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İşaretler farklı olduğu için çarpım negatiftir. 4,3·2,71=11,653; sonuç -11,653 olur."
+              }
+            ],
+            "sortOrder": 131
+          },
+          {
+            "id": "exercise-133",
+            "number": "133",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (-5,18)(-65,23)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İki sayı da negatif olduğu için çarpım pozitiftir. 5,18·65,23=337,8914 olur."
+              }
+            ],
+            "sortOrder": 133
+          },
+          {
+            "id": "exercise-135",
+            "number": "135",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (0,09)(24,78)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 9·2478=22302 ve toplam dört ondalık basamak vardır. Sonuç 2,2302 olur."
+              }
+            ],
+            "sortOrder": 135
+          },
+          {
+            "id": "exercise-137",
+            "number": "137",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (0,06)(21,75)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6·2175=13050 ve toplam dört ondalık basamak vardır. Sonuç 1,305 olur."
+              }
+            ],
+            "sortOrder": 137
+          },
+          {
+            "id": "exercise-139",
+            "number": "139",
+            "sectionSlug": "10-un-kuvvetleriyle-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (9,24)(10)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 10 ile çarparken virgül bir basamak sağa taşınır. 9,24·10=92,4."
+              }
+            ],
+            "sortOrder": 139
+          },
+          {
+            "id": "exercise-141",
+            "number": "141",
+            "sectionSlug": "10-un-kuvvetleriyle-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çarpın: (55,2)(1000)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1000 ile çarparken virgül üç basamak sağa taşınır. 55,2·1000=55.200."
+              }
+            ],
+            "sortOrder": 141
+          },
+          {
+            "id": "exercise-143",
+            "number": "143",
+            "sectionSlug": "ondalik-sayilari-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 0,15÷5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 0,15'i 5'e böleriz. 15 yüzde birlik 5'e bölününce 3 yüzde birlik eder; sonuç 0,03 olur."
+              }
+            ],
+            "sortOrder": 143
+          },
+          {
+            "id": "exercise-145",
+            "number": "145",
+            "sectionSlug": "ondalik-sayilari-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 4,75÷25."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4,75'i 25 parçaya böleriz. 25·0,19=4,75 olduğu için bölüm 0,19 olur."
+              }
+            ],
+            "sortOrder": 145
+          },
+          {
+            "id": "exercise-147",
+            "number": "147",
+            "sectionSlug": "ondalik-sayilari-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 8,49 dolar ÷ 12."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 8,49÷12=0,7075 dolar eder. Para olarak en yakın sente yuvarlanırsa 0,71 dolar olur."
+              }
+            ],
+            "sortOrder": 147
+          },
+          {
+            "id": "exercise-149",
+            "number": "149",
+            "sectionSlug": "ondalik-sayilari-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 117,25 dolar ÷ 48."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 117,25÷48=2,4427... dolar eder. En yakın sente yuvarlayınca 2,44 dolar bulunur."
+              }
+            ],
+            "sortOrder": 149
+          },
+          {
+            "id": "exercise-151",
+            "number": "151",
+            "sectionSlug": "ondalik-sayiyi-ondalik-sayiya-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 0,6÷0,2."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 0,6÷0,2 için her iki sayıyı 10 ile çarparız: 6÷2=3."
+              }
+            ],
+            "sortOrder": 151
+          },
+          {
+            "id": "exercise-153",
+            "number": "153",
+            "sectionSlug": "ondalik-sayiyi-ondalik-sayiya-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 1,44÷(-0,3)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İşaretler farklıdır. 1,44÷0,3 = 14,4÷3 = 4,8 olduğundan sonuç -4,8 olur."
+              }
+            ],
+            "sortOrder": 153
+          },
+          {
+            "id": "exercise-155",
+            "number": "155",
+            "sectionSlug": "ondalik-sayiyi-ondalik-sayiya-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: -1,75÷(-0,05)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İki negatif sayının bölümü pozitiftir. 1,75÷0,05 = 175÷5 = 35 olur."
+              }
+            ],
+            "sortOrder": 155
+          },
+          {
+            "id": "exercise-157",
+            "number": "157",
+            "sectionSlug": "ondalik-sayiyi-ondalik-sayiya-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 5,2÷2,5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Böleni tam sayı yapmak için iki sayıyı 10 ile çarparız: 5,2÷2,5 = 52÷25 = 2,08 olur."
+              }
+            ],
+            "sortOrder": 157
+          },
+          {
+            "id": "exercise-159",
+            "number": "159",
+            "sectionSlug": "ondalik-sayiyi-ondalik-sayiya-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 12÷0,08."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 0,08'i tam sayıya çevirmek için iki basamak sağa taşırız. 12÷0,08 = 1200÷8 = 150."
+              }
+            ],
+            "sortOrder": 159
+          },
+          {
+            "id": "exercise-161",
+            "number": "161",
+            "sectionSlug": "ondalik-sayiyi-ondalik-sayiya-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün: 11÷0,55."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Böleni tam sayı yapmak için iki basamak sağa taşırız: 11÷0,55 = 1100÷55 = 20 olur."
+              }
+            ],
+            "sortOrder": 161
+          },
+          {
+            "id": "exercise-163",
+            "number": "163",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 6(12,4-9,2)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce parantez: 12,4-9,2=3,2. Sonra 6·3,2=19,2 olur."
+              }
+            ],
+            "sortOrder": 163
+          },
+          {
+            "id": "exercise-165",
+            "number": "165",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 24(0,5)+(0,3)²."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce çarpma ve üs: 24·0,5=12 ve (0,3)²=0,09. Toplam 12,09 olur."
+              }
+            ],
+            "sortOrder": 165
+          },
+          {
+            "id": "exercise-167",
+            "number": "167",
+            "sectionSlug": "ondalik-sayilarla-carpma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 1,15(26,83+1,61)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce parantez: 26,83+1,61=28,44. Sonra 1,15·28,44=32,706 olur."
+              }
+            ],
+            "sortOrder": 167
+          },
+          {
+            "id": "exercise-169",
+            "number": "169",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 45 dolar + 0,08(45 dolar)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 45 doların %8'i 0,08·45=3,60 dolardır. 45+3,60=48,60 dolar olur."
+              }
+            ],
+            "sortOrder": 169
+          },
+          {
+            "id": "exercise-171",
+            "number": "171",
+            "sectionSlug": "ondalik-sayilari-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 18÷(0,75+0,15)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce parantez: 0,75+0,15=0,90. Sonra 18÷0,90=20 olur."
+              }
+            ],
+            "sortOrder": 171
+          },
+          {
+            "id": "exercise-173",
+            "number": "173",
+            "sectionSlug": "ondalik-sayiyi-ondalik-sayiya-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (1,43+0,27)÷(0,9-0,05)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Üstte 1,43+0,27=1,70, altta 0,9-0,05=0,85. 1,70÷0,85=2 olur."
+              }
+            ],
+            "sortOrder": 173
+          },
+          {
+            "id": "exercise-175",
+            "number": "175",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: [75,42 dolar + 0,18(75,42 dolar)]÷5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 75,42'nin %18'i 13,5756'dır. Toplam 88,9956, beşe bölününce 17,79912 olur; para olarak yaklaşık 17,80 dolardır."
+              }
+            ],
+            "sortOrder": 175
+          },
+          {
+            "id": "exercise-177",
+            "number": "177",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Brenda ATM'den 40 dolar aldı. Bir çift küpe için 15,11 dolar harcadı. Ne kadar parası kaldı?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kalan parayı bulmak için harcamayı başlangıç parasından çıkarırız: 40,00-15,11=24,89 dolar."
+              }
+            ],
+            "sortOrder": 177
+          },
+          {
+            "id": "exercise-179",
+            "number": "179",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Adam 18,49 dolara bir tişört ve 8,92 dolara bir kitap aldı. Satış vergisi 1,65 dolardı. Adam toplam ne kadar harcadı?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Harcamaları toplarız: 18,49+8,92+1,65=29,06 dolar."
+              }
+            ],
+            "sortOrder": 179
+          },
+          {
+            "id": "exercise-181",
+            "number": "181",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Emily 4,29 dolarlık bir mısır gevreği aldı. 0,55 dolarlık kuponu vardı ve mağaza kuponu iki katına çıkardı. Ne kadar ödedi?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kupon iki katına çıkınca indirim 2·0,55=1,10 dolar olur. 4,29-1,10=3,19 dolar öder."
+              }
+            ],
+            "sortOrder": 181
+          },
+          {
+            "id": "exercise-183",
+            "number": "183",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Leo bir diyet programına 190 pound ile başladı. İlk hafta 4,3 pound, ikinci hafta 2,8 pound verdi; üçüncü hafta 0,7 pound aldı; dördüncü hafta 1,9 pound verdi. Dördüncü haftanın sonunda kaç pound oldu?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Değişimleri başlangıçtan çıkarıp ekleriz: 190-4,3-2,8+0,7-1,9=181,7. Leo 181,7 pound olur."
+              }
+            ],
+            "sortOrder": 183
+          },
+          {
+            "id": "exercise-185",
+            "number": "185",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Noriko kendisi ve iş arkadaşları için 4 kahve aldı. Her kahve 3,75 dolardı. Toplam ne kadar ödedi?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam tutar kahve sayısı ile bir kahve fiyatının çarpımıdır: 4·3,75=15,00 dolar."
+              }
+            ],
+            "sortOrder": 185
+          },
+          {
+            "id": "exercise-187",
+            "number": "187",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Mayra saat başına 9,25 dolar kazanıyor. Geçen hafta 32 saat çalıştı. Ne kadar kazandı?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kazanç saatlik ücret ile saat sayısının çarpımıdır. 9,25·32=296 dolar."
+              }
+            ],
+            "sortOrder": 187
+          },
+          {
+            "id": "exercise-189",
+            "number": "189",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Alan yeni işindeki ilk maaşını aldı. 30 saat çalışıp 382,50 dolar kazandı. Saat başına ne kadar kazanıyor?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Saatlik ücret toplam kazancın saate bölünmesidir. 382,50÷30=12,75 dolar/saat."
+              }
+            ],
+            "sortOrder": 189
+          },
+          {
+            "id": "exercise-191",
+            "number": "191",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Jeannette ve arkadaşları 6,00 dolarlık bir tatlıyı paylaşıyor. Tatlıyı ⓐ 2 ⓑ 3 ⓒ 4 ⓓ 5 ⓔ 6 kişi paylaşırsa kişi başı ödeme ne olur?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6,00 dolar paylaşan kişi sayısına bölünür: ⓐ 3,00 ⓑ 2,00 ⓒ 1,50 ⓓ 1,20 ⓔ 1,00 dolar."
+              }
+            ],
+            "sortOrder": 191
+          },
+          {
+            "id": "exercise-193",
+            "number": "193",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Carlson ailesi 3,29 dolarlık 4 hamburger ve 2,74 dolarlık 2 patates kızartması sipariş ediyor. Toplam tutar nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Hamburgerler 4·3,29=13,16 dolar, patatesler 2·2,74=5,48 dolar tutar. Toplam 18,64 dolardır."
+              }
+            ],
+            "sortOrder": 193
+          },
+          {
+            "id": "exercise-195",
+            "number": "195",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Lewis ve Chousmith aileleri hayvanat bahçesine gidecek. Yetişkin bileti 29,95 dolar, çocuk bileti 19,95 dolar. 4 yetişkin ve 7 çocuk için toplam tutar nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yetişkinler 4·29,95=119,80 dolar, çocuklar 7·19,95=139,65 dolar tutar. Toplam 259,45 dolardır."
+              }
+            ],
+            "sortOrder": 195
+          },
+          {
+            "id": "exercise-197",
+            "number": "197",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Annie'nin iki işi var. City College'da özel ders için saatlik 14,04 dolar, kahve dükkanında saatlik 8,75 dolar alıyor. Geçen hafta 8 saat özel ders verdi ve 15 saat kahve dükkanında çalıştı. ⓐ Ne kadar kazandı? ⓑ 23 saatin tamamını özel ders olarak çalışsaydı ne kadar fazla kazanırdı?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 8·14,04=112,32 ve 15·8,75=131,25; toplam 243,57 dolar. ⓑ 23 saatin tamamı özel ders olsaydı 23·14,04=322,92 dolar kazanırdı; fark 79,35 dolardır."
+              }
+            ],
+            "sortOrder": 197
+          },
+          {
+            "id": "exercise-199",
+            "number": "199",
+            "sectionSlug": "para-problemlerinde-ondalik-sayilar",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "2010 Kış Olimpiyatları Super-G yarışında Miller'ın süresi 1 dakika 30,62 saniye, Weibrecht'in süresi 1 dakika 30,65 saniyeydi. Süre farkını bulun ve bu ondalık sayının adını yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Süre farkı 30,65-30,62=0,03 saniyedir. 0,03 sayısı yüzde üç, yani üç yüzde birlik diye okunur."
+              }
+            ],
+            "sortOrder": 199
+          }
+        ]
+      }
     }
   ]
 }

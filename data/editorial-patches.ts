@@ -9630,6 +9630,261 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "5.3",
+    sections: [
+      {
+        sectionSlug: "ondalik-sayilarla-toplama-ve-cikarma",
+        replaceBlocks: [
+          ...removeBlocks(16),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayıları toplarken veya çıkarırken virgülleri alt alta getiririz. Böylece onda birler onda birlerle, yüzde birler yüzde birlerle işlem görür.",
+              ),
+              pt(
+                "Basamak sayıları farklıysa sayının sonuna sıfır ekleyebiliriz; bu, sayının değerini değiştirmez.",
+              ),
+              ex(
+                "Örnek 5.11",
+                [t("Toplayın: "), m("3{,}7+12{,}4"), t(".")],
+                sol("Çözüm: Virgülleri hizalarız. 3,7+12,4=16,1 olur."),
+              ),
+              ex("Sıra Sizde 5.21", [t("Toplayın: "), m("5{,}7+11{,}9"), t(".")]),
+              ex("Sıra Sizde 5.22", [t("Toplayın: "), m("18{,}32+14{,}79"), t(".")]),
+              ex(
+                "Örnek 5.12",
+                [t("Toplayın: "), m("23{,}5+41{,}38"), t(".")],
+                sol("Çözüm: 23,5 sayısını 23,50 olarak yazarız. 23,50+41,38=64,88 olur."),
+              ),
+              ex("Sıra Sizde 5.23", [t("Toplayın: "), m("4{,}8+11{,}69"), t(".")]),
+              ex("Sıra Sizde 5.24", [t("Toplayın: "), m("5{,}123+18{,}47"), t(".")]),
+              pt(
+                "Çıkarma yaparken de aynı hizalamayı kullanırız. Bir tam sayı varsa virgülün sağında gerekli kadar sıfır düşünürüz.",
+              ),
+              ex(
+                "Örnek 5.13",
+                [t("Çıkarın: "), m("20-14{,}65"), t(".")],
+                sol("Çözüm: 20 sayısını 20,00 olarak yazarız. 20,00-14,65=5,35 olur."),
+              ),
+              ex("Sıra Sizde 5.25", [t("Çıkarın: "), m("10-9{,}58"), t(".")]),
+              ex("Sıra Sizde 5.26", [t("Çıkarın: "), m("50-37{,}42"), t(".")]),
+              ex(
+                "Örnek 5.14",
+                [t("Çıkarın: "), m("2{,}51-7{,}4"), t(".")],
+                sol("Çözüm: 7,4 sayısını 7,40 olarak hizalarız. 7,40-2,51=4,89 ve ilk sayı küçük olduğu için sonuç -4,89 olur."),
+              ),
+              ex("Sıra Sizde 5.27", [t("Çıkarın: "), m("4{,}77-6{,}3"), t(".")]),
+              ex("Sıra Sizde 5.28", [t("Çıkarın: "), m("8{,}12-11{,}7"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilarla-carpma",
+        replaceBlocks: [
+          ...removeBlocks(20),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayıları çarparken önce virgülleri yokmuş gibi çarparız. Sonra çarpanlardaki toplam ondalık basamak sayısı kadar virgülü sonuçta soldan yerleştiririz.",
+              ),
+              p([
+                m("0{,}3\\cdot0{,}7=0{,}21"),
+                t(" örneğinde çarpanlarda toplam iki ondalık basamak vardır; sonuç da iki basamaklıdır."),
+              ]),
+              pt(
+                "İşaretli ondalıklarda önce işareti belirleriz: aynı işaretli çarpanların çarpımı pozitif, farklı işaretli çarpanların çarpımı negatiftir.",
+              ),
+              ex(
+                "Örnek 5.15",
+                [t("Çarpın: "), m("(3{,}9)(4{,}075)"), t(".")],
+                sol("Çözüm: 39·4075=158925 ve toplam dört ondalık basamak vardır. Sonuç 15,8925 olur."),
+              ),
+              ex("Sıra Sizde 5.29", [t("Çarpın: "), m("4{,}5(6{,}107)"), t(".")]),
+              ex("Sıra Sizde 5.30", [t("Çarpın: "), m("10{,}79(8{,}12)"), t(".")]),
+              ex(
+                "Örnek 5.16",
+                [t("Çarpın: "), m("(-8{,}2)(5{,}19)"), t(".")],
+                sol("Çözüm: İşaretler farklıdır, sonuç negatif olur. 82·519=42558 ve üç ondalık basamak olduğundan sonuç -42,558'dir."),
+              ),
+              ex("Sıra Sizde 5.31", [t("Çarpın: "), m("(4{,}63)(-2{,}9)"), t(".")]),
+              ex("Sıra Sizde 5.32", [t("Çarpın: "), m("(-7{,}78)(4{,}9)"), t(".")]),
+              pt(
+                "Sonuçta yeterli basamak yoksa başa sıfır ekleriz. Örneğin beş ondalık basamak gerekiyorsa 348 sayısı 0,00348 biçiminde yazılır.",
+              ),
+              ex(
+                "Örnek 5.17",
+                [t("Çarpın: "), m("(0{,}03)(0{,}045)"), t(".")],
+                sol("Çözüm: 3·45=135 ve toplam beş ondalık basamak vardır. Sonuç 0,00135 olur."),
+              ),
+              ex("Sıra Sizde 5.33", [t("Çarpın: "), m("(0{,}04)(0{,}087)"), t(".")]),
+              ex("Sıra Sizde 5.34", [t("Çarpın: "), m("(0{,}09)(0{,}067)"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "10-un-kuvvetleriyle-carpma",
+        replaceBlocks: [
+          ...removeBlocks(15),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir ondalık sayıyı 10, 100, 1000 gibi 10'un kuvvetleriyle çarptığımızda virgülü sağa taşırız. Kaç sıfır varsa virgül o kadar basamak sağa gider.",
+              ),
+              p([
+                m("1{,}9436\\cdot10=19{,}436"),
+                t(", "),
+                m("1{,}9436\\cdot100=194{,}36"),
+                t(" ve "),
+                m("1{,}9436\\cdot1000=1943{,}6"),
+                t(" olur."),
+              ]),
+              pt(
+                "Virgülü taşıyacak yeterli basamak yoksa sayının sonuna sıfır ekleriz.",
+              ),
+              ex(
+                "Örnek 5.18",
+                [m("5{,}63"), t(" sayısını ⓐ "), m("10"), t(" ⓑ "), m("100"), t(" ⓒ "), m("1000"), t(" ile çarpın.")],
+                sol("Çözüm: Virgülü sırasıyla 1, 2 ve 3 basamak sağa taşırız: ⓐ 56,3 ⓑ 563 ⓒ 5630."),
+              ),
+              ex("Sıra Sizde 5.35", [m("2{,}58"), t(" sayısını ⓐ "), m("10"), t(" ⓑ "), m("100"), t(" ⓒ "), m("1000"), t(" ile çarpın.")]),
+              ex("Sıra Sizde 5.36", [m("14{,}2"), t(" sayısını ⓐ "), m("10"), t(" ⓑ "), m("100"), t(" ⓒ "), m("1000"), t(" ile çarpın.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilari-bolme",
+        replaceBlocks: [
+          ...removeBlocks(18),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık bir sayıyı tam sayıya bölerken bölmede virgül, bölünen sayıdaki virgülün tam üstüne yerleştirilir. Sonra tam sayılarda olduğu gibi böleriz.",
+              ),
+              p([
+                m("0{,}8\\div4=0{,}2"),
+                t(" çünkü 8 onda birlik 4 eş gruba ayrıldığında her grupta 2 onda birlik vardır."),
+              ]),
+              pt(
+                "Gerekirse bölmeyi sürdürmek için bölünen sayının sonuna sıfırlar ekleriz. Para problemlerinde genellikle en yakın sente yuvarlarız.",
+              ),
+              ex(
+                "Örnek 5.19",
+                [t("Bölün: "), m("0{,}12\\div3"), t(".")],
+                sol("Çözüm: Virgülü bölümde aynı hizaya koyarız. 12 yüzde birlik 3'e bölününce 4 yüzde birlik eder; sonuç 0,04 olur."),
+              ),
+              ex("Sıra Sizde 5.37", [t("Bölün: "), m("0{,}28\\div4"), t(".")]),
+              ex("Sıra Sizde 5.38", [t("Bölün: "), m("0{,}56\\div7"), t(".")]),
+              ex(
+                "Örnek 5.20",
+                [t("Bölün: "), m("3{,}99\\div24"), t(".")],
+                sol("Çözüm: 3,99÷24=0,166... Para biriminde en yakın sente yuvarlanır; şişe başına yaklaşık 0,17 dolar olur."),
+              ),
+              ex("Sıra Sizde 5.39", [t("Bölün: "), m("6{,}99\\div36"), t(".")]),
+              ex("Sıra Sizde 5.40", [t("Bölün: "), m("4{,}99\\div12"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayiyi-ondalik-sayiya-bolme",
+        replaceBlocks: [
+          ...removeBlocks(21),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir ondalık sayıyı başka bir ondalık sayıya bölerken böleni tam sayı yaparız. Bunun için bölen ve bölünenin virgülünü aynı sayıda basamak sağa taşırız.",
+              ),
+              p([
+                m("0{,}8\\div0{,}2"),
+                t(" işlemi, her iki sayıyı 10 ile çarptığımızda "),
+                m("8\\div2=4"),
+                t(" işlemine dönüşür."),
+              ]),
+              pt(
+                "İşaretli bölmelerde önce işareti belirleriz. Aynı işaretli sayıların bölümü pozitif, farklı işaretli sayıların bölümü negatiftir.",
+              ),
+              ex(
+                "Örnek 5.21",
+                [t("Bölün: "), m("-2{,}89\\div3{,}4"), t(".")],
+                sol("Çözüm: İşaretler farklıdır, sonuç negatiftir. Virgülleri bir basamak sağa taşırız: 28,9÷34=0,85. Sonuç -0,85 olur."),
+              ),
+              ex("Sıra Sizde 5.41", [t("Bölün: "), m("-1{,}989\\div5{,}1"), t(".")]),
+              ex("Sıra Sizde 5.42", [t("Bölün: "), m("-2{,}04\\div5{,}1"), t(".")]),
+              ex(
+                "Örnek 5.22",
+                [t("Bölün: "), m("-25{,}65\\div(-0{,}06)"), t(".")],
+                sol("Çözüm: İki sayı da negatif olduğu için bölüm pozitiftir. Virgülleri iki basamak sağa taşırız: 2565÷6=427,5."),
+              ),
+              ex("Sıra Sizde 5.43", [t("Bölün: "), m("-23{,}492\\div(-0{,}04)"), t(".")]),
+              ex("Sıra Sizde 5.44", [t("Bölün: "), m("-4{,}11\\div(-0{,}12)"), t(".")]),
+              ex(
+                "Örnek 5.23",
+                [t("Bölün: "), m("4\\div0{,}05"), t(".")],
+                sol("Çözüm: 0,05'i tam sayı yapmak için iki basamak sağa taşırız: 400÷5=80. Bu, 4 dolarda 80 tane 5 sent olduğunu da gösterir."),
+              ),
+              ex("Sıra Sizde 5.45", [t("Bölün: "), m("6\\div0{,}03"), t(".")]),
+              ex("Sıra Sizde 5.46", [t("Bölün: "), m("7\\div0{,}02"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "para-problemlerinde-ondalik-sayilar",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Para problemlerinde önce neyin sorulduğunu belirler, sonra uygun işlemi yazarız. Toplam harcama için toplama, kalan para için çıkarma, birim fiyat için bölme, çoklu alım için çarpma kullanılır.",
+              ),
+              ex(
+                "Örnek 5.24",
+                [t("Paul doğum gününde 50 dolar aldı ve 31,64 dolarlık oyun aldı. Ne kadar parası kaldı?")],
+                sol("Çözüm: Kalan para 50,00-31,64=18,36 dolardır."),
+              ),
+              ex("Sıra Sizde 5.47", [t("Nicole 35 dolar kazandı ve 18,48 dolar harcadı. Ne kadar parası kaldı?")]),
+              ex("Sıra Sizde 5.48", [t("Amber 24,75 dolarlık ayakkabı, 36,90 dolarlık çanta aldı ve 4,32 dolar vergi ödedi. Toplam ne kadar harcadı?")]),
+              ex(
+                "Örnek 5.25",
+                [t("Jessie 8 galon benzin aldı. Bir galon 3,529 dolarsa toplam tutar nedir? En yakın sente yuvarlayın.")],
+                sol("Çözüm: 8·3,529=28,232 dolar. En yakın sente yuvarlayınca 28,23 dolar olur."),
+              ),
+              ex("Sıra Sizde 5.49", [t("Hector 13 galon benzin aldı. Bir galon 3,175 dolarsa toplam tutarı en yakın sente yuvarlayın.")]),
+              ex("Sıra Sizde 5.50", [t("Christopher takımı için 5 pizza aldı. Her pizza 9,75 dolarsa toplam tutar nedir?")]),
+              ex(
+                "Örnek 5.26",
+                [t("Dört arkadaş 31,76 dolarlık yemeği eşit paylaşıyor. Her biri ne kadar öder?")],
+                sol("Çözüm: 31,76÷4=7,94 dolar. Her kişi 7,94 dolar öder."),
+              ),
+              ex("Sıra Sizde 5.51", [t("Altı arkadaş 92,82 dolarlık hesabı eşit paylaşıyor. Her biri ne kadar öder?")]),
+              ex("Sıra Sizde 5.52", [t("Chad 40 saat çalışıp 570 dolar kazandı. Saatlik ücreti nedir?")]),
+              pt(
+                "Birden fazla ürün varsa önce her ürün grubunun tutarını bulur, sonra toplamlarız.",
+              ),
+              ex(
+                "Örnek 5.27",
+                [t("Marla tanesi 0,22 dolar olan 6 muz ve tanesi 0,49 dolar olan 4 portakal aldı. Toplam tutar nedir?")],
+                sol("Çözüm: 6·0,22=1,32 dolar ve 4·0,49=1,96 dolar. Toplam 3,28 dolar olur."),
+              ),
+              ex("Sıra Sizde 5.53", [t("Suzanne tanesi 0,75 dolar olan 3 fasulye konservesi ve tanesi 0,62 dolar olan 6 mısır konservesi aldı. Toplam tutar nedir?")]),
+              ex("Sıra Sizde 5.54", [t("Lydia iki yetişkin bileti için 9,50'ar dolar, dört çocuk bileti için 6,00'şar dolar ödedi. Toplam bilet tutarı nedir?")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

@@ -18,8 +18,8 @@ Proje şu anda:
   yönleniyor.
 - Turso'ya yazıldığı son doğrulanan seed DB içeriği 17 ders, 89 ders bölümü,
   631 alıştırma ve 457 kaynak asset içeriyor.
-- Son yerel/generated seed payload 17 ders, 89 ders bölümü, 631 alıştırma ve
-  457 kaynak asset içeriyor; bu payload son Turso yazımıyla eşleşiyor.
+- Son yerel/generated seed payload 18 ders, 95 ders bölümü, 684 alıştırma ve
+  487 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
 
 En önemli deploy kuralı:
 
@@ -462,8 +462,10 @@ Son doğrulanan seed DB yazımı:
 Bu Turso yazımı Prealgebra 2e için `2.3-5.2` aralığını kapsar. Son yazılmış ders
 `5.2 Decimals` / `Ondalık Sayılar` idi.
 
-Son yerel/generated seed payload da `2.3-5.2` aralığını kapsar ve son Turso
-yazımıyla eşleşir. Sıradaki aday `5.3 Decimal Operations` olarak raporlanır.
+Son yerel/generated seed payload `2.3-5.3` aralığını kapsar ve henüz Turso'ya
+yazılmadı. Bu payload'ta son eklenen ders `5.3 Decimal Operations` / `Ondalık
+Sayılarla İşlemler`; sıradaki aday `5.4 Decimals and Fractions` olarak
+raporlanır.
 
 Schema değiştiğinde:
 
