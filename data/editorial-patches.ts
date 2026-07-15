@@ -8438,6 +8438,216 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "4.4",
+    sections: [
+      {
+        sectionSlug: "karma-kesirlerle-carpma-ve-bolme",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Tam sayılı kesirlerle çarpma ve bölme yaparken önce her tam sayılı kesri bileşik kesre çeviririz. Sonra kesirlerle çarpma ya da bölme kurallarını uygularız.",
+              ),
+              p([
+                t("Bölme işleminde bölen kesrin tersini alıp çarparız. Örneğin "),
+                m("2\\frac{1}{2}\\div1\\frac{1}{4}"),
+                t(" işlemi "),
+                m("\\frac{5}{2}\\div\\frac{5}{4}"),
+                t(" olarak yazılır."),
+              ]),
+              ex(
+                "Örnek 4.37",
+                [t("Çarpın: "), m("3\\frac{1}{3}\\cdot\\frac{5}{8}")],
+                sol(
+                  "Çözüm: 3 1/3 önce 10/3 olarak yazılır.",
+                  "10/3·5/8 işleminde 10 ile 8 ortak 2'ye bölünür; sonuç 25/12=2 1/12 olur.",
+                ),
+              ),
+              ex("Sıra Sizde 4.73", [t("Çarpın ve sadeleştirilmiş biçimde yazın: "), m("5\\frac{2}{3}\\cdot\\frac{6}{17}")]),
+              ex("Sıra Sizde 4.74", [t("Çarpın ve sadeleştirilmiş biçimde yazın: "), m("\\frac{3}{7}\\cdot5\\frac{1}{4}")]),
+              ex(
+                "Örnek 4.38",
+                [t("Çarpın ve sadeleştirilmiş biçimde yazın: "), m("2\\frac{4}{5}\\left(-1\\frac{7}{8}\\right)")],
+                sol(
+                  "Çözüm: 2 4/5=14/5 ve -1 7/8=-15/8 olur.",
+                  "Çarpım negatiftir. 14/5·15/8 işleminde sadeleştirme yapılır ve sonuç -21/4=-5 1/4 bulunur.",
+                ),
+              ),
+              ex("Sıra Sizde 4.75", [t("Çarpın ve sadeleştirilmiş biçimde yazın: "), m("5\\frac{5}{7}\\left(-2\\frac{5}{8}\\right)")]),
+              ex("Sıra Sizde 4.76", [t("Çarpın ve sadeleştirilmiş biçimde yazın: "), m("-3\\frac{2}{5}\\cdot4\\frac{1}{6}")]),
+              ex(
+                "Örnek 4.39",
+                [t("Bölün ve sadeleştirilmiş biçimde yazın: "), m("3\\frac{4}{7}\\div5")],
+                sol(
+                  "Çözüm: 3 4/7=25/7. 5 sayısını 5/1 olarak düşünürüz.",
+                  "25/7÷5=25/7·1/5=5/7 olur.",
+                ),
+              ),
+              ex("Sıra Sizde 4.77", [t("Bölün ve sadeleştirilmiş biçimde yazın: "), m("4\\frac{3}{8}\\div7")]),
+              ex("Sıra Sizde 4.78", [t("Bölün ve sadeleştirilmiş biçimde yazın: "), m("2\\frac{5}{8}\\div3")]),
+              ex(
+                "Örnek 4.40",
+                [t("Bölün: "), m("2\\frac{1}{2}\\div1\\frac{1}{4}")],
+                sol(
+                  "Çözüm: 2 1/2=5/2 ve 1 1/4=5/4 olur.",
+                  "5/2÷5/4=5/2·4/5=2 bulunur.",
+                ),
+              ),
+              ex("Sıra Sizde 4.79", [t("Bölün ve sadeleştirilmiş biçimde yazın: "), m("2\\frac{2}{3}\\div1\\frac{1}{3}")]),
+              ex("Sıra Sizde 4.80", [t("Bölün ve sadeleştirilmiş biçimde yazın: "), m("3\\frac{3}{4}\\div1\\frac{1}{2}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesirli-sozel-ifadeler",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sözel ifadelerde “bölümü” ve “oranı” sözleri çoğu zaman kesir çizgisiyle yazılır. Kesir çizgisi, üstteki ifadenin alttaki ifadeye bölündüğünü gösterir.",
+              ),
+              p([
+                t("Örneğin "),
+                m("a"),
+                t(" ile "),
+                m("b"),
+                t("'nin bölümü "),
+                m("\\frac{a}{b}"),
+                t(" olarak yazılır; "),
+                m("b"),
+                t(" sıfır olmamalıdır."),
+              ]),
+              ex(
+                "Örnek 4.41",
+                [t("Cebirsel ifadeye çevirin: “"), m("3x"), t(" ile 8'in bölümü.”")],
+                sol("Çözüm: Bölüm kesir çizgisiyle yazılır. İfade 3x/8 olur."),
+              ),
+              ex("Sıra Sizde 4.81", [t("Cebirsel ifadeye çevirin: "), m("9s"), t(" ile 14'ün bölümü.")]),
+              ex("Sıra Sizde 4.82", [t("Cebirsel ifadeye çevirin: "), m("5y"), t(" ile 6'nın bölümü.")]),
+              ex(
+                "Örnek 4.42",
+                [t("Cebirsel ifadeye çevirin: "), m("m"), t(" ile "), m("n"), t("'nin farkının "), m("p"), t("'ye bölümü.")],
+                sol("Çözüm: Önce fark paranteze alınır, sonra p'ye bölünür. İfade (m-n)/p olur."),
+              ),
+              ex("Sıra Sizde 4.83", [t("Cebirsel ifadeye çevirin: "), m("a"), t(" ile "), m("b"), t("'nin farkının "), m("cd"), t("'ye bölümü.")]),
+              ex("Sıra Sizde 4.84", [t("Cebirsel ifadeye çevirin: "), m("p"), t(" ile "), m("q"), t("'nin toplamının "), m("r"), t("'ye bölümü.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "karmasik-kesirler",
+        replaceBlocks: [
+          ...removeBlocks(16),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Payında ya da paydasında kesir bulunan kesirlere karmaşık kesir denir. Karmaşık kesri sadeleştirirken ana kesir çizgisini bölme işlemi gibi okuruz.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\frac{\\frac{3}{4}}{\\frac{5}{8}}"),
+                t(" ifadesi "),
+                m("\\frac{3}{4}\\div\\frac{5}{8}"),
+                t(" demektir."),
+              ]),
+              ex(
+                "Örnek 4.43",
+                [t("Sadeleştirin: "), m("\\frac{\\frac{3}{4}}{\\frac{5}{8}}"), t(".")],
+                sol("Çözüm: 3/4÷5/8=3/4·8/5=6/5 olur."),
+              ),
+              ex("Sıra Sizde 4.85", [t("Sadeleştirin: "), m("\\frac{\\frac{2}{3}}{\\frac{5}{6}}")]),
+              ex("Sıra Sizde 4.86", [t("Sadeleştirin: "), m("\\frac{\\frac{3}{7}}{\\frac{6}{11}}")]),
+              ex(
+                "Örnek 4.44",
+                [t("Sadeleştirin: "), m("\\frac{-\\frac{6}{7}}{3}"), t(".")],
+                sol("Çözüm: -6/7 sayısını 3'e böleriz. -6/7·1/3=-2/7 olur."),
+              ),
+              ex("Sıra Sizde 4.87", [t("Sadeleştirin: "), m("\\frac{-\\frac{8}{7}}{4}")]),
+              ex("Sıra Sizde 4.88", [t("Sadeleştirin: "), m("-\\frac{3}{\\frac{9}{10}}")]),
+              ex(
+                "Örnek 4.45",
+                [t("Sadeleştirin: "), m("\\frac{\\frac{x}{2}}{\\frac{xy}{6}}"), t(".")],
+                sol("Çözüm: x/2÷xy/6=x/2·6/(xy). x'ler sadeleşir ve sonuç 3/y olur; y sıfır olmamalıdır."),
+              ),
+              ex("Sıra Sizde 4.89", [t("Sadeleştirin: "), m("\\frac{\\frac{a}{8}}{\\frac{ab}{6}}")]),
+              ex("Sıra Sizde 4.90", [t("Sadeleştirin: "), m("\\frac{\\frac{p}{2}}{\\frac{pq}{8}}")]),
+              ex(
+                "Örnek 4.46",
+                [t("Sadeleştirin: "), m("\\frac{2\\frac{3}{4}}{\\frac{1}{8}}"), t(".")],
+                sol("Çözüm: 2 3/4=11/4. 11/4÷1/8=11/4·8=22 olur."),
+              ),
+              ex("Sıra Sizde 4.91", [t("Sadeleştirin: "), m("\\frac{\\frac{5}{7}}{1\\frac{2}{5}}")]),
+              ex("Sıra Sizde 4.92", [t("Sadeleştirin: "), m("\\frac{\\frac{8}{5}}{3\\frac{1}{5}}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesir-cizgisiyle-islem-onceligi",
+        replaceBlocks: [
+          ...removeBlocks(21),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Negatif işaret bir kesrin önünde, payında ya da paydasında yazılabilir. Pay ve paydadan yalnızca biri negatifse kesrin değeri negatiftir; ikisi de negatifse değer pozitiftir.",
+              ),
+              p([
+                m("-\\frac{1}{3}=\\frac{-1}{3}=\\frac{1}{-3}", true),
+              ]),
+              ex(
+                "Örnek 4.47",
+                [t("Aşağıdaki kesirlerden hangileri "), m("\\frac{7}{-8}"), t(" ile eşdeğerdir? "), m("\\frac{-7}{-8},\\frac{-7}{8},\\frac{7}{8},-\\frac{7}{8}")],
+                sol("Çözüm: 7/(-8) negatiftir. Bu nedenle -7/8 ve -7/8 yazımı eşdeğerdir; diğerleri pozitiftir."),
+              ),
+              ex("Sıra Sizde 4.93", [t("Aşağıdaki kesirlerden hangileri "), m("\\frac{-3}{5}"), t(" ile eşdeğerdir? "), m("\\frac{-3}{-5},\\frac{3}{5},-\\frac{3}{5},\\frac{3}{-5}")]),
+              ex("Sıra Sizde 4.94", [t("Aşağıdaki kesirlerden hangileri "), m("-\\frac{2}{7}"), t(" ile eşdeğerdir? "), m("\\frac{-2}{-7},\\frac{-2}{7},\\frac{2}{7},\\frac{2}{-7}")]),
+              pt(
+                "Kesir çizgisi de bir gruplama sembolü gibi davranır. Pay ve payda önce kendi içinde sadeleştirilir, sonra bölme yapılır.",
+              ),
+              ex(
+                "Örnek 4.48",
+                [t("Sadeleştirin: "), m("\\frac{4+8}{5-3}"), t(".")],
+                sol("Çözüm: Pay 12, payda 2 olur. 12/2=6."),
+              ),
+              ex("Sıra Sizde 4.95", [t("Sadeleştirin: "), m("\\frac{4+6}{11-2}")]),
+              ex("Sıra Sizde 4.96", [t("Sadeleştirin: "), m("\\frac{3+5}{18-2}")]),
+              ex(
+                "Örnek 4.49",
+                [t("Sadeleştirin: "), m("\\frac{4-2(3)}{2^{2}+2}"), t(".")],
+                sol("Çözüm: Pay 4-6=-2, payda 4+2=6 olur. Sonuç -2/6=-1/3'tür."),
+              ),
+              ex("Sıra Sizde 4.97", [t("Sadeleştirin: "), m("\\frac{6-3(5)}{3^{2}+3}")]),
+              ex("Sıra Sizde 4.98", [t("Sadeleştirin: "), m("\\frac{4-4(6)}{3^{3}+3}")]),
+              ex(
+                "Örnek 4.50",
+                [t("Sadeleştirin: "), m("\\frac{{(8-4)}^{2}}{8^{2}-4^{2}}"), t(".")],
+                sol("Çözüm: Pay 4²=16, payda 64-16=48 olur. 16/48=1/3."),
+              ),
+              ex("Sıra Sizde 4.99", [t("Sadeleştirin: "), m("\\frac{{(11-7)}^{2}}{{11}^{2}-7^{2}}")]),
+              ex("Sıra Sizde 4.100", [t("Sadeleştirin: "), m("\\frac{{(6+2)}^{2}}{6^{2}+2^{2}}")]),
+              ex(
+                "Örnek 4.51",
+                [t("Sadeleştirin: "), m("\\frac{4(-3)+6(-2)}{-3(2)-2}"), t(".")],
+                sol("Çözüm: Pay -12-12=-24, payda -6-2=-8 olur. Bölüm 3'tür."),
+              ),
+              ex("Sıra Sizde 4.101", [t("Sadeleştirin: "), m("\\frac{8(-2)+4(-3)}{-5(2)+3}")]),
+              ex("Sıra Sizde 4.102", [t("Sadeleştirin: "), m("\\frac{7(-1)+9(-3)}{-5(3)-2}")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

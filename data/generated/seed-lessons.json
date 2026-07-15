@@ -34888,6 +34888,2359 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "4.4",
+      "displayNumber": "3.3",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions",
+      "contentHash": "b057d4c6bb29944e62a8bdf73ef70381ffa52e2591535c743f9c76f1c06371e3",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-52dd237e7b15597b",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104393/ad0902592672aca5cd1e83b07fd39a29c2ad01c5?revision=1",
+          "type": "image",
+          "altText": "Negative 1 over positive 3 is equal to negative one third. Negative over positive equals negative. Positive 1 over negative 3 is equal to negative one third. Positive over negative equals negative.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/000-52dd237e7b15597b.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/000-52dd237e7b15597b.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "001-96fe3c02a254ba96",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104394/a894e39d994a8b3a2d80c0eac1fc52628f266bf9?revision=1",
+          "type": "image",
+          "altText": "Parentheses, brackets, braces, an absolute value sign, and a fraction bar are shown.",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/001-96fe3c02a254ba96.png",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/001-96fe3c02a254ba96.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "864f557bbd8f1c1a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/864f557bbd8f1c1a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/864f557bbd8f1c1a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "0095214fb5cb8ca6",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/0095214fb5cb8ca6.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/0095214fb5cb8ca6.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "adc44e0ea77052eb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/adc44e0ea77052eb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/adc44e0ea77052eb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "3982752ac2fc53fe",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/3982752ac2fc53fe.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/3982752ac2fc53fe.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "062ff2b6d38eb15d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/062ff2b6d38eb15d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/062ff2b6d38eb15d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b9f04a0cee539a18",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/b9f04a0cee539a18.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/b9f04a0cee539a18.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "6e96dadcce782886",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/6e96dadcce782886.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/6e96dadcce782886.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "720cb3741fe2b86d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/720cb3741fe2b86d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/720cb3741fe2b86d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7c32e550f2029c8e",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/7c32e550f2029c8e.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/7c32e550f2029c8e.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "db15c856d8b7151b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/db15c856d8b7151b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/db15c856d8b7151b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "954053b2362480b5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/954053b2362480b5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/954053b2362480b5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "3f3ee784b88eecf0",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/3f3ee784b88eecf0.json",
+          "r2Key": "assets/prealgebra-2e-openstax/3-3-multiply-and-divide-mixed-numbers-and-complex-fractions/3f3ee784b88eecf0.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 4,
+        "sections": 4,
+        "blocks": 54,
+        "examples": 15,
+        "tryIts": 30,
+        "sourceExercises": 39,
+        "exercises": 39,
+        "mathTokens": 63,
+        "assets": 14
+      },
+      "lesson": {
+        "id": "lesson-mixed-complex-fractions",
+        "slug": "karma-kesirler-ve-karmasik-kesirler",
+        "displayTitle": "Karma Kesirler ve Karmaşık Kesirler",
+        "summary": "Tam sayılı kesirlerle çarpma ve bölme yapın, kesirli sözel ifadeleri cebirsel yazın, karmaşık kesirleri ve kesir çizgili ifadeleri sadeleştirin.",
+        "sortOrder": 3,
+        "chapterId": "chapter-fractions",
+        "sourceNumber": "4.4",
+        "displayNumber": "3.3",
+        "sourceTitle": "Multiply and Divide Mixed Numbers and Complex Fractions",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.04%3A_Multiply_and_Divide_Mixed_Numbers_and_Complex_Fractions",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "kesirler",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Tam sayılı kesirlerle çarpma ve bölme yapabileceksiniz.",
+          "Kesir içeren sözel ifadeleri cebirsel ifadeye çevirebileceksiniz.",
+          "Karmaşık kesirleri bölme anlamını kullanarak sadeleştirebileceksiniz.",
+          "Kesir çizgisini gruplama sembolü gibi kullanarak ifadeleri sadeleştirebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "karma-kesirler-ve-karmasik-kesirler-section-01",
+            "heading": "Karma Kesirlerle Çarpma ve Bölme",
+            "slug": "karma-kesirlerle-carpma-ve-bolme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Tam sayılı kesirlerle çarpma ve bölme yaparken önce her tam sayılı kesri bileşik kesre çeviririz. Sonra kesirlerle çarpma ya da bölme kurallarını uygularız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bölme işleminde bölen kesrin tersini alıp çarparız. Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{1}{2}\\div1\\frac{1}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " işlemi "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{5}{2}\\div\\frac{5}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olarak yazılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.37",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{1}{3}\\cdot\\frac{5}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3 1/3 önce 10/3 olarak yazılır."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "10/3·5/8 işleminde 10 ile 8 ortak 2'ye bölünür; sonuç 25/12=2 1/12 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.73",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5\\frac{2}{3}\\cdot\\frac{6}{17}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 2/3=17/3 olur. 17/3·6/17 işleminde 17'ler sadeleşir ve 6/3=2 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.74",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3}{7}\\cdot5\\frac{1}{4}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 1/4=21/4. 3/7·21/4 işleminde 21, 7'ye bölünür; sonuç 9/4=2 1/4 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.38",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{4}{5}\\left(-1\\frac{7}{8}\\right)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 4/5=14/5 ve -1 7/8=-15/8 olur."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çarpım negatiftir. 14/5·15/8 işleminde sadeleştirme yapılır ve sonuç -21/4=-5 1/4 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.75",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5\\frac{5}{7}\\left(-2\\frac{5}{8}\\right)"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5 5/7=40/7 ve -2 5/8=-21/8. Çarpım negatiftir; sadeleştirme sonrası sonuç -15'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.76",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpın ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-3\\frac{2}{5}\\cdot4\\frac{1}{6}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -3 2/5=-17/5 ve 4 1/6=25/6. Çarpım -425/30=-85/6=-14 1/6 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.39",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{4}{7}\\div5"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3 4/7=25/7. 5 sayısını 5/1 olarak düşünürüz."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "25/7÷5=25/7·1/5=5/7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.77",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "4\\frac{3}{8}\\div7"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4 3/8=35/8. 35/8÷7=35/8·1/7=5/8 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.78",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{5}{8}\\div3"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 5/8=21/8. 21/8÷3=21/8·1/3=7/8 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.40",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{1}{2}\\div1\\frac{1}{4}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 1/2=5/2 ve 1 1/4=5/4 olur."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "5/2÷5/4=5/2·4/5=2 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.79",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{2}{3}\\div1\\frac{1}{3}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 2/3=8/3 ve 1 1/3=4/3. 8/3÷4/3=8/3·3/4=2."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.80",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bölün ve sadeleştirilmiş biçimde yazın: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{3}{4}\\div1\\frac{1}{2}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3 3/4=15/4 ve 1 1/2=3/2. 15/4÷3/2=15/4·2/3=5/2=2 1/2."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karma-kesirler-ve-karmasik-kesirler-section-02",
+            "heading": "Kesirli Sözel İfadeler",
+            "slug": "kesirli-sozel-ifadeler",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sözel ifadelerde “bölümü” ve “oranı” sözleri çoğu zaman kesir çizgisiyle yazılır. Kesir çizgisi, üstteki ifadenin alttaki ifadeye bölündüğünü gösterir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "a"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin bölümü "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{a}{b}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olarak yazılır; "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b"
+                  },
+                  {
+                    "type": "text",
+                    "value": " sıfır olmamalıdır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.41",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Cebirsel ifadeye çevirin: “"
+                  },
+                  {
+                    "type": "math",
+                    "value": "3x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile 8'in bölümü.”"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bölüm kesir çizgisiyle yazılır. İfade 3x/8 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.81",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Cebirsel ifadeye çevirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "9s"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile 14'ün bölümü."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bölüm, bölme ya da kesir çizgisiyle yazılır. 9s ile 14'ün bölümü 9s/14'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.82",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Cebirsel ifadeye çevirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5y"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile 6'nın bölümü."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5y'nin 6'ya bölümü 5y/6 olarak yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.42",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Cebirsel ifadeye çevirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "m"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "n"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin farkının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "p"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ye bölümü."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce fark paranteze alınır, sonra p'ye bölünür. İfade (m-n)/p olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.83",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Cebirsel ifadeye çevirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "a"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin farkının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "cd"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ye bölümü."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce a ile b'nin farkı alınır, sonra cd'ye bölünür. İfade (a-b)/(cd) olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.84",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Cebirsel ifadeye çevirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "p"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile "
+                  },
+                  {
+                    "type": "math",
+                    "value": "q"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'nin toplamının "
+                  },
+                  {
+                    "type": "math",
+                    "value": "r"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ye bölümü."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Önce p ile q toplanır, sonra r'ye bölünür. İfade (p+q)/r olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karma-kesirler-ve-karmasik-kesirler-section-03",
+            "heading": "Karmaşık Kesirler",
+            "slug": "karmasik-kesirler",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Payında ya da paydasında kesir bulunan kesirlere karmaşık kesir denir. Karmaşık kesri sadeleştirirken ana kesir çizgisini bölme işlemi gibi okuruz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{3}{4}}{\\frac{5}{8}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesi "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3}{4}\\div\\frac{5}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " demektir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.43",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{3}{4}}{\\frac{5}{8}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3/4÷5/8=3/4·8/5=6/5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.85",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{2}{3}}{\\frac{5}{6}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Karmaşık kesir bölme demektir. 2/3÷5/6=2/3·6/5=4/5 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.86",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{3}{7}}{\\frac{6}{11}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3/7÷6/11=3/7·11/6. 3 ile 6 sadeleşir ve sonuç 11/14 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.44",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{-\\frac{6}{7}}{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -6/7 sayısını 3'e böleriz. -6/7·1/3=-2/7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.87",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{-\\frac{8}{7}}{4}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -8/7 sayısını 4'e bölmek, 1/4 ile çarpmaktır. Sonuç -2/7'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.88",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{3}{\\frac{9}{10}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -3÷9/10=-3·10/9=-10/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.45",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{x}{2}}{\\frac{xy}{6}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: x/2÷xy/6=x/2·6/(xy). x'ler sadeleşir ve sonuç 3/y olur; y sıfır olmamalıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.89",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{a}{8}}{\\frac{ab}{6}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: a/8÷ab/6=a/8·6/(ab). a'lar sadeleşir ve sonuç 3/(4b) olur; b sıfır olmamalıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.90",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{p}{2}}{\\frac{pq}{8}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: p/2÷pq/8=p/2·8/(pq). p'ler sadeleşir ve sonuç 4/q olur; q sıfır olmamalıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.46",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{2\\frac{3}{4}}{\\frac{1}{8}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 2 3/4=11/4. 11/4÷1/8=11/4·8=22 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.91",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{5}{7}}{1\\frac{2}{5}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 2/5=7/5. 5/7÷7/5=5/7·5/7=25/49 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.92",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\frac{8}{5}}{3\\frac{1}{5}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3 1/5=16/5. 8/5÷16/5=8/5·5/16=1/2 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karma-kesirler-ve-karmasik-kesirler-section-04",
+            "heading": "Kesir Çizgisiyle İşlem Önceliği",
+            "slug": "kesir-cizgisiyle-islem-onceligi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Negatif işaret bir kesrin önünde, payında ya da paydasında yazılabilir. Pay ve paydadan yalnızca biri negatifse kesrin değeri negatiftir; ikisi de negatifse değer pozitiftir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "-\\frac{1}{3}=\\frac{-1}{3}=\\frac{1}{-3}",
+                    "display": true
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.47",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Aşağıdaki kesirlerden hangileri "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{7}{-8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile eşdeğerdir? "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{-7}{-8},\\frac{-7}{8},\\frac{7}{8},-\\frac{7}{8}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7/(-8) negatiftir. Bu nedenle -7/8 ve -7/8 yazımı eşdeğerdir; diğerleri pozitiftir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.93",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Aşağıdaki kesirlerden hangileri "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{-3}{5}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile eşdeğerdir? "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{-3}{-5},\\frac{3}{5},-\\frac{3}{5},\\frac{3}{-5}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -3/5 ile aynı değeri veren yazımlar -3/5 ve 3/(-5)'tir. Pay ve paydadan yalnızca biri negatif olmalıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.94",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Aşağıdaki kesirlerden hangileri "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\frac{2}{7}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile eşdeğerdir? "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{-2}{-7},\\frac{-2}{7},\\frac{2}{7},\\frac{2}{-7}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -2/7 ile aynı değeri veren yazımlar -2/7 ve 2/(-7)'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kesir çizgisi de bir gruplama sembolü gibi davranır. Pay ve payda önce kendi içinde sadeleştirilir, sonra bölme yapılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.48",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{4+8}{5-3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 12, payda 2 olur. 12/2=6."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.95",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{4+6}{11-2}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 4+6=10, payda 11-2=9 olur. Sonuç 10/9'dur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.96",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3+5}{18-2}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 3+5=8, payda 18-2=16 olur. 8/16=1/2."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.49",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{4-2(3)}{2^{2}+2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 4-6=-2, payda 4+2=6 olur. Sonuç -2/6=-1/3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.97",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{6-3(5)}{3^{2}+3}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 6-3·5=-9, payda 3²+3=12 olur. Sonuç -9/12=-3/4'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.98",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{4-4(6)}{3^{3}+3}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 4-4·6=-20, payda 3³+3=30 olur. Sonuç -20/30=-2/3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.50",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{{(8-4)}^{2}}{8^{2}-4^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 4²=16, payda 64-16=48 olur. 16/48=1/3."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.99",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{{(11-7)}^{2}}{{11}^{2}-7^{2}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay (11-7)²=16, payda 11²-7²=72 olur. 16/72=2/9."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.100",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{{(6+2)}^{2}}{6^{2}+2^{2}}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay (6+2)²=64, payda 6²+2²=40 olur. 64/40=8/5."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 4.51",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{4(-3)+6(-2)}{-3(2)-2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay -12-12=-24, payda -6-2=-8 olur. Bölüm 3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.101",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{8(-2)+4(-3)}{-5(2)+3}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 8(-2)+4(-3)=-28, payda -5(2)+3=-7 olur. Bölüm 4'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 4.102",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{7(-1)+9(-3)}{-5(3)-2}"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Pay 7(-1)+9(-3)=-34, payda -5(3)-2=-17 olur. Bölüm 2'dir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-177",
+            "number": "177",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "2\\frac{4}{9}·\\frac{6}{7}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 4/9=22/9. 22/9·6/7 işleminde 6 ile 9 sadeleşir; sonuç 44/21=2 2/21 olur."
+              }
+            ],
+            "sortOrder": 177
+          },
+          {
+            "id": "exercise-179",
+            "number": "179",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "\\frac{25}{36}·6\\frac{3}{10}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6 3/10=63/10. 25/36·63/10 işleminde sadeleştirme yapılır ve sonuç 35/8=4 3/8 olur."
+              }
+            ],
+            "sortOrder": 179
+          },
+          {
+            "id": "exercise-181",
+            "number": "181",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "2\\frac{2}{5} (−2\\frac{2}{9})"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 2/5=12/5 ve -2 2/9=-20/9. Çarpım -240/45=-16/3=-5 1/3 olur."
+              }
+            ],
+            "sortOrder": 181
+          },
+          {
+            "id": "exercise-183",
+            "number": "183",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "−1\\frac{7}{20}·2\\frac{11}{12}"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -1 7/20=-27/20 ve 2 11/12=35/12. Çarpım negatiftir; sonuç -63/16=-3 15/16 olur."
+              }
+            ],
+            "sortOrder": 183
+          },
+          {
+            "id": "exercise-185",
+            "number": "185",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 13 1/2 ÷ 9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 13 1/2=27/2. 27/2÷9=27/2·1/9=3/2=1 1/2 olur."
+              }
+            ],
+            "sortOrder": 185
+          },
+          {
+            "id": "exercise-187",
+            "number": "187",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: -7 ÷ 5 1/4."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5 1/4=21/4. -7÷21/4=-7·4/21=-4/3=-1 1/3 olur."
+              }
+            ],
+            "sortOrder": 187
+          },
+          {
+            "id": "exercise-189",
+            "number": "189",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: 2 1/5 ÷ 1 1/10."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 1/5=11/5 ve 1 1/10=11/10. 11/5÷11/10=11/5·10/11=2."
+              }
+            ],
+            "sortOrder": 189
+          },
+          {
+            "id": "exercise-191",
+            "number": "191",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bölün ve sonucu sadeleştirilmiş biçimde yazın: -18 3/4 ÷ (-3 3/4)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -18 3/4=-75/4 ve -3 3/4=-15/4. İki negatifin bölümü pozitiftir; sonuç 5'tir."
+              }
+            ],
+            "sortOrder": 191
+          },
+          {
+            "id": "exercise-193",
+            "number": "193",
+            "sectionSlug": "kesirli-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirin: 7v ile 13'ün bölümü."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bölüm kesir çizgisiyle yazılır. 7v'nin 13'e bölümü 7v/13'tür."
+              }
+            ],
+            "sortOrder": 193
+          },
+          {
+            "id": "exercise-195",
+            "number": "195",
+            "sectionSlug": "kesirli-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirin: a ile b'nin bölümü."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: a ile b'nin bölümü a/b olarak yazılır; b sıfır olmamalıdır."
+              }
+            ],
+            "sortOrder": 195
+          },
+          {
+            "id": "exercise-197",
+            "number": "197",
+            "sectionSlug": "kesirli-sozel-ifadeler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cebirsel ifadeye çevirin: A'nın, 3 ile B'nin farkına bölümü."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce 3 ile B'nin farkı alınır, sonra A bu farka bölünür. İfade A/(3-B) olur."
+              }
+            ],
+            "sortOrder": 197
+          },
+          {
+            "id": "exercise-199",
+            "number": "199",
+            "sectionSlug": "karmasik-kesirler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesri sadeleştirin: (4/5)/(8/15)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: (4/5)/(8/15)=4/5÷8/15=4/5·15/8=3/2 olur."
+              }
+            ],
+            "sortOrder": 199
+          },
+          {
+            "id": "exercise-201",
+            "number": "201",
+            "sectionSlug": "karmasik-kesirler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesri sadeleştirin: (-9/16)/(33/40)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: (-9/16)/(33/40)=-9/16·40/33. Sadeleştirme sonrası sonuç -15/22 olur."
+              }
+            ],
+            "sortOrder": 201
+          },
+          {
+            "id": "exercise-203",
+            "number": "203",
+            "sectionSlug": "karmasik-kesirler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesri sadeleştirin: (-9/10)/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bir kesri 3'e bölmek, 1/3 ile çarpmaktır. Bu nedenle (-9/10)/3=-9/10·1/3=-3/10 olur."
+              }
+            ],
+            "sortOrder": 203
+          },
+          {
+            "id": "exercise-205",
+            "number": "205",
+            "sectionSlug": "karmasik-kesirler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesri sadeleştirin: (5/3)/10."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 10'a bölmek, 1/10 ile çarpmaktır. Bu yüzden (5/3)/10=5/3·1/10=1/6 olur."
+              }
+            ],
+            "sortOrder": 205
+          },
+          {
+            "id": "exercise-207",
+            "number": "207",
+            "sectionSlug": "karmasik-kesirler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesri sadeleştirin: (r/5)/(s/3)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: (r/5)/(s/3)=r/5·3/s=3r/(5s) olur; s sıfır olmamalıdır."
+              }
+            ],
+            "sortOrder": 207
+          },
+          {
+            "id": "exercise-209",
+            "number": "209",
+            "sectionSlug": "karmasik-kesirler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesri sadeleştirin: (-3/8)/(-y/12)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: (-3/8)/(-y/12)=(-3/8)·(-12/y)=36/(8y)=9/(2y) olur; y sıfır olmamalıdır."
+              }
+            ],
+            "sortOrder": 209
+          },
+          {
+            "id": "exercise-211",
+            "number": "211",
+            "sectionSlug": "karmasik-kesirler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesri sadeleştirin: 4 2/3 ÷ 1/6."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4 2/3=14/3. 14/3÷1/6=14/3·6=28 olur."
+              }
+            ],
+            "sortOrder": 211
+          },
+          {
+            "id": "exercise-213",
+            "number": "213",
+            "sectionSlug": "karmasik-kesirler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karmaşık kesri sadeleştirin: (3/8) ÷ (-6 3/4)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -6 3/4=-27/4. 3/8÷(-27/4)=3/8·(-4/27)=-1/18 olur."
+              }
+            ],
+            "sortOrder": 213
+          },
+          {
+            "id": "exercise-215",
+            "number": "215",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Eşdeğer kesirleri belirleyin: -4/9 ile hangi yazımlar eşdeğerdir? -4/-9, -4/9, 4/9, -4/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -4/9 ile eşdeğer olmak için yalnızca pay ya da yalnızca payda negatif olmalıdır. Bu nedenle -4/9 ve -4/9 yazımları eşdeğerdir; -4/-9 ve 4/9 pozitiftir."
+              }
+            ],
+            "sortOrder": 215
+          },
+          {
+            "id": "exercise-217",
+            "number": "217",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Eşdeğer kesirleri belirleyin: -13/6 ile hangi yazımlar eşdeğerdir? 13/6, 13/-6, -13/-6, -13/6."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -13/6 ile eşdeğer yazımlar 13/(-6) ve -13/6'dır. Pay ve payda ikisi de negatif olursa sonuç pozitif olur."
+              }
+            ],
+            "sortOrder": 217
+          },
+          {
+            "id": "exercise-219",
+            "number": "219",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (9+3)/7."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce paydaki toplama yapılır: 9+3=12. Payda 7 kalır; sonuç 12/7 olur."
+              }
+            ],
+            "sortOrder": 219
+          },
+          {
+            "id": "exercise-221",
+            "number": "221",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (19-4)/6."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 19-4=15, payda 6'dır. 15/6=5/2 olur."
+              }
+            ],
+            "sortOrder": 221
+          },
+          {
+            "id": "exercise-223",
+            "number": "223",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 46/(4+4)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 46, payda 4+4=8 olur. 46/8=23/4."
+              }
+            ],
+            "sortOrder": 223
+          },
+          {
+            "id": "exercise-225",
+            "number": "225",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (-6+3)/(17-8)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay -6+3=-3, payda 17-8=9 olur. -3/9=-1/3."
+              }
+            ],
+            "sortOrder": 225
+          },
+          {
+            "id": "exercise-227",
+            "number": "227",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (15+9)/(18+12)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 15+9=24, payda 18+12=30 olur. 24/30=4/5."
+              }
+            ],
+            "sortOrder": 227
+          },
+          {
+            "id": "exercise-229",
+            "number": "229",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (3·4)/(-24)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 3·4=12, payda -24 olur. 12/(-24)=-1/2."
+              }
+            ],
+            "sortOrder": 229
+          },
+          {
+            "id": "exercise-231",
+            "number": "231",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (6·6)/(9·2)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce pay ve payda ayrı sadeleştirilir. Pay 6·6=36, payda 9·2=18 olur; 36/18=2'dir."
+              }
+            ],
+            "sortOrder": 231
+          },
+          {
+            "id": "exercise-233",
+            "number": "233",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (7²+1)/60."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 7²+1=50, payda 60 olur. 50/60=5/6."
+              }
+            ],
+            "sortOrder": 233
+          },
+          {
+            "id": "exercise-235",
+            "number": "235",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (9·6-4·7)/(22+3)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 9·6-4·7=54-28=26, payda 25 olur. Sonuç 26/25'tir."
+              }
+            ],
+            "sortOrder": 235
+          },
+          {
+            "id": "exercise-237",
+            "number": "237",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (12·9-3²)/(3·18)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 12·9-3²=108-9=99, payda 3·18=54 olur. 99/54=11/6."
+              }
+            ],
+            "sortOrder": 237
+          },
+          {
+            "id": "exercise-239",
+            "number": "239",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (8·9-7·6)/(5·6-9·2)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 72-42=30, payda 30-18=12 olur. 30/12=5/2."
+              }
+            ],
+            "sortOrder": 239
+          },
+          {
+            "id": "exercise-241",
+            "number": "241",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (6²-4²)/(4-6)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce üst ve alt ifadeler hesaplanır. Pay 6²-4²=36-16=20, payda 4-6=-2 olur; 20/(-2)=-10'dur."
+              }
+            ],
+            "sortOrder": 241
+          },
+          {
+            "id": "exercise-243",
+            "number": "243",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (7+3·5)/(-2-3²)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İşlem önceliğine göre önce çarpma ve üs yapılır. Pay 7+3·5=22, payda -2-3²=-11 olur; sonuç -2'dir."
+              }
+            ],
+            "sortOrder": 243
+          },
+          {
+            "id": "exercise-245",
+            "number": "245",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (9·7-3(12-8))/(8·7-6·6)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 9·7-3(12-8)=63-12=51, payda 8·7-6·6=56-36=20 olur. Sonuç 51/20=2 11/20'dir."
+              }
+            ],
+            "sortOrder": 245
+          },
+          {
+            "id": "exercise-247",
+            "number": "247",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (8(9-2)-4(14-9))/(7(8-3)-3(16-9))."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Pay 8(9-2)-4(14-9)=56-20=36, payda 7(8-3)-3(16-9)=35-21=14 olur. 36/14=18/7=2 4/7."
+              }
+            ],
+            "sortOrder": 247
+          },
+          {
+            "id": "exercise-249",
+            "number": "249",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir fuar standı şekerlemeyi pound ile satıyor. Ödüllü tarifte her pound için 2 2/3 su bardağı çikolata parçacığı kullanılıyor. ⓐ Yarım pound için kaç su bardağı gerekir? ⓑ 10 poundluk parti için kaç su bardağı gerekir? Sonuçları bileşik kesir ve tam sayılı kesir olarak yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ Yarım pound için 2 2/3'ün yarısı alınır: 8/3·1/2=4/3=1 1/3 su bardağı. ⓑ 10 pound için 10·8/3=80/3=26 2/3 su bardağı gerekir."
+              }
+            ],
+            "sortOrder": 249
+          },
+          {
+            "id": "exercise-251",
+            "number": "251",
+            "sectionSlug": "karma-kesirlerle-carpma-ve-bolme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karma kesirlerin nasıl çarpıldığını açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Karma kesirleri çarpmadan önce bileşik kesre çeviririz. Sonra payları ve paydaları çarpar, mümkünse sadeleştirir ve sonucu gerekirse tam sayılı kesre çeviririz."
+              }
+            ],
+            "sortOrder": 251
+          },
+          {
+            "id": "exercise-253",
+            "number": "253",
+            "sectionSlug": "kesir-cizgisiyle-islem-onceligi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "-1/2, (-1)/2 ve 1/(-2) yazımlarının neden eşdeğer olduğunu açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kesir bölme anlamı taşır. Negatif işaret payda ya da paydanın yalnızca birinde olduğunda bölüm negatiftir; bu yüzden -1/2, (-1)/2 ve 1/(-2) aynı değeri verir."
+              }
+            ],
+            "sortOrder": 253
+          }
+        ]
+      }
     }
   ]
 }

@@ -16,7 +16,7 @@ Proje şu anda:
 - Canlı canonical host şu an `https://turanarican.com`.
 - `https://www.turanarican.com` Cloudflare tarafından apex hosta 301
   yönleniyor.
-- Son doğrulanan seed DB içeriği 11 ders, 58 ders bölümü, 386 alıştırma ve 334
+- Son doğrulanan seed DB içeriği 12 ders, 62 ders bölümü, 425 alıştırma ve 348
   kaynak asset içeriyor.
 
 En önemli deploy kuralı:
