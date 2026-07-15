@@ -9437,6 +9437,199 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "5.2",
+    sections: [
+      {
+        sectionSlug: "ondalik-sayilari-okuma",
+        replaceBlocks: [
+          ...removeBlocks(22),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayılar, paydası 10, 100, 1000 gibi 10'un kuvvetleri olan kesirleri yazmanın kısa yoludur. Türkçe gösterimde ondalık ayırıcı olarak virgül kullanırız.",
+              ),
+              p([
+                t("Örneğin "),
+                m("0{,}1=\\frac{1}{10}"),
+                t(", "),
+                m("0{,}01=\\frac{1}{100}"),
+                t(" ve "),
+                m("0{,}001=\\frac{1}{1000}"),
+                t(" olur."),
+              ]),
+              pt(
+                "Bir ondalık sayıyı okurken önce tam kısmı söyleriz. Virgülden sonraki kısmı, son basamağın adına göre onda, yüzde, binde ya da on binde olarak adlandırırız.",
+              ),
+              ex(
+                "Örnek 5.1",
+                [t("Ondalık sayıları okuyun: ⓐ "), m("4{,}3"), t(" ⓑ "), m("2{,}45"), t(" ⓒ "), m("0{,}009"), t(" ⓓ "), m("-15{,}571"), t(".")],
+                sol("Çözüm: 4,3 dört tam onda üç; 2,45 iki tam yüzde kırk beş; 0,009 binde dokuz; -15,571 eksi on beş tam binde beş yüz yetmiş bir diye okunur."),
+              ),
+              ex("Sıra Sizde 5.1", [t("Ondalık sayıları okuyun: ⓐ "), m("6{,}7"), t(" ⓑ "), m("19{,}58"), t(" ⓒ "), m("0{,}018"), t(" ⓓ "), m("-2{,}053")]),
+              ex("Sıra Sizde 5.2", [t("Ondalık sayıları okuyun: ⓐ "), m("5{,}8"), t(" ⓑ "), m("3{,}57"), t(" ⓒ "), m("0{,}005"), t(" ⓓ "), m("-13{,}461")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilari-yazma",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayının adından gösterimine geçerken virgülden önceki tam kısmı yazarız. Sonra basamak adına göre virgülden sonra kaç basamak gerektiğini belirleriz.",
+              ),
+              ex(
+                "Örnek 5.2",
+                [t("On dört tam yüzde otuz yediyi ondalık sayı olarak yazın.")],
+                sol("Çözüm: Tam kısım 14'tür. Yüzde otuz yedi, virgülden sonra iki basamakla 37 yazılır. Sonuç 14,37 olur."),
+              ),
+              ex("Sıra Sizde 5.3", [t("Ondalık sayı olarak yazın: on üç tam yüzde altmış sekiz.")]),
+              ex("Sıra Sizde 5.4", [t("Ondalık sayı olarak yazın: beş tam binde sekiz yüz doksan dört.")]),
+              pt(
+                "Tam kısmı olmayan sayılarda virgülden önce 0 yazarız. Basamak sayısı eksikse araya sıfır koyarız.",
+              ),
+              ex(
+                "Örnek 5.3",
+                [t("Yirmi dört binde sayısını ondalık sayı olarak yazın.")],
+                sol("Çözüm: Binde basamağı üç ondalık yer ister. 24 binde, 0,024 olarak yazılır."),
+              ),
+              ex("Sıra Sizde 5.5", [t("Ondalık sayı olarak yazın: elli sekiz binde.")]),
+              ex("Sıra Sizde 5.6", [t("Ondalık sayı olarak yazın: altmış yedi binde.")]),
+              pt(
+                "Bir tam sayı, değeri değişmeden virgülden sonra sıfırlarla yazılabilir: 5=5,0=5,00 gibi.",
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilari-kesre-donusturme",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayıyı kesre dönüştürmek için virgülden sonraki son basamağın yer değerini paydaya yazarız. Tam kısım varsa sonuç karma kesir olur.",
+              ),
+              p([
+                m("0{,}03=\\frac{3}{100}"),
+                t(" ve "),
+                m("5{,}03=5\\frac{3}{100}"),
+                t(" buna örnektir."),
+              ]),
+              ex(
+                "Örnek 5.4",
+                [t("Ondalık sayıları kesre ya da karma kesre dönüştürün: ⓐ "), m("4{,}09"), t(" ⓑ "), m("3{,}7"), t(" ⓒ "), m("-0{,}286"), t(".")],
+                sol("Çözüm: 4,09=4 9/100; 3,7=3 7/10; -0,286=-286/1000=-143/500 olur."),
+              ),
+              ex("Sıra Sizde 5.7", [t("Kesre ya da karma kesre dönüştürün: ⓐ "), m("5{,}3"), t(" ⓑ "), m("6{,}07"), t(" ⓒ "), m("-0{,}234")]),
+              ex("Sıra Sizde 5.8", [t("Kesre ya da karma kesre dönüştürün: ⓐ "), m("8{,}7"), t(" ⓑ "), m("1{,}03"), t(" ⓒ "), m("-0{,}024")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilari-sayi-dogrusunda-gosterme",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayıları sayı doğrusunda gösterirken ilgili aralığı eş parçalara böleriz. 0,4 sayısı, 0 ile 1 arasındaki onda dört noktasındadır.",
+              ),
+              ex(
+                "Örnek 5.5",
+                [m("0{,}4"), t(" sayısını sayı doğrusunda gösterin.")],
+                sol("Çözüm: 0 ile 1 arasını 10 eş parçaya böleriz. 0,4 dördüncü işarete karşılık gelir."),
+              ),
+              ex("Sıra Sizde 5.9", [m("0{,}6"), t(" sayısını sayı doğrusunda gösterin.")]),
+              ex("Sıra Sizde 5.10", [m("0{,}9"), t(" sayısını sayı doğrusunda gösterin.")]),
+              ex(
+                "Örnek 5.6",
+                [m("-0{,}74"), t(" sayısını sayı doğrusunda gösterin.")],
+                sol("Çözüm: -0,74, 0'ın solunda -0,7 ile -0,8 arasındadır; -0,7'den biraz daha soldadır."),
+              ),
+              ex("Sıra Sizde 5.11", [m("-0{,}63"), t(" sayısını sayı doğrusunda gösterin.")]),
+              ex("Sıra Sizde 5.12", [m("-0{,}25"), t(" sayısını sayı doğrusunda gösterin.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilari-siralama",
+        replaceBlocks: [
+          ...removeBlocks(26),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayıları karşılaştırırken basamakları aynı hizaya getiririz. Gerekirse sayının sonuna sıfır ekleyebiliriz; bu, sayının değerini değiştirmez.",
+              ),
+              p([
+                m("0{,}31=0{,}310"),
+                t(" olduğu için "),
+                m("0{,}31>0{,}308"),
+                t(" karşılaştırmasını yapabiliriz."),
+              ]),
+              ex(
+                "Örnek 5.7",
+                [t("< ya da > kullanın: ⓐ "), m("0{,}64\\_\\_0{,}6"), t(" ⓑ "), m("0{,}83\\_\\_0{,}803")],
+                sol("Çözüm: 0,64>0,6 çünkü 0,64>0,60. Ayrıca 0,83=0,830 ve 0,830>0,803 olduğu için 0,83>0,803."),
+              ),
+              ex("Sıra Sizde 5.13", [t("< ya da > kullanın: ⓐ "), m("0{,}42\\_\\_0{,}4"), t(" ⓑ "), m("0{,}76\\_\\_0{,}706")]),
+              ex("Sıra Sizde 5.14", [t("< ya da > kullanın: ⓐ "), m("0{,}1\\_\\_0{,}18"), t(" ⓑ "), m("0{,}305\\_\\_0{,}35")]),
+              pt(
+                "Negatif ondalıklarda sayı doğrusunu düşünürüz. Sıfıra daha yakın olan negatif sayı daha büyüktür.",
+              ),
+              ex(
+                "Örnek 5.8",
+                [t("< ya da > kullanın: "), m("-0{,}1\\_\\_-0{,}8"), t(".")],
+                sol("Çözüm: -0,1 sıfıra daha yakındır ve sayı doğrusunda -0,8'in sağındadır. Bu yüzden -0,1>-0,8 olur."),
+              ),
+              ex("Sıra Sizde 5.15", [t("< ya da > kullanın: "), m("-0{,}3\\_\\_-0{,}5")]),
+              ex("Sıra Sizde 5.16", [t("< ya da > kullanın: "), m("-0{,}6\\_\\_-0{,}7")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilari-yuvarlama",
+        replaceBlocks: [
+          ...removeBlocks(9),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayıları yuvarlarken hedef basamağın sağındaki basamağa bakarız. Bu basamak 5 veya daha büyükse hedef basamağı 1 artırırız; değilse aynı bırakırız.",
+              ),
+              ex(
+                "Örnek 5.9",
+                [m("18{,}379"), t(" sayısını en yakın yüzde birliğe yuvarlayın.")],
+                sol("Çözüm: Yüzde birlik basamağı 7'dir. Sağındaki binde birlik basamağı 9 olduğu için 7 bir artar; sonuç 18,38 olur."),
+              ),
+              ex("Sıra Sizde 5.17", [t("En yakın yüzde birliğe yuvarlayın: "), m("1{,}047")]),
+              ex("Sıra Sizde 5.18", [t("En yakın yüzde birliğe yuvarlayın: "), m("9{,}173")]),
+              ex(
+                "Örnek 5.10",
+                [m("18{,}379"), t(" sayısını ⓐ en yakın onda birliğe ⓑ en yakın tam sayıya yuvarlayın.")],
+                sol("Çözüm: Onda birlik için yüzde birlik basamağı 7 olduğundan 18,4 olur. Tam sayı için onda birlik basamağı 3 olduğundan 18 olur."),
+              ),
+              ex("Sıra Sizde 5.19", [t("Yuvarlayın: "), m("6{,}582"), t(" ⓐ yüzde birlik ⓑ onda birlik ⓒ tam sayı.")]),
+              ex("Sıra Sizde 5.20", [t("Yuvarlayın: "), m("15{,}2175"), t(" ⓐ binde birlik ⓑ yüzde birlik ⓒ onda birlik.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

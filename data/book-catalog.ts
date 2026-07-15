@@ -71,6 +71,19 @@ export const books: Book[] = [
         sortOrder: 3,
         lessons: [],
       },
+      {
+        id: "chapter-decimals",
+        bookId: "book-prealgebra-2e",
+        slug: "ondalik-sayilar",
+        sourceNumber: "5",
+        displayNumber: "4",
+        sourceTitle: "Decimals",
+        displayTitle: "Ondalık Sayılar",
+        sourceUrl:
+          "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals",
+        sortOrder: 4,
+        lessons: [],
+      },
     ],
   },
 ];

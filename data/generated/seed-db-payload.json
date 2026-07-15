@@ -51,6 +51,17 @@
         "displayTitle": "Kesirler",
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions",
         "sortOrder": 3
+      },
+      {
+        "id": "chapter-decimals",
+        "bookId": "book-prealgebra-2e",
+        "slug": "ondalik-sayilar",
+        "sourceNumber": "5",
+        "displayNumber": "4",
+        "sourceTitle": "Decimals",
+        "displayTitle": "Ondalık Sayılar",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals",
+        "sortOrder": 4
       }
     ],
     "lessons": [
@@ -384,6 +395,28 @@
         "sortOrder": 7,
         "status": "draft",
         "rawHash": "42bfbf6edeced6ca40977522fd3d34bb96fda36396736952dd8fe683ceefc9f7"
+      },
+      {
+        "id": "lesson-decimals",
+        "chapterId": "chapter-decimals",
+        "slug": "ondalik-sayilar",
+        "sourceNumber": "5.2",
+        "displayNumber": "4.1",
+        "sourceTitle": "Decimals",
+        "displayTitle": "Ondalık Sayılar",
+        "summary": "Ondalık sayıları okuyup yazın, kesre ya da karma kesre dönüştürün, sayı doğrusunda gösterin, sıralayın ve yuvarlayın.",
+        "objectivesJson": [
+          "Ondalık sayıları okuyabileceksiniz.",
+          "Ondalık sayıları yazabileceksiniz.",
+          "Ondalık sayıları kesre ya da karma kesre dönüştürebileceksiniz.",
+          "Ondalık sayıları sayı doğrusunda gösterebileceksiniz.",
+          "Ondalık sayıları sıralayabileceksiniz.",
+          "Ondalık sayıları yuvarlayabileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals",
+        "sortOrder": 1,
+        "status": "draft",
+        "rawHash": "ebb137316aae280682a5a365f95e848169e9a2f16fc1a4dc307456e9958595c7"
       }
     ],
     "lessonSections": [
@@ -28666,6 +28699,1121 @@
             ]
           }
         ]
+      },
+      {
+        "id": "ondalik-sayilar-section-01",
+        "lessonId": "lesson-decimals",
+        "heading": "Ondalık Sayıları Okuma",
+        "slug": "ondalik-sayilari-okuma",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ondalık sayılar, paydası 10, 100, 1000 gibi 10'un kuvvetleri olan kesirleri yazmanın kısa yoludur. Türkçe gösterimde ondalık ayırıcı olarak virgül kullanırız."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "0{,}1=\\frac{1}{10}"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "0{,}01=\\frac{1}{100}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "0{,}001=\\frac{1}{1000}"
+              },
+              {
+                "type": "text",
+                "value": " olur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir ondalık sayıyı okurken önce tam kısmı söyleriz. Virgülden sonraki kısmı, son basamağın adına göre onda, yüzde, binde ya da on binde olarak adlandırırız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.1",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıları okuyun: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "4{,}3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "2{,}45"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}009"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "-15{,}571"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 4,3 dört tam onda üç; 2,45 iki tam yüzde kırk beş; 0,009 binde dokuz; -15,571 eksi on beş tam binde beş yüz yetmiş bir diye okunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.1",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıları okuyun: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "6{,}7"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "19{,}58"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}018"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "-2{,}053"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6,7 altı tam onda yedi; 19,58 on dokuz tam yüzde elli sekiz; 0,018 binde on sekiz; -2,053 eksi iki tam binde elli üç diye okunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.2",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıları okuyun: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "5{,}8"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "3{,}57"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}005"
+              },
+              {
+                "type": "text",
+                "value": " ⓓ "
+              },
+              {
+                "type": "math",
+                "value": "-13{,}461"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 5,8 beş tam onda sekiz; 3,57 üç tam yüzde elli yedi; 0,005 binde beş; -13,461 eksi on üç tam binde dört yüz altmış bir diye okunur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-section-02",
+        "lessonId": "lesson-decimals",
+        "heading": "Ondalık Sayıları Yazma",
+        "slug": "ondalik-sayilari-yazma",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ondalık sayının adından gösterimine geçerken virgülden önceki tam kısmı yazarız. Sonra basamak adına göre virgülden sonra kaç basamak gerektiğini belirleriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.2",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "On dört tam yüzde otuz yediyi ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Tam kısım 14'tür. Yüzde otuz yedi, virgülden sonra iki basamakla 37 yazılır. Sonuç 14,37 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.3",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayı olarak yazın: on üç tam yüzde altmış sekiz."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: On üç tam yüzde altmış sekiz, ondalık gösterimde 13,68 olarak yazılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.4",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayı olarak yazın: beş tam binde sekiz yüz doksan dört."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Beş tam binde sekiz yüz doksan dört, 5,894 olarak yazılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Tam kısmı olmayan sayılarda virgülden önce 0 yazarız. Basamak sayısı eksikse araya sıfır koyarız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.3",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yirmi dört binde sayısını ondalık sayı olarak yazın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Binde basamağı üç ondalık yer ister. 24 binde, 0,024 olarak yazılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.5",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayı olarak yazın: elli sekiz binde."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Elli sekiz binde, 0,058 olarak yazılır; binde basamağı için üç ondalık yer kullanılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.6",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayı olarak yazın: altmış yedi binde."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Altmış yedi binde, 0,067 olarak yazılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir tam sayı, değeri değişmeden virgülden sonra sıfırlarla yazılabilir: 5=5,0=5,00 gibi."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-section-03",
+        "lessonId": "lesson-decimals",
+        "heading": "Ondalık Sayıları Kesre Dönüştürme",
+        "slug": "ondalik-sayilari-kesre-donusturme",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı kesre dönüştürmek için virgülden sonraki son basamağın yer değerini paydaya yazarız. Tam kısım varsa sonuç karma kesir olur."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "0{,}03=\\frac{3}{100}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "5{,}03=5\\frac{3}{100}"
+              },
+              {
+                "type": "text",
+                "value": " buna örnektir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.4",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıları kesre ya da karma kesre dönüştürün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "4{,}09"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "3{,}7"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "-0{,}286"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 4,09=4 9/100; 3,7=3 7/10; -0,286=-286/1000=-143/500 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.7",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesre ya da karma kesre dönüştürün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "5{,}3"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "6{,}07"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "-0{,}234"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 5,3=5 3/10, 6,07=6 7/100 ve -0,234=-234/1000=-117/500 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.8",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesre ya da karma kesre dönüştürün: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "8{,}7"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "1{,}03"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "-0{,}024"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8,7=8 7/10, 1,03=1 3/100 ve -0,024=-24/1000=-3/125 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-section-04",
+        "lessonId": "lesson-decimals",
+        "heading": "Ondalık Sayıları Sayı Doğrusunda Gösterme",
+        "slug": "ondalik-sayilari-sayi-dogrusunda-gosterme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıları sayı doğrusunda gösterirken ilgili aralığı eş parçalara böleriz. 0,4 sayısı, 0 ile 1 arasındaki onda dört noktasındadır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.5",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "0{,}4"
+              },
+              {
+                "type": "text",
+                "value": " sayısını sayı doğrusunda gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 0 ile 1 arasını 10 eş parçaya böleriz. 0,4 dördüncü işarete karşılık gelir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.9",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "0{,}6"
+              },
+              {
+                "type": "text",
+                "value": " sayısını sayı doğrusunda gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 0,6 sayısı 0 ile 1 arasında, onda altı noktasındadır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.10",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "0{,}9"
+              },
+              {
+                "type": "text",
+                "value": " sayısını sayı doğrusunda gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 0,9 sayısı 0 ile 1 arasında, 1'e yakın olan onda dokuz noktasındadır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.6",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "-0{,}74"
+              },
+              {
+                "type": "text",
+                "value": " sayısını sayı doğrusunda gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -0,74, 0'ın solunda -0,7 ile -0,8 arasındadır; -0,7'den biraz daha soldadır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.11",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "-0{,}63"
+              },
+              {
+                "type": "text",
+                "value": " sayısını sayı doğrusunda gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -0,63 sayısı -0,6 ile -0,7 arasındadır; -0,63, -0,6'nın biraz solundadır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.12",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "-0{,}25"
+              },
+              {
+                "type": "text",
+                "value": " sayısını sayı doğrusunda gösterin."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -0,25 sayısı 0 ile -1 arasında, -0,2 ile -0,3 arasındaki çeyrek noktadadır."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-section-05",
+        "lessonId": "lesson-decimals",
+        "heading": "Ondalık Sayıları Sıralama",
+        "slug": "ondalik-sayilari-siralama",
+        "level": 2,
+        "sortOrder": 5,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıları karşılaştırırken basamakları aynı hizaya getiririz. Gerekirse sayının sonuna sıfır ekleyebiliriz; bu, sayının değerini değiştirmez."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "0{,}31=0{,}310"
+              },
+              {
+                "type": "text",
+                "value": " olduğu için "
+              },
+              {
+                "type": "math",
+                "value": "0{,}31>0{,}308"
+              },
+              {
+                "type": "text",
+                "value": " karşılaştırmasını yapabiliriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.7",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}64\\_\\_0{,}6"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}83\\_\\_0{,}803"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 0,64>0,6 çünkü 0,64>0,60. Ayrıca 0,83=0,830 ve 0,830>0,803 olduğu için 0,83>0,803."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.13",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}42\\_\\_0{,}4"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}76\\_\\_0{,}706"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 0,42>0,4 çünkü 0,42=0,420 ve 0,420>0,400. Ayrıca 0,76>0,706."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.14",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}1\\_\\_0{,}18"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "0{,}305\\_\\_0{,}35"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 0,1<0,18 çünkü 0,100<0,180. Ayrıca 0,305<0,35 çünkü 0,305<0,350."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Negatif ondalıklarda sayı doğrusunu düşünürüz. Sıfıra daha yakın olan negatif sayı daha büyüktür."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.8",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "-0{,}1\\_\\_-0{,}8"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -0,1 sıfıra daha yakındır ve sayı doğrusunda -0,8'in sağındadır. Bu yüzden -0,1>-0,8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.15",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "-0{,}3\\_\\_-0{,}5"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Negatif sayılarda sıfıra daha yakın olan daha büyüktür. Bu yüzden -0,3>-0,5."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.16",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "< ya da > kullanın: "
+              },
+              {
+                "type": "math",
+                "value": "-0{,}6\\_\\_-0{,}7"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -0,6, sayı doğrusunda -0,7'nin sağındadır; bu nedenle -0,6>-0,7."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ondalik-sayilar-section-06",
+        "lessonId": "lesson-decimals",
+        "heading": "Ondalık Sayıları Yuvarlama",
+        "slug": "ondalik-sayilari-yuvarlama",
+        "level": 2,
+        "sortOrder": 6,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıları yuvarlarken hedef basamağın sağındaki basamağa bakarız. Bu basamak 5 veya daha büyükse hedef basamağı 1 artırırız; değilse aynı bırakırız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.9",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "18{,}379"
+              },
+              {
+                "type": "text",
+                "value": " sayısını en yakın yüzde birliğe yuvarlayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Yüzde birlik basamağı 7'dir. Sağındaki binde birlik basamağı 9 olduğu için 7 bir artar; sonuç 18,38 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.17",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "En yakın yüzde birliğe yuvarlayın: "
+              },
+              {
+                "type": "math",
+                "value": "1{,}047"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1,047 sayısını yüzde birler basamağına yuvarlarken binde birler basamağı 7 olduğu için 1,05 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.18",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "En yakın yüzde birliğe yuvarlayın: "
+              },
+              {
+                "type": "math",
+                "value": "9{,}173"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 9,173 sayısında binde birler basamağı 3'tür. Yüzde birler basamağı değişmez; sonuç 9,17 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 5.10",
+            "prompt": [
+              {
+                "type": "math",
+                "value": "18{,}379"
+              },
+              {
+                "type": "text",
+                "value": " sayısını ⓐ en yakın onda birliğe ⓑ en yakın tam sayıya yuvarlayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Onda birlik için yüzde birlik basamağı 7 olduğundan 18,4 olur. Tam sayı için onda birlik basamağı 3 olduğundan 18 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.19",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yuvarlayın: "
+              },
+              {
+                "type": "math",
+                "value": "6{,}582"
+              },
+              {
+                "type": "text",
+                "value": " ⓐ yüzde birlik ⓑ onda birlik ⓒ tam sayı."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6,582 en yakın yüzde birliğe 6,58; en yakın onda birliğe 6,6; en yakın tam sayıya 7 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 5.20",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yuvarlayın: "
+              },
+              {
+                "type": "math",
+                "value": "15{,}2175"
+              },
+              {
+                "type": "text",
+                "value": " ⓐ binde birlik ⓑ yüzde birlik ⓒ onda birlik."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 15,2175 en yakın binde birliğe 15,218; en yakın yüzde birliğe 15,22; en yakın onda birliğe 15,2 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -43876,6 +45024,993 @@
         "sortOrder": 573,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-1",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-01",
+        "number": "1",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı okuyun: 5,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5,5 sayısı beş tam onda beş diye okunur."
+          }
+        ],
+        "sortOrder": 1,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-3",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-01",
+        "number": "3",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı okuyun: 5,01."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5,01 sayısı beş tam yüzde bir diye okunur; 1 yüzde birler basamağındadır."
+          }
+        ],
+        "sortOrder": 3,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-5",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-01",
+        "number": "5",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı okuyun: 8,71."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 8,71 sayısı sekiz tam yüzde yetmiş bir diye okunur."
+          }
+        ],
+        "sortOrder": 5,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-7",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-01",
+        "number": "7",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı okuyun: 0,002."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,002 sayısı binde iki diye okunur."
+          }
+        ],
+        "sortOrder": 7,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-9",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-01",
+        "number": "9",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı okuyun: 0,381."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,381 sayısı binde üç yüz seksen bir diye okunur."
+          }
+        ],
+        "sortOrder": 9,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-11",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-01",
+        "number": "11",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı okuyun: -17,9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -17,9 sayısı eksi on yedi tam onda dokuz diye okunur."
+          }
+        ],
+        "sortOrder": 11,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-13",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-02",
+        "number": "13",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen adı ondalık sayı olarak yazın: sekiz tam yüzde üç."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Yüzde üç, virgülden sonra iki basamak ister. Bu nedenle sayı 8,03'tür."
+          }
+        ],
+        "sortOrder": 13,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-15",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-02",
+        "number": "15",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen adı ondalık sayı olarak yazın: yirmi dokuz tam yüzde seksen bir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Yirmi dokuz tam yüzde seksen bir, ondalık gösterimde 29,81 olur."
+          }
+        ],
+        "sortOrder": 15,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-17",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-02",
+        "number": "17",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen adı ondalık sayı olarak yazın: onda yedi."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Onda yedi, virgülden sonra tek basamakla 0,7 olarak yazılır."
+          }
+        ],
+        "sortOrder": 17,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-19",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-02",
+        "number": "19",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen adı ondalık sayı olarak yazın: binde bir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Binde bir, virgülden sonra üç basamak gerektirir; sayı 0,001'dir."
+          }
+        ],
+        "sortOrder": 19,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-21",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-02",
+        "number": "21",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen adı ondalık sayı olarak yazın: binde yirmi dokuz."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Binde yirmi dokuz, 29/1000 demektir. Ondalık gösterimi 0,029 olur."
+          }
+        ],
+        "sortOrder": 21,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-23",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-02",
+        "number": "23",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen adı ondalık sayı olarak yazın: eksi on bir tam on binde dokuz."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: On binde dokuz, 0,0009'dur. Eksi on bir tam ile birlikte sayı -11,0009 olur."
+          }
+        ],
+        "sortOrder": 23,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-25",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-02",
+        "number": "25",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen adı ondalık sayı olarak yazın: on üç tam on binde üç yüz doksan beş."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: On binde üç yüz doksan beş, 0,0395'tir. On üç tam ile birlikte 13,0395 yazılır."
+          }
+        ],
+        "sortOrder": 25,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-27",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "27",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 1,99."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1,99 sayısında 99 yüzde birlik vardır. Bu yüzden 1,99=1 99/100 olur."
+          }
+        ],
+        "sortOrder": 27,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-29",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "29",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 15,7."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 15,7 sayısında 7 onda birlik vardır. Sonuç 15 7/10'dur."
+          }
+        ],
+        "sortOrder": 29,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-31",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "31",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 0,239."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,239 binde 239 demektir. Kesir olarak 239/1000 yazılır ve sadeleşmez."
+          }
+        ],
+        "sortOrder": 31,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-33",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "33",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 0,13."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,13 yüzde 13 demektir. Kesir olarak 13/100 olur."
+          }
+        ],
+        "sortOrder": 33,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-35",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "35",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 0,011."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,011 binde 11 demektir. Kesir olarak 11/1000 yazılır."
+          }
+        ],
+        "sortOrder": 35,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-37",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "37",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: -0,00007."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -0,00007 sayısı yüz binde 7'nin negatifidir. Kesir olarak -7/100000 olur."
+          }
+        ],
+        "sortOrder": 37,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-39",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "39",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 6,4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 6,4=6 4/10 olur. 4/10 sadeleşip 2/5 olduğundan sonuç 6 2/5'tir."
+          }
+        ],
+        "sortOrder": 39,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-41",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "41",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 7,05."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7,05=7 5/100 olur. 5/100=1/20, sonuç 7 1/20'dir."
+          }
+        ],
+        "sortOrder": 41,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-43",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "43",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 4,006."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 4,006=4 6/1000 olur. 6/1000=3/500, sonuç 4 3/500'dür."
+          }
+        ],
+        "sortOrder": 43,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-45",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "45",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 10,25."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 10,25=10 25/100 olur. 25/100=1/4, sonuç 10 1/4'tür."
+          }
+        ],
+        "sortOrder": 45,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-47",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "47",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 1,324."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1,324=1 324/1000 olur. 324/1000=81/250, sonuç 1 81/250'dir."
+          }
+        ],
+        "sortOrder": 47,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-49",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-03",
+        "number": "49",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Ondalık sayıyı kesre ya da karma kesre dönüştürün: 14,125."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 14,125=14 125/1000 olur. 125/1000=1/8, sonuç 14 1/8'dir."
+          }
+        ],
+        "sortOrder": 49,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-51",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-04",
+        "number": "51",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı sayı doğrusunda gösterin: 0,8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,8 sayısı 0 ile 1 arasında, onda sekiz noktasındadır."
+          }
+        ],
+        "sortOrder": 51,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-53",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-04",
+        "number": "53",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı sayı doğrusunda gösterin: -0,2."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -0,2 sayısı 0'ın solunda, -1'e giderken onda iki noktasındadır."
+          }
+        ],
+        "sortOrder": 53,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-55",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-04",
+        "number": "55",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı sayı doğrusunda gösterin: 3,1."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3,1 sayısı 3 ile 4 arasında, 3'ten bir onda bir sağdadır."
+          }
+        ],
+        "sortOrder": 55,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-57",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-04",
+        "number": "57",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı sayı doğrusunda gösterin: -2,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -2,5 sayısı -2 ile -3'ün tam ortasındadır."
+          }
+        ],
+        "sortOrder": 57,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-59",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-05",
+        "number": "59",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: 0,9 __ 0,6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,9, 0,6'dan büyüktür. Bu nedenle 0,9>0,6 yazılır."
+          }
+        ],
+        "sortOrder": 59,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-61",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-05",
+        "number": "61",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: 0,37 __ 0,63."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Yüzde birlikleri karşılaştırırız: 37<63 olduğundan 0,37<0,63 olur."
+          }
+        ],
+        "sortOrder": 61,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-63",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-05",
+        "number": "63",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: 0,6 __ 0,59."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,6 sayısını 0,60 gibi düşünebiliriz. 0,60>0,59 olduğu için 0,6>0,59 olur."
+          }
+        ],
+        "sortOrder": 63,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-65",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-05",
+        "number": "65",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: 0,91 __ 0,901."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,91=0,910 olarak yazılabilir. 0,910>0,901 olduğundan 0,91>0,901 olur."
+          }
+        ],
+        "sortOrder": 65,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-67",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-05",
+        "number": "67",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: -0,5 __ -0,3."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Negatif sayılarda sıfıra daha yakın olan daha büyüktür. -0,5, -0,3'ün solunda olduğu için -0,5<-0,3 olur."
+          }
+        ],
+        "sortOrder": 67,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-69",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-05",
+        "number": "69",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "< ya da > kullanarak sıralayın: -0,62 __ -0,619."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -0,62=-0,620 olarak yazılır. -0,620, -0,619'dan daha küçüktür; bu yüzden -0,62<-0,619 olur."
+          }
+        ],
+        "sortOrder": 69,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-71",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "71",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı en yakın onda birliğe yuvarlayın: 0,67."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: En yakın onda birlik için yüzde birlik basamağına bakarız. 7 olduğu için 0,67 sayısı 0,7'ye yuvarlanır."
+          }
+        ],
+        "sortOrder": 71,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-73",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "73",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı en yakın onda birliğe yuvarlayın: 2,84."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: En yakın onda birlik için yüzde birlik basamağı 4'tür. 2,84 sayısı 2,8'e yuvarlanır."
+          }
+        ],
+        "sortOrder": 73,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-75",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "75",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı en yakın yüzde birliğe yuvarlayın: 0,845."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: En yakın yüzde birlik için binde birlik basamağı 5'tir. 0,845 sayısı 0,85'e yuvarlanır."
+          }
+        ],
+        "sortOrder": 75,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-77",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "77",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı en yakın yüzde birliğe yuvarlayın: 5,7932."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5,7932 sayısında binde birlik basamağı 3'tür. En yakın yüzde birlik 5,79 olur."
+          }
+        ],
+        "sortOrder": 77,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-79",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "79",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı en yakın yüzde birliğe yuvarlayın: 0,299."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,299 sayısında binde birlik basamağı 9'dur. 0,29 yukarı yuvarlanır ve 0,30 olur."
+          }
+        ],
+        "sortOrder": 79,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-81",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "81",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Sayıyı en yakın yüzde birliğe yuvarlayın: 4,098."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 4,098 sayısında binde birlik basamağı 8'dir. 4,09 yukarı yuvarlanır ve 4,10 olur."
+          }
+        ],
+        "sortOrder": 81,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-83",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "83",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "5,781 sayısını ⓐ en yakın yüzde birliğe ⓑ en yakın onda birliğe ⓒ en yakın tam sayıya yuvarlayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5,781 en yakın yüzde birliğe 5,78; en yakın onda birliğe 5,8; en yakın tam sayıya 6 olur."
+          }
+        ],
+        "sortOrder": 83,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-85",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "85",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "63,479 sayısını ⓐ en yakın yüzde birliğe ⓑ en yakın onda birliğe ⓒ en yakın tam sayıya yuvarlayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 63,479 en yakın yüzde birliğe 63,48; en yakın onda birliğe 63,5; en yakın tam sayıya 63 olur."
+          }
+        ],
+        "sortOrder": 85,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-87",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "87",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Danny'nin yıllık maaşı 58.965,95 dolar oldu. Bu sayıyı ⓐ en yakın dolara ⓑ en yakın bin dolara ⓒ en yakın on bin dolara yuvarlayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 58.965,95 dolar en yakın dolara 58.966; en yakın bin dolara 59.000; en yakın on bin dolara 60.000 dolar olur."
+          }
+        ],
+        "sortOrder": 87,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-89",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-06",
+        "number": "89",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Hyo Jin 1.624,99 dolarlık bir buzdolabı aldı. Satış vergisi 142,186625 dolar çıktı. Vergiyi ⓐ en yakın sente ⓑ en yakın dolara yuvarlayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 142,186625 dolar en yakın sente 142,19 dolar olur. En yakın dolara yuvarlanınca 142 dolar bulunur."
+          }
+        ],
+        "sortOrder": 89,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-91",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-01",
+        "number": "91",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Para birimleriyle ilgili bilginiz ondalık sayıları öğrenmenize nasıl yardım eder?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Para biriminde 1 dolar 100 sente ayrılır. Bu, 0,01'in yüzde bir olduğunu ve ondalık basamakların kesirlerle ilişkisini somutlaştırır."
+          }
+        ],
+        "sortOrder": 91,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-decimals-exercise-93",
+        "lessonId": "lesson-decimals",
+        "sectionId": "ondalik-sayilar-section-05",
+        "number": "93",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Jim 100 metreyi 12,32 saniyede, Tim aynı yarışı 12,3 saniyede koştu. Kim daha hızlıdır? Nasıl anlarsınız?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 12,3 saniye 12,30 saniyedir. 12,30<12,32 olduğu için daha kısa sürede bitiren Tim daha hızlıdır."
+          }
+        ],
+        "sortOrder": 93,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -44004,6 +46139,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions",
         "httpStatus": 200,
         "contentHash": "42bfbf6edeced6ca40977522fd3d34bb96fda36396736952dd8fe683ceefc9f7",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals",
+        "httpStatus": 200,
+        "contentHash": "ebb137316aae280682a5a365f95e848169e9a2f16fc1a4dc307456e9958595c7",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -50011,6 +52154,398 @@
         "caption": "Is the sum of three-eighths and 318318 equal to three and one-half?",
         "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/6f02ce6b37f7b23c.json",
         "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/6f02ce6b37f7b23c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-000-fbc9b2e63d18d2f7",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102864/17674406e602b575cd26cddabef0ce8267dcec92?revision=1",
+        "assetType": "image",
+        "altText": "A vertical addition problem is shown. The top line shows $3.45 for a sandwich, the next line shows $1.25 for water, and the last line shows $0.33 for tax. The total is shown to be $5.03.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/000-fbc9b2e63d18d2f7.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/000-fbc9b2e63d18d2f7.png",
+        "contentHash": null,
+        "preferredTreatment": "reuse_original",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-001-d58fc86dbc736df6",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102866/827600a25595c4f8dbb9e68e247d4ae17ad7a42d?revision=1",
+        "assetType": "figure",
+        "altText": "A chart is shown labeled “Place Value”. There are 12 columns. The columns are labeled, from left to right, Hundred thousands, Ten thousands, Thousands, Hundreds, Tens, Ones, Decimal Point, Tenths, Hundredths, Thousandths, Ten-thousandths, Hundred-thousandths.",
+        "caption": "Figure 5.2 This chart illustrates place values to the left and right of the decimal point.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/001-d58fc86dbc736df6.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/001-d58fc86dbc736df6.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-003-ee698a646b4b85bd",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102867/10defb704b5ce0baefd9a5dd1ba95d6e04e0a419?revision=1",
+        "assetType": "figure",
+        "altText": "An image of a check is shown. The check is made out to Jane Doe. It shows the number $152.65 and says in words, “One hundred fifty two and 65 over 100 dollars.”",
+        "caption": "Figure 5.3 When we write a check, we write the amount as a decimal number as well as in words. The bank looks at the check to make sure both numbers match. This helps prevent errors.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/003-ee698a646b4b85bd.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/003-ee698a646b4b85bd.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-021-7f3eb85ae195b0d3",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102900/08b429cad3a0a9e903924581ae8619575a2f6624?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown with 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, and 1.0 labeled. There is a red dot at 0.4.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/021-7f3eb85ae195b0d3.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/021-7f3eb85ae195b0d3.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-022-e002560b0b666836",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102904/521fc81c971d8444f8238bb60130ab1d3314be44?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown with negative 1.00, negative 0.90, negative 0.80, negative 0.70, negative 0.60, negative 0.50, negative 0.40, negative 0.30, negative 0.20, negative 0.10, and 0.00 labeled. There is a red dot between negative 0.80 and negative 0.70 labeled as negative 0.74.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/022-e002560b0b666836.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/022-e002560b0b666836.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-023-4a940fd57ebf09d8",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102906/08b429cad3a0a9e903924581ae8619575a2f6624_1m2z?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown with 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, and 1.0 labeled. There is a red dot between 0.0 and 0.1 labeled as 0.04. There is another red dot at 0.4.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/023-4a940fd57ebf09d8.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/023-4a940fd57ebf09d8.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-025-a190c483947b9b0f",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102907/861a4d4403f7dfd6e251924600d9df35f9148791?revision=1",
+        "assetType": "image",
+        "altText": "A number line is shown with integers from negative 10 to 0. Blue dots are placed on negative nine and negative six. Red dots are placed at negative two and negative three.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/025-a190c483947b9b0f.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/025-a190c483947b9b0f.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-026-023acce658723d60",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/102908/aa698587d2a676e486d4ea86c9d3d821be7b1110?revision=1",
+        "assetType": "figure",
+        "altText": "In part a, a number line is shown with 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9 and 3. There is a dot between 2.7 and 2.8 labeled as 2.72. In part b, a number line is shown with 2.70, 2.71, 2.72, 2.73, 2.74, 2.75, 2.76, 2.77, 2.78, 2.79, and 2.80. There is a dot at 2.72.",
+        "caption": "Figure 5.4 ⓐ We see that 2.72 2.72 is closer to 3 3 than to 2 . 2 . So, 2.72 2.72 rounded to the nearest whole number is 3 . 3 . ⓑ We see that 2.72 2.72 is closer to 2.70 2.70 than 2.80 . 2.80 . So we say that 2.72 2.72 rounded to the nearest tenth is 2.7 . 2.7 .",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/026-023acce658723d60.png",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/026-023acce658723d60.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-22dfa581ea73edbe",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/22dfa581ea73edbe.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/22dfa581ea73edbe.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-63f37a7ec1666333",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/63f37a7ec1666333.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/63f37a7ec1666333.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-b6b8b9a02cde9a7b",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/b6b8b9a02cde9a7b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/b6b8b9a02cde9a7b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-8a30b019ea26eb4a",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/8a30b019ea26eb4a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/8a30b019ea26eb4a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-fabebef4c1cafa6d",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/fabebef4c1cafa6d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/fabebef4c1cafa6d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-9a01778cbe080bcc",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/9a01778cbe080bcc.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/9a01778cbe080bcc.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-bbdae172dc6f02c7",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/bbdae172dc6f02c7.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/bbdae172dc6f02c7.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-55a4d667a4b9ffef",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Let’s start by writing the number six and seventeen hundredths:",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/55a4d667a4b9ffef.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/55a4d667a4b9ffef.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-19307febaf4d9d5e",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/19307febaf4d9d5e.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/19307febaf4d9d5e.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-4306f77ee1b9bee3",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/4306f77ee1b9bee3.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/4306f77ee1b9bee3.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-48c4045ce6ca88c7",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/48c4045ce6ca88c7.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/48c4045ce6ca88c7.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-8e0a14341120c73a",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Did you notice that the number of zeros in the denominator is the same as the number of decimal places?",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/8e0a14341120c73a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/8e0a14341120c73a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-adf1790dbdb8e213",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/adf1790dbdb8e213.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/adf1790dbdb8e213.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-5be73b00a374a824",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": "How does 0.310.31 compare to 0.308?0.308? This doesn’t translate into money to make the comparison easy. But if we convert 0.310.31 and 0.3080.308 to fractions, we can tell which is larger.",
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/5be73b00a374a824.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/5be73b00a374a824.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-4ab16c2fb810893e",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/4ab16c2fb810893e.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/4ab16c2fb810893e.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-b74ba691d19756f6",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-15",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/b74ba691d19756f6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/b74ba691d19756f6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-447a8bcb720b9211",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-16",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/447a8bcb720b9211.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/447a8bcb720b9211.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-576789c0fff27bd3",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-17",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/576789c0fff27bd3.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/576789c0fff27bd3.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-884b3cceeda2c104",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-18",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/884b3cceeda2c104.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/884b3cceeda2c104.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-decimals-asset-bfc0501f3502ec22",
+        "lessonId": "lesson-decimals",
+        "sourceSnapshotId": "snapshot-ebb137316aae2806",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.02%3A_Decimals#table-19",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/4-1-decimals/bfc0501f3502ec22.json",
+        "r2Key": "assets/prealgebra-2e-openstax/4-1-decimals/bfc0501f3502ec22.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"
