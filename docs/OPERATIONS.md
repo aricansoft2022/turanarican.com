@@ -18,8 +18,8 @@ Proje şu anda:
   yönleniyor.
 - Turso'ya yazıldığı son doğrulanan seed DB içeriği 12 ders, 62 ders bölümü,
   425 alıştırma ve 348 kaynak asset içeriyor.
-- Son yerel/generated seed payload 15 ders, 77 ders bölümü, 546 alıştırma ve
-  408 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
+- Son yerel/generated seed payload 16 ders, 83 ders bölümü, 584 alıştırma ve
+  429 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
 
 En önemli deploy kuralı:
 
@@ -463,10 +463,9 @@ Bu Turso yazımı Prealgebra 2e için `2.3-4.4` aralığını kapsar. Son yazıl
 ders `4.4 Multiply and Divide Mixed Numbers and Complex Fractions` / `Karma
 Kesirler ve Karmaşık Kesirler` idi.
 
-Son yerel/generated seed payload `2.3-4.7` aralığını kapsar ve henüz Turso'ya
-yazılmadı. Bu payload'ta son eklenen ders `4.7 Add and Subtract Mixed Numbers`
-/ `Karma Kesirlerde Toplama ve Çıkarma`; sıradaki aday `4.8 Solve Equations
-with Fractions` olarak raporlanır.
+Son yerel/generated seed payload `2.3-4.8` aralığını kapsar ve henüz Turso'ya
+yazılmadı. Bu payload'ta son eklenen ders `4.8 Solve Equations with Fractions`
+/ `Kesirli Denklemleri Çözme`; sıradaki aday `5.2 Decimals` olarak raporlanır.
 
 Schema değiştiğinde:
 

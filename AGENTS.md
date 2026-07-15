@@ -42,11 +42,11 @@ navigation, SEO, attribution, and ingestion workflows.
 - Latest generated local seed payload count, not yet written to the remote DB:
   - `books`: 1
   - `chapters`: 3
-  - `lessons`: 15
-  - `lessonSections`: 77
-  - `exercises`: 546
-  - `sourceSnapshots`: 15
-  - `sourceAssets`: 408
+  - `lessons`: 16
+  - `lessonSections`: 83
+  - `exercises`: 584
+  - `sourceSnapshots`: 16
+  - `sourceAssets`: 429
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -328,22 +328,21 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. Done; fifteen seed
+8. Seed one or two lessons end-to-end before mass ingestion. Done; sixteen seed
    lessons now build end-to-end for Prealgebra 2.3, 2.4, 2.5, 2.6, 3.2, 3.3,
-   3.4, 3.5, 3.6, 4.2, 4.3, 4.4, 4.5, 4.6, and 4.7.
+   3.4, 3.5, 3.6, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, and 4.8.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
 11. Add informational language coverage report and initial Turkish localization
     cleanup hooks for exercise prompts/math text. Started.
 
-Current next seed candidate after the latest local work: Prealgebra 4.8
-`Solve Equations with Fractions`, displayed as product lesson 3.7 under
-`Kesirler`.
+Current next seed candidate after the latest local work: Prealgebra 5.2
+`Decimals`, displayed as product lesson 4.1 under `Ondalık Sayılar`.
 
-Latest completed seed lesson: Prealgebra 4.7 `Add and Subtract Mixed Numbers`,
-displayed as product lesson 3.6 `Karma Kesirlerde Toplama ve Çıkarma`. It
-includes 5 Turkish editorial sections, 28 Sıra Sizde solutions, 31 source
-exercises with explanatory reveal solutions, and 18 extracted source assets.
+Latest completed seed lesson: Prealgebra 4.8 `Solve Equations with Fractions`,
+displayed as product lesson 3.7 `Kesirli Denklemleri Çözme`. It includes 6
+Turkish editorial sections, 28 Sıra Sizde solutions, 38 source exercises with
+explanatory reveal solutions, and 21 extracted source assets.
 
 ## Quality Gates
 

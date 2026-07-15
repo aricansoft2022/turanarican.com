@@ -364,6 +364,26 @@
         "sortOrder": 6,
         "status": "draft",
         "rawHash": "4394a71e8ea0333e9d9b75e5bd01e61abfaaac8274c815c2062aac8b0b838b94"
+      },
+      {
+        "id": "lesson-fraction-equations",
+        "chapterId": "chapter-fractions",
+        "slug": "kesirli-denklemleri-cozme",
+        "sourceNumber": "4.8",
+        "displayNumber": "3.7",
+        "sourceTitle": "Solve Equations with Fractions",
+        "displayTitle": "Kesirli Denklemleri Çözme",
+        "summary": "Kesirli değerlerin denklemin çözümü olup olmadığını kontrol edin, eşitliğin özellikleriyle kesirli denklemleri çözün ve sözel cümleleri denkleme çevirin.",
+        "objectivesJson": [
+          "Bir kesrin denklemin çözümü olup olmadığını belirleyebileceksiniz.",
+          "Kesirli denklemleri toplama, çıkarma, bölme ve çarpma özellikleriyle çözebileceksiniz.",
+          "Eksi bir ve kesir katsayılı denklemleri çözebileceksiniz.",
+          "Sözel cümleleri denkleme çevirip çözebileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions",
+        "sortOrder": 7,
+        "status": "draft",
+        "rawHash": "42bfbf6edeced6ca40977522fd3d34bb96fda36396736952dd8fe683ceefc9f7"
       }
     ],
     "lessonSections": [
@@ -27324,6 +27344,1328 @@
             ]
           }
         ]
+      },
+      {
+        "id": "kesirli-denklemleri-cozme-section-01",
+        "lessonId": "lesson-fraction-equations",
+        "heading": "Kesirli Çözümleri Denklemlerde Kontrol Etme",
+        "slug": "kesirli-cozumleri-denklemlerde-kontrol-etme",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir sayının denklemin çözümü olup olmadığını anlamak için değişkenin yerine o sayıyı yazarız. Eşitlik doğru çıkarsa sayı çözümdür; doğru çıkmazsa çözüm değildir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.95",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki değerlerden hangileri "
+              },
+              {
+                "type": "math",
+                "value": "x-\\frac{3}{10}=\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": " denkleminin çözümüdür? ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=1"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=\\frac{4}{5}"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "x=-\\frac{4}{5}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=1 ve x=-4/5 denklemi doğru yapmaz. x=4/5 için 4/5-3/10=8/10-3/10=5/10=1/2 olur; çözüm 4/5'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.189",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hangi değerler denklemin çözümüdür? "
+              },
+              {
+                "type": "math",
+                "value": "x-\\frac{2}{3}=\\frac{1}{6}"
+              },
+              {
+                "type": "text",
+                "value": ": ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "x=1"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "x=\\frac{5}{6}"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "x=-\\frac{5}{6}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=1 için sol taraf 1/3 olur, çözüm değildir. x=5/6 için 5/6-2/3=1/6 olur, çözümdür. x=-5/6 çözüm değildir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.190",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hangi değerler denklemin çözümüdür? "
+              },
+              {
+                "type": "math",
+                "value": "y-\\frac{1}{4}=\\frac{3}{8}"
+              },
+              {
+                "type": "text",
+                "value": ": ⓐ "
+              },
+              {
+                "type": "math",
+                "value": "y=1"
+              },
+              {
+                "type": "text",
+                "value": " ⓑ "
+              },
+              {
+                "type": "math",
+                "value": "y=-\\frac{5}{8}"
+              },
+              {
+                "type": "text",
+                "value": " ⓒ "
+              },
+              {
+                "type": "math",
+                "value": "y=\\frac{5}{8}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y=1 ve y=-5/8 denklemi doğru yapmaz. y=5/8 için 5/8-1/4=3/8 olduğu için çözüm 5/8'dir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirli-denklemleri-cozme-section-02",
+        "lessonId": "lesson-fraction-equations",
+        "heading": "Kesirli Denklemleri Toplama, Çıkarma ve Bölme ile Çözme",
+        "slug": "kesirli-denklemleri-toplama-cikarma-ve-bolme-ile-cozme",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Eşitliğin iki tarafına aynı sayıyı ekler, iki taraftan aynı sayıyı çıkarır ya da iki tarafı aynı sıfır olmayan sayıya bölersek eşitlik bozulmaz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.96",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+\\frac{9}{16}=\\frac{5}{16}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraftan 9/16 çıkarırız. y=5/16-9/16=-4/16=-1/4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.191",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+\\frac{11}{12}=\\frac{5}{12}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraftan 11/12 çıkarırız. y=5/12-11/12=-6/12=-1/2 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.192",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "y+\\frac{8}{15}=\\frac{4}{15}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraftan 8/15 çıkarılır. y=4/15-8/15=-4/15 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Değişkenden bir kesir çıkarılıyorsa, değişkeni yalnız bırakmak için aynı kesri iki tarafa ekleriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.97",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "a-\\frac{5}{9}=-\\frac{8}{9}"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafa 5/9 ekleriz. a=-8/9+5/9=-3/9=-1/3 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.193",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "a-\\frac{3}{5}=-\\frac{8}{5}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafa 3/5 ekleriz. a=-8/5+3/5=-5/5=-1 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.194",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "n-\\frac{3}{7}=-\\frac{9}{7}"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafa 3/7 eklenir. n=-9/7+3/7=-6/7 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Değişken bir sayı ile çarpılmışsa, iki tarafı o sayıya bölerek değişkeni yalnız bırakırız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.98",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "10q=44"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafı 10'a böleriz. q=44/10=22/5 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.195",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "12u=-76"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraf 12'ye bölünür. u=-76/12=-19/3 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.196",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "8m=92"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraf 8'e bölünür. m=92/8=23/2 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirli-denklemleri-cozme-section-03",
+        "lessonId": "lesson-fraction-equations",
+        "heading": "Denklemleri Çarpma Özelliğiyle Çözme",
+        "slug": "denklemleri-carpma-ozelligiyle-cozme",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Değişken bir sayıya bölünmüşse, bölmeyi tersine çevirmek için eşitliğin iki tarafını o sayı ile çarparız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.99",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{x}{7}=-9"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafı 7 ile çarparız. x=-63 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.197",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{f}{5}=-25"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraf 5 ile çarpılır. f=-25·5=-125 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.198",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{h}{9}=-27"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraf 9 ile çarpılır. h=-27·9=-243 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.100",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{p}{-8}=-40"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafı -8 ile çarparız. p=320 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.199",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{c}{-7}=-35"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraf -7 ile çarpılır. c=(-35)(-7)=245 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.200",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{x}{-11}=-12"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki taraf -11 ile çarpılır. x=(-12)(-11)=132 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirli-denklemleri-cozme-section-04",
+        "lessonId": "lesson-fraction-equations",
+        "heading": "Eksi Bir Katsayılı Denklemleri Çözme",
+        "slug": "eksi-bir-katsayili-denklemleri-cozme",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Değişkenin önünde yalnızca eksi işareti varsa katsayı -1'dir. Değişkeni yalnız bırakmak için iki tarafı -1 ile çarparız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.101",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-y=15"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: İki tarafı -1 ile çarparız. y=-15 olur. Kontrol: -(-15)=15."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.201",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-y=48"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -y=48 ise y bu sayının ters işaretlisidir. y=-48 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.202",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-c=-23"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -c=-23 denkleminin iki tarafını -1 ile çarparız. c=23 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirli-denklemleri-cozme-section-05",
+        "lessonId": "lesson-fraction-equations",
+        "heading": "Kesir Katsayılı Denklemleri Çözme",
+        "slug": "kesir-katsayili-denklemleri-cozme",
+        "level": 2,
+        "sortOrder": 5,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Değişkenin katsayısı kesir olduğunda değişkeni yalnız bırakmak için iki tarafı bu kesrin tersiyle çarparız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.102",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{4}x=24"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafı 4/3 ile çarparız. x=24·4/3=32 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.203",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2}{5}n=14"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (2/5)n=14 denkleminde her iki tarafı 5/2 ile çarparız. n=35 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.204",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{6}y=15"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (5/6)y=15 denkleminde her iki tarafı 6/5 ile çarparız. y=18 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.103",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{3}{8}w=72"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Her iki tarafı -8/3 ile çarparız. w=72·(-8/3)=-192 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.205",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{4}{7}a=52"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (-4/7)a=52 olduğundan her iki tarafı -7/4 ile çarparız. a=-91 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.206",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çözün: "
+              },
+              {
+                "type": "math",
+                "value": "-\\frac{7}{9}w=84"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (-7/9)w=84 olduğundan her iki tarafı -9/7 ile çarparız. w=-108 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kesirli-denklemleri-cozme-section-06",
+        "lessonId": "lesson-fraction-equations",
+        "heading": "Cümleleri Denkleme Çevirme ve Çözme",
+        "slug": "cumleleri-denkleme-cevirme-ve-cozme",
+        "level": 2,
+        "sortOrder": 6,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Sözel cümlelerde önce işlem sözlerini denkleme çeviririz. Sonra uygun eşitlik özelliğini kullanarak denklemi çözeriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.104",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: n'nin 6'ya bölümü -24'tür."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: n/6=-24 denklemi kurulur. İki tarafı 6 ile çarparız ve n=-144 buluruz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.207",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: n'nin 7'ye bölümü -21'e eşittir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: n/7=-21 denklemini yazarız. Her iki tarafı 7 ile çarpınca n=-147 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.208",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: n'nin 8'e bölümü -56'ya eşittir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: n/8=-56 denklemini çözeriz. Her iki tarafı 8 ile çarpınca n=-448 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.105",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: q ile -5'in bölümü 70'tir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: q/(-5)=70 denklemi kurulur. İki tarafı -5 ile çarparız ve q=-350 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.209",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: q ile -8'in bölümü 72'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: q/(-8)=72 denklemi kurulur. Her iki tarafı -8 ile çarpınca q=-576 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.210",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: p ile -9'un bölümü 81'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: p/(-9)=81 denklemi kurulur. Her iki tarafı -9 ile çarpınca p=-729 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.106",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: f'nin üçte ikisi 18'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (2/3)f=18 denklemi kurulur. İki tarafı 3/2 ile çarparız ve f=27 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.211",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: f'nin beşte ikisi 16'dır."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (2/5)f=16 denklemi kurulur. 5/2 ile çarparız ve f=40 buluruz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.212",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: f'nin dörtte üçü 21'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (3/4)f=21 denklemi kurulur. 4/3 ile çarparız ve f=28 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.107",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: m'nin "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{6}"
+              },
+              {
+                "type": "text",
+                "value": "'ya bölümü "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": "'tür."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: m/(5/6)=3/4 denklemi kurulur. m=(3/4)(5/6)=5/8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.213",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: n'nin "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{2}{3}"
+              },
+              {
+                "type": "text",
+                "value": "'e bölümü "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{12}"
+              },
+              {
+                "type": "text",
+                "value": "'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: n/(2/3)=5/12 denklemi için n=(5/12)(2/3)=5/18 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.214",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: c'nin "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{8}"
+              },
+              {
+                "type": "text",
+                "value": "'e bölümü "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{4}{9}"
+              },
+              {
+                "type": "text",
+                "value": "'dur."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: c/(3/8)=4/9 denklemi için c=(4/9)(3/8)=1/6 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 4.108",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{3}{8}"
+              },
+              {
+                "type": "text",
+                "value": " ile x'in toplamı "
+              },
+              {
+                "type": "math",
+                "value": "3\\frac{1}{2}"
+              },
+              {
+                "type": "text",
+                "value": "'dir."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3/8+x=7/2 denklemi kurulur. x=7/2-3/8=28/8-3/8=25/8=3 1/8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.215",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{8}"
+              },
+              {
+                "type": "text",
+                "value": " ile x'in toplamı "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{1}{4}"
+              },
+              {
+                "type": "text",
+                "value": "'tür."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 5/8+x=1/4 denklemi kurulur. x=1/4-5/8=-3/8 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 4.216",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çevirip çözün: "
+              },
+              {
+                "type": "math",
+                "value": "1\\frac{3}{4}"
+              },
+              {
+                "type": "text",
+                "value": " ile x'in farkı "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{5}{6}"
+              },
+              {
+                "type": "text",
+                "value": "'dır."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1 3/4-x=5/6 denklemi kurulur. 7/4-x=5/6 olduğundan x=11/12 olur."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -41736,6 +43078,804 @@
         "sortOrder": 497,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-499",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-01",
+        "number": "499",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen değerlerden hangilerinin denklemin çözümü olduğunu belirleyin: y-1/3=5/12; ⓐ y=1 ⓑ y=3/4 ⓒ y=-3/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: y=1 denklemi sağlamaz. y=3/4 için 3/4-1/3=9/12-4/12=5/12 olur; çözüm 3/4'tür. y=-3/4 çözüm değildir."
+          }
+        ],
+        "sortOrder": 499,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-501",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-01",
+        "number": "501",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen değerlerden hangilerinin denklemin çözümü olduğunu belirleyin: k+2/5=5/6; ⓐ k=1 ⓑ k=13/30 ⓒ k=-13/30."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: k=13/30 için 13/30+2/5=13/30+12/30=25/30=5/6 olur. Bu yüzden doğru seçenek 13/30'dur; diğerleri denklemi sağlamaz."
+          }
+        ],
+        "sortOrder": 501,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-503",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "503",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: m+3/8=7/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 3/8 çıkarırız. m=7/8-3/8=4/8=1/2 olur."
+          }
+        ],
+        "sortOrder": 503,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-505",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "505",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: h+5/6=1/6."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 5/6 çıkarılır. h=1/6-5/6=-4/6=-2/3 olur."
+          }
+        ],
+        "sortOrder": 505,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-507",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "507",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: c-1/4=-5/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafa 1/4 ekleriz. c=-5/4+1/4=-4/4=-1 olur."
+          }
+        ],
+        "sortOrder": 507,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-509",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "509",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: z-(-5/12)=-7/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: z-(-5/12)=z+5/12 demektir. z=-7/12-5/12=-12/12=-1 olur."
+          }
+        ],
+        "sortOrder": 509,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-511",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "511",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: p-3/10=5/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafa 3/10 ekleriz. p=5/8+3/10=25/40+12/40=37/40 olur."
+          }
+        ],
+        "sortOrder": 511,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-513",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "513",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: k+(-1/3)=-4/5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: k-1/3=-4/5 olduğundan her iki tarafa 1/3 ekleriz. k=-4/5+1/3=-7/15 olur."
+          }
+        ],
+        "sortOrder": 513,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-515",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "515",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: 7k=18."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı 7'ye böleriz. k=18/7 olur."
+          }
+        ],
+        "sortOrder": 515,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-517",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "517",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -9v=33."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki tarafı -9'a böleriz. v=33/(-9)=-11/3 olur."
+          }
+        ],
+        "sortOrder": 517,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-519",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-03",
+        "number": "519",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: b/3=-9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: b/3=-9 denkleminin iki tarafını 3 ile çarparız. b=-27 olur."
+          }
+        ],
+        "sortOrder": 519,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-521",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-03",
+        "number": "521",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: x/8=-32."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x/8=-32 denkleminin iki tarafını 8 ile çarparız. x=-256 olur."
+          }
+        ],
+        "sortOrder": 521,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-523",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-03",
+        "number": "523",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: q/(-4)=-40."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: q/(-4)=-40 denkleminin iki tarafını -4 ile çarparız. q=160 olur."
+          }
+        ],
+        "sortOrder": 523,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-525",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-03",
+        "number": "525",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: s/(-15)=-3."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: s/(-15)=-3 denkleminin iki tarafını -15 ile çarparız. s=45 olur."
+          }
+        ],
+        "sortOrder": 525,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-527",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-04",
+        "number": "527",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -y=42."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -y=42 ise y'nin karşıtı 42'dir. İki tarafı -1 ile çarparız ve y=-42 buluruz."
+          }
+        ],
+        "sortOrder": 527,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-529",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-04",
+        "number": "529",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -k=-17/20."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -k=-17/20 denkleminin iki tarafını -1 ile çarparız. k=17/20 olur."
+          }
+        ],
+        "sortOrder": 529,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-531",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-05",
+        "number": "531",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: (3/10)p=30."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (3/10)p=30 denkleminde her iki tarafı 10/3 ile çarparız. p=100 olur."
+          }
+        ],
+        "sortOrder": 531,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-533",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-05",
+        "number": "533",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: (5/2)m=-40."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (5/2)m=-40 denkleminde her iki tarafı 2/5 ile çarparız. m=-16 olur."
+          }
+        ],
+        "sortOrder": 533,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-535",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-05",
+        "number": "535",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -(3/7)b=9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -(3/7)b=9 denkleminde her iki tarafı -7/3 ile çarparız. b=-21 olur."
+          }
+        ],
+        "sortOrder": 535,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-537",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-05",
+        "number": "537",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -(5/12)v=-15."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -(5/12)v=-15 denkleminde her iki tarafı -12/5 ile çarparız. v=36 olur."
+          }
+        ],
+        "sortOrder": 537,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-539",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "539",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: 8y=0."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 8y=0 denkleminin iki tarafını 8'e böleriz. y=0 olur."
+          }
+        ],
+        "sortOrder": 539,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-541",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "541",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: 7g=7/9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7g=7/9 denkleminin iki tarafını 7'ye böleriz. g=1/9 olur."
+          }
+        ],
+        "sortOrder": 541,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-543",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "543",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: q+5/6=1/12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Her iki taraftan 5/6 çıkarırız. q=1/12-5/6=1/12-10/12=-3/4 olur."
+          }
+        ],
+        "sortOrder": 543,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-545",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-05",
+        "number": "545",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: (1/4)n=7/10."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (1/4)n=7/10 denkleminin iki tarafını 4 ile çarparız. n=28/10=14/5 olur."
+          }
+        ],
+        "sortOrder": 545,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-547",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-02",
+        "number": "547",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: -2/3=y+3/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: y'yi yalnız bırakmak için 3/8 çıkarırız. y=-2/3-3/8=-16/24-9/24=-25/24 olur."
+          }
+        ],
+        "sortOrder": 547,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-549",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-04",
+        "number": "549",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Denklemi çözün: 8/15=-d."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 8/15=-d ise d, 8/15'in ters işaretlisidir. İki tarafı -1 ile çarpınca d=-8/15 olur."
+          }
+        ],
+        "sortOrder": 549,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-551",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "551",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: n'nin 6'ya bölümü -24'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Cümle n/6=-24 denklemini verir. Her iki tarafı 6 ile çarparız ve n=-144 buluruz."
+          }
+        ],
+        "sortOrder": 551,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-553",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "553",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: m'nin -7'ye bölümü -8'dir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Cümle m/(-7)=-8 denklemini verir. Her iki tarafı -7 ile çarparız ve m=56 olur."
+          }
+        ],
+        "sortOrder": 553,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-555",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "555",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: f ile -4'ün bölümü -20'dir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Bölüm f/(-4)=-20 olarak yazılır. Her iki tarafı -4 ile çarpınca f=80 olur."
+          }
+        ],
+        "sortOrder": 555,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-557",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "557",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: g'nin 9'a bölümü 14'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Cümle g/9=14 denklemini verir. Her iki tarafı 9 ile çarparız ve g=126 olur."
+          }
+        ],
+        "sortOrder": 557,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-559",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "559",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: q'nun 2/5'i 20'dir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: q'nun 2/5'i 20 ise (2/5)q=20. Her iki tarafı 5/2 ile çarparız; q=50 olur."
+          }
+        ],
+        "sortOrder": 559,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-561",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "561",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: p'nin 4/9'u -28'dir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: p'nin 4/9'u -28 ise (4/9)p=-28. Her iki tarafı 9/4 ile çarparız; p=-63 olur."
+          }
+        ],
+        "sortOrder": 561,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-563",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "563",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: h'nin 2'ye bölümü 43'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Cümle h/2=43 denklemini verir. Her iki tarafı 2 ile çarparız ve h=86 olur."
+          }
+        ],
+        "sortOrder": 563,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-565",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "565",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: a'nın 2/3'e bölümü 3/4'tür."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Cümle a/(2/3)=3/4 denklemini verir. a=(3/4)(2/3)=1/2 olur."
+          }
+        ],
+        "sortOrder": 565,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-567",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "567",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: 3/4 ile x'in toplamı 1/8'dir."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Cümle 3/4+x=1/8 denklemini verir. x=1/8-3/4=1/8-6/8=-5/8 olur."
+          }
+        ],
+        "sortOrder": 567,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-569",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "569",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Cümleyi denkleme çevirip çözün: y ile 1/3'ün farkı -1/6'dır."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Cümle y-1/3=-1/6 denklemini verir. Her iki tarafa 1/3 ekleyince y=1/6 olur."
+          }
+        ],
+        "sortOrder": 569,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-571",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-06",
+        "number": "571",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bir çocuk oyun evindeki masa, yetişkin boy masanın 3/5'i kadardır. Çocuk masasının yüksekliği 18 inçtir. (3/5)h=18 denklemini çözerek yetişkin masasının yüksekliğini bulun."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: (3/5)h=18 denklemini 5/3 ile çarparız. h=18·5/3=30; yetişkin masası 30 inçtir."
+          }
+        ],
+        "sortOrder": 571,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-fraction-equations-exercise-573",
+        "lessonId": "lesson-fraction-equations",
+        "sectionId": "kesirli-denklemleri-cozme-section-05",
+        "number": "573",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Richard, (3/4)x=24 denkleminin çözümünün 16 olduğunu düşünüyor. Neden yanlış düşündüğünü açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x=16 yazılırsa (3/4)·16=12 olur, 24 değildir. Doğru çözüm için iki tarafı 4/3 ile çarparız: x=32."
+          }
+        ],
+        "sortOrder": 573,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -41856,6 +43996,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.07%3A_Add_and_Subtract_Mixed_Numbers",
         "httpStatus": 200,
         "contentHash": "4394a71e8ea0333e9d9b75e5bd01e61abfaaac8274c815c2062aac8b0b838b94",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions",
+        "httpStatus": 200,
+        "contentHash": "42bfbf6edeced6ca40977522fd3d34bb96fda36396736952dd8fe683ceefc9f7",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -47569,6 +49717,300 @@
         "caption": "We can see the answer will be negative since we are subtracting 44 from 3.3. Generally, when we know the answer will be negative it is easier to subtract with improper fractions rather than mixed numbers.",
         "localKey": "source-assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/630e3f5dc3f737ad.json",
         "r2Key": "assets/prealgebra-2e-openstax/3-6-add-and-subtract-mixed-numbers/630e3f5dc3f737ad.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-3410fdbf909a96cc",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/3410fdbf909a96cc.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/3410fdbf909a96cc.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-9853a84fd7d1c265",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Since x=1x=1 does not result in a true equation, 11 is not a solution to the equation.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/9853a84fd7d1c265.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/9853a84fd7d1c265.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-b07379b2eab3721c",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Since x=45x=45 results in a true equation, 4545 is a solution to the equation x−310=12.x−310=12.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/b07379b2eab3721c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/b07379b2eab3721c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-20941469ec6856bc",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/20941469ec6856bc.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/20941469ec6856bc.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-1f4f40471a0e4bfa",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/1f4f40471a0e4bfa.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/1f4f40471a0e4bfa.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-004e87e331610893",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/004e87e331610893.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/004e87e331610893.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-24d1922c91d00ff7",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/24d1922c91d00ff7.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/24d1922c91d00ff7.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-853837603d3a2a17",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/853837603d3a2a17.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/853837603d3a2a17.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-0166334bc3096aa1",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Here, pp is divided by −8.−8. We must multiply by −8−8 to isolate p.p.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/0166334bc3096aa1.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/0166334bc3096aa1.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-7ab3c9b3c0061715",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": "One way to solve the equation is to rewrite −y−y as −1y,−1y, and then use the Division Property of Equality to isolate y.y.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/7ab3c9b3c0061715.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/7ab3c9b3c0061715.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-bc886cbfb169ece4",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Another way to solve this equation is to multiply both sides of the equation by −1.−1.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/bc886cbfb169ece4.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/bc886cbfb169ece4.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-5b58ca34b3d1b962",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Check:",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/5b58ca34b3d1b962.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/5b58ca34b3d1b962.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-6d7e23aa6270b37a",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/6d7e23aa6270b37a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/6d7e23aa6270b37a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-2b055777d67464fd",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": "The coefficient is a negative fraction. Remember that a number and its reciprocal have the same sign, so the reciprocal of the coefficient must also be negative.",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/2b055777d67464fd.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/2b055777d67464fd.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-d5c1a59998c14b7b",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/d5c1a59998c14b7b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/d5c1a59998c14b7b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-a94eb4e24ab3acf0",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-15",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/a94eb4e24ab3acf0.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/a94eb4e24ab3acf0.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-22923c8d47579f12",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-16",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/22923c8d47579f12.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/22923c8d47579f12.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-fb3712fdfe38c702",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-17",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/fb3712fdfe38c702.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/fb3712fdfe38c702.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-1459d0995155a28c",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-18",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/1459d0995155a28c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/1459d0995155a28c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-e7f6fb112d72713e",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-19",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/e7f6fb112d72713e.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/e7f6fb112d72713e.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-fraction-equations-asset-6f02ce6b37f7b23c",
+        "lessonId": "lesson-fraction-equations",
+        "sourceSnapshotId": "snapshot-42bfbf6edeced6ca",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/04%3A_Fractions/4.08%3A_Solve_Equations_with_Fractions#table-20",
+        "assetType": "table",
+        "altText": null,
+        "caption": "Is the sum of three-eighths and 318318 equal to three and one-half?",
+        "localKey": "source-assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/6f02ce6b37f7b23c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/3-7-solve-equations-with-fractions/6f02ce6b37f7b23c.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

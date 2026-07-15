@@ -9242,6 +9242,201 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "4.8",
+    sections: [
+      {
+        sectionSlug: "kesirli-cozumleri-denklemlerde-kontrol-etme",
+        replaceBlocks: [
+          ...removeBlocks(8),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir sayının denklemin çözümü olup olmadığını anlamak için değişkenin yerine o sayıyı yazarız. Eşitlik doğru çıkarsa sayı çözümdür; doğru çıkmazsa çözüm değildir.",
+              ),
+              ex(
+                "Örnek 4.95",
+                [t("Aşağıdaki değerlerden hangileri "), m("x-\\frac{3}{10}=\\frac{1}{2}"), t(" denkleminin çözümüdür? ⓐ "), m("x=1"), t(" ⓑ "), m("x=\\frac{4}{5}"), t(" ⓒ "), m("x=-\\frac{4}{5}")],
+                sol("Çözüm: x=1 ve x=-4/5 denklemi doğru yapmaz. x=4/5 için 4/5-3/10=8/10-3/10=5/10=1/2 olur; çözüm 4/5'tir."),
+              ),
+              ex("Sıra Sizde 4.189", [t("Hangi değerler denklemin çözümüdür? "), m("x-\\frac{2}{3}=\\frac{1}{6}"), t(": ⓐ "), m("x=1"), t(" ⓑ "), m("x=\\frac{5}{6}"), t(" ⓒ "), m("x=-\\frac{5}{6}")]),
+              ex("Sıra Sizde 4.190", [t("Hangi değerler denklemin çözümüdür? "), m("y-\\frac{1}{4}=\\frac{3}{8}"), t(": ⓐ "), m("y=1"), t(" ⓑ "), m("y=-\\frac{5}{8}"), t(" ⓒ "), m("y=\\frac{5}{8}")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug:
+          "kesirli-denklemleri-toplama-cikarma-ve-bolme-ile-cozme",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Eşitliğin iki tarafına aynı sayıyı ekler, iki taraftan aynı sayıyı çıkarır ya da iki tarafı aynı sıfır olmayan sayıya bölersek eşitlik bozulmaz.",
+              ),
+              ex(
+                "Örnek 4.96",
+                [t("Çözün: "), m("y+\\frac{9}{16}=\\frac{5}{16}"), t(".")],
+                sol("Çözüm: Her iki taraftan 9/16 çıkarırız. y=5/16-9/16=-4/16=-1/4 olur."),
+              ),
+              ex("Sıra Sizde 4.191", [t("Çözün: "), m("y+\\frac{11}{12}=\\frac{5}{12}")]),
+              ex("Sıra Sizde 4.192", [t("Çözün: "), m("y+\\frac{8}{15}=\\frac{4}{15}")]),
+              pt(
+                "Değişkenden bir kesir çıkarılıyorsa, değişkeni yalnız bırakmak için aynı kesri iki tarafa ekleriz.",
+              ),
+              ex(
+                "Örnek 4.97",
+                [t("Çözün: "), m("a-\\frac{5}{9}=-\\frac{8}{9}"), t(".")],
+                sol("Çözüm: Her iki tarafa 5/9 ekleriz. a=-8/9+5/9=-3/9=-1/3 olur."),
+              ),
+              ex("Sıra Sizde 4.193", [t("Çözün: "), m("a-\\frac{3}{5}=-\\frac{8}{5}")]),
+              ex("Sıra Sizde 4.194", [t("Çözün: "), m("n-\\frac{3}{7}=-\\frac{9}{7}")]),
+              pt(
+                "Değişken bir sayı ile çarpılmışsa, iki tarafı o sayıya bölerek değişkeni yalnız bırakırız.",
+              ),
+              ex(
+                "Örnek 4.98",
+                [t("Çözün: "), m("10q=44"), t(".")],
+                sol("Çözüm: Her iki tarafı 10'a böleriz. q=44/10=22/5 olur."),
+              ),
+              ex("Sıra Sizde 4.195", [t("Çözün: "), m("12u=-76")]),
+              ex("Sıra Sizde 4.196", [t("Çözün: "), m("8m=92")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "denklemleri-carpma-ozelligiyle-cozme",
+        replaceBlocks: [
+          ...removeBlocks(8),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Değişken bir sayıya bölünmüşse, bölmeyi tersine çevirmek için eşitliğin iki tarafını o sayı ile çarparız.",
+              ),
+              ex(
+                "Örnek 4.99",
+                [t("Çözün: "), m("\\frac{x}{7}=-9"), t(".")],
+                sol("Çözüm: Her iki tarafı 7 ile çarparız. x=-63 olur."),
+              ),
+              ex("Sıra Sizde 4.197", [t("Çözün: "), m("\\frac{f}{5}=-25")]),
+              ex("Sıra Sizde 4.198", [t("Çözün: "), m("\\frac{h}{9}=-27")]),
+              ex(
+                "Örnek 4.100",
+                [t("Çözün: "), m("\\frac{p}{-8}=-40"), t(".")],
+                sol("Çözüm: Her iki tarafı -8 ile çarparız. p=320 olur."),
+              ),
+              ex("Sıra Sizde 4.199", [t("Çözün: "), m("\\frac{c}{-7}=-35")]),
+              ex("Sıra Sizde 4.200", [t("Çözün: "), m("\\frac{x}{-11}=-12")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "eksi-bir-katsayili-denklemleri-cozme",
+        replaceBlocks: [
+          ...removeBlocks(9),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Değişkenin önünde yalnızca eksi işareti varsa katsayı -1'dir. Değişkeni yalnız bırakmak için iki tarafı -1 ile çarparız.",
+              ),
+              ex(
+                "Örnek 4.101",
+                [t("Çözün: "), m("-y=15"), t(".")],
+                sol("Çözüm: İki tarafı -1 ile çarparız. y=-15 olur. Kontrol: -(-15)=15."),
+              ),
+              ex("Sıra Sizde 4.201", [t("Çözün: "), m("-y=48")]),
+              ex("Sıra Sizde 4.202", [t("Çözün: "), m("-c=-23")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kesir-katsayili-denklemleri-cozme",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Değişkenin katsayısı kesir olduğunda değişkeni yalnız bırakmak için iki tarafı bu kesrin tersiyle çarparız.",
+              ),
+              ex(
+                "Örnek 4.102",
+                [t("Çözün: "), m("\\frac{3}{4}x=24"), t(".")],
+                sol("Çözüm: Her iki tarafı 4/3 ile çarparız. x=24·4/3=32 olur."),
+              ),
+              ex("Sıra Sizde 4.203", [t("Çözün: "), m("\\frac{2}{5}n=14")]),
+              ex("Sıra Sizde 4.204", [t("Çözün: "), m("\\frac{5}{6}y=15")]),
+              ex(
+                "Örnek 4.103",
+                [t("Çözün: "), m("-\\frac{3}{8}w=72"), t(".")],
+                sol("Çözüm: Her iki tarafı -8/3 ile çarparız. w=72·(-8/3)=-192 olur."),
+              ),
+              ex("Sıra Sizde 4.205", [t("Çözün: "), m("-\\frac{4}{7}a=52")]),
+              ex("Sıra Sizde 4.206", [t("Çözün: "), m("-\\frac{7}{9}w=84")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "cumleleri-denkleme-cevirme-ve-cozme",
+        replaceBlocks: [
+          ...removeBlocks(20),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Sözel cümlelerde önce işlem sözlerini denkleme çeviririz. Sonra uygun eşitlik özelliğini kullanarak denklemi çözeriz.",
+              ),
+              ex(
+                "Örnek 4.104",
+                [t("Çevirip çözün: n'nin 6'ya bölümü -24'tür.")],
+                sol("Çözüm: n/6=-24 denklemi kurulur. İki tarafı 6 ile çarparız ve n=-144 buluruz."),
+              ),
+              ex("Sıra Sizde 4.207", [t("Çevirip çözün: n'nin 7'ye bölümü -21'e eşittir.")]),
+              ex("Sıra Sizde 4.208", [t("Çevirip çözün: n'nin 8'e bölümü -56'ya eşittir.")]),
+              ex(
+                "Örnek 4.105",
+                [t("Çevirip çözün: q ile -5'in bölümü 70'tir.")],
+                sol("Çözüm: q/(-5)=70 denklemi kurulur. İki tarafı -5 ile çarparız ve q=-350 olur."),
+              ),
+              ex("Sıra Sizde 4.209", [t("Çevirip çözün: q ile -8'in bölümü 72'dir.")]),
+              ex("Sıra Sizde 4.210", [t("Çevirip çözün: p ile -9'un bölümü 81'dir.")]),
+              ex(
+                "Örnek 4.106",
+                [t("Çevirip çözün: f'nin üçte ikisi 18'dir.")],
+                sol("Çözüm: (2/3)f=18 denklemi kurulur. İki tarafı 3/2 ile çarparız ve f=27 olur."),
+              ),
+              ex("Sıra Sizde 4.211", [t("Çevirip çözün: f'nin beşte ikisi 16'dır.")]),
+              ex("Sıra Sizde 4.212", [t("Çevirip çözün: f'nin dörtte üçü 21'dir.")]),
+              ex(
+                "Örnek 4.107",
+                [t("Çevirip çözün: m'nin "), m("\\frac{5}{6}"), t("'ya bölümü "), m("\\frac{3}{4}"), t("'tür.")],
+                sol("Çözüm: m/(5/6)=3/4 denklemi kurulur. m=(3/4)(5/6)=5/8 olur."),
+              ),
+              ex("Sıra Sizde 4.213", [t("Çevirip çözün: n'nin "), m("\\frac{2}{3}"), t("'e bölümü "), m("\\frac{5}{12}"), t("'dir.")]),
+              ex("Sıra Sizde 4.214", [t("Çevirip çözün: c'nin "), m("\\frac{3}{8}"), t("'e bölümü "), m("\\frac{4}{9}"), t("'dur.")]),
+              ex(
+                "Örnek 4.108",
+                [t("Çevirip çözün: "), m("\\frac{3}{8}"), t(" ile x'in toplamı "), m("3\\frac{1}{2}"), t("'dir.")],
+                sol("Çözüm: 3/8+x=7/2 denklemi kurulur. x=7/2-3/8=28/8-3/8=25/8=3 1/8 olur."),
+              ),
+              ex("Sıra Sizde 4.215", [t("Çevirip çözün: "), m("\\frac{5}{8}"), t(" ile x'in toplamı "), m("\\frac{1}{4}"), t("'tür.")]),
+              ex("Sıra Sizde 4.216", [t("Çevirip çözün: "), m("1\\frac{3}{4}"), t(" ile x'in farkı "), m("\\frac{5}{6}"), t("'dır.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({
