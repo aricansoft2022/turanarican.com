@@ -213,13 +213,21 @@ export async function fetchLessonAssetManifest(
 
 const libreTextsFetchAttempts = 8;
 const libreTextsRetryDelayMs = 2_500;
+const libreTextsFetchTimeoutMs = 20_000;
 
 export async function fetchLibreTextsHtml(sourceUrl: string) {
   let lastError: unknown;
 
   for (let attempt = 1; attempt <= libreTextsFetchAttempts; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(
+      () => controller.abort(),
+      libreTextsFetchTimeoutMs,
+    );
+
     try {
       const response = await fetch(sourceUrl, {
+        signal: controller.signal,
         headers: {
           "user-agent":
             "turanarican.com content ingestion preview (contact: admin@turanarican.com)",
@@ -230,12 +238,14 @@ export async function fetchLibreTextsHtml(sourceUrl: string) {
         throw new Error(`LibreTexts fetch failed: ${response.status} ${sourceUrl}`);
       }
 
-      return response.text();
+      return await response.text();
     } catch (error) {
       lastError = error;
 
       if (attempt === libreTextsFetchAttempts) break;
       await delay(libreTextsRetryDelayMs * attempt);
+    } finally {
+      clearTimeout(timeout);
     }
   }
 

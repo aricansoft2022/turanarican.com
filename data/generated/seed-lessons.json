@@ -61565,6 +61565,2672 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "6.2",
+      "displayNumber": "5.1",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent",
+      "contentHash": "314e7aa6184ed55f276244338334866c7cfe6f3ee33395d156024762fecd8fe8",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-af4d1ab7e281f4a3",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104951/fc15767f04436fc3b6aadbeca583ea65475eef77?revision=1",
+          "type": "figure",
+          "altText": "The figure shows a hundred flat with 57 units shaded.",
+          "caption": "Figure 6.2 Among every 100 100 community college students, 57 57 are female.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/000-af4d1ab7e281f4a3.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/000-af4d1ab7e281f4a3.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "002-68a9c81991a387f8",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104949/1894a78c23f69775df868c4174d948220e41788d_euxc?revision=1",
+          "type": "figure",
+          "altText": "The figures shows two columns and five rows . The first row is a header row and it labels each column “Percent” and “Decimal”. Under the “Percent” column are the values: 6%, 78%, 135%, 12.5%. Under the “Decimal” column are the values: 0.06, 0.78, 1.35, 0.125. There are two jumps for each percent to show how to convert it to a decimal.",
+          "caption": "Figure 6.3",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/002-68a9c81991a387f8.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/002-68a9c81991a387f8.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "004-29a0fa1d6f4ac42a",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104950/70063476b47f3135d53b1ade6b1e7dd4141f54ba?revision=1",
+          "type": "figure",
+          "altText": "The figure shows someone holding a deck of cards.",
+          "caption": "Figure 6.4 (credit: Riles32807, Wikimedia Commons)",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/004-29a0fa1d6f4ac42a.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/004-29a0fa1d6f4ac42a.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "006-45aaa9fa729aeffa",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104948/1894a78c23f69775df868c4174d948220e41788d?revision=1",
+          "type": "figure",
+          "altText": "The figure shows two columns and five rows. The first row is a header row and it labels each column “Decimal” and “Percent”. Under the “Decimal” column are the values: 0.05, 0.83, 1.05, 0.075, 0.3. Under the “Percent” column are the values: 5%, 83%, 105%, 7.5%, 30%. There are two jumps for each decimal to show how to convert it to a percent.",
+          "caption": "Figure 6.5",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/006-45aaa9fa729aeffa.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/006-45aaa9fa729aeffa.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "b7ea304dc258456a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/b7ea304dc258456a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/b7ea304dc258456a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1124707c65da05f0",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/1124707c65da05f0.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/1124707c65da05f0.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "fb254ccd68bd30c3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/fb254ccd68bd30c3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/fb254ccd68bd30c3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "4146f388d25d8b21",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/4146f388d25d8b21.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/4146f388d25d8b21.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "365aaff9ee56710f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/365aaff9ee56710f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/365aaff9ee56710f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "fe9e2af2708cd39e",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/fe9e2af2708cd39e.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/fe9e2af2708cd39e.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "82c4e76025b2ed51",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-6",
+          "type": "table",
+          "caption": "Because we want to change to a decimal, we will leave the fractions with denominator 100100 instead of removing common factors.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/82c4e76025b2ed51.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/82c4e76025b2ed51.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ddf3447977daa927",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/ddf3447977daa927.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/ddf3447977daa927.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "92066332cd385dab",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/92066332cd385dab.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/92066332cd385dab.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "75da20961711a628",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/75da20961711a628.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/75da20961711a628.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ef837ce26d16197d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/ef837ce26d16197d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/ef837ce26d16197d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "0250ca7da84de22c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/0250ca7da84de22c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/0250ca7da84de22c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "481de02f2968be7a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-12",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/481de02f2968be7a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/481de02f2968be7a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "6c7ed8419231f998",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/6c7ed8419231f998.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/6c7ed8419231f998.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b4ff2c948397f050",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/b4ff2c948397f050.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/b4ff2c948397f050.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7a8d98f462508869",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-15",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/7a8d98f462508869.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/7a8d98f462508869.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "def63791d62eb24a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-16",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/def63791d62eb24a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/def63791d62eb24a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e206f89bd6e96042",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-17",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/e206f89bd6e96042.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/e206f89bd6e96042.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e1c7d5ce56b82416",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-18",
+          "type": "table",
+          "caption": "Notice that since 1.05>1,1.05>1, the result is more than 100%.100%.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/e1c7d5ce56b82416.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/e1c7d5ce56b82416.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7c95c122f6e7f5d7",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-19",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/7c95c122f6e7f5d7.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/7c95c122f6e7f5d7.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "fb69fb9aedf17975",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-20",
+          "type": "table",
+          "caption": "To convert a fraction to a decimal, divide the numerator by the denominator.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/fb69fb9aedf17975.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/fb69fb9aedf17975.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "78818627c45e3e74",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-21",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/78818627c45e3e74.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/78818627c45e3e74.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "2e2ef924dd543809",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-22",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/2e2ef924dd543809.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/2e2ef924dd543809.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "66d5c9c436a74955",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-23",
+          "type": "table",
+          "caption": "To change a fraction to a decimal, we divide the numerator by the denominator.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/66d5c9c436a74955.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/66d5c9c436a74955.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "16e8543d80f68ab5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-24",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/16e8543d80f68ab5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/16e8543d80f68ab5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "6da02223c5f1b65b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-25",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/6da02223c5f1b65b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/6da02223c5f1b65b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "46c1b7bef72b2a20",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-26",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/46c1b7bef72b2a20.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/46c1b7bef72b2a20.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "8f8dd55bfc42b87b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent#table-27",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-1-understand-percent/8f8dd55bfc42b87b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-1-understand-percent/8f8dd55bfc42b87b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 3,
+        "sections": 3,
+        "blocks": 55,
+        "examples": 13,
+        "tryIts": 26,
+        "sourceExercises": 48,
+        "exercises": 48,
+        "mathTokens": 55,
+        "assets": 32
+      },
+      "lesson": {
+        "id": "lesson-understand-percent",
+        "slug": "yuzde-kavrami",
+        "displayTitle": "Yüzde Kavramı",
+        "summary": "Yüzdeyi yüz üzerinden oran olarak yorumlayın, yüzdeleri kesir ve ondalık sayıya; kesir ve ondalık sayıları yüzdeye dönüştürün.",
+        "sortOrder": 1,
+        "chapterId": "chapter-percents",
+        "sourceNumber": "6.2",
+        "displayNumber": "5.1",
+        "sourceTitle": "Understand Percent",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.02%3A_Understand_Percent",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "yuzdeler",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Yüzde tanımını oran olarak kullanabileceksiniz.",
+          "Yüzdeleri kesir ve ondalık sayıya dönüştürebileceksiniz.",
+          "Ondalık sayıları ve kesirleri yüzdeye dönüştürebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "yuzde-kavrami-section-01",
+            "heading": "Yüzde Tanımı",
+            "slug": "yuzde-tanimi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzde, bir çokluğu 100 eş parçaya göre anlatmanın kısa yoludur. “Percent” sözcüğü “yüz başına” anlamına gelir; bu yüzden bir yüzde her zaman paydası 100 olan bir oran gibi düşünülebilir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{25%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " demek "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{25}{100}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " demektir. Benzer biçimde "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{3%}=\\frac{3}{100}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{100%}=\\frac{100}{100}=1"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir kareli modelde 100 küçük kare varsa, boyalı kare sayısı doğrudan yüzdeyi verir. 57 kare boyalıysa oran 57/100, yüzde yazımı 57%'tir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.1",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir ankette velilerin 44%'ü çocuklarının lisansüstü derece almasını istediğini söylüyor. Bu yüzdeyi oran olarak yazın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yüzde, yüz üzerinden oran demektir. 44% ifadesi 44/100 oranıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.1",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Yüzdeyi oran olarak yazın: Bir ankete göre üniversite öğrencilerinin 89%'unun akıllı telefonu vardır."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yüzde yüz üzerinden oran demektir. 89% ifadesi 89/100 oranıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.2",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Yüzdeyi oran olarak yazın: Bir araştırmaya göre ABD'li gençlerin 72%'si düzenli olarak mesaj gönderir."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 72% demek her 100 kişiden 72'si demektir. Oran 72/100 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.2",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her 100 birinci sınıf üniversite öğrencisinden 21'i en az bir destek dersi almıştır. Bunu oran ve yüzde olarak yazın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 21 out of 100 ifadesi 21/100 oranıdır. Yüzde biçimi 21%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.3",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "100 tam zamanlı community college öğrencisinden 62'si okuluyla birlikte tam ya da yarı zamanlı çalışıyor. Bunu oran ve yüzde olarak yazın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 62 out of 100, 62/100 oranıdır. Yüzde olarak 62% yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.4",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "100 Santa Ana College öğrencisinden 41'i ön lisans derecesi alma ya da dört yıllık bir üniversiteye geçme hedefi taşıyor. Bunu oran ve yüzde olarak yazın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 41 out of 100 ifadesi 41/100 oranıdır. Bu oran yüzde olarak 41%'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "yuzde-kavrami-section-02",
+            "heading": "Yüzdeleri Kesir ve Ondalık Sayıya Çevirme",
+            "slug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzdeler oran olduğu için kesre kolayca çevrilir. Yüzde işaretini kaldırır, sayıyı 100 paydasının üzerine yazar ve mümkünse sadeleştiririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.3",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi kesre çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{36%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{125%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 36%=36/100=9/25. ⓑ 125%=125/100=5/4 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.5",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi kesre çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{48%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{110%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 48%=48/100=12/25. ⓑ 110%=110/100=11/10 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.6",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi kesre çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{64%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{150%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 64%=64/100=16/25. ⓑ 150%=150/100=3/2 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir yüzde 100%'den büyükse kesir 1'den büyük olur. Yüzde ondalık ya da karma sayı içeriyorsa önce onu kesirde doğru biçimde yazar, sonra sadeleştiririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.4",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi kesre çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{24{,}5%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "33\\frac{1}{3}\\%"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 24,5%=24,5/100=245/1000=49/200. ⓑ 33 tam 1/3%=100/3 bölü 100'dür; sonuç 1/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.7",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi kesre çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{64{,}4%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "66\\frac{2}{3}\\%"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 64,4%=64,4/100=644/1000=161/250. ⓑ 66 tam 2/3%=200/3 bölü 100'dür; sonuç 2/3 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.8",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi kesre çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{42{,}5%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8\\frac{3}{4}\\%"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 42,5%=42,5/100=425/1000=17/40. ⓑ 8 tam 3/4%=35/4 bölü 100'dür; sonuç 7/80 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzdeyi ondalık sayıya çevirmek için yüzdeyi 100'e böleriz. Pratikte bu, virgülü iki basamak sola kaydırmak ve yüzde işaretini kaldırmak demektir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.5",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi ondalık sayıya çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{6%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{78%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 6%=6/100=0,06. ⓑ 78%=78/100=0,78 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.9",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi ondalık sayıya çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{9%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{87%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yüzdeden ondalığa geçmek için iki basamak sola kaydırırız. ⓐ 9%=0,09. ⓑ 87%=0,87."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.10",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi ondalık sayıya çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{3%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{91%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 3%=0,03. ⓑ 91%=0,91 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.6",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi ondalık sayıya çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{135%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{12{,}5%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 135%=135/100=1,35. ⓑ 12,5%=12,5/100=0,125 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.11",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi ondalık sayıya çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{115%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{23{,}5%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 115%=1,15. ⓑ 23,5%=0,235 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.12",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her yüzdeyi ondalık sayıya çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{123%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{16{,}8%}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 123%=1,23. ⓑ 16,8%=0,168 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Aşağıdaki kısa tablo, yüzdeyi ondalığa çevirirken oluşan örüntüyü gösterir."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [
+                  "Yüzde",
+                  "Ondalık sayı"
+                ],
+                "rows": [
+                  [
+                    "6%",
+                    "0,06"
+                  ],
+                  [
+                    "78%",
+                    "0,78"
+                  ],
+                  [
+                    "135%",
+                    "1,35"
+                  ],
+                  [
+                    "12,5%",
+                    "0,125"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örüntü aynıdır: yüzde sayısının virgülünü iki basamak sola kaydırırız. Gerekirse sayının soluna sıfır ekleriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.7",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir iş insanları grubunun 77%'si zayıf matematik ve fen eğitiminin işsizliği artıracağını düşünüyor. Bu yüzdeyi ⓐ kesre ⓑ ondalık sayıya çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 77%=77/100. ⓑ 77/100=0,77 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.13",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "24%'ü ⓐ kesre ve ⓑ ondalık sayıya çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 24%=24/100=6/25 ve ondalık biçimi 0,24'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.14",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "44%'ü ⓐ kesre ve ⓑ ondalık sayıya çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 44%=44/100=11/25 ve ondalık biçimi 0,44 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.8",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir kart destesinden rastgele kupa seçme olasılığı 25%'tir. Bu yüzdeyi ⓐ kesre ⓑ ondalık sayıya çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 25%=25/100=1/4. ⓑ 25/100=0,25 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.15",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Yağmur olasılığı 30%'tir. Bu yüzdeyi ⓐ kesre ve ⓑ ondalık sayıya çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 30%=30/100=3/10 ve ondalık biçimi 0,30, yani 0,3'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.16",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir parayı üç kez attığınızda üç kez tura gelme olasılığı 12,5%'tir. Bu yüzdeyi ⓐ kesre ve ⓑ ondalık sayıya çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 12,5%=12,5/100=125/1000=1/8 ve ondalık biçimi 0,125 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "yuzde-kavrami-section-03",
+            "heading": "Ondalık Sayıları ve Kesirleri Yüzdeye Çevirme",
+            "slug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Ondalık sayıyı yüzdeye çevirmek, yüzdeyi ondalığa çevirmenin tersidir. Sayıyı 100 ile çarparız; pratikte virgülü iki basamak sağa kaydırır ve yüzde işareti ekleriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.9",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ondalık sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}05"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}83"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 0,05=5/100=5%. ⓑ 0,83=83/100=83% olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.17",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ondalık sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}01"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}17"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ondalık sayıyı yüzdeye çevirmek için iki basamak sağa kaydırırız. ⓐ 0,01=1%. ⓑ 0,17=17%."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.18",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ondalık sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}04"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}41"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 0,04=4%. ⓑ 0,41=41% olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "1'den büyük ondalık sayılar 100%'den büyük yüzdelere karşılık gelir. Çok küçük ondalıklar ise 1%'den küçük yüzdeler verebilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.10",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ondalık sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1{,}05"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}075"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 1,05=105%. ⓑ 0,075=7,5% olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.19",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ondalık sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1{,}75"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}0825"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 1,75=175%. ⓑ 0,0825=8,25% olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.20",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her ondalık sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2{,}25"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "0{,}0925"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 2,25=225%. ⓑ 0,0925=9,25% olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bu dönüşümler için örüntüyü tabloda görebiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "table",
+                "columns": [
+                  "Ondalık sayı",
+                  "Yüzde"
+                ],
+                "rows": [
+                  [
+                    "0,05",
+                    "5%"
+                  ],
+                  [
+                    "0,83",
+                    "83%"
+                  ],
+                  [
+                    "1,05",
+                    "105%"
+                  ],
+                  [
+                    "0,075",
+                    "7,5%"
+                  ]
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kesri yüzdeye çevirmek için önce kesri ondalık sayıya dönüştürür, sonra ondalık sayıyı yüzdeye çeviririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.11",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her kesri veya karma sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{3}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{11}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2\\frac{1}{5}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 3/4=0,75=75%. ⓑ 11/8=1,375=137,5%. ⓒ 2 tam 1/5=11/5=2,2=220%."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.21",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her kesri veya karma sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{5}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{11}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "3\\frac{2}{5}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 5/8=0,625=62,5%. ⓑ 11/4=2,75=275%. ⓒ 3 tam 2/5=3,4=340%."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.22",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her kesri veya karma sayıyı yüzdeye çevirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{7}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{9}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓒ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "1\\frac{3}{5}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 7/8=0,875=87,5%. ⓑ 9/4=2,25=225%. ⓒ 1 tam 3/5=1,6=160%."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bazı kesirler ondalık sayıya çevrilirken uzun ya da devirli ondalık verir. Bu durumda bağlama uygun basamağa yuvarlarız; bu derste genellikle yüzdeyi en yakın onda birliğe yazarız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.12",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "\\frac{5}{7}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " kesrini yüzdeye çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5÷7≈0,714 olur. Yüzdeye çevirmek için 100 ile çarparız: 71,4%."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.23",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "\\frac{3}{7}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " kesrini yüzdeye çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3/7≈0,428571 olur. Binde birliğe 0,429; yüzde olarak 42,9% bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.24",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "\\frac{4}{7}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " kesrini yüzdeye çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4/7≈0,571429 olur. Binde birliğe 0,571; yüzde olarak 57,1% bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Devirli ondalıklar yüzdeye çevrilirken hem kesirli yüzde hem de yaklaşık yüzde gösterimi kullanılabilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.13",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir tıp dergisi yetişkinlerin yaklaşık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{1}{3}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'ünün obez olduğunu söylüyor. Bu kesri yüzdeye çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1/3=0,333... olduğundan yüzde biçimi 33 tam 1/3% ya da yaklaşık 33,3%'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.25",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "ABD'deki konutların yaklaşık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{1}{9}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'unda yalnızca 1 yatak odası vardır. Bu kesri yüzdeye çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1/9=0,111... olduğundan yüzde olarak 11 tam 1/9% ya da yaklaşık 11,1% yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.26",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Colorado sakinlerinin yaklaşık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{1}{6}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'sı evde İngilizce dışında bir dil konuşuyor. Bu kesri yüzdeye çevirin."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1/6=0,1666... olduğundan yüzde olarak 16 tam 2/3% ya da yaklaşık 16,7% yazılır."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-1",
+            "number": "1",
+            "sectionSlug": "yuzde-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi oran olarak yazın: 2014'te yalnız lise diploması olanlar için işsizlik oranı 6,0%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6,0% demek 100 üzerinden 6,0 demektir. Oran 6,0/100 olur."
+              }
+            ],
+            "sortOrder": 1
+          },
+          {
+            "id": "exercise-3",
+            "number": "3",
+            "sectionSlug": "yuzde-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi oran olarak yazın: 2014'te lisans diploması olanlar için işsizlik oranı 3,2%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3,2% yüz üzerinden 3,2'dir. Oran 3,2/100 olarak yazılır."
+              }
+            ],
+            "sortOrder": 3
+          },
+          {
+            "id": "exercise-5",
+            "number": "5",
+            "sectionSlug": "yuzde-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüz üzerinden ifade edin: 100 hemşirelik adayından 57'si derecesini bir community college'da aldı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 100 adaydan 57'si demek 57/100 oranıdır; yüzde biçimi 57%'tir."
+              }
+            ],
+            "sortOrder": 5
+          },
+          {
+            "id": "exercise-7",
+            "number": "7",
+            "sectionSlug": "yuzde-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüz üzerinden ifade edin: İlk kez üniversiteye başlayan 100 öğrenciden 42'si community college'a gidiyor."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 100 öğrenciden 42'si demek 42/100 oranıdır; yüzde biçimi 42%'tir."
+              }
+            ],
+            "sortOrder": 7
+          },
+          {
+            "id": "exercise-9",
+            "number": "9",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi kesre çevirin ve sadeleştirin: 4%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4%=4/100. 4 ile sadeleştirince 1/25 olur."
+              }
+            ],
+            "sortOrder": 9
+          },
+          {
+            "id": "exercise-11",
+            "number": "11",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi kesre çevirin ve sadeleştirin: 17%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 17%=17/100 olur; 17 ve 100 ortak çarpan taşımadığı için sadeleşmez."
+              }
+            ],
+            "sortOrder": 11
+          },
+          {
+            "id": "exercise-13",
+            "number": "13",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi kesre çevirin ve sadeleştirin: 52%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 52%=52/100. 4 ile sadeleşir ve 13/25 bulunur."
+              }
+            ],
+            "sortOrder": 13
+          },
+          {
+            "id": "exercise-15",
+            "number": "15",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi kesre çevirin ve sadeleştirin: 125%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 125%=125/100. 25 ile sadeleşir ve 5/4 olur."
+              }
+            ],
+            "sortOrder": 15
+          },
+          {
+            "id": "exercise-17",
+            "number": "17",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi kesre çevirin ve sadeleştirin: 37,5%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 37,5%=37,5/100. Ondalığı kaldırmak için 10 ile genişletiriz: 375/1000=3/8."
+              }
+            ],
+            "sortOrder": 17
+          },
+          {
+            "id": "exercise-19",
+            "number": "19",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi kesre çevirin ve sadeleştirin: 18,4%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 18,4%=18,4/100=184/1000. 8 ile sadeleştirince 23/125 olur."
+              }
+            ],
+            "sortOrder": 19
+          },
+          {
+            "id": "exercise-21",
+            "number": "21",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi kesre çevirin ve sadeleştirin: 9 tam 1/2%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 9 tam 1/2%=9,5/100=95/1000=19/200 olur."
+              }
+            ],
+            "sortOrder": 21
+          },
+          {
+            "id": "exercise-23",
+            "number": "23",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi kesre çevirin ve sadeleştirin: 5 tam 1/3%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5 tam 1/3%=16/3 bölü 100'dür. (16/3)/100=16/300=4/75 olur."
+              }
+            ],
+            "sortOrder": 23
+          },
+          {
+            "id": "exercise-25",
+            "number": "25",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi ondalık sayıya çevirin: 5%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yüzdeden ondalığa iki basamak sola kayarız. 5%=0,05 olur."
+              }
+            ],
+            "sortOrder": 25
+          },
+          {
+            "id": "exercise-27",
+            "number": "27",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi ondalık sayıya çevirin: 1%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1%=1/100 olduğundan ondalık biçimi 0,01'dir."
+              }
+            ],
+            "sortOrder": 27
+          },
+          {
+            "id": "exercise-29",
+            "number": "29",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi ondalık sayıya çevirin: 63%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yüzdeyi ondalık sayıya çevirmek için 100'e böleriz. Bu yüzden 63%=63/100=0,63 olur."
+              }
+            ],
+            "sortOrder": 29
+          },
+          {
+            "id": "exercise-31",
+            "number": "31",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi ondalık sayıya çevirin: 40%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yüzdeyi 100'e böleriz. 40%=40/100=0,40, yani 0,4 olur."
+              }
+            ],
+            "sortOrder": 31
+          },
+          {
+            "id": "exercise-33",
+            "number": "33",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi ondalık sayıya çevirin: 115%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 115%'te virgülü iki basamak sola kaydırırız. Böylece 115%=1,15 olur."
+              }
+            ],
+            "sortOrder": 33
+          },
+          {
+            "id": "exercise-35",
+            "number": "35",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi ondalık sayıya çevirin: 150%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 150% demek 150/100 demektir. Bölme sonucunda 1,5 elde edilir."
+              }
+            ],
+            "sortOrder": 35
+          },
+          {
+            "id": "exercise-37",
+            "number": "37",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi ondalık sayıya çevirin: 21,4%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 21,4%'te virgülü iki basamak sola kaydırırız; sonuç 0,214 olur."
+              }
+            ],
+            "sortOrder": 37
+          },
+          {
+            "id": "exercise-39",
+            "number": "39",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzdeyi ondalık sayıya çevirin: 7,8%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yüzdeyi ondalığa çevirmek için 100'e böleriz. 7,8%=7,8/100=0,078 olur."
+              }
+            ],
+            "sortOrder": 39
+          },
+          {
+            "id": "exercise-41",
+            "number": "41",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "2010'da konut satışlarının 1,5%'inde mal sahibi finansmanı vardı. Bu yüzdeyi kesre ve ondalık sayıya çevirin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1,5%=1,5/100=15/1000=3/200. Ondalık biçimi 0,015'tir."
+              }
+            ],
+            "sortOrder": 41
+          },
+          {
+            "id": "exercise-43",
+            "number": "43",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "2013'te Hindistan'daki cep telefonu sayısı nüfusun 70,23%'ü kadardı. Bu yüzdeyi kesre ve ondalık sayıya çevirin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 70,23%=70,23/100=7023/10000. Ondalık biçimi 0,7023 olur."
+              }
+            ],
+            "sortOrder": 43
+          },
+          {
+            "id": "exercise-45",
+            "number": "45",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir çift iki çocuk planlıyor. İki çocuğun da kız olma olasılığı 25%. Bu yüzdeyi kesre ve ondalık sayıya çevirin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 25%=25/100=1/4. Ondalık biçimi 0,25'tir."
+              }
+            ],
+            "sortOrder": 45
+          },
+          {
+            "id": "exercise-47",
+            "number": "47",
+            "sectionSlug": "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yerel hava raporuna göre New York'ta 15 Temmuz'da gök gürültülü fırtına olasılığı 60%. Bu yüzdeyi kesre ve ondalık sayıya çevirin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 60%=60/100=3/5. Ondalık biçimi 0,6'dır."
+              }
+            ],
+            "sortOrder": 47
+          },
+          {
+            "id": "exercise-49",
+            "number": "49",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı yüzdeye çevirin: 0,01."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ondalıktan yüzdeye iki basamak sağa kayarız. 0,01=1% olur."
+              }
+            ],
+            "sortOrder": 49
+          },
+          {
+            "id": "exercise-51",
+            "number": "51",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı yüzdeye çevirin: 0,18."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Ondalık sayıyı yüzdeye çevirmek için 100 ile çarparız. 0,18=18% olur."
+              }
+            ],
+            "sortOrder": 51
+          },
+          {
+            "id": "exercise-53",
+            "number": "53",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı yüzdeye çevirin: 1,35."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1,35 sayısı yüzde olarak 135%'tir."
+              }
+            ],
+            "sortOrder": 53
+          },
+          {
+            "id": "exercise-55",
+            "number": "55",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı yüzdeye çevirin: 3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3=300/100 olduğundan yüzde biçimi 300%'tür."
+              }
+            ],
+            "sortOrder": 55
+          },
+          {
+            "id": "exercise-57",
+            "number": "57",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı yüzdeye çevirin: 0,009."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 0,009 sayısında virgül iki basamak sağa kayar; sonuç 0,9%'tir."
+              }
+            ],
+            "sortOrder": 57
+          },
+          {
+            "id": "exercise-59",
+            "number": "59",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı yüzdeye çevirin: 0,0875."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Virgülü iki basamak sağa kaydırırız. 0,0875 sayısı yüzde olarak 8,75% olur."
+              }
+            ],
+            "sortOrder": 59
+          },
+          {
+            "id": "exercise-61",
+            "number": "61",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı yüzdeye çevirin: 1,5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1,5 sayısını 100 ile çarparız. Bu nedenle yüzde biçimi 150%'tir."
+              }
+            ],
+            "sortOrder": 61
+          },
+          {
+            "id": "exercise-63",
+            "number": "63",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Ondalık sayıyı yüzdeye çevirin: 2,254."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2,254 sayısı yüzde olarak 225,4%'tür."
+              }
+            ],
+            "sortOrder": 63
+          },
+          {
+            "id": "exercise-65",
+            "number": "65",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesri yüzdeye çevirin: 1/4."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1/4=0,25 olduğundan yüzde biçimi 25%'tir."
+              }
+            ],
+            "sortOrder": 65
+          },
+          {
+            "id": "exercise-67",
+            "number": "67",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesri yüzdeye çevirin: 3/8."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3/8=0,375 olduğundan yüzde biçimi 37,5%'tir."
+              }
+            ],
+            "sortOrder": 67
+          },
+          {
+            "id": "exercise-69",
+            "number": "69",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesri yüzdeye çevirin: 7/4."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 7/4=1,75 olduğundan yüzde biçimi 175%'tir."
+              }
+            ],
+            "sortOrder": 69
+          },
+          {
+            "id": "exercise-71",
+            "number": "71",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karma sayıyı yüzdeye çevirin: 6 tam 4/5."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 6 tam 4/5=6,8 olur. Yüzde biçimi 680%'tir."
+              }
+            ],
+            "sortOrder": 71
+          },
+          {
+            "id": "exercise-73",
+            "number": "73",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesri yüzdeye çevirin: 5/12."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5÷12=0,4166... olur. En yakın onda bir yüzdeyle 41,7% yazılır."
+              }
+            ],
+            "sortOrder": 73
+          },
+          {
+            "id": "exercise-75",
+            "number": "75",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karma sayıyı yüzdeye çevirin: 2 tam 2/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2 tam 2/3=2,666... olduğundan yüzde biçimi 266 tam 2/3%, yaklaşık 266,7%'tir."
+              }
+            ],
+            "sortOrder": 75
+          },
+          {
+            "id": "exercise-77",
+            "number": "77",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesri yüzdeye çevirin: 3/7."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3/7≈0,428571. Binde birliğe yuvarlayıp yüzdeye çevirince 42,9% bulunur."
+              }
+            ],
+            "sortOrder": 77
+          },
+          {
+            "id": "exercise-79",
+            "number": "79",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kesri yüzdeye çevirin: 5/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5/9=0,555... olduğundan yüzde biçimi 55 tam 5/9%, yaklaşık 55,6%'dır."
+              }
+            ],
+            "sortOrder": 79
+          },
+          {
+            "id": "exercise-81",
+            "number": "81",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çamaşır makinelerinin 1/4'ünün tamire ihtiyacı vardı. Bu kesri yüzdeye çevirin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1/4=0,25 olduğundan makinelerin 25%'inin tamire ihtiyacı vardır."
+              }
+            ],
+            "sortOrder": 81
+          },
+          {
+            "id": "exercise-83",
+            "number": "83",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "2012'de Amerikalı yetişkinlerin 7/20'si obezdi. Bu kesri yüzdeye çevirin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 7/20=0,35 olduğundan yüzde biçimi 35%'tir."
+              }
+            ],
+            "sortOrder": 83
+          },
+          {
+            "id": "exercise-85",
+            "number": "85",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tabloyu tamamlayın: 1/2, 0,45, 18%, 1/3, 0,008 ve 2 değerlerini kesir-ondalık-yüzde biçimlerinde gösterin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1/2=0,5=50%; 0,45=45/100=9/20=45%; 18%=18/100=9/50=0,18; 1/3=0,333...=33 tam 1/3%; 0,008=1/125=0,8%; 2=2/1=200%."
+              }
+            ],
+            "sortOrder": 85
+          },
+          {
+            "id": "exercise-87",
+            "number": "87",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış vergisi: Felipa'nın kentinde satış vergisi 9,05%. Bunu yaklaşık 10% gibi düşünüyor. ⓐ 10%'u kesre çevirin. ⓑ 95 dolarlık elbise için vergiyi tahmin edin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 10%=10/100=1/10. ⓑ 95 doların 1/10'u 9,50 dolardır; 9,05% biraz daha az olduğundan vergi yaklaşık 9 dolar olur."
+              }
+            ],
+            "sortOrder": 87
+          },
+          {
+            "id": "exercise-89",
+            "number": "89",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satıcı C'nin puanını kesir ve ondalık sayı olarak yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Satıcı C'nin puanı görseldeki yüzde üzerinden okunur. Örneğin 98% ise kesir 98/100=49/50, ondalık biçim 0,98 olur."
+              }
+            ],
+            "sortOrder": 89
+          },
+          {
+            "id": "exercise-91",
+            "number": "91",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satıcı A'nın puanını yüzde ve ondalık sayı olarak yazın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Satıcı A'nın puanı görseldeki kesir üzerinden yüzdeye çevrilir. Örneğin 95/100 ise yüzde 95%, ondalık biçim 0,95 olur."
+              }
+            ],
+            "sortOrder": 91
+          },
+          {
+            "id": "exercise-93",
+            "number": "93",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "25%, 50%, 75% ve 100%'ü kesre çevirin. Bir örüntü fark ediyor musunuz? Açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 25%=1/4, 50%=1/2, 75%=3/4 ve 100%=1 olur. Örüntü, çeyreklerin sırasıyla bir, iki, üç ve dört çeyrek olarak ilerlemesidir."
+              }
+            ],
+            "sortOrder": 93
+          },
+          {
+            "id": "exercise-95",
+            "number": "95",
+            "sectionSlug": "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Szetos ailesi evini 30 yıl önce ödediği fiyatın 500%'üne sattı. Bu bağlamda 500% ne anlama gelir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 500%=500/100=5 demektir. Ev, 30 yıl önce ödenen fiyatın 5 katına satılmıştır."
+              }
+            ],
+            "sortOrder": 95
+          }
+        ]
+      }
     }
   ]
 }

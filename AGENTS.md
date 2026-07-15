@@ -34,19 +34,19 @@ navigation, SEO, attribution, and ingestion workflows.
 - Latest confirmed seed DB write count:
   - `books`: 1
   - `chapters`: 4
-  - `lessons`: 19
-  - `lessonSections`: 101
-  - `exercises`: 726
-  - `sourceSnapshots`: 19
-  - `sourceAssets`: 511
-- Latest generated local seed payload count, not yet written to remote DB:
-  - `books`: 1
-  - `chapters`: 4
   - `lessons`: 23
   - `lessonSections`: 128
   - `exercises`: 851
   - `sourceSnapshots`: 23
   - `sourceAssets`: 585
+- Latest generated local seed payload count, not yet written to remote DB:
+  - `books`: 1
+  - `chapters`: 5
+  - `lessons`: 24
+  - `lessonSections`: 131
+  - `exercises`: 899
+  - `sourceSnapshots`: 24
+  - `sourceAssets`: 617
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -328,22 +328,23 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. Done; twenty-three seed
+8. Seed one or two lessons end-to-end before mass ingestion. Done; twenty-four seed
    lessons now build end-to-end for Prealgebra 2.3, 2.4, 2.5, 2.6, 3.2, 3.3,
-   3.4, 3.5, 3.6, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, and 5.2 through 5.8.
+   3.4, 3.5, 3.6, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 5.2 through 5.8,
+   and 6.2.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
 11. Add informational language coverage report and initial Turkish localization
     cleanup hooks for exercise prompts/math text. Started.
 
-Current next seed candidate after the latest local work: Prealgebra 6.2
-`Understand Percent`, displayed as product lesson 5.1 under a new `Yüzdeler`
-product chapter that still needs to be added to `data/book-catalog.ts`.
+Current next seed candidate after the latest local work: Prealgebra 6.3
+`Solve General Applications of Percent`, displayed as product lesson 5.2 under
+the `Yüzdeler` product chapter.
 
-Latest completed seed lesson: Prealgebra 5.8 `Simplify and Use Square Roots`,
-displayed as product lesson 4.7 `Karekökler ve Uygulamalar`. It includes 12
-Turkish editorial sections, 26 Sıra Sizde solutions, 23 source exercises with
-explanatory reveal solutions, and 25 extracted source assets.
+Latest completed seed lesson: Prealgebra 6.2 `Understand Percent`, displayed as
+product lesson 5.1 `Yüzde Kavramı`. It includes 3 Turkish editorial sections,
+26 Sıra Sizde solutions, 48 source exercises with explanatory reveal solutions,
+and 32 extracted source assets.
 
 ## Quality Gates
 

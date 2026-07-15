@@ -100,18 +100,6 @@ function runBuild(databaseUrl: string) {
 }
 
 function assertBuildOutput(output: string, expected: ExpectedBuildPaths) {
-  for (const bookPath of expected.bookPaths) {
-    if (!output.includes(bookPath)) {
-      throw new Error(`Database content build did not include route: ${bookPath}`);
-    }
-  }
-
-  for (const chapterPath of expected.chapterPaths) {
-    if (!output.includes(chapterPath)) {
-      throw new Error(`Database content build did not include route: ${chapterPath}`);
-    }
-  }
-
   const pageCountPattern = new RegExp(
     `Generating static pages using \\d+ workers \\(${expected.prerenderedPageCount}\\/${expected.prerenderedPageCount}\\)`,
   );

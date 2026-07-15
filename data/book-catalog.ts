@@ -84,6 +84,19 @@ export const books: Book[] = [
         sortOrder: 4,
         lessons: [],
       },
+      {
+        id: "chapter-percents",
+        bookId: "book-prealgebra-2e",
+        slug: "yuzdeler",
+        sourceNumber: "6",
+        displayNumber: "5",
+        sourceTitle: "Percents",
+        displayTitle: "Yüzdeler",
+        sourceUrl:
+          "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents",
+        sortOrder: 5,
+        lessons: [],
+      },
     ],
   },
 ];

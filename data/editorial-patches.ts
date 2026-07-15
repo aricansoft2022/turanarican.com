@@ -10910,6 +10910,204 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "6.2",
+    sections: [
+      {
+        sectionSlug: "yuzde-tanimi",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Yüzde, bir çokluğu 100 eş parçaya göre anlatmanın kısa yoludur. “Percent” sözcüğü “yüz başına” anlamına gelir; bu yüzden bir yüzde her zaman paydası 100 olan bir oran gibi düşünülebilir.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\text{25%}"),
+                t(" demek "),
+                m("\\frac{25}{100}"),
+                t(" demektir. Benzer biçimde "),
+                m("\\text{3%}=\\frac{3}{100}"),
+                t(" ve "),
+                m("\\text{100%}=\\frac{100}{100}=1"),
+                t(" olur."),
+              ]),
+              pt(
+                "Bir kareli modelde 100 küçük kare varsa, boyalı kare sayısı doğrudan yüzdeyi verir. 57 kare boyalıysa oran 57/100, yüzde yazımı 57%'tir.",
+              ),
+              ex(
+                "Örnek 6.1",
+                [t("Bir ankette velilerin 44%'ü çocuklarının lisansüstü derece almasını istediğini söylüyor. Bu yüzdeyi oran olarak yazın.")],
+                sol("Çözüm: Yüzde, yüz üzerinden oran demektir. 44% ifadesi 44/100 oranıdır."),
+              ),
+              ex("Sıra Sizde 6.1", [t("Yüzdeyi oran olarak yazın: Bir ankete göre üniversite öğrencilerinin 89%'unun akıllı telefonu vardır.")]),
+              ex("Sıra Sizde 6.2", [t("Yüzdeyi oran olarak yazın: Bir araştırmaya göre ABD'li gençlerin 72%'si düzenli olarak mesaj gönderir.")]),
+              ex(
+                "Örnek 6.2",
+                [t("Her 100 birinci sınıf üniversite öğrencisinden 21'i en az bir destek dersi almıştır. Bunu oran ve yüzde olarak yazın.")],
+                sol("Çözüm: 21 out of 100 ifadesi 21/100 oranıdır. Yüzde biçimi 21%'tir."),
+              ),
+              ex("Sıra Sizde 6.3", [t("100 tam zamanlı community college öğrencisinden 62'si okuluyla birlikte tam ya da yarı zamanlı çalışıyor. Bunu oran ve yüzde olarak yazın.")]),
+              ex("Sıra Sizde 6.4", [t("100 Santa Ana College öğrencisinden 41'i ön lisans derecesi alma ya da dört yıllık bir üniversiteye geçme hedefi taşıyor. Bunu oran ve yüzde olarak yazın.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "yuzdeleri-kesir-ve-ondalik-sayiya-cevirme",
+        replaceBlocks: [
+          ...removeBlocks(27),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Yüzdeler oran olduğu için kesre kolayca çevrilir. Yüzde işaretini kaldırır, sayıyı 100 paydasının üzerine yazar ve mümkünse sadeleştiririz.",
+              ),
+              ex(
+                "Örnek 6.3",
+                [t("Her yüzdeyi kesre çevirin: ⓐ "), m("\\text{36%}"), t(" ⓑ "), m("\\text{125%}"), t(".")],
+                sol("Çözüm: ⓐ 36%=36/100=9/25. ⓑ 125%=125/100=5/4 olur."),
+              ),
+              ex("Sıra Sizde 6.5", [t("Her yüzdeyi kesre çevirin: ⓐ "), m("\\text{48%}"), t(" ⓑ "), m("\\text{110%}"), t(".")]),
+              ex("Sıra Sizde 6.6", [t("Her yüzdeyi kesre çevirin: ⓐ "), m("\\text{64%}"), t(" ⓑ "), m("\\text{150%}"), t(".")]),
+              pt(
+                "Bir yüzde 100%'den büyükse kesir 1'den büyük olur. Yüzde ondalık ya da karma sayı içeriyorsa önce onu kesirde doğru biçimde yazar, sonra sadeleştiririz.",
+              ),
+              ex(
+                "Örnek 6.4",
+                [t("Her yüzdeyi kesre çevirin: ⓐ "), m("\\text{24{,}5%}"), t(" ⓑ "), m("33\\frac{1}{3}\\%"), t(".")],
+                sol("Çözüm: ⓐ 24,5%=24,5/100=245/1000=49/200. ⓑ 33 tam 1/3%=100/3 bölü 100'dür; sonuç 1/3 olur."),
+              ),
+              ex("Sıra Sizde 6.7", [t("Her yüzdeyi kesre çevirin: ⓐ "), m("\\text{64{,}4%}"), t(" ⓑ "), m("66\\frac{2}{3}\\%"), t(".")]),
+              ex("Sıra Sizde 6.8", [t("Her yüzdeyi kesre çevirin: ⓐ "), m("\\text{42{,}5%}"), t(" ⓑ "), m("8\\frac{3}{4}\\%"), t(".")]),
+              pt(
+                "Yüzdeyi ondalık sayıya çevirmek için yüzdeyi 100'e böleriz. Pratikte bu, virgülü iki basamak sola kaydırmak ve yüzde işaretini kaldırmak demektir.",
+              ),
+              ex(
+                "Örnek 6.5",
+                [t("Her yüzdeyi ondalık sayıya çevirin: ⓐ "), m("\\text{6%}"), t(" ⓑ "), m("\\text{78%}"), t(".")],
+                sol("Çözüm: ⓐ 6%=6/100=0,06. ⓑ 78%=78/100=0,78 olur."),
+              ),
+              ex("Sıra Sizde 6.9", [t("Her yüzdeyi ondalık sayıya çevirin: ⓐ "), m("\\text{9%}"), t(" ⓑ "), m("\\text{87%}"), t(".")]),
+              ex("Sıra Sizde 6.10", [t("Her yüzdeyi ondalık sayıya çevirin: ⓐ "), m("\\text{3%}"), t(" ⓑ "), m("\\text{91%}"), t(".")]),
+              ex(
+                "Örnek 6.6",
+                [t("Her yüzdeyi ondalık sayıya çevirin: ⓐ "), m("\\text{135%}"), t(" ⓑ "), m("\\text{12{,}5%}"), t(".")],
+                sol("Çözüm: ⓐ 135%=135/100=1,35. ⓑ 12,5%=12,5/100=0,125 olur."),
+              ),
+              ex("Sıra Sizde 6.11", [t("Her yüzdeyi ondalık sayıya çevirin: ⓐ "), m("\\text{115%}"), t(" ⓑ "), m("\\text{23{,}5%}"), t(".")]),
+              ex("Sıra Sizde 6.12", [t("Her yüzdeyi ondalık sayıya çevirin: ⓐ "), m("\\text{123%}"), t(" ⓑ "), m("\\text{16{,}8%}"), t(".")]),
+              pt(
+                "Aşağıdaki kısa tablo, yüzdeyi ondalığa çevirirken oluşan örüntüyü gösterir.",
+              ),
+              {
+                type: "table",
+                columns: ["Yüzde", "Ondalık sayı"],
+                rows: [
+                  ["6%", "0,06"],
+                  ["78%", "0,78"],
+                  ["135%", "1,35"],
+                  ["12,5%", "0,125"],
+                ],
+              },
+              pt(
+                "Örüntü aynıdır: yüzde sayısının virgülünü iki basamak sola kaydırırız. Gerekirse sayının soluna sıfır ekleriz.",
+              ),
+              ex(
+                "Örnek 6.7",
+                [t("Bir iş insanları grubunun 77%'si zayıf matematik ve fen eğitiminin işsizliği artıracağını düşünüyor. Bu yüzdeyi ⓐ kesre ⓑ ondalık sayıya çevirin.")],
+                sol("Çözüm: ⓐ 77%=77/100. ⓑ 77/100=0,77 olur."),
+              ),
+              ex("Sıra Sizde 6.13", [t("24%'ü ⓐ kesre ve ⓑ ondalık sayıya çevirin.")]),
+              ex("Sıra Sizde 6.14", [t("44%'ü ⓐ kesre ve ⓑ ondalık sayıya çevirin.")]),
+              ex(
+                "Örnek 6.8",
+                [t("Bir kart destesinden rastgele kupa seçme olasılığı 25%'tir. Bu yüzdeyi ⓐ kesre ⓑ ondalık sayıya çevirin.")],
+                sol("Çözüm: ⓐ 25%=25/100=1/4. ⓑ 25/100=0,25 olur."),
+              ),
+              ex("Sıra Sizde 6.15", [t("Yağmur olasılığı 30%'tir. Bu yüzdeyi ⓐ kesre ve ⓑ ondalık sayıya çevirin.")]),
+              ex("Sıra Sizde 6.16", [t("Bir parayı üç kez attığınızda üç kez tura gelme olasılığı 12,5%'tir. Bu yüzdeyi ⓐ kesre ve ⓑ ondalık sayıya çevirin.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ondalik-sayilari-ve-kesirleri-yuzdeye-cevirme",
+        replaceBlocks: [
+          ...removeBlocks(29),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Ondalık sayıyı yüzdeye çevirmek, yüzdeyi ondalığa çevirmenin tersidir. Sayıyı 100 ile çarparız; pratikte virgülü iki basamak sağa kaydırır ve yüzde işareti ekleriz.",
+              ),
+              ex(
+                "Örnek 6.9",
+                [t("Her ondalık sayıyı yüzdeye çevirin: ⓐ "), m("0{,}05"), t(" ⓑ "), m("0{,}83"), t(".")],
+                sol("Çözüm: ⓐ 0,05=5/100=5%. ⓑ 0,83=83/100=83% olur."),
+              ),
+              ex("Sıra Sizde 6.17", [t("Her ondalık sayıyı yüzdeye çevirin: ⓐ "), m("0{,}01"), t(" ⓑ "), m("0{,}17"), t(".")]),
+              ex("Sıra Sizde 6.18", [t("Her ondalık sayıyı yüzdeye çevirin: ⓐ "), m("0{,}04"), t(" ⓑ "), m("0{,}41"), t(".")]),
+              pt(
+                "1'den büyük ondalık sayılar 100%'den büyük yüzdelere karşılık gelir. Çok küçük ondalıklar ise 1%'den küçük yüzdeler verebilir.",
+              ),
+              ex(
+                "Örnek 6.10",
+                [t("Her ondalık sayıyı yüzdeye çevirin: ⓐ "), m("1{,}05"), t(" ⓑ "), m("0{,}075"), t(".")],
+                sol("Çözüm: ⓐ 1,05=105%. ⓑ 0,075=7,5% olur."),
+              ),
+              ex("Sıra Sizde 6.19", [t("Her ondalık sayıyı yüzdeye çevirin: ⓐ "), m("1{,}75"), t(" ⓑ "), m("0{,}0825"), t(".")]),
+              ex("Sıra Sizde 6.20", [t("Her ondalık sayıyı yüzdeye çevirin: ⓐ "), m("2{,}25"), t(" ⓑ "), m("0{,}0925"), t(".")]),
+              pt("Bu dönüşümler için örüntüyü tabloda görebiliriz."),
+              {
+                type: "table",
+                columns: ["Ondalık sayı", "Yüzde"],
+                rows: [
+                  ["0,05", "5%"],
+                  ["0,83", "83%"],
+                  ["1,05", "105%"],
+                  ["0,075", "7,5%"],
+                ],
+              },
+              pt(
+                "Kesri yüzdeye çevirmek için önce kesri ondalık sayıya dönüştürür, sonra ondalık sayıyı yüzdeye çeviririz.",
+              ),
+              ex(
+                "Örnek 6.11",
+                [t("Her kesri veya karma sayıyı yüzdeye çevirin: ⓐ "), m("\\frac{3}{4}"), t(" ⓑ "), m("\\frac{11}{8}"), t(" ⓒ "), m("2\\frac{1}{5}"), t(".")],
+                sol("Çözüm: ⓐ 3/4=0,75=75%. ⓑ 11/8=1,375=137,5%. ⓒ 2 tam 1/5=11/5=2,2=220%."),
+              ),
+              ex("Sıra Sizde 6.21", [t("Her kesri veya karma sayıyı yüzdeye çevirin: ⓐ "), m("\\frac{5}{8}"), t(" ⓑ "), m("\\frac{11}{4}"), t(" ⓒ "), m("3\\frac{2}{5}"), t(".")]),
+              ex("Sıra Sizde 6.22", [t("Her kesri veya karma sayıyı yüzdeye çevirin: ⓐ "), m("\\frac{7}{8}"), t(" ⓑ "), m("\\frac{9}{4}"), t(" ⓒ "), m("1\\frac{3}{5}"), t(".")]),
+              pt(
+                "Bazı kesirler ondalık sayıya çevrilirken uzun ya da devirli ondalık verir. Bu durumda bağlama uygun basamağa yuvarlarız; bu derste genellikle yüzdeyi en yakın onda birliğe yazarız.",
+              ),
+              ex(
+                "Örnek 6.12",
+                [m("\\frac{5}{7}"), t(" kesrini yüzdeye çevirin.")],
+                sol("Çözüm: 5÷7≈0,714 olur. Yüzdeye çevirmek için 100 ile çarparız: 71,4%."),
+              ),
+              ex("Sıra Sizde 6.23", [m("\\frac{3}{7}"), t(" kesrini yüzdeye çevirin.")]),
+              ex("Sıra Sizde 6.24", [m("\\frac{4}{7}"), t(" kesrini yüzdeye çevirin.")]),
+              pt(
+                "Devirli ondalıklar yüzdeye çevrilirken hem kesirli yüzde hem de yaklaşık yüzde gösterimi kullanılabilir.",
+              ),
+              ex(
+                "Örnek 6.13",
+                [t("Bir tıp dergisi yetişkinlerin yaklaşık "), m("\\frac{1}{3}"), t("'ünün obez olduğunu söylüyor. Bu kesri yüzdeye çevirin.")],
+                sol("Çözüm: 1/3=0,333... olduğundan yüzde biçimi 33 tam 1/3% ya da yaklaşık 33,3%'tür."),
+              ),
+              ex("Sıra Sizde 6.25", [t("ABD'deki konutların yaklaşık "), m("\\frac{1}{9}"), t("'unda yalnızca 1 yatak odası vardır. Bu kesri yüzdeye çevirin.")]),
+              ex("Sıra Sizde 6.26", [t("Colorado sakinlerinin yaklaşık "), m("\\frac{1}{6}"), t("'sı evde İngilizce dışında bir dil konuşuyor. Bu kesri yüzdeye çevirin.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({
