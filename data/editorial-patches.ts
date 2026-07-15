@@ -10575,6 +10575,341 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "5.8",
+    sections: [
+      {
+        sectionSlug: "karekoklerle-ifadeleri-sadelestirme",
+        replaceBlocks: [
+          ...removeBlocks(3),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karekökleri çalışmadan önce kare alma fikrini hatırlayalım. Bir sayı kendisiyle çarpıldığında o sayının karesi elde edilir.",
+              ),
+              p([
+                t("Örneğin "),
+                m("8^{2}"),
+                t(" ifadesi “8'in karesi” diye okunur ve "),
+                m("8^{2}=64"),
+                t(" olur."),
+              ]),
+              pt(
+                "Bu yüzden 64 sayısı 8'in karesidir. Benzer biçimde 121 sayısı 11'in karesidir; çünkü 11²=121.",
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kareleri-modelleme",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Kare sözcüğü geometriden gelir. Her kenarında 3 karo bulunan bir kare modeli toplam 9 karodan oluşur.",
+              ),
+              p([m("3^{2}=9")]),
+              pt(
+                "9 sayısına tam kare deriz; çünkü bir tam sayının karesidir. 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196 ve 225 ilk tam karelerden bazılarıdır.",
+              ),
+              pt(
+                "Negatif sayıların karesi de pozitiftir. Örneğin (-8)²=(-8)(-8)=64 olur. Bu nedenle pozitif ve negatif eş sayıların kareleri aynıdır.",
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "karekokler",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karekök, kare alma işlemini ters yönden düşünür. 10²=100 olduğundan 10 sayısı 100'ün bir kareköküdür. (-10)²=100 olduğu için -10 da 100'ün kareköküdür.",
+              ),
+              pt(
+                "Pozitif bir sayının iki karekökü vardır: biri pozitif, biri negatif. Karekök işareti √ ise pozitif, yani temel karekökü gösterir.",
+              ),
+              p([
+                t("Sıfırın karekökü sıfırdır: "),
+                m("\\sqrt{0}=0"),
+                t(". Sıfırın yalnızca bir karekökü vardır."),
+              ]),
+              ex(
+                "Örnek 5.69",
+                [t("Sadeleştirin: ⓐ "), m("\\sqrt{25}"), t(" ⓑ "), m("\\sqrt{121}"), t(".")],
+                sol("Çözüm: ⓐ 5²=25 olduğundan √25=5. ⓑ 11²=121 olduğundan √121=11."),
+              ),
+              ex("Sıra Sizde 5.137", [t("Sadeleştirin: ⓐ "), m("\\sqrt{36}"), t(" ⓑ "), m("\\sqrt{169}"), t(".")]),
+              ex("Sıra Sizde 5.138", [t("Sadeleştirin: ⓐ "), m("\\sqrt{16}"), t(" ⓑ "), m("\\sqrt{196}"), t(".")]),
+              pt(
+                "Negatif karekök istenirse negatif işaret karekök işaretinin önüne yazılır. Örneğin -√100=-10 olur.",
+              ),
+              ex(
+                "Örnek 5.70",
+                [t("Sadeleştirin: ⓐ "), m("-\\sqrt{9}"), t(" ⓑ "), m("-\\sqrt{144}"), t(".")],
+                sol("Çözüm: ⓐ √9=3 olduğundan -√9=-3. ⓑ √144=12 olduğundan -√144=-12."),
+              ),
+              ex("Sıra Sizde 5.139", [t("Sadeleştirin: ⓐ "), m("-\\sqrt{4}"), t(" ⓑ "), m("-\\sqrt{225}"), t(".")]),
+              ex("Sıra Sizde 5.140", [t("Sadeleştirin: ⓐ "), m("-\\sqrt{81}"), t(" ⓑ "), m("-\\sqrt{64}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "negatif-sayinin-karekoku",
+        replaceBlocks: [
+          ...removeBlocks(6),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Gerçek sayılar içinde karesi negatif olan bir sayı yoktur. Pozitif sayıların karesi pozitiftir; negatif sayıların karesi de pozitiftir.",
+              ),
+              pt(
+                "Bu nedenle negatif bir sayının karekökü gerçek sayı değildir. Ancak negatif işaret kökün dışındaysa önce pozitif karekök alınır, sonra işaret uygulanır.",
+              ),
+              ex(
+                "Örnek 5.71",
+                [t("Sadeleştirin: ⓐ "), m("\\sqrt{-169}"), t(" ⓑ "), m("-\\sqrt{121}"), t(".")],
+                sol("Çözüm: ⓐ √(-169) gerçek sayı değildir. ⓑ Negatif işaret kökün dışındadır; -√121=-11 olur."),
+              ),
+              ex("Sıra Sizde 5.141", [t("Sadeleştirin: ⓐ "), m("\\sqrt{-196}"), t(" ⓑ "), m("-\\sqrt{81}"), t(".")]),
+              ex("Sıra Sizde 5.142", [t("Sadeleştirin: ⓐ "), m("\\sqrt{-49}"), t(" ⓑ "), m("-\\sqrt{121}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "karekokler-ve-islem-sirasi",
+        replaceBlocks: [
+          ...removeBlocks(5),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karekök içeren ifadelerde karekök işaretini bir gruplama sembolü gibi düşünürüz. Kökün içindeki işlemler önce yapılır.",
+              ),
+              ex(
+                "Örnek 5.72",
+                [t("Sadeleştirin: ⓐ "), m("\\sqrt{25}+\\sqrt{144}"), t(" ⓑ "), m("\\sqrt{25+144}"), t(".")],
+                sol("Çözüm: ⓐ Karekökleri ayrı ayrı alırız: 5+12=17. ⓑ Önce kökün içini toplarız: √169=13."),
+              ),
+              ex("Sıra Sizde 5.143", [t("Sadeleştirin: ⓐ "), m("\\sqrt{9}+\\sqrt{16}"), t(" ⓑ "), m("\\sqrt{9+16}"), t(".")]),
+              ex("Sıra Sizde 5.144", [t("Sadeleştirin: ⓐ "), m("\\sqrt{64+225}"), t(" ⓑ "), m("\\sqrt{64}+\\sqrt{225}"), t(".")]),
+              pt(
+                "Karekökleri ayrı ayrı almak ile önce kökün içini sadeleştirmek aynı şey değildir. İşlem sırası sonucu belirler.",
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "karekok-tahmini",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Tam kare olmayan sayıların karekökleri tam sayı değildir. Bu değerleri ardışık iki tam sayı arasında tahmin edebiliriz.",
+              ),
+              p([
+                t("Örneğin 5 sayısı 4 ile 9 arasındadır. Bu yüzden "),
+                m("2<\\sqrt{5}<3"),
+                t(" olur."),
+              ]),
+              ex(
+                "Örnek 5.73",
+                [t("Ardışık iki tam sayı arasında tahmin edin: "), m("\\sqrt{60}"), t(".")],
+                sol("Çözüm: 49<60<64 ve √49=7, √64=8 olduğundan 7<√60<8 olur."),
+              ),
+              ex("Sıra Sizde 5.145", [t("Ardışık iki tam sayı arasında tahmin edin: "), m("\\sqrt{38}"), t(".")]),
+              ex("Sıra Sizde 5.146", [t("Ardışık iki tam sayı arasında tahmin edin: "), m("\\sqrt{84}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "hesap-makinesiyle-karekok-yaklasimi",
+        replaceBlocks: [
+          ...removeBlocks(11),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Tam kare olmayan sayıların kareköklerini hesap makinesiyle yaklaşık olarak bulabiliriz. Yaklaşık eşitlik için ≈ sembolünü kullanırız.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\sqrt{5}\\approx2{,}236067978"),
+                t(" ve iki ondalık basamağa yuvarlanmış hali "),
+                m("\\sqrt{5}\\approx2{,}24"),
+                t(" olur."),
+              ]),
+              pt(
+                "Yaklaşık değerlerin karesi başlangıç sayısına çok yakındır, fakat genellikle tam olarak eşit değildir.",
+              ),
+              ex(
+                "Örnek 5.74",
+                [t("Hesap makinesi kullanarak "), m("\\sqrt{17}"), t(" değerini iki ondalık basamağa yuvarlayın.")],
+                sol("Çözüm: Hesap makinesiyle √17≈4,123105626 bulunur. İki ondalık basamağa yuvarlayınca 4,12 olur."),
+              ),
+              ex("Sıra Sizde 5.147", [m("\\sqrt{11}"), t(" değerini iki ondalık basamağa yuvarlayın.")]),
+              ex("Sıra Sizde 5.148", [m("\\sqrt{13}"), t(" değerini iki ondalık basamağa yuvarlayın.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "degiskenli-karekok-ifadeleri",
+        replaceBlocks: [
+          ...removeBlocks(16),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karekök ifadelerinde değişkenler de bulunabilir. Bu dersin örneklerinde ve alıştırmalarında karekök içindeki değişkenlerin negatif olmadığını varsayacağız.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\sqrt{9x^{2}}=3x"),
+                t(" olur; çünkü "),
+                m("(3x)^{2}=9x^{2}"),
+                t("."),
+              ]),
+              ex(
+                "Örnek 5.75",
+                [t("Sadeleştirin: "), m("\\sqrt{x^{2}}"), t(".")],
+                sol("Çözüm: Değişken negatif değildir. x² elde etmek için x'i kare alırız; bu yüzden √(x²)=x olur."),
+              ),
+              ex("Sıra Sizde 5.149", [t("Sadeleştirin: "), m("\\sqrt{y^{2}}"), t(".")]),
+              ex("Sıra Sizde 5.150", [t("Sadeleştirin: "), m("\\sqrt{m^{2}}"), t(".")]),
+              ex(
+                "Örnek 5.76",
+                [t("Sadeleştirin: "), m("\\sqrt{16x^{2}}"), t(".")],
+                sol("Çözüm: (4x)²=16x² olduğundan √(16x²)=4x olur."),
+              ),
+              ex("Sıra Sizde 5.151", [t("Sadeleştirin: "), m("\\sqrt{64x^{2}}"), t(".")]),
+              ex("Sıra Sizde 5.152", [t("Sadeleştirin: "), m("\\sqrt{169y^{2}}"), t(".")]),
+              ex(
+                "Örnek 5.77",
+                [t("Sadeleştirin: "), m("-\\sqrt{81y^{2}}"), t(".")],
+                sol("Çözüm: √(81y²)=9y olur. Kökün dışındaki negatif işaretle sonuç -9y'dir."),
+              ),
+              ex("Sıra Sizde 5.153", [t("Sadeleştirin: "), m("-\\sqrt{121y^{2}}"), t(".")]),
+              ex("Sıra Sizde 5.154", [t("Sadeleştirin: "), m("-\\sqrt{100p^{2}}"), t(".")]),
+              ex(
+                "Örnek 5.78",
+                [t("Sadeleştirin: "), m("\\sqrt{36x^{2}y^{2}}"), t(".")],
+                sol("Çözüm: (6xy)²=36x²y² olduğundan √(36x²y²)=6xy olur."),
+              ),
+              ex("Sıra Sizde 5.155", [t("Sadeleştirin: "), m("\\sqrt{100a^{2}b^{2}}"), t(".")]),
+              ex("Sıra Sizde 5.156", [t("Sadeleştirin: "), m("\\sqrt{225m^{2}n^{2}}"), t(".")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "karekok-uygulamalari",
+        replaceBlocks: [
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Karekökler alan, düşme süresi ve kaza incelemesi gibi uygulamalarda karşımıza çıkar. Her uygulamada önce verilen büyüklüğü tanır, sonra uygun karekök ifadesini değerlendiririz.",
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "alan-ve-karekok",
+        replaceBlocks: [
+          ...removeBlocks(6),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir karenin alanı kenar uzunluğunun karesidir. Alan verildiğinde kenar uzunluğunu bulmak için alanın karekökünü alırız.",
+              ),
+              p([
+                t("Alan "),
+                m("A"),
+                t(" ise karenin bir kenarı "),
+                m("\\sqrt{A}"),
+                t(" birimdir."),
+              ]),
+              ex(
+                "Örnek 5.79",
+                [t("Mike ve Lychelle kare biçimli bir veranda yapmak istiyor. 200 ft² alan için yeterli betonları var. Karenin bir kenarı en yakın onda birliğe göre kaç feet olabilir?")],
+                sol("Çözüm: Kenar uzunluğu √200 feet olur. √200≈14,142 olduğundan en yakın onda birliğe 14,1 feet bulunur."),
+              ),
+              ex("Sıra Sizde 5.157", [t("Katie kare biçimli bir çim alan yapmak istiyor. 370 ft² alanı kaplayacak kadar çimi var. Karenin bir kenarı en yakın onda birliğe göre kaç feet olabilir?")]),
+              ex("Sıra Sizde 5.158", [t("Sergio masası için kare mozaik yapmak istiyor. 2704 cm² alanı kaplayacak kadar karosu var. Karenin bir kenarı kaç cm olabilir?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "yercekimi-ve-karekok",
+        replaceBlocks: [
+          ...removeBlocks(6),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Dünya'da bir cisim "),
+                m("h"),
+                t(" feet yükseklikten bırakılırsa yere ulaşma süresi yaklaşık "),
+                m("\\frac{\\sqrt{h}}{4}"),
+                t(" saniyedir."),
+              ]),
+              ex(
+                "Örnek 5.80",
+                [t("Christy güneş gözlüklerini nehrin 400 feet üzerindeki bir köprüden düşürdü. Gözlüklerin nehre ulaşması kaç saniye sürer?")],
+                sol("Çözüm: h=400 için süre √400/4=20/4=5 saniyedir."),
+              ),
+              ex("Sıra Sizde 5.159", [t("Bir helikopter 1296 feet yükseklikten yardım paketi bırakıyor. Paketin yere ulaşması kaç saniye sürer?")]),
+              ex("Sıra Sizde 5.160", [t("Bir cam temizleyicisi kaldırımdan 196 feet yukarıdaki platformdan çekçek düşürüyor. Çekçeğin kaldırıma ulaşması kaç saniye sürer?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kaza-incelemeleri-ve-karekok",
+        replaceBlocks: [
+          ...removeBlocks(4),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Kaza incelemelerinde fren izinin uzunluğu aracın hızını tahmin etmek için kullanılabilir. Fren izi "),
+                m("d"),
+                t(" feet ise hız yaklaşık "),
+                m("\\sqrt{24d}"),
+                t(" mph ile bulunur."),
+              ]),
+              ex(
+                "Örnek 5.81",
+                [t("Bir kazadan sonra bir aracın fren izi 190 feet ölçüldü. Fren yapılmadan önce aracın hızı en yakın onda birliğe göre kaç mph idi?")],
+                sol("Çözüm: Hız √(24·190)=√4560≈67,528 mph olur. En yakın onda birliğe 67,5 mph bulunur."),
+              ),
+              ex("Sıra Sizde 5.161", [t("Bir kaza incelemecisi bir aracın fren izini 76 feet ölçtü. Fren yapılmadan önce aracın hızı en yakın onda birliğe göre kaç mph idi?")]),
+              ex("Sıra Sizde 5.162", [t("Bir kazaya karışan aracın fren izi 122 feet idi. Fren yapılmadan önce araç en yakın onda birliğe göre kaç mph hızla gidiyordu?")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

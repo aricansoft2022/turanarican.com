@@ -211,19 +211,41 @@ export async function fetchLessonAssetManifest(
   };
 }
 
-export async function fetchLibreTextsHtml(sourceUrl: string) {
-  const response = await fetch(sourceUrl, {
-    headers: {
-      "user-agent":
-        "turanarican.com content ingestion preview (contact: admin@turanarican.com)",
-    },
-  });
+const libreTextsFetchAttempts = 8;
+const libreTextsRetryDelayMs = 2_500;
 
-  if (!response.ok) {
-    throw new Error(`LibreTexts fetch failed: ${response.status} ${sourceUrl}`);
+export async function fetchLibreTextsHtml(sourceUrl: string) {
+  let lastError: unknown;
+
+  for (let attempt = 1; attempt <= libreTextsFetchAttempts; attempt += 1) {
+    try {
+      const response = await fetch(sourceUrl, {
+        headers: {
+          "user-agent":
+            "turanarican.com content ingestion preview (contact: admin@turanarican.com)",
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`LibreTexts fetch failed: ${response.status} ${sourceUrl}`);
+      }
+
+      return response.text();
+    } catch (error) {
+      lastError = error;
+
+      if (attempt === libreTextsFetchAttempts) break;
+      await delay(libreTextsRetryDelayMs * attempt);
+    }
   }
 
-  return response.text();
+  throw new Error(`LibreTexts fetch failed after retries: ${sourceUrl}`, {
+    cause: lastError,
+  });
+}
+
+function delay(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 export function hashText(text: string) {

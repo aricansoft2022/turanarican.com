@@ -59260,6 +59260,2311 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "5.8",
+      "displayNumber": "4.7",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots",
+      "contentHash": "8db42c558afbfc1989ea653c1f15188ec11a9dde95687655f127e5e6fbe08c1f",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-7311847495b429f6",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103025/d2dabb8a52083d6d964c4af4991cf2ea866eda93?revision=1",
+          "type": "image",
+          "altText": "A square is shown with 3 tiles on each side. There are a total of 9 tiles in the square.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/000-7311847495b429f6.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/000-7311847495b429f6.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "001-0041497f3f77c89e",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103027/3c2ffde0a5111f6274cb879f27e6464450317074?revision=1",
+          "type": "image",
+          "altText": "A table with two columns is shown. The first column is labeled “Number” and has the values: n, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15. The second column is labeled “Square” and has the values: n squared, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, and 225.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/001-0041497f3f77c89e.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/001-0041497f3f77c89e.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "002-c5795a41e32e83d1",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103028/891aa5cf5b2f4f25956d633d6529b59e81521acc?revision=1",
+          "type": "image",
+          "altText": "A table is shown with 2 columns. The first column is labeled “Number” and contains the values: n, negative 1, negative 2, negative 3, negative 4, negative 5, negative 6, negative 7, negative 8, negative 9, negative 10, negative 11, negative 12, negative 13, negative 14, and negative 15. The next column is labeled “Square” and contains the values: n squared, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, and 225.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/002-c5795a41e32e83d1.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/002-c5795a41e32e83d1.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "003-e97a1924666222f7",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103022/7ec7e581d26bdb80723087e6379881bc6c6b717a?revision=1",
+          "type": "image",
+          "altText": "A picture of an m inside a square root sign is shown. The sign is labeled as a radical sign and the m is labeled as the radicand.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/003-e97a1924666222f7.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/003-e97a1924666222f7.png",
+          "preferredTreatment": "reuse_original",
+          "status": "discovered"
+        },
+        {
+          "id": "004-7005477e1a620e46",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103023/d2be5c2efb95e5a5c3495586b518cb7d7c1e134d?revision=1",
+          "type": "image",
+          "altText": "A table is shown with 2 columns. The first column contains the values: square root of 1, square root of 4, square root of 9, square root of 16, square root of 25, square root of 36, square root of 49, square root of 64, square root of 81, square root of 100, square root of 121, square root of 144, square root of 169, square root of 196, and square root of 225. The second column contains the values: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, and 15.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/004-7005477e1a620e46.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/004-7005477e1a620e46.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "005-185d7f80b8c6a095",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103032/749858a82525fa32d9130c547d593d4865b29a8e?revision=1",
+          "type": "image",
+          "altText": "A table is shown with 2 columns. The first column is labeled “Number” and contains the values: 4, 5, 6, 7, 8, 9. The second column is labeled “Square root” and contains the values: square root of 4 equals 2, square root of 5, square root of 6, square root of 7, square root of 8, square root of 9 equals 3.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/005-185d7f80b8c6a095.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/005-185d7f80b8c6a095.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "006-435f70bbfa801aa8",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/103033/86c001776babdf1af162d2e1bef787676b811e21?revision=1",
+          "type": "image",
+          "altText": "A table is shown with 2 columns. The first column is labeled “Number” and contains the values: 36, 49, 64, and 81. There is a balloon coming out of the table between 49 and 64 that says 60. The second column is labeled “Square root” and contains the values: 6, 7, 8, and 9. There is a balloon coming out of the table between 7 and 8 that says square root of 60.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/006-435f70bbfa801aa8.png",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/006-435f70bbfa801aa8.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "90c7a03a936b2ed5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/90c7a03a936b2ed5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/90c7a03a936b2ed5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c7167c2a822e14e2",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/c7167c2a822e14e2.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/c7167c2a822e14e2.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "0b13f8b54163da64",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/0b13f8b54163da64.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/0b13f8b54163da64.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d20fb1ac913e0d7d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/d20fb1ac913e0d7d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/d20fb1ac913e0d7d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b88d5c75c260f602",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-4",
+          "type": "table",
+          "caption": "ⓑ The negative is in front of the radical sign, so we find the opposite of the square root of 121.121.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/b88d5c75c260f602.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/b88d5c75c260f602.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "edf52e52e1699d89",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/edf52e52e1699d89.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/edf52e52e1699d89.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "8a920bce7bcc22b5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/8a920bce7bcc22b5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/8a920bce7bcc22b5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "012ed79948e8fefb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/012ed79948e8fefb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/012ed79948e8fefb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "145c8f3b5adcbb6f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/145c8f3b5adcbb6f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/145c8f3b5adcbb6f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c644e24f06dd9a5c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-9",
+          "type": "table",
+          "caption": "Think about what we would have to square to get x2x2. Algebraically, (?)2=x2(?)2=x2",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/c644e24f06dd9a5c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/c644e24f06dd9a5c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "26f9c0607b8682eb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/26f9c0607b8682eb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/26f9c0607b8682eb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ec13713aa5dcb565",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/ec13713aa5dcb565.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/ec13713aa5dcb565.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e45f7700528dbde0",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-12",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/e45f7700528dbde0.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/e45f7700528dbde0.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "dd92ec0ef8ed0e40",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/dd92ec0ef8ed0e40.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/dd92ec0ef8ed0e40.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "50122ffd5085f26c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-14",
+          "type": "table",
+          "caption": "We know the area of the square is 200200 square feet and want to find the length of the side. If the area of the square is AA square units, the length of a side is AA units.",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/50122ffd5085f26c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/50122ffd5085f26c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "6de985d3492fb583",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-15",
+          "type": "table",
+          "caption": "Another application of square roots involves gravity. On Earth, if an object is dropped from a height of hh feet, the time in seconds it will take to reach the ground is found by evaluating the expression h4.h4. For example, if an object is",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/6de985d3492fb583.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/6de985d3492fb583.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "b9d49529fe72d571",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-16",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/b9d49529fe72d571.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/b9d49529fe72d571.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "450966a550169f0c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots#table-17",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/450966a550169f0c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/4-7-simplify-and-use-square-roots/450966a550169f0c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 5,
+        "sections": 12,
+        "blocks": 66,
+        "examples": 13,
+        "tryIts": 26,
+        "sourceExercises": 23,
+        "exercises": 23,
+        "mathTokens": 57,
+        "assets": 25
+      },
+      "lesson": {
+        "id": "lesson-square-roots",
+        "slug": "karekokler-ve-uygulamalar",
+        "displayTitle": "Karekökler ve Uygulamalar",
+        "summary": "Karekökleri sadeleştirin, karekökleri tahmin edip yaklaşık değerlerini bulun ve karekökleri alan, düşme süresi ve hız uygulamalarında kullanın.",
+        "sortOrder": 7,
+        "chapterId": "chapter-decimals",
+        "sourceNumber": "5.8",
+        "displayNumber": "4.7",
+        "sourceTitle": "Simplify and Use Square Roots",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/05%3A_Decimals/5.08%3A_Simplify_and_Use_Square_Roots",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "ondalik-sayilar",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Karekök içeren ifadeleri sadeleştirebileceksiniz.",
+          "Karekökleri ardışık tam sayılar arasında tahmin edebileceksiniz.",
+          "Kareköklerin yaklaşık değerlerini hesaplayabileceksiniz.",
+          "Değişkenli karekök ifadelerini sadeleştirebileceksiniz.",
+          "Karekökleri gerçek yaşam uygulamalarında kullanabileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "karekokler-ve-uygulamalar-section-01",
+            "heading": "Kareköklerle İfadeleri Sadeleştirme",
+            "slug": "karekoklerle-ifadeleri-sadelestirme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karekökleri çalışmadan önce kare alma fikrini hatırlayalım. Bir sayı kendisiyle çarpıldığında o sayının karesi elde edilir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ifadesi “8'in karesi” diye okunur ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "8^{2}=64"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bu yüzden 64 sayısı 8'in karesidir. Benzer biçimde 121 sayısı 11'in karesidir; çünkü 11²=121."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-02",
+            "heading": "Kareleri Modelleme",
+            "slug": "kareleri-modelleme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kare sözcüğü geometriden gelir. Her kenarında 3 karo bulunan bir kare modeli toplam 9 karodan oluşur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "3^{2}=9"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "9 sayısına tam kare deriz; çünkü bir tam sayının karesidir. 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196 ve 225 ilk tam karelerden bazılarıdır."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Negatif sayıların karesi de pozitiftir. Örneğin (-8)²=(-8)(-8)=64 olur. Bu nedenle pozitif ve negatif eş sayıların kareleri aynıdır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-03",
+            "heading": "Karekökler",
+            "slug": "karekokler",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karekök, kare alma işlemini ters yönden düşünür. 10²=100 olduğundan 10 sayısı 100'ün bir kareköküdür. (-10)²=100 olduğu için -10 da 100'ün kareköküdür."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Pozitif bir sayının iki karekökü vardır: biri pozitif, biri negatif. Karekök işareti √ ise pozitif, yani temel karekökü gösterir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Sıfırın karekökü sıfırdır: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{0}=0"
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Sıfırın yalnızca bir karekökü vardır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.69",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{25}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{121}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 5²=25 olduğundan √25=5. ⓑ 11²=121 olduğundan √121=11."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.137",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{36}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{169}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 6²=36 olduğundan √36=6. ⓑ 13²=169 olduğundan √169=13."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.138",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{16}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{196}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 4²=16 olduğundan √16=4. ⓑ 14²=196 olduğundan √196=14."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Negatif karekök istenirse negatif işaret karekök işaretinin önüne yazılır. Örneğin -√100=-10 olur."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.70",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{9}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{144}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ √9=3 olduğundan -√9=-3. ⓑ √144=12 olduğundan -√144=-12."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.139",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{225}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Negatif işaret kökün dışındadır. ⓐ -√4=-2. ⓑ -√225=-15."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.140",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{81}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{64}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Negatif işaret kökün dışındadır. ⓐ -√81=-9. ⓑ -√64=-8."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-04",
+            "heading": "Negatif Sayının Karekökü",
+            "slug": "negatif-sayinin-karekoku",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Gerçek sayılar içinde karesi negatif olan bir sayı yoktur. Pozitif sayıların karesi pozitiftir; negatif sayıların karesi de pozitiftir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bu nedenle negatif bir sayının karekökü gerçek sayı değildir. Ancak negatif işaret kökün dışındaysa önce pozitif karekök alınır, sonra işaret uygulanır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.71",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{-169}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{121}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ √(-169) gerçek sayı değildir. ⓑ Negatif işaret kökün dışındadır; -√121=-11 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.141",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{-196}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{81}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ Karesi -196 olan gerçek sayı yoktur; √(-196) gerçek sayı değildir. ⓑ -√81=-9 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.142",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{-49}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{121}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ √(-49) gerçek sayı değildir. ⓑ Negatif işaret kökün dışındadır; -√121=-11 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-05",
+            "heading": "Karekökler ve İşlem Sırası",
+            "slug": "karekokler-ve-islem-sirasi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karekök içeren ifadelerde karekök işaretini bir gruplama sembolü gibi düşünürüz. Kökün içindeki işlemler önce yapılır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.72",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{25}+\\sqrt{144}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{25+144}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ Karekökleri ayrı ayrı alırız: 5+12=17. ⓑ Önce kökün içini toplarız: √169=13."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.143",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{9}+\\sqrt{16}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{9+16}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ √9+√16=3+4=7. ⓑ Önce kökün içini toplarız: √(9+16)=√25=5."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.144",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: ⓐ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{64+225}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ⓑ "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{64}+\\sqrt{225}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ √(64+225)=√289=17. ⓑ √64+√225=8+15=23."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karekökleri ayrı ayrı almak ile önce kökün içini sadeleştirmek aynı şey değildir. İşlem sırası sonucu belirler."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-06",
+            "heading": "Karekök Tahmini",
+            "slug": "karekok-tahmini",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Tam kare olmayan sayıların karekökleri tam sayı değildir. Bu değerleri ardışık iki tam sayı arasında tahmin edebiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin 5 sayısı 4 ile 9 arasındadır. Bu yüzden "
+                  },
+                  {
+                    "type": "math",
+                    "value": "2<\\sqrt{5}<3"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.73",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Ardışık iki tam sayı arasında tahmin edin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{60}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 49<60<64 ve √49=7, √64=8 olduğundan 7<√60<8 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.145",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Ardışık iki tam sayı arasında tahmin edin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{38}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 36<38<49 ve √36=6, √49=7 olduğundan 6<√38<7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.146",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Ardışık iki tam sayı arasında tahmin edin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{84}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 81<84<100 ve √81=9, √100=10 olduğundan 9<√84<10 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-07",
+            "heading": "Hesap Makinesiyle Karekök Yaklaşımı",
+            "slug": "hesap-makinesiyle-karekok-yaklasimi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Tam kare olmayan sayıların kareköklerini hesap makinesiyle yaklaşık olarak bulabiliriz. Yaklaşık eşitlik için ≈ sembolünü kullanırız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{5}\\approx2{,}236067978"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve iki ondalık basamağa yuvarlanmış hali "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{5}\\approx2{,}24"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yaklaşık değerlerin karesi başlangıç sayısına çok yakındır, fakat genellikle tam olarak eşit değildir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.74",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Hesap makinesi kullanarak "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{17}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " değerini iki ondalık basamağa yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Hesap makinesiyle √17≈4,123105626 bulunur. İki ondalık basamağa yuvarlayınca 4,12 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.147",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{11}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " değerini iki ondalık basamağa yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Hesap makinesiyle √11≈3,3166 bulunur. İki ondalık basamağa yuvarlayınca 3,32 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.148",
+                "prompt": [
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{13}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " değerini iki ondalık basamağa yuvarlayın."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Hesap makinesiyle √13≈3,6055 bulunur. İki ondalık basamağa yuvarlayınca 3,61 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-08",
+            "heading": "Değişkenli Karekök İfadeleri",
+            "slug": "degiskenli-karekok-ifadeleri",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karekök ifadelerinde değişkenler de bulunabilir. Bu dersin örneklerinde ve alıştırmalarında karekök içindeki değişkenlerin negatif olmadığını varsayacağız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{9x^{2}}=3x"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olur; çünkü "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(3x)^{2}=9x^{2}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.75",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{x^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Değişken negatif değildir. x² elde etmek için x'i kare alırız; bu yüzden √(x²)=x olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.149",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{y^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Değişkenin negatif olmadığını varsayarız. √(y²)=y olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.150",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{m^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Değişkenin negatif olmadığını varsayarak √(m²)=m buluruz."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.76",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{16x^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: (4x)²=16x² olduğundan √(16x²)=4x olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.151",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{64x^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: (8x)²=64x² olduğundan √(64x²)=8x olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.152",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{169y^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: (13y)²=169y² olduğundan √(169y²)=13y olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.77",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{81y^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: √(81y²)=9y olur. Kökün dışındaki negatif işaretle sonuç -9y'dir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.153",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{121y^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: √(121y²)=11y, dıştaki negatif işaretle sonuç -11y olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.154",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "-\\sqrt{100p^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: √(100p²)=10p, dıştaki negatif işaretle sonuç -10p olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.78",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{36x^{2}y^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: (6xy)²=36x²y² olduğundan √(36x²y²)=6xy olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.155",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{100a^{2}b^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: (10ab)²=100a²b² olduğundan √(100a²b²)=10ab olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.156",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{225m^{2}n^{2}}"
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: (15mn)²=225m²n² olduğundan √(225m²n²)=15mn olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-09",
+            "heading": "Karekök Uygulamaları",
+            "slug": "karekok-uygulamalari",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Karekökler alan, düşme süresi ve kaza incelemesi gibi uygulamalarda karşımıza çıkar. Her uygulamada önce verilen büyüklüğü tanır, sonra uygun karekök ifadesini değerlendiririz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-10",
+            "heading": "Alan ve Karekök",
+            "slug": "alan-ve-karekok",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir karenin alanı kenar uzunluğunun karesidir. Alan verildiğinde kenar uzunluğunu bulmak için alanın karekökünü alırız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Alan "
+                  },
+                  {
+                    "type": "math",
+                    "value": "A"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ise karenin bir kenarı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{A}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " birimdir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.79",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Mike ve Lychelle kare biçimli bir veranda yapmak istiyor. 200 ft² alan için yeterli betonları var. Karenin bir kenarı en yakın onda birliğe göre kaç feet olabilir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Kenar uzunluğu √200 feet olur. √200≈14,142 olduğundan en yakın onda birliğe 14,1 feet bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.157",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Katie kare biçimli bir çim alan yapmak istiyor. 370 ft² alanı kaplayacak kadar çimi var. Karenin bir kenarı en yakın onda birliğe göre kaç feet olabilir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Karenin bir kenarı √370 feet olur. √370≈19,235 olduğundan en yakın onda birliğe 19,2 feet bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.158",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sergio masası için kare mozaik yapmak istiyor. 2704 cm² alanı kaplayacak kadar karosu var. Karenin bir kenarı kaç cm olabilir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Karenin bir kenarı √2704 cm'dir. 52²=2704 olduğundan kenar uzunluğu 52 cm olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-11",
+            "heading": "Yerçekimi ve Karekök",
+            "slug": "yercekimi-ve-karekok",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Dünya'da bir cisim "
+                  },
+                  {
+                    "type": "math",
+                    "value": "h"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet yükseklikten bırakılırsa yere ulaşma süresi yaklaşık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\sqrt{h}}{4}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " saniyedir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.80",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Christy güneş gözlüklerini nehrin 400 feet üzerindeki bir köprüden düşürdü. Gözlüklerin nehre ulaşması kaç saniye sürer?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: h=400 için süre √400/4=20/4=5 saniyedir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.159",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir helikopter 1296 feet yükseklikten yardım paketi bırakıyor. Paketin yere ulaşması kaç saniye sürer?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Süre √1296/4=36/4=9 saniyedir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.160",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir cam temizleyicisi kaldırımdan 196 feet yukarıdaki platformdan çekçek düşürüyor. Çekçeğin kaldırıma ulaşması kaç saniye sürer?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Süre √196/4=14/4=3,5 saniyedir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "karekokler-ve-uygulamalar-section-12",
+            "heading": "Kaza İncelemeleri ve Karekök",
+            "slug": "kaza-incelemeleri-ve-karekok",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kaza incelemelerinde fren izinin uzunluğu aracın hızını tahmin etmek için kullanılabilir. Fren izi "
+                  },
+                  {
+                    "type": "math",
+                    "value": "d"
+                  },
+                  {
+                    "type": "text",
+                    "value": " feet ise hız yaklaşık "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\sqrt{24d}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " mph ile bulunur."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 5.81",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir kazadan sonra bir aracın fren izi 190 feet ölçüldü. Fren yapılmadan önce aracın hızı en yakın onda birliğe göre kaç mph idi?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Hız √(24·190)=√4560≈67,528 mph olur. En yakın onda birliğe 67,5 mph bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.161",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir kaza incelemecisi bir aracın fren izini 76 feet ölçtü. Fren yapılmadan önce aracın hızı en yakın onda birliğe göre kaç mph idi?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Hız √(24·76)=√1824≈42,708 mph olur. En yakın onda birliğe 42,7 mph bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 5.162",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir kazaya karışan aracın fren izi 122 feet idi. Fren yapılmadan önce araç en yakın onda birliğe göre kaç mph hızla gidiyordu?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Hız √(24·122)=√2928≈54,111 mph olur. En yakın onda birliğe 54,1 mph bulunur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-489",
+            "number": "489",
+            "sectionSlug": "karekokler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: √36."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Karekök işareti pozitif karekökü ister. 6²=36 olduğundan √36=6 olur."
+              }
+            ],
+            "sortOrder": 489
+          },
+          {
+            "id": "exercise-491",
+            "number": "491",
+            "sectionSlug": "karekokler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: √64."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Karekök işareti pozitif karekökü verir. 8²=64 olduğundan √64=8 olur."
+              }
+            ],
+            "sortOrder": 491
+          },
+          {
+            "id": "exercise-493",
+            "number": "493",
+            "sectionSlug": "karekokler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: -√4."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: √4=2'dir. Negatif işaret kökün dışında olduğu için sonuç -2 olur."
+              }
+            ],
+            "sortOrder": 493
+          },
+          {
+            "id": "exercise-495",
+            "number": "495",
+            "sectionSlug": "karekokler",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: -√1."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: √1=1'dir. Negatif işaret kökün dışında olduğundan sonuç -1 olur."
+              }
+            ],
+            "sortOrder": 495
+          },
+          {
+            "id": "exercise-497",
+            "number": "497",
+            "sectionSlug": "negatif-sayinin-karekoku",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: √(-121)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Karesi -121 olan gerçek sayı yoktur. Bu nedenle √(-121) gerçek sayı değildir."
+              }
+            ],
+            "sortOrder": 497
+          },
+          {
+            "id": "exercise-499",
+            "number": "499",
+            "sectionSlug": "negatif-sayinin-karekoku",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: √(-9)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Karesi -9 olan gerçek sayı yoktur. Bu nedenle √(-9) gerçek sayı değildir."
+              }
+            ],
+            "sortOrder": 499
+          },
+          {
+            "id": "exercise-501",
+            "number": "501",
+            "sectionSlug": "karekokler-ve-islem-sirasi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: √(9+16)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Önce kökün içini sadeleştiririz: 9+16=25. √25=5 olur."
+              }
+            ],
+            "sortOrder": 501
+          },
+          {
+            "id": "exercise-503",
+            "number": "503",
+            "sectionSlug": "karekokler-ve-islem-sirasi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: √9+√16."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kökleri ayrı ayrı alırız: √9+√16=3+4=7 olur."
+              }
+            ],
+            "sortOrder": 503
+          },
+          {
+            "id": "exercise-505",
+            "number": "505",
+            "sectionSlug": "karekok-tahmini",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karekökü ardışık iki tam sayı arasında tahmin edin: √70."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 64<70<81 ve √64=8, √81=9 olduğundan 8<√70<9 olur."
+              }
+            ],
+            "sortOrder": 505
+          },
+          {
+            "id": "exercise-507",
+            "number": "507",
+            "sectionSlug": "karekok-tahmini",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karekökü ardışık iki tam sayı arasında tahmin edin: √200."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 196<200<225 ve √196=14, √225=15 olduğundan 14<√200<15 olur."
+              }
+            ],
+            "sortOrder": 507
+          },
+          {
+            "id": "exercise-509",
+            "number": "509",
+            "sectionSlug": "hesap-makinesiyle-karekok-yaklasimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesap makinesiyle yaklaşık değeri bulun ve iki ondalık basamağa yuvarlayın: √19."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Hesap makinesiyle √19≈4,3589 bulunur. İki ondalık basamağa yuvarlayınca 4,36 olur."
+              }
+            ],
+            "sortOrder": 509
+          },
+          {
+            "id": "exercise-511",
+            "number": "511",
+            "sectionSlug": "hesap-makinesiyle-karekok-yaklasimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hesap makinesiyle yaklaşık değeri bulun ve iki ondalık basamağa yuvarlayın: √53."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Hesap makinesiyle √53≈7,2801 bulunur. İki ondalık basamağa yuvarlayınca 7,28 olur."
+              }
+            ],
+            "sortOrder": 511
+          },
+          {
+            "id": "exercise-513",
+            "number": "513",
+            "sectionSlug": "degiskenli-karekok-ifadeleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tüm değişkenlerin negatif olmadığını varsayarak sadeleştirin: √(y²)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Değişken negatif değildir. Bu yüzden √(y²)=y olur."
+              }
+            ],
+            "sortOrder": 513
+          },
+          {
+            "id": "exercise-515",
+            "number": "515",
+            "sectionSlug": "degiskenli-karekok-ifadeleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tüm değişkenlerin negatif olmadığını varsayarak sadeleştirin: √(49x²)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Değişkenin negatif olmadığı varsayılır. (7x)²=49x² olduğundan √(49x²)=7x olur."
+              }
+            ],
+            "sortOrder": 515
+          },
+          {
+            "id": "exercise-517",
+            "number": "517",
+            "sectionSlug": "degiskenli-karekok-ifadeleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tüm değişkenlerin negatif olmadığını varsayarak sadeleştirin: -√(64a²)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: √(64a²)=8a, dıştaki negatif işaretle sonuç -8a olur."
+              }
+            ],
+            "sortOrder": 517
+          },
+          {
+            "id": "exercise-519",
+            "number": "519",
+            "sectionSlug": "degiskenli-karekok-ifadeleri",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Tüm değişkenlerin negatif olmadığını varsayarak sadeleştirin: √(144x²y²)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: (12xy)²=144x²y² olduğundan √(144x²y²)=12xy olur."
+              }
+            ],
+            "sortOrder": 519
+          },
+          {
+            "id": "exercise-521",
+            "number": "521",
+            "sectionSlug": "alan-ve-karekok",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Reed arka bahçesinde kare biçimli bir bahçe alanı yapmak istiyor. 75 ft² alanı kaplayacak kadar kompostu var. Karenin bir kenarı kaç feet olabilir? En yakın onda birliğe yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Karenin kenarı alanın kareköküdür. √75≈8,660 olduğundan en yakın onda birliğe 8,7 feet olur."
+              }
+            ],
+            "sortOrder": 521
+          },
+          {
+            "id": "exercise-523",
+            "number": "523",
+            "sectionSlug": "yercekimi-ve-karekok",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir uçak gölün 1.024 feet üzerinden işaret fişeği bıraktı. Fişeğin suya ulaşması kaç saniye sürer?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Düşme süresi √h/4 ile bulunur. √1024/4=32/4=8 saniye olur."
+              }
+            ],
+            "sortOrder": 523
+          },
+          {
+            "id": "exercise-525",
+            "number": "525",
+            "sectionSlug": "yercekimi-ve-karekok",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir işçi Grand Canyon skywalk yapımında Colorado Nehri'nin 4.000 feet üstünden bir çekiç düşürdü. Çekicin nehre ulaşması kaç saniye sürer? En yakın onda birliğe yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Düşme süresi √4000/4≈63,2455/4≈15,811 saniyedir. En yakın onda birliğe 15,8 saniye olur."
+              }
+            ],
+            "sortOrder": 525
+          },
+          {
+            "id": "exercise-527",
+            "number": "527",
+            "sectionSlug": "kaza-incelemeleri-ve-karekok",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir kazaya karışan arabanın fren izi 216 feet ölçüldü. Fren yapılmadan önce arabanın hızı kaç mph idi? En yakın onda birliğe yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Hız √(24d) ile bulunur. d=216 için √(24·216)=√5184=72,0 mph olur."
+              }
+            ],
+            "sortOrder": 527
+          },
+          {
+            "id": "exercise-529",
+            "number": "529",
+            "sectionSlug": "kaza-incelemeleri-ve-karekok",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Bir kaza incelemesinde araçlardan birinin fren izi 117 feet ölçüldü. Fren yapılmadan önce aracın hızı kaç mph idi? En yakın onda birliğe yuvarlayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: d=117 için hız √(24·117)=√2808≈52,9906 mph olur. En yakın onda birliğe 53,0 mph bulunur."
+              }
+            ],
+            "sortOrder": 529
+          },
+          {
+            "id": "exercise-531",
+            "number": "531",
+            "sectionSlug": "alan-ve-karekok",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Morris yeni verandasına kare mozaik yerleştirmek istiyor. Bütçesi 2.025 karo için yeterli. Her karo 1 in² alanlı kare olduğuna göre mozaiğin bir kenarı kaç inch olabilir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplam alan 2.025 in² olduğundan kare mozaiğin bir kenarı √2025 inch'tir. 45²=2025 olduğu için kenar 45 inch olur."
+              }
+            ],
+            "sortOrder": 531
+          },
+          {
+            "id": "exercise-533",
+            "number": "533",
+            "sectionSlug": "karekoklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "9² ile √9 arasındaki fark nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 9², 9'un karesi demektir ve 81'e eşittir. √9 ise karesi 9 olan pozitif sayıyı verir, yani 3'tür. Sayısal fark 81-3=78'dir."
+              }
+            ],
+            "sortOrder": 533
+          }
+        ]
+      }
     }
   ]
 }

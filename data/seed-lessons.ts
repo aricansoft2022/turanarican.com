@@ -5027,4 +5027,199 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "487": "birim-oran-bulma",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "ondalik-sayilar",
+    sourceNumber: "5.8",
+    catalogLesson: {
+      id: "lesson-square-roots",
+      slug: "karekokler-ve-uygulamalar",
+      displayTitle: "Karekökler ve Uygulamalar",
+      summary:
+        "Karekökleri sadeleştirin, karekökleri tahmin edip yaklaşık değerlerini bulun ve karekökleri alan, düşme süresi ve hız uygulamalarında kullanın.",
+      sortOrder: 7,
+    },
+    objectives: [
+      "Karekök içeren ifadeleri sadeleştirebileceksiniz.",
+      "Karekökleri ardışık tam sayılar arasında tahmin edebileceksiniz.",
+      "Kareköklerin yaklaşık değerlerini hesaplayabileceksiniz.",
+      "Değişkenli karekök ifadelerini sadeleştirebileceksiniz.",
+      "Karekökleri gerçek yaşam uygulamalarında kullanabileceksiniz.",
+    ],
+    sectionTitles: {
+      "Simplify Expressions with Square Roots":
+        "Kareköklerle İfadeleri Sadeleştirme",
+      "Modeling Squares": "Kareleri Modelleme",
+      "Square Roots": "Karekökler",
+      "Square Root of a Negative Number": "Negatif Sayının Karekökü",
+      "Square Roots and the Order of Operations":
+        "Karekökler ve İşlem Sırası",
+      "Estimate Square Roots": "Karekök Tahmini",
+      "Approximate Square Roots with a Calculator":
+        "Hesap Makinesiyle Karekök Yaklaşımı",
+      "Simplify Variable Expressions with Square Roots":
+        "Değişkenli Karekök İfadeleri",
+      "Use Square Roots in Applications": "Karekök Uygulamaları",
+      "Square Roots and Area": "Alan ve Karekök",
+      "Square Roots and Gravity": "Yerçekimi ve Karekök",
+      "Square Roots and Accident Investigations":
+        "Kaza İncelemeleri ve Karekök",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 5.137": p(
+        "Çözüm: ⓐ 6²=36 olduğundan √36=6. ⓑ 13²=169 olduğundan √169=13.",
+      ),
+      "Sıra Sizde 5.138": p(
+        "Çözüm: ⓐ 4²=16 olduğundan √16=4. ⓑ 14²=196 olduğundan √196=14.",
+      ),
+      "Sıra Sizde 5.139": p(
+        "Çözüm: Negatif işaret kökün dışındadır. ⓐ -√4=-2. ⓑ -√225=-15.",
+      ),
+      "Sıra Sizde 5.140": p(
+        "Çözüm: Negatif işaret kökün dışındadır. ⓐ -√81=-9. ⓑ -√64=-8.",
+      ),
+      "Sıra Sizde 5.141": p(
+        "Çözüm: ⓐ Karesi -196 olan gerçek sayı yoktur; √(-196) gerçek sayı değildir. ⓑ -√81=-9 olur.",
+      ),
+      "Sıra Sizde 5.142": p(
+        "Çözüm: ⓐ √(-49) gerçek sayı değildir. ⓑ Negatif işaret kökün dışındadır; -√121=-11 olur.",
+      ),
+      "Sıra Sizde 5.143": p(
+        "Çözüm: ⓐ √9+√16=3+4=7. ⓑ Önce kökün içini toplarız: √(9+16)=√25=5.",
+      ),
+      "Sıra Sizde 5.144": p(
+        "Çözüm: ⓐ √(64+225)=√289=17. ⓑ √64+√225=8+15=23.",
+      ),
+      "Sıra Sizde 5.145": p(
+        "Çözüm: 36<38<49 ve √36=6, √49=7 olduğundan 6<√38<7 olur.",
+      ),
+      "Sıra Sizde 5.146": p(
+        "Çözüm: 81<84<100 ve √81=9, √100=10 olduğundan 9<√84<10 olur.",
+      ),
+      "Sıra Sizde 5.147": p(
+        "Çözüm: Hesap makinesiyle √11≈3,3166 bulunur. İki ondalık basamağa yuvarlayınca 3,32 olur.",
+      ),
+      "Sıra Sizde 5.148": p(
+        "Çözüm: Hesap makinesiyle √13≈3,6055 bulunur. İki ondalık basamağa yuvarlayınca 3,61 olur.",
+      ),
+      "Sıra Sizde 5.149": p(
+        "Çözüm: Değişkenin negatif olmadığını varsayarız. √(y²)=y olur.",
+      ),
+      "Sıra Sizde 5.150": p(
+        "Çözüm: Değişkenin negatif olmadığını varsayarak √(m²)=m buluruz.",
+      ),
+      "Sıra Sizde 5.151": p(
+        "Çözüm: (8x)²=64x² olduğundan √(64x²)=8x olur.",
+      ),
+      "Sıra Sizde 5.152": p(
+        "Çözüm: (13y)²=169y² olduğundan √(169y²)=13y olur.",
+      ),
+      "Sıra Sizde 5.153": p(
+        "Çözüm: √(121y²)=11y, dıştaki negatif işaretle sonuç -11y olur.",
+      ),
+      "Sıra Sizde 5.154": p(
+        "Çözüm: √(100p²)=10p, dıştaki negatif işaretle sonuç -10p olur.",
+      ),
+      "Sıra Sizde 5.155": p(
+        "Çözüm: (10ab)²=100a²b² olduğundan √(100a²b²)=10ab olur.",
+      ),
+      "Sıra Sizde 5.156": p(
+        "Çözüm: (15mn)²=225m²n² olduğundan √(225m²n²)=15mn olur.",
+      ),
+      "Sıra Sizde 5.157": p(
+        "Çözüm: Karenin bir kenarı √370 feet olur. √370≈19,235 olduğundan en yakın onda birliğe 19,2 feet bulunur.",
+      ),
+      "Sıra Sizde 5.158": p(
+        "Çözüm: Karenin bir kenarı √2704 cm'dir. 52²=2704 olduğundan kenar uzunluğu 52 cm olur.",
+      ),
+      "Sıra Sizde 5.159": p(
+        "Çözüm: Süre √1296/4=36/4=9 saniyedir.",
+      ),
+      "Sıra Sizde 5.160": p(
+        "Çözüm: Süre √196/4=14/4=3,5 saniyedir.",
+      ),
+      "Sıra Sizde 5.161": p(
+        "Çözüm: Hız √(24·76)=√1824≈42,708 mph olur. En yakın onda birliğe 42,7 mph bulunur.",
+      ),
+      "Sıra Sizde 5.162": p(
+        "Çözüm: Hız √(24·122)=√2928≈54,111 mph olur. En yakın onda birliğe 54,1 mph bulunur.",
+      ),
+    },
+    exercisePrompts: {
+      "489": tx("Sadeleştirin: √36."),
+      "491": tx("Sadeleştirin: √64."),
+      "493": tx("Sadeleştirin: -√4."),
+      "495": tx("Sadeleştirin: -√1."),
+      "497": tx("Sadeleştirin: √(-121)."),
+      "499": tx("Sadeleştirin: √(-9)."),
+      "501": tx("Sadeleştirin: √(9+16)."),
+      "503": tx("Sadeleştirin: √9+√16."),
+      "505": tx("Karekökü ardışık iki tam sayı arasında tahmin edin: √70."),
+      "507": tx("Karekökü ardışık iki tam sayı arasında tahmin edin: √200."),
+      "509": tx("Hesap makinesiyle yaklaşık değeri bulun ve iki ondalık basamağa yuvarlayın: √19."),
+      "511": tx("Hesap makinesiyle yaklaşık değeri bulun ve iki ondalık basamağa yuvarlayın: √53."),
+      "513": tx("Tüm değişkenlerin negatif olmadığını varsayarak sadeleştirin: √(y²)."),
+      "515": tx("Tüm değişkenlerin negatif olmadığını varsayarak sadeleştirin: √(49x²)."),
+      "517": tx("Tüm değişkenlerin negatif olmadığını varsayarak sadeleştirin: -√(64a²)."),
+      "519": tx("Tüm değişkenlerin negatif olmadığını varsayarak sadeleştirin: √(144x²y²)."),
+      "521": tx("Reed arka bahçesinde kare biçimli bir bahçe alanı yapmak istiyor. 75 ft² alanı kaplayacak kadar kompostu var. Karenin bir kenarı kaç feet olabilir? En yakın onda birliğe yuvarlayın."),
+      "523": tx("Bir uçak gölün 1.024 feet üzerinden işaret fişeği bıraktı. Fişeğin suya ulaşması kaç saniye sürer?"),
+      "525": tx("Bir işçi Grand Canyon skywalk yapımında Colorado Nehri'nin 4.000 feet üstünden bir çekiç düşürdü. Çekicin nehre ulaşması kaç saniye sürer? En yakın onda birliğe yuvarlayın."),
+      "527": tx("Bir kazaya karışan arabanın fren izi 216 feet ölçüldü. Fren yapılmadan önce arabanın hızı kaç mph idi? En yakın onda birliğe yuvarlayın."),
+      "529": tx("Bir kaza incelemesinde araçlardan birinin fren izi 117 feet ölçüldü. Fren yapılmadan önce aracın hızı kaç mph idi? En yakın onda birliğe yuvarlayın."),
+      "531": tx("Morris yeni verandasına kare mozaik yerleştirmek istiyor. Bütçesi 2.025 karo için yeterli. Her karo 1 in² alanlı kare olduğuna göre mozaiğin bir kenarı kaç inch olabilir?"),
+      "533": tx("9² ile √9 arasındaki fark nedir?"),
+    },
+    exerciseAnswers: {
+      "489": answer("Çözüm: Karekök işareti pozitif karekökü ister. 6²=36 olduğundan √36=6 olur."),
+      "491": answer("Çözüm: Karekök işareti pozitif karekökü verir. 8²=64 olduğundan √64=8 olur."),
+      "493": answer("Çözüm: √4=2'dir. Negatif işaret kökün dışında olduğu için sonuç -2 olur."),
+      "495": answer("Çözüm: √1=1'dir. Negatif işaret kökün dışında olduğundan sonuç -1 olur."),
+      "497": answer("Çözüm: Karesi -121 olan gerçek sayı yoktur. Bu nedenle √(-121) gerçek sayı değildir."),
+      "499": answer("Çözüm: Karesi -9 olan gerçek sayı yoktur. Bu nedenle √(-9) gerçek sayı değildir."),
+      "501": answer("Çözüm: Önce kökün içini sadeleştiririz: 9+16=25. √25=5 olur."),
+      "503": answer("Çözüm: Kökleri ayrı ayrı alırız: √9+√16=3+4=7 olur."),
+      "505": answer("Çözüm: 64<70<81 ve √64=8, √81=9 olduğundan 8<√70<9 olur."),
+      "507": answer("Çözüm: 196<200<225 ve √196=14, √225=15 olduğundan 14<√200<15 olur."),
+      "509": answer("Çözüm: Hesap makinesiyle √19≈4,3589 bulunur. İki ondalık basamağa yuvarlayınca 4,36 olur."),
+      "511": answer("Çözüm: Hesap makinesiyle √53≈7,2801 bulunur. İki ondalık basamağa yuvarlayınca 7,28 olur."),
+      "513": answer("Çözüm: Değişken negatif değildir. Bu yüzden √(y²)=y olur."),
+      "515": answer("Çözüm: Değişkenin negatif olmadığı varsayılır. (7x)²=49x² olduğundan √(49x²)=7x olur."),
+      "517": answer("Çözüm: √(64a²)=8a, dıştaki negatif işaretle sonuç -8a olur."),
+      "519": answer("Çözüm: (12xy)²=144x²y² olduğundan √(144x²y²)=12xy olur."),
+      "521": answer("Çözüm: Karenin kenarı alanın kareköküdür. √75≈8,660 olduğundan en yakın onda birliğe 8,7 feet olur."),
+      "523": answer("Çözüm: Düşme süresi √h/4 ile bulunur. √1024/4=32/4=8 saniye olur."),
+      "525": answer("Çözüm: Düşme süresi √4000/4≈63,2455/4≈15,811 saniyedir. En yakın onda birliğe 15,8 saniye olur."),
+      "527": answer("Çözüm: Hız √(24d) ile bulunur. d=216 için √(24·216)=√5184=72,0 mph olur."),
+      "529": answer("Çözüm: d=117 için hız √(24·117)=√2808≈52,9906 mph olur. En yakın onda birliğe 53,0 mph bulunur."),
+      "531": answer("Çözüm: Toplam alan 2.025 in² olduğundan kare mozaiğin bir kenarı √2025 inch'tir. 45²=2025 olduğu için kenar 45 inch olur."),
+      "533": answer("Çözüm: 9², 9'un karesi demektir ve 81'e eşittir. √9 ise karesi 9 olan pozitif sayıyı verir, yani 3'tür. Sayısal fark 81-3=78'dir."),
+    },
+    exerciseSectionSlugs: {
+      "489": "karekokler",
+      "491": "karekokler",
+      "493": "karekokler",
+      "495": "karekokler",
+      "497": "negatif-sayinin-karekoku",
+      "499": "negatif-sayinin-karekoku",
+      "501": "karekokler-ve-islem-sirasi",
+      "503": "karekokler-ve-islem-sirasi",
+      "505": "karekok-tahmini",
+      "507": "karekok-tahmini",
+      "509": "hesap-makinesiyle-karekok-yaklasimi",
+      "511": "hesap-makinesiyle-karekok-yaklasimi",
+      "513": "degiskenli-karekok-ifadeleri",
+      "515": "degiskenli-karekok-ifadeleri",
+      "517": "degiskenli-karekok-ifadeleri",
+      "519": "degiskenli-karekok-ifadeleri",
+      "521": "alan-ve-karekok",
+      "523": "yercekimi-ve-karekok",
+      "525": "yercekimi-ve-karekok",
+      "527": "kaza-incelemeleri-ve-karekok",
+      "529": "kaza-incelemeleri-ve-karekok",
+      "531": "alan-ve-karekok",
+      "533": "karekoklerle-ifadeleri-sadelestirme",
+    },
+  },
 ];
