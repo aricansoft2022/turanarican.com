@@ -11924,6 +11924,166 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "7.3",
+    sections: [
+      {
+        sectionSlug: "degisme-ve-birlesme-ozelliklerini-kullanma",
+        replaceBlocks: [
+          ...removeBlocks(42),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Toplama ve çarpmada sayıların sırasını değiştirmek sonucu değiştirmez. Buna değişme özelliği denir.",
+              ),
+              p([
+                m("5+3=3+5"),
+                t(" ve "),
+                m("5\\cdot3=3\\cdot5"),
+                t(" eşitlikleri bu fikri gösterir."),
+              ]),
+              pt(
+                "Çıkarma ve bölme için aynı şey doğru değildir. Örneğin 7-3 ile 3-7 aynı sonuç değildir; 12÷4 ile 4÷12 de aynı değildir.",
+              ),
+              ex(
+                "Örnek 7.5",
+                [t("Değişme özelliklerini kullanarak yeniden yazın: ⓐ -1+3=___ ⓑ 4·9=___.")],
+                sol("Çözüm: ⓐ Toplamada sıralama değişebilir: -1+3=3+(-1). ⓑ Çarpmada sıralama değişebilir: 4·9=9·4."),
+              ),
+              ex("Sıra Sizde 7.9", [t("Değişme özelliklerini kullanarak yeniden yazın: ⓐ -4+7=___ ⓑ 6·12=___.")]),
+              ex("Sıra Sizde 7.10", [t("Değişme özelliklerini kullanarak yeniden yazın: ⓐ 14+(-2)=___ ⓑ 3(-5)=___.")]),
+              pt(
+                "Üç veya daha fazla sayı toplarken ya da çarparken gruplamayı değiştirmek de sonucu değiştirmez. Buna birleşme özelliği denir.",
+              ),
+              p([
+                m("(7+8)+2=7+(8+2)"),
+                t(" ve "),
+                m("(5\\cdot\\frac{1}{3})\\cdot3=5\\cdot(\\frac{1}{3}\\cdot3)"),
+                t(" örneklerinde yalnızca parantezlerin yeri değişmiştir."),
+              ]),
+              ex(
+                "Örnek 7.6",
+                [t("Birleşme özelliklerini kullanarak yeniden yazın: ⓐ (3+0,6)+0,4 ⓑ (-4·2/5)·15.")],
+                sol("Çözüm: ⓐ (3+0,6)+0,4=3+(0,6+0,4). ⓑ (-4·2/5)·15=-4·((2/5)·15). Böylece kolay çarpılan/toplanan sayılar birlikte gruplanır."),
+              ),
+              ex("Sıra Sizde 7.11", [
+                t("Birleşme özelliklerini kullanarak yeniden yazın: ⓐ (1+0,7)+0,3 ⓑ (-9·8)·3/4."),
+              ]),
+              ex("Sıra Sizde 7.12", [
+                t("Birleşme özelliklerini kullanarak yeniden yazın: ⓐ (4+0,6)+0,4 ⓑ (-2·12)·5/6."),
+              ]),
+              pt(
+                "Birleşme özelliği değişkenli ifadelerde de işe yarar. Sayı çarpanlarını önce çarparsak ifade daha kısa olur.",
+              ),
+              ex(
+                "Örnek 7.7",
+                [t("Çarpmanın birleşme özelliğini kullanarak sadeleştirin: 6(3x).")],
+                sol("Çözüm: 6(3x)=(6·3)x=18x. x'in değeri bilinmediği için yalnızca sayı çarpanlarını birleştiririz."),
+              ),
+              ex("Sıra Sizde 7.13", [t("Çarpmanın birleşme özelliğini kullanarak sadeleştirin: 8(4x).")]),
+              ex("Sıra Sizde 7.14", [t("Çarpmanın birleşme özelliğini kullanarak sadeleştirin: -9(7y).")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ozelliklerle-ifadelerin-degerini-hesaplama",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Değişme ve birleşme özellikleri, ifadelerin değerini hesaplarken işi kolaylaştırır. Özellikle karşıt terimleri ya da ters çarpanları yan yana getirmek büyük avantaj sağlar.",
+              ),
+              ex(
+                "Örnek 7.8",
+                [t("x=7/8 iken ifadelerin değerini hesaplayın: ⓐ x+0,37+(-x) ⓑ x+(-x)+0,37.")],
+                sol("Çözüm: İki ifade de aynı terimlerden oluşur. x ile -x toplamı 0 olduğundan geriye 0,37 kalır. İkinci yazımda karşıtlar yan yana olduğu için işlem daha hızlıdır."),
+              ),
+              ex("Sıra Sizde 7.15", [t("y=3/8 iken ifadelerin değerini hesaplayın: ⓐ y+0,84+(-y) ⓑ y+(-y)+0,84.")]),
+              ex("Sıra Sizde 7.16", [t("f=17/20 iken ifadelerin değerini hesaplayın: ⓐ f+0,975+(-f) ⓑ f+(-f)+0,975.")]),
+              pt(
+                "Çarpmada da ters çarpanları gruplayarak çarpımı 1 yapabiliriz.",
+              ),
+              ex(
+                "Örnek 7.9",
+                [t("n=17 iken ifadelerin değerini hesaplayın: ⓐ (4/3)((3/4)n) ⓑ ((4/3)·(3/4))n.")],
+                sol("Çözüm: 4/3 ile 3/4 ters çarpanlardır ve çarpımları 1'dir. Bu yüzden her iki ifade 1·17=17 değerini verir."),
+              ),
+              ex("Sıra Sizde 7.17", [t("p=24 iken ifadelerin değerini hesaplayın: ⓐ (5/9)((9/5)p) ⓑ ((5/9)·(9/5))p.")]),
+              ex("Sıra Sizde 7.18", [t("q=15 iken ifadelerin değerini hesaplayın: ⓐ (7/11)((11/7)q) ⓑ ((7/11)·(11/7))q.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "ozelliklerle-ifadeleri-sadelestirme",
+        replaceBlocks: [
+          ...removeBlocks(28),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Cebirsel ifadeleri sadeleştirirken önce hangi terimlerin kolay birleşeceğini görmek iyi bir stratejidir. Değişme özelliğiyle sırayı, birleşme özelliğiyle gruplamayı düzenleyebiliriz.",
+              ),
+              ex(
+                "Örnek 7.10",
+                [t("Sadeleştirin: -84n+(-73n)+84n.")],
+                sol("Çözüm: -84n ile 84n karşıt terimlerdir. Terimleri yan yana getirirsek -84n+84n+(-73n)=0-73n=-73n olur."),
+              ),
+              ex("Sıra Sizde 7.19", [t("Sadeleştirin: -27a+(-48a)+27a.")]),
+              ex("Sıra Sizde 7.20", [t("Sadeleştirin: 39x+(-92x)+(-39x).")]),
+              ex(
+                "Örnek 7.11",
+                [t("Sadeleştirin: (7/15)·(8/23)·(15/7).")],
+                sol("Çözüm: 7/15 ile 15/7 ters çarpanlardır ve çarpımları 1'dir. Geriye 8/23 kalır."),
+              ),
+              ex("Sıra Sizde 7.21", [t("Sadeleştirin: (9/16)·(5/49)·(16/9).")]),
+              ex("Sıra Sizde 7.22", [t("Sadeleştirin: (6/17)·(11/25)·(17/6).")]),
+              ex(
+                "Örnek 7.12",
+                [t("Sadeleştirin: (5/13+3/4)+1/4.")],
+                sol("Çözüm: Ortak paydalı kesirleri gruplayalım: 5/13+(3/4+1/4)=5/13+1=18/13."),
+              ),
+              ex("Sıra Sizde 7.23", [t("Sadeleştirin: (7/15+5/8)+3/8.")]),
+              ex("Sıra Sizde 7.24", [t("Sadeleştirin: (2/9+7/12)+5/12.")]),
+              ex(
+                "Örnek 7.13",
+                [t("Sadeleştirin: (6,47q+9,99q)+1,01q.")],
+                sol("Çözüm: 9,99q+1,01q=11q. Sonra 6,47q+11q=17,47q olur."),
+              ),
+              ex("Sıra Sizde 7.25", [t("Sadeleştirin: (5,58c+8,75c)+1,25c.")]),
+              ex("Sıra Sizde 7.26", [t("Sadeleştirin: (8,79d+3,55d)+5,45d.")]),
+              ex(
+                "Örnek 7.14",
+                [t("Sadeleştirin: [1,67(8)](0,25).")],
+                sol("Çözüm: 8·0,25=2 olduğu için gruplamayı 1,67[(8)(0,25)] biçiminde yaparız. Sonuç 1,67·2=3,34 olur."),
+              ),
+              ex("Sıra Sizde 7.27", [t("Sadeleştirin: [1,17(4)](2,25).")]),
+              ex("Sıra Sizde 7.28", [t("Sadeleştirin: [3,52(8)](2,5).")]),
+              ex(
+                "Örnek 7.15",
+                [t("Sadeleştirin: 6(9x).")],
+                sol("Çözüm: 6(9x)=(6·9)x=54x olur."),
+              ),
+              ex("Sıra Sizde 7.29", [t("Sadeleştirin: 8(3y).")]),
+              ex("Sıra Sizde 7.30", [t("Sadeleştirin: 12(5z).")]),
+              ex(
+                "Örnek 7.16",
+                [t("Sadeleştirin: 18p+6q+(-15p)+5q.")],
+                sol("Çözüm: Benzer terimleri yan yana getiririz: 18p-15p=3p ve 6q+5q=11q. Sonuç 3p+11q olur."),
+              ),
+              ex("Sıra Sizde 7.31", [t("Sadeleştirin: 23r+14s+9r+(-15s).")]),
+              ex("Sıra Sizde 7.32", [t("Sadeleştirin: 37m+21n+4m+(-15n).")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

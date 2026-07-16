@@ -71175,6 +71175,1749 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "7.3",
+      "displayNumber": "6.2",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties",
+      "contentHash": "9b2503b336c47eefbc9eaddf873bdef2160c109dfed7de7812fe6632fce0eda2",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-1eeb4f1c8a571666",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104541/6a17aebb38dd3061e8dfa79f810c04cf4c0d7363?revision=1",
+          "type": "figure",
+          "altText": "The image shows an equation. The left side of the equation shows the quantity 7 plus 8 in parentheses plus 2. The right side of the equation show 7 plus the quantity 8 plus 2. Each side of the equation is boxed separately in red. Each box has an arrow pointing from the box to the number 17 below.",
+          "caption": "Figure 7.3",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/000-1eeb4f1c8a571666.png",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/000-1eeb4f1c8a571666.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "002-101a99c41ff23451",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104539/46a18d52370685529eef36f1063d3dac93e1947c?revision=1",
+          "type": "figure",
+          "altText": "The image shows an equation. The left side of the equation shows the quantity 5 times 1 third in parentheses times 3. The right side of the equation show 5 times the quantity 1 third times 3. Each side of the equation is boxed separately in red. Each box has an arrow pointing from the box to the number 5 below.",
+          "caption": "Figure 7.4",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/002-101a99c41ff23451.png",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/002-101a99c41ff23451.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "b942f03dd1207e34",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/b942f03dd1207e34.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/b942f03dd1207e34.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a390a70d8e6d4af3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/a390a70d8e6d4af3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/a390a70d8e6d4af3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "cffb870fe0f8435a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/cffb870fe0f8435a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/cffb870fe0f8435a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "bcd56e59660e9bd3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-3",
+          "type": "table",
+          "caption": "Notice that 0.6+0.40.6+0.4 is 1,1, so the addition will be easier if we group as shown on the right.",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/bcd56e59660e9bd3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/bcd56e59660e9bd3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "281b343c972fe02f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/281b343c972fe02f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/281b343c972fe02f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e3f191e9be1d3496",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/e3f191e9be1d3496.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/e3f191e9be1d3496.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "9c6a1fa7ef64309c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-6",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/9c6a1fa7ef64309c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/9c6a1fa7ef64309c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "31bf64a1f17cf25f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/31bf64a1f17cf25f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/31bf64a1f17cf25f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "4ab92ae9012812a6",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/4ab92ae9012812a6.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/4ab92ae9012812a6.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "fc0c32a364eb1afb",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-9",
+          "type": "table",
+          "caption": "Notice the first and third terms are opposites, so we can use the commutative property of addition to reorder the terms.",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/fc0c32a364eb1afb.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/fc0c32a364eb1afb.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "d9a2fd938438d117",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-10",
+          "type": "table",
+          "caption": "Notice the first and third terms are reciprocals, so we can use the Commutative Property of Multiplication to reorder the factors.",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/d9a2fd938438d117.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/d9a2fd938438d117.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "34e59d054aa62696",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-11",
+          "type": "table",
+          "caption": "Notice that the second and third terms have a common denominator, so this work will be easier if we change the grouping.",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/34e59d054aa62696.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/34e59d054aa62696.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a2d90c94d82b5a61",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-12",
+          "type": "table",
+          "caption": "Notice that the sum of the second and third coefficients is a whole number.",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/a2d90c94d82b5a61.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/a2d90c94d82b5a61.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c38ae791e390aa3c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-13",
+          "type": "table",
+          "caption": "Notice that multiplying (8)(0.25)(8)(0.25) is easier than multiplying 1.67(8)1.67(8) because it gives a whole number. (Think about having 88 quarters—that makes $2.)$2.)",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/c38ae791e390aa3c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/c38ae791e390aa3c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "cad3867200189d06",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/cad3867200189d06.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/cad3867200189d06.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "8463cdf4705176dc",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties#table-15",
+          "type": "table",
+          "caption": "Use the Commutative Property of Addition to re-order so that like terms are together.",
+          "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/8463cdf4705176dc.json",
+          "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/8463cdf4705176dc.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 3,
+        "sections": 3,
+        "blocks": 45,
+        "examples": 12,
+        "tryIts": 24,
+        "sourceExercises": 35,
+        "exercises": 35,
+        "mathTokens": 4,
+        "assets": 18
+      },
+      "lesson": {
+        "id": "lesson-commutative-associative-properties",
+        "slug": "degisme-ve-birlesme-ozellikleri",
+        "displayTitle": "Değişme ve Birleşme Özellikleri",
+        "summary": "Toplama ve çarpmanın değişme ve birleşme özelliklerini kullanarak ifadeleri yeniden düzenleyin, değerlerini hesaplayın ve sadeleştirin.",
+        "sortOrder": 2,
+        "chapterId": "chapter-real-number-properties",
+        "sourceNumber": "7.3",
+        "displayNumber": "6.2",
+        "sourceTitle": "Commutative and Associative Properties",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "gercek-sayilarin-ozellikleri",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Değişme ve birleşme özelliklerini kullanabileceksiniz.",
+          "Değişme ve birleşme özellikleriyle ifadelerin değerini hesaplayabileceksiniz.",
+          "Değişme ve birleşme özellikleriyle cebirsel ifadeleri sadeleştirebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "degisme-ve-birlesme-ozellikleri-section-01",
+            "heading": "Değişme ve Birleşme Özelliklerini Kullanma",
+            "slug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Toplama ve çarpmada sayıların sırasını değiştirmek sonucu değiştirmez. Buna değişme özelliği denir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "5+3=3+5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "5\\cdot3=3\\cdot5"
+                  },
+                  {
+                    "type": "text",
+                    "value": " eşitlikleri bu fikri gösterir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çıkarma ve bölme için aynı şey doğru değildir. Örneğin 7-3 ile 3-7 aynı sonuç değildir; 12÷4 ile 4÷12 de aynı değildir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.5",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Değişme özelliklerini kullanarak yeniden yazın: ⓐ -1+3=___ ⓑ 4·9=___."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ Toplamada sıralama değişebilir: -1+3=3+(-1). ⓑ Çarpmada sıralama değişebilir: 4·9=9·4."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.9",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Değişme özelliklerini kullanarak yeniden yazın: ⓐ -4+7=___ ⓑ 6·12=___."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ Toplamada değişme özelliğiyle -4+7=7+(-4). ⓑ Çarpmada değişme özelliğiyle 6·12=12·6."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.10",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Değişme özelliklerini kullanarak yeniden yazın: ⓐ 14+(-2)=___ ⓑ 3(-5)=___."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 14+(-2)=(-2)+14. ⓑ 3(-5)=(-5)·3. Yalnızca sayıların sırası değişti."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Üç veya daha fazla sayı toplarken ya da çarparken gruplamayı değiştirmek de sonucu değiştirmez. Buna birleşme özelliği denir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "math",
+                    "value": "(7+8)+2=7+(8+2)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "(5\\cdot\\frac{1}{3})\\cdot3=5\\cdot(\\frac{1}{3}\\cdot3)"
+                  },
+                  {
+                    "type": "text",
+                    "value": " örneklerinde yalnızca parantezlerin yeri değişmiştir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.6",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birleşme özelliklerini kullanarak yeniden yazın: ⓐ (3+0,6)+0,4 ⓑ (-4·2/5)·15."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ (3+0,6)+0,4=3+(0,6+0,4). ⓑ (-4·2/5)·15=-4·((2/5)·15). Böylece kolay çarpılan/toplanan sayılar birlikte gruplanır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.11",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birleşme özelliklerini kullanarak yeniden yazın: ⓐ (1+0,7)+0,3 ⓑ (-9·8)·3/4."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ (1+0,7)+0,3=1+(0,7+0,3). ⓑ (-9·8)·3/4=-9·(8·3/4). Gruplama değişti, sıralama değişmedi."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.12",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Birleşme özelliklerini kullanarak yeniden yazın: ⓐ (4+0,6)+0,4 ⓑ (-2·12)·5/6."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ (4+0,6)+0,4=4+(0,6+0,4). ⓑ (-2·12)·5/6=-2·(12·5/6)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Birleşme özelliği değişkenli ifadelerde de işe yarar. Sayı çarpanlarını önce çarparsak ifade daha kısa olur."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.7",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpmanın birleşme özelliğini kullanarak sadeleştirin: 6(3x)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6(3x)=(6·3)x=18x. x'in değeri bilinmediği için yalnızca sayı çarpanlarını birleştiririz."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.13",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpmanın birleşme özelliğini kullanarak sadeleştirin: 8(4x)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8(4x)=(8·4)x=32x. Sayı çarpanlarını önce çarpmak ifadeyi sadeleştirir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.14",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çarpmanın birleşme özelliğini kullanarak sadeleştirin: -9(7y)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -9(7y)=(-9·7)y=-63y olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "degisme-ve-birlesme-ozellikleri-section-02",
+            "heading": "Özelliklerle İfadelerin Değerini Hesaplama",
+            "slug": "ozelliklerle-ifadelerin-degerini-hesaplama",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Değişme ve birleşme özellikleri, ifadelerin değerini hesaplarken işi kolaylaştırır. Özellikle karşıt terimleri ya da ters çarpanları yan yana getirmek büyük avantaj sağlar."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.8",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "x=7/8 iken ifadelerin değerini hesaplayın: ⓐ x+0,37+(-x) ⓑ x+(-x)+0,37."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İki ifade de aynı terimlerden oluşur. x ile -x toplamı 0 olduğundan geriye 0,37 kalır. İkinci yazımda karşıtlar yan yana olduğu için işlem daha hızlıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.15",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "y=3/8 iken ifadelerin değerini hesaplayın: ⓐ y+0,84+(-y) ⓑ y+(-y)+0,84."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Her iki ifade de 0,84 değerini verir. y+(-y)=0 olduğundan ikinci yazımda karşıtlar hemen birbirini götürür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.16",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "f=17/20 iken ifadelerin değerini hesaplayın: ⓐ f+0,975+(-f) ⓑ f+(-f)+0,975."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Her iki ifade de 0,975 değerindedir; f ile -f toplamı 0 olduğu için geriye 0,975 kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çarpmada da ters çarpanları gruplayarak çarpımı 1 yapabiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.9",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "n=17 iken ifadelerin değerini hesaplayın: ⓐ (4/3)((3/4)n) ⓑ ((4/3)·(3/4))n."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4/3 ile 3/4 ters çarpanlardır ve çarpımları 1'dir. Bu yüzden her iki ifade 1·17=17 değerini verir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.17",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "p=24 iken ifadelerin değerini hesaplayın: ⓐ (5/9)((9/5)p) ⓑ ((5/9)·(9/5))p."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Her iki ifadede de 5/9 ile 9/5 çarpımı 1'dir. Bu yüzden sonuç p=24 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.18",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "q=15 iken ifadelerin değerini hesaplayın: ⓐ (7/11)((11/7)q) ⓑ ((7/11)·(11/7))q."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7/11 ile 11/7 ters çarpanlardır ve çarpımları 1'dir. Sonuç q=15 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "degisme-ve-birlesme-ozellikleri-section-03",
+            "heading": "Özelliklerle İfadeleri Sadeleştirme",
+            "slug": "ozelliklerle-ifadeleri-sadelestirme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Cebirsel ifadeleri sadeleştirirken önce hangi terimlerin kolay birleşeceğini görmek iyi bir stratejidir. Değişme özelliğiyle sırayı, birleşme özelliğiyle gruplamayı düzenleyebiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.10",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: -84n+(-73n)+84n."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -84n ile 84n karşıt terimlerdir. Terimleri yan yana getirirsek -84n+84n+(-73n)=0-73n=-73n olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.19",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: -27a+(-48a)+27a."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -27a ile 27a karşıt terimlerdir ve toplamları 0'dır. Geriye -48a kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.20",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: 39x+(-92x)+(-39x)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 39x ile -39x toplamı 0'dır. Bu yüzden ifade -92x'e sadeleşir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.11",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (7/15)·(8/23)·(15/7)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7/15 ile 15/7 ters çarpanlardır ve çarpımları 1'dir. Geriye 8/23 kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.21",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (9/16)·(5/49)·(16/9)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 9/16 ile 16/9 ters çarpanlardır ve çarpımları 1'dir. Geriye 5/49 kalır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.22",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (6/17)·(11/25)·(17/6)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6/17 ile 17/6 çarpımı 1 olur. Bu yüzden ifade 11/25'e sadeleşir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.12",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (5/13+3/4)+1/4."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Ortak paydalı kesirleri gruplayalım: 5/13+(3/4+1/4)=5/13+1=18/13."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.23",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (7/15+5/8)+3/8."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5/8+3/8=1 olur. Böylece 7/15+1=22/15, yani 1 7/15 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.24",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (2/9+7/12)+5/12."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 7/12+5/12=1. Sonra 2/9+1=11/9, yani 1 2/9 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.13",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (6,47q+9,99q)+1,01q."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 9,99q+1,01q=11q. Sonra 6,47q+11q=17,47q olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.25",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (5,58c+8,75c)+1,25c."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8,75c+1,25c=10c. Buna 5,58c eklenirse 15,58c elde edilir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.26",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: (8,79d+3,55d)+5,45d."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3,55d+5,45d=9d. Sonra 8,79d+9d=17,79d olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.14",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: [1,67(8)](0,25)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8·0,25=2 olduğu için gruplamayı 1,67[(8)(0,25)] biçiminde yaparız. Sonuç 1,67·2=3,34 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.27",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: [1,17(4)](2,25)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4·2,25=9 olduğu için [1,17(4)](2,25)=1,17·9=10,53 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.28",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: [3,52(8)](2,5)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8·2,5=20. Bu yüzden [3,52(8)](2,5)=3,52·20=70,4 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.15",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: 6(9x)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 6(9x)=(6·9)x=54x olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.29",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: 8(3y)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 8(3y)=(8·3)y=24y olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.30",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: 12(5z)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 12(5z)=(12·5)z=60z olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 7.16",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: 18p+6q+(-15p)+5q."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Benzer terimleri yan yana getiririz: 18p-15p=3p ve 6q+5q=11q. Sonuç 3p+11q olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.31",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: 23r+14s+9r+(-15s)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Benzer terimleri birleştiririz: 23r+9r=32r ve 14s-15s=-s. Sonuç 32r-s olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 7.32",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sadeleştirin: 37m+21n+4m+(-15n)."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 37m+4m=41m ve 21n-15n=6n. Sonuç 41m+6n olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-21",
+            "number": "21",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değişme özelliğini kullanarak yeniden yazın: 7+6=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplamada değişme özelliği sayıların yerini değiştirmeye izin verir. Bu yüzden 7+6=6+7 yazılır."
+              }
+            ],
+            "sortOrder": 21
+          },
+          {
+            "id": "exercise-23",
+            "number": "23",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değişme özelliğini kullanarak yeniden yazın: 7(-13)=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpmada değişme özelliğiyle çarpanların sırası değişebilir: 7(-13)=(-13)·7."
+              }
+            ],
+            "sortOrder": 23
+          },
+          {
+            "id": "exercise-25",
+            "number": "25",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değişme özelliğini kullanarak yeniden yazın: (-12)(-18)=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpanların yerini değiştirmek çarpımı değiştirmez. Bu nedenle (-12)(-18)=(-18)(-12) olur."
+              }
+            ],
+            "sortOrder": 25
+          },
+          {
+            "id": "exercise-27",
+            "number": "27",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değişme özelliğini kullanarak yeniden yazın: -15+7=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplamada sıra değişebilir. -15+7 ifadesi 7+(-15) olarak yeniden yazılır."
+              }
+            ],
+            "sortOrder": 27
+          },
+          {
+            "id": "exercise-29",
+            "number": "29",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değişme özelliğini kullanarak yeniden yazın: y+1=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Değişme özelliğiyle y+1=1+y yazılır; toplam aynı kalır."
+              }
+            ],
+            "sortOrder": 29
+          },
+          {
+            "id": "exercise-31",
+            "number": "31",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Değişme özelliğini kullanarak yeniden yazın: -3m=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -3m çarpımı (-3)·m demektir. Çarpanların sırasını değiştirerek m(-3) yazabiliriz."
+              }
+            ],
+            "sortOrder": 31
+          },
+          {
+            "id": "exercise-33",
+            "number": "33",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birleşme özelliğini kullanarak yeniden yazın: (21+14)+9=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Birleşme özelliği yalnızca gruplamayı değiştirir. (21+14)+9=21+(14+9) olur."
+              }
+            ],
+            "sortOrder": 33
+          },
+          {
+            "id": "exercise-35",
+            "number": "35",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birleşme özelliğini kullanarak yeniden yazın: (14·6)·9=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpmanın birleşme özelliğiyle (14·6)·9=14·(6·9) yazılır."
+              }
+            ],
+            "sortOrder": 35
+          },
+          {
+            "id": "exercise-37",
+            "number": "37",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birleşme özelliğini kullanarak yeniden yazın: (-2+6)+7=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplamada gruplamayı değiştirebiliriz: (-2+6)+7=-2+(6+7)."
+              }
+            ],
+            "sortOrder": 37
+          },
+          {
+            "id": "exercise-39",
+            "number": "39",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birleşme özelliğini kullanarak yeniden yazın: (13·2/3)·18=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpmanın birleşme özelliğiyle (13·2/3)·18=13·((2/3)·18) yazılır."
+              }
+            ],
+            "sortOrder": 39
+          },
+          {
+            "id": "exercise-41",
+            "number": "41",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birleşme özelliğini kullanarak yeniden yazın: 4(7x)=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4(7x) ifadesinde çarpanları 4, 7 ve x olarak görürüz. Birleşme özelliğiyle (4·7)x yazılır."
+              }
+            ],
+            "sortOrder": 41
+          },
+          {
+            "id": "exercise-43",
+            "number": "43",
+            "sectionSlug": "degisme-ve-birlesme-ozelliklerini-kullanma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Birleşme özelliğini kullanarak yeniden yazın: (17+y)+33=___"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Toplamanın birleşme özelliğiyle (17+y)+33=17+(y+33) biçiminde yeniden gruplanır."
+              }
+            ],
+            "sortOrder": 43
+          },
+          {
+            "id": "exercise-45",
+            "number": "45",
+            "sectionSlug": "ozelliklerle-ifadelerin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "z=7/8 iken ifadelerin değerini hesaplayın: ⓐ z+0,97+(-z) ⓑ z+(-z)+0,97."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: z ile -z karşıt terimlerdir ve toplamları 0'dır. Her iki ifade de 0,97 değerini verir."
+              }
+            ],
+            "sortOrder": 45
+          },
+          {
+            "id": "exercise-47",
+            "number": "47",
+            "sectionSlug": "ozelliklerle-ifadelerin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "d=-9/4 iken ifadelerin değerini hesaplayın: ⓐ d+2,375+(-d) ⓑ d+(-d)+2,375."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: d+(-d)=0 olduğu için her iki ifadede de geriye 2,375 kalır."
+              }
+            ],
+            "sortOrder": 47
+          },
+          {
+            "id": "exercise-49",
+            "number": "49",
+            "sectionSlug": "ozelliklerle-ifadelerin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "k=21 iken ifadelerin değerini hesaplayın: ⓐ (4/13)((13/4)k) ⓑ ((4/13)·(13/4))k."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4/13 ile 13/4 ters çarpanlardır; çarpımları 1'dir. Bu yüzden iki ifade de k=21 değerini verir."
+              }
+            ],
+            "sortOrder": 49
+          },
+          {
+            "id": "exercise-51",
+            "number": "51",
+            "sectionSlug": "ozelliklerle-ifadelerin-degerini-hesaplama",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "n=-8 iken ifadelerin değerini hesaplayın: ⓐ -(5/21)((21/5)n) ⓑ (-(5/21)·(21/5))n."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -(5/21) ile 21/5 çarpımı -1'dir. n=-8 olduğundan sonuç (-1)(-8)=8 olur."
+              }
+            ],
+            "sortOrder": 51
+          },
+          {
+            "id": "exercise-53",
+            "number": "53",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 9y+23+(-9y)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 9y ile -9y karşıt terimlerdir ve toplamları 0'dır. Geriye 23 kalır."
+              }
+            ],
+            "sortOrder": 53
+          },
+          {
+            "id": "exercise-55",
+            "number": "55",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 2/5+5/12+(-2/5)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2/5 ile -2/5 toplamı 0 olur. Bu yüzden ifade 5/12'ye sadeleşir."
+              }
+            ],
+            "sortOrder": 55
+          },
+          {
+            "id": "exercise-57",
+            "number": "57",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (13/18)·(25/7)·(18/13)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 13/18 ile 18/13 ters çarpanlardır ve çarpımları 1'dir. Geriye 25/7 kalır."
+              }
+            ],
+            "sortOrder": 57
+          },
+          {
+            "id": "exercise-59",
+            "number": "59",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (3/10)·(13/23)·(50/3)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 3/10 ile 50/3 birlikte çarpılırsa 5 olur. 5·13/23=65/23 bulunur."
+              }
+            ],
+            "sortOrder": 59
+          },
+          {
+            "id": "exercise-61",
+            "number": "61",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: -36·11·4/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: -36 ile 4/9'u önce çarparsak -16 elde ederiz. Sonra -16·11=-176 olur."
+              }
+            ],
+            "sortOrder": 61
+          },
+          {
+            "id": "exercise-63",
+            "number": "63",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (1/12+4/9)+5/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4/9+5/9=1. Sonra 1/12+1=13/12 bulunur."
+              }
+            ],
+            "sortOrder": 63
+          },
+          {
+            "id": "exercise-65",
+            "number": "65",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 8/15+5/7+2/7."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5/7+2/7=1. Buna 8/15 eklenirse 1+8/15=23/15 olur."
+              }
+            ],
+            "sortOrder": 65
+          },
+          {
+            "id": "exercise-67",
+            "number": "67",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (5,89d+2,75d)+1,25d."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2,75d+1,25d=4d. Sonra 5,89d+4d=9,89d elde edilir."
+              }
+            ],
+            "sortOrder": 67
+          },
+          {
+            "id": "exercise-69",
+            "number": "69",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 36(0,2)(5)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 0,2·5=1 olduğu için 36(0,2)(5)=36·1=36 olur."
+              }
+            ],
+            "sortOrder": 69
+          },
+          {
+            "id": "exercise-71",
+            "number": "71",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: [9,731(4)](0,75)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 4·0,75=3. Bu yüzden [9,731(4)](0,75)=9,731·3=29,193 olur."
+              }
+            ],
+            "sortOrder": 71
+          },
+          {
+            "id": "exercise-73",
+            "number": "73",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 9(8w)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpmanın birleşme özelliğiyle sayı çarpanlarını önce birleştiririz: 9(8w)=(9·8)w=72w olur."
+              }
+            ],
+            "sortOrder": 73
+          },
+          {
+            "id": "exercise-75",
+            "number": "75",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: -23(2n)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpmanın birleşme özelliğiyle -23 ve 2 önce çarpılır: -23(2n)=(-23·2)n=-46n olur."
+              }
+            ],
+            "sortOrder": 75
+          },
+          {
+            "id": "exercise-77",
+            "number": "77",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 20((3/5)q)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Sayı çarpanlarını önce birleştirmek işi kolaylaştırır: 20((3/5)q)=(20·3/5)q=12q olur."
+              }
+            ],
+            "sortOrder": 77
+          },
+          {
+            "id": "exercise-79",
+            "number": "79",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 15u+11v+27u+19v."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Benzer terimleri birleştiririz. 15u+27u=42u ve 11v+19v=30v; sonuç 42u+30v olur."
+              }
+            ],
+            "sortOrder": 79
+          },
+          {
+            "id": "exercise-81",
+            "number": "81",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: -22p+17q+(-35p)+(-27q)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: p terimleri -22p-35p=-57p, q terimleri 17q-27q=-10q olur. Sonuç -57p-10q'dur."
+              }
+            ],
+            "sortOrder": 81
+          },
+          {
+            "id": "exercise-83",
+            "number": "83",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: (5/6)a+(3/10)b+(1/6)a+(9/10)b."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: a terimleri 5/6a+1/6a=a olur. b terimleri 3/10b+9/10b=12/10b=6/5b olur. Sonuç a+6/5b'dir."
+              }
+            ],
+            "sortOrder": 83
+          },
+          {
+            "id": "exercise-85",
+            "number": "85",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sadeleştirin: 9,6m+7,22n+(-2,19m)+(-0,65n)."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: m terimleri 9,6m-2,19m=7,41m olur. n terimleri 7,22n-0,65n=6,57n olur. Sonuç 7,41m+6,57n'dir."
+              }
+            ],
+            "sortOrder": 85
+          },
+          {
+            "id": "exercise-87",
+            "number": "87",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Para sayma: Grant bağış yemeğinden gelen nakdi sayıyor. Bir zarfta 23 tane 5 dolarlık, 18 tane 10 dolarlık ve 34 tane 20 dolarlık banknot var. Diğer zarfta 14 tane 5 dolarlık, 9 tane 10 dolarlık ve 27 tane 20 dolarlık banknot var. ⓐ İlk zarfta kaç dolar var? ⓑ İkinci zarfta kaç dolar var? ⓒ Tüm nakdin toplam değeri nedir? ⓓ Tüm 5 dolarlıkların değeri nedir? ⓔ Tüm 10 dolarlıkların değeri nedir? ⓕ Tüm 20 dolarlıkların değeri nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ İlk zarf 23·5+18·10+34·20=975 dolardır. ⓑ İkinci zarf 14·5+9·10+27·20=700 dolardır. ⓒ Toplam 1.675 dolardır. ⓓ 37 tane 5 dolarlık 185 dolar eder. ⓔ 27 tane 10 dolarlık 270 dolar eder. ⓕ 61 tane 20 dolarlık 1.220 dolar eder."
+              }
+            ],
+            "sortOrder": 87
+          },
+          {
+            "id": "exercise-89",
+            "number": "89",
+            "sectionSlug": "ozelliklerle-ifadeleri-sadelestirme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kendi sözlerinizle çarpmanın birleşme özelliğini açıklayın ve neden yararlı olduğunu belirtin."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çarpmanın birleşme özelliği, üç veya daha fazla çarpanın gruplamasını değiştirmenin sonucu değiştirmediğini söyler. Bu özellik, kolay çarpılan sayıları önce gruplayarak işlemi hızlandırdığı için yararlıdır."
+              }
+            ],
+            "sortOrder": 89
+          }
+        ]
+      }
     }
   ]
 }

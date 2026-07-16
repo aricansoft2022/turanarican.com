@@ -18,8 +18,8 @@ Proje şu anda:
   yönleniyor.
 - Turso'ya yazıldığı son doğrulanan seed DB içeriği 24 ders, 131 ders bölümü,
   899 alıştırma ve 617 kaynak asset içeriyor.
-- Son yerel/generated seed payload 29 ders, 149 ders bölümü, 1027 alıştırma ve
-  683 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
+- Son yerel/generated seed payload 30 ders, 152 ders bölümü, 1062 alıştırma ve
+  701 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
 
 En önemli deploy kuralı:
 
@@ -462,10 +462,10 @@ Son doğrulanan seed DB yazımı:
 Bu Turso yazımı Prealgebra 2e için `2.3-6.2` aralığını kapsar. Son yazılmış ders
 `6.2 Understand Percent` / `Yüzde Kavramı` idi.
 
-Son yerel/generated seed payload `2.3-7.2` aralığını kapsar; son yerel ders
-`7.2 Rational and Irrational Numbers` / `Rasyonel ve İrrasyonel Sayılar`
-olarak üretildi ve henüz Turso'ya yazılmadı. Sıradaki aday
-`7.3 Commutative and Associative Properties` olarak raporlanır.
+Son yerel/generated seed payload `2.3-7.3` aralığını kapsar; son yerel ders
+`7.3 Commutative and Associative Properties` /
+`Değişme ve Birleşme Özellikleri` olarak üretildi ve henüz Turso'ya yazılmadı.
+Sıradaki aday `7.4 Distributive Property` olarak raporlanır.
 
 Schema değiştiğinde:
 
