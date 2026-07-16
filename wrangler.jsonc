@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "turan-arican-education",
+  "name": "turanarican-com",
   "compatibility_date": "2026-07-14",
   "compatibility_flags": ["nodejs_compat"],
   "main": ".open-next/worker.js",
