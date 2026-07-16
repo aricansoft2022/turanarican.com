@@ -607,6 +607,24 @@
         "sortOrder": 3,
         "status": "draft",
         "rawHash": "4a15f0bb6ccabbfae021885534399c41d05794fa1cc4553f54215abf3a29d05c"
+      },
+      {
+        "id": "lesson-simple-interest",
+        "chapterId": "chapter-percents",
+        "slug": "basit-faiz",
+        "sourceNumber": "6.5",
+        "displayNumber": "5.4",
+        "sourceTitle": "Solve Simple Interest Applications",
+        "displayTitle": "Basit Faiz",
+        "summary": "Basit faiz formülünü kullanarak faiz, anapara ve faiz oranını bulun; yatırım ve borçlanma durumlarını yüzde denklemleriyle çözün.",
+        "objectivesJson": [
+          "Basit faiz formülünü kullanabileceksiniz.",
+          "Basit faiz içeren günlük yaşam problemlerini çözebileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications",
+        "sortOrder": 4,
+        "status": "draft",
+        "rawHash": "b65a98f4460026705fb4a384581b26931cc8da91e82407484aa0cc570d7ed352"
       }
     ],
     "lessonSections": [
@@ -40253,6 +40271,579 @@
             ]
           }
         ]
+      },
+      {
+        "id": "basit-faiz-section-01",
+        "lessonId": "lesson-simple-interest",
+        "heading": "Basit Faiz Formülü",
+        "slug": "basit-faiz-formulu",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bankaya yatırılan ya da borç alınan para için belirli bir süre sonunda faiz hesaplanabilir. Başlangıç parasına anapara denir ve genellikle P ile gösterilir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Basit faiz formülü "
+              },
+              {
+                "type": "math",
+                "value": "I=Prt"
+              },
+              {
+                "type": "text",
+                "value": " biçimindedir. Burada "
+              },
+              {
+                "type": "math",
+                "value": "I"
+              },
+              {
+                "type": "text",
+                "value": " faiz tutarı, "
+              },
+              {
+                "type": "math",
+                "value": "P"
+              },
+              {
+                "type": "text",
+                "value": " anapara, "
+              },
+              {
+                "type": "math",
+                "value": "r"
+              },
+              {
+                "type": "text",
+                "value": " yıllık faiz oranı ve "
+              },
+              {
+                "type": "math",
+                "value": "t"
+              },
+              {
+                "type": "text",
+                "value": " yıl cinsinden süredir. Faiz oranını formüle ondalık biçimde yazarız."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 6.33",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "500 dolar anapara 3 yıl boyunca 6% faiz oranıyla tutulursa kazanılan basit faiz nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: I=Prt formülünde P=500, r=0,06 ve t=3 yazılır. I=500·0,06·3=90 dolar olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.65",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "800 dolar anapara 4 yıl boyunca 5% faiz oranıyla tutulursa kazanılan basit faiz nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: I=Prt formülünü kullanırız. I=800·0,05·4=160 dolar faiz kazanılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.66",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "700 dolar anapara 2 yıl boyunca 4% faiz oranıyla tutulursa kazanılan basit faiz nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: I=700·0,04·2=56 dolar olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Faiz tutarı, oran ve süre biliniyorsa formülü anaparayı bulmak için de kullanabiliriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 6.34",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "2 yılda 4% faiz oranıyla 178 dolar faiz kazanıldıysa yatırılan anapara nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 178=P·0,04·2 olur. 178=0,08P olduğundan P=178÷0,08=2.225 dolar bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.67",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "3 yılda 6% faiz oranıyla 495 dolar faiz kazanıldıysa yatırılan anapara nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 495=P·0,06·3 denkleminden 495=0,18P olur. P=495÷0,18=2.750 dolar bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.68",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "5 yılda 7% faiz oranıyla 1.246 dolar faiz kazanıldıysa yatırılan anapara nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1.246=P·0,07·5 olduğundan 1.246=0,35P. P=1.246÷0,35=3.560 dolardır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Faiz tutarı, anapara ve süre biliniyorsa faiz oranını buluruz. Bulduğumuz ondalık değeri yüzdeye çeviririz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 6.35",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "8.200 dolar anapara 4 yılda 3.772 dolar faiz kazandıysa faiz oranı nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3.772=8.200·r·4, yani 3.772=32.800r. r=3.772÷32.800=0,115 olur; faiz oranı 11,5%'tir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.69",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "5.000 dolar anapara 6 yılda 1.350 dolar faiz kazandıysa faiz oranı nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1.350=5.000·r·6 denkleminden 1.350=30.000r. r=0,045, yani 4,5% olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.70",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "9.000 dolar anapara 3 yılda 1.755 dolar faiz kazandıysa faiz oranı nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1.755=9.000·r·3 olduğundan r=1.755÷27.000=0,065. Faiz oranı 6,5%'tir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "basit-faiz-section-02",
+        "lessonId": "lesson-simple-interest",
+        "heading": "Basit Faiz Uygulamaları",
+        "slug": "basit-faiz-uygulamalari",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Basit faiz problemleri yatırım ya da borçlanma durumlarında karşımıza çıkar. Problemde verilenleri P, r ve t olarak ayırmak çözümü düzenli hale getirir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 6.36",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Nathaly bankaya 12.500 dolar yatırdı ve hesabı 4% faiz kazandırıyor. 5 yılda ne kadar faiz kazanır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: I=12.500·0,04·5=2.500 dolar faiz kazanır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.71",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Areli 950 doları 3% faiz oranıyla bankaya yatırdı. 5 yılda ne kadar faiz kazanır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: I=950·0,03·5=142,50 dolar faiz kazanır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.72",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Susana 36.000 doları 6,5% faiz oranıyla bankaya yatırdı. 3 yılda ne kadar faiz kazanır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: I=36.000·0,065·3=7.020 dolar faiz kazanır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bazı durumlarda borç verilen para ve kazanılan faiz bilinir; faiz oranı bilinmez. Yine I=Prt formülünü oran için çözeriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 6.37",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Loren kardeşine 3.000 dolar borç verdi. 4 yıl sonra kardeşi 3.000 dolara ek olarak 660 dolar faiz ödedi. Faiz oranı nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 660=3.000·r·4 olduğundan 660=12.000r. r=0,055, yani 5,5% olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.73",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Jim kız kardeşine ev alması için 5.000 dolar borç verdi. 3 yıl sonra 900 dolar faiz aldı. Faiz oranı nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 900=5.000·r·3 denkleminden r=900÷15.000=0,06. Faiz oranı 6%'dır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.74",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hang okul ücreti için ailesinden 7.500 dolar borç aldı. 5 yıl sonra 1.500 dolar faiz ödedi. Faiz oranı nedir?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 1.500=7.500·r·5 olduğundan r=1.500÷37.500=0,04. Faiz oranı 4%'tür."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Büyük alışveriş kredilerinde anapara bazen doğrudan verilmez. Ödenecek faiz, oran ve süre biliniyorsa anaparayı bulabiliriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 6.38",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Eduardo'nun araba kredisi 7,5% faiz oranıyla 5 yılda 6.596,25 dolar faiz ödeyeceğini söylüyor. Araba için ne kadar borç almıştır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6.596,25=P·0,075·5 olur. 6.596,25=0,375P ve P=17.590 dolar bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.75",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sean'ın araba kredisi 8,5% faiz oranıyla 5 yılda 4.866,25 dolar faiz ödeyeceğini söylüyor. Ne kadar borç almıştır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 4.866,25=P·0,085·5 olduğundan 4.866,25=0,425P. P=11.450 dolar borç almıştır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.76",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Gloria'nın banka hesabı 5 yılda 5% faiz oranıyla 2.400 dolar faiz kazandı. Hesaba ne kadar para yatırmıştı?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2.400=P·0,05·5 denkleminden 2.400=0,25P. P=9.600 dolar yatırmıştır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Basit faiz formülünde faiz oranı yıllık verilir. Süre ay cinsinden verilirse yılı ifade eden kesre çevrilmelidir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 6.39",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Caroline 900 doları 10 aylık ve 2,1% faizli vadeli hesaba yatırdı. Ne kadar faiz kazanır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 10 ay, 10/12 yıldır. I=900·0,021·(10/12)=15,75 dolar faiz kazanır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.77",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Adriana 4.500 doları 8 ay boyunca 1,9% faiz veren hesaba yatırdı. Ne kadar faiz kazanır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8 ay, 8/12 yıldır. I=4.500·0,019·(8/12)=57 dolar faiz kazanır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 6.78",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Milton 2.460 doları 20 ay boyunca 3,5% faiz veren hesaba yatırdı. Ne kadar faiz kazanır?"
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 20 ay, 20/12 yıldır. I=2.460·0,035·(20/12)=143,50 dolar faiz kazanır."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -63191,6 +63782,447 @@
         "sortOrder": 199,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-201",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-01",
+        "number": "201",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Basit faiz formülüyle eksik bilgiyi bulun: Anapara 1.200 dolar, faiz oranı 3%, süre 5 yıl. Faiz kaç dolardır?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: I=Prt formülünde P=1.200, r=0,03 ve t=5 yazılır. I=1.200·0,03·5=180 dolar olur."
+          }
+        ],
+        "sortOrder": 201,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-203",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-01",
+        "number": "203",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Basit faiz formülüyle eksik bilgiyi bulun: Anapara 4.410 dolar, faiz oranı 4,5%, süre 7 yıl. Faiz kaç dolardır?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: I=4.410·0,045·7=1.389,15 dolar faiz kazanılır."
+          }
+        ],
+        "sortOrder": 203,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-205",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-01",
+        "number": "205",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Basit faiz formülüyle eksik bilgiyi bulun: Faiz 577,08 dolar, anapara 4.580 dolar, süre 2 yıl. Faiz oranı nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 577,08=4.580·r·2 denkleminden r=577,08÷9.160=0,063. Faiz oranı 6,3%'tür."
+          }
+        ],
+        "sortOrder": 205,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-207",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "207",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "600 dolar anapara 5 yıl boyunca 3% faiz oranıyla tutulursa kazanılan basit faiz nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: I=600·0,03·5=90 dolar basit faiz kazanılır."
+          }
+        ],
+        "sortOrder": 207,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-209",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "209",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "8.950 dolar anapara 2 yıl boyunca 3,24% faiz oranıyla tutulursa kazanılan basit faiz nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: I=8.950·0,0324·2=579,96 dolar faiz olur."
+          }
+        ],
+        "sortOrder": 209,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-211",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "211",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "15.500 dolar anapara 8 yıl boyunca 11,425% faiz oranıyla tutulursa kazanılan basit faiz nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: I=15.500·0,11425·8=14.167 dolar faiz kazanılır."
+          }
+        ],
+        "sortOrder": 211,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-213",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "213",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "5 yılda 4% faiz oranıyla 656 dolar faiz kazanıldıysa yatırılan anapara nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 656=P·0,04·5 olduğundan 656=0,20P. P=3.280 dolar yatırılmıştır."
+          }
+        ],
+        "sortOrder": 213,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-215",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "215",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "3 yılda 2,75% faiz oranıyla 70,95 dolar faiz kazanıldıysa yatırılan anapara nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 70,95=P·0,0275·3 olur. 0,0825P=70,95 ve P=860 dolar bulunur."
+          }
+        ],
+        "sortOrder": 215,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-217",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "217",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "6 yılda 10,28% faiz oranıyla 15.222,57 dolar faiz kazanıldıysa yatırılan anapara nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 15.222,57=P·0,1028·6 olduğundan P=15.222,57÷0,6168≈24.679,91 dolar bulunur."
+          }
+        ],
+        "sortOrder": 217,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-219",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "219",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "5.400 dolar anapara 2 yılda 432 dolar faiz kazandıysa faiz oranı nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 432=5.400·r·2 denkleminden r=432÷10.800=0,04. Faiz oranı 4%'tür."
+          }
+        ],
+        "sortOrder": 219,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-221",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "221",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "11.000 dolar anapara 3 yılda 1.815 dolar faiz kazandıysa faiz oranı nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1.815=11.000·r·3 olduğundan r=1.815÷33.000=0,055. Faiz oranı 5,5%'tir."
+          }
+        ],
+        "sortOrder": 221,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-223",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "223",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Casey 1.450 doları 4% faiz oranıyla bankaya yatırdı. 2 yılda ne kadar faiz kazanılır?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: I=1.450·0,04·2=116 dolar faiz kazanılır."
+          }
+        ],
+        "sortOrder": 223,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-225",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "225",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Robin 31.000 doları 5,2% faiz oranıyla bankaya yatırdı. 3 yılda ne kadar faiz kazanılır?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: I=31.000·0,052·3=4.836 dolar faiz kazanılır."
+          }
+        ],
+        "sortOrder": 225,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-227",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "227",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Hilaria üniversite için büyükbabasından 8.000 dolar borç aldı. Beş yıl sonra 8.000 dolara ek olarak 1.200 dolar faiz ödedi. Faiz oranı nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1.200=8.000·r·5 olduğundan r=1.200÷40.000=0,03. Faiz oranı 3%'tür."
+          }
+        ],
+        "sortOrder": 227,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-229",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "229",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Lebron kızına konut alması için 20.000 dolar borç verdi. Dört yıl sonra 20.000 dolara ek olarak 3.000 dolar faiz aldı. Faiz oranı nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3.000=20.000·r·4 denkleminden r=3.000÷80.000=0,0375. Faiz oranı 3,75%'tir."
+          }
+        ],
+        "sortOrder": 229,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-231",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "231",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "10 yılda 5,25% faiz veren bir banka hesabı 18.375 dolar faiz kazandırdı. Hesabın anaparası nedir?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 18.375=P·0,0525·10 olduğundan 18.375=0,525P. P=35.000 dolar olur."
+          }
+        ],
+        "sortOrder": 231,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-233",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "233",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Joshua'nın bilgisayar kredisi, 3 yılda 12,4% faizle 1.244,34 dolar faiz ödeyeceğini söylüyor. Joshua bilgisayar için ne kadar borç aldı?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1.244,34=P·0,124·3 olur. P=1.244,34÷0,372=3.345 dolar borç almıştır."
+          }
+        ],
+        "sortOrder": 233,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-235",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "235",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Caitlin 8.200 doları 18 aylık, 2,7% faizli vadeli hesaba yatırdı. Bu yatırımdan ne kadar faiz kazandı?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 18 ay 1,5 yıldır. I=8.200·0,027·1,5=332,10 dolar faiz kazanır."
+          }
+        ],
+        "sortOrder": 235,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-237",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "237",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Airin araba peşinatı için ailesinden 3.900 dolar borç aldı ve 15 ayda 4% faizle geri ödemeyi kabul etti. Ailesine ne kadar faiz borçlandı?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 15 ay 15/12 yıldır. I=3.900·0,04·(15/12)=195 dolar faiz borçlanır."
+          }
+        ],
+        "sortOrder": 237,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-239",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "239",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Tasarruf faizi: Yerel bankanızın tasarruf hesapları için ödediği faiz oranını bulun. ⓐ Faiz oranı nedir? ⓑ 8.000 dolar anapara için 5 yılda kazanılacak faizi hesaplayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Bankanın verdiği oran r ise I=8.000·r·5 formülü kullanılır. Örneğin oran 2% ise r=0,02 ve faiz 8.000·0,02·5=800 dolar olur."
+          }
+        ],
+        "sortOrder": 239,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-simple-interest-exercise-241",
+        "lessonId": "lesson-simple-interest",
+        "sectionId": "basit-faiz-section-02",
+        "number": "241",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Bankalar tasarruf hesaplarına yatırılan para için neden faiz öder?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Bankalar yatırılan parayı kredi vermek ve yatırım yapmak için kullanır. Bu parayı kullanabildikleri için tasarruf sahibine faiz öderler."
+          }
+        ],
+        "sortOrder": 241,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -63399,6 +64431,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications",
         "httpStatus": 200,
         "contentHash": "4a15f0bb6ccabbfae021885534399c41d05794fa1cc4553f54215abf3a29d05c",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications",
+        "httpStatus": 200,
+        "contentHash": "b65a98f4460026705fb4a384581b26931cc8da91e82407484aa0cc570d7ed352",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -72416,6 +73456,188 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/e57709b6b34e1ce2.json",
         "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/e57709b6b34e1ce2.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-195755d2f16a9776",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We will use the simple interest formula to find the interest.",
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/195755d2f16a9776.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/195755d2f16a9776.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-c38b58b72eb5a56c",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We will use the simple interest formula to find the principal.",
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/c38b58b72eb5a56c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/c38b58b72eb5a56c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-6b612a19bca9aaaf",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": "We will use the simple interest formula to find the rate.",
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/6b612a19bca9aaaf.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/6b612a19bca9aaaf.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-22642300e4ca43a6",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": "I = ? P = $12,500 r = 4% t = 5 years I = ? P = $12,500 r = 4% t = 5 years",
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/22642300e4ca43a6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/22642300e4ca43a6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-b2a3b10d1dc89ce5",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": "I = 660 P = $3,000 r = ? t = 4 years I = 660 P = $3,000 r = ? t = 4 years",
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/b2a3b10d1dc89ce5.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/b2a3b10d1dc89ce5.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-e4489429c5a6458d",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": "I = 6,596.25 P = ? r = 7.5% t = 5 years I = 6,596.25 P = ? r = 7.5% t = 5 years",
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/e4489429c5a6458d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/e4489429c5a6458d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-7e10105d0e857f04",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": "I = ? P = $900 r = 2.1% t = 10 months I = ? P = $900 r = 2.1% t = 10 months",
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/7e10105d0e857f04.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/7e10105d0e857f04.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-be17f1e971943488",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/be17f1e971943488.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/be17f1e971943488.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-0ecc674b7097fae4",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/0ecc674b7097fae4.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/0ecc674b7097fae4.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-c1cf94c16f7fdc53",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/c1cf94c16f7fdc53.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/c1cf94c16f7fdc53.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-945f35e83cb180f6",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/945f35e83cb180f6.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/945f35e83cb180f6.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-4ac8b0aeca48b3d1",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/4ac8b0aeca48b3d1.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/4ac8b0aeca48b3d1.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-simple-interest-asset-b708b735754713da",
+        "lessonId": "lesson-simple-interest",
+        "sourceSnapshotId": "snapshot-b65a98f446002670",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.05%3A_Solve_Simple_Interest_Applications#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/b708b735754713da.json",
+        "r2Key": "assets/prealgebra-2e-openstax/5-4-solve-simple-interest-applications/b708b735754713da.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

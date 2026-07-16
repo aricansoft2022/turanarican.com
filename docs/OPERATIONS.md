@@ -16,10 +16,10 @@ Proje şu anda:
 - Canlı canonical host şu an `https://turanarican.com`.
 - `https://www.turanarican.com` Cloudflare tarafından apex hosta 301
   yönleniyor.
-- Turso'ya yazıldığı son doğrulanan seed DB içeriği 23 ders, 128 ders bölümü,
-  851 alıştırma ve 585 kaynak asset içeriyor.
-- Son yerel/generated seed payload 26 ders, 138 ders bölümü, 952 alıştırma ve
-  644 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
+- Turso'ya yazıldığı son doğrulanan seed DB içeriği 24 ders, 131 ders bölümü,
+  899 alıştırma ve 617 kaynak asset içeriyor.
+- Son yerel/generated seed payload 27 ders, 140 ders bölümü, 973 alıştırma ve
+  657 kaynak asset içeriyor; bu payload henüz Turso'ya yazılmadı.
 
 En önemli deploy kuralı:
 
@@ -462,10 +462,10 @@ Son doğrulanan seed DB yazımı:
 Bu Turso yazımı Prealgebra 2e için `2.3-6.2` aralığını kapsar. Son yazılmış ders
 `6.2 Understand Percent` / `Yüzde Kavramı` idi.
 
-Son yerel/generated seed payload `2.3-6.4` aralığını kapsar; son yerel ders
-`6.4 Solve Sales Tax, Commission, and Discount Applications` /
-`Vergi, Komisyon ve İndirim` olarak üretildi ve henüz Turso'ya yazılmadı.
-Sıradaki aday `6.5 Solve Simple Interest Applications` olarak raporlanır.
+Son yerel/generated seed payload `2.3-6.5` aralığını kapsar; son yerel ders
+`6.5 Solve Simple Interest Applications` / `Basit Faiz` olarak üretildi ve
+henüz Turso'ya yazılmadı. Sıradaki aday
+`6.6 Solve Proportions and their Applications` olarak raporlanır.
 
 Schema değiştiğinde:
 

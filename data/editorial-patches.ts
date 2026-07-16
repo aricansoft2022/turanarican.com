@@ -11414,6 +11414,117 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "6.5",
+    sections: [
+      {
+        sectionSlug: "basit-faiz-formulu",
+        replaceBlocks: [
+          ...removeBlocks(13),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bankaya yatırılan ya da borç alınan para için belirli bir süre sonunda faiz hesaplanabilir. Başlangıç parasına anapara denir ve genellikle P ile gösterilir.",
+              ),
+              p([
+                t("Basit faiz formülü "),
+                m("I=Prt"),
+                t(" biçimindedir. Burada "),
+                m("I"),
+                t(" faiz tutarı, "),
+                m("P"),
+                t(" anapara, "),
+                m("r"),
+                t(" yıllık faiz oranı ve "),
+                m("t"),
+                t(" yıl cinsinden süredir. Faiz oranını formüle ondalık biçimde yazarız."),
+              ]),
+              ex(
+                "Örnek 6.33",
+                [t("500 dolar anapara 3 yıl boyunca 6% faiz oranıyla tutulursa kazanılan basit faiz nedir?")],
+                sol("Çözüm: I=Prt formülünde P=500, r=0,06 ve t=3 yazılır. I=500·0,06·3=90 dolar olur."),
+              ),
+              ex("Sıra Sizde 6.65", [t("800 dolar anapara 4 yıl boyunca 5% faiz oranıyla tutulursa kazanılan basit faiz nedir?")]),
+              ex("Sıra Sizde 6.66", [t("700 dolar anapara 2 yıl boyunca 4% faiz oranıyla tutulursa kazanılan basit faiz nedir?")]),
+              pt(
+                "Faiz tutarı, oran ve süre biliniyorsa formülü anaparayı bulmak için de kullanabiliriz.",
+              ),
+              ex(
+                "Örnek 6.34",
+                [t("2 yılda 4% faiz oranıyla 178 dolar faiz kazanıldıysa yatırılan anapara nedir?")],
+                sol("Çözüm: 178=P·0,04·2 olur. 178=0,08P olduğundan P=178÷0,08=2.225 dolar bulunur."),
+              ),
+              ex("Sıra Sizde 6.67", [t("3 yılda 6% faiz oranıyla 495 dolar faiz kazanıldıysa yatırılan anapara nedir?")]),
+              ex("Sıra Sizde 6.68", [t("5 yılda 7% faiz oranıyla 1.246 dolar faiz kazanıldıysa yatırılan anapara nedir?")]),
+              pt(
+                "Faiz tutarı, anapara ve süre biliniyorsa faiz oranını buluruz. Bulduğumuz ondalık değeri yüzdeye çeviririz.",
+              ),
+              ex(
+                "Örnek 6.35",
+                [t("8.200 dolar anapara 4 yılda 3.772 dolar faiz kazandıysa faiz oranı nedir?")],
+                sol("Çözüm: 3.772=8.200·r·4, yani 3.772=32.800r. r=3.772÷32.800=0,115 olur; faiz oranı 11,5%'tir."),
+              ),
+              ex("Sıra Sizde 6.69", [t("5.000 dolar anapara 6 yılda 1.350 dolar faiz kazandıysa faiz oranı nedir?")]),
+              ex("Sıra Sizde 6.70", [t("9.000 dolar anapara 3 yılda 1.755 dolar faiz kazandıysa faiz oranı nedir?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "basit-faiz-uygulamalari",
+        replaceBlocks: [
+          ...removeBlocks(17),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Basit faiz problemleri yatırım ya da borçlanma durumlarında karşımıza çıkar. Problemde verilenleri P, r ve t olarak ayırmak çözümü düzenli hale getirir.",
+              ),
+              ex(
+                "Örnek 6.36",
+                [t("Nathaly bankaya 12.500 dolar yatırdı ve hesabı 4% faiz kazandırıyor. 5 yılda ne kadar faiz kazanır?")],
+                sol("Çözüm: I=12.500·0,04·5=2.500 dolar faiz kazanır."),
+              ),
+              ex("Sıra Sizde 6.71", [t("Areli 950 doları 3% faiz oranıyla bankaya yatırdı. 5 yılda ne kadar faiz kazanır?")]),
+              ex("Sıra Sizde 6.72", [t("Susana 36.000 doları 6,5% faiz oranıyla bankaya yatırdı. 3 yılda ne kadar faiz kazanır?")]),
+              pt(
+                "Bazı durumlarda borç verilen para ve kazanılan faiz bilinir; faiz oranı bilinmez. Yine I=Prt formülünü oran için çözeriz.",
+              ),
+              ex(
+                "Örnek 6.37",
+                [t("Loren kardeşine 3.000 dolar borç verdi. 4 yıl sonra kardeşi 3.000 dolara ek olarak 660 dolar faiz ödedi. Faiz oranı nedir?")],
+                sol("Çözüm: 660=3.000·r·4 olduğundan 660=12.000r. r=0,055, yani 5,5% olur."),
+              ),
+              ex("Sıra Sizde 6.73", [t("Jim kız kardeşine ev alması için 5.000 dolar borç verdi. 3 yıl sonra 900 dolar faiz aldı. Faiz oranı nedir?")]),
+              ex("Sıra Sizde 6.74", [t("Hang okul ücreti için ailesinden 7.500 dolar borç aldı. 5 yıl sonra 1.500 dolar faiz ödedi. Faiz oranı nedir?")]),
+              pt(
+                "Büyük alışveriş kredilerinde anapara bazen doğrudan verilmez. Ödenecek faiz, oran ve süre biliniyorsa anaparayı bulabiliriz.",
+              ),
+              ex(
+                "Örnek 6.38",
+                [t("Eduardo'nun araba kredisi 7,5% faiz oranıyla 5 yılda 6.596,25 dolar faiz ödeyeceğini söylüyor. Araba için ne kadar borç almıştır?")],
+                sol("Çözüm: 6.596,25=P·0,075·5 olur. 6.596,25=0,375P ve P=17.590 dolar bulunur."),
+              ),
+              ex("Sıra Sizde 6.75", [t("Sean'ın araba kredisi 8,5% faiz oranıyla 5 yılda 4.866,25 dolar faiz ödeyeceğini söylüyor. Ne kadar borç almıştır?")]),
+              ex("Sıra Sizde 6.76", [t("Gloria'nın banka hesabı 5 yılda 5% faiz oranıyla 2.400 dolar faiz kazandı. Hesaba ne kadar para yatırmıştı?")]),
+              pt(
+                "Basit faiz formülünde faiz oranı yıllık verilir. Süre ay cinsinden verilirse yılı ifade eden kesre çevrilmelidir.",
+              ),
+              ex(
+                "Örnek 6.39",
+                [t("Caroline 900 doları 10 aylık ve 2,1% faizli vadeli hesaba yatırdı. Ne kadar faiz kazanır?")],
+                sol("Çözüm: 10 ay, 10/12 yıldır. I=900·0,021·(10/12)=15,75 dolar faiz kazanır."),
+              ),
+              ex("Sıra Sizde 6.77", [t("Adriana 4.500 doları 8 ay boyunca 1,9% faiz veren hesaba yatırdı. Ne kadar faiz kazanır?")]),
+              ex("Sıra Sizde 6.78", [t("Milton 2.460 doları 20 ay boyunca 3,5% faiz veren hesaba yatırdı. Ne kadar faiz kazanır?")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({
