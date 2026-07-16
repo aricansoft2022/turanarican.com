@@ -11525,6 +11525,251 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "6.6",
+    sections: [
+      {
+        sectionSlug: "oranti-tanimi",
+        replaceBlocks: [
+          ...removeBlocks(15),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "İki oran ya da iki birim oran eşitse bu eşitliğe orantı denir. Orantı, iki karşılaştırmanın aynı ilişkiyi anlattığını gösterir.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\frac{1}{2}=\\frac{4}{8}"),
+                t(" bir orantıdır; çünkü iki kesir eşittir. Bu ifade \"1'in 2'ye oranı, 4'ün 8'e oranına eşittir\" diye okunur."),
+              ]),
+              pt(
+                "Birimli çokluklarda sırayı korumak önemlidir. İlk oranda paya öğrenci sayısını, paydaya öğretmen sayısını yazdıysak ikinci oranda da aynı sırayı kullanmalıyız.",
+              ),
+              ex(
+                "Örnek 6.40",
+                [
+                  t("Her cümleyi orantı olarak yazın: ⓐ 3'ün 7'ye oranı, 15'in 35'e oranına eşittir. ⓑ 8 atışta 5 vuruş, 48 atışta 30 vuruşla aynıdır. ⓒ 6 ons için 1,50 dolar, 9 ons için 2,25 dolara eşdeğerdir."),
+                ],
+                sol("Çözüm: ⓐ 3/7=15/35. ⓑ Vuruş/atış oranı 5/8=30/48. ⓒ Dolar/ons oranı 1,50/6=2,25/9 olur."),
+              ),
+              ex("Sıra Sizde 6.79", [
+                t("Her cümleyi orantı olarak yazın: ⓐ 5'in 9'a oranı, 20'nin 36'ya oranına eşittir. ⓑ 11 atışta 7 vuruş, 44 atışta 28 vuruşla aynıdır. ⓒ 8 ons için 2,50 dolar, 12 ons için 3,75 dolara eşdeğerdir."),
+              ]),
+              ex("Sıra Sizde 6.80", [
+                t("Her cümleyi orantı olarak yazın: ⓐ 6'nın 7'ye oranı, 36'nın 42'ye oranına eşittir. ⓑ 36 çocuk için 8 yetişkin, 54 çocuk için 12 yetişkinle aynıdır. ⓒ 6 ons için 3,75 dolar, 4 ons için 2,50 dolara eşdeğerdir."),
+              ]),
+              p([
+                t("Bir orantının doğru olup olmadığını kontrol etmek için çapraz çarpımları kullanabiliriz. "),
+                m("\\frac{a}{b}=\\frac{c}{d}"),
+                t(" için çapraz çarpımlar "),
+                m("a\\cdot d"),
+                t(" ve "),
+                m("b\\cdot c"),
+                t("'dir. Bunlar eşitse orantı doğrudur."),
+              ]),
+              ex(
+                "Örnek 6.41",
+                [
+                  t("Her denklemin orantı olup olmadığını belirleyin: ⓐ 4/9=12/28 ⓑ 17,5/37,5=7/15."),
+                ],
+                sol("Çözüm: ⓐ 4·28=112 ve 9·12=108; eşit olmadıkları için orantı değildir. ⓑ 17,5·15=262,5 ve 37,5·7=262,5; eşit oldukları için orantıdır."),
+              ),
+              ex("Sıra Sizde 6.81", [
+                t("Her denklemin orantı olup olmadığını belirleyin: ⓐ 7/9=54/72 ⓑ 24,5/45,5=7/13."),
+              ]),
+              ex("Sıra Sizde 6.82", [
+                t("Her denklemin orantı olup olmadığını belirleyin: ⓐ 8/9=56/73 ⓑ 28,5/52,5=8/15."),
+              ]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "orantilari-cozme",
+        replaceBlocks: [
+          ...removeBlocks(12),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "İçinde değişken bulunan bir orantı da bir denklemdir. Bu yüzden eşitlik özelliklerini ve çapraz çarpımları kullanarak bilinmeyeni bulabiliriz.",
+              ),
+              ex(
+                "Örnek 6.42",
+                [t("Orantıyı çözün: x/63=4/7.")],
+                sol("Çözüm: Çapraz çarpım yapalım: 7x=63·4=252. Her iki tarafı 7'ye bölersek x=36 bulunur."),
+              ),
+              ex("Sıra Sizde 6.83", [t("Orantıyı çözün: n/84=11/12.")]),
+              ex("Sıra Sizde 6.84", [t("Orantıyı çözün: y/96=13/12.")]),
+              pt(
+                "Değişken paydadaysa da aynı yöntem çalışır. Çapraz çarpımları eşitleyip oluşan basit denklemi çözeriz.",
+              ),
+              ex(
+                "Örnek 6.43",
+                [t("Orantıyı çözün: 144/a=9/4.")],
+                sol("Çözüm: 144/a=9/4 için 9a=144·4=576 olur. a=64 bulunur."),
+              ),
+              ex("Sıra Sizde 6.85", [t("Orantıyı çözün: 91/b=7/5.")]),
+              ex("Sıra Sizde 6.86", [t("Orantıyı çözün: 39/c=13/8.")]),
+              ex(
+                "Örnek 6.44",
+                [t("Orantıyı çözün: 52/91=-4/y.")],
+                sol("Çözüm: 52y=91·(-4)=-364. Her iki tarafı 52'ye bölersek y=-7 olur."),
+              ),
+              ex("Sıra Sizde 6.87", [t("Orantıyı çözün: 84/98=-6/x.")]),
+              ex("Sıra Sizde 6.88", [t("Orantıyı çözün: -7/y=105/135.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "oranti-uygulamalari",
+        replaceBlocks: [
+          ...removeBlocks(10),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Orantı problemlerinde en önemli adım, iki oranı aynı sırayla kurmaktır. Paydaki birim ilk oranda neyse ikinci oranda da aynı tür çokluk paya yazılmalıdır.",
+              ),
+              ex(
+                "Örnek 6.45",
+                [
+                  t("Çocuk doktorları her 25 pound çocuk ağırlığı için 5 ml asetaminofen yazar. Zoe 80 pound ise doktor kaç ml ilaç yazar?"),
+                ],
+                sol("Çözüm: 5/25=a/80 orantısını kurarız. 25a=400 olduğundan a=16 ml ilaç yazılır."),
+              ),
+              ex("Sıra Sizde 6.89", [
+                t("Her 25 pound çocuk ağırlığı için 5 ml asetaminofen yazılıyorsa 60 pound olan Emilia için kaç ml ilaç yazılır?"),
+              ]),
+              ex("Sıra Sizde 6.90", [
+                t("Her 1 kg çocuk ağırlığı için 15 mg ateş düşürücü veriliyorsa 12 kg olan Isabella için kaç mg ilaç verilir?"),
+              ]),
+              ex(
+                "Örnek 6.46",
+                [
+                  t("Bir mikrodalga patlamış mısır markasında porsiyon başına 120 kalori vardır. Bir poşet 3,5 porsiyon içeriyorsa tüm poşette kaç kalori vardır?"),
+                ],
+                sol("Çözüm: 120/1=c/3,5 yazılır. c=120·3,5=420 kalori olur."),
+              ),
+              ex("Sıra Sizde 6.91", [
+                t("Bir kahve içeceğinin 16 onsluk boyu 240 kaloridir. Aynı içeceğin 20 onsluk boyu kaç kalori olur?"),
+              ]),
+              ex("Sıra Sizde 6.92", [
+                t("Bir şeker 8 parça için 160 kaloridir. Yaneli ara öğününü 100 kaloriyle sınırlamak istiyorsa kaç parça yiyebilir?"),
+              ]),
+              ex(
+                "Örnek 6.47",
+                [
+                  t("Josiah 325 ABD dolarını Meksika pesosuna çevirdi. 1 ABD doları 12,54 peso ise kaç peso alır?"),
+                ],
+                sol("Çözüm: 1/12,54=325/p ya da p=325·12,54 kurulur. p=4.075,50 peso alır."),
+              ),
+              ex("Sıra Sizde 6.93", [
+                t("Yurianna 800 ABD dolarını avroya çevirecek. 1 ABD doları 0,738 avro ise kaç avro alır?"),
+              ]),
+              ex("Sıra Sizde 6.94", [
+                t("Corey ve Nicole 600 ABD dolarını Japon yenine çevirecek. 1 dolar 94,1 yen ise kaç yen alırlar?"),
+              ]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "yuzde-denklemlerini-oranti-olarak-yazma",
+        replaceBlocks: [
+          ...removeBlocks(18),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Yüzde problemleri orantı yöntemiyle de modellenebilir. Yüzde, 100 üzerinden bir oran olduğu için miktar ile temel sayı arasındaki oranı yüzde oranına eşitleriz.",
+              ),
+              p([
+                t("Temel yapı "),
+                m("\\frac{\\text{miktar}}{\\text{temel}}=\\frac{\\text{yüzde}}{100}"),
+                t(" biçimindedir. Bu cümle \"miktarın temele oranı, yüzdenin 100'e oranına eşittir\" diye okunabilir."),
+              ]),
+              pt(
+                "Bu bölümde önce yalnızca orantıyı yazıyoruz. Bir sonraki bölümde aynı orantıları çözeceğiz.",
+              ),
+              ex(
+                "Örnek 6.48",
+                [t("Orantı olarak yazın: 90'ın 75%'i hangi sayıdır?")],
+                sol("Çözüm: Bilinmeyen sayı n olsun. Miktar n, temel 90 ve yüzde 75'tir. Orantı n/90=75/100 olur."),
+              ),
+              ex("Sıra Sizde 6.95", [t("Orantı olarak yazın: 105'in 60%'i hangi sayıdır?")]),
+              ex("Sıra Sizde 6.96", [t("Orantı olarak yazın: 85'in 40%'i hangi sayıdır?")]),
+              ex(
+                "Örnek 6.49",
+                [t("Orantı olarak yazın: 19, hangi sayının 25%'idir?")],
+                sol("Çözüm: Temel sayı n olsun. Miktar 19, yüzde 25'tir. Orantı 19/n=25/100 biçiminde yazılır."),
+              ),
+              ex("Sıra Sizde 6.97", [t("Orantı olarak yazın: 36, hangi sayının 25%'idir?")]),
+              ex("Sıra Sizde 6.98", [t("Orantı olarak yazın: 27, hangi sayının 36%'sıdır?")]),
+              ex(
+                "Örnek 6.50",
+                [t("Orantı olarak yazın: 9, 27'nin yüzde kaçıdır?")],
+                sol("Çözüm: Yüzde p olsun. Miktar 9 ve temel 27 olduğundan 9/27=p/100 yazılır."),
+              ),
+              ex("Sıra Sizde 6.99", [t("Orantı olarak yazın: 39, 52'nin yüzde kaçıdır?")]),
+              ex("Sıra Sizde 6.100", [t("Orantı olarak yazın: 23, 92'nin yüzde kaçıdır?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "yuzde-orantilarini-cozme",
+        replaceBlocks: [
+          ...removeBlocks(15),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Yüzde orantısını kurduktan sonra çözüm yine çapraz çarpımlarla ilerler. Bilinmeyen miktar, temel sayı ya da yüzde olabilir.",
+              ),
+              ex(
+                "Örnek 6.51",
+                [t("Orantı kurup çözün: 80'in 45%'i hangi sayıdır?")],
+                sol("Çözüm: n/80=45/100 yazılır. 100n=3.600 olduğundan n=36 bulunur."),
+              ),
+              ex("Sıra Sizde 6.101", [t("Orantı kurup çözün: 40'ın 65%'i hangi sayıdır?")]),
+              ex("Sıra Sizde 6.102", [t("Orantı kurup çözün: 40'ın 85%'i hangi sayıdır?")]),
+              pt(
+                "Yüzde 100'den büyükse sonuç temel sayıdan büyük olur. Orantı yöntemi bu durumu da aynı şekilde çözer.",
+              ),
+              ex(
+                "Örnek 6.52",
+                [t("Orantı kurup çözün: 25'in 125%'i hangi sayıdır?")],
+                sol("Çözüm: n/25=125/100. 100n=3.125 ve n=31,25 olur."),
+              ),
+              ex("Sıra Sizde 6.103", [t("Orantı kurup çözün: 64'ün 125%'i hangi sayıdır?")]),
+              ex("Sıra Sizde 6.104", [t("Orantı kurup çözün: 84'ün 175%'i hangi sayıdır?")]),
+              pt(
+                "Ondalıklı yüzdeler ve para tutarları da aynı yapıdadır. Yüzdeyi 100 paydasına yazmak, hangi sayının arandığını açık tutar.",
+              ),
+              ex(
+                "Örnek 6.53",
+                [t("Orantı kurup çözün: Hangi sayının 6,5%'i 1,56 dolardır?")],
+                sol("Çözüm: 1,56/n=6,5/100. 6,5n=156 ve n=24 dolar bulunur."),
+              ),
+              ex("Sıra Sizde 6.105", [t("Orantı kurup çözün: Hangi sayının 8,5%'i 3,23 dolardır?")]),
+              ex("Sıra Sizde 6.106", [t("Orantı kurup çözün: Hangi sayının 7,25%'i 4,64 dolardır?")]),
+              ex(
+                "Örnek 6.54",
+                [t("Orantı kurup çözün: 9, 72'nin yüzde kaçıdır?")],
+                sol("Çözüm: 9/72=p/100. 72p=900 ve p=12,5 olur. Yani 9, 72'nin 12,5%'idir."),
+              ),
+              ex("Sıra Sizde 6.107", [t("Orantı kurup çözün: 27, 72'nin yüzde kaçıdır?")]),
+              ex("Sıra Sizde 6.108", [t("Orantı kurup çözün: 23, 92'nin yüzde kaçıdır?")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

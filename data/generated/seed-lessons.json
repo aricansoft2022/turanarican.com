@@ -68198,6 +68198,2173 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "6.6",
+      "displayNumber": "5.5",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications",
+      "contentHash": "0d72007f2dd6cf20b63e22900c244cec12271d04eec11620646c593414337a4d",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-e868098343f922e4",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/105034/4d598a8f145db7190fa091790182407bdc3a3234?revision=1",
+          "type": "image",
+          "altText": "The figure shows cross multiplication of two proportions. There is the proportion 1 is to 2 as 4 is to 8. Arrows are shown diagonally across the equal sign to show cross products. The equations formed by cross multiplying are 8 · 1 = 8 and 2 · 4 = 8. There is the proportion 2 is to 3 as 6 is to 9. Arrows are shown diagonally across the equal sign to show cross products. The equations formed by cross multiplying are 9 · 2 = 18 and 3 · 6 = 18.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/000-e868098343f922e4.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/000-e868098343f922e4.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "5b0abd2a2f00158a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/5b0abd2a2f00158a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/5b0abd2a2f00158a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ea31d7d8e1723eed",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/ea31d7d8e1723eed.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/ea31d7d8e1723eed.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "4781c585b6e3a2a9",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/4781c585b6e3a2a9.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/4781c585b6e3a2a9.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "028638e664a4b9f3",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-3",
+          "type": "table",
+          "caption": "To determine if the equation is a proportion, we find the cross products. If they are equal, the equation is a proportion.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/028638e664a4b9f3.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/028638e664a4b9f3.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "01223b51370a1b86",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-4",
+          "type": "table",
+          "caption": "Since the cross products are not equal, 28·4≠9·12,28·4≠9·12, the equation is not a proportion.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/01223b51370a1b86.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/01223b51370a1b86.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "2974a6cc5b4d6ea5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/2974a6cc5b4d6ea5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/2974a6cc5b4d6ea5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "cf349145aaa33a23",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-6",
+          "type": "table",
+          "caption": "Notice that the variable is in the denominator, so we will solve by finding the cross products and setting them equal.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/cf349145aaa33a23.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/cf349145aaa33a23.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "2c39c51ba2aef7b9",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-7",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/2c39c51ba2aef7b9.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/2c39c51ba2aef7b9.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7766333d6acc82dd",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-8",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/7766333d6acc82dd.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/7766333d6acc82dd.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7a9fc3510829d596",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-9",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/7a9fc3510829d596.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/7a9fc3510829d596.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a3b683bb144a61c8",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/a3b683bb144a61c8.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/a3b683bb144a61c8.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "4eec70bfdc9a3da5",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-11",
+          "type": "table",
+          "caption": "If you look for the word \"of\", it may help you identify the base.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/4eec70bfdc9a3da5.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/4eec70bfdc9a3da5.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "6f7b0188893d06ec",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-12",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/6f7b0188893d06ec.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/6f7b0188893d06ec.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "675294742a3a545a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-13",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/675294742a3a545a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/675294742a3a545a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c04c6822042c3226",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-14",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/c04c6822042c3226.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/c04c6822042c3226.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "7aa50a63a734429b",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-15",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/7aa50a63a734429b.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/7aa50a63a734429b.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5dab90a7f5eb58b4",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-16",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/5dab90a7f5eb58b4.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/5dab90a7f5eb58b4.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "1b249e39bcc2a48d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications#table-17",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/1b249e39bcc2a48d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/1b249e39bcc2a48d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 5,
+        "sections": 5,
+        "blocks": 58,
+        "examples": 15,
+        "tryIts": 30,
+        "sourceExercises": 44,
+        "exercises": 44,
+        "mathTokens": 5,
+        "assets": 19
+      },
+      "lesson": {
+        "id": "lesson-proportions-applications",
+        "slug": "orantilar-ve-uygulamalari",
+        "displayTitle": "Orantılar ve Uygulamaları",
+        "summary": "Orantı tanımını kullanarak eş oranları doğrulayın, orantıları çözün ve yüzde problemlerini orantı yöntemiyle modelleyin.",
+        "sortOrder": 5,
+        "chapterId": "chapter-percents",
+        "sourceNumber": "6.6",
+        "displayNumber": "5.5",
+        "sourceTitle": "Solve Proportions and their Applications",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "yuzdeler",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Orantı tanımını kullanabileceksiniz.",
+          "Orantıları çözebileceksiniz.",
+          "Günlük yaşam problemlerini orantı kurarak çözebileceksiniz.",
+          "Yüzde denklemlerini orantı olarak yazabileceksiniz.",
+          "Yüzde orantılarını kurup çözebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "orantilar-ve-uygulamalari-section-01",
+            "heading": "Orantı Tanımı",
+            "slug": "oranti-tanimi",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İki oran ya da iki birim oran eşitse bu eşitliğe orantı denir. Orantı, iki karşılaştırmanın aynı ilişkiyi anlattığını gösterir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Örneğin "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{1}{2}=\\frac{4}{8}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " bir orantıdır; çünkü iki kesir eşittir. Bu ifade \"1'in 2'ye oranı, 4'ün 8'e oranına eşittir\" diye okunur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Birimli çokluklarda sırayı korumak önemlidir. İlk oranda paya öğrenci sayısını, paydaya öğretmen sayısını yazdıysak ikinci oranda da aynı sırayı kullanmalıyız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.40",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her cümleyi orantı olarak yazın: ⓐ 3'ün 7'ye oranı, 15'in 35'e oranına eşittir. ⓑ 8 atışta 5 vuruş, 48 atışta 30 vuruşla aynıdır. ⓒ 6 ons için 1,50 dolar, 9 ons için 2,25 dolara eşdeğerdir."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 3/7=15/35. ⓑ Vuruş/atış oranı 5/8=30/48. ⓒ Dolar/ons oranı 1,50/6=2,25/9 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.79",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her cümleyi orantı olarak yazın: ⓐ 5'in 9'a oranı, 20'nin 36'ya oranına eşittir. ⓑ 11 atışta 7 vuruş, 44 atışta 28 vuruşla aynıdır. ⓒ 8 ons için 2,50 dolar, 12 ons için 3,75 dolara eşdeğerdir."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 5/9=20/36. ⓑ Vuruş sayısını atış sayısına oranlarız: 7/11=28/44. ⓒ Doları ons miktarına oranlarız: 2,50/8=3,75/12."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.80",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her cümleyi orantı olarak yazın: ⓐ 6'nın 7'ye oranı, 36'nın 42'ye oranına eşittir. ⓑ 36 çocuk için 8 yetişkin, 54 çocuk için 12 yetişkinle aynıdır. ⓒ 6 ons için 3,75 dolar, 4 ons için 2,50 dolara eşdeğerdir."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 6/7=36/42. ⓑ Yetişkinleri çocuklara oranlarız: 8/36=12/54. ⓒ Dolar/ons oranı 3,75/6=2,50/4 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir orantının doğru olup olmadığını kontrol etmek için çapraz çarpımları kullanabiliriz. "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{a}{b}=\\frac{c}{d}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " için çapraz çarpımlar "
+                  },
+                  {
+                    "type": "math",
+                    "value": "a\\cdot d"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ve "
+                  },
+                  {
+                    "type": "math",
+                    "value": "b\\cdot c"
+                  },
+                  {
+                    "type": "text",
+                    "value": "'dir. Bunlar eşitse orantı doğrudur."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.41",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her denklemin orantı olup olmadığını belirleyin: ⓐ 4/9=12/28 ⓑ 17,5/37,5=7/15."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 4·28=112 ve 9·12=108; eşit olmadıkları için orantı değildir. ⓑ 17,5·15=262,5 ve 37,5·7=262,5; eşit oldukları için orantıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.81",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her denklemin orantı olup olmadığını belirleyin: ⓐ 7/9=54/72 ⓑ 24,5/45,5=7/13."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ Çapraz çarpımlar 7·72=504 ve 9·54=486 olduğu için orantı değildir. ⓑ 24,5·13=318,5 ve 45,5·7=318,5 olduğundan orantıdır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.82",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her denklemin orantı olup olmadığını belirleyin: ⓐ 8/9=56/73 ⓑ 28,5/52,5=8/15."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 8·73=584 ve 9·56=504 eşit değildir. ⓑ 28,5·15=427,5 ve 52,5·8=420 eşit değildir. İkisi de orantı değildir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "orantilar-ve-uygulamalari-section-02",
+            "heading": "Orantıları Çözme",
+            "slug": "orantilari-cozme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İçinde değişken bulunan bir orantı da bir denklemdir. Bu yüzden eşitlik özelliklerini ve çapraz çarpımları kullanarak bilinmeyeni bulabiliriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.42",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: x/63=4/7."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Çapraz çarpım yapalım: 7x=63·4=252. Her iki tarafı 7'ye bölersek x=36 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.83",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: n/84=11/12."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: n/84=11/12 olduğundan 12n=84·11. n=77 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.84",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: y/96=13/12."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: y/96=13/12 ise 12y=96·13. y=104 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Değişken paydadaysa da aynı yöntem çalışır. Çapraz çarpımları eşitleyip oluşan basit denklemi çözeriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.43",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: 144/a=9/4."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 144/a=9/4 için 9a=144·4=576 olur. a=64 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.85",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: 91/b=7/5."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 91/b=7/5 için 7b=91·5=455. b=65 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.86",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: 39/c=13/8."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 39/c=13/8 olduğundan 13c=39·8=312. c=24 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.44",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: 52/91=-4/y."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 52y=91·(-4)=-364. Her iki tarafı 52'ye bölersek y=-7 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.87",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: 84/98=-6/x."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 84/98=-6/x için 84x=98·(-6)=-588. x=-7 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.88",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantıyı çözün: -7/y=105/135."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: -7/y=105/135 olduğundan 105y=-7·135=-945. y=-9 olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "orantilar-ve-uygulamalari-section-03",
+            "heading": "Orantı Uygulamaları",
+            "slug": "oranti-uygulamalari",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Orantı problemlerinde en önemli adım, iki oranı aynı sırayla kurmaktır. Paydaki birim ilk oranda neyse ikinci oranda da aynı tür çokluk paya yazılmalıdır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.45",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Çocuk doktorları her 25 pound çocuk ağırlığı için 5 ml asetaminofen yazar. Zoe 80 pound ise doktor kaç ml ilaç yazar?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5/25=a/80 orantısını kurarız. 25a=400 olduğundan a=16 ml ilaç yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.89",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her 25 pound çocuk ağırlığı için 5 ml asetaminofen yazılıyorsa 60 pound olan Emilia için kaç ml ilaç yazılır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 5/25=a/60 orantısını kurarız. 25a=300 olduğundan a=12 ml asetaminofen yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.90",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Her 1 kg çocuk ağırlığı için 15 mg ateş düşürücü veriliyorsa 12 kg olan Isabella için kaç mg ilaç verilir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Her 1 kg için 15 mg veriliyorsa 12 kg için 12·15=180 mg ilaç verilir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.46",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir mikrodalga patlamış mısır markasında porsiyon başına 120 kalori vardır. Bir poşet 3,5 porsiyon içeriyorsa tüm poşette kaç kalori vardır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 120/1=c/3,5 yazılır. c=120·3,5=420 kalori olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.91",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir kahve içeceğinin 16 onsluk boyu 240 kaloridir. Aynı içeceğin 20 onsluk boyu kaç kalori olur?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 240/16=c/20 orantısından 16c=4.800 ve c=300 kalori bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.92",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bir şeker 8 parça için 160 kaloridir. Yaneli ara öğününü 100 kaloriyle sınırlamak istiyorsa kaç parça yiyebilir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 160/8=100/p kurulur. Parça başına 20 kalori vardır; 100 kalori için p=5 parça yiyebilir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.47",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Josiah 325 ABD dolarını Meksika pesosuna çevirdi. 1 ABD doları 12,54 peso ise kaç peso alır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1/12,54=325/p ya da p=325·12,54 kurulur. p=4.075,50 peso alır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.93",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Yurianna 800 ABD dolarını avroya çevirecek. 1 ABD doları 0,738 avro ise kaç avro alır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1 dolar 0,738 avro ise 800 dolar 800·0,738=590,40 avro eder."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.94",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Corey ve Nicole 600 ABD dolarını Japon yenine çevirecek. 1 dolar 94,1 yen ise kaç yen alırlar?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 600 dolar için 600·94,1=56.460 yen alınır."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "orantilar-ve-uygulamalari-section-04",
+            "heading": "Yüzde Denklemlerini Orantı Olarak Yazma",
+            "slug": "yuzde-denklemlerini-oranti-olarak-yazma",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzde problemleri orantı yöntemiyle de modellenebilir. Yüzde, 100 üzerinden bir oran olduğu için miktar ile temel sayı arasındaki oranı yüzde oranına eşitleriz."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Temel yapı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\frac{\\text{miktar}}{\\text{temel}}=\\frac{\\text{yüzde}}{100}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " biçimindedir. Bu cümle \"miktarın temele oranı, yüzdenin 100'e oranına eşittir\" diye okunabilir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bu bölümde önce yalnızca orantıyı yazıyoruz. Bir sonraki bölümde aynı orantıları çözeceğiz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.48",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 90'ın 75%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bilinmeyen sayı n olsun. Miktar n, temel 90 ve yüzde 75'tir. Orantı n/90=75/100 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.95",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 105'in 60%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bilinmeyen sayı n olsun. Orantı n/105=60/100 biçimindedir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.96",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 85'in 40%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Bilinmeyen sayı n olsun. Orantı n/85=40/100 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.49",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 19, hangi sayının 25%'idir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Temel sayı n olsun. Miktar 19, yüzde 25'tir. Orantı 19/n=25/100 biçiminde yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.97",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 36, hangi sayının 25%'idir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Temel sayı n olsun. Orantı 36/n=25/100 biçiminde yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.98",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 27, hangi sayının 36%'sıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Temel sayı n olsun. 27/n=36/100 orantısını kurarız."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.50",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 9, 27'nin yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yüzde p olsun. Miktar 9 ve temel 27 olduğundan 9/27=p/100 yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.99",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 39, 52'nin yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yüzde p olsun. 39/52=p/100 orantısı yazılır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.100",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı olarak yazın: 23, 92'nin yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Yüzde p olsun. 23/92=p/100 orantısı kurulur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "orantilar-ve-uygulamalari-section-05",
+            "heading": "Yüzde Orantılarını Çözme",
+            "slug": "yuzde-orantilarini-cozme",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzde orantısını kurduktan sonra çözüm yine çapraz çarpımlarla ilerler. Bilinmeyen miktar, temel sayı ya da yüzde olabilir."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.51",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 80'in 45%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: n/80=45/100 yazılır. 100n=3.600 olduğundan n=36 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.101",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 40'ın 65%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: n/40=65/100 olduğundan 100n=2.600 ve n=26 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.102",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 40'ın 85%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: n/40=85/100. 100n=3.400 olduğundan n=34 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Yüzde 100'den büyükse sonuç temel sayıdan büyük olur. Orantı yöntemi bu durumu da aynı şekilde çözer."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.52",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 25'in 125%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: n/25=125/100. 100n=3.125 ve n=31,25 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.103",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 64'ün 125%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: n/64=125/100 kurulur. 100n=8.000 ve n=80 olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.104",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 84'ün 175%'i hangi sayıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: n/84=175/100 olduğundan n=147 bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Ondalıklı yüzdeler ve para tutarları da aynı yapıdadır. Yüzdeyi 100 paydasına yazmak, hangi sayının arandığını açık tutar."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.53",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: Hangi sayının 6,5%'i 1,56 dolardır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 1,56/n=6,5/100. 6,5n=156 ve n=24 dolar bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.105",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: Hangi sayının 8,5%'i 3,23 dolardır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 3,23/n=8,5/100. 8,5n=323 ve n=38 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.106",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: Hangi sayının 7,25%'i 4,64 dolardır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 4,64/n=7,25/100. 7,25n=464 ve n=64 dolar bulunur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.54",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 9, 72'nin yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 9/72=p/100. 72p=900 ve p=12,5 olur. Yani 9, 72'nin 12,5%'idir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.107",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 27, 72'nin yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 27/72=p/100. 72p=2.700 olduğundan p=37,5. Yani 27, 72'nin 37,5%'idir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.108",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orantı kurup çözün: 23, 92'nin yüzde kaçıdır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 23/92=p/100. 92p=2.300 olduğundan p=25. Yani 23, 92'nin 25%'idir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-243",
+            "number": "243",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cümleyi orantı olarak yazın: 4'ün 15'e oranı, 36'nın 135'e oranına eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Verilen karşılaştırmada ilk oran 4/15, ikinci oran 36/135 olur; aynı sırayı koruyarak 4/15=36/135 orantısı yazılır."
+              }
+            ],
+            "sortOrder": 243
+          },
+          {
+            "id": "exercise-245",
+            "number": "245",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cümleyi orantı olarak yazın: 12'nin 5'e oranı, 96'nın 40'a oranına eşittir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İlk sayı çifti ve ikinci sayı çifti aynı sırayla pay ve payda yapılır; bu yüzden 12/5=96/40 orantısını yazarız."
+              }
+            ],
+            "sortOrder": 245
+          },
+          {
+            "id": "exercise-247",
+            "number": "247",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cümleyi orantı olarak yazın: 7 maçta 5 galibiyet, 161 maçta 115 galibiyetle aynıdır."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Galibiyet/maç oranları aynı sırayla yazılır: 5/7=115/161."
+              }
+            ],
+            "sortOrder": 247
+          },
+          {
+            "id": "exercise-249",
+            "number": "249",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cümleyi orantı olarak yazın: 1 danışmana 8 kampçı oranı, 6 danışmana 48 kampçı oranıyla aynıdır."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kampçı/danışman oranı korunursa 8/1=48/6 olur."
+              }
+            ],
+            "sortOrder": 249
+          },
+          {
+            "id": "exercise-251",
+            "number": "251",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cümleyi orantı olarak yazın: 18 ons için 9,36 dolar, 5 ons için 2,60 dolara eşdeğerdir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Dolar/ons oranı kullanılır: 9,36/18=2,60/5."
+              }
+            ],
+            "sortOrder": 251
+          },
+          {
+            "id": "exercise-253",
+            "number": "253",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Cümleyi orantı olarak yazın: 11 pound için 18,04 dolar, 3 pound için 4,92 dolara eşdeğerdir."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Dolar/pound oranı 18,04/11=4,92/3 biçimindedir."
+              }
+            ],
+            "sortOrder": 253
+          },
+          {
+            "id": "exercise-255",
+            "number": "255",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklemin orantı olup olmadığını belirleyin: 7/15=56/120."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Çapraz çarpımlar 7·120=840 ve 15·56=840 eşittir; bu bir orantıdır."
+              }
+            ],
+            "sortOrder": 255
+          },
+          {
+            "id": "exercise-257",
+            "number": "257",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklemin orantı olup olmadığını belirleyin: 11/6=21/16."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 11·16=176, 6·21=126. Çapraz çarpımlar eşit olmadığı için orantı değildir."
+              }
+            ],
+            "sortOrder": 257
+          },
+          {
+            "id": "exercise-259",
+            "number": "259",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklemin orantı olup olmadığını belirleyin: 12/18=4,99/7,56."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 12·7,56=90,72 ve 18·4,99=89,82. Eşit olmadıkları için orantı değildir."
+              }
+            ],
+            "sortOrder": 259
+          },
+          {
+            "id": "exercise-261",
+            "number": "261",
+            "sectionSlug": "oranti-tanimi",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Denklemin orantı olup olmadığını belirleyin: 13,5/8,5=31,05/19,55."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 13,5·19,55=263,925 ve 8,5·31,05=263,925. Çapraz çarpımlar eşit olduğu için orantıdır."
+              }
+            ],
+            "sortOrder": 261
+          },
+          {
+            "id": "exercise-263",
+            "number": "263",
+            "sectionSlug": "orantilari-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantıyı çözün: x/56=7/8."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: x/56=7/8 için 8x=56·7=392. x=49 bulunur."
+              }
+            ],
+            "sortOrder": 263
+          },
+          {
+            "id": "exercise-265",
+            "number": "265",
+            "sectionSlug": "orantilari-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantıyı çözün: 49/63=z/9."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 49/63=z/9 olduğundan 63z=49·9=441. z=7 olur."
+              }
+            ],
+            "sortOrder": 265
+          },
+          {
+            "id": "exercise-267",
+            "number": "267",
+            "sectionSlug": "orantilari-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantıyı çözün: 5/a=65/117."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5/a=65/117 için 65a=5·117=585. a=9 bulunur."
+              }
+            ],
+            "sortOrder": 267
+          },
+          {
+            "id": "exercise-269",
+            "number": "269",
+            "sectionSlug": "orantilari-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantıyı çözün: 98/154=-7/p."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 98/154=-7/p olduğundan 98p=154·(-7)=-1.078. p=-11 olur."
+              }
+            ],
+            "sortOrder": 269
+          },
+          {
+            "id": "exercise-271",
+            "number": "271",
+            "sectionSlug": "orantilari-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantıyı çözün: a/(-8)=-42/48."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: a/(-8)=-42/48 için 48a=(-8)·(-42)=336. a=7 bulunur."
+              }
+            ],
+            "sortOrder": 271
+          },
+          {
+            "id": "exercise-273",
+            "number": "273",
+            "sectionSlug": "orantilari-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantıyı çözün: 2,6/3,9=c/3."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2,6/3,9=c/3 olduğundan 3,9c=2,6·3=7,8. c=2 olur."
+              }
+            ],
+            "sortOrder": 273
+          },
+          {
+            "id": "exercise-275",
+            "number": "275",
+            "sectionSlug": "orantilari-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantıyı çözün: 2,7/j=0,9/0,2."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 2,7/j=0,9/0,2 için 0,9j=2,7·0,2=0,54. j=0,6 olur."
+              }
+            ],
+            "sortOrder": 275
+          },
+          {
+            "id": "exercise-277",
+            "number": "277",
+            "sectionSlug": "orantilari-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantıyı çözün: (1/2)/1=m/8."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: (1/2)/1=m/8 olduğundan m=8·1/2=4 bulunur."
+              }
+            ],
+            "sortOrder": 277
+          },
+          {
+            "id": "exercise-279",
+            "number": "279",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Çocuk doktorları her 25 pound çocuk ağırlığı için 5 ml asetaminofen yazar. 45 pound olan Jocelyn için kaç ml ilaç yazılır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 5/25=m/45 kurulur. 25m=225 ve m=9 ml olur."
+              }
+            ],
+            "sortOrder": 279
+          },
+          {
+            "id": "exercise-281",
+            "number": "281",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Carol spor salonunda 10 saniye nabzını sayıp 19 atım buldu. Dakikadaki nabzı kaçtır? 140 atım/dakika hedef nabzına ulaşmış mıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 19/10=b/60. 10b=1.140 ve b=114 atım/dakika olur. 114, 140'tan küçük olduğu için hedef nabza ulaşmamıştır."
+              }
+            ],
+            "sortOrder": 281
+          },
+          {
+            "id": "exercise-283",
+            "number": "283",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yeni bir enerji içeceği 8 ons için 106 kalori içeriyor. 12 ons içecekte kaç kalori vardır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 106/8=c/12. 8c=1.272 ve c=159 kalori olur."
+              }
+            ],
+            "sortOrder": 283
+          },
+          {
+            "id": "exercise-285",
+            "number": "285",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Karen'in kilo verme programında 1/2 bardak yulaf 2 puandır. Eşi Joe kahvaltıda 3 puanlık yulaf yiyebiliyorsa kaç bardak yulaf yiyebilir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: (1/2)/2=x/3. 2x=3/2 olduğundan x=3/4 bardak yulaf yiyebilir."
+              }
+            ],
+            "sortOrder": 285
+          },
+          {
+            "id": "exercise-287",
+            "number": "287",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Janice Kanada'ya giderken 250 ABD dolarını Kanada dolarına çevirecek. 1 ABD doları 1,01 Kanada dolarıysa kaç Kanada doları alır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 1 ABD doları 1,01 Kanada dolarıysa 250·1,01=252,50 Kanada doları alır."
+              }
+            ],
+            "sortOrder": 287
+          },
+          {
+            "id": "exercise-289",
+            "number": "289",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Steve 600 ABD dolarını 480 avroya çevirdi. Bir ABD doları başına kaç avro almıştır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 480 avro/600 dolar=0,8 avro/dolar. Steve her 1 ABD doları için 0,80 avro almıştır."
+              }
+            ],
+            "sortOrder": 289
+          },
+          {
+            "id": "exercise-291",
+            "number": "291",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Lucy çamaşırhanede 12 doları çeyrek dolarlara çevirdi. Kaç çeyrek dolar aldı?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Her dolar 4 çeyrek dolardır. 12·4=48 çeyrek dolar alır."
+              }
+            ],
+            "sortOrder": 291
+          },
+          {
+            "id": "exercise-293",
+            "number": "293",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Jesse'nin arabası galon başına 30 mil gidiyor. Las Vegas 285 mil uzaktaysa gidiş-dönüş için kaç galon benzin gerekir? Benzin galon başına 3,09 dolarsa toplam maliyet nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Gidiş-dönüş 2·285=570 mildir. 570/30=19 galon gerekir. Maliyet 19·3,09=58,71 dolardır."
+              }
+            ],
+            "sortOrder": 293
+          },
+          {
+            "id": "exercise-295",
+            "number": "295",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Hugh Chicago'daki evinden 812 mil uzaktaki Mount Rushmore'a gidiyor. 3 saatte 190 mil gittiyse aynı hızla tüm yol kaç saat sürer?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 190/3=812/t orantısından 190t=2.436 ve t≈12,82 saat bulunur; bu yaklaşık 12 saat 49 dakikadır."
+              }
+            ],
+            "sortOrder": 295
+          },
+          {
+            "id": "exercise-297",
+            "number": "297",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Phil çimini gübrelemek istiyor. Her gübre torbası yaklaşık 4.000 ft² alan kaplıyor. Phil'in çimi yaklaşık 13.500 ft² ise kaç torba almalıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 13.500/4.000=3,375 torba gerekir. Yarım torba alınamayacağı için 4 torba almalıdır."
+              }
+            ],
+            "sortOrder": 297
+          },
+          {
+            "id": "exercise-299",
+            "number": "299",
+            "sectionSlug": "yuzde-denklemlerini-oranti-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantı olarak yazın: 250'nin 35%'i hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bilinmeyen sayı n olsun. Orantı n/250=35/100 biçimindedir."
+              }
+            ],
+            "sortOrder": 299
+          },
+          {
+            "id": "exercise-301",
+            "number": "301",
+            "sectionSlug": "yuzde-denklemlerini-oranti-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantı olarak yazın: 47'nin 110%'i hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Bilinmeyen sayı n olsun. n/47=110/100 yazılır."
+              }
+            ],
+            "sortOrder": 301
+          },
+          {
+            "id": "exercise-303",
+            "number": "303",
+            "sectionSlug": "yuzde-denklemlerini-oranti-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantı olarak yazın: 45, hangi sayının 30%'idir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Temel sayı n olsun. 45/n=30/100 orantısı kurulur."
+              }
+            ],
+            "sortOrder": 303
+          },
+          {
+            "id": "exercise-305",
+            "number": "305",
+            "sectionSlug": "yuzde-denklemlerini-oranti-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantı olarak yazın: 90, hangi sayının 150%'idir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Temel sayı n olsun. 90/n=150/100 orantısı yazılır."
+              }
+            ],
+            "sortOrder": 305
+          },
+          {
+            "id": "exercise-307",
+            "number": "307",
+            "sectionSlug": "yuzde-denklemlerini-oranti-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantı olarak yazın: 17, 85'in yüzde kaçıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yüzde p olsun. 17/85=p/100 orantısı kurulur."
+              }
+            ],
+            "sortOrder": 307
+          },
+          {
+            "id": "exercise-309",
+            "number": "309",
+            "sectionSlug": "yuzde-denklemlerini-oranti-olarak-yazma",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Orantı olarak yazın: 340, 260'ın yüzde kaçıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Yüzde p olsun. 340/260=p/100 orantısını yazarız."
+              }
+            ],
+            "sortOrder": 309
+          },
+          {
+            "id": "exercise-311",
+            "number": "311",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzde orantısı kurup çözün: 180'in 65%'i hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: n/180=65/100. 100n=11.700 olduğundan n=117 olur."
+              }
+            ],
+            "sortOrder": 311
+          },
+          {
+            "id": "exercise-313",
+            "number": "313",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzde orantısı kurup çözün: 92'nin 18%'i hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: n/92=18/100. 100n=1.656 ve n=16,56 bulunur."
+              }
+            ],
+            "sortOrder": 313
+          },
+          {
+            "id": "exercise-315",
+            "number": "315",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzde orantısı kurup çözün: 26'nın 175%'i hangi sayıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: n/26=175/100. 100n=4.550 ve n=45,5 olur."
+              }
+            ],
+            "sortOrder": 315
+          },
+          {
+            "id": "exercise-317",
+            "number": "317",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzde orantısı kurup çözün: 488'in 300%'i nedir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: n/488=300/100. 100n=146.400 ve n=1.464 bulunur."
+              }
+            ],
+            "sortOrder": 317
+          },
+          {
+            "id": "exercise-319",
+            "number": "319",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzde orantısı kurup çözün: Hangi sayının 17%'i 7,65 dolardır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 7,65/n=17/100. 17n=765 ve n=45 dolar olur."
+              }
+            ],
+            "sortOrder": 319
+          },
+          {
+            "id": "exercise-321",
+            "number": "321",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzde orantısı kurup çözün: 13,53 dolar, hangi sayının 8,25%'idir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 13,53/n=8,25/100. 8,25n=1.353 ve n=164 dolar bulunur."
+              }
+            ],
+            "sortOrder": 321
+          },
+          {
+            "id": "exercise-323",
+            "number": "323",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzde orantısı kurup çözün: 14, 56'nın yüzde kaçıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 14/56=p/100. 56p=1.400 ve p=25; yani 14, 56'nın 25%'idir."
+              }
+            ],
+            "sortOrder": 323
+          },
+          {
+            "id": "exercise-325",
+            "number": "325",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yüzde orantısı kurup çözün: 12, 96'nın yüzde kaçıdır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 12/96=p/100. 96p=1.200 ve p=12,5; yani 12, 96'nın 12,5%'idir."
+              }
+            ],
+            "sortOrder": 325
+          },
+          {
+            "id": "exercise-327",
+            "number": "327",
+            "sectionSlug": "oranti-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Sam cam temizleme çözeltisi yapmak için 3 ons konsantreyi 5 ons suyla karıştırmalıdır. Kovaya 12 ons konsantre koyarsa kaç ons su eklemelidir? Toplam kaç ons çözelti olur?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Konsantre/su oranı 3/5=12/w olur. 3w=60 ve w=20 ons su eklenir. Toplam çözelti 12+20=32 ons olur."
+              }
+            ],
+            "sortOrder": 327
+          },
+          {
+            "id": "exercise-329",
+            "number": "329",
+            "sectionSlug": "yuzde-orantilarini-cozme",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "\"350'nin 45%'i hangi sayıdır?\" sorusunu çözerken denklem yöntemini mi yoksa orantı yöntemini mi tercih edersiniz? Nedenini açıklayın."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İki yöntem de aynı sonuca götürür: n/350=45/100 ya da n=0,45·350. Orantı, yüzdeyi 100 üzerinden görmeyi kolaylaştırır; denklem yöntemi ise çarpımı doğrudan yapar."
+              }
+            ],
+            "sortOrder": 329
+          }
+        ]
+      }
     }
   ]
 }
