@@ -41,12 +41,12 @@ navigation, SEO, attribution, and ingestion workflows.
   - `sourceAssets`: 617
 - Latest generated local seed payload count, not yet written to remote DB:
   - `books`: 1
-  - `chapters`: 5
-  - `lessons`: 28
-  - `lessonSections`: 145
-  - `exercises`: 1017
-  - `sourceSnapshots`: 28
-  - `sourceAssets`: 676
+  - `chapters`: 6
+  - `lessons`: 29
+  - `lessonSections`: 149
+  - `exercises`: 1027
+  - `sourceSnapshots`: 29
+  - `sourceAssets`: 683
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -328,24 +328,24 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. Done; twenty-eight seed
+8. Seed one or two lessons end-to-end before mass ingestion. Done; twenty-nine seed
    lessons now build end-to-end for Prealgebra 2.3, 2.4, 2.5, 2.6, 3.2, 3.3,
    3.4, 3.5, 3.6, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 5.2 through 5.8,
-   and 6.2 through 6.6.
+   6.2 through 6.6, and 7.2.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
 11. Add informational language coverage report and initial Turkish localization
     cleanup hooks for exercise prompts/math text. Started.
 
-Current next seed candidate after the latest local work: Prealgebra 7.2
-`Rational and Irrational Numbers`, displayed as product lesson 6.1 under the
-next product chapter for real-number properties.
+Current next seed candidate after the latest local work: Prealgebra 7.3
+`Commutative and Associative Properties`, displayed as product lesson 6.2 under
+the `Gerçek Sayıların Özellikleri` product chapter.
 
-Latest completed seed lesson: Prealgebra 6.6
-`Solve Proportions and their Applications`, displayed as product lesson 5.5
-`Orantılar ve Uygulamaları`. It includes 5 Turkish editorial sections, 30 Sıra
-Sizde solutions, 44 source exercises with explanatory reveal solutions, and 19
-extracted source assets.
+Latest completed seed lesson: Prealgebra 7.2
+`Rational and Irrational Numbers`, displayed as product lesson 6.1
+`Rasyonel ve İrrasyonel Sayılar`. It includes 4 Turkish editorial sections, 8
+Sıra Sizde solutions, 10 source exercises with explanatory reveal solutions,
+and 7 extracted source assets.
 
 ## Quality Gates
 

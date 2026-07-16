@@ -11770,6 +11770,160 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "7.2",
+    sections: [
+      {
+        sectionSlug: "rasyonel-ve-irrasyonel-sayilari-tanima",
+        replaceBlocks: [
+          ...removeBlocks(4),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bu bölüme kadar doğal sayılar, tam sayılar, kesirler, ondalık sayılar ve yüzdelerle çalıştık. Şimdi bu sayıların hepsini daha büyük bir sınıflandırma içinde göreceğiz.",
+              ),
+              pt(
+                "Daha önce kullandığımız sayı kümelerini hatırlayalım: sayma sayıları 1, 2, 3, ...; sıfırı da içeren sayılar 0, 1, 2, 3, ...; tam sayılar ise negatif tam sayıları, 0'ı ve pozitif tam sayıları içerir.",
+              ),
+              p([
+                t("Bu derste iki yeni ana fikir kullanacağız: "),
+                m("\\text{rasyonel sayılar}"),
+                t(" ve "),
+                m("\\text{irrasyonel sayılar}"),
+                t(". Bu iki küme birlikte gerçek sayıları oluşturur."),
+              ]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "rasyonel-sayilar",
+        replaceBlocks: [
+          ...removeBlocks(21),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Bir sayı iki tam sayının oranı olarak yazılabiliyorsa rasyonel sayıdır. Yani "),
+                m("\\frac{a}{b}"),
+                t(" biçiminde yazılır; burada "),
+                m("a"),
+                t(" ve "),
+                m("b"),
+                t(" tam sayıdır ve "),
+                m("b\\ne0"),
+                t("'dır."),
+              ]),
+              pt(
+                "Tüm kesirler rasyoneldir. Ayrıca her tam sayı da rasyoneldir; çünkü her tam sayı paydası 1 olan bir kesir gibi yazılabilir.",
+              ),
+              p([
+                m("3=\\frac{3}{1}"),
+                t(", "),
+                m("-8=\\frac{-8}{1}"),
+                t(" ve "),
+                m("0=\\frac{0}{1}"),
+                t(" buna örnektir."),
+              ]),
+              pt(
+                "Sonlu ondalık sayılar da rasyoneldir. Ondalık basamak sayısına göre paydayı 10, 100, 1000 gibi seçebiliriz.",
+              ),
+              ex(
+                "Örnek 7.1",
+                [t("Her sayıyı iki tam sayının oranı olarak yazın: ⓐ -15 ⓑ 6,81 ⓒ -3 6/7.")],
+                sol("Çözüm: ⓐ -15=-15/1. ⓑ 6,81 iki ondalık basamaklıdır; 6,81=681/100 olur. ⓒ -3 6/7 karma sayısı -27/7 biçiminde yazılır."),
+              ),
+              ex("Sıra Sizde 7.1", [t("Her sayıyı iki tam sayının oranı olarak yazın: ⓐ -24 ⓑ 3,57.")]),
+              ex("Sıra Sizde 7.2", [t("Her sayıyı iki tam sayının oranı olarak yazın: ⓐ -19 ⓑ 8,41.")]),
+              pt(
+                "Bir rasyonel sayının ondalık gösterimi ya sonlanır ya da belirli bir basamaktan sonra tekrar eder. Bu özellik, sayıları sınıflandırırken çok kullanışlıdır.",
+              ),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "irrasyonel-sayilar",
+        replaceBlocks: [
+          ...removeBlocks(15),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bazı ondalık sayılar sonlanmaz ve tekrar eden bir desen de oluşturmaz. Bu sayılar iki tam sayının oranı olarak yazılamaz; bu yüzden irrasyonel sayı olarak adlandırılır.",
+              ),
+              p([
+                t("Örneğin "),
+                m("\\pi=3{,}141592654\\ldots"),
+                t(" sonlanmaz ve tekrar etmez. Tam kare olmayan sayıların karekökleri de irrasyoneldir; örneğin "),
+                m("\\sqrt{5}=2{,}236067978\\ldots"),
+                t("."),
+              ]),
+              pt(
+                "Kuralı şöyle özetleyebiliriz: Sonlu ondalıklar ve tekrar eden ondalıklar rasyoneldir; sonlanmayan ve tekrar etmeyen ondalıklar irrasyoneldir.",
+              ),
+              ex(
+                "Örnek 7.2",
+                [t("Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ 0,583... ⓑ 0,475 ⓒ 3,605551275...")],
+                sol("Çözüm: ⓐ Tekrar eden ondalık olduğu için rasyoneldir. ⓑ Sonlu ondalık olduğu için rasyoneldir. ⓒ Sonlanmayan ve tekrar etmeyen ondalık olduğu için irrasyoneldir."),
+              ),
+              ex("Sıra Sizde 7.3", [
+                t("Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ 0,29 ⓑ 0,816... ⓒ 2,515115111..."),
+              ]),
+              ex("Sıra Sizde 7.4", [
+                t("Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ 0,23... ⓑ 0,125 ⓒ 0,418302..."),
+              ]),
+              pt(
+                "Kareköklerde de benzer bir sınıflandırma vardır. Sayı tam kare ise karekökü tam sayıdır ve rasyoneldir. Tam kare değilse karekök irrasyoneldir.",
+              ),
+              ex(
+                "Örnek 7.3",
+                [t("Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √36 ⓑ √44.")],
+                sol("Çözüm: ⓐ 36=6^2 olduğu için √36=6 rasyoneldir. ⓑ 44 tam kare değildir; bu yüzden √44 irrasyoneldir."),
+              ),
+              ex("Sıra Sizde 7.5", [t("Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √81 ⓑ √17.")]),
+              ex("Sıra Sizde 7.6", [t("Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √116 ⓑ √121.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "gercek-sayilari-siniflandirma",
+        replaceBlocks: [
+          ...removeBlocks(7),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Doğal sayılar tam sayıların içinde, tam sayılar da rasyonel sayıların içindedir. İrrasyonel sayılar rasyonel sayılardan ayrıdır.",
+              ),
+              p([
+                t("Rasyonel ve irrasyonel sayıların birleşimine "),
+                m("\\text{gerçek sayılar}"),
+                t(" denir. Bu derste kullandığımız sayıların tamamı gerçek sayılar kümesindedir."),
+              ]),
+              pt(
+                "Bir sayıyı sınıflandırırken en küçük uygun kümeden başlayıp daha büyük kümelere doğru ilerlemek işimizi kolaylaştırır.",
+              ),
+              ex(
+                "Örnek 7.4",
+                [t("Aşağıdaki sayıların doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı olup olmadığını belirleyin: -7, 14/5, 8, √5, 5,9, -√64.")],
+                sol("Çözüm: -7 tam sayı, rasyonel ve gerçektir. 14/5 rasyonel ve gerçektir. 8 doğal sayı, tam sayı, rasyonel ve gerçektir. √5 irrasyonel ve gerçektir. 5,9 sonlu ondalık olduğu için rasyonel ve gerçektir. -√64=-8 tam sayı, rasyonel ve gerçektir."),
+              ),
+              ex("Sıra Sizde 7.7", [
+                t("Her sayıyı sınıflandırın: -3, -√2, 0,3..., 9/5, 4, √49."),
+              ]),
+              ex("Sıra Sizde 7.8", [
+                t("Her sayıyı sınıflandırın: -√25, -3/8, -1, 6, √121, 2,041975..."),
+              ]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

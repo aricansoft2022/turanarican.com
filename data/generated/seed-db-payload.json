@@ -73,6 +73,17 @@
         "displayTitle": "Yüzdeler",
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents",
         "sortOrder": 5
+      },
+      {
+        "id": "chapter-real-number-properties",
+        "bookId": "book-prealgebra-2e",
+        "slug": "gercek-sayilarin-ozellikleri",
+        "sourceNumber": "7",
+        "displayNumber": "6",
+        "sourceTitle": "The Properties of Real Numbers",
+        "displayTitle": "Gerçek Sayıların Özellikleri",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers",
+        "sortOrder": 6
       }
     ],
     "lessons": [
@@ -646,6 +657,24 @@
         "sortOrder": 5,
         "status": "draft",
         "rawHash": "0d72007f2dd6cf20b63e22900c244cec12271d04eec11620646c593414337a4d"
+      },
+      {
+        "id": "lesson-rational-irrational-numbers",
+        "chapterId": "chapter-real-number-properties",
+        "slug": "rasyonel-ve-irrasyonel-sayilar",
+        "sourceNumber": "7.2",
+        "displayNumber": "6.1",
+        "sourceTitle": "Rational and Irrational Numbers",
+        "displayTitle": "Rasyonel ve İrrasyonel Sayılar",
+        "summary": "Rasyonel ve irrasyonel sayıları ayırt edin; doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı kümeleri arasındaki ilişkiyi sınıflandırın.",
+        "objectivesJson": [
+          "Rasyonel ve irrasyonel sayıları ayırt edebileceksiniz.",
+          "Gerçek sayıları ait oldukları sayı kümelerine göre sınıflandırabileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.02%3A_Rational_and_Irrational_Numbers",
+        "sortOrder": 1,
+        "status": "draft",
+        "rawHash": "269fd6f34e8d7d9a56658a6fc103de87a8abc742c4701306e3e1779cdabbff8e"
       }
     ],
     "lessonSections": [
@@ -42017,6 +42046,525 @@
             ]
           }
         ]
+      },
+      {
+        "id": "rasyonel-ve-irrasyonel-sayilar-section-01",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "heading": "Rasyonel ve İrrasyonel Sayıları Tanıma",
+        "slug": "rasyonel-ve-irrasyonel-sayilari-tanima",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bu bölüme kadar doğal sayılar, tam sayılar, kesirler, ondalık sayılar ve yüzdelerle çalıştık. Şimdi bu sayıların hepsini daha büyük bir sınıflandırma içinde göreceğiz."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Daha önce kullandığımız sayı kümelerini hatırlayalım: sayma sayıları 1, 2, 3, ...; sıfırı da içeren sayılar 0, 1, 2, 3, ...; tam sayılar ise negatif tam sayıları, 0'ı ve pozitif tam sayıları içerir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bu derste iki yeni ana fikir kullanacağız: "
+              },
+              {
+                "type": "math",
+                "value": "\\text{rasyonel sayılar}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "\\text{irrasyonel sayılar}"
+              },
+              {
+                "type": "text",
+                "value": ". Bu iki küme birlikte gerçek sayıları oluşturur."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rasyonel-ve-irrasyonel-sayilar-section-02",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "heading": "Rasyonel Sayılar",
+        "slug": "rasyonel-sayilar",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir sayı iki tam sayının oranı olarak yazılabiliyorsa rasyonel sayıdır. Yani "
+              },
+              {
+                "type": "math",
+                "value": "\\frac{a}{b}"
+              },
+              {
+                "type": "text",
+                "value": " biçiminde yazılır; burada "
+              },
+              {
+                "type": "math",
+                "value": "a"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "b"
+              },
+              {
+                "type": "text",
+                "value": " tam sayıdır ve "
+              },
+              {
+                "type": "math",
+                "value": "b\\ne0"
+              },
+              {
+                "type": "text",
+                "value": "'dır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Tüm kesirler rasyoneldir. Ayrıca her tam sayı da rasyoneldir; çünkü her tam sayı paydası 1 olan bir kesir gibi yazılabilir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "math",
+                "value": "3=\\frac{3}{1}"
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "math",
+                "value": "-8=\\frac{-8}{1}"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "0=\\frac{0}{1}"
+              },
+              {
+                "type": "text",
+                "value": " buna örnektir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Sonlu ondalık sayılar da rasyoneldir. Ondalık basamak sayısına göre paydayı 10, 100, 1000 gibi seçebiliriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.1",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayıyı iki tam sayının oranı olarak yazın: ⓐ -15 ⓑ 6,81 ⓒ -3 6/7."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -15=-15/1. ⓑ 6,81 iki ondalık basamaklıdır; 6,81=681/100 olur. ⓒ -3 6/7 karma sayısı -27/7 biçiminde yazılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.1",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayıyı iki tam sayının oranı olarak yazın: ⓐ -24 ⓑ 3,57."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -24 bir tam sayı olduğundan -24/1 biçiminde yazılır. ⓑ 3,57 iki ondalık basamaklıdır; 3,57=357/100 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.2",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayıyı iki tam sayının oranı olarak yazın: ⓐ -19 ⓑ 8,41."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ -19=-19/1. ⓑ 8,41 sonlu ondalık olduğundan 841/100 biçiminde iki tam sayının oranı olarak yazılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir rasyonel sayının ondalık gösterimi ya sonlanır ya da belirli bir basamaktan sonra tekrar eder. Bu özellik, sayıları sınıflandırırken çok kullanışlıdır."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rasyonel-ve-irrasyonel-sayilar-section-03",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "heading": "İrrasyonel Sayılar",
+        "slug": "irrasyonel-sayilar",
+        "level": 2,
+        "sortOrder": 3,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bazı ondalık sayılar sonlanmaz ve tekrar eden bir desen de oluşturmaz. Bu sayılar iki tam sayının oranı olarak yazılamaz; bu yüzden irrasyonel sayı olarak adlandırılır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin "
+              },
+              {
+                "type": "math",
+                "value": "\\pi=3{,}141592654\\ldots"
+              },
+              {
+                "type": "text",
+                "value": " sonlanmaz ve tekrar etmez. Tam kare olmayan sayıların karekökleri de irrasyoneldir; örneğin "
+              },
+              {
+                "type": "math",
+                "value": "\\sqrt{5}=2{,}236067978\\ldots"
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kuralı şöyle özetleyebiliriz: Sonlu ondalıklar ve tekrar eden ondalıklar rasyoneldir; sonlanmayan ve tekrar etmeyen ondalıklar irrasyoneldir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.2",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ 0,583... ⓑ 0,475 ⓒ 3,605551275..."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ Tekrar eden ondalık olduğu için rasyoneldir. ⓑ Sonlu ondalık olduğu için rasyoneldir. ⓒ Sonlanmayan ve tekrar etmeyen ondalık olduğu için irrasyoneldir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.3",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ 0,29 ⓑ 0,816... ⓒ 2,515115111..."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 0,29 sonlu ondalık olduğu için rasyoneldir. ⓑ 0,816... tekrar eden ondalık olduğu için rasyoneldir. ⓒ 2,515115111... sonlanmayan ve tekrar etmeyen bir ondalık olduğu için irrasyoneldir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.4",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ 0,23... ⓑ 0,125 ⓒ 0,418302..."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 0,23... tekrar ettiği için rasyoneldir. ⓑ 0,125 sonlu ondalık olduğu için rasyoneldir. ⓒ 0,418302... sonlanmayan ve tekrar etmeyen ondalık olduğu için irrasyoneldir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Kareköklerde de benzer bir sınıflandırma vardır. Sayı tam kare ise karekökü tam sayıdır ve rasyoneldir. Tam kare değilse karekök irrasyoneldir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.3",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √36 ⓑ √44."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 36=6^2 olduğu için √36=6 rasyoneldir. ⓑ 44 tam kare değildir; bu yüzden √44 irrasyoneldir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.5",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √81 ⓑ √17."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 81=9^2 olduğundan √81=9 rasyoneldir. ⓑ 17 tam kare değildir; √17 irrasyoneldir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.6",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √116 ⓑ √121."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: ⓐ 116 tam kare olmadığı için √116 irrasyoneldir. ⓑ 121=11^2 olduğundan √121=11 rasyoneldir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rasyonel-ve-irrasyonel-sayilar-section-04",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "heading": "Gerçek Sayıları Sınıflandırma",
+        "slug": "gercek-sayilari-siniflandirma",
+        "level": 2,
+        "sortOrder": 4,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Doğal sayılar tam sayıların içinde, tam sayılar da rasyonel sayıların içindedir. İrrasyonel sayılar rasyonel sayılardan ayrıdır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Rasyonel ve irrasyonel sayıların birleşimine "
+              },
+              {
+                "type": "math",
+                "value": "\\text{gerçek sayılar}"
+              },
+              {
+                "type": "text",
+                "value": " denir. Bu derste kullandığımız sayıların tamamı gerçek sayılar kümesindedir."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bir sayıyı sınıflandırırken en küçük uygun kümeden başlayıp daha büyük kümelere doğru ilerlemek işimizi kolaylaştırır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.4",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Aşağıdaki sayıların doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı olup olmadığını belirleyin: -7, 14/5, 8, √5, 5,9, -√64."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -7 tam sayı, rasyonel ve gerçektir. 14/5 rasyonel ve gerçektir. 8 doğal sayı, tam sayı, rasyonel ve gerçektir. √5 irrasyonel ve gerçektir. 5,9 sonlu ondalık olduğu için rasyonel ve gerçektir. -√64=-8 tam sayı, rasyonel ve gerçektir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.7",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayıyı sınıflandırın: -3, -√2, 0,3..., 9/5, 4, √49."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -3 tam sayı, rasyonel ve gerçektir; -√2 irrasyonel ve gerçektir; 0,3... tekrar eden ondalık olduğu için rasyonel ve gerçektir; 9/5 rasyonel ve gerçektir; 4 ve √49=7 doğal/tam/rasyonel/gerçek sayılardır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.8",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Her sayıyı sınıflandırın: -√25, -3/8, -1, 6, √121, 2,041975..."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -√25=-5 tam sayı, rasyonel ve gerçektir; -3/8 rasyonel ve gerçektir; -1 tam sayı, rasyonel ve gerçektir; 6 ve √121=11 doğal/tam/rasyonel/gerçek sayılardır; 2,041975... irrasyonel ve gerçektir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -66320,6 +66868,216 @@
         "sortOrder": 329,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-1",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-02",
+        "number": "1",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Her sayıyı iki tam sayının oranı olarak yazın: ⓐ 5 ⓑ 3,19."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 5 bir tam sayıdır ve 5/1 biçiminde yazılır. ⓑ 3,19 iki ondalık basamaklı olduğundan 3,19=319/100 olur."
+          }
+        ],
+        "sortOrder": 1,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-3",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-02",
+        "number": "3",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Her sayıyı iki tam sayının oranı olarak yazın: ⓐ -12 ⓑ 9,279."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ -12=-12/1 biçiminde iki tam sayının oranıdır. ⓑ 9,279 üç ondalık basamaklıdır; 9,279=9.279/1.000 olur."
+          }
+        ],
+        "sortOrder": 3,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-5",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-03",
+        "number": "5",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen sayıların hangilerinin rasyonel, hangilerinin irrasyonel olduğunu belirleyin: 0,75; 0,223...; 1,39174..."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,75 sonlu ondalık olduğu için rasyoneldir. 0,223... tekrar eden ondalık olarak verildiği için rasyoneldir. 1,39174... tekrar etmeyen ve sonlanmayan ondalık olduğundan irrasyoneldir."
+          }
+        ],
+        "sortOrder": 5,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-7",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-03",
+        "number": "7",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Verilen sayıların hangilerinin rasyonel, hangilerinin irrasyonel olduğunu belirleyin: 0,45...; 1,919293...; 3,59."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 0,45... tekrar eden ondalık olduğundan rasyoneldir. 1,919293... tekrar etmeyen ve sonlanmayan ondalık olduğundan irrasyoneldir. 3,59 sonlu ondalık olduğu için rasyoneldir."
+          }
+        ],
+        "sortOrder": 7,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-9",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-03",
+        "number": "9",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √25 ⓑ √30."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 25=5^2 olduğu için √25=5 rasyoneldir. ⓑ 30 tam kare olmadığı için √30 sonlanmayan ve tekrar etmeyen ondalık verir; irrasyoneldir."
+          }
+        ],
+        "sortOrder": 9,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-11",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-03",
+        "number": "11",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √164 ⓑ √169."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 164 tam kare değildir, bu yüzden √164 irrasyoneldir. ⓑ 169=13^2 olduğundan √169=13 rasyoneldir."
+          }
+        ],
+        "sortOrder": 11,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-13",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-04",
+        "number": "13",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Her sayının doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı olup olmadığını belirleyin: -8; 0; 1,95286...; 12/5; √36; 9."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -8 tam sayı, rasyonel ve gerçek sayıdır. 0 doğal olmayan tam sayı, rasyonel ve gerçektir. 1,95286... tekrar etmiyorsa irrasyonel ve gerçektir. 12/5 rasyonel ve gerçektir. √36=6 ve 9 doğal sayı, tam sayı, rasyonel sayı ve gerçek sayıdır."
+          }
+        ],
+        "sortOrder": 13,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-15",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-04",
+        "number": "15",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Her sayının doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı olup olmadığını belirleyin: -√100; -7; -8/3; -1; 0,77; 3 1/4."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -√100=-10, -7 ve -1 tam sayı, rasyonel sayı ve gerçek sayıdır; doğal sayı değildir. -8/3 ve 3 1/4 rasyonel ve gerçektir. 0,77 sonlu ondalık olduğu için rasyonel ve gerçektir."
+          }
+        ],
+        "sortOrder": 15,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-17",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-04",
+        "number": "17",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Serena lisanslı bir çocuk bakım merkezi açmak istiyor. Eyaleti her öğretmen için en fazla 12 çocuk olmasına izin veriyor. Serena 40 çocuğa hizmet vermek istiyor. ⓐ Kaç öğretmen gerekir? ⓑ Cevap neden tam sayı olmalıdır? ⓒ Neden sonucu alışılmış şekilde yuvarlamamalıyız?"
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: ⓐ 40/12≈3,33 olduğundan en az 4 öğretmen gerekir. ⓑ Öğretmen sayısı kesirli olamaz, bu yüzden tam sayı olmalıdır. ⓒ 3'e yuvarlamak 36 çocuk kapasitesi verir ve 40 çocuk için yeterli olmaz; bu yüzden yukarı yuvarlarız."
+          }
+        ],
+        "sortOrder": 17,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-exercise-19",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sectionId": "rasyonel-ve-irrasyonel-sayilar-section-04",
+        "number": "19",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Doğal sayılar, tam sayılar, rasyonel sayılar, irrasyonel sayılar ve gerçek sayılar kümelerinin birbiriyle ilişkisini açıklayın."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Doğal sayılar tam sayıların içinde, tam sayılar rasyonel sayıların içindedir. Rasyonel ve irrasyonel sayılar ayrık kümelerdir; ikisi birlikte gerçek sayıları oluşturur."
+          }
+        ],
+        "sortOrder": 19,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -66544,6 +67302,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.06%3A_Solve_Proportions_and_their_Applications",
         "httpStatus": 200,
         "contentHash": "0d72007f2dd6cf20b63e22900c244cec12271d04eec11620646c593414337a4d",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-269fd6f34e8d7d9a",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.02%3A_Rational_and_Irrational_Numbers",
+        "httpStatus": 200,
+        "contentHash": "269fd6f34e8d7d9a56658a6fc103de87a8abc742c4701306e3e1779cdabbff8e",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -76009,6 +76775,104 @@
         "caption": null,
         "localKey": "source-assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/1b249e39bcc2a48d.json",
         "r2Key": "assets/prealgebra-2e-openstax/5-5-solve-proportions-and-their-applications/1b249e39bcc2a48d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-asset-000-e79dd1a355267f75",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sourceSnapshotId": "snapshot-269fd6f34e8d7d9a",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104529/4963c96b5014c497880cee2039d772e25530981f?revision=1",
+        "assetType": "figure",
+        "altText": "The image shows a large rectangle labeled “Real Numbers”. The rectangle is split in half vertically. The right half is labeled “Irrational Numbers”. The left half is labeled “Rational Numbers” and contains three concentric rectangles. The outer most rectangle is labeled “Integers”, the next rectangle is “Whole Numbers” and the inner most rectangle is “Natural Numbers”.",
+        "caption": "Figure 7.2 This diagram illustrates the relationships between the different types of real numbers.",
+        "localKey": "source-assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/000-e79dd1a355267f75.png",
+        "r2Key": "assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/000-e79dd1a355267f75.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-asset-5253eb141da282ec",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sourceSnapshotId": "snapshot-269fd6f34e8d7d9a",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.02%3A_Rational_and_Irrational_Numbers#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/5253eb141da282ec.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/5253eb141da282ec.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-asset-dcb0d4e6c6de519d",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sourceSnapshotId": "snapshot-269fd6f34e8d7d9a",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.02%3A_Rational_and_Irrational_Numbers#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/dcb0d4e6c6de519d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/dcb0d4e6c6de519d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-asset-434b5c6466cb8619",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sourceSnapshotId": "snapshot-269fd6f34e8d7d9a",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.02%3A_Rational_and_Irrational_Numbers#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/434b5c6466cb8619.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/434b5c6466cb8619.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-asset-a904ff577e8d0b42",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sourceSnapshotId": "snapshot-269fd6f34e8d7d9a",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.02%3A_Rational_and_Irrational_Numbers#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/a904ff577e8d0b42.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/a904ff577e8d0b42.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-asset-5899e39d96f44234",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sourceSnapshotId": "snapshot-269fd6f34e8d7d9a",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.02%3A_Rational_and_Irrational_Numbers#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/5899e39d96f44234.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/5899e39d96f44234.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-rational-irrational-numbers-asset-2d0006604620742a",
+        "lessonId": "lesson-rational-irrational-numbers",
+        "sourceSnapshotId": "snapshot-269fd6f34e8d7d9a",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.02%3A_Rational_and_Irrational_Numbers#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/2d0006604620742a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-1-rational-and-irrational-numbers/2d0006604620742a.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

@@ -97,6 +97,19 @@ export const books: Book[] = [
         sortOrder: 5,
         lessons: [],
       },
+      {
+        id: "chapter-real-number-properties",
+        bookId: "book-prealgebra-2e",
+        slug: "gercek-sayilarin-ozellikleri",
+        sourceNumber: "7",
+        displayNumber: "6",
+        sourceTitle: "The Properties of Real Numbers",
+        displayTitle: "Gerçek Sayıların Özellikleri",
+        sourceUrl:
+          "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers",
+        sortOrder: 6,
+        lessons: [],
+      },
     ],
   },
 ];

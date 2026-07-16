@@ -6212,4 +6212,90 @@ export const seedLessonConfigs: SeedLessonConfig[] = [
       "329": "yuzde-orantilarini-cozme",
     },
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    catalogBookSlug: "prealgebra-2e",
+    catalogChapterSlug: "gercek-sayilarin-ozellikleri",
+    sourceNumber: "7.2",
+    catalogLesson: {
+      id: "lesson-rational-irrational-numbers",
+      slug: "rasyonel-ve-irrasyonel-sayilar",
+      displayTitle: "Rasyonel ve İrrasyonel Sayılar",
+      summary:
+        "Rasyonel ve irrasyonel sayıları ayırt edin; doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı kümeleri arasındaki ilişkiyi sınıflandırın.",
+      sortOrder: 1,
+    },
+    objectives: [
+      "Rasyonel ve irrasyonel sayıları ayırt edebileceksiniz.",
+      "Gerçek sayıları ait oldukları sayı kümelerine göre sınıflandırabileceksiniz.",
+    ],
+    sectionTitles: {
+      "Identify Rational Numbers and Irrational Numbers": "Rasyonel ve İrrasyonel Sayıları Tanıma",
+      "Rational Numbers": "Rasyonel Sayılar",
+      "Irrational Numbers": "İrrasyonel Sayılar",
+      "Classify Real Numbers": "Gerçek Sayıları Sınıflandırma",
+    },
+    tryItSolutions: {
+      "Sıra Sizde 7.1": p(
+        "Çözüm: ⓐ -24 bir tam sayı olduğundan -24/1 biçiminde yazılır. ⓑ 3,57 iki ondalık basamaklıdır; 3,57=357/100 olur.",
+      ),
+      "Sıra Sizde 7.2": p(
+        "Çözüm: ⓐ -19=-19/1. ⓑ 8,41 sonlu ondalık olduğundan 841/100 biçiminde iki tam sayının oranı olarak yazılır.",
+      ),
+      "Sıra Sizde 7.3": p(
+        "Çözüm: ⓐ 0,29 sonlu ondalık olduğu için rasyoneldir. ⓑ 0,816... tekrar eden ondalık olduğu için rasyoneldir. ⓒ 2,515115111... sonlanmayan ve tekrar etmeyen bir ondalık olduğu için irrasyoneldir.",
+      ),
+      "Sıra Sizde 7.4": p(
+        "Çözüm: ⓐ 0,23... tekrar ettiği için rasyoneldir. ⓑ 0,125 sonlu ondalık olduğu için rasyoneldir. ⓒ 0,418302... sonlanmayan ve tekrar etmeyen ondalık olduğu için irrasyoneldir.",
+      ),
+      "Sıra Sizde 7.5": p(
+        "Çözüm: ⓐ 81=9^2 olduğundan √81=9 rasyoneldir. ⓑ 17 tam kare değildir; √17 irrasyoneldir.",
+      ),
+      "Sıra Sizde 7.6": p(
+        "Çözüm: ⓐ 116 tam kare olmadığı için √116 irrasyoneldir. ⓑ 121=11^2 olduğundan √121=11 rasyoneldir.",
+      ),
+      "Sıra Sizde 7.7": p(
+        "Çözüm: -3 tam sayı, rasyonel ve gerçektir; -√2 irrasyonel ve gerçektir; 0,3... tekrar eden ondalık olduğu için rasyonel ve gerçektir; 9/5 rasyonel ve gerçektir; 4 ve √49=7 doğal/tam/rasyonel/gerçek sayılardır.",
+      ),
+      "Sıra Sizde 7.8": p(
+        "Çözüm: -√25=-5 tam sayı, rasyonel ve gerçektir; -3/8 rasyonel ve gerçektir; -1 tam sayı, rasyonel ve gerçektir; 6 ve √121=11 doğal/tam/rasyonel/gerçek sayılardır; 2,041975... irrasyonel ve gerçektir.",
+      ),
+    },
+    exercisePrompts: {
+      "1": tx("Her sayıyı iki tam sayının oranı olarak yazın: ⓐ 5 ⓑ 3,19."),
+      "3": tx("Her sayıyı iki tam sayının oranı olarak yazın: ⓐ -12 ⓑ 9,279."),
+      "5": tx("Verilen sayıların hangilerinin rasyonel, hangilerinin irrasyonel olduğunu belirleyin: 0,75; 0,223...; 1,39174..."),
+      "7": tx("Verilen sayıların hangilerinin rasyonel, hangilerinin irrasyonel olduğunu belirleyin: 0,45...; 1,919293...; 3,59."),
+      "9": tx("Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √25 ⓑ √30."),
+      "11": tx("Her sayının rasyonel mi irrasyonel mi olduğunu belirleyin: ⓐ √164 ⓑ √169."),
+      "13": tx("Her sayının doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı olup olmadığını belirleyin: -8; 0; 1,95286...; 12/5; √36; 9."),
+      "15": tx("Her sayının doğal sayı, tam sayı, rasyonel sayı, irrasyonel sayı ve gerçek sayı olup olmadığını belirleyin: -√100; -7; -8/3; -1; 0,77; 3 1/4."),
+      "17": tx("Serena lisanslı bir çocuk bakım merkezi açmak istiyor. Eyaleti her öğretmen için en fazla 12 çocuk olmasına izin veriyor. Serena 40 çocuğa hizmet vermek istiyor. ⓐ Kaç öğretmen gerekir? ⓑ Cevap neden tam sayı olmalıdır? ⓒ Neden sonucu alışılmış şekilde yuvarlamamalıyız?"),
+      "19": tx("Doğal sayılar, tam sayılar, rasyonel sayılar, irrasyonel sayılar ve gerçek sayılar kümelerinin birbiriyle ilişkisini açıklayın."),
+    },
+    exerciseAnswers: {
+      "1": answer("Çözüm: ⓐ 5 bir tam sayıdır ve 5/1 biçiminde yazılır. ⓑ 3,19 iki ondalık basamaklı olduğundan 3,19=319/100 olur."),
+      "3": answer("Çözüm: ⓐ -12=-12/1 biçiminde iki tam sayının oranıdır. ⓑ 9,279 üç ondalık basamaklıdır; 9,279=9.279/1.000 olur."),
+      "5": answer("Çözüm: 0,75 sonlu ondalık olduğu için rasyoneldir. 0,223... tekrar eden ondalık olarak verildiği için rasyoneldir. 1,39174... tekrar etmeyen ve sonlanmayan ondalık olduğundan irrasyoneldir."),
+      "7": answer("Çözüm: 0,45... tekrar eden ondalık olduğundan rasyoneldir. 1,919293... tekrar etmeyen ve sonlanmayan ondalık olduğundan irrasyoneldir. 3,59 sonlu ondalık olduğu için rasyoneldir."),
+      "9": answer("Çözüm: ⓐ 25=5^2 olduğu için √25=5 rasyoneldir. ⓑ 30 tam kare olmadığı için √30 sonlanmayan ve tekrar etmeyen ondalık verir; irrasyoneldir."),
+      "11": answer("Çözüm: ⓐ 164 tam kare değildir, bu yüzden √164 irrasyoneldir. ⓑ 169=13^2 olduğundan √169=13 rasyoneldir."),
+      "13": answer("Çözüm: -8 tam sayı, rasyonel ve gerçek sayıdır. 0 doğal olmayan tam sayı, rasyonel ve gerçektir. 1,95286... tekrar etmiyorsa irrasyonel ve gerçektir. 12/5 rasyonel ve gerçektir. √36=6 ve 9 doğal sayı, tam sayı, rasyonel sayı ve gerçek sayıdır."),
+      "15": answer("Çözüm: -√100=-10, -7 ve -1 tam sayı, rasyonel sayı ve gerçek sayıdır; doğal sayı değildir. -8/3 ve 3 1/4 rasyonel ve gerçektir. 0,77 sonlu ondalık olduğu için rasyonel ve gerçektir."),
+      "17": answer("Çözüm: ⓐ 40/12≈3,33 olduğundan en az 4 öğretmen gerekir. ⓑ Öğretmen sayısı kesirli olamaz, bu yüzden tam sayı olmalıdır. ⓒ 3'e yuvarlamak 36 çocuk kapasitesi verir ve 40 çocuk için yeterli olmaz; bu yüzden yukarı yuvarlarız."),
+      "19": answer("Çözüm: Doğal sayılar tam sayıların içinde, tam sayılar rasyonel sayıların içindedir. Rasyonel ve irrasyonel sayılar ayrık kümelerdir; ikisi birlikte gerçek sayıları oluşturur."),
+    },
+    exerciseSectionSlugs: {
+      "1": "rasyonel-sayilar",
+      "3": "rasyonel-sayilar",
+      "5": "irrasyonel-sayilar",
+      "7": "irrasyonel-sayilar",
+      "9": "irrasyonel-sayilar",
+      "11": "irrasyonel-sayilar",
+      "13": "gercek-sayilari-siniflandirma",
+      "15": "gercek-sayilari-siniflandirma",
+      "17": "gercek-sayilari-siniflandirma",
+      "19": "gercek-sayilari-siniflandirma",
+    },
+  },
 ];
