@@ -12084,6 +12084,184 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "7.4",
+    sections: [
+      {
+        sectionSlug: "dagilma-ozelligiyle-ifadeleri-sadelestirme",
+        replaceBlocks: [
+          ...removeBlocks(56),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              p([
+                t("Dağılma özelliği, parantezin dışındaki çarpanı parantezin içindeki her terimle çarpmamızı sağlar: "),
+                m("a(b+c)=ab+ac"),
+                t(" ve "),
+                m("a(b-c)=ab-ac"),
+                t(". Bu özellik parantezleri açarken ve ifadeleri sadeleştirirken çok kullanılır."),
+              ]),
+              pt(
+                "Örneğin her biri 9,25 dolar olan 3 biletin toplamını 3(9+0,25) biçiminde düşünebiliriz. Dağıtırsak 3·9+3·0,25=27+0,75=27,75 dolar buluruz.",
+              ),
+              ex(
+                "Örnek 7.17",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: 3(x+4)."),
+                sol("Çözüm: 3 sayısını x'e ve 4'e ayrı ayrı dağıtırız: 3(x+4)=3x+12."),
+              ),
+              ex("Sıra Sizde 7.33", tx("Dağılma özelliğini kullanarak sadeleştirin: 4(x+2).")),
+              ex("Sıra Sizde 7.34", tx("Dağılma özelliğini kullanarak sadeleştirin: 6(x+7).")),
+              ex(
+                "Örnek 7.18",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: 6(5y+1)."),
+                sol("Çözüm: 6(5y+1)=6·5y+6·1=30y+6."),
+              ),
+              ex("Sıra Sizde 7.35", tx("Dağılma özelliğini kullanarak sadeleştirin: 9(3y+8).")),
+              ex("Sıra Sizde 7.36", tx("Dağılma özelliğini kullanarak sadeleştirin: 5(5w+9).")),
+              pt(
+                "Parantezin içinde çıkarma varsa ikinci terimin işaretiyle birlikte dağıtım yapılır.",
+              ),
+              ex(
+                "Örnek 7.19",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: 2(x-3)."),
+                sol("Çözüm: 2(x-3)=2x-6."),
+              ),
+              ex("Sıra Sizde 7.37", tx("Dağılma özelliğini kullanarak sadeleştirin: 7(x-6).")),
+              ex("Sıra Sizde 7.38", tx("Dağılma özelliğini kullanarak sadeleştirin: 8(x-5).")),
+              ex(
+                "Örnek 7.20",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: (3/4)(n+12)."),
+                sol("Çözüm: (3/4)(n+12)=(3/4)n+(3/4)·12=(3/4)n+9."),
+              ),
+              ex("Sıra Sizde 7.39", tx("Dağılma özelliğini kullanarak sadeleştirin: (2/5)(p+10).")),
+              ex("Sıra Sizde 7.40", tx("Dağılma özelliğini kullanarak sadeleştirin: (3/7)(u+21).")),
+              ex(
+                "Örnek 7.21",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: 8((3/8)x+1/4)."),
+                sol("Çözüm: 8((3/8)x+1/4)=8·(3/8)x+8·1/4=3x+2."),
+              ),
+              ex("Sıra Sizde 7.41", tx("Dağılma özelliğini kullanarak sadeleştirin: 6((5/6)y+1/2).")),
+              ex("Sıra Sizde 7.42", tx("Dağılma özelliğini kullanarak sadeleştirin: 12((1/3)n+3/4).")),
+              ex(
+                "Örnek 7.22",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: 100(0,3+0,25q)."),
+                sol("Çözüm: 100(0,3+0,25q)=100·0,3+100·0,25q=30+25q."),
+              ),
+              ex("Sıra Sizde 7.43", tx("Dağılma özelliğini kullanarak sadeleştirin: 100(0,7+0,15p).")),
+              ex("Sıra Sizde 7.44", tx("Dağılma özelliğini kullanarak sadeleştirin: 100(0,04+0,35d).")),
+              pt(
+                "Parantezin dışındaki çarpan bir değişken de olabilir. Yine aynı kural geçerlidir: dıştaki çarpan, içerideki her terimle çarpılır.",
+              ),
+              ex(
+                "Örnek 7.23",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: m(n-4)."),
+                sol("Çözüm: m(n-4)=mn-4m."),
+              ),
+              ex("Sıra Sizde 7.45", tx("Dağılma özelliğini kullanarak sadeleştirin: r(s-2).")),
+              ex("Sıra Sizde 7.46", tx("Dağılma özelliğini kullanarak sadeleştirin: y(z-8).")),
+              ex(
+                "Örnek 7.24",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: (x+8)p."),
+                sol("Çözüm: p çarpanı iki terime de dağıtılır: (x+8)p=xp+8p."),
+              ),
+              ex("Sıra Sizde 7.47", tx("Dağılma özelliğini kullanarak sadeleştirin: (x+2)p.")),
+              ex("Sıra Sizde 7.48", tx("Dağılma özelliğini kullanarak sadeleştirin: (y+4)q.")),
+              pt(
+                "Dıştaki çarpan negatif olduğunda işaretlere özellikle dikkat ederiz. Negatif çarpan, parantezin içindeki her terimle çarpılır.",
+              ),
+              ex(
+                "Örnek 7.25",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: -2(4y+1)."),
+                sol("Çözüm: -2(4y+1)=(-2)·4y+(-2)·1=-8y-2."),
+              ),
+              ex("Sıra Sizde 7.49", tx("Dağılma özelliğini kullanarak sadeleştirin: -3(6m+5).")),
+              ex("Sıra Sizde 7.50", tx("Dağılma özelliğini kullanarak sadeleştirin: -6(8n+11).")),
+              ex(
+                "Örnek 7.26",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: -11(4-3a)."),
+                sol("Çözüm: -11(4-3a)=-44+33a. İstersek bu sonucu 33a-44 biçiminde de yazabiliriz."),
+              ),
+              ex("Sıra Sizde 7.51", tx("Dağılma özelliğini kullanarak sadeleştirin: -5(2-3a).")),
+              ex("Sıra Sizde 7.52", tx("Dağılma özelliğini kullanarak sadeleştirin: -7(8-15y).")),
+              p([
+                t("Parantezin önünde yalnızca eksi işareti varsa bunu "),
+                m("-1"),
+                t(" ile çarpma olarak düşünebiliriz."),
+              ]),
+              ex(
+                "Örnek 7.27",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: -(y+5)."),
+                sol("Çözüm: -(y+5)=-1(y+5)=-y-5."),
+              ),
+              ex("Sıra Sizde 7.53", tx("Dağılma özelliğini kullanarak sadeleştirin: -(z-11).")),
+              ex("Sıra Sizde 7.54", tx("Dağılma özelliğini kullanarak sadeleştirin: -(x-4).")),
+              pt(
+                "Bazen parantezin dışında başka terimler de bulunur. Önce dağıtım yapar, sonra benzer terimleri birleştiririz.",
+              ),
+              ex(
+                "Örnek 7.28",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: 8-2(x+3)."),
+                sol("Çözüm: 8-2(x+3)=8-2x-6=2-2x."),
+              ),
+              ex("Sıra Sizde 7.55", tx("Dağılma özelliğini kullanarak sadeleştirin: 9-3(x+2).")),
+              ex("Sıra Sizde 7.56", tx("Dağılma özelliğini kullanarak sadeleştirin: 7x-5(x+4).")),
+              ex(
+                "Örnek 7.29",
+                tx("Dağılma özelliğini kullanarak sadeleştirin: 4(x-8)-(x+3)."),
+                sol("Çözüm: 4(x-8)-(x+3)=4x-32-x-3=3x-35."),
+              ),
+              ex("Sıra Sizde 7.57", tx("Dağılma özelliğini kullanarak sadeleştirin: 6(x-9)-(x+12).")),
+              ex("Sıra Sizde 7.58", tx("Dağılma özelliğini kullanarak sadeleştirin: 8(x-1)-(x+5).")),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "dagilma-ozelligiyle-ifadelerin-degerini-hesaplama",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Dağılma özelliği eşdeğer ifadeler üretir. Bu yüzden bir ifadenin parantezli biçimiyle dağıtılmış biçimi, değişkene aynı değer verildiğinde aynı sonucu verir.",
+              ),
+              ex(
+                "Örnek 7.30",
+                tx("y=10 iken 6(5y+1) ve 6·5y+6·1 ifadelerinin değerlerini hesaplayın."),
+                sol("Çözüm: Parantezli biçimde 6(5·10+1)=6·51=306 olur. Dağıtılmış biçimde 6·5·10+6·1=300+6=306 bulunur."),
+              ),
+              ex("Sıra Sizde 7.59", tx("w=3 iken 5(5w+9) ve 5·5w+5·9 ifadelerinin değerlerini hesaplayın.")),
+              ex("Sıra Sizde 7.60", tx("y=2 iken 9(3y+8) ve 9·3y+9·8 ifadelerinin değerlerini hesaplayın.")),
+              pt(
+                "Negatif çarpanlarda da eşdeğerlik bozulmaz; yalnızca işaretleri dikkatle izlememiz gerekir.",
+              ),
+              ex(
+                "Örnek 7.31",
+                tx("y=3 iken -2(4y+1) ve -2·4y+(-2)·1 ifadelerinin değerlerini hesaplayın."),
+                sol("Çözüm: Parantezli biçimde -2(12+1)=-26 olur. Dağıtılmış biçimde -2·4·3+(-2)·1=-24-2=-26 bulunur."),
+              ),
+              ex("Sıra Sizde 7.61", tx("n=-2 iken -6(8n+11) ve -6·8n+(-6)·11 ifadelerinin değerlerini hesaplayın.")),
+              ex("Sıra Sizde 7.62", tx("m=-1 iken -3(6m+5) ve -3·6m+(-3)·5 ifadelerinin değerlerini hesaplayın.")),
+              p([
+                t("Parantezin önündeki eksi işareti de "),
+                m("-1"),
+                t(" ile dağıtma anlamına gelir. Bu biçim, özellikle çıkarma içeren parantezlerde işaretleri netleştirir."),
+              ]),
+              ex(
+                "Örnek 7.32",
+                tx("y=35 iken -(y+5) ve -y-5 ifadelerinin değerlerini hesaplayın."),
+                sol("Çözüm: Parantezli biçimde -(35+5)=-40 olur. Dağıtılmış biçimde -35-5=-40 bulunur."),
+              ),
+              ex("Sıra Sizde 7.63", tx("x=36 iken -(x-4) ve -x+4 ifadelerinin değerlerini hesaplayın.")),
+              ex("Sıra Sizde 7.64", tx("z=55 iken -(z-10) ve -z+10 ifadelerinin değerlerini hesaplayın.")),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

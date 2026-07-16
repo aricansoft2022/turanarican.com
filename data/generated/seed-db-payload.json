@@ -694,6 +694,24 @@
         "sortOrder": 2,
         "status": "draft",
         "rawHash": "9b2503b336c47eefbc9eaddf873bdef2160c109dfed7de7812fe6632fce0eda2"
+      },
+      {
+        "id": "lesson-distributive-property",
+        "chapterId": "chapter-real-number-properties",
+        "slug": "dagilma-ozelligi",
+        "sourceNumber": "7.4",
+        "displayNumber": "6.3",
+        "sourceTitle": "Distributive Property",
+        "displayTitle": "Dağılma Özelliği",
+        "summary": "Dağılma özelliğini kullanarak parantezleri açın, cebirsel ifadeleri sadeleştirin ve eşdeğer ifadelerin değerlerini hesaplayın.",
+        "objectivesJson": [
+          "Dağılma özelliğiyle ifadeleri sadeleştirebileceksiniz.",
+          "Dağılma özelliğiyle eşdeğer ifadelerin değerlerini hesaplayabileceksiniz."
+        ],
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property",
+        "sortOrder": 3,
+        "status": "draft",
+        "rawHash": "d3b01565eff6fdb37dd3516c63fee46384abc2d270ede25709313bbfc619fe84"
       }
     ],
     "lessonSections": [
@@ -43475,6 +43493,1156 @@
             ]
           }
         ]
+      },
+      {
+        "id": "dagilma-ozelligi-section-01",
+        "lessonId": "lesson-distributive-property",
+        "heading": "Dağılma Özelliğiyle İfadeleri Sadeleştirme",
+        "slug": "dagilma-ozelligiyle-ifadeleri-sadelestirme",
+        "level": 2,
+        "sortOrder": 1,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliği, parantezin dışındaki çarpanı parantezin içindeki her terimle çarpmamızı sağlar: "
+              },
+              {
+                "type": "math",
+                "value": "a(b+c)=ab+ac"
+              },
+              {
+                "type": "text",
+                "value": " ve "
+              },
+              {
+                "type": "math",
+                "value": "a(b-c)=ab-ac"
+              },
+              {
+                "type": "text",
+                "value": ". Bu özellik parantezleri açarken ve ifadeleri sadeleştirirken çok kullanılır."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Örneğin her biri 9,25 dolar olan 3 biletin toplamını 3(9+0,25) biçiminde düşünebiliriz. Dağıtırsak 3·9+3·0,25=27+0,75=27,75 dolar buluruz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.17",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 3(x+4)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 3 sayısını x'e ve 4'e ayrı ayrı dağıtırız: 3(x+4)=3x+12."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.33",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 4(x+2)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 4 sayısını parantezin içindeki iki terime de dağıtırız: 4(x+2)=4x+8."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.34",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 6(x+7)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6(x+7)=6x+42 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.18",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 6(5y+1)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6(5y+1)=6·5y+6·1=30y+6."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.35",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 9(3y+8)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 9(3y+8)=9·3y+9·8=27y+72."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.36",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 5(5w+9)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 5(5w+9)=25w+45 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Parantezin içinde çıkarma varsa ikinci terimin işaretiyle birlikte dağıtım yapılır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.19",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 2(x-3)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 2(x-3)=2x-6."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.37",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 7(x-6)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7(x-6)=7x-42. Eksi işareti ikinci terimde korunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.38",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 8(x-5)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8(x-5)=8x-40 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.20",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: (3/4)(n+12)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (3/4)(n+12)=(3/4)n+(3/4)·12=(3/4)n+9."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.39",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: (2/5)(p+10)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (2/5)(p+10)=(2/5)p+(2/5)·10=(2/5)p+4."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.40",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: (3/7)(u+21)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (3/7)(u+21)=(3/7)u+9 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.21",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 8((3/8)x+1/4)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8((3/8)x+1/4)=8·(3/8)x+8·1/4=3x+2."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.41",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 6((5/6)y+1/2)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6((5/6)y+1/2)=6·(5/6)y+6·1/2=5y+3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.42",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 12((1/3)n+3/4)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 12((1/3)n+3/4)=4n+9 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.22",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 100(0,3+0,25q)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 100(0,3+0,25q)=100·0,3+100·0,25q=30+25q."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.43",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 100(0,7+0,15p)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 100(0,7+0,15p)=70+15p."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.44",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 100(0,04+0,35d)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 100(0,04+0,35d)=4+35d olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Parantezin dışındaki çarpan bir değişken de olabilir. Yine aynı kural geçerlidir: dıştaki çarpan, içerideki her terimle çarpılır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.23",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: m(n-4)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: m(n-4)=mn-4m."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.45",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: r(s-2)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: r(s-2)=rs-2r. r çarpanı her iki terime de dağıtılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.46",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: y(z-8)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y(z-8)=yz-8y olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.24",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: (x+8)p."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: p çarpanı iki terime de dağıtılır: (x+8)p=xp+8p."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.47",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: (x+2)p."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (x+2)p=xp+2p."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.48",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: (y+4)q."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: (y+4)q=yq+4q olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Dıştaki çarpan negatif olduğunda işaretlere özellikle dikkat ederiz. Negatif çarpan, parantezin içindeki her terimle çarpılır."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.25",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -2(4y+1)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -2(4y+1)=(-2)·4y+(-2)·1=-8y-2."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.49",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -3(6m+5)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -3(6m+5)=-18m-15. Negatif çarpan iki terime de dağıtılır."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.50",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -6(8n+11)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -6(8n+11)=-48n-66 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.26",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -11(4-3a)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -11(4-3a)=-44+33a. İstersek bu sonucu 33a-44 biçiminde de yazabiliriz."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.51",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -5(2-3a)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -5(2-3a)=-10+15a. İkinci terimde negatifle negatif çarpıldığı için artı oluşur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.52",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -7(8-15y)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -7(8-15y)=-56+105y olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Parantezin önünde yalnızca eksi işareti varsa bunu "
+              },
+              {
+                "type": "math",
+                "value": "-1"
+              },
+              {
+                "type": "text",
+                "value": " ile çarpma olarak düşünebiliriz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.27",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -(y+5)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -(y+5)=-1(y+5)=-y-5."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.53",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -(z-11)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -(z-11)=-1(z-11)=-z+11."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.54",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: -(x-4)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: -(x-4)=-x+4 olur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Bazen parantezin dışında başka terimler de bulunur. Önce dağıtım yapar, sonra benzer terimleri birleştiririz."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.28",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 8-2(x+3)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8-2(x+3)=8-2x-6=2-2x."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.55",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 9-3(x+2)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 9-3(x+2)=9-3x-6=3-3x."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.56",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 7x-5(x+4)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 7x-5(x+4)=7x-5x-20=2x-20."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.29",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 4(x-8)-(x+3)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 4(x-8)-(x+3)=4x-32-x-3=3x-35."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.57",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 6(x-9)-(x+12)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 6(x-9)-(x+12)=6x-54-x-12=5x-66."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.58",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliğini kullanarak sadeleştirin: 8(x-1)-(x+5)."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: 8(x-1)-(x+5)=8x-8-x-5=7x-13."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dagilma-ozelligi-section-02",
+        "lessonId": "lesson-distributive-property",
+        "heading": "Dağılma Özelliğiyle İfadelerin Değerini Hesaplama",
+        "slug": "dagilma-ozelligiyle-ifadelerin-degerini-hesaplama",
+        "level": 2,
+        "sortOrder": 2,
+        "contentJson": [
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Dağılma özelliği eşdeğer ifadeler üretir. Bu yüzden bir ifadenin parantezli biçimiyle dağıtılmış biçimi, değişkene aynı değer verildiğinde aynı sonucu verir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.30",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "y=10 iken 6(5y+1) ve 6·5y+6·1 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Parantezli biçimde 6(5·10+1)=6·51=306 olur. Dağıtılmış biçimde 6·5·10+6·1=300+6=306 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.59",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "w=3 iken 5(5w+9) ve 5·5w+5·9 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: w=3 için 5(5w+9)=5(15+9)=120. Dağıtılmış biçim 5·5w+5·9=75+45=120 verir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.60",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "y=2 iken 9(3y+8) ve 9·3y+9·8 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: y=2 için 9(3y+8)=9(6+8)=126. Dağıtılmış biçim 9·3y+9·8=54+72=126 verir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Negatif çarpanlarda da eşdeğerlik bozulmaz; yalnızca işaretleri dikkatle izlememiz gerekir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.31",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "y=3 iken -2(4y+1) ve -2·4y+(-2)·1 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Parantezli biçimde -2(12+1)=-26 olur. Dağıtılmış biçimde -2·4·3+(-2)·1=-24-2=-26 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.61",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "n=-2 iken -6(8n+11) ve -6·8n+(-6)·11 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: n=-2 için -6(8n+11)=-6(-16+11)=30. Dağıtılmış biçim -6·8n+(-6)·11=96-66=30 verir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.62",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "m=-1 iken -3(6m+5) ve -3·6m+(-3)·5 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: m=-1 için -3(6m+5)=-3(-6+5)=3. Dağıtılmış biçim -3·6m+(-3)·5=18-15=3 verir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              {
+                "type": "text",
+                "value": "Parantezin önündeki eksi işareti de "
+              },
+              {
+                "type": "math",
+                "value": "-1"
+              },
+              {
+                "type": "text",
+                "value": " ile dağıtma anlamına gelir. Bu biçim, özellikle çıkarma içeren parantezlerde işaretleri netleştirir."
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Örnek 7.32",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "y=35 iken -(y+5) ve -y-5 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: Parantezli biçimde -(35+5)=-40 olur. Dağıtılmış biçimde -35-5=-40 bulunur."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.63",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "x=36 iken -(x-4) ve -x+4 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: x=36 için -(x-4)=-(32)=-32. Dağıtılmış biçim -x+4=-36+4=-32 verir."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "example",
+            "label": "Sıra Sizde 7.64",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "z=55 iken -(z-10) ve -z+10 ifadelerinin değerlerini hesaplayın."
+              }
+            ],
+            "solution": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Çözüm: z=55 için -(z-10)=-(45)=-45. Dağıtılmış biçim -z+10=-55+10=-45 verir."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "exercises": [
@@ -68723,6 +69891,720 @@
         "sortOrder": 89,
         "difficulty": null,
         "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-91",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "91",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 3(a+9)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3 sayısını iki terime de dağıtırız: 3(a+9)=3a+27."
+          }
+        ],
+        "sortOrder": 91,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-93",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "93",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 9(3w+7)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 9 çarpanı parantezin iki terimine de dağıtılır: 9(3w+7)=9·3w+9·7=27w+63."
+          }
+        ],
+        "sortOrder": 93,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-95",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "95",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 7(y-13)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7 çarpanı y ve -13 terimlerine dağıtılır; bu yüzden 7(y-13)=7y-91 olur."
+          }
+        ],
+        "sortOrder": 95,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-97",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "97",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 5(7u-4)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 5 çarpanı iki terimle ayrı ayrı çarpılır: 5(7u-4)=35u-20."
+          }
+        ],
+        "sortOrder": 97,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-99",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "99",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: (1/3)(u+9)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/3 çarpanı u ve 9 terimlerine dağıtılır; (1/3)(u+9)=(1/3)u+3 olur."
+          }
+        ],
+        "sortOrder": 99,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-101",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "101",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: (1/5)(4m+20)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 1/5 çarpanı iki terime dağıtılır; (1/5)(4m+20)=4/5m+4 bulunur."
+          }
+        ],
+        "sortOrder": 101,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-103",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "103",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 10((3/10)x-2/5)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 10 çarpanını iki terime dağıtırız; 10((3/10)x-2/5)=3x-4 olur."
+          }
+        ],
+        "sortOrder": 103,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-105",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "105",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 12(1/6+3/4s)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 12 çarpanı 1/6 ve 3/4s terimlerine dağıtılır; sonuç 2+9s olur."
+          }
+        ],
+        "sortOrder": 105,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-107",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "107",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: u(v-10)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: u çarpanı v ve -10 terimlerine dağıtılır. Bu nedenle u(v-10)=uv-10u olur."
+          }
+        ],
+        "sortOrder": 107,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-109",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "109",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: (a+7)x."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: x çarpanı parantezin içindeki iki terimle çarpılır; (a+7)x=ax+7x."
+          }
+        ],
+        "sortOrder": 109,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-111",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "111",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: -3(a+11)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -3 çarpanı a ve 11 terimlerine dağıtılır. Sonuç -3a-33 olur."
+          }
+        ],
+        "sortOrder": 111,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-113",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "113",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: -9(9a+4)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -9 çarpanı 9a ve 4 terimlerine dağıtılır; -9(9a+4)=-81a-36."
+          }
+        ],
+        "sortOrder": 113,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-115",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "115",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: -4(q-7)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -4 çarpanı q ve -7 terimleriyle çarpılır; negatiflerin çarpımı +28 verir."
+          }
+        ],
+        "sortOrder": 115,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-117",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "117",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: -6(7x-8)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -6 çarpanı 7x ve -8 terimlerine dağıtılır; sonuç -42x+48 olur."
+          }
+        ],
+        "sortOrder": 117,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-119",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "119",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: -(q+11)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Baştaki eksi işareti -1 çarpanı demektir; -(q+11)=-q-11 olur."
+          }
+        ],
+        "sortOrder": 119,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-121",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "121",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: -(5p-4)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Baştaki eksi işareti iki terime de dağıtılır; -(5p-4)=-5p+4."
+          }
+        ],
+        "sortOrder": 121,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-123",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "123",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 12+8(u-1)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce 8 çarpanını dağıtırız: 12+8(u-1)=12+8u-8=8u+4."
+          }
+        ],
+        "sortOrder": 123,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-125",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "125",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 18-4(x+2)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -4 çarpanı paranteze dağıtılır; sonra sabitler birleşir: 18-4x-8=10-4x."
+          }
+        ],
+        "sortOrder": 125,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-127",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "127",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 9-6(7n-5)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: -6 çarpanı 7n ve -5 terimlerine dağıtılır; 9-42n+30=39-42n."
+          }
+        ],
+        "sortOrder": 127,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-129",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "129",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 8-(r-7)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Parantezin önündeki eksi işareti dağıtılır: 8-(r-7)=8-r+7=15-r."
+          }
+        ],
+        "sortOrder": 129,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-131",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "131",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: -4-(c-10)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Eksi işareti c-10 parantezine dağıtılır; -4-c+10=6-c olur."
+          }
+        ],
+        "sortOrder": 131,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-133",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "133",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: (4y-1)-(y-2)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: İkinci parantezin önündeki eksi işareti dağıtılır; 4y-1-y+2=3y+1."
+          }
+        ],
+        "sortOrder": 133,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-135",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "135",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 9(5u+8)+2(u-6)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 9(5u+8)+2(u-6)=45u+72+2u-12=47u+60."
+          }
+        ],
+        "sortOrder": 135,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-137",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "137",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 4(6x-1)-(-8)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: Önce 4 çarpanını dağıtırız, sonra -(-8)=+8 olur: 24x-4+8=24x+4."
+          }
+        ],
+        "sortOrder": 137,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-139",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "139",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 11(n-7)-5(n-1)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 11(n-7)-5(n-1)=11n-77-5n+5=6n-72."
+          }
+        ],
+        "sortOrder": 139,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-141",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "141",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dağılma özelliğini kullanarak sadeleştirin: 7(3n+9)-(4n-13)."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 7(3n+9)-(4n-13)=21n+63-4n+13=17n+76."
+          }
+        ],
+        "sortOrder": 141,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-143",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-02",
+        "number": "143",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "u=-1 iken her iki ifadenin değerini hesaplayın: ⓐ 8(5u+12) ⓑ 8·5u+8·12."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: u=-1 için ⓐ 8(5u+12)=8(-5+12)=56. ⓑ 8·5u+8·12=-40+96=56."
+          }
+        ],
+        "sortOrder": 143,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-145",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-02",
+        "number": "145",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "y=3/4 iken her iki ifadenin değerini hesaplayın: ⓐ 4(y+3/8) ⓑ 4·y+4·3/8."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: y=3/4 için ⓐ 4(y+3/8)=4(6/8+3/8)=4·9/8=9/2. ⓑ 4y+4·3/8=3+3/2=9/2."
+          }
+        ],
+        "sortOrder": 145,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-147",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-02",
+        "number": "147",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "p=23/30 iken her iki ifadenin değerini hesaplayın: ⓐ -6(5p+11) ⓑ -6·5p+(-6)·11."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: p=23/30 için 5p=23/6 olur. ⓐ -6(5p+11)=-6(89/6)=-89. ⓑ -6·5p+(-6)·11=-23-66=-89."
+          }
+        ],
+        "sortOrder": 147,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-149",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-02",
+        "number": "149",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "n=0,75 iken her iki ifadenin değerini hesaplayın: ⓐ -100(5n+1,5) ⓑ -100·5n+(-100)·1,5."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: n=0,75 için 5n+1,5=5,25. ⓐ -100·5,25=-525. ⓑ -100·5n+(-100)·1,5=-375-150=-525."
+          }
+        ],
+        "sortOrder": 149,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-151",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-02",
+        "number": "151",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "w=-80 iken her iki ifadenin değerini hesaplayın: ⓐ -(w-80) ⓑ -w+80."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: w=-80 için ⓐ -(w-80)=-(-160)=160. ⓑ -w+80=80+80=160."
+          }
+        ],
+        "sortOrder": 151,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-153",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-02",
+        "number": "153",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "q=0,55 iken her iki ifadenin değerini hesaplayın: ⓐ -(q+0,48) ⓑ -q-0,48."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: q=0,55 için ⓐ -(q+0,48)=-1,03. ⓑ -q-0,48=-0,55-0,48=-1,03."
+          }
+        ],
+        "sortOrder": 153,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-155",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "155",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Adele üç şişe şampuan almak istiyor. Her biri 3,97 dolarsa üç şişenin fiyatını zihinden bulun. Üçlü paket 10,49 dolarsa ayrı ayrı almakla paket almak arasındaki farkı bulun."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 3·3,97=3(4-0,03)=12-0,09=11,91 dolar. Üçlü paket 10,49 dolar olduğundan paket 11,91-10,49=1,42 dolar daha ucuzdur."
+          }
+        ],
+        "sortOrder": 155,
+        "difficulty": null,
+        "tagsJson": null
+      },
+      {
+        "id": "lesson-distributive-property-exercise-157",
+        "lessonId": "lesson-distributive-property",
+        "sectionId": "dagilma-ozelligi-section-01",
+        "number": "157",
+        "promptJson": [
+          {
+            "type": "text",
+            "value": "Dört ürünün her biri 5,97 dolardır. Dağılma özelliğini kullanarak toplam fiyatı zihinden bulun."
+          }
+        ],
+        "answerJson": [
+          {
+            "type": "text",
+            "value": "Çözüm: 4·5,97=4(6-0,03)=24-0,12=23,88 dolar."
+          }
+        ],
+        "sortOrder": 157,
+        "difficulty": null,
+        "tagsJson": null
       }
     ],
     "sourceSnapshots": [
@@ -68963,6 +70845,14 @@
         "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.03%3A_Commutative_and_Associative_Properties",
         "httpStatus": 200,
         "contentHash": "9b2503b336c47eefbc9eaddf873bdef2160c109dfed7de7812fe6632fce0eda2",
+        "rawHtmlPath": null,
+        "parserVersion": "lesson-content-v1"
+      },
+      {
+        "id": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property",
+        "httpStatus": 200,
+        "contentHash": "d3b01565eff6fdb37dd3516c63fee46384abc2d270ede25709313bbfc619fe84",
         "rawHtmlPath": null,
         "parserVersion": "lesson-content-v1"
       }
@@ -78778,6 +80668,328 @@
         "caption": "Use the Commutative Property of Addition to re-order so that like terms are together.",
         "localKey": "source-assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/8463cdf4705176dc.json",
         "r2Key": "assets/prealgebra-2e-openstax/6-2-commutative-and-associative-properties/8463cdf4705176dc.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-000-1373dd994a3b5556",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104598/3cae2d178d07faf9076bbcef9bbdf7b8c044343c?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the equation 3 times 9 equal to 27. Below the 3 is an image of three people. Below the 9 is an image of 9 one dollar bills. Below the 27 is an image of three groups of 9 one dollar bills for a total of 27 one dollar bills.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/000-1373dd994a3b5556.png",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/000-1373dd994a3b5556.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-001-11b33816569edbf5",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104594/31d0a68e4d907590467ccedc232fe53283158e11?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the equation 3 times 25 cents equal to 75 cents. Below the 3 is an image of three people. Below the 25 cents is an image of a quarter. Below the 75 cents is an image of three quarters.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/001-11b33816569edbf5.png",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/001-11b33816569edbf5.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-002-2ca9f7551129a690",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104593/59e3efb47e79af22a50a3a3e446c4f413249f0b3?revision=1",
+        "assetType": "image",
+        "altText": "The image shows the expression x plus 4 in parentheses with the number 3 outside the parentheses on the left. There are two arrows pointing from the top of the three. One arrow points to the top of the x. The other arrow points to the top of the 4.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/002-2ca9f7551129a690.png",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/002-2ca9f7551129a690.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-003-63fbb0c4df4f15b8",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/@api/deki/files/104597/ccc59deae0421c2b70b103d7985d454132e9cfdd?revision=1",
+        "assetType": "image",
+        "altText": "The image shows and equation. On the left side of the equation is the expression x plus 4 in parentheses with the number 3 outside the parentheses on the left. There are two arrows pointing from the top of the three. One arrow points to the top of the x. The other arrow points to the top of the 4. This is set equal to 3 times x plus 3 times 4.",
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/003-63fbb0c4df4f15b8.png",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/003-63fbb0c4df4f15b8.png",
+        "contentHash": null,
+        "preferredTreatment": "redraw_tr_preferred",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-9c290662380ffbb4",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-0",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/9c290662380ffbb4.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/9c290662380ffbb4.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-686d321f625d8d3d",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-1",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/686d321f625d8d3d.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/686d321f625d8d3d.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-903c8dd9944ba90a",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-2",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/903c8dd9944ba90a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/903c8dd9944ba90a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-348766153e1b1fcc",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-3",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/348766153e1b1fcc.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/348766153e1b1fcc.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-c03f865c5fe7196a",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-4",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/c03f865c5fe7196a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/c03f865c5fe7196a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-231eaae7530fe0aa",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-5",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/231eaae7530fe0aa.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/231eaae7530fe0aa.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-f9a7087c84340d27",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-6",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/f9a7087c84340d27.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/f9a7087c84340d27.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-569c67021f1eb2b4",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-7",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/569c67021f1eb2b4.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/569c67021f1eb2b4.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-0db76c2aeadd0194",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-8",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/0db76c2aeadd0194.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/0db76c2aeadd0194.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-8082e109778c6f00",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-9",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/8082e109778c6f00.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/8082e109778c6f00.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-74ecbee285a726df",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-10",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/74ecbee285a726df.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/74ecbee285a726df.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-11c471060ac8eb2c",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-11",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/11c471060ac8eb2c.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/11c471060ac8eb2c.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-2c1aaa87c3995fbf",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-12",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/2c1aaa87c3995fbf.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/2c1aaa87c3995fbf.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-122a9920f903097a",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-13",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/122a9920f903097a.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/122a9920f903097a.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-153a79f78e61886b",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-14",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/153a79f78e61886b.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/153a79f78e61886b.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-8dccbac1105b7140",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-15",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/8dccbac1105b7140.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/8dccbac1105b7140.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-a3bfd91da41067ef",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-16",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/a3bfd91da41067ef.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/a3bfd91da41067ef.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-c7a55353107ad4bf",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-17",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/c7a55353107ad4bf.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/c7a55353107ad4bf.json",
+        "contentHash": null,
+        "preferredTreatment": "rebuild_html_tr",
+        "status": "discovered"
+      },
+      {
+        "id": "lesson-distributive-property-asset-e5e5e21efd921ec5",
+        "lessonId": "lesson-distributive-property",
+        "sourceSnapshotId": "snapshot-d3b01565eff6fdb3",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/07%3A_The_Properties_of_Real_Numbers/7.04%3A_Distributive_Property#table-18",
+        "assetType": "table",
+        "altText": null,
+        "caption": null,
+        "localKey": "source-assets/prealgebra-2e-openstax/6-3-distributive-property/e5e5e21efd921ec5.json",
+        "r2Key": "assets/prealgebra-2e-openstax/6-3-distributive-property/e5e5e21efd921ec5.json",
         "contentHash": null,
         "preferredTreatment": "rebuild_html_tr",
         "status": "discovered"

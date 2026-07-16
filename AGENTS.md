@@ -42,11 +42,11 @@ navigation, SEO, attribution, and ingestion workflows.
 - Latest generated local seed payload count, not yet written to remote DB:
   - `books`: 1
   - `chapters`: 6
-  - `lessons`: 30
-  - `lessonSections`: 152
-  - `exercises`: 1062
-  - `sourceSnapshots`: 30
-  - `sourceAssets`: 701
+  - `lessons`: 31
+  - `lessonSections`: 154
+  - `exercises`: 1096
+  - `sourceSnapshots`: 31
+  - `sourceAssets`: 724
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -328,24 +328,24 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. Done; thirty seed
+8. Seed one or two lessons end-to-end before mass ingestion. Done; thirty-one seed
    lessons now build end-to-end for Prealgebra 2.3, 2.4, 2.5, 2.6, 3.2, 3.3,
    3.4, 3.5, 3.6, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 5.2 through 5.8,
-   6.2 through 6.6, and 7.2 through 7.3.
+   6.2 through 6.6, and 7.2 through 7.4.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
 11. Add informational language coverage report and initial Turkish localization
     cleanup hooks for exercise prompts/math text. Started.
 
-Current next seed candidate after the latest local work: Prealgebra 7.4
-`Distributive Property`, displayed as product lesson 6.3 under
+Current next seed candidate after the latest local work: Prealgebra 7.5
+`Properties of Identity, Inverses, and Zero`, displayed as product lesson 6.4 under
 the `Gerçek Sayıların Özellikleri` product chapter.
 
-Latest completed seed lesson: Prealgebra 7.3
-`Commutative and Associative Properties`, displayed as product lesson 6.2
-`Değişme ve Birleşme Özellikleri`. It includes 3 Turkish editorial sections, 24
-Sıra Sizde solutions, 35 source exercises with explanatory reveal solutions,
-and 18 extracted source assets.
+Latest completed seed lesson: Prealgebra 7.4
+`Distributive Property`, displayed as product lesson 6.3
+`Dağılma Özelliği`. It includes 2 Turkish editorial sections, 32 Sıra Sizde
+solutions, 34 source exercises with explanatory reveal solutions, and 23
+extracted source assets.
 
 ## Quality Gates
 
