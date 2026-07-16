@@ -65731,6 +65731,1348 @@
           }
         ]
       }
+    },
+    {
+      "sourceBookSlug": "prealgebra-2e-openstax",
+      "sourceNumber": "6.4",
+      "displayNumber": "5.3",
+      "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications",
+      "contentHash": "4a15f0bb6ccabbfae021885534399c41d05794fa1cc4553f54215abf3a29d05c",
+      "validation": {
+        "selfCheckRemoved": true,
+        "emptyExamples": [],
+        "emptyTryIts": [],
+        "emptyExercises": []
+      },
+      "assets": [
+        {
+          "id": "000-0240dda6dfbfb447",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/104977/4ad5832b20d854822aa89e2dc952c940c2c22991?revision=1",
+          "type": "figure",
+          "altText": "The figure shows a restaurant check with sales tax",
+          "caption": "Figure 6.7 The sales tax is calculated as a percent of the purchase price.",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/000-0240dda6dfbfb447.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/000-0240dda6dfbfb447.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "015-46e9dfd03b1aede7",
+          "sourceUrl": "https://math.libretexts.org/@api/deki/files/105005/f22181762fc12691a6c8780772dcd54706b106bb?revision=1",
+          "type": "figure",
+          "altText": "The figure shows a sale sign with a discount rate",
+          "caption": "Figure 6.8 Applications of discounts are common in everyday life. (credit: Charleston's TheDigitel, Flickr)",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/015-46e9dfd03b1aede7.png",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/015-46e9dfd03b1aede7.png",
+          "preferredTreatment": "redraw_tr_preferred",
+          "status": "discovered"
+        },
+        {
+          "id": "01e9f232df037b7c",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-0",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/01e9f232df037b7c.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/01e9f232df037b7c.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ce82a1e1e186a8b8",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-1",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/ce82a1e1e186a8b8.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/ce82a1e1e186a8b8.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "ed7fe4e09503f801",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-2",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/ed7fe4e09503f801.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/ed7fe4e09503f801.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c8fd9f727b49f7b2",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-3",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/c8fd9f727b49f7b2.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/c8fd9f727b49f7b2.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "6786b352853b01c6",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-4",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/6786b352853b01c6.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/6786b352853b01c6.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5894436fdba8a1ec",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-5",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/5894436fdba8a1ec.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/5894436fdba8a1ec.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "5a1c6046831a044d",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-6",
+          "type": "table",
+          "caption": "ⓐ Before beginning, you may find it helpful to organize the information in a list. Original price = $140 Discount rate = 35% Amount of discount = ?",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/5a1c6046831a044d.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/5a1c6046831a044d.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "dc50426002fb7db8",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-7",
+          "type": "table",
+          "caption": "ⓑ Original price = $140 Amount of discount = $49 Sale price = ?",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/dc50426002fb7db8.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/dc50426002fb7db8.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "a26efb6617b78a0f",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-8",
+          "type": "table",
+          "caption": "ⓐ Before beginning, you may find it helpful to organize the information in a list. Original price = $31 Amount of discount = ? Sale price = $13.95",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/a26efb6617b78a0f.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/a26efb6617b78a0f.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "c24f82b4749a028a",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-9",
+          "type": "table",
+          "caption": "ⓑ Before beginning, you may find it helpful to organize the information in a list. Original price = $31 Amount of discount = $17.05 Discount rate = ?",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/c24f82b4749a028a.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/c24f82b4749a028a.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "cdb4b7aed873e1ce",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-10",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/cdb4b7aed873e1ce.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/cdb4b7aed873e1ce.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        },
+        {
+          "id": "e57709b6b34e1ce2",
+          "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications#table-11",
+          "type": "table",
+          "localKey": "source-assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/e57709b6b34e1ce2.json",
+          "r2Key": "assets/prealgebra-2e-openstax/5-3-solve-sales-tax-commission-and-discount-applications/e57709b6b34e1ce2.json",
+          "preferredTreatment": "rebuild_html_tr",
+          "status": "discovered"
+        }
+      ],
+      "metrics": {
+        "objectives": 4,
+        "sections": 4,
+        "blocks": 36,
+        "examples": 8,
+        "tryIts": 16,
+        "sourceExercises": 26,
+        "exercises": 26,
+        "mathTokens": 5,
+        "assets": 14
+      },
+      "lesson": {
+        "id": "lesson-sales-tax-commission-discount",
+        "slug": "vergi-komisyon-ve-indirim",
+        "displayTitle": "Vergi, Komisyon ve İndirim",
+        "summary": "Satış vergisi, komisyon, indirim ve kar marjı problemlerini yüzde denklemleriyle modelleyip toplam maliyet, satış fiyatı ve oranları hesaplayın.",
+        "sortOrder": 3,
+        "chapterId": "chapter-percents",
+        "sourceNumber": "6.4",
+        "displayNumber": "5.3",
+        "sourceTitle": "Solve Sales Tax, Commission, and Discount Applications",
+        "sourceUrl": "https://math.libretexts.org/Bookshelves/PreAlgebra/Prealgebra_2e_(OpenStax)/06%3A_Percents/6.04%3A_Solve_Sales_Tax_Commission_and_Discount_Applications",
+        "bookId": "book-prealgebra-2e",
+        "bookSlug": "prealgebra-2e",
+        "chapterSlug": "yuzdeler",
+        "license": {
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "attribution": "OpenStax Prealgebra 2e içeriğinden uyarlanmıştır; kaynak LibreTexts üzerinden erişilmiştir."
+        },
+        "objectives": [
+          "Satış vergisi uygulamalarını çözebileceksiniz.",
+          "Komisyon uygulamalarını çözebileceksiniz.",
+          "İndirim uygulamalarını çözebileceksiniz.",
+          "Kar marjı uygulamalarını çözebileceksiniz."
+        ],
+        "sections": [
+          {
+            "id": "vergi-komisyon-ve-indirim-section-01",
+            "heading": "Satış Vergisi Uygulamaları",
+            "slug": "satis-vergisi-uygulamalari",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Satış vergisi, alış fiyatının belirli bir yüzdesi olarak hesaplanır. Vergi tutarını bulmak için alış fiyatını vergi oranıyla çarparız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Toplam maliyet ise "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{alış fiyatı}+\\text{satış vergisi}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " olarak bulunur. Oranı kullanmadan önce yüzdeyi ondalık sayıya çevirmeyi unutmayın."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.25",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Cathy, satış vergisi oranının 6,5% olduğu Washington'da 392 dolarlık bisiklet aldı. ⓐ Satış vergisi ⓑ toplam maliyet nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ 6,5%=0,065 olduğundan satış vergisi 0,065·392=25,48 dolardır. ⓑ Toplam maliyet 392+25,48=417,48 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.49",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Alexandra, Boston'da 724 dolarlık televizyon aldı. Satış vergisi oranı 6,25% ise ⓐ satış vergisini ⓑ toplam maliyeti bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Satış vergisi 0,0625·724=45,25 dolardır. Toplam maliyet 724+45,25=769,25 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.50",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Kim, St. Louis'te 250 dolarlık kışlık mont aldı. Satış vergisi oranı 8,2% ise ⓐ satış vergisini ⓑ toplam maliyeti bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Satış vergisi 0,082·250=20,50 dolardır. Toplam maliyet 250+20,50=270,50 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bazen vergi tutarı ve alış fiyatı verilir, vergi oranı sorulur. Bu durumda vergi tutarını alış fiyatına böler, sonucu yüzdeye çeviririz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.26",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Evelyn 499 dolarlık akıllı telefon aldı ve fişte 42,42 dolar vergi gördü. Satış vergisi oranı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Vergi oranı 42,42/499=0,085 olur. Yüzde biçimi 8,5%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.51",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Diego 26.525 dolarlık yeni araba aldı ve bayi 2.387,25 dolar satış vergisi ekledi. Satış vergisi oranı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Vergi oranı verginin alış fiyatına oranıdır. 2.387,25/26.525=0,09 olduğundan satış vergisi oranı 9%'dur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.52",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "7.594 dolarlık alışverişe 569,55 dolar satış vergisi ekleniyorsa satış vergisi oranı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Vergi oranı 569,55/7.594=0,075 olur. Yüzde biçimi 7,5%'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "vergi-komisyon-ve-indirim-section-02",
+            "heading": "Komisyon Uygulamaları",
+            "slug": "komisyon-uygulamalari",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Komisyon, bir satıştan kazanılan yüzde payıdır. Satış temsilcisinin geliri yalnızca komisyon olabilir ya da maaşına ek komisyon alabilir."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Komisyon tutarı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{komisyon oranı}\\cdot\\text{satış tutarı}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile hesaplanır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.27",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Helene bir emlakçıdır ve ev sattığında 3% komisyon alır. 260.000 dolarlık ev satarsa ne kadar komisyon alır?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Komisyon 0,03·260.000=7.800 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.53",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bob bir seyahat acentesidir ve müşteri için gemi seyahati ayarladığında 7% komisyon alır. 3.900 dolarlık seyahat için komisyonu nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Komisyon, satış tutarının 7%'idir. 0,07·3.900=273 dolar komisyon alır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.54",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Fernando bilgisayar satışı yaptığında 18% komisyon alır. 2.190 dolarlık bilgisayar satarsa komisyonu nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: 18%=0,18. Komisyon 0,18·2.190=394,20 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Komisyon tutarı ve satış tutarı verildiğinde komisyon oranını bulmak için komisyonu satış tutarına böleriz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.28",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Rikki 1.450 dolarlık ocak sattığında 87 dolar komisyon kazandı. Komisyon oranı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Oran 87/1.450=0,06 olur. Komisyon oranı 6%'dır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.55",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Homer 28.500 dolarlık araba sattığında 1.140 dolar komisyon aldı. Komisyon oranı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Komisyon oranı 1.140/28.500=0,04'tür. Yüzde olarak 4% komisyon almıştır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.56",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Bernice 8.200 dolarlık oturma odası takımı sattığında 451 dolar komisyon kazandı. Komisyon oranı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Komisyon oranı 451/8.200=0,055 olur. Yüzde biçimi 5,5%'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "vergi-komisyon-ve-indirim-section-03",
+            "heading": "İndirim Uygulamaları",
+            "slug": "indirim-uygulamalari",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İndirim, orijinal fiyattan düşülen tutardır. İndirim oranı yüzde olarak verildiğinde indirim tutarını bulmak için orijinal fiyatı indirim oranıyla çarparız."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Satış fiyatı her zaman "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{orijinal fiyat}-\\text{indirim}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile bulunur ve orijinal fiyattan küçük olmalıdır."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.29",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Jason, orijinal fiyatı 39 dolar olan güneş gözlüğünü 10 dolar indirimle aldı. Satış fiyatı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Satış fiyatı 39-10=29 dolardır."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.57",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Marta, orijinal fiyatı 525 dolar olan bulaşık makinesini 75 dolar indirimle aldı. Satış fiyatı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İndirim tutarı 75 dolardır. Satış fiyatı 525-75=450 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.58",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Orlando, orijinal fiyatı 112 dolar olan ayakkabıyı 30 dolar indirimle aldı. Satış fiyatı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Satış fiyatı, orijinal fiyattan indirim çıkarılarak bulunur: 112-30=82 dolar."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "İndirim yüzde olarak verilirse önce indirim tutarını, sonra satış fiyatını hesaplarız."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.30",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Elise, orijinal fiyatı 140 dolar olan elbiseyi 35% indirimle aldı. ⓐ İndirim tutarı ⓑ satış fiyatı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ İndirim 0,35·140=49 dolardır. ⓑ Satış fiyatı 140-49=91 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.59",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Sergio, orijinal fiyatı 29 dolar olan kemeri 40% indirimle aldı. ⓐ İndirim tutarını ⓑ satış fiyatını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İndirim 0,40·29=11,60 dolardır. Satış fiyatı 29-11,60=17,40 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.60",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Oscar, orijinal fiyatı 395 dolar olan barbekü ızgarasını 65% indirimle aldı. ⓐ İndirim tutarını ⓑ satış fiyatını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İndirim 0,65·395=256,75 dolardır. Satış fiyatı 395-256,75=138,25 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Satış fiyatı ve orijinal fiyat biliniyorsa indirim tutarını çıkarma ile, indirim oranını ise indirim/orijinal fiyat oranıyla buluruz."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.31",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Jeannette, orijinal fiyatı 31 dolar olan mayoyu 13,95 dolara aldı. ⓐ İndirim tutarı ⓑ indirim oranı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ İndirim 31-13,95=17,05 dolardır. ⓑ Oran 17,05/31=0,55 olduğundan indirim oranı 55%'tir."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.61",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Lena, orijinal fiyatı 560 dolar olan mutfak masasını 375,20 dolara aldı. ⓐ İndirim tutarını ⓑ indirim oranını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İndirim tutarı 560-375,20=184,80 dolardır. İndirim oranı 184,80/560=0,33, yani 33%'tür."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.62",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Nick, orijinal fiyatı 400 dolar olan çok odalı klimayı 340 dolara aldı. ⓐ İndirim tutarını ⓑ indirim oranını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: İndirim tutarı 400-340=60 dolardır. İndirim oranı 60/400=0,15, yani 15%'tir."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "vergi-komisyon-ve-indirim-section-04",
+            "heading": "Kar Marjı Uygulamaları",
+            "slug": "kar-marji-uygulamalari",
+            "level": 2,
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Bir mağazanın ürüne ödediği fiyat toptan maliyettir. Mağaza bu maliyetin üzerine kar marjı ekleyerek liste fiyatını oluşturur."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": [
+                  {
+                    "type": "text",
+                    "value": "Kar marjı tutarı "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{kar marjı oranı}\\cdot\\text{toptan maliyet}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile; liste fiyatı ise "
+                  },
+                  {
+                    "type": "math",
+                    "value": "\\text{toptan maliyet}+\\text{kar marjı}"
+                  },
+                  {
+                    "type": "text",
+                    "value": " ile bulunur."
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Örnek 6.32",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Adam'ın sanat galerisi bir fotoğrafı 250 dolar toptan fiyatla aldı ve 40% kar marjı ekledi. ⓐ Kar marjı tutarı ⓑ liste fiyatı nedir?"
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: ⓐ Kar marjı 0,40·250=100 dolardır. ⓑ Liste fiyatı 250+100=350 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.63",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Jim'in müzik mağazası bir gitarı 1.200 dolar toptan fiyatla aldı ve 50% kar marjı ekledi. ⓐ Kar marjı tutarını ⓑ liste fiyatını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Kar marjı tutarı 0,50·1.200=600 dolardır. Liste fiyatı 1.200+600=1.800 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "example",
+                "label": "Sıra Sizde 6.64",
+                "prompt": [
+                  {
+                    "type": "text",
+                    "value": "Auto Resale Store, Pablo'nun Toyota'sını 8.500 dolara aldı ve 35% kar marjı ekledi. ⓐ Kar marjı tutarını ⓑ liste fiyatını bulun."
+                  }
+                ],
+                "solution": [
+                  {
+                    "type": "paragraph",
+                    "text": [
+                      {
+                        "type": "text",
+                        "value": "Çözüm: Kar marjı tutarı 0,35·8.500=2.975 dolardır. Liste fiyatı 8.500+2.975=11.475 dolar olur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-151",
+            "number": "151",
+            "sectionSlug": "satis-vergisi-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış vergisini ve toplam maliyeti bulun: Bir çift botun fiyatı 84 dolar, satış vergisi oranı 5%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Satış vergisi 0,05·84=4,20 dolardır. Toplam maliyet 84+4,20=88,20 dolar olur."
+              }
+            ],
+            "sortOrder": 151
+          },
+          {
+            "id": "exercise-153",
+            "number": "153",
+            "sectionSlug": "satis-vergisi-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış vergisini ve toplam maliyeti bulun: Mikrodalga fırın 129 dolar, satış vergisi oranı 7,5%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Satış vergisi 0,075·129=9,675 dolar, yani 9,68 dolardır. Toplam maliyet 129+9,68=138,68 dolar olur."
+              }
+            ],
+            "sortOrder": 153
+          },
+          {
+            "id": "exercise-155",
+            "number": "155",
+            "sectionSlug": "satis-vergisi-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış vergisini ve toplam maliyeti bulun: Dosya dolabı 250 dolar, satış vergisi oranı 6,85%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Satış vergisi 0,0685·250=17,125 dolar, yani 17,13 dolardır. Toplam maliyet 267,13 dolar olur."
+              }
+            ],
+            "sortOrder": 155
+          },
+          {
+            "id": "exercise-157",
+            "number": "157",
+            "sectionSlug": "satis-vergisi-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış vergisini ve toplam maliyeti bulun: 6 çekmeceli şifonyer 1.199 dolar, satış vergisi oranı 5,125%."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Satış vergisi 0,05125·1.199=61,44875 dolar, yani 61,45 dolardır. Toplam maliyet 1.260,45 dolar olur."
+              }
+            ],
+            "sortOrder": 157
+          },
+          {
+            "id": "exercise-159",
+            "number": "159",
+            "sectionSlug": "satis-vergisi-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış vergisi oranını bulun: Shawna 300 dolarlık mikser aldı ve 19,50 dolar satış vergisi ödedi."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Vergi oranı 19,50/300=0,065 olur. Yüzde biçimi 6,5%'tir."
+              }
+            ],
+            "sortOrder": 159
+          },
+          {
+            "id": "exercise-161",
+            "number": "161",
+            "sectionSlug": "satis-vergisi-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış vergisi oranını bulun: Bopha 3.600 dolarlık yatak odası takımı aldı ve 246,60 dolar satış vergisi ödedi."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Vergi oranı 246,60/3.600=0,0685 olur. Satış vergisi oranı 6,85%'tir."
+              }
+            ],
+            "sortOrder": 161
+          },
+          {
+            "id": "exercise-163",
+            "number": "163",
+            "sectionSlug": "komisyon-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Komisyonu bulun: Christopher yemek masasını 225 dolara sattı; çevrimiçi site satış fiyatının 9%'i kadar komisyon aldı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Komisyon satış fiyatının 9%'idir. 0,09·225=20,25 dolar komisyon alınır."
+              }
+            ],
+            "sortOrder": 163
+          },
+          {
+            "id": "exercise-165",
+            "number": "165",
+            "sectionSlug": "komisyon-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Komisyonu bulun: Farrah bir kuyumcuda çalışıyor ve satış yaptığında 12% komisyon alıyor. 8.125 dolarlık yüzük satarsa ne kadar komisyon alır?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Komisyon 0,12·8.125=975 dolardır. Farrah bu satıştan 975 dolar komisyon alır."
+              }
+            ],
+            "sortOrder": 165
+          },
+          {
+            "id": "exercise-167",
+            "number": "167",
+            "sectionSlug": "komisyon-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Komisyonu bulun: Hector sigorta poliçesi sattığında 17,5% komisyon alıyor. 4.910 dolarlık poliçe satarsa komisyonu ne olur?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Komisyon 0,175·4.910=859,25 dolardır. Hector'un komisyonu 859,25 dolar olur."
+              }
+            ],
+            "sortOrder": 167
+          },
+          {
+            "id": "exercise-169",
+            "number": "169",
+            "sectionSlug": "komisyon-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Komisyon oranını bulun: Dontay 375.000 dolarlık ev satışından 11.250 dolar komisyon kazandı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Komisyon oranı 11.250/375.000=0,03'tür. Yüzde biçimi 3%'tür."
+              }
+            ],
+            "sortOrder": 169
+          },
+          {
+            "id": "exercise-171",
+            "number": "171",
+            "sectionSlug": "komisyon-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Komisyon oranını bulun: Emily garson olarak 2.625 dolarlık satıştan 420 dolar bahşiş kazandı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Oran 420/2.625=0,16 olur. Emily'nin komisyon ya da bahşiş oranı 16%'dır."
+              }
+            ],
+            "sortOrder": 171
+          },
+          {
+            "id": "exercise-173",
+            "number": "173",
+            "sectionSlug": "komisyon-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Komisyon oranını bulun: Maureen 45.500 dolarlık araba sattığında 7.052,50 dolar komisyon kazandı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Komisyon oranı 7.052,50/45.500=0,155 olur. Yüzde biçimi 15,5%'tir."
+              }
+            ],
+            "sortOrder": 173
+          },
+          {
+            "id": "exercise-175",
+            "number": "175",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış fiyatını bulun: Perla 189 dolarlık cep telefonunu 50 dolar indirimle aldı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Satış fiyatı orijinal fiyattan indirim çıkarılarak bulunur. 189-50=139 dolar olur."
+              }
+            ],
+            "sortOrder": 175
+          },
+          {
+            "id": "exercise-176",
+            "number": "176",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış fiyatını bulun: Sophie 96 dolarlık elbiseyi 15 dolar indirimle gördü."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Satış fiyatı 96-15=81 dolardır; indirimden sonra Sophie 81 dolar öder."
+              }
+            ],
+            "sortOrder": 176
+          },
+          {
+            "id": "exercise-177",
+            "number": "177",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Satış fiyatını bulun: Rick orijinal fiyatı 165 dolar olan alet setini gelecek hafta 40 dolar indirimle alacak."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İndirim 40 dolar olduğundan satış fiyatı 165-40=125 dolar olur."
+              }
+            ],
+            "sortOrder": 177
+          },
+          {
+            "id": "exercise-179",
+            "number": "179",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İndirim tutarını ve satış fiyatını bulun: Janelle orijinal fiyatı 44,95 dolar olan plaj sandalyesini 60% indirimle aldı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İndirim 0,60·44,95=26,97 dolardır. Satış fiyatı 44,95-26,97=17,98 dolar olur."
+              }
+            ],
+            "sortOrder": 179
+          },
+          {
+            "id": "exercise-181",
+            "number": "181",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İndirim tutarını ve satış fiyatını bulun: Kathy liste fiyatı 389 dolar olan kamerayı 33% indirimle almak istiyor."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İndirim 0,33·389=128,37 dolardır. Satış fiyatı 389-128,37=260,63 dolar olur."
+              }
+            ],
+            "sortOrder": 181
+          },
+          {
+            "id": "exercise-183",
+            "number": "183",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İndirim tutarını ve satış fiyatını bulun: Erys orijinal fiyatı 949,95 dolar olan koşu bandını 35% indirimle aldı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İndirim 0,35·949,95=332,4825 dolar, yani 332,48 dolardır. Satış fiyatı 949,95-332,48=617,47 dolar olur."
+              }
+            ],
+            "sortOrder": 183
+          },
+          {
+            "id": "exercise-185",
+            "number": "185",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İndirim tutarını ve indirim oranını bulun: Larry ve Donna orijinal fiyatı 1.920 dolar olan kanepeyi 1.344 dolara aldı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İndirim tutarı 1.920-1.344=576 dolardır. İndirim oranı 576/1.920=0,30, yani 30%'dur."
+              }
+            ],
+            "sortOrder": 185
+          },
+          {
+            "id": "exercise-187",
+            "number": "187",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İndirim tutarını ve indirim oranını bulun: Patty orijinal fiyatı 355 dolar olan bebek arabasını 301,75 dolara aldı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İndirim tutarı 355-301,75=53,25 dolardır. İndirim oranı 53,25/355=0,15, yani 15%'tir."
+              }
+            ],
+            "sortOrder": 187
+          },
+          {
+            "id": "exercise-189",
+            "number": "189",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "İndirim tutarını ve indirim oranını bulun: Nikki orijinal fiyatı 850 dolar olan veranda takımını 480 dolara aldı."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: İndirim tutarı 850-480=370 dolardır. İndirim oranı 370/850≈0,4353 olduğundan yaklaşık 43,5%'tir."
+              }
+            ],
+            "sortOrder": 189
+          },
+          {
+            "id": "exercise-191",
+            "number": "191",
+            "sectionSlug": "kar-marji-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kar marjı tutarını ve liste fiyatını bulun: Daria 16 dolara aldığı bileziği el işi mağazasında satmak için 45% kar marjı ekledi."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kar marjı 0,45·16=7,20 dolardır. Liste fiyatı 16+7,20=23,20 dolar olur."
+              }
+            ],
+            "sortOrder": 191
+          },
+          {
+            "id": "exercise-193",
+            "number": "193",
+            "sectionSlug": "kar-marji-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kar marjı tutarını ve liste fiyatını bulun: Tom domatesi pound başına 0,60 dolara aldı ve 33% kar marjı ekledi."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: Kar marjı 0,33·0,60=0,198 dolar, yani yaklaşık 0,20 dolardır. Liste fiyatı yaklaşık 0,80 dolar/pound olur."
+              }
+            ],
+            "sortOrder": 193
+          },
+          {
+            "id": "exercise-195",
+            "number": "195",
+            "sectionSlug": "kar-marji-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Kar marjı tutarını ve liste fiyatını bulun: Alan kullanılmış bisikleti 115 dolara aldı, onardıktan sonra 225% kar marjı ekledi."
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: 225%=2,25 olduğundan kar marjı 2,25·115=258,75 dolardır. Liste fiyatı 115+258,75=373,75 dolar olur."
+              }
+            ],
+            "sortOrder": 195
+          },
+          {
+            "id": "exercise-197",
+            "number": "197",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Yvonne aynı alışverişte iki kupon kullanabiliyor: biri 20 dolar indirim, diğeri 25% indirim. 195 dolarlık yatak örtüsü için ⓐ önce 20 dolar sonra 25% indirim uygulanırsa fiyatı, ⓑ önce 25% sonra 20 dolar uygulanırsa fiyatı bulun. ⓒ Hangi sırayı seçmelidir?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ Önce 20 dolar düşerse 195-20=175; sonra 25% indirimle 175·0,75=131,25 dolar olur. ⓑ Önce 25% indirimle 195·0,75=146,25; sonra 20 dolar düşerse 126,25 dolar olur. ⓒ Daha düşük fiyat için önce 25% kuponunu kullanmalıdır."
+              }
+            ],
+            "sortOrder": 197
+          },
+          {
+            "id": "exercise-199",
+            "number": "199",
+            "sectionSlug": "indirim-uygulamalari",
+            "prompt": [
+              {
+                "type": "text",
+                "value": "Priam 150 dolarlık ceketi 40% indirimle aldı. Satış görevlisi önce indirimi hesaplayıp 150 dolardan çıkarırken Priam doğrudan 150 doların 60%'ini hesapladı. ⓐ Neden doğru düşündüğünü açıklayın. ⓑ Bu yöntem her orijinal fiyat için çalışır mı?"
+              }
+            ],
+            "answer": [
+              {
+                "type": "text",
+                "value": "Çözüm: ⓐ 40% indirim varsa fiyatın geriye kalan kısmı 100%-40%=60%'tır; bu yüzden 150'nin 60%'ini almak doğrudur. ⓑ Evet, indirim oranı biliniyorsa her orijinal fiyat için kalan yüzdeyi hesaplamak aynı sonucu verir."
+              }
+            ],
+            "sortOrder": 199
+          }
+        ]
+      }
     }
   ]
 }

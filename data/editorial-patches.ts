@@ -11262,6 +11262,158 @@ export const editorialLessonPatches: EditorialLessonPatchSet[] = [
       },
     ],
   },
+  {
+    sourceBookSlug: "prealgebra-2e-openstax",
+    sourceNumber: "6.4",
+    sections: [
+      {
+        sectionSlug: "satis-vergisi-uygulamalari",
+        replaceBlocks: [
+          ...removeBlocks(11),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Satış vergisi, alış fiyatının belirli bir yüzdesi olarak hesaplanır. Vergi tutarını bulmak için alış fiyatını vergi oranıyla çarparız.",
+              ),
+              p([
+                t("Toplam maliyet ise "),
+                m("\\text{alış fiyatı}+\\text{satış vergisi}"),
+                t(" olarak bulunur. Oranı kullanmadan önce yüzdeyi ondalık sayıya çevirmeyi unutmayın."),
+              ]),
+              ex(
+                "Örnek 6.25",
+                [t("Cathy, satış vergisi oranının 6,5% olduğu Washington'da 392 dolarlık bisiklet aldı. ⓐ Satış vergisi ⓑ toplam maliyet nedir?")],
+                sol("Çözüm: ⓐ 6,5%=0,065 olduğundan satış vergisi 0,065·392=25,48 dolardır. ⓑ Toplam maliyet 392+25,48=417,48 dolar olur."),
+              ),
+              ex("Sıra Sizde 6.49", [t("Alexandra, Boston'da 724 dolarlık televizyon aldı. Satış vergisi oranı 6,25% ise ⓐ satış vergisini ⓑ toplam maliyeti bulun.")]),
+              ex("Sıra Sizde 6.50", [t("Kim, St. Louis'te 250 dolarlık kışlık mont aldı. Satış vergisi oranı 8,2% ise ⓐ satış vergisini ⓑ toplam maliyeti bulun.")]),
+              pt(
+                "Bazen vergi tutarı ve alış fiyatı verilir, vergi oranı sorulur. Bu durumda vergi tutarını alış fiyatına böler, sonucu yüzdeye çeviririz.",
+              ),
+              ex(
+                "Örnek 6.26",
+                [t("Evelyn 499 dolarlık akıllı telefon aldı ve fişte 42,42 dolar vergi gördü. Satış vergisi oranı nedir?")],
+                sol("Çözüm: Vergi oranı 42,42/499=0,085 olur. Yüzde biçimi 8,5%'tir."),
+              ),
+              ex("Sıra Sizde 6.51", [t("Diego 26.525 dolarlık yeni araba aldı ve bayi 2.387,25 dolar satış vergisi ekledi. Satış vergisi oranı nedir?")]),
+              ex("Sıra Sizde 6.52", [t("7.594 dolarlık alışverişe 569,55 dolar satış vergisi ekleniyorsa satış vergisi oranı nedir?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "komisyon-uygulamalari",
+        replaceBlocks: [
+          ...removeBlocks(8),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Komisyon, bir satıştan kazanılan yüzde payıdır. Satış temsilcisinin geliri yalnızca komisyon olabilir ya da maaşına ek komisyon alabilir.",
+              ),
+              p([
+                t("Komisyon tutarı "),
+                m("\\text{komisyon oranı}\\cdot\\text{satış tutarı}"),
+                t(" ile hesaplanır."),
+              ]),
+              ex(
+                "Örnek 6.27",
+                [t("Helene bir emlakçıdır ve ev sattığında 3% komisyon alır. 260.000 dolarlık ev satarsa ne kadar komisyon alır?")],
+                sol("Çözüm: Komisyon 0,03·260.000=7.800 dolardır."),
+              ),
+              ex("Sıra Sizde 6.53", [t("Bob bir seyahat acentesidir ve müşteri için gemi seyahati ayarladığında 7% komisyon alır. 3.900 dolarlık seyahat için komisyonu nedir?")]),
+              ex("Sıra Sizde 6.54", [t("Fernando bilgisayar satışı yaptığında 18% komisyon alır. 2.190 dolarlık bilgisayar satarsa komisyonu nedir?")]),
+              pt(
+                "Komisyon tutarı ve satış tutarı verildiğinde komisyon oranını bulmak için komisyonu satış tutarına böleriz.",
+              ),
+              ex(
+                "Örnek 6.28",
+                [t("Rikki 1.450 dolarlık ocak sattığında 87 dolar komisyon kazandı. Komisyon oranı nedir?")],
+                sol("Çözüm: Oran 87/1.450=0,06 olur. Komisyon oranı 6%'dır."),
+              ),
+              ex("Sıra Sizde 6.55", [t("Homer 28.500 dolarlık araba sattığında 1.140 dolar komisyon aldı. Komisyon oranı nedir?")]),
+              ex("Sıra Sizde 6.56", [t("Bernice 8.200 dolarlık oturma odası takımı sattığında 451 dolar komisyon kazandı. Komisyon oranı nedir?")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "indirim-uygulamalari",
+        replaceBlocks: [
+          ...removeBlocks(14),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "İndirim, orijinal fiyattan düşülen tutardır. İndirim oranı yüzde olarak verildiğinde indirim tutarını bulmak için orijinal fiyatı indirim oranıyla çarparız.",
+              ),
+              p([
+                t("Satış fiyatı her zaman "),
+                m("\\text{orijinal fiyat}-\\text{indirim}"),
+                t(" ile bulunur ve orijinal fiyattan küçük olmalıdır."),
+              ]),
+              ex(
+                "Örnek 6.29",
+                [t("Jason, orijinal fiyatı 39 dolar olan güneş gözlüğünü 10 dolar indirimle aldı. Satış fiyatı nedir?")],
+                sol("Çözüm: Satış fiyatı 39-10=29 dolardır."),
+              ),
+              ex("Sıra Sizde 6.57", [t("Marta, orijinal fiyatı 525 dolar olan bulaşık makinesini 75 dolar indirimle aldı. Satış fiyatı nedir?")]),
+              ex("Sıra Sizde 6.58", [t("Orlando, orijinal fiyatı 112 dolar olan ayakkabıyı 30 dolar indirimle aldı. Satış fiyatı nedir?")]),
+              pt(
+                "İndirim yüzde olarak verilirse önce indirim tutarını, sonra satış fiyatını hesaplarız.",
+              ),
+              ex(
+                "Örnek 6.30",
+                [t("Elise, orijinal fiyatı 140 dolar olan elbiseyi 35% indirimle aldı. ⓐ İndirim tutarı ⓑ satış fiyatı nedir?")],
+                sol("Çözüm: ⓐ İndirim 0,35·140=49 dolardır. ⓑ Satış fiyatı 140-49=91 dolar olur."),
+              ),
+              ex("Sıra Sizde 6.59", [t("Sergio, orijinal fiyatı 29 dolar olan kemeri 40% indirimle aldı. ⓐ İndirim tutarını ⓑ satış fiyatını bulun.")]),
+              ex("Sıra Sizde 6.60", [t("Oscar, orijinal fiyatı 395 dolar olan barbekü ızgarasını 65% indirimle aldı. ⓐ İndirim tutarını ⓑ satış fiyatını bulun.")]),
+              pt(
+                "Satış fiyatı ve orijinal fiyat biliniyorsa indirim tutarını çıkarma ile, indirim oranını ise indirim/orijinal fiyat oranıyla buluruz.",
+              ),
+              ex(
+                "Örnek 6.31",
+                [t("Jeannette, orijinal fiyatı 31 dolar olan mayoyu 13,95 dolara aldı. ⓐ İndirim tutarı ⓑ indirim oranı nedir?")],
+                sol("Çözüm: ⓐ İndirim 31-13,95=17,05 dolardır. ⓑ Oran 17,05/31=0,55 olduğundan indirim oranı 55%'tir."),
+              ),
+              ex("Sıra Sizde 6.61", [t("Lena, orijinal fiyatı 560 dolar olan mutfak masasını 375,20 dolara aldı. ⓐ İndirim tutarını ⓑ indirim oranını bulun.")]),
+              ex("Sıra Sizde 6.62", [t("Nick, orijinal fiyatı 400 dolar olan çok odalı klimayı 340 dolara aldı. ⓐ İndirim tutarını ⓑ indirim oranını bulun.")]),
+            ],
+          },
+        ],
+      },
+      {
+        sectionSlug: "kar-marji-uygulamalari",
+        replaceBlocks: [
+          ...removeBlocks(5),
+          {
+            sourceBlockIndex: 1,
+            blocks: [
+              pt(
+                "Bir mağazanın ürüne ödediği fiyat toptan maliyettir. Mağaza bu maliyetin üzerine kar marjı ekleyerek liste fiyatını oluşturur.",
+              ),
+              p([
+                t("Kar marjı tutarı "),
+                m("\\text{kar marjı oranı}\\cdot\\text{toptan maliyet}"),
+                t(" ile; liste fiyatı ise "),
+                m("\\text{toptan maliyet}+\\text{kar marjı}"),
+                t(" ile bulunur."),
+              ]),
+              ex(
+                "Örnek 6.32",
+                [t("Adam'ın sanat galerisi bir fotoğrafı 250 dolar toptan fiyatla aldı ve 40% kar marjı ekledi. ⓐ Kar marjı tutarı ⓑ liste fiyatı nedir?")],
+                sol("Çözüm: ⓐ Kar marjı 0,40·250=100 dolardır. ⓑ Liste fiyatı 250+100=350 dolar olur."),
+              ),
+              ex("Sıra Sizde 6.63", [t("Jim'in müzik mağazası bir gitarı 1.200 dolar toptan fiyatla aldı ve 50% kar marjı ekledi. ⓐ Kar marjı tutarını ⓑ liste fiyatını bulun.")]),
+              ex("Sıra Sizde 6.64", [t("Auto Resale Store, Pablo'nun Toyota'sını 8.500 dolara aldı ve 35% kar marjı ekledi. ⓐ Kar marjı tutarını ⓑ liste fiyatını bulun.")]),
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getEditorialLessonPatches({

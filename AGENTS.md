@@ -42,11 +42,11 @@ navigation, SEO, attribution, and ingestion workflows.
 - Latest generated local seed payload count, not yet written to remote DB:
   - `books`: 1
   - `chapters`: 5
-  - `lessons`: 25
-  - `lessonSections`: 134
-  - `exercises`: 926
-  - `sourceSnapshots`: 25
-  - `sourceAssets`: 630
+  - `lessons`: 26
+  - `lessonSections`: 138
+  - `exercises`: 952
+  - `sourceSnapshots`: 26
+  - `sourceAssets`: 644
 - Next.js/Tailwind/Turso/Drizzle/Cloudflare app scaffold has been started.
 - Current tracked app artifact moved to
   `reference/legacy/ifadeleri-degerlendirme.html`.
@@ -328,24 +328,24 @@ Expected first build milestones:
 5. Add landing page with logo placeholder. Done.
 6. Add book/chapter/lesson route shell with responsive drawer navigation. Done.
 7. Add structured lesson renderer and answer reveal components. Started.
-8. Seed one or two lessons end-to-end before mass ingestion. Done; twenty-five seed
+8. Seed one or two lessons end-to-end before mass ingestion. Done; twenty-six seed
    lessons now build end-to-end for Prealgebra 2.3, 2.4, 2.5, 2.6, 3.2, 3.3,
    3.4, 3.5, 3.6, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 5.2 through 5.8,
-   and 6.2 through 6.3.
+   and 6.2 through 6.4.
 9. Add target range lesson planner and shifted display numbering. Done.
 10. Add first structured LibreTexts lesson parser. Done.
 11. Add informational language coverage report and initial Turkish localization
     cleanup hooks for exercise prompts/math text. Started.
 
-Current next seed candidate after the latest local work: Prealgebra 6.4
-`Solve Sales Tax, Commission, and Discount Applications`, displayed as product
-lesson 5.3 under the `Yüzdeler` product chapter.
+Current next seed candidate after the latest local work: Prealgebra 6.5
+`Solve Simple Interest Applications`, displayed as product lesson 5.4 under the
+`Yüzdeler` product chapter.
 
-Latest completed seed lesson: Prealgebra 6.3
-`Solve General Applications of Percent`, displayed as product lesson 5.2
-`Yüzde Problemleri`. It includes 3 Turkish editorial sections, 22 Sıra Sizde
-solutions, 27 source exercises with explanatory reveal solutions, and 13
-extracted source assets.
+Latest completed seed lesson: Prealgebra 6.4
+`Solve Sales Tax, Commission, and Discount Applications`, displayed as product
+lesson 5.3 `Vergi, Komisyon ve İndirim`. It includes 4 Turkish editorial
+sections, 16 Sıra Sizde solutions, 26 source exercises with explanatory reveal
+solutions, and 14 extracted source assets.
 
 ## Quality Gates
 
