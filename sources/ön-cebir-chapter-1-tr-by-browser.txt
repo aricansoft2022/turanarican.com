@@ -1,0 +1,3808 @@
+Ev
+/
+Önceki cebir
+/
+Bölüm 1
+Bölüm 1 · 6 ders
+
+Tam Sayılar, Tamsayılar ve Cebire Giriş
+BEN
+
+BÖLÜM 1 Tam Sayılar, Tamsayılar ve Cebire Giriş
+Cebirin kendine özgü bir dili vardır. Resimde, cebir çalışmalarınızda görebileceğiniz ve kullanabileceğiniz kelimelerden sadece bazıları gösterilmektedir.
+Görselde cebir, ondalık sayılar, denklemler, sayılar gibi matematiksel terimlerden oluşan bir kolaj gösteriliyor. Kelimeler yatay, dikey ve farklı renklerde yazılmış.
+
+Belki farkında değilsiniz ama cebiri her gün kullanıyorsunuz. Belki bir restoranda garsona ne kadar bahşiş vereceğinizi hesaplıyorsunuz. Belki bir şey için ödeme yaparken almanız gereken para üstünü hesaplıyorsunuz. Hatta en sevdiğiniz oyuncuların vuruş ortalamalarını karşılaştırırken bile cebir kullanıyorsunuz. Kullandığınız cebiri belirli kelimelerle tanımlayabilir ve düzenli bir süreç izleyebilirsiniz. Bu bölümde, cebiri tanımlamak için kullanılan kelimeleri keşfedecek ve hem sınıfta hem de günlük yaşamınızda cebirsel problemleri kolayca çözmeye yönelik yolculuğunuza başlayacaksınız.
+
+1
+1.1 Tam Sayılar
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Tam sayılarla basamak değerini kullanın.
+Katları belirleyin ve bölünebilirlik testlerini uygulayın.
+Asal çarpanlara ayırma ve en küçük ortak katı bulma
+Orta düzey cebir çalışmalarına başlarken, bazı becerilerimizi ve terminolojimizi tazelememiz gerekiyor. Bu bölüm ve bir sonraki bölüm, tam sayılar, tamsayılar, kesirler, ondalık sayılar ve gerçek sayılar üzerinde yoğunlaşacaktır. Ayrıca cebirsel gösterim ve terminolojiyi kullanmaya da başlayacağız.
+
+Tam Sayılarla Basamak Değerini Kullanma
+Cebirde kullanılan en temel sayılar, dünyamızdaki nesneleri saymak için kullandığımız sayılardır: 1, 2, 3, 4 ve benzeri. Bunlara sayma sayıları denir . Sayma sayılarına doğal sayılar da denir . Sayma sayılarına sıfır eklersek, tam sayılar kümesini elde ederiz .
+
+\phantom{\rule{1.5em}{0ex}}Sayıları Sayma: 1, 2, 3, …
+
+\phantom{\rule{1.5em}{0ex}}Tam Sayılar: 0, 1, 2, 3, …
+
+"..." işareti, üç nokta (ellipsis) olarak adlandırılır ve "ve böyle devam eder" veya desenin sonsuza kadar sürdüğü anlamına gelir.
+
+Sayma sayılarını ve tam sayıları bir sayı doğrusu üzerinde görselleştirebiliriz. Şekil 1'e bakınız .
+
+Sayı doğrusundaki sayılar soldan sağa doğru büyür, sağdan sola doğru ise küçülür. Bu sayı doğrusu sadece 0'dan 6'ya kadar olan tam sayıları gösterse de, sayılar sonsuza kadar devam eder.
+Diyagramın alt kısmında, her iki ucunda ok bulunan ve sıfırdan altıya kadar değerler gösteren yatay bir sayı doğrusu uzanmaktadır. Birinci çizginin üzerinde, sola doğru ok bulunan ikinci bir yatay çizgi yer almakta ve sıfırdan üçe kadar uzanmaktadır. Bu çizgi "daha küçük" olarak etiketlenmiştir. İlk iki çizginin üzerinde, sağa doğru ok bulunan üçüncü bir yatay çizgi yer almakta, ancak üçten altıya kadar uzanmakta ve "daha büyük" olarak etiketlenmiştir.
+Şekil 1
+Sayı sistemimize basamak değeri sistemi denir, çünkü bir rakamın değeri sayının içindeki konumuna bağlıdır. Şekil 2, basamak değerlerini göstermektedir . Basamak değerleri, dönemler olarak adlandırılan üçerli gruplara ayrılır. Dönemler birler, binler, milyonlar, milyarlar, trilyonlar ve benzeri şekildedir. Yazılı bir sayıda, dönemler virgüllerle ayrılır.
+
+Grafikte 5.278.194 sayısı gösterilmektedir. 5 rakamı milyonlar basamağındadır. 2 rakamı yüz binler basamağındadır. 7 rakamı on binler basamağındadır. 8 rakamı binler basamağındadır. 1 rakamı yüzler basamağındadır. 9 rakamı onlar basamağındadır. 4 rakamı birler basamağındadır.
+
+Bu şekil, basamak değeri sisteminde 5.278.194 sayısını gösteren bir tablodur. Tablo, "Basamak Değeri" başlıklı bir başlık satırıyla başlar ve bu satır, "Trilyonlar", "Milyarlar", "Milyonlar", "Binler" ve "Birler" başlıkları altında alt alta bölünmüştür. "Trilyonlar" başlığı altında, aşağıdan yukarıya doğru "Yüz trilyonlar", "On trilyonlar" ve "Trilyonlar" yazan üç sütun bulunmaktadır. "Milyarlar" başlığı altında, aşağıdan yukarıya doğru "Yüz milyarlar", "On milyarlar" ve "Milyarlar" yazan üç sütun bulunmaktadır. "Milyonlar" başlığı altında, aşağıdan yukarıya doğru "Yüz milyonlar", "On milyonlar" ve "Milyonlar" yazan üç sütun bulunmaktadır. “Binler” başlığı altında, aşağıdan yukarıya doğru “Yüz binler”, “On binler” ve “Binler” yazan üç sütun bulunmaktadır. “Birler” başlığı altında da, aşağıdan yukarıya doğru “Yüzler”, “Onlar” ve “Birler” yazan üç sütun bulunmaktadır. “Milyonlar”, “Yüz binler”, “On binler”, “Binler”, “Yüzler”, “Onlar” ve “Birler” sütunlarının altında soldan sağa doğru şu değerler yer almaktadır: 5, 2, 7, 8, 1, 9, 4. Bu, beş milyon iki yüz yetmiş dokuz bin yüz doksan dört sayısında 5 milyon, 2 yüz bin, 7 on bin, 8 bin, 1 yüz, 9 on ve 4 bir olduğu anlamına gelir.
+Şekil 2
+ÖRNEK 1
+
+63.407.218 sayısında her bir rakamın basamak değerini bulun:
+
+7
+0
+1
+6
+3
+Çözüm
+Sayıyı basamak değer tablosuna yerleştirin:
+
+Bu şekil, basamak değeri sisteminde 63.407.218 sayısını gösteren bir tablodur. Tablo, "Basamak Değeri" başlıklı bir başlık satırıyla başlar ve bu satır, "Trilyonlar", "Milyarlar", "Milyonlar", "Binler" ve "Birler" başlıkları altında alt alta bölünmüştür. "Trilyonlar" başlığı altında, aşağıdan yukarıya doğru "Yüz trilyonlar", "On trilyonlar" ve "Trilyonlar" yazan üç sütun bulunmaktadır. "Milyarlar" başlığı altında, aşağıdan yukarıya doğru "Yüz milyarlar", "On milyarlar" ve "Milyarlar" yazan üç sütun bulunmaktadır. "Milyonlar" başlığı altında, aşağıdan yukarıya doğru "Yüz milyonlar", "On milyonlar" ve "Milyonlar" yazan üç sütun bulunmaktadır. “Binler” başlığı altında, aşağıdan yukarıya doğru “Yüz binler”, “On binler” ve “Binler” yazan üç sütun bulunmaktadır. “Birler” başlığı altında, aşağıdan yukarıya doğru “Yüzler”, “Onlar” ve “Birler” yazan üç sütun bulunmaktadır. “On milyonlar”, “Milyonlar”, “Yüz binler”, “On binler”, “Binler”, “Yüzler”, “Onlar” ve “Birler” etiketli sütunların altında soldan sağa doğru şu değerler yer almaktadır: 6, 3, 4, 0, 7, 2, 1, 8. Bu, altmış üç milyon dört yüz yedi bin iki yüz on sekiz sayısında 6 on milyon, 3 milyon, 4 yüz bin, 0 on bin, 7 bin, 2 yüz, 1 on ve 8 bir olduğu anlamına gelir.
+
+a) 7 binler basamağındadır.
+b) 0 on binler basamağındadır.
+c) 1 onlar basamağındadır.
+d) 6 on milyonlar basamağındadır.
+e) 3 milyonlar basamağındadır.
+
+DENEYİN 1.1
+
+27.493.615 sayısının her basamağının basamak değerini bulun:
+
+a) 2 b) 1 c) 4 d) 7 e) 5
+
+Yanıtı göster
+DENEYİN 1.2
+
+519.711.641.328 sayısının her basamağının basamak değerini bulun:
+
+a) 9 b) 4 c) 2 d) 6 e) 7
+
+Yanıtı göster
+Çek yazarken, rakamı hem yazıyla hem de rakamlarla yazarsınız. Bir rakamı yazıyla yazmak için, her bir periyoda rakamı yazın, ardından periyodun adını sonundaki "s" harfi olmadan yazın . Soldan başlayın, periyotların en büyük değere sahip olduğu yerden. Birler periyoduna isim verilmez. Virgüller periyotları ayırır, bu nedenle rakamda virgül olan her yere, kelimelerin arasına da virgül koyun ( Şekil 3'e bakın) . 74.218.369 sayısı yetmiş dört milyon, iki yüz on sekiz bin, üç yüz altmış dokuz olarak yazılır.
+
+Bu şekilde, 74, 218 ve 369 sayıları virgülle ayrılmış şekilde bir satırda listelenmiştir. Her sayının altında kıvrımlı bir parantez bulunur; 74 sayısının altında "milyonlar", 218 sayısının altında "binler" ve 369 sayısının altında "birler" yazmaktadır. Sola doğru bakan bir ok, bu üç kelimeyi "noktalar" olarak işaretlemektedir. Bir satır aşağıda "74" sayısı, sağa doğru bakan bir ok ve ardından virgülle birlikte "Yetmiş dört milyon" yazısı yer almaktadır. Bir sonraki satırda "218" sayısı, sağa doğru bakan bir ok ve ardından virgülle birlikte "iki yüz on sekiz bin" yazısı yer almaktadır. En alt satırda ise "369" sayısı, sağa doğru bakan bir ok ve ardından "üç yüz altmış dokuz" yazısı bulunmaktadır.
+Şekil 3
+NASIL YAPILIR: Bir Tam Sayıyı Kelimelerle Adlandırmak.
+
+Soldan başlayarak her dönemdeki sayıyı ve ardından dönem adını yazın.
+Sayıların arasına virgül koyarak noktaları ayırın.
+Birler harfini belirtmeyin.
+ÖRNEK 2
+
+8.165.432.098.710 sayısını kelimelerle ifade edin.
+
+Çözüm
+Her bir dönemdeki sayıyı ve ardından dönemin adını yazın.
+
+Bu şekilde, 8, 165, 432, 098 ve 710 sayıları virgülle ayrılmış şekilde bir satırda listelenmiştir. Her sayının altında yatay bir parantez içinde "trilyonlar", 165 sayısının altında "milyarlar", 432 sayısının altında "milyonlar", 098 sayısının altında "binler" ve 710 sayısının altında "birler" yazmaktadır. Bir satır aşağıda 8 sayısı, sağa doğru bir ok ve ardından virgülle birlikte "Sekiz trilyon" yazısı bulunmaktadır. Bir sonraki satırda 165 sayısı, sağa doğru bir ok ve ardından virgülle birlikte "Yüz altmış beş milyar" yazısı bulunmaktadır. Bir sonraki satırda ise 432 sayısı, sağa doğru bir ok ve ardından virgülle birlikte "Dört yüz otuz iki milyon" yazısı bulunmaktadır. Aşağıdaki bir sonraki satırda “098” sayısı, sağa doğru bir ok ve ardından virgülle ayrılmış “Doksan sekiz bin” yazısı yer almaktadır. En alt satırda ise 710 sayısı, sağa doğru bir ok ve “Yedi yüz on” yazısı bulunmaktadır.
+
+Noktaları ayırmak için virgül koyun.
+
+Yani, 8.165.432.098.710sekiz trilyon, yüz altmış beş milyar, dört yüz otuz iki milyon, doksan sekiz bin, yedi yüz on olarak adlandırılıyor.
+
+DENEYİN 2.1
+
+Sayıyı 9.258.137.904.061kelimelerle ifade edin.
+
+Yanıtı göster
+DENEYİN 2.2
+
+Sayıyı 17.864.325.619.004kelimelerle ifade edin.
+
+Yanıtı göster
+Şimdi, sayının adındaki rakamları yazarak işlemi tersine çevireceğiz. Sayıyı rakamlarla yazmak için öncelikle noktaları gösteren ipucu kelimeleri arayacağız. Gerekli noktalar için üç boşluk çizmek ve ardından boşlukları sayılarla doldurmak, noktaları virgülle ayırmak faydalı olacaktır.
+Rakamlar Kullanarak Tam Sayı Yazma Nasıl Yapılır?
+
+Noktalama işaretlerini belirten kelimeleri belirleyin. (Unutmayın, birler basamağındaki nokta asla adlandırılmaz.)
+Her dönemde gereken basamak sayısını belirtmek için üç boşluk çizin. Dönemleri virgülle ayırın.
+Her dönemdeki sayıyı adlandırın ve rakamları doğru basamak değerine göre yerleştirin.
+ÖRNEK 3
+
+Dokuz milyar iki yüz kırk altı milyon yetmiş üç bin yüz seksen dokuz sayısını rakamlar kullanarak tam sayı olarak yazın .
+
+Çözüm
+Noktaları belirten kelimeleri belirleyin.
+İlk nokta hariç, diğer tüm noktalarda üç basamak olmalıdır. Her noktada gereken basamak sayısını belirtmek için üç boşluk çizin. Noktaları virgülle ayırın.
+Ardından her noktadaki rakamları yazın.
+
+Bir görselde iki satır metin bulunmaktadır. Üst satırlarda "dokuz milyar" ifadesi ve ardından virgül, ve "iki yüz kırk altı milyon" ifadesi ve ardından yine virgül yer almaktadır. "Milyar" ve "milyon" kelimelerinin altı çizilmiş olup, her ifadenin altında bir parantez bulunmaktadır. Alt satırlarda ise "yetmiş üç bin" ifadesi ve ardından virgül, ve "yüz seksen dokuz" ifadesi yer almaktadır. "Bin" kelimesinin altı çizilmiş olup, her ifadenin altında bir parantez bulunmaktadır.
+
+Sayı 9.246.073.189'dur.
+
+DENEYİN 3.1
+
+İki milyar dört yüz altmış altı milyon yedi yüz on dört bin elli bir sayısını rakamlar kullanarak tam sayı olarak yazın.
+
+Yanıtı göster
+DENEYİN 3.2
+
+On bir milyar dokuz yüz yirmi bir milyon sekiz yüz otuz bin yüz altı sayısını rakamlar kullanarak tam sayı olarak yazın.
+
+Yanıtı göster
+2016 yılında Kanada İstatistik Kurumu Toronto'nun nüfusunu 13.448.494 olarak tahmin etti. Toronto'nun nüfusunun yaklaşık 13,4 milyon olduğunu söyleyebiliriz. Çoğu durumda, tam değere ihtiyaç duymazsınız; yaklaşık bir sayı yeterlidir.
+
+Bir sayıyı yaklaşık olarak ifade etme işlemine yuvarlama denir . Sayılar, gereken doğruluk derecesine bağlı olarak belirli bir basamak değerine yuvarlanır. Toronto'nun nüfusunun yaklaşık 13,4 milyon olduğunu söylemek, sayıyı yüz binler basamağına yuvarladığımız anlamına gelir.
+
+ÖRNEK 4
+
+23.658 sayısını en yakın yüze yuvarlayın.
+
+Çözüm
+Bu şekil, üç sütun ve dört satırdan oluşan bir tablodur. Birinci sütun başlık sütunudur ve her adımın adını ve numarasını içerir. İkinci sütun, daha fazla yazılı talimat içerir. Üçüncü sütun, yazılı adımlar ve talimatlarla eşleşen sayıları içerir. En üst satırda, ilk hücrede şu yazmaktadır: “Adım 1. Verilen basamak değerini bir okla bulun. Soldaki tüm rakamlar değişmez.” İkinci hücrede, talimatlar şöyledir: “23.658 sayısının yüzler basamağını bulun.” Üçüncü hücrede, 23.658 sayısı ve 6 rakamına işaret eden bir ok bulunur ve bu rakam “yüzler basamağı” olarak etiketlenmiştir.Bir satır aşağıda, ilk hücredeki talimatlar şöyle diyor: “Adım 2. Verilen basamak değerinin sağındaki rakamın altını çizin.” İkinci hücredeki talimatlar ise şöyle diyor: “Yüzler basamağının sağındaki 5'in altını çizin.” Üçüncü hücrede yine 23.658 sayısı var ve aynı ok 6 rakamını göstererek yüzler basamağını işaret ediyor. Bu hücrede de 5'in altı çizilmiş.Bir satır aşağıda, ilk hücrede şu yazıyor: “3. Adım. Bu rakam 5'ten büyük veya eşit mi? Evet—verilen basamak değerindeki rakama 1 ekleyin. Hayır—verilen basamak değerindeki rakamı değiştirmeyin.” İkinci hücrede ise şu talimatlar yer alıyor: “5, 5'ten büyük veya eşit olduğundan, yüzler basamağındaki 6'ya 1 ekleyin.” Üçüncü hücrede yine 23.658 sayısı yer alıyor, 6 rakamına işaret eden bir ok ve “1 ekle” metni bulunuyor. Ayrıca 5 ve 8 rakamlarının altında, onlara işaret eden bir ok ve “0'larla değiştir” metni bulunan kıvrımlı parantezler de var.En alt satırdaki ilk hücrede şu yazıyor: “Adım 4. Verilen basamak değerinin sağındaki tüm rakamları sıfırla değiştirin. Yani, 23.700 en yakın yüze yuvarlanır.” İkinci hücrede ise şu talimat yer alıyor: “Yüzler basamağının sağındaki tüm rakamları sıfırla değiştirin.” Üçüncü hücrede ise 23.658 sayısını en yakın yüze yuvarlayarak elde ettiğimiz 23.700 sayısı bulunuyor.
+
+DENEYİN 4.1
+
+En yakın yüze yuvarlayın: 17.852.
+
+Yanıtı göster
+DENEYİN 4.2
+
+En yakın yüze yuvarlayın: 468.751.
+
+Yanıtı göster
+NASIL YAPILIR: Tam Sayıları Yuvarlama.
+
+Verilen basamak değerini bulun ve bir okla işaretleyin. Okun solundaki tüm rakamlar değişmez.
+Verilen basamak değerinin sağındaki rakamın altını çiziniz.
+Bu rakam 5'ten büyük mü yoksa 5'e eşit mi?
+Evet, 1verilen basamak değerindeki rakama ekleme yapın.
+Hayır, verilen basamak değerindeki rakamı değiştirmeyin .
+Verilen basamak değerinin sağındaki tüm rakamları sıfırla değiştirin.
+ÖRNEK 5
+
+103.978En yakın sayıya yuvarlayın :
+
+yüz
+bin
+on bin
+Çözüm
+A)
+
+103.978'de yüzler basamağını bulun.	.
+Yüzler basamağının sağındaki rakamın altını çiziniz.	.
+7, 5'ten büyük veya eşit olduğundan, 9'a 1 ekleyin. Yüzler basamağının sağındaki tüm rakamları sıfırla değiştirin.	.
+Dolayısıyla, 104.000 en yakın yüze yuvarlandığında 103.978 olur.
+B)
+
+Binler basamağını bulun ve binler basamağının sağındaki rakamın altını çizin.	.
+9, 5'ten büyük veya eşit olduğundan, 3'e 1 ekleyin. Yüzler basamağının sağındaki tüm rakamları sıfırla değiştirin.	.
+Dolayısıyla, 104.000 en yakın bine yuvarlandığında 103.978 olur.
+C)
+
+On binler basamağını bulun ve on binler basamağının sağındaki rakamın altını çizin.	\phantom{\rule{1.5em}{0ex}}.
+3, 5'ten küçük olduğu için 0'ı olduğu gibi bırakıyoruz ve sağdaki rakamları sıfırlarla değiştiriyoruz.	\phantom{\rule{1.5em}{0ex}}.
+\phantom{\rule{1.5em}{0ex}}Yani, 100.000 en yakın on bine yuvarlandığında 103.978 olur.
+DENEYİN 5.1
+
+206.981 sayısını en yakın sayıya yuvarlayın: a) yüz b) bin c) on bin
+
+Yanıtı göster
+DENEYİN 5.2
+
+784.951 sayısını en yakın sayıya yuvarlayın: a) yüz b) bin c) on bin.
+
+Yanıtı göster
+Katları Belirleyin ve Bölünebilirlik Testlerini Uygulayın
+2, 4, 6, 8, 10 ve 12 sayılarına 2'nin katları denir. 2'nin bir katı , bir sayma sayısının 2 ile çarpımı olarak yazılabilir.
+
+İki satırdan oluşan bir diyagram. Üst satırda "2, 4, 6, 8, 10, 12" yazıyor ve ardından üç nokta (...) geliyor. 2'nin altında 2 kere 1, 4'ün altında 2 kere 2, 6'nın altında 2 kere 3, 8'in altında 2 kere 4, 10'un altında 2 kere 5 ve 12'nin altında 2 kere 6 var.
+
+Benzer şekilde, 3'ün katı, bir sayma sayısının 3 ile çarpımı olur.
+
+İki satırdan oluşan bir sayı şeması. Üst satırda "3, 6, 9, 12, 15, 18" yazıyor ve ardından üç nokta (...) geliyor. 3'ün altında 3 kere 1, 6'nın altında 3 kere 2, 9'un altında 3 kere 3, 12'nin altında 3 kere 4, 15'in altında 3 kere 5 ve 18'in altında 3 kere 6 var.
+
+Bu süreci devam ettirerek herhangi bir sayının katlarını bulabiliriz.
+
+Aşağıdaki Tablo  1, ilk 12 sayma sayısının 2'den 9'a kadar olan katlarını göstermektedir.
+
+Tablo 1
+Sayma Sayısı	1	2	3	4	5	6	7	8	9	10	11	12
+2'nin Katları	2	4	6	8	10	12	14	16	18	20	22	24
+3'ün Katları	3	6	9	12	15	18	21	24	27	30	33	36
+4'ün Katları	4	8	12	16	20	24	28	32	36	40	44	48
+5'in Katları	5	10	15	20	25	30	35	40	45	50	55	60
+6'nın Katları	6	12	18	24	30	36	42	48	54	60	66	72
+7'nin Katları	7	14	21	28	35	42	49	56	63	70	77	84
+8'in Katları	8	16	24	32	40	48	56	64	72	80	88	96
+9'un Katları	9	18	27	36	45	54	63	72	81	90	99	108
+10'un Katları	10	20	30	40	50	60	70	80	90	100	110	120
+Bir Sayının Katı
+
+Bir sayı, bir sayma sayısının n ile çarpımının sonucu ise , n'nin katıdır .
+
+15'in 3'ün katı olduğunu söylemenin bir başka yolu da 15'in 3'e bölünebilir olduğunu söylemektir. Bu, 15'i 3'e böldüğümüzde bir sayma sayısı elde ettiğimiz anlamına gelir. Aslında, 3'ün katı 15\div 35'tir, dolayısıyla 15, 3'ün katıdır 5\cdot 3.
+
+Bir sayıya bölünebilir.
+
+Eğer bir m sayısı n sayısının katı ise , o zaman m sayısı n'ye bölünebilir .
+
+Tablo 1'deki 5'in katlarına bakın . Hepsinin son rakamı 5 veya 0'dır. Son rakamı 5 veya 0 olan sayılar 5'e bölünebilir. Tablo 1'de 2'den 9'a kadar olan sayıların katlarını gösteren diğer örüntüleri arayarak aşağıdaki bölünebilirlik testlerini keşfedebiliriz:
+
+Bölünebilirlik Testleri
+
+Bir sayı şunlara bölünebilir:
+
+Son rakam 0, 2, 4, 6 veya 8 ise 2.
+Rakamların toplamı 3'e bölünebiliyorsa 3.
+Son rakam 5 veya 0 ise 5.
+Hem 2'ye hem de 3'e bölünebiliyorsa 6.
+Sonu 0 ile bitiyorsa 10.
+ÖRNEK 6
+
+5625 sayısı 2'ye bölünebilir mi? 3'e? 5'e? 6'ya? 10'a?
+
+Çözüm
+5625 sayısı 2'ye bölünebilir mi?	
+Sonu 0, 2, 4, 6 veya 8 ile mi bitiyor?	5625 sayısı
+2'ye bölünemez.
+5625 sayısı 3'e bölünebilir mi?	
+Rakamların toplamı kaçtır?	5+6+2+5=18
+Toplam 3'e bölünebilir mi?	Evet. 5625, 3'e bölünebilir.
+5625 sayısı 5'e veya 10'a bölünebilir mi?	
+Son rakam kaç? 5.	5625 sayısı 5'e bölünebilir ancak 10'a bölünemez.
+5625 sayısı 6'ya bölünebilir mi?	
+Hem 2'ye hem de 3'e bölünebilir mi?	Hayır, 5625 sayısı 2'ye bölünmez, dolayısıyla 5625 sayısı 6'ya da bölünmez.
+DENEYİN 6.1
+
+4962 sayısının 2'ye, 3'e, 5'e, 6'ya ve 10'a bölünebilir olup olmadığını belirleyin.
+
+Yanıtı göster
+DENEYİN 6.2
+
+3765 sayısının 2'ye, 3'e, 5'e, 6'ya ve 10'a bölünebilir olup olmadığını belirleyin.
+
+Yanıtı göster
+Asal Çarpanlara Ayırma ve En Küçük Ortak Katları Bulma
+Matematikte, aynı fikirleri ifade etmenin genellikle birkaç yolu vardır. Şimdiye kadar, eğer m, n'nin bir katı ise , m'nin n'ye bölünebilir olduğunu söyleyebileceğimizi gördük . Örneğin, 72, 8'in bir katı olduğundan, 72'nin 8'e bölünebilir olduğunu söyleriz. 72, 9'un bir katı olduğundan, 72'nin 9'a bölünebilir olduğunu söyleriz. Bunu başka bir şekilde de ifade edebiliriz.
+
+8\cdot 9=728 ve 9'un 72'nin çarpanları olduğunu söyleriz. 8 ve 9'u 72'nin çarpanlarına ayırdığımızı söyleriz. 72'yi çarpanlarına ayırdığımızı ifade etmek için 8 ve 9'u 72'nin 72=8\cdot 9çarpanlarına ayırdığımızı belirtiriz.
+
+Resimde 8 çarpı 9 eşittir 72 denklemi gösterilmektedir. 8 çarpı 9 ifadesinin altında kıvrımlı parantez ve "çarpanlar" kelimesi, 72'nin altında ise yatay parantez ve "çarpım" kelimesi yazılıdır.
+
+72'yi çarpanlarına ayırmanın diğer yolları şunlardır 1\cdot 72,2\cdot 36,3\cdot 24,4\cdot 18,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}6\cdot 12: 72'nin birçok çarpanı vardır: 1, 2, 3, 4, 6, 8, 9, 12, 18, 36 ve 72.
+
+Faktörler
+
+Eğer ise a\cdot b=m, o zaman a ve b, m'nin çarpanlarıdır .
+
+72 gibi bazı sayıların birçok çarpanı vardır. Diğer sayıların ise sadece iki çarpanı vardır.
+
+Asal Sayı ve Bileşik Sayı
+
+Asal sayı , 1'den büyük ve yalnızca 1 ile kendisini çarpan olarak alan bir sayma sayısıdır.
+
+Bileşik sayı, asal olmayan bir sayma sayısıdır. Bileşik sayının 1 ve kendisinden başka çarpanları vardır.
+
+Şekil 4'te 2'den 19'a kadar olan sayma sayıları ve çarpanları listelenmiştir. Her birinin "asal" veya "bileşik" etiketine katılıp katılmadığınızdan emin olun!
+
+ 
+
+On bir satır ve yedi sütundan oluşan bir tablo gösterilmiştir. İlk satır başlık satırıdır ve her hücre, altındaki sütunun içeriğini etiketler. Başlık satırında, ilk üç hücre soldan sağa doğru "Sayı", "Çarpanlar" ve "Asal mı Bileşik mi?" şeklindedir. Dördüncü sütun tamamen boştur. Son üç hücre soldan sağa doğru yine "Sayı", "Çarpan" ve "Asal mı Bileşik mi?" şeklindedir. Sonraki her satırda, ilk hücre bir sayı, ikinci hücre çarpanlarını ve üçüncü hücre sayının asal mı yoksa bileşik mi olduğunu gösterir. Boş orta sütunun solundaki üç sütun, 2'den 10'a kadar olan sayılar için bu bilgiyi içerirken, boş orta sütunun sağındaki üç sütun ise 11'den 19'a kadar olan sayılar için bu bilgiyi içerir. Boş sütunun sol tarafında, başlık satırının altındaki ilk satırda, hücreler soldan sağa doğru "2", "1,2" ve "Asal" şeklindedir. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunur: “3”, “1,3” ve “Asal”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunur: “4”, “1,2,4” ve “Bileşik”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunur: “5”, “1,5” ve “Asal”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunur: “6”, “1,2,3,6” ve “Bileşik”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunur: “7”, “1,7” ve “Asal”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunur: “8”, “1,2,4,8” ve “Bileşik”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunur: “9”, “1,3,9” ve “Bileşik”. En alt satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “10”, “1,2,5,10” ve “Bileşik”. Boş sütunun sağ tarafında, başlık satırının altındaki ilk satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “11”, “1,11” ve “Asal”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “12”, “1,2,3,4,6,12” ve “Bileşik”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “13”, “1,13” ve “Asal”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “14”, “1,2,7,14” ve “Bileşik”. Sonraki satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “15”, “1,3,5,15” ve “Bileşik”. Bir sonraki satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “16”, “1,2,4,8,16” ve “Bileşik”. Bir sonraki satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “17”, “1,17” ve “Asal”. Bir sonraki satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “18”, “1,2,3,6,9,18” ve “Bileşik”. En alt satırda, hücreler soldan sağa doğru şu şekilde okunmaktadır: “19”, “1,19” ve “Asal”.
+Şekil 4
+20'den küçük asal sayılar 2 , 3, 5, 7, 11, 13, 17 ve 19'dur. Dikkat ederseniz, tek çift asal sayı 2'dir.
+
+Bileşik bir sayı, asal sayıların benzersiz bir çarpımı olarak yazılabilir . Buna sayının asal çarpanlarına ayrılması denir. Bileşik bir sayının asal çarpanlarına ayrılmasını bulmak, bu dersin ilerleyen bölümlerinde faydalı olacaktır.
+
+Asal Çarpanlara Ayırma
+
+Bir sayının asal çarpanlarına ayrılması, o sayıya eşit olan asal sayıların çarpımıdır.
+
+Bileşik bir sayının asal çarpanlarına ayrılmasını bulmak için, sayının herhangi iki çarpanını bulun ve bunları kullanarak iki dal oluşturun. Eğer bir çarpan asal ise, o dal tamamlanmıştır. O asal sayıyı daire içine alın!
+
+Çarpan asal değilse, sayının iki çarpanını bulun ve işleme devam edin. Tüm dallar sonunda asal sayıları çevrelediğinde, çarpanlara ayırma işlemi tamamlanmış olur. Bileşik sayı artık asal sayıların çarpımı olarak yazılabilir.
+
+ÖRNEK 7
+
+Faktör 48.
+Çözüm
+Bu şekil, üç sütun ve dört satırdan oluşan bir tablodur. Birinci sütun başlık sütunudur ve her adımın adını ve numarasını içerir. İkinci sütun, daha fazla yazılı talimat ve bazı matematiksel işlemler içerir. Üçüncü sütun, yazılı adımlar ve talimatlarla eşleşen matematiksel işlemlerin çoğunu içerir. En üst satırda, ilk hücrede şu yazmaktadır: “Adım 1. Verilen sayının çarpımını veren iki çarpan bulun. Bu sayıları kullanarak iki dal oluşturun.” İkinci hücre, 48 = 2 x 24 cebirsel denklemini içerir. Üçüncü hücrede, en üstte 48 bulunan bir çarpan ağacı vardır. 48'den iki dal aşağı iner ve sırasıyla 2 ve 24'te sonlanır.Bir satır aşağıda, ilk hücredeki talimatlar şöyle diyor: “Adım 2. Eğer bir çarpan asal ise, o dal tamamlanmıştır. Asal sayıyı daire içine alın.” İkinci hücredeki talimatlar ise şöyle diyor: “2 asaldır. Asal sayıyı daire içine alın.” Üçüncü hücrede, 1. adımdaki çarpan ağacı tekrarlanıyor, ancak ağacın altındaki 2 artık daire içine alınmış durumda.Bir satır aşağıda, ilk hücrede şöyle yazıyor: “Adım 3. Eğer bir çarpan asal değilse, onu iki çarpanın çarpımı olarak yazın ve işleme devam edin.” İkinci hücrede ise talimatlar şöyle diyor: “24 asal değil. Onu 2 çarpana daha ayırın.” Üçüncü hücrede, en üstte 48 ve aşağı doğru uzanan, altı çizili 2 ve 24'te sonlanan iki dal ile orijinal çarpan ağacı yer alıyor. 24'ten iki dal daha aşağı iniyor ve sırasıyla 4 ve 6'da sonlanıyor. Bir satır aşağıda, hücrenin ortasındaki talimatlar şöyle diyor: “4 ve 6 asal değil. Her birini iki çarpana ayırın.” Sağdaki hücrede, çarpan ağacı bir kez daha tekrarlanıyor. 4'ten iki dal aşağı iniyor ve 2 ve 2'de sonlanıyor. Her iki 2 de daire içine alınmış. 6'dan iki dal daha aşağı iniyor ve her ikisi de daire içine alınmış 2 ve 3'te sonlanıyor. Soldaki talimatlar şöyle diyor: “2 ve 3 asal, bu yüzden onları daire içine alın.”En alt satırda, ilk hücrede şu yazıyor: “Adım 4. Bileşik sayıyı, daire içine alınmış tüm asal sayıların çarpımı olarak yazın.” İkinci hücre boş bırakılmıştır. Üçüncü hücrede ise 48 eşittir 2 x 2 x 2 x 2 x 3 cebirsel denklemi yer almaktadır.
+
+48'in asal çarpanlarına ayrılmış halini şu şekilde ifade ederiz 2⋅2⋅2⋅2⋅3: Genellikle asal sayıları artan sırada yazarız. Cevabınızı doğrulamak için çarpanları çarpmayı unutmayın!
+
+Eğer 48'i önce farklı bir şekilde, örneğin şeklinde çarpanlarına ayırsaydık 6\cdot 8, sonuç yine aynı olurdu. Asal çarpanlara ayırma işlemini tamamlayın ve bunu kendiniz doğrulayın.
+
+DENEYİN 7.1
+
+80 sayısının asal çarpanlarına ayrılmış halini bulun.
+
+Yanıtı göster
+DENEYİN 7.2
+
+60 sayısının asal çarpanlarına ayrılmış halini bulun.
+
+Yanıtı göster
+NASIL YAPILIR: Bileşik Bir Sayının Asal Çarpanlarına Ayrılması.
+
+Verilen sayıyı çarpımıyla veren iki çarpan bulun ve bu sayıları kullanarak iki dal oluşturun.
+Bir çarpan asal sayı ise, o dal tamamlanmıştır. Asal sayıyı, ağaçtaki bir tomurcuk gibi daire içine alın.
+Bir çarpan asal değilse, onu iki çarpanın çarpımı olarak yazın ve işleme devam edin.
+Çember içine alınmış tüm asal sayıların çarpımı şeklinde bileşik sayıyı yazın.
+ÖRNEK 8
+
+252'nin asal çarpanlarına ayrılmış halini bulun.
+
+Çözüm
+Adım 1. Çarpımları 252 olan iki çarpan bulun. 12 ve 21 asal sayı değildir.
+12 ve 21'i ikişer çarpanına ayırın. Tüm asal sayılar çarpanlarına ayrılana kadar devam edin.
+
+.
+Adım 2. 252 sayısını, daire içine alınmış tüm asal sayıların çarpımı olarak yazın.	252=2⋅2⋅3⋅3⋅7
+DENEYİN 8.1
+
+126'nın asal çarpanlarına ayrılmış halini bulun.
+
+Yanıtı göster
+DENEYİN 8.2
+
+294'ün asal çarpanlarına ayrılmış halini bulun.
+
+Yanıtı göster
+Katlar ve asal sayılara bakmamızın nedenlerinden biri, bu teknikleri iki sayının en küçük ortak katını bulmak için kullanmaktır. Bu, farklı paydalara sahip kesirleri toplarken ve çıkarırken faydalı olacaktır . En küçük ortak katı bulmak için en sık kullanılan iki yöntem vardır ve her ikisine de bakacağız.
+
+İlk yöntem, Katları Listeleme Yöntemi'dir. 12 ve 18'in en küçük ortak katını bulmak için, 12 ve 18'in ilk birkaç katını listeleriz:
+
+İki satır sayı gösterilmiştir. Birinci satır 12 ile başlar, ardından iki nokta üst üste, sonra 12, 24, 36, 48, 60, 72, 84, 96, 108 ve üç nokta gelir. 36, 72 ve 108 sayıları kalın ve kırmızı renkte yazılmıştır. İkinci satır 18 ile başlar, ardından iki nokta üst üste, sonra 18, 36, 54, 72, 90, 108 ve üç nokta gelir. Yine, 36, 72 ve 108 sayıları kalın ve kırmızı renkte yazılmıştır. Alt satırda "Ortak Katlar" ifadesi, iki nokta üst üste ve 36, 72 ve 108 sayıları kırmızı renkte yazılmıştır. Bir satır aşağıda "En Küçük Ortak Kat" ifadesi, iki nokta üst üste ve 36 sayısı mavi renkte yazılmıştır.
+
+Bazı sayıların her iki listede de yer aldığına dikkat edin. Bunlar 12 ve 18'in ortak katlarıdır .
+
+12 ve 18'in ilk birkaç ortak katının 36, 72 ve 108 olduğunu görüyoruz. 36, ortak katların en küçüğü olduğu için, ona en küçük ortak kat diyoruz. Genellikle EKOK kısaltmasını kullanırız.
+
+En Küçük Ortak Kat
+
+İki sayının en küçük ortak katı (EKOK), her iki sayının da katı olan en küçük sayıdır.
+
+İşlem kutusu, yukarıda 12 ve 18 için kullandığımız asal çarpanlar yöntemini kullanarak en küçük ortak katı (EKOK) bulmak için izlenecek adımları listeler.
+
+NASIL YAPILIR: Katları Listeleyerek En Küçük Ortak Katı Bulma.
+
+Her sayının birkaç katını listeleyin.
+Her iki listede de yer alan en küçük sayıyı bulun.
+Bu sayı, en küçük ortak kattır (EKOK).
+ÖRNEK 9
+
+15 ve 20'nin en küçük ortak katını, katlarını listeleyerek bulun.
+
+Çözüm
+15'in ve 20'nin ilk birkaç katını listeleyin ve bunları kullanarak en küçük ortak katı bulun.	.
+Her iki listede de yer alan en küçük sayıyı bulun.	Her iki listede de ilk görünen sayı 60'tır, dolayısıyla 15 ve 20'nin en küçük ortak katı 60'tır.
+Dikkat ederseniz, 120 her iki listede de yer alıyor. Ortak katlarından biri, ancak en küçük ortak kat değil .
+
+DENEYİN 9.1
+
+9 ve 12'nin katlarını listeleyerek en küçük ortak katı bulun:
+
+Yanıtı göster
+DENEYİN 9.2
+
+Katlarını listeleyerek en küçük ortak katı bulun: 18 ve 24
+
+Yanıtı göster
+İki sayının en küçük ortak katını bulmanın ikinci yöntemi, Asal Çarpanlar Yöntemi'ni kullanmaktır. Bu sefer asal çarpanlarını kullanarak 12 ve 18'in en küçük ortak katını bulalım.
+
+ÖRNEK 10
+
+Asal çarpanlar yöntemini kullanarak 12 ve 18'in En Küçük Ortak Katını (EKOK) bulun.
+Çözüm
+Bu şekil, üç sütun ve dört satırdan oluşan bir tablodur. Birinci sütun başlık sütunudur ve her adımın adını ve numarasını içerir. İkinci sütun, daha fazla yazılı talimat ve bazı matematiksel işlemler içerir. Üçüncü sütun, yazılı adımlar ve talimatlarla eşleşen matematiksel işlemlerin çoğunu içerir. En üst satırda, ilk hücrede şu yazmaktadır: “Adım 1. Her sayıyı asal sayıların çarpımı olarak yazın.” İkinci hücre boş bırakılmıştır. Üçüncü hücrede iki çarpan ağacı vardır. Birinci çarpan ağacında, 18'den iki dal iner ve sırasıyla 3 ve 6'da sonlanır. 3 asal sayıdır ve bu nedenle daire içine alınmıştır. 6'dan iki dal daha iner ve 2 ve 3'te sonlanır, her ikisi de daire içine alınmıştır. İkinci çarpan ağacında, 12'den iki dal iner ve 3 ve 4'te sonlanır. 3 daire içine alınmıştır. 4'ten iki dal daha iner ve 2 ve 2'de sonlanır, her ikisi de daire içine alınmıştır.Bir satır aşağıda, ilk hücredeki talimatlar şöyle diyor: “Adım 2. Her sayının asal çarpanlarını listeleyin. Mümkün olduğunda asal sayıları dikey olarak eşleştirin.” İkinci hücredeki talimatlar ise şöyle diyor: “12’nin asal çarpanlarını listeleyin. 18’in asal çarpanlarını listeleyin. Mümkün olduğunda 12’nin asal çarpanlarıyla hizalayın. Değilse yeni bir sütun oluşturun.” Üçüncü hücre, 12’nin asal çarpanlarına ayrılmış halini 12 = 2 x 2 x 3 denklemi olarak içeriyor. Bu denklemin altında, 18’in asal çarpanlarına ayrılmış halini 18 = 2 x 3 x 3 denklemi olarak gösteren başka bir denklem var. İki denklem, eşittir sembolünde dikey olarak hizalanıyor. 12'nin asal çarpanlarına ayrılmasındaki ilk 2, 18'in asal çarpanlarına ayrılmasındaki 2 ile aynıdır. 12'nin asal çarpanlarına ayrılmasındaki ikinci 2'nin altında, 18'in asal çarpanlarına ayrılmasında bir boşluk vardır. 12'nin asal çarpanlarına ayrılmasındaki 3'ün altında, 18'in asal çarpanlarına ayrılmasındaki ilk 3 bulunur. Asal çarpanlara ayrılmadaki ikinci 3'ün üstünde, 12'nin asal çarpanlarına ayrılmasından herhangi bir çarpan yoktur.Bir satır aşağıda, ilk hücredeki talimatlar şöyle diyor: “Her sütundan sayıyı aşağı indirin.” İkinci hücre boştur. Üçüncü hücrede, daha önce olduğu gibi iki denklem şeklinde gösterilen 12 ve 18'in asal çarpanlarına ayrılmış halleri tekrar yer almaktadır. Bu sefer, 18'in asal çarpanlarına ayrılmış halinin altına yatay bir çizgi çizilmiştir. Bu çizginin altında, EKOK'un 2 x 2 x 3 x 3'e eşit olduğu denklemi bulunmaktadır. 12'nin asal çarpanlarına ayrılmış halinden 18'in asal çarpanlarına ayrılmış haline ve EKOK denklemine kadar dikey olarak oklar çizilmiştir. İlk ok, 12'nin asal çarpanlarına ayrılmış halindeki ilk 2'den başlar ve 18'in asal çarpanlarına ayrılmış halindeki 2'den geçerek EKOK'taki ilk 2'de son bulur. İkinci ok, 12'nin asal çarpanlarına ayrılmış halindeki sonraki 2'den başlar ve 18'in asal çarpanlarına ayrılmış halindeki boşluktan geçerek EKOK'taki ikinci 2'de son bulur. Üçüncü ok, 12'nin asal çarpanlarına ayrılmasındaki 3'ten başlar ve 18'in asal çarpanlarına ayrılmasındaki ilk 3'ten geçerek, en küçük ortak katın (EKOK) ilk 3'ünde son bulur. Son ok ise 18'in asal çarpanlarına ayrılmasındaki ikinci 3'ten başlar ve EKOK'un ikinci 3'üne doğru aşağıya bakar.Tablonun en alt satırında, ilk hücrede "Adım 4: Çarpanları çarpın" yazıyor. İkinci hücre bankadır. Üçüncü hücrede ise EKOK eşittir 36 denklemi yer almaktadır.
+
+Dikkat ederseniz, 12'nin asal çarpanları \left(2\cdot 2\cdot 3\right)ve 18'in asal çarpanları en küçük ortak \left(2\cdot 3\cdot 3\right)katın içinde yer almaktadır \left(2\cdot 2\cdot 3\cdot 3\right). Dolayısıyla 36, ​​12 ve 18'in en küçük ortak katıdır.
+
+Ortak asal sayıları eşleştirerek, her ortak asal çarpan yalnızca bir kez kullanılır. Bu şekilde 36'nın en küçük ortak kat olduğundan emin olabilirsiniz.
+
+DENEYİN 10.1
+
+9 ve 12 sayılarının en küçük ortak katını (EKOK) asal çarpanlar yöntemiyle bulun:
+
+Yanıtı göster
+DENEYİN 10.2
+
+Asal çarpanlar yöntemini kullanarak EKOK'u bulun: 18 ve 24
+
+Yanıtı göster
+NASIL YAPILIR: Asal Çarpanlar Yöntemiyle En Küçük Ortak Katı Bulma.
+
+Her sayıyı asal sayıların çarpımı olarak yazın.
+Her sayının asal sayılarını listeleyin. Mümkünse asal sayıları dikey olarak eşleştirin.
+Sütunları indirin.
+Çarpanları çarpın.
+ÖRNEK 11
+
+Asal çarpanlar yöntemini kullanarak 24 ve 36'nın En Küçük Ortak Katını (EKOK) bulun.
+
+Çözüm
+24 ve 36'nın asal sayılarını bulun.
+Mümkünse asal sayıları dikey olarak eşleştirin. Tüm sütunları aşağı indirin.	.
+Çarpanları çarpın.	.
+24 ve 36'nın en küçük ortak katı (EKOK) 72'dir.
+DENEYİN 11.1
+
+Asal çarpanlar yöntemini kullanarak EKOK'u bulun: 21 ve 28
+
+Yanıtı göster
+DENEYİN 11.2
+
+Asal çarpanlar yöntemini kullanarak EKOK'u bulun: 24 ve 32
+
+Yanıtı göster
+Temel Kavramlar
+Şekil 2'deki gibi basamak değeri .
+Bir tam sayıyı kelimelerle ifade edin.
+Soldan başlayarak her dönemdeki sayıyı ve ardından dönem adını yazın.
+Sayıların arasına virgül koyarak noktaları ayırın.
+Birler harfini belirtmeyin.
+Rakamları Kullanarak Tam Sayı Yazma
+Noktalama işaretlerini belirten kelimeleri belirleyin. (Birler basamağındaki noktanın asla adlandırılmadığını unutmayın.)
+Her dönemde gereken basamak sayısını belirtmek için 3 boşluk çizin. Dönemleri virgülle ayırın.
+Her dönemdeki sayıyı adlandırın ve rakamları doğru basamak değerine göre yerleştirin.
+Tam Sayıları Yuvarla
+Verilen basamak değerini bulun ve bir okla işaretleyin. Okun solundaki tüm rakamlar değişmez.
+Verilen basamak değerinin sağındaki rakamın altını çiziniz.
+Bu rakam 5'ten büyük mü yoksa 5'e eşit mi?
+Evet—verilen basamak değerindeki rakama 1 ekleyin.
+Hayır, verilen basamak değerindeki rakamı değiştirmeyin .
+Verilen basamak değerinin sağındaki tüm rakamları sıfırla değiştirin.
+Bölünebilirlik Testleri: Bir sayı aşağıdaki sayılara bölünebilir:
+Son rakam 0, 2, 4, 6 veya 8 ise 2.
+Rakamların toplamı 3'e bölünebiliyorsa 3.
+Son rakam 5 veya 0 ise 5.
+Hem 2'ye hem de 3'e bölünebiliyorsa 6.
+Sonu 0 ile bitiyorsa 10.
+Bileşik bir sayının asal çarpanlarına ayrılmasını bulun.
+Verilen sayıyı çarpımıyla veren iki çarpan bulun ve bu sayıları kullanarak iki dal oluşturun.
+Bir çarpan asal sayı ise, o dal tamamlanmıştır. Asal sayıyı, ağaçtaki bir tomurcuk gibi daire içine alın.
+Bir çarpan asal değilse, onu iki çarpanın çarpımı olarak yazın ve işleme devam edin.
+Çember içine alınmış tüm asal sayıların çarpımı şeklinde bileşik sayıyı yazın.
+Katları Listeleyerek En Küçük Ortak Katı Bulun
+Her sayının birkaç katını listeleyin.
+Her iki listede de yer alan en küçük sayıyı bulun.
+Bu sayı, en küçük ortak kattır (EKOK).
+Asal Çarpanlar Yöntemini Kullanarak En Küçük Ortak Katı Bulun
+Her sayıyı asal sayıların çarpımı olarak yazın.
+Her sayının asal sayılarını listeleyin. Mümkünse asal sayıları dikey olarak eşleştirin.
+Sütunları indirin.
+Çarpanları çarpın.
+Sözlük
+bileşik sayı
+Bileşik sayı, asal olmayan bir sayma sayısıdır. Bileşik sayının 1 ve kendisinden başka çarpanları vardır.
+sayma sayıları
+Sayma sayıları 1, 2, 3, ... sayılarıdır.
+bir sayıya bölünebilir
+Bir sayı, M'nin katı ise N, o Msayı 'ye bölünebilir N. (Eğer 6, 3'ün katı ise, 6, 3'e bölünebilir.)
+faktörler
+Eğer ise a·b=m, o zaman a\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}b, 'nin çarpanlarıdır M. 3 · 4 = 12 olduğundan, 3 ve 4, 12'nin çarpanlarıdır.
+en küçük ortak kat
+İki sayının en küçük ortak katı, her iki sayının da katı olan en küçük sayıdır.
+bir sayının katı
+Bir sayı, bir sayma sayısının n ile çarpımının sonucu ise, n'nin katıdır .
+sayı doğrusu
+Sayı doğrusu, sayıları görselleştirmek için kullanılır. Sayı doğrusundaki sayılar soldan sağa doğru büyür, sağdan sola doğru ise küçülür.
+köken
+Başlangıç ​​noktası, sayı doğrusunda 0 ile işaretlenmiş noktadır.
+asal çarpanlara ayırma
+Bir sayının asal çarpanlarına ayrılması, o sayıya eşit olan asal sayıların çarpımıdır.
+asal sayı
+Asal sayı, 1'den büyük ve yalnızca 1 ile kendisini çarpan olarak alan bir sayma sayısıdır.
+tam sayılar
+Tam sayılar 0, 1, 2, 3, … sayılarıdır.
+Pratik mükemmelliği getirir.
+Tam Sayılarla Basamak Değerini Kullanma
+Aşağıdaki alıştırmalarda, verilen sayılardaki her rakamın basamak değerini bulunuz.
+
+1. 51.493
+a) 1
+b) 4
+c) 9
+d) 5
+e) 3	2. 87.210
+a) 2
+b) 8
+c) 0
+d) 7
+e) 1
+3. 164.285
+a) 5
+b) 6
+c) 1
+d) 8
+e) 2	4. 395.076
+a) 5
+b) 3
+c) 7
+d) 0
+e) 9
+5. 93.285.170
+a) 9
+b) 8
+c) 7
+d) 5
+e) 3	6. 36.084.215
+a) 8
+b) 6
+c) 5
+d) 4
+e) 3
+7.284.915.860.132
+a) 7
+b) 4
+c) 5
+d) 3
+e) 0	8. 2.850.361.159.433
+a) 9
+b) 8
+c) 6
+d) 4
+e) 2
+Aşağıdaki alıştırmalarda, her bir sayıyı kelimelerle adlandırın.
+
+9. 1.078	10. 5.902
+11. 364.510	12. 146.023
+13. 5.846.103	14. 1.458.398
+15. 37.889.005	16. 62.008.465
+Aşağıdaki alıştırmalarda, her sayıyı rakamlar kullanarak tam sayı olarak yazın.
+
+17. dört yüz on iki	18. iki yüz elli üç
+19. otuz beş bin dokuz yüz yetmiş beş	20. altmış bir bin dört yüz on beş
+21. on bir milyon kırk dört bin yüz altmış yedi	22. on sekiz milyon, yüz iki bin, yedi yüz seksen üç
+23. üç milyar, iki yüz yirmi altı milyon, beş yüz on iki bin, on yedi	24. on bir milyar, dört yüz yetmiş bir milyon, otuz altı bin, yüz altı
+Aşağıdakileri belirtilen basamak değerine yuvarlayın.
+
+25. En yakın onluğa yuvarlayın.
+
+a) 386 b) 2.931
+
+26. En yakın onluğa yuvarlayın.
+
+a) 792 b) 5.647
+
+27. En yakın yüze yuvarlayın.
+
+a) 13.748 b) 391.794
+
+28. En yakın yüze yuvarlayın.
+
+a) 28.166 b) 481.628
+
+29. En yakın onluğa yuvarlayın.
+
+a) 1.492 b) 1.497
+
+30. En yakın onluğa yuvarlayın.
+
+a) 2.791 b) 2.795
+
+31. En yakın yüze yuvarlayın.
+
+a) 63.994 b) 63.940
+
+32. En yakın yüze yuvarlayın.
+
+a) 49.584 b) 49.548
+
+Aşağıdaki alıştırmalarda, her sayıyı en yakın a) yüzlüğe, b) bine, c) on bine yuvarlayın.
+
+33. 392.546	34. 619.348
+35. 2.586.991	36. 4.287.965
+Katları ve Çarpanları Belirleyin
+Aşağıdaki alıştırmalarda, bölünebilirlik testlerini kullanarak her sayının 2, 3, 5, 6 ve 10'a bölünebilir olup olmadığını belirleyin.
+
+37. 84	38. 9.696
+39. 75	40. 78
+41. 900	42. 800
+43. 986	44. 942
+45. 350	46. ​​550
+47. 22.335	48. 39.075
+Asal Çarpanlara Ayırma ve En Küçük Ortak Katları Bulma
+Aşağıdaki alıştırmalarda, sayıların asal çarpanlarına ayrılmış halini bulun.
+
+49. 86	50. 78
+51. 132	52. 455
+53. 693	54.400
+55. 432	56. 627
+57. 2.160	58. 2.520
+Aşağıdaki alıştırmalarda, katlar yöntemini kullanarak her bir sayı çiftinin en küçük ortak katını bulun.
+
+59. 8, 12	60. 4, 3
+61. 12, 16	62. 30, 40
+63. 20, 30	64. 44, 55
+Aşağıdaki alıştırmalarda, asal çarpanlar yöntemini kullanarak her sayı çiftinin en küçük ortak katını bulun.
+
+65. 8, 12	66. 12, 16
+67. 28, 40	68. 84, 90
+69. 55, 88	70. 60, 72
+Günlük Matematik
+71. Çek Yazma: Jorge 24.493 dolara bir araba satın aldı. Arabanın parasını çekle ödedi. Satın alma fiyatını yazıyla yazın.	72. Çek Yazma Marissa'nın mutfak tadilatı 18.549 dolara mal oldu. Müteahhide bir çek yazdı. Ödenen tutarı yazıyla belirtin.
+73. Araba Satın Alma: Jorge 24.493 dolara bir araba satın aldı. Fiyatı en yakın a) on, b) yüz, c) bin ve d) on bine yuvarlayın.	74. Mutfak Yenileme Marissa'nın mutfak yenileme maliyeti 18.549 dolardır. Maliyeti en yakın a) on b) yüz c) bin ve d) on bin'e yuvarlayın.
+75. Nüfus Çin'in nüfusu 1 Kasım 2010 tarihinde 1.339.724.852 idi. Nüfusu en yakın a) milyara, b) yüz milyona ve c) milyona yuvarlayın.	76. Astronomi Dünya ile Güneş arasındaki ortalama mesafe 149.597.888 kilometredir. Mesafeyi en yakın a) yüz milyona, b) on milyona ve c) milyona yuvarlayın.
+77. Market Alışverişi: Sosisler 10'lu paketlerde, sosis ekmekleri ise 8'li paketlerde satılıyor. Sosis ve ekmeklerin toplam sayısının eşit olması için en küçük sayı kaçtır?	78. Market alışverişinde kağıt tabaklar 12'li paketler halinde, parti bardakları ise 8'li paketler halinde satılmaktadır. Tabak ve bardak sayılarının tam olarak eşit olması için en küçük sayı kaçtır?
+Yazma Alıştırmaları
+79. Asal sayılar ve bileşik sayılar arasındaki fark nedir?	80. Sayıları yuvarlamanın faydalı olduğu günlük bir örnek verin.
+81. İstediğiniz herhangi bir yöntemi kullanarak, bileşik bir sayının asal çarpanlarına ayrılmasını kendi kelimelerinizle açıklayın.
+Cevaplar
+1. a) binler b) yüzler c) onlar d) on binler e) birler	3. a) birler b) on binler c) yüz binler d) onlar e) yüzler	5. a) on milyon b) on bin c) onlar d) binler e) milyonlar
+7. a) trilyonlar b) milyarlar c) milyonlar d) onlar e) binler	9. bin yetmiş sekiz	11. üç yüz altmış dört bin beş yüz on
+13. beş milyon sekiz yüz kırk altı bin yüz üç	15. otuz yedi milyon sekiz yüz seksen dokuz bin beş	17. 412
+19. 35.975	21. 11.044.167	23. 3.226.512.017
+25. a) 390 b) 2.930	27. a) 13.700 b) 391.800	29. a) 1.490 b) 1.500
+31. a) 64.000 b) 63.900	33. a) 392.500 b) 393.000 c) 390.000	35. a) 2.587.000 b) 2.587.000 c) 2.590.000
+37. 2, 3 ve 6'ya bölünebilen	39. 3 ve 5'e bölünebilen	41. 2, 3, 5, 6 ve 10'a bölünebilen sayılar.
+43. 2'ye bölünebilir	45. 2, 5 ve 10'a bölünebilen	47. 3 ve 5'e bölünebilen
+49.2\cdot 43	51.2⋅2⋅3⋅11	53.3⋅3⋅7⋅11
+55.2⋅2⋅2⋅2⋅3⋅3⋅3	57.2⋅2⋅2⋅2⋅3⋅3⋅3⋅5	59. 24
+61. 48	63. 60	65. 24
+67. 420	69. 440	71. yirmi dört bin dört yüz doksan üç dolar
+73. a) 24.490 $ b) 24.500 $ c) 24.000 $ d) 20.000 $	75. a) 1.000.000.000 b) 1.300.000.000 c) 1.340.000.000	77. 40
+79. Cevaplar farklılık gösterebilir.	81. Cevaplar farklılık gösterebilir.
+Atıflar
+Bu bölüm, Lynn Marecek ve MaryAnne Anthony-Smith'in " Elementary Algebra " (OpenStax) adlı eserindeki "Introduction to Whole Numbers" bölümünden uyarlanmıştır ve CC BY 4.0 Lisansı altındadır . Uyarlamayı Izabela Mazur yapmıştır. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+
+2
+1.2 Cebir Dilini Kullanma
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Değişkenler ve cebirsel semboller kullanın.
+İfadeleri ve denklemleri tanımlayın.
+Üslü ifadeleri sadeleştirin.
+İşlem önceliği kurallarını kullanarak ifadeleri basitleştirin.
+Değişkenleri ve Cebirsel Sembolleri Kullanın
+Greg ve Alex'in doğum günleri aynı, ancak farklı yıllarda doğdular. Bu yıl Greg 20yaşında, Alex ise yaşında 23, yani Alex 3Greg'ten yaşça büyük. Greg yaşındayken 12Alex yaşındaydı 15. Greg olduğunda 35Alex yaşında olacak 38. Greg'in yaşı ne olursa olsun, Alex'in yaşı her zaman yaşça fazla olacak 3, değil mi?
+
+Cebir dilinde, Greg'in yaşı ve Alex'in yaşı değişken , üç ise sabittir deriz . Yaşlar değişir veya farklılık gösterir, bu nedenle yaş bir değişkendir. 3Aralarındaki yıllar her zaman aynı kalır, bu nedenle yaş farkı sabittir.
+
+Cebirde alfabenin harfleri değişkenleri temsil etmek için kullanılır. Greg'in yaşını ile gösterelim G. O zaman Alex'in yaşını ile gösterebiliriz g+3. Aşağıdaki tabloya bakın.
+
+Greg'in yaşı	Alex'in yaşı
+12	15
+20	23
+35	38
+G	g+3
+Değişkenleri temsil etmek için harfler kullanılır. Değişkenler için sıklıkla kullanılan harfler şunlardır x,y,a,b,\text{ve}\phantom{\rule{0.2em}{0ex}}c: .
+
+Değişkenler ve Sabitler
+
+Değişken, değeri değişebilen bir sayıyı veya miktarı temsil eden bir harftir.
+
+Sabit, değeri her zaman aynı kalan bir sayıdır.
+
+Cebirsel olarak yazmak için sayılara ve değişkenlere ek olarak bazı sembollere de ihtiyacımız var. Kullanacağımız çeşitli sembol türleri vardır. 1.1 Tam Sayılar bölümünde, dört temel aritmetik işlemin sembollerini tanıtmıştık : toplama, çıkarma, çarpma ve bölme. Burada, bu işlemleri ve sonuçlarını ifade eden sözcüklerle birlikte özetleyeceğiz.
+
+Operasyon	Notasyon	Söylemek:	Sonuç şu ki…
+Ek	a+b	a\phantom{\rule{0.2em}{0ex}}\text{artı}\phantom{\rule{0.2em}{0ex}}b	toplamı AveB
+Çıkarma	ab	a\phantom{\rule{0.2em}{0ex}}\text{eksi}\phantom{\rule{0.2em}{0ex}}b	Ave arasındaki farkB
+Çarpma	a\cdot b,\left(a\right)\left(b\right),\left(a\right)b,a\left(b\right)	a\phantom{\rule{0.2em}{0ex}}\text{kez}\phantom{\rule{0.2em}{0ex}}b	Ave'nin ürünüB
+Bölüm	a\div b,a/b,\phantom{\rule{0.2em}{0ex}}\frac{a}{b},b\overline{)a}	AbölündüB	Ave'nin bölümüB
+Cebirde, çarpı işareti (×) çarpma işlemini göstermek için kullanılmaz çünkü bu işaret kafa karışıklığına neden olabilir. "(üç kere )" mi yoksa "(üç kere )" mi 3xyanlamına gelir ? Bunu netleştirmek için çarpma işleminde • veya parantez kullanın.3 \phantom{\rule{0.2em}{0ex}} \times \phantom{\rule{0.2em}{0ex}}yy3 ⋅ x ⋅ yx\phantom{\rule{0.2em}{0ex}}\text{kez}\phantom{\rule{0.2em}{0ex}}y
+
+Bu işlemleri iki sayı üzerinde gerçekleştiriyoruz. Sembolik biçimden kelimelere veya kelimelerden sembolik biçime çeviri yaparken, sayıları bulmanıza yardımcı olması için " veya" kelimelerine dikkat edin.
+
+ve'nin toplamı , artıyı eklemek anlamına gelir ve bunu şeklinde yazarız .5 3535+3
+ve arasındaki fark , eksiyi çıkarmak anlamına gelir ve bunu şeklinde yazarız . 9 2929-2
+ve'nin çarpımı , ile'nin 4 ile çarpılması 8anlamına gelir ve bunu şeklinde yazabiliriz .484\cdot 8
+ve 'nin bölümü , 'ye bölmek anlamına gelir ve bunu şeklinde yazabiliriz . 20 520520 \div 5
+ÖRNEK 1
+
+Cebirsel ifadeleri kelimelere çevirmek:
+
+\phantom{\rule{0.2em}{0ex}}12+14\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}\left(30\right)\left(5\right)\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}64 \div 8\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}xy
+Çözüm
+A.
+12+14
+12 artı 14
+on iki ile on dördün toplamı
+B.
+\left(30\right)\left(5\right)
+30 kere 5
+otuz ile beşin çarpımı
+C.
+64\div 8
+64 bölü 8
+altmış dörde sekizin bölümü
+D.
+xy
+Xeksiy
+Xve arasındaki farky
+DENEYİN 1.1
+
+Cebirsel ifadeleri kelimelere çevirmek.
+
+\phantom{\rule{0.2em}{0ex}}18+11\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}\left(27\right)\left(9\right)\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}84\div 7
+pq
+Yanıtı göster
+DENEYİN 1.2
+
+Cebirsel ifadeleri kelimelere çevirmek.
+
+\phantom{\rule{0.2em}{0ex}}47-19\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}72\div 9\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}m+n\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}\left(13\right)\left(7\right)
+Yanıtı göster
+İki niceliğin değeri aynı olduğunda, bunların eşit olduğunu söyler ve aralarına eşittir işareti koyarız .
+
+Eşitlik Sembolü
+
+a=b\phantom{\rule{0.2em}{0ex}}\text{şöyle okunur:}\phantom{\rule{0.2em}{0ex}}a\phantom{\rule{0.2em}{0ex}}\text{eşittir}\phantom{\rule{0.2em}{0ex}}b
+
+Bu sembole eşittir işareti= denir .
+
+Eşitsizlik , cebirde farklı değerlere sahip olabilecek iki niceliği karşılaştırmak için kullanılır. Sayı doğrusu, eşitsizlikleri anlamanıza yardımcı olabilir. Sayı doğrusunda sayıların soldan sağa doğru büyüdüğünü unutmayın. Dolayısıyla, ' Bnin 'den büyük olduğunu biliyorsak, bu, 'nin sayı doğrusunda 'nin sağında olduğu Aanlamına gelir . Eşitsizlikler için < ve > sembollerini kullanırız.BA
+
+Eşitsizlik
+
+A< Bokunduğunda Adaha küçüktürB
+
+ABsayı doğrusunda solundadır
+
+Şekil, solda a harfiyle başlayıp sağda b harfiyle devam eden yatay bir sayı doğrusunu göstermektedir.
+
+A> Bokunan Adeğer daha büyüktürB
+
+ABsayı doğrusunda sağındadır
+
+Şekil, solda b harfiyle başlayıp sağında a harfiyle devam eden yatay bir sayı doğrusunu göstermektedir.
+
+A< b\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}a> ifadeleri \phantom{\rule{0.2em}{0ex}}bsoldan sağa veya sağdan sola okunabilir, ancak İngilizcede genellikle soldan sağa okuruz. Genel olarak,
+
+"7, 11'den küçüktür" ifadesi "11, 7'den büyüktür" ifadesine eşdeğerdir.
+
+Eşitsizlik sembolünü altına çizgi koyarak yazdığımızda, örneğin a\le b, bu a<bveya anlamına gelir. Bunu 'den küçük veya eşit olarak a=bokuruz . Ayrıca, eşitlik işaretinin üzerinden eğik çizgi koyarsak, eşit olmadığı anlamına gelir.AB\ne
+
+Eşitlik ve eşitsizlik sembollerini aşağıdaki tabloda özetliyoruz.
+
+Cebirsel Gösterim	Söylemek
+a=b	AeşittirB
+a\ne b	Aeşit değildirB
+A<B	Adaha azdırB
+A>B	Adaha büyüktürB
+a\le b	Aküçük veya eşittirB
+yaş b	Abüyük veya eşittirB
+< ve > sembolleri
+
+< ve > sembollerinin her birinin daha küçük ve daha büyük bir kenarı vardır.
+
+küçük kenar < büyük kenar
+büyük kenar > küçük kenar
+
+Sembolün küçük yüzü küçük sayıya, büyük yüzü ise büyük sayıya bakar.
+
+ÖRNEK 2
+
+Cebirsel ifadeleri kelimelere çevirmek:
+
+\phantom{\rule{0.2em}{0ex}}20\le 35
+\phantom{\rule{0.2em}{0ex}}11\ne 15-3
+\phantom{\rule{0.2em}{0ex}}9>\phantom{\rule{0.2em}{0ex}}10\div 2
+\phantom{\rule{0.2em}{0ex}}x+2<\phantom{\rule{0.2em}{0ex}}10
+Çözüm
+A.
+20-35
+20, 35'ten küçük veya 35'e eşittir.
+B.
+11\ne 15-3
+11, 15 eksi 3'e eşit değildir.
+C.
+9>10\div 2
+9, 10'un 2'ye bölünmesinden daha büyüktür.
+D.
+x+2<10
+X+2, 10'dan küçüktür.
+DENEYİN 2.1
+
+Cebirsel ifadeleri kelimelere çevirmek.
+
+\phantom{\rule{0.2em}{0ex}}\text{14}\le 27\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}19-2\ne 8\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}12>4\phantom{\rule{0.2em}{0ex}}\div 2\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}x-7<\phantom{\rule{0.2em}{0ex}}1
+Yanıtı göster
+DENEYİN 2.2
+
+Cebirsel ifadeleri kelimelere çevirmek.
+
+\phantom{\rule{0.2em}{0ex}}19\ge 15\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}7=12-5\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}15\div 3<8\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}y-3>6\phantom{\rule{0.2em}{0ex}}
+Yanıtı göster
+ÖRNEK 3
+
+(Şekil 1)' deki bilgiler, çeşitli otomobillerin yakıt tüketimini mil başına galon (mpg) cinsinden karşılaştırmaktadır. Otomobillerin yakıt tüketimini karşılaştırmak için her ifadede uygun sembolü \text{sembol},\text{=},< > yazın.veya
+
+(Kaynak: Bernard Goldbach'ın çalışmasının değiştirilmiş hali, Wikimedia Commons)
+Bu tablo iki satır ve altı sütundan oluşmaktadır. Birinci sütun başlık sütunudur ve her satırı etiketler. Birinci satır "Araba", ikinci satır ise "Yakıt tüketimi (mpg)" olarak etiketlenmiştir. "Araba" satırının sağında şu etiketler yer almaktadır: "Prius", "Mini Cooper", "Toyota Corolla", "Versa", "Honda Fit". Bu sütunların her birinde etiketlenen araba modelinin bir resmi bulunmaktadır. "Yakıt tüketimi (mpg)" satırının sağında ise cebirsel denklemler yer almaktadır: p harfi, eşittir sembolü, kırk sekiz sayısı; m harfi, eşittir sembolü, yirmi yedi sayısı; c harfi, eşittir sembolü, yirmi sekiz sayısı; v harfi, eşittir sembolü, yirmi altı sayısı; ve f harfi, eşittir sembolü, yirmi yedi sayısı.
+Şekil 1
+Prius'un yakıt tüketimi (MPG) _____ Mini Cooper'ın yakıt tüketimi (MPG)
+Versa'nın yakıt tüketimi (MPG) _____ Fit'in yakıt tüketimi (MPG)
+Mini Cooper'ın yakıt tüketimi (MPG) _____ Fit'in yakıt tüketimi (MPG)
+Corolla'nın yakıt tüketimi (MPG) _____ Versa'nın yakıt tüketimi (MPG)
+Corolla'nın yakıt tüketimi (MPG) _____ Prius'un yakıt tüketimi (MPG)
+Çözüm
+A.	
+Prius'un yakıt tüketimi (MPG)____Mini Cooper'ın yakıt tüketimi (MPG)
+Grafikteki değerleri bulun.	48____27
+Karşılaştırmak.	48 > 27
+Prius'un yakıt tüketimi > Mini Cooper'ın yakıt tüketimi
+B.	
+Versa'nın yakıt tüketimi (MPG)____Fit'in yakıt tüketimi (MPG)
+Grafikteki değerleri bulun.	26____27
+Karşılaştırmak.	26 < 27
+Versa'nın yakıt tüketimi < Fit'in yakıt tüketimi
+C.	
+Mini Cooper'ın yakıt tüketimi (MPG)____Fit'in yakıt tüketimi (MPG)
+Grafikteki değerleri bulun.	27____27
+Karşılaştırmak.	27 = 27
+Mini Cooper'ın yakıt tüketimi = Fit'in yakıt tüketimi
+D.	
+Corolla'nın yakıt tüketimi (MPG)____Versa'nın yakıt tüketimi (MPG)
+Grafikteki değerleri bulun.	28____26
+Karşılaştırmak.	28 > 26
+Corolla'nın yakıt tüketimi > Versa'nın yakıt tüketimi
+e.	
+Corolla'nın yakıt tüketimi (MPG)____Prius'un yakıt tüketimi (MPG)
+Grafikteki değerleri bulun.	28____48
+Karşılaştırmak.	28 < 48
+Corolla'nın yakıt tüketimi < Prius'un yakıt tüketimi
+DENEYİN 3.1
+
+Şekil 1'i kullanarak uygun \text{sembol},\text{=},< veya> boşluklarını doldurun .
+
+Prius'un yakıt tüketimi (MPG) _____ Versa'nın yakıt tüketimi (MPG)
+Mini Cooper'ın yakıt tüketimi (MPG) _____ Corolla'nın yakıt tüketimi (MPG)
+Yanıtı göster
+DENEYİN 3.2
+
+Şekil 1'i kullanarak uygun \text{sembol},\text{=},< veya> boşluklarını doldurun .
+
+Fit'in yakıt tüketimi (MPG) _____ Prius'un yakıt tüketimi (MPG)
+Corolla'nın yakıt tüketimi (MPG) _____ Fit'in yakıt tüketimi (MPG)
+Yanıtı göster
+Cebirdeki gruplandırma sembolleri, yazılı dildeki virgül, iki nokta üst üste ve diğer noktalama işaretlerine çok benzer. Hangi ifadelerin birlikte tutulacağını ve hangilerinin diğer ifadelerden ayrı tutulacağını gösterirler. Aşağıdaki tabloda cebirde en sık kullanılan üç gruplandırma sembolü listelenmiştir.
+
+Ortak Gruplama Sembolleri
+parantez	\left(\phantom{\rule{0.5em}{0ex}}\right)
+parantezler	\left[\phantom{\rule{0.5em}{0ex}}\right]
+diş telleri	\left\{\phantom{\rule{0.5em}{0ex}}\right\}
+Burada gruplandırma sembolleri içeren bazı ifade örnekleri verilmiştir. Bu bölümde daha sonra bu tür ifadeleri basitleştireceğiz.
+
+8\left(14-8\right)\phantom{\rule{4em}{0ex}}21-3\left[2+4\left(9-8\right)\right]\phantom{\rule{4em}{0ex}}24\div \left\{13-2\left[1\left(6-5\right)+4\right]\right\}
+İfadeleri ve Denklemleri Tanımlama
+İngilizcede kelime öbeği ile cümle arasındaki fark nedir? Kelime öbeği, kendi başına eksik olan tek bir düşünceyi ifade ederken, cümle tam bir ifade oluşturur. "Çok hızlı koşmak" bir kelime öbeğidir, ancak "Futbolcu çok hızlı koşuyordu" bir cümledir. Bir cümlenin öznesi ve yüklemi vardır.
+
+Cebirde ifadeler ve denklemler bulunur . Bir ifade , bir kelime öbeği gibidir. İşte ifadelere ve bunların kelime öbekleriyle ilişkisine dair bazı örnekler:
+
+İfade	Kelimeler	İfade etmek
+3+5	3\phantom{\rule{0.2em}{0ex}}\text{artı}\phantom{\rule{0.2em}{0ex}}5	üç ve beşin toplamı
+n-1	Neksi bir	Nve bir arasındaki fark
+6\cdot 7	6\phantom{\rule{0.2em}{0ex}}\text{kez}\phantom{\rule{0.2em}{0ex}}7	altı ve yedinin çarpımı
+\frac{x}{y}	Xbölündüy	Xve'nin bölümüy
+Dikkat ederseniz, ifadeler tam bir cümle oluşturmaz çünkü ifadede fiil yoktur. Denklem , bir eşittir işaretiyle birbirine bağlanan iki ifadeden oluşur. Denklemde sembollerin temsil ettiği kelimeleri okuduğunuzda, İngilizce'de tam bir cümle elde edersiniz. Eşittir işareti fiili verir. İşte bazı denklem örnekleri:
+
+Denklem	Cümle
+3+5=8	Üç ile beşin toplamı sekizdir.
+n-1=14	NEksi bir, on dörde eşittir.
+6 ⋅ 7 = 42	Altı ile yedinin çarpımı kırk ikiye eşittir.
+x=53	Xelli üçe eşittir.
+y+9=2y-3	yArtı dokuz, iki eksi üçe eşittir y.
+İfadeler ve Denklemler
+
+Bir ifade, bir sayı, bir değişken veya sayıların, değişkenlerin ve işlem sembollerinin bir kombinasyonudur.
+
+Denklem, bir eşitlik işaretiyle birbirine bağlanan iki ifadeden oluşur.
+
+ÖRNEK 4
+
+Her birinin ifade mi yoksa denklem mi olduğunu belirleyin:
+
+\phantom{\rule{0.2em}{0ex}}16-6=10
+\phantom{\rule{0.2em}{0ex}}4\cdot 2+1
+\phantom{\rule{0.2em}{0ex}}x\div 25
+\phantom{\rule{0.2em}{0ex}}y+8=40
+Çözüm
+A.\phantom{\rule{0.2em}{0ex}}16-6=10	Bu bir denklemdir; iki ifade eşittir işaretiyle birbirine bağlanmıştır.
+B.\phantom{\rule{0.2em}{0ex}}4\cdot 2+1	Bu bir ifadedir, eşitlik işareti içermez.
+C.\phantom{\rule{0.2em}{0ex}}x\div 25	Bu bir ifadedir, eşitlik işareti içermez.
+D.\phantom{\rule{0.2em}{0ex}}y+8=40	Bu bir denklemdir; iki ifade eşittir işaretiyle birbirine bağlanmıştır.
+DENEYİN 4.1
+
+Her birinin ifade mi yoksa denklem mi olduğunu belirleyin:
+
+\phantom{\rule{0.2em}{0ex}}23+6=29\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}7\cdot 3-7
+Yanıtı göster
+DENEYİN 4.2
+
+Her birinin ifade mi yoksa denklem mi olduğunu belirleyin:
+
+\phantom{\rule{0.2em}{0ex}}y\div 14\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}x-6=21
+Yanıtı göster
+Üslü İfadeleri Basitleştirme
+Sayısal bir ifadeyi basitleştirmek, mümkün olan tüm matematiksel işlemleri yapmak anlamına gelir. Örneğin, basitleştirmek için önce çarparak elde 4\cdot2+1ederiz ve sonra ekleyerek elde ederiz . Geliştirilmesi gereken iyi bir alışkanlık, sayfanın aşağısına doğru ilerleyerek, işlemin her adımını bir önceki adımın altına yazmaktır. Az önce açıklanan örnek şöyle görünürdü:4\cdot2819
+
+4\cdot2+1
+8+1
+9
+Diyelim ki elimizde ifadesi var 2\cdot2\cdot2\cdot2\cdot2\cdot2\cdot2\cdot2. Bunu üslü gösterim kullanarak daha kısa bir şekilde yazabiliriz. Üslü gösterim, cebirde bir niceliğin kendisiyle birkaç kez çarpımını temsil etmek için kullanılır. ifadesini ve 2\cdot2\cdot2şeklinde yazarız . gibi ifadelerde , taban, ise üs olarak adlandırılır. Üs, tabanın kaç çarpanını çarpmamız gerektiğini gösterir.{2}^{3}2\cdot2\cdot2\cdot2\cdot2\cdot2\cdot2\cdot2{2}^{9}{2}^{3}23
+
+Görselde, iki sayısının sağında üst simge olarak üç sayısı ile birlikte iki sayısı gösterilmektedir. İki sayısı "taban", üç sayısı ise "üs" olarak etiketlenmiştir.
+
+2'nin üç katını çarpmak anlamına gelir.
+{2}^{3}Üstel gösterimde 'dir' ve 2\cdot2\cdot2genişletilmiş gösterimde 'dir' deriz .
+
+Üstel Gösterim
+
+Herhangi bir ifade için, eğer pozitif bir tamsayı ise, {a}^{n},abu ifade kendisiyle çarpılan bir çarpandır .NN
+
+{a}^{n}\text{anlamı, n adet 0.2em}{0ex}}a faktörünün çarpılmasıdır}\phantom{\rule{0.2em}{0ex}}
+Resmin en üstünde, sağında üst simge olarak n harfi bulunan a harfi yer almaktadır. a harfi "taban", n harfi ise "üs" olarak etiketlenmiştir. Bunun altında, a'nın n çarpanına eşit olan kümenin sağında üst simge olarak n harfi bulunan a harfi yer almaktadır.
+
+İfade, üslü olarak {a}^{n}okunur .A{n}^{th}
+
+n=2ve 'nin kuvvetleri için n=3özel isimlerimiz var.
+
+\begin{array}{l}{a}^{2}\phantom{\rule{0.2em}{0ex}}\text{şöyle okunur:}\phantom{\rule{0.2em}{0ex}}\text{"}a\phantom{\rule{0.2em}{0ex}}\text{karesi"}\\ {a}^{3}\phantom{\rule{0.2em}{0ex}}\text{şöyle okunur:}\phantom{\rule{0.2em}{0ex}}\text{"}a\phantom{\rule{0.2em}{0ex}}\text{küpü"}\end{array}
+Aşağıdaki tabloda üslü gösterimle yazılmış bazı ifade örnekleri verilmiştir.
+
+Üstel Gösterim	Sözlerle
+{7}^{2}	7ikinci kuvvete veya 7karesine
+{5}^{3}	5üçüncü kuvvete veya 5küpüne
+{9}^{4}	9dördüncü kuvvete
+{12}^{5}	12beşinci kuvvete
+ÖRNEK 5
+
+Her ifadeyi üslü biçimde yazın:
+
+\phantom{\rule{0.2em}{0ex}}16\cdot16\cdot16\cdot16\cdot16\cdot16\cdot16
+\phantom{\rule{0.2em}{0ex}}9\cdot9\cdot9\cdot9\cdot9
+\phantom{\rule{0.2em}{0ex}}x\cdot x\cdot x\cdot x
+\phantom{\rule{0.2em}{0ex}}a\cdot a\cdot a\cdot a\cdot a\cdot a\cdot a
+Çözüm
+a. 16 tabanı 7 kere çarpan olarak kullanılmıştır.	{16}^{7}
+b. 9 tabanı 5 kere çarpan olarak kullanılmıştır.	{9}^{5}
+c. Taban X4 katıdır.	{x}^{4}
+d. Taban, A8 katıdır.	{a}^{8}
+DENEYİN 5.1
+
+Her ifadeyi üslü biçimde yazın:
+
+41\cdot41\cdot41\cdot41\cdot41
+
+Yanıtı göster
+DENEYİN 5.2
+
+Her ifadeyi üslü biçimde yazın:
+
+7\cdot7\cdot7\cdot7\cdot7\cdot7\cdot7\cdot7
+
+Yanıtı göster
+ÖRNEK 6
+
+Her bir üslü ifadeyi açılım biçiminde yazın:
+
+\phantom{\rule{0.2em}{0ex}}{8}^{6}\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}{x}^{5}
+Çözüm
+a. Taban 8ve üs olduğundan 6, şu {8}^{6}anlama gelir:8⋅8⋅8⋅8⋅8⋅8
+
+b. Taban Xve üs olduğundan 5, şu {x}^{5}anlama gelir:x⋅x⋅x⋅x⋅x
+
+DENEYİN 6.1
+
+Her bir üslü ifadeyi açılım biçiminde yazın:
+
+\phantom{\rule{0.2em}{0ex}}{4}^{8}
+\phantom{\rule{0.2em}{0ex}}{a}^{7}
+Yanıtı göster
+DENEYİN 6.2
+
+Her bir üslü ifadeyi açılım biçiminde yazın:
+
+{\phantom{\rule{0.2em}{0ex}}8}^{8}\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}{b}^{6}
+Yanıtı göster
+Üstel bir ifadeyi hesap makinesi kullanmadan sadeleştirmek için, ifadeyi açılımlı biçimde yazıp ardından çarpanlarını çarparız.
+
+ÖRNEK 7
+
+Basitleştirin: {3}^{4}.
+
+Çözüm
+{3}^{4}
+İfadeyi genişletin.	3⋅3⋅3⋅3
+Soldan sağa doğru çarpın.	9⋅3⋅3
+27\cdot 3
+Çarpma işlemi.	81
+DENEYİN 7.1
+
+Basitleştirin:
+
+\phantom{\rule{0.2em}{0ex}}{5}^{3}\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}{1}^{7}
+Yanıtı göster
+DENEYİN 7.2
+
+Basitleştirin:
+
+\phantom{\rule{0.2em}{0ex}}{7}^{2}\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}{0}^{5}
+Yanıtı göster
+İşlem Önceliği Kurallarını Kullanarak İfadeleri Basitleştirme
+Cebirde kullanılan sembollerin ve gösterimlerin çoğunu tanıttık, ancak şimdi işlem önceliğini açıklığa kavuşturmamız gerekiyor . Aksi takdirde, ifadeler farklı anlamlara gelebilir ve farklı sonuçlar doğurabilir.
+
+Örneğin, şu ifadeyi ele alalım:
+
+4+3⋅7
+\begin{array}{cccc}\hfill \text{Bazı öğrenciler bunun 49'a sadeleştiğini söylüyor.}\hfill & \phantom{\rule{2em}{0ex}}& & \hfill \text{Bazı öğrenciler bunun 25'e sadeleştiğini söylüyor.}\hfill \\ \begin{array}{ccc}& & \hfill 4+3\cdot 7\hfill \\ \text{Çünkü}\phantom{\rule{0.2em}{0ex}}4+3\phantom{\rule{0.2em}{0ex}}\text{7 verir.}\hfill & \phantom{\rule{2em}{0ex}}& \hfill 7\cdot 7\hfill \\ \text{Ve}\phantom{\rule{0.2em}{0ex}}7\cdot 7\phantom{\rule{0.2em}{0ex}}\text{49'dur.}\hfill & \phantom{\rule{2em}{0ex}}& \hfill 49\hfill \end{array}& & & \begin{array}{ccc}& & \hfill 4+3\cdot 7\hfill \\ \phantom{\rule{0.2em}{0ex}}\text{Çünkü}\phantom{\rule{0.2em}{0ex}}3\cdot 7\phantom{\rule{0.2em}{0ex}}\text{21'dir.}\hfill & & \hfill 4+21\hfill \\ \phantom{\rule{0.2em}{0ex}}\text{Ve}\phantom{\rule{0.2em}{0ex}}21+4\phantom{\rule{0.2em}{0ex}}\text{25 yapar.}\hfill & & \hfill 25\hfill \end{array}\hfill \end{array}
+Her sorunun birden fazla farklı doğru cevabı olsaydı ortaya çıkabilecek karışıklığı hayal edin. Aynı ifade aynı sonucu vermelidir. Bu nedenle matematikçiler, bir ifadenin bölümlerinin hangi sırayla basitleştirilmesi gerektiğini belirten işlem önceliği adı verilen bazı kurallar belirlediler.
+
+İşlem Önceliği
+
+Matematiksel ifadeleri sadeleştirirken işlemleri aşağıdaki sırayla gerçekleştirin:
+
+1. Parantez ve Diğer Gruplandırma Sembolleri
+
+Parantez içindeki veya diğer gruplandırma sembollerinin içindeki tüm ifadeleri, en içteki parantezlerden başlayarak basitleştirin.
+2. Üsler​
+
+Üslü ifadelerin tümünü sadeleştirin.
+3. Çarpma ve Bölme​
+
+Çarpma ve bölme işlemlerini soldan sağa doğru sırayla gerçekleştirin. Bu işlemlerin önceliği eşittir.
+4. Toplama ve Çıkarma​
+
+Tüm toplama ve çıkarma işlemlerini soldan sağa doğru sırayla gerçekleştirin. Bu işlemlerin önceliği eşittir.
+Öğrenciler sık ​​sık, "Sırayı nasıl hatırlayacağım?" diye soruyorlar. İşte hatırlamanıza yardımcı olacak bir yöntem: Her anahtar kelimenin ilk harfini alın ve yerine komik bir ifade yazın.
+
+Lütfen sevgili teyzem Sally'yi mazur görün .​​​​​
+
+Lütfen​	Parantezler​
+Mazeret​	Üsler​
+Canım​​​	Çarpma ve Bölme​
+Teyze S. Ally​	Toplama ve Çıkarma​
+' Sevgilim ' ifadesinin birlikte kullanılması iyi bir şey , çünkü bu bize çarpma ve bölme işlemlerinin eşit önceliğe sahip olduğunu hatırlatıyor . Her zaman önce çarpma , sonra bölme veya önce bölme yapmayız. Bunları soldan sağa doğru sırayla yaparız.
+
+Benzer şekilde, ' Teyze Sally ' birlikte anılır ve bu da bize toplama ve çıkarma işlemlerinin de eşit önceliğe sahip olduğunu ve bunları soldan sağa doğru sırayla yaptığımızı hatırlatır .
+
+ÖRNEK 8
+
+İfadeleri sadeleştirin:
+
+\phantom{\rule{0.2em}{0ex}}4+3\cdot 7\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}\left(4+3\right)\cdot 7
+Çözüm
+A.	
+.
+Parantez var mı ? Hayır.	
+Üslü ifadeler var mı ? Hayır.	
+Çarpma veya bölme işlemi var mı ? Evet.	
+Önce çarpma işlemini yapın.	.
+Eklemek.	.
+.
+B.	
+.
+Parantez var mı ? Evet.	.
+Parantez içindeki ifadeyi sadeleştirin.	.
+Üslü ifadeler var mı ? Hayır.	
+Çarpma veya bölme işlemi var mı ? Evet.	
+Çarpma işlemi.	.
+DENEYİN 8.1
+
+İfadeleri sadeleştirin:
+
+\phantom{\rule{0.2em}{0ex}}12-5\cdot 2\phantom{\rule{0.4em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}\left(12-5\right)\cdot 2
+Yanıtı göster
+DENEYİN 8.2
+
+İfadeleri sadeleştirin:
+
+\phantom{\rule{0.2em}{0ex}}8+3\cdot 9\phantom{\rule{0.4em}{0ex}}
+\left(8+3\right)\cdot 9
+Yanıtı göster
+ÖRNEK 9
+
+Basitleştirin:
+
+\phantom{\rule{0.2em}{0ex}}\text{18}\div \text{9}\cdot \text{2}\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}\text{18}\cdot \text{9}\div \text{2}
+Çözüm
+A.	
+.
+Parantez var mı ? Hayır.	
+Üslü ifadeler var mı ? Hayır.	
+Çarpma veya bölme işlemi var mı ? Evet.	
+Soldan sağa doğru çarpma ve bölme işlemlerini yapın. Bölme işlemini gerçekleştirin.	.
+Çarpma işlemi.	.
+B.	
+.
+Parantez var mı ? Hayır.	
+Üslü ifadeler var mı ? Hayır.	
+Çarpma veya bölme işlemi var mı ? Evet.	
+Çarpma ve bölme işlemlerini soldan sağa doğru yapın.	
+Çarpma işlemi.	.
+Bölmek.	.
+DENEYİN 9.1
+
+Basitleştirin:
+
+42\div 7\cdot 3
+
+Yanıtı göster
+DENEYİN 9.2
+
+Basitleştirin:
+
+12\cdot 3\div 4
+
+Yanıtı göster
+ÖRNEK 10
+
+Basitleştirin: 18\div 6+4\left(5-2\right).
+
+Çözüm
+.
+Parantezler mi? Evet, önce çıkarma işlemini yapın.	.
+Üslü sayılar mı? Hayır.	
+Çarpma mı, bölme mi? Evet.	
+Önce bölme işlemini yapın çünkü çarpma ve bölme işlemlerini soldan sağa yaparız.	.
+Başka çarpma veya bölme işlemi var mı? Evet.	
+Çarpma işlemi.	.
+Başka çarpma veya bölme işlemi var mı? Hayır.	
+Herhangi bir ekleme veya çıkarma işlemi var mı? Evet.	.
+DENEYİN 10.1
+
+Basitleştirin:
+
+30\div 5+10\left(3-2\right)
+
+Yanıtı göster
+DENEYİN 10.2
+
+Basitleştirin:
+
+70\div 10+4\left(6-2\right)
+
+Yanıtı göster
+Birden fazla gruplandırma sembolü olduğunda, önce en içteki parantezleri sadeleştirir ve dışa doğru ilerleriz.
+
+ÖRNEK 11
+
+\text{Basitleştirin:}\phantom{\rule{0.2em}{0ex}}5+{2}^{3}+3\left[6-3\left(4-2\right)\right].
+
+Çözüm
+.
+Parantez (veya başka bir gruplandırma sembolü) var mı? Evet.	
+Köşeli parantezlerin içindeki parantezlere odaklanın.	.
+Çıkarma işlemi.	.
+Parantez içindeki işlemleri devam ettirin ve çarpın.	.
+Parantez içindeki işlemleri yapmaya devam edin ve çıkarın.	.
+Parantez içindeki ifade daha fazla basitleştirme gerektirmez.	
+Üslü sayılar var mı? Evet.	
+Üslü ifadeleri sadeleştirin.	.
+Çarpma veya bölme işlemi var mı? Evet.	
+Çarpma işlemi.	.
+Toplama veya çıkarma işlemi var mı? Evet.	
+Eklemek.	.
+Eklemek.	.
+.
+DENEYİN 11.1
+
+Basitleştirin:
+
+9+{5}^{3}-\left[4\left(9+3\right)\right]
+
+Yanıtı göster
+DENEYİN 11.2
+
+Basitleştirin:
+
+{7}^{2}-2\left[4\left(5+1\right)\right]
+
+Yanıtı göster
+ÖRNEK 12
+
+Basitleştirin: {2}^{3}+{3}^{4}\div 3-{5}^{2}.
+
+Çözüm
+.
+Bir ifadede birden fazla üs varsa, bunlar aynı adımda sadeleştirilebilir.	
+Üslü ifadeleri sadeleştirin.	.
+Bölmek.	.
+Eklemek.	.
+Çıkarma işlemi.	.
+.
+DENEYİN 12.1
+
+Basitleştirin:
+
+{3}^{2}+{2}^{4}\div 2+{4}^{3}
+
+Yanıtı göster
+DENEYİN 12.2
+
+Basitleştirin:
+
+{6}^{2}-{5}^{3}\div 5+{8}^{2}
+
+Yanıtı göster
+EK ÇEVRİMİÇİ KAYNAKLARA ERİŞİN
+
+İşlem Önceliği
+İşlem Önceliği – Temel Bilgiler
+Örnek: İşlem Önceliği Kurallarını Kullanarak Bir İfadeyi Değerlendirme
+Örnek 3: İşlem Önceliği Kurallarını Kullanarak Bir İfadeyi Değerlendirme
+Temel Kavramlar
+Operasyon	Notasyon	Söylemek:	Sonuç şu ki…
+Ek	a+b	a\phantom{\rule{0.2em}{0ex}}\text{artı}\phantom{\rule{0.2em}{0ex}}b	toplamı AveB
+Çarpma	a\cdot b,\left(a\right)\left(b\right),\left(a\right)b,a\left(b\right)	a\phantom{\rule{0.2em}{0ex}}\text{kez}\phantom{\rule{0.2em}{0ex}}b	Ave'nin ürünüB
+Çıkarma	ab	a\phantom{\rule{0.2em}{0ex}}\text{eksi}\phantom{\rule{0.2em}{0ex}}b	Ave arasındaki farkB
+Bölüm	a\div b,a/b,\phantom{\rule{0.2em}{0ex}}\frac{a}{b},b\overline{)a}	AbölündüB	Ave'nin bölümüB
+Eşitlik Sembolü
+a=bA"eşittir" olarak okunur.B
+Bu sembole =eşittir işareti denir.
+Eşitsizlik
+A< Bokunduğunda Adaha küçüktürB
+ABsayı doğrusunda solundadır
+...
+A> Bokunan Adeğer daha büyüktürB
+ABsayı doğrusunda sağındadır
+...
+Cebirsel Gösterim	Söylemek
+a=b	AeşittirB
+a\ne b	Aeşit değildirB
+A<B	Adaha azdırB
+A>B	Adaha büyüktürB
+a\le b	Aküçük veya eşittirB
+yaş b	Abüyük veya eşittirB
+Üstel Gösterim
+Herhangi bir ifade, eğer pozitif bir tamsayı ise , {a}^{n}kendisiyle çarpılan bir çarpandır .NN
+{a}^{n}Nçarpanları çarpmak anlamına gelirA
+...
+İfade, üslü olarak {a}^{n}okunur .An.
+İşlem Önceliği Matematiksel ifadeleri sadeleştirirken işlemleri aşağıdaki sırayla gerçekleştirin:
+
+Parantezler ve Diğer Gruplama Sembolleri: Parantezlerin veya diğer gruplama sembollerinin içindeki tüm ifadeleri, en içteki parantezlerden başlayarak basitleştirin.
+Üslü ifadeler: Üslü ifadeler içeren tüm ifadeleri sadeleştirin.
+Çarpma ve Bölme: Tüm çarpma ve bölme işlemlerini soldan sağa doğru sırayla gerçekleştirin. Bu işlemlerin önceliği eşittir.
+Toplama ve Çıkarma: Tüm toplama ve çıkarma işlemlerini soldan sağa doğru sırayla gerçekleştirin. Bu işlemlerin önceliği eşittir.
+Sözlük
+ifadeler
+Bir ifade, bir sayı, bir değişken veya sayıların, değişkenlerin ve işlem sembollerinin bir kombinasyonudur.
+denklem
+Denklem, bir eşitlik işaretiyle birbirine bağlanan iki ifadeden oluşur.
+Pratik mükemmelliği getirir.
+Değişkenleri ve Cebirsel Sembolleri Kullanın
+Aşağıdaki alıştırmalarda, cebirsel gösterimden kelimelere çeviri yapın.
+
+1.16-9	2.25-7
+3.5 \cdot 6	4.3 \cdot 9
+5.28 \div 4	6.45 \div 5
+7.x+8	8.x+11
+9.\left(2\right)\left(7\right)	10.\left(4\right)\left(8\right)
+11. 14<21	12. 17<35
+13.36\ge 19	14.42\ge 27
+15.3n=24	16.6n=36
+17. y-1>6	18. y-4>8
+19.2\le 18 \div 6	20.3 ≤ 20 − 4
+21.a\ne 7\cdot 4	22.a\ne 1\cdot 12
+İfadeleri ve Denklemleri Tanımlama
+Aşağıdaki alıştırmalarda, her birinin bir ifade mi yoksa bir denklem mi olduğunu belirleyin.
+
+23.9\cdot 6=54	24.7\cdot 9=63
+25.5⋅4+3	26.6\cdot 3+5
+27.x+7	28.x+9
+29.y-5=25	30.y-8=32
+Üslü İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda, ifadeleri üslü biçimde yazınız.
+
+31.3⋅3⋅3⋅3⋅3⋅3⋅3	32.4⋅4⋅4⋅4⋅4⋅4
+33.x⋅x⋅x⋅x⋅x	34.y⋅y⋅y⋅y⋅y⋅y
+Aşağıdaki alıştırmalarda, genişletilmiş biçimde yazınız.
+
+35.{5}^{3}	36.{8}^{3}
+37.{2}^{8}	38.{10}^{5}
+İşlem Önceliği Kurallarını Kullanarak İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+39.
+A.\phantom{\rule{0.2em}{0ex}}3+8\cdot 5\phantom{\rule{0.2em}{0ex}}\phantom{\rule{0.4em}{0ex}}
+
+B.\phantom{\rule{0.2em}{0ex}}\text{(3+8)}\cdot \text{5}
+
+40.
+A.\phantom{\rule{0.2em}{0ex}}2+6\cdot 3\phantom{\rule{0.2em}{0ex}}\phantom{\rule{0.4em}{0ex}}
+
+B.\phantom{\rule{0.2em}{0ex}}\text{(2+6)}\cdot \text{3}
+
+41.{2}^{3}-12 \div \left(9-5\right)	42.{3}^{2}-18\div \left(11-5\right)
+43.3⋅8 + 5⋅2	44.4⋅7 + 3⋅5
+45.2+8\left(6+1\right)	46.4+6\left(3+6\right)
+47.4\cdot 12/8	48.2\cdot 36/6
+49.6+10/2+2	50.9+12/3+4
+51.\left(6+10\right)\div \left(2+2\right)	52.\left(9+12\right)\div \left(3+4\right)
+53.20\div 4+6\cdot5	54.33\div 3+8\cdot2
+55.20\div \left(4+6\right)\cdot 5	56.33\div \left(3+8\right)\cdot 2
+57.{4}^{2}+{5}^{2}	58.{3}^{2}+{7}^{2}
+59.{\left(4+5\right)}^{2}	60.{\left(3+7\right)}^{2}
+61.3\left(1+9\cdot 6\right)-{4}^{2}	62.5\left(2+8\cdot 4\right)-{7}^{2}
+63.2\left[1+3\left(10-2\right)\right]	64.5\left[2+4\left(3-2\right)\right]
+Günlük Matematik
+65. Basketbol 2014 NBA playofflarında San Antonio Spurs, Miami Heat'i yendi. Aşağıdaki tabloda her takımın ilk beş oyuncusunun boyları gösterilmektedir. Bu tabloyu kullanarak uygun sembolü ( = ,< , > ) doldurun.
+
+Tottenham	Yükseklik		Sıcaklık	Yükseklik
+Tim Duncan	83		Rashard Lewis	82
+Boris Diaw	80	LeBron James	80
+Kawhi Leonard	79	Chris Bosh	83
+Tony Parker	74	Dwyane Wade	76
+Danny Green	78	Ray Allen	77
+Tim Duncan'ın boyu____Rashard Lewis'in boyu
+Boris Diaw'ın boyu____LeBron James'in boyu
+Kawhi Leonard'ın boyu____Chris Bosh'un boyu
+Tony Parker'ın boyu____Dwyane Wade'in boyu
+Danny Green'in boyu____Ray Allen'ın boyu
+66. Rakım Colorado'da 1000 metreden yüksek 50dağ bulunmaktadır 14.000 fit.. Tabloda en yüksek on dağ gösterilmektedir. Uygun eşitsizlik sembolünü doldurmak için bu tabloyu kullanın.
+
+Dağ	Yükseklik
+Elbert Dağı	14.433
+Massive Dağı	14.421
+Harvard Dağı	14.420
+Blanca Zirvesi	14.345
+La Plata Zirvesi	14.336
+Uncompahgre Zirvesi	14.309
+Crestone Zirvesi	14.294
+Lincoln Dağı	14.286
+Grays Zirvesi	14.270
+Antero Dağı	14.269
+La Plata Zirvesi'nin Rakımı____Antero Dağı'nın Rakımı
+Blanca Zirvesi'nin Rakımı____Elbert Dağı'nın Rakımı
+Gray's Peak'in Rakımı____Lincoln Dağı'nın Rakımı
+Massive Dağı'nın Rakımı____Crestone Zirvesi'nin Rakımı
+Harvard Dağı'nın Rakımı____Uncompahgre Zirvesi'nin Rakımı
+Yazma Alıştırmaları
+67. Bir ifade ile bir denklem arasındaki farkı açıklayınız.	68. Bir ifadeyi basitleştirmek için işlem önceliği kurallarını kullanmak neden önemlidir?
+Cevaplar
+1. 16 eksi 9, on altı ile dokuzun farkı	3. 5 kere 6, yani beş ile altının çarpımı	5. 28 bölü 4, yirmi sekizin dördle bölümünün sonucu.
+7. x artı 8, x ve sekizin toplamı	9. 2 kere 7, yani iki ile yedinin çarpımı	11. On dört, yirmi birden küçüktür.
+13. Otuz altı, on dokuzdan büyük veya ona eşittir.	15. 3 kere n eşittir 24, üç ile n'nin çarpımı eşittir yirmi dört	17. y eksi 1, 6'dan büyüktür; y ile 1 arasındaki fark, 6'dan büyüktür.
+19. 2, 18'in 6'ya bölünmesinden küçük veya ona eşittir; 2, 18 ve 6'nın bölümünden küçük veya ona eşittir.	21. a, 7 ile 4'ün çarpımına eşit değildir; a , yedi ile dördün çarpımına eşit değildir.	23. denklem
+25. ifade	27. ifade	29. denklem
+31. 3 7	33 . x 5	35. 125
+37. 256	39.
+a. 43
+
+b. 55
+
+41. 5
+43. 34	45. 58	47. 6
+49. 13	51. 4	53. 35
+55. 10	57. 41	59. 81
+61. 149	63. 50	65. a. > b. =c. < d. < e. >
+67. Cevap değişebilir.		
+Atıflar
+Bu bölüm, Lynn Marecek, MaryAnne Anthony-Smith ve Andrea Honeycutt Mathis'in yazdığı ve CC BY 4.0 Lisansı altında yayınlanan " Prealgebra " (OpenStax) kitabındaki "Cebir Dilini Kullanma" bölümünden uyarlanmıştır . Uyarlamayı Izabela Mazur yapmıştır. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+3
+1.3 İfadeleri Değerlendirme, Basitleştirme ve Çevirme
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Cebirsel ifadeleri değerlendirin.
+Terimleri, katsayıları ve benzer terimleri belirleyin.
+Benzer terimleri birleştirerek ifadeleri basitleştirin.
+Söz öbeklerini cebirsel ifadelere çevirin
+Cebirsel İfadeleri Değerlendirin
+Son bölümde, işlem önceliğini kullanarak ifadeleri basitleştirdik. Bu bölümde ise, yine işlem önceliğini takip ederek ifadeleri değerlendireceğiz.
+
+Bir cebirsel ifadeyi değerlendirmek, değişkenin belirli bir sayıyla değiştirilmesi durumunda ifadenin değerini bulmak anlamına gelir . Bir ifadeyi değerlendirmek için , verilen sayıyı ifadedeki değişkenin yerine koyarız ve ardından işlem önceliği kurallarını kullanarak ifadeyi sadeleştiririz.
+
+ÖRNEK 1
+
+x+7Ne zaman değerlendirin ?
+
+ \phantom{\rule{0.2em}{0ex}}x=3
+ \phantom{\rule{0.2em}{0ex}}x=12
+Çözüm
+a. Değerlendirmek için, ifadede yerine koyun ve ardından sadeleştirin 3.X
+
+.
+Yerine geçmek.	.
+Eklemek.	.
+Bu durumda x=3, ifadenin x+7değeri olur 10.
+
+b. Değerlendirmek için, ifadede yerine koyun ve ardından sadeleştirin 12.X
+
+.
+Yerine geçmek.	.
+Eklemek.	.
+Bu durumda x=12, ifadenin x+7değeri olur 19.
+
+Aynı ifadeyle başlamamıza rağmen a) ve b) şıkları için farklı sonuçlar aldığımıza dikkat edin. Bunun nedeni, kullanılan değerlerin Xfarklı olmasıdır. Bir ifadeyi değerlendirdiğimizde, değer, değişken için kullanılan değere bağlı olarak değişir.
+
+DENEYİN 1.1
+
+Değerlendirmek:
+
+y+4\phantom{\rule{0.2em}{0ex}}\text{ne zaman}\phantom{\rule{0.2em}{0ex}}
+
+ \phantom{\rule{0.2em}{0ex}}y=6\phantom{\rule{0.2em}{0ex}}\phantom{\rule{0.2em}{0ex}}
+ \phantom{\rule{0.2em}{0ex}}y=15
+Yanıtı göster
+DENEYİN 1.2
+
+Değerlendirmek:
+
+a-5\phantom{\rule{0.2em}{0ex}}\text{ne zaman}\phantom{\rule{0.2em}{0ex}}
+
+ \phantom{\rule{0.2em}{0ex}}a=9\phantom{\rule{0.2em}{0ex}}\phantom{\rule{0.2em}{0ex}}
+ \phantom{\rule{0.2em}{0ex}}a=17
+Yanıtı göster
+ÖRNEK 2
+
+Değerlendirmek9x-2,\text{when}\phantom{\rule{0.2em}{0ex}}
+
+ \phantom{\rule{0.2em}{0ex}}x=5\phantom{\rule{0.2em}{0ex}}\phantom{\rule{0.2em}{0ex}}
+ \phantom{\rule{0.2em}{0ex}}x=1
+Çözüm
+Hatırlamak , zamanlar abanlamına gelir , yani zamanlar anlamına gelir .AB9x9X
+
+a. İfadeyi değerlendirmek için x=5, yerine koyarız 5ve Xsonra sadeleştiririz.
+
+.
+.	.
+Çarpma işlemi.	.
+Çıkarma işlemi.	.
+b. İfadeyi değerlendirmek için x=1, yerine koyarız 1ve Xsonra sadeleştiririz.
+
+.
+.	.
+Çarpma işlemi.	.
+Çıkarma işlemi.	.
+Dikkat edin, a) kısmında yazdık 9\cdot 5ve b) kısmında yazdık 9\left(1\right). Hem nokta hem de parantezler bize çarpma işlemi yapmamız gerektiğini söylüyor.
+
+DENEYİN 2.1
+
+Değerlendirmek:
+
+8x-3,\text{ne zaman}\phantom{\rule{0.2em}{0ex}}
+
+\phantom{\rule{0.2em}{0ex}}x=2\phantom{\rule{0.2em}{0ex}}\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}x=1
+Yanıtı göster
+DENEYİN 2.2
+
+Değerlendirmek:
+
+4y-4,\text{ne zaman}\phantom{\rule{0.2em}{0ex}}
+
+\phantom{\rule{0.2em}{0ex}}y=3\phantom{\rule{0.2em}{0ex}}\phantom{\rule{0.2em}{0ex}}
+\phantom{\rule{0.2em}{0ex}}y=5
+Yanıtı göster
+ÖRNEK 3
+
+x²Ne zaman değerlendirme yapılır x=10?
+
+Çözüm
+10yerine koyup X, ifadeyi sadeleştiriyoruz.
+
+.
+.	.
+Üslü ifadenin tanımını kullanın.	.
+Çarpma işlemi.	.
+Bu durumda x=10, ifadenin x²değeri olur 100.
+
+DENEYİN 3.1
+
+Değerlendirmek:
+
+{x}^{2}\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}x=8.
+
+Yanıtı göster
+DENEYİN 3.2
+
+Değerlendirmek:
+
+{x}^{3}\phantom{\rule{0.2em}{0ex}}\text{x=6 olduğunda}\phantom{\rule{0.2em}{0ex}}.
+
+Yanıtı göster
+ÖRNEK 4
+
+\text{Evaluate}\phantom{\rule{0.2em}{0ex}}{2}^{x}\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}x=5.
+
+Çözüm
+Bu ifadede değişken bir üslü ifadedir.
+
+.
+.	.
+Üslü ifadenin tanımını kullanın.	.
+Çarpma işlemi.	.
+Bu durumda x=5, ifadenin {2}^{x}değeri olur 32.
+
+DENEYİN 4.1
+
+Değerlendirmek:
+
+{2}^{x}\phantom{\rule{0.2em}{0ex}}\text{x=6 olduğunda}\phantom{\rule{0.2em}{0ex}}.
+
+Yanıtı göster
+DENEYİN 4.2
+
+Değerlendirmek:
+
+{3}^{x}\phantom{\rule{0.2em}{0ex}}\text{x=4 olduğunda}\phantom{\rule{0.2em}{0ex}}.
+
+Yanıtı göster
+ÖRNEK 5
+
+\text{3x+4y-6\phantom{\rule{0.2em}{0ex}}x=10\phantom{\rule{0.2em}{0ex}}ve}\phantom{\rule{0.2em}{0ex}}y=2 olduğunda}\phantom{\rule{0.2em}{0ex}}değerlendirin.
+
+Çözüm
+Bu ifade iki değişken içerdiğinden, iki kez yerine koyma işlemi yapmalıyız.
+
+.
+.	.
+Çarpma işlemi.	.
+Soldan sağa doğru toplama ve çıkarma işlemleri yapın.	.
+x=10ve olduğunda y=2, ifadenin 3x+4y-6değeri olur 32.
+
+DENEYİN 5.1
+
+Değerlendirmek:
+
+2x+5y-4\phantom{\rule{0.2em}{0ex}}x=11\phantom{\rule{0.2em}{0ex}}ve}\phantom{\rule{0.2em}{0ex}}y=3 olduğunda
+
+Yanıtı göster
+DENEYİN 5.2
+
+Değerlendirmek:
+
+5x-2y-9\phantom{\rule{0.2em}{0ex}}\text{x=7\phantom{\rule{0.2em}{0ex}}ve}\phantom{\rule{0.2em}{0ex}}y=8 olduğunda
+
+Yanıtı göster
+ÖRNEK 6
+
+\text{Evaluate}\phantom{\rule{0.2em}{0ex}}2{x}^{2}+3x+8\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}x=4.
+
+Çözüm
+Bir ifadede üslü bir değişken olduğunda dikkatli olmalıyız. Bu ifadede, 2x²anlamına gelir 2\cdot x\cdot xve ifadesinden farklıdır {\left(2x\right)}^{2}; ise anlamına gelir 2x⋅2x.
+
+.
+.	.
+Basitleştirin {4}^{2}.	.
+Çarpma işlemi.	.
+Eklemek.	.
+DENEYİN 6.1
+
+Değerlendirmek:
+
+3{x}^{2}+4x+1\phantom{\rule{0.2em}{0ex}}\text{x=3 olduğunda}\phantom{\rule{0.2em}{0ex}}.
+
+Yanıtı göster
+DENEYİN 6.2
+
+Değerlendirmek:
+
+6{x}^{2}-4x-7\phantom{\rule{0.2em}{0ex}}\text{x=2 olduğunda}\phantom{\rule{0.2em}{0ex}}.
+
+Yanıtı göster
+Terimleri, Katsayıları ve Benzer Terimleri Belirleyin
+Cebirsel ifadeler terimlerden oluşur . Bir terim, bir sabit veya bir sabit ile bir veya daha fazla değişkenin çarpımıdır. Terimlere bazı örnekler şunlardır 7,y,5{x}^{2},9a,\text{ve}\phantom{\rule{0.2em}{0ex}}13xy: .
+
+Bir terimdeki değişken(ler)i çarpan sabite katsayı denir. Katsayıyı değişkenin önündeki sayı olarak düşünebiliriz . Terimin katsayısı ' 3xdir 3. yazdığımızda X, katsayı olur 1, çünkü x=1\cdot x. Aşağıdaki tablo, sol sütundaki her bir terim için katsayıları vermektedir.
+
+Terim	Katsayı
+7	7
+9a	9
+y	1
+5x²	5
+Bir cebirsel ifade, bir veya daha fazla terimin toplanması veya çıkarılmasıyla oluşabilir. Bu bölümde, yalnızca toplanan terimlerle çalışacağız. Aşağıdaki tablo, çeşitli sayıda terime sahip bazı cebirsel ifadeler örnekleri vermektedir. Bir terimin önüne işlemi eklediğimize dikkat edin.
+
+İfade	Şartlar
+7	7
+y	y
+x+7	x,7
+2x+7y+4	2x,7y,4
+3x² + 4x² + 5y + 3	3x², 4x², 5y, 3
+ÖRNEK 7
+
+İfadedeki her terimi belirleyin 9b+15{x}^{2}+a+6. Ardından her terimin katsayısını belirleyin.
+
+Çözüm
+İfade dört terimden oluşmaktadır. Bunlar 9b,15{x}^{2},a, ve ' dir 6.
+
+katsayısı ' 9bdir 9.
+
+katsayısı ' 15{x}^{2}dir 15.
+
+Unutmayın ki, bir değişkenin önüne sayı yazılmazsa, katsayı olur 1. Dolayısıyla, 'nin katsayısı Aolur 1.
+
+Bir sabitin katsayısı da sabittir, dolayısıyla katsayısı 6olur 6.
+
+DENEYİN 7.1
+
+Verilen ifadede geçen tüm terimleri ve katsayılarını belirleyin:
+
+4x+3b+2
+
+Yanıtı göster
+DENEYİN 7.2
+
+Verilen ifadede geçen tüm terimleri ve katsayılarını belirleyin:
+
+9a+13{a}^{2}+{a}^{3}
+
+Yanıtı göster
+Bazı terimler ortak özellikler taşır. Aşağıdaki terimlere bakın. Hangilerinin ortak özellikleri var gibi görünüyor?
+
+5x,7,{n}^{2},4,3x,9{n}^{2}
+
+Bu terimlerden hangileri benzer terimlerdir?
+
+7ve terimleri 4her ikisi de sabit terimlerdir.
+5x" Ve " terimleri , 3xher ikisi de "ile" ile başlayan terimlerdir X.
+Şartlar {n}^{2}ve 9n²her ikisi de geçerlidir {n}^{2}.
+Aynı değişkenlere ve üslere sahip terimlere benzer terimler denir. Tüm sabit terimler de benzer terimlerdir. Dolayısıyla terimler arasında 5x,7,{n}^{2},4,3x,9{n}^{2},
+
+7\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}4\phantom{\rule{0.2em}{0ex}}\text{benzer terimlerdir.}
+5x\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}3x\phantom{\rule{0.2em}{0ex}}\text{benzer terimlerdir.}
+{n}^{2}\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}9{n}^{2}\phantom{\rule{0.2em}{0ex}}\text{benzer terimlerdir.}
+Benzer Şartlar
+
+Sabit olan veya aynı değişkenlere ve aynı üslere sahip terimler, benzer terimlerdir.
+
+ÖRNEK 8
+
+Benzer terimleri belirleyin:
+
+\phantom{\rule{0.2em}{0ex}}{y}^{3},7{x}^{2},14,23,4{y}^{3},9x,5{x}^{2}
+\phantom{\rule{0.2em}{0ex}}4{x}^{2}+2x+5{x}^{2}+6x+40x+8xy
+Çözüm
+A.\phantom{\rule{0.2em}{0ex}}{y}^{3},7{x}^{2},14,23,4{y}^{3},9x,5{x}^{2}
+
+Değişkenlere ve üslere bakın. İfade {y}^{3},{x}^{2},x, ve sabitler içeriyor.
+
+{y}^{3}" Ve " terimleri , 4{y}^{3}her ikisinde de "..." bulunması nedeniyle benzer terimlerdir {y}^{3}.
+
+7x²" Ve " terimleri , 5x²her ikisinde de "..." bulunması nedeniyle benzer terimlerdir x².
+
+14ve terimleri , 23her ikisi de sabit oldukları için benzer terimlerdir.
+
+Bu listede, değişkenin n. kuvvete yükseltildiği başka bir terim bulunmadığından, bu terime 9xbenzer başka bir terim yoktur .X1
+
+B.\phantom{\rule{0.2em}{0ex}}4{x}^{2}+2x+5{x}^{2}+6x+40x+8xy
+
+Değişkenlere ve üslere bakın. İfade terimleri içeriyor.4{x}^{2},2x,5{x}^{2},6x,40x,\text{ve}\phantom{\rule{0.2em}{0ex}}8xy
+
+4x²" Ve " terimleri , 5x²her ikisinde de "..." bulunması nedeniyle benzer terimlerdir x².
+
+Bu terimler 2x,6x,\text{ve}\phantom{\rule{0.2em}{0ex}}40xbirbirine benzer çünkü hepsinin ortak bir özelliği vardır X.
+
+8xyVerilen ifadede bu terime benzer terim bulunmamaktadır çünkü başka hiçbir terim bu iki değişkeni içermemektedir xy.
+
+DENEYİN 8.1
+
+Listede veya ifadede benzer terimleri belirleyin:
+
+9,2{x}^{3},{y}^{2},8{x}^{3},15,9y,11{y}^{2}
+
+Yanıtı göster
+DENEYİN 8.2
+
+Listede veya ifadede benzer terimleri belirleyin:
+
+4x³ + 8x² + 19 + 3x² + 24 + 6x³
+
+Yanıtı göster
+Benzer terimleri birleştirerek ifadeleri basitleştirin.
+Benzer terimleri birleştirerek bir ifadeyi sadeleştirebiliriz . Sizce 3x+6xsadeleştirilmiş hali ne olur? Eğer diye düşündüyseniz 9x, doğru bildiniz!
+
+Bunun neden işe yaradığını, her iki terimi de toplama işlemi olarak yazarak görebiliriz.
+
+Resimde 3x artı 6x ifadesi gösterilmektedir. 3x, x artı x artı x'i temsil eder. 6x ise x artı x artı x artı x artı x artı x'i temsil eder. 3x artı 6x ifadesi x artı x artı x artı x artı x artı x artı x artı x artı x artı x haline gelir. Bu da 9x'in toplamına veya 9x terimine sadeleşir.
+
+Katsayıları toplayın ve aynı değişkeni koruyun. Ne olduğu önemli değil . Bir şeyin miktarına Xsahipseniz ve aynı şeyden daha fazlasını eklerseniz, sonuç bunların miktarı olur. Örneğin, portakallar artı portakallar portakal eder. Bunun arkasındaki matematiksel özellikleri daha sonra ele alacağız.369369
+
+İfade 3x+6xyalnızca iki terimden oluşmaktadır. Bir ifade birden fazla terim içerdiğinde, benzer terimleri bir araya getirmek için terimleri yeniden düzenlemek faydalı olabilir. Toplamanın Değişme Özelliği, toplananların sırasını değiştirmeden toplamı değiştirebileceğimizi söyler. Bu nedenle, benzer terimleri birleştirmeden önce aşağıdaki ifadeyi yeniden düzenleyebiliriz.
+
+Resimde 3x + 4y + 2x + 6y ifadesi gösterilmektedir. Ortadaki terimler olan 4y ve 2x'in konumları değiştirilerek ifade 3x + 2x + 4y + 6y haline getirilebilir. Şimdi x içeren terimler bir arada, y içeren terimler de bir aradadır.
+
+Artık benzer terimleri bir araya getirmek daha kolay.
+
+NASIL YAPILIR: Benzer terimleri birleştirin
+
+Benzer terimleri belirleyin.
+Benzer terimler bir araya gelecek şekilde ifadeyi yeniden düzenleyin.
+Benzer terimlerin katsayılarını toplayın.
+ÖRNEK 9
+
+İfadeyi sadeleştirin: 3x+7+4x+5.
+
+Çözüm
+.
+Benzer terimleri belirleyin.	.
+Benzer terimler bir arada olacak şekilde ifadeyi yeniden düzenleyin.	.
+Benzer terimlerin katsayılarını toplayın.	.
+Orijinal ifade şu şekilde sadeleştirilmiştir…	.
+DENEYİN 9.1
+
+Basitleştirin:
+
+7x+9+9x+8
+
+Yanıtı göster
+DENEYİN 9.2
+
+Basitleştirin:
+
+5y+2+8y+4y+5
+
+Yanıtı göster
+ÖRNEK 10
+
+İfadeyi sadeleştirin: 7x²+8x+x²+4x.
+
+Çözüm
+.
+Benzer terimleri belirleyin.	.
+Benzer terimler bir araya gelecek şekilde ifadeyi yeniden düzenleyin.	.
+Benzer terimlerin katsayılarını toplayın.	.
+Bunlar birbirine benzeyen terimler değildir ve birleştirilemezler. 8x² + 12xEn basit haliyle şöyledir.
+
+DENEYİN 10.1
+
+Basitleştirin:
+
+3x²+9x+x²+5x
+
+Yanıtı göster
+DENEYİN 10.2
+
+Basitleştirin:
+
+11{y}^{2}+8y+{y}^{2}+7y
+
+Yanıtı göster
+Kelimeleri Cebirsel İfadelere Çevir
+Önceki bölümde, cebirde kullanılan birçok işlem sembolünü listeledik ve ardından ifadeleri ve denklemleri sözcük öbeklerine ve cümlelere çevirdik. Şimdi süreci tersine çevirerek sözcük öbeklerini cebirsel ifadelere çevireceğiz. Bahsettiğimiz semboller ve değişkenler bunu yapmamıza yardımcı olacaktır. Bunlar aşağıdaki tabloda özetlenmiştir.
+
+Operasyon	İfade etmek	İfade
+Ek	Aartı B
+toplamından daha fazla artırılmış Ave eklenmiş​B
+AB
+BA
+AB
+BA	a+b
+Çıkarma	Aeksi ve B
+farkı, çıkarıldıktan sonra daha az azaldıAB
+BA
+AB
+BA	ab
+Çarpma	Açarpı veB
+​AB	a\cdot b, ab, a\left(b\right),\left(a\right)\left(b\right)
+Bölüm	AB
+bölümü Ave B
+oranına bölünmüş Ave B
+BbölünenA	a \div b, a/b, \frac{a}{b},b\overline{)a}
+Bu ifadeleri dört işlem kullanarak yakından inceleyin:
+
+toplamı ve A ​ B
+ve arasındaki farkA B
+ve'nin ürünüA ​ B
+ve'nin bölümüA ​ B
+Her ifade size iki sayı üzerinde işlem yapmanızı söylüyor. Sayıları bulmak için " ve" ve " ve " kelimelerini arayın .
+
+ÖRNEK 11
+
+Her kelime öbeğini cebirsel bir ifadeye çevirin:
+
+20ve  arasındaki fark4
+10xve'nin  bölümü3
+Çözüm
+a. Anahtar kelime "fark" tır ve bu da işlemin çıkarma olduğunu gösterir. Çıkarılacak sayıları bulmak için " ve" ve "çıkarma" kelimelerini arayın.
+
+\begin{array}{cccc}\\ \text{20\phantom{\rule{0.2em}{0ex}} ile 4\phantom{\rule{0.2em}{0ex}} arasındaki fark\hfill \\ 20\phantom{\rule{0.2em}{0ex}} eksi 4\hfill \\ 20-4\hfill \end{array}
+
+b. Buradaki kilit kelime "bölüm" dür ve bu da işlemin bölme olduğunu gösterir.
+
+\begin{array}{ccccc}\\ \text{10x'in 3'e bölümü}\phantom{\rule{0.2em}{0ex}}10x'i 3'e böl\hfill \\ \text{10x'i 3'e böl\hfill \\ 10x\div 3\hfill \end{array}
+
+Bu aynı zamanda şu şekilde de yazılabilir:\begin{array}{l}10x/3\phantom{\rule{0.2em}{0ex}}\text{veya}\phantom{\rule{0.4em}{0ex}}\frac{10x}{3}\hfill \end{array}
+
+DENEYİN 11.1
+
+Verilen kelime öbeğini cebirsel bir ifadeye çevirin:
+
+47ve  arasındaki fark41
+5xve'nin  bölümü2
+Yanıtı göster
+DENEYİN 11.2
+
+Verilen kelime öbeğini cebirsel bir ifadeye çevirin:
+
+ toplamı 17ve19
+7ve'nin  ürünüX
+Yanıtı göster
+Sekiz yıl sonra kaç yaşında olacaksınız? Şimdiki yaşınızdan sekiz yıl fazlası kaç yaştır? 8Şimdiki yaşınıza sekiz eklediniz mi? Sekiz fazlası, şimdiki yaşınıza sekiz eklemek anlamına gelir.
+
+Yedi yıl önce kaç yaşındaydınız? Bu, şimdiki yaşınızdan yedi yıl daha azdır. 7Şimdiki yaşınızdan yedi yaşını çıkarıyorsunuz. Yedi eksik demek, şimdiki yaşınızdan yedi çıkarmak demektir.
+
+ÖRNEK 12
+
+Her kelime öbeğini cebirsel bir ifadeye çevirin:
+
+ Sekizden fazlay
+ Yedi eksik9z
+Çözüm
+a. Anahtar kelimeler " daha fazla" dır . Bunlar bize işlemin toplama olduğunu söyler. " Daha fazla ", "eklenmiş" anlamına gelir.
+
+\begin{array}{l}\text{y'den sekiz fazla}\phantom{\rule{0.2em}{0ex}}y\\ \text{y'ye sekiz eklendi}\phantom{\rule{0.2em}{0ex}}y\\ y+8\end{array}
+
+b. Anahtar kelimeler "küçüktür" kelimeleridir . Bunlar bize işlemin çıkarma olduğunu söyler. "Küçüktür " kelimesi "çıkarıldı" anlamına gelir.
+
+\begin{array}{l}\text{9z'den yedi eksik}\phantom{\rule{0.2em}{0ex}}9z\\ \text{9z'den yedi çıkarılmış}\phantom{\rule{0.2em}{0ex}}9z\\ 9z-7\end{array}
+
+DENEYİN 12.1
+
+Her kelime öbeğini cebirsel bir ifadeye çevirin:
+
+ On bir fazlaX
+ On dört eksik11a
+Yanıtı göster
+DENEYİN 12.2
+
+Her kelime öbeğini cebirsel bir ifadeye çevirin:
+
+19bundan fazlaJ
+21daha az2x
+Yanıtı göster
+ÖRNEK 13
+
+Her kelime öbeğini cebirsel bir ifadeye çevirin:
+
+Mve'nin toplamının beş katıN
+beş kerenin toplamı MveN
+Çözüm
+a. İki işlem sözcüğü var: " çarpma " bize çarpmayı, "toplama" ise toplamayı söylüyor. Toplamı ile çarptığımız için 5, toplamın etrafına parantez koymamız gerekiyor M.N
+
+Mve'nin toplamının beş katıN
+\begin{array}{cccc}\\ \\ \phantom{\rule{4em}{0ex}}5\left(m+n\right)\hfill \end{array}
+
+b. Toplama işlemi yapmak için, neyin eklendiğini görmek üzere " ve" ve " ve " sözcüklerine bakarız . Burada beş kere ve'nin toplamını alıyoruz .MN
+
+beş kerenin toplamı MveN
+\begin{array}{ccccc}\\ \\ \phantom{\rule{4em}{0ex}}5m+n\hfill \end{array}
+
+Parantez kullanımının sonucu nasıl değiştirdiğine dikkat edin. a şıkkında önce toplama, b şıkkında ise önce çarpma işlemi yapıyoruz.
+
+DENEYİN 13.1
+
+Söz öbeğini cebirsel bir ifadeye çevirin:
+
+Pve'nin toplamının dört katıQ
+dört kerenin toplamı PveQ
+Yanıtı göster
+DENEYİN 13.2
+
+Söz öbeğini cebirsel bir ifadeye çevirin:
+
+iki zaman arasındaki farkx\phantom{\rule{0.2em}{0ex}}\text{ve 8}\phantom{\rule{0.2em}{0ex}}
+iki katı farkx\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}8
+Yanıtı göster
+Bu dersin ilerleyen bölümlerinde, cebir becerilerimizi denklem çözmede uygulayacağız. Genellikle bir kelime öbeğini cebirsel bir ifadeye çevirerek başlayacağız. İfadenin neyi temsil edeceği konusunda net olmamız gerekecek. Bunu sonraki iki örnekte nasıl yapacağımızı göreceğiz.
+
+ÖRNEK 14
+
+Dikdörtgen bir pencerenin yüksekliği, 6genişliğinden inç daha azdır. wPencerenin genişliğini ile gösterelim. Pencerenin yüksekliği için bir ifade yazın.
+
+Çözüm
+Boy hakkında bir cümle yazın.	6genişlikten daha az
+wGenişlik yerine geçecek değer .	6daha azw
+'Küçüktür' ifadesini 'çıkarılmıştır' şeklinde yeniden yazın.	6çıkarılmıştırw
+Bu ifadeyi cebire çevirin.	w-6
+DENEYİN 14.1
+
+Bir dikdörtgenin uzunluğu, 5genişliğinden inç daha azdır. wDikdörtgenin genişliğini ile gösterelim. Dikdörtgenin uzunluğu için bir ifade yazın.
+
+Yanıtı göster
+DENEYİN 14.2
+
+Bir dikdörtgenin genişliği, 2uzunluğundan metre daha fazladır. lDikdörtgenin uzunluğunu ile gösterelim. Dikdörtgenin genişliği için bir ifade yazınız.
+
+Yanıtı göster
+ÖRNEK 15
+
+Blanca'nın cüzdanında on kuruşluk ve yirmi beş kuruşluk madeni paralar var. On kuruşluk madeni paraların sayısı, yirmi beş kuruşluk madeni paraların sayısının katından 2azdır . Yirmi beş kuruşluk madeni paraların sayısını ile gösterelim. On kuruşluk madeni paraların sayısını ifade eden bir denklem yazın.5Q
+
+Çözüm
+On kuruşluk madeni paraların sayısıyla ilgili bir cümle yazın.	Çeyrek sayısının beş katından iki eksik
+QÇeyrek sayısının yerine geçecek değeri yazın .	2beş kereden azQ
+5 Zamanları çevir Q.	2daha az5q
+Bu ifadeyi cebire çevirin.	5q-2
+DENEYİN 15.1
+
+Geoffrey'nin cebinde on kuruşluk ve yirmi beş kuruşluk madeni paralar var. On kuruşluk madeni paraların sayısı, yirmi beş kuruşluk madeni paraların sayısının altı katından yedi eksiktir. QYirmi beş kuruşluk madeni paraların sayısını ile gösterelim. On kuruşluk madeni paraların sayısını ifade eden bir denklem yazın.
+
+Yanıtı göster
+DENEYİN 15.2
+
+Lauren'ın çantasında on kuruşluk ve beş kuruşluk madeni paralar var. On kuruşluk madeni paraların sayısı, beş kuruşluk madeni paraların sayısının dört katından sekiz fazladır. NBeş kuruşluk madeni paraların sayısını ile gösterelim. On kuruşluk madeni paraların sayısını ifade eden bir denklem yazın.
+
+Yanıtı göster
+EK ÇEVRİMİÇİ KAYNAKLARA ERİŞİN
+Cebirsel İfade Sözlüğü
+Temel Kavramlar
+Benzer terimleri birleştirin.
+Benzer terimleri belirleyin.
+Benzer terimler bir araya gelecek şekilde ifadeyi yeniden düzenleyin.
+Benzer terimlerin katsayılarını toplayın.
+Sözlük
+terim
+Bir terim, bir sabit veya bir sabit ile bir veya daha fazla değişkenin çarpımıdır.
+katsayı
+Bir terimdeki değişken(ler)i çarpan sabite katsayı denir.
+benzer terimler
+Sabit olan veya aynı değişkenlere ve aynı üslere sahip terimler, benzer terimlerdir.
+değerlendirmek
+Bir cebirsel ifadeyi değerlendirmek, değişkenin belirli bir sayıyla değiştirilmesi durumunda ifadenin değerini bulmak anlamına gelir.
+Pratik mükemmelliği getirir.
+Cebirsel İfadeleri Değerlendirin
+Aşağıdaki alıştırmalarda, verilen değer için ifadeyi değerlendirin.
+
+1.7x+8\phantom{\rule{0.2em}{0ex}}\text{x=2 olduğunda}\phantom{\rule{0.2em}{0ex}}	2.9x+7\phantom{\rule{0.2em}{0ex}}\text{x=3 olduğunda}\phantom{\rule{0.2em}{0ex}}
+3.5x-4\phantom{\rule{0.2em}{0ex}}\text{x=6 olduğunda}\phantom{\rule{0.2em}{0ex}}	4.8x-6\phantom{\rule{0.2em}{0ex}}\text{x=7 olduğunda}\phantom{\rule{0.2em}{0ex}}
+5.{x}^{2}\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}x=12	6.{x}^{3}\phantom{\rule{0.2em}{0ex}}\text{x=5 olduğunda}\phantom{\rule{0.2em}{0ex}}
+7.{x}^{5}\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}x=2	8.{x}^{4}\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}x=3
+9.{3}^{x}\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}x=3	10.{4}^{x}\phantom{\rule{0.2em}{0ex}}\text{x=2 olduğunda}\phantom{\rule{0.2em}{0ex}}
+11.{x}^{2}+3x-7\phantom{\rule{0.2em}{0ex}}\text{x=4 olduğunda}\phantom{\rule{0.2em}{0ex}}	12.{x}^{2}+5x-8\phantom{\rule{0.2em}{0ex}}\text{x=6 olduğunda}\phantom{\rule{0.2em}{0ex}}
+13.2x+4y-5\phantom{\rule{0.2em}{0ex}}\text{x=7,y=8 olduğunda}\phantom{\rule{0.2em}{0ex}}	14.6x+3y-9\phantom{\rule{0.2em}{0ex}}\text{x=6,y=9 olduğunda}\phantom{\rule{0.2em}{0ex}}
+15.{\left(xy\right)}^{2}\phantom{\rule{0.2em}{0ex}}\text{x=10,y=7 olduğunda}\phantom{\rule{0.2em}{0ex}}	16.{\left(x+y\right)}^{2}\phantom{\rule{0.2em}{0ex}}\text{x=6,y=9 olduğunda}\phantom{\rule{0.2em}{0ex}}
+17.{a}^{2}+{b}^{2}\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}a=3,b=8	18.{r}^{2}-{s}^{2}\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}r=12,s=5
+19.2l+2w\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}l=15,w=12	20.2l+2w\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}l=18,w=14
+Terimleri, Katsayıları ve Benzer Terimleri Belirleyin
+Aşağıdaki alıştırmalarda, verilen ifadede geçen terimleri listeleyiniz.
+
+21.15x² + 6x + 2	22.11x² + 8x + 5
+23.10{y}^{3}+y+2	24.9{y}^{3}+y+5
+Aşağıdaki alıştırmalarda, verilen terimin katsayısını belirleyiniz.
+
+25.8a	26.13m
+27.5{r}^{2}	28.6x³
+Aşağıdaki alıştırmalarda, benzer terimlerden oluşan tüm kümeleri belirleyin.
+
+29.{x}^{3},8x,14,8y,5,8{x}^{3}	30.6z,3{w}^{2},1,6{z}^{2},4z,{w}^{2}
+31.9a,{a}^{2},16ab,16{b}^{2},4ab,9{b}^{2}	32.3,25{r}^{2},10s,10r,4{r}^{2},3s
+Benzer terimleri birleştirerek ifadeleri basitleştirin.
+Aşağıdaki alıştırmalarda, benzer terimleri birleştirerek verilen ifadeyi sadeleştirin.
+
+33.10x+3x	34.15x+4x
+35.17a+9a	36.18z+9z
+37.4c+2c+c	38.6y+4y+y
+39.9x+3x+8	40.8a+5a+9
+41.7u+2+3u+1	42.8d+6+2d+5
+43.7p+6+5p+4	44.8x+7+4x-5
+45.10a+7+5a-2+7a-4	46.7c+4+6c-3+9c-1
+47.3x² + 12x + 11 + 14x² + 8x + 5	48.5b²+9b+10+2b²+3b-4
+İngilizce İfadeleri Cebirsel İfadelere Çevir
+Aşağıdaki alıştırmalarda, verilen kelime öbeğini cebirsel bir ifadeye çevirin.
+
+49. 8 ve 12'nin toplamı	50. 9 ve 1'in toplamı
+51. 14 ile 9 arasındaki fark	52. 8, 19'dan az
+53. 9 ve 7'nin çarpımı	54. 8 ve 7'nin çarpımı
+55. 36 ve 9'un bölümü	56. 42 ve 7'nin bölümü
+X57. ve arasındaki fark4	58'den 3azX
+659. ve'nin ürünüy	960. ve'nin ürünüy
+8x61. ve'nin toplamı3x	13x62. ve'nin toplamı3x
+y63. ve'nin bölümü3	y64. ve'nin bölümü8
+y65. Dokuz ile dokuz arasındaki farkın sekiz katı	y66. Bir ile bir arasındaki farkın yedi katı
+X67. ve'nin toplamının beş katıy	68. ikiden beşin çarpımıX
+Aşağıdaki alıştırmalarda cebirsel bir ifade yazın.
+
+69. Adele bir etek ve bir bluz satın aldı. Eteğin fiyatı bluzun fiyatından 15 dolar daha fazlaydı. BBluzun fiyatını ile gösterelim. Eteğin fiyatını ifade eden bir denklem yazın.	70. Eric'in arabasında rock ve klasik müzik CD'leri var. Rock CD'lerinin sayısı 3klasik müzik CD'lerinin sayısından daha fazla. CKlasik müzik CD'lerinin sayısını ile gösterelim. Rock CD'lerinin sayısını ifade eden bir denklem yazın.
+71. İkinci sınıftaki kız öğrenci sayısı 4erkek öğrenci sayısından azdır. BErkek öğrenci sayısını ile gösterelim. Kız öğrenci sayısını ifade eden bir denklem yazınız.	72. Marcella'nın 6kız kuzenlerinden daha az erkek kuzeni vardır. FKız kuzenlerinin sayısını ile gösterelim. Erkek kuzenlerinin sayısını ifade eden bir denklem yazın.
+73. Greg'in cebinde nikel ve kuruşlar var. Kuruş sayısı, nikel sayısının iki katından yedi eksiktir. NNikel sayısını ile gösterelim. Kuruş sayısını ifade eden bir denklem yazın.	74. Jeannette'in cüzdanında 5 ve 10 dolarlık banknotlar var. 5 dolarlık banknotların sayısı, 10 dolarlık banknotların sayısının altı katından üç fazladır. T10 dolarlık banknotların sayısını ile gösterelim. 5 dolarlık banknotların sayısını ifade eden bir denklem yazın.
+Günlük Matematik
+Aşağıdaki alıştırmalarda, problemi çözmek için cebirsel ifadeler kullanın.
+
+75. Araç Sigortası Justin'in araç sigortasında olay başına 750 dolarlık bir muafiyet bulunmaktadır. Bu, Justin'in 750 dolar ödeyeceği ve sigorta şirketinin 750 doların üzerindeki tüm masrafları karşılayacağı anlamına gelir. Justin 2.100 dolarlık bir hasar talebinde bulunursa, ne kadarını kendisi ödeyecek ve sigorta şirketi ne kadarını ödeyecektir?	76. Ev Sigortası Pam ve Armando'nun ev sigortasında olay başına 2.500 dolarlık bir muafiyet bulunmaktadır. Bu, kendilerinin 2.500 dolar ödeyecekleri ve sigorta şirketlerinin 2.500 doların üzerindeki tüm masrafları karşılayacağı anlamına gelir. Pam ve Armando 19.400 dolarlık bir hasar talebinde bulunurlarsa, ne kadarını kendileri ödeyecek ve sigorta şirketleri ne kadarını ödeyecektir?
+Yazma Alıştırmaları
+77. “ x ve y’nin toplamının ” “ y ve x’in toplamıyla” aynı olmasına rağmen, “ x ve y’nin farkının ” “ y ve x’in farkıyla” aynı olmamasının nedenini açıklayın. Açıklamanıza yardımcı olması Xiçin x ve y’nin yerine iki rastgele sayı koymayı deneyin .y	78. "ve " \text{``4}nin toplamının çarpımı ile " ve " nin çarpımının toplamı arasındaki farkı açıklayın .Xy\text{''}4Xy\text{.''}
+Cevaplar
+1. 22	3. 26	5. 144
+7. 32	9. 27	11. 21
+13. 41	15. 9	17. 73
+19. 54	21. 15 x 2 , 6 x , 2	23. 10 y 3 , y , 2
+25. 8	27. 5	29. x 3 , 8 x 3 ve 14, 5
+31. 16 ab ve 4 ab ; 16 b 2 ve 9 b 2	33. 13 x	35. 26 a
+37. 7 c	39. 12 x + 8	41. 10 u + 3
+43. 12 p + 10	45. 22 a + 1	47. 17 x 2 + 20 x + 16
+49. 8 + 12	51. 14 − 9	53. 9 ⋅ 7
+55. 36 ÷ 9	57. x − 4	59. 6 y
+61. 8 x + 3 x	63.\frac{y}{3}	65. 8 ( y − 9)
+67. 5 ( x + y )	69. b + 15	71. b − 4
+73. 2 n − 7	75. Kendisi 750 dolar ödeyecek. Sigorta şirketi ise 1350 dolar ödeyecek.	77. Cevaplar farklılık gösterebilir.
+Atıflar
+Bu bölüm, Lynn Marecek, MaryAnne Anthony-Smith ve Andrea Honeycutt Mathis'in yazdığı ve CC BY 4.0 Lisansı altında yayınlanan " Prealgebra " (OpenStax) kitabındaki "Evaluate, Simplify, and Translate Expressions" bölümünden uyarlanmıştır . Uyarlamayı Izabela Mazur yapmıştır. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+4
+1.4 Tam Sayıları Toplama ve Çıkarma
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Olumsuz ve zıt anlamlı kelimeleri kullanın.
+Basitleştirme: Mutlak değer içeren ifadeler
+Tam sayıları toplayın
+Tam sayıları çıkarın
+Olumsuz ve Zıt Anlamlı Kelimeleri Kullanın
+Şimdiye kadar yaptığımız çalışmalar sadece sayma sayılarını ve tam sayıları kapsıyordu. Ancak sıfırın altında bir sıcaklık yaşadıysanız veya banka hesabınızdan yanlışlıkla eksi bakiyeye düştüyseniz, negatif sayılara zaten aşinasınızdır. Negatif sayılar , sıfırdan küçük sayılardır 0. Negatif sayılar, sayı doğrusunda sıfırın solunda yer alır. Şekil 1'e bakınız .
+
+-4'ten 4'e kadar uzanan bir sayı doğrusu var. "-4" ile "0" arasındaki değerlerin altında bir parantez bulunuyor ve bu parantez "Negatif sayılar" olarak etiketlenmiş. 0 ile 4 arasındaki değerlerin altında da başka bir parantez var ve bu parantez "Pozitif sayılar" olarak etiketlenmiş. Her iki parantezin arasında, sıfıra doğru yukarıya işaret eden bir ok var.
+Şekil 1. Sayı doğrusu, pozitif ve negatif sayıların konumunu göstermektedir.
+Sayı doğrusunun uçlarındaki oklar, sayıların sonsuza kadar devam ettiğini gösterir. En büyük pozitif sayı ve en küçük negatif sayı yoktur.
+
+Sıfır pozitif mi yoksa negatif bir sayı mıdır? Sıfırdan büyük sayılar pozitiftir, sıfırdan küçük sayılar ise negatiftir. Sıfır ne pozitif ne de negatiftir.
+
+Sayı doğrusunda sayıların nasıl sıralandığını düşünün. Soldan sağa doğru gidildikçe sayıların değeri artar. Sağdan sola doğru gidildikçe sayıların değeri azalır. Şekil 2'ye bakın .
+
+Sayı doğrusu -4'ten 4'e kadar uzanır. Sayı doğrusunun üstündeki ok -1'den 4'e doğru uzanır ve "daha büyük" olarak etiketlenmiştir. Sayı doğrusunun altındaki ok ise 1'den -4'e doğru uzanır ve "daha küçük" olarak etiketlenmiştir.
+Şekil 2: Sayı doğrusundaki sayılar soldan sağa doğru değer kazanırken, sağdan sola doğru değer kaybeder.
+Unutmayın ki şu gösterimi kullanıyoruz:
+
+a < b (okunuşu: a, b'den küçüktür), sayı doğrusunda a'nın b'nin solunda yer alması anlamına gelir.
+
+a > b (okunuşu: “ a, b’den büyüktür ”) ifadesi , sayı doğrusunda a'nın b'nin sağında yer alması durumunda kullanılır.
+
+Şimdi, tam sayıları gösteren sayı doğrusunu negatif sayıları da içerecek şekilde genişletmemiz gerekiyor. Şekil 3'te noktalarla işaretlenmiş sayılara tamsayılar denir. Tamsayılar, sayılardır.\text{…}-3,-2,-1,0,1,2,3\text{…}
+
+Bir sayı doğrusu eksi dörtten dörde kadar uzanır. Noktalar eksi dört, eksi üç, eksi iki, eksi bir, sıfır, bir, iki, üç ve dörtte işaretlenmiştir.
+Şekil 3. İşaretlenmiş tüm sayılara tamsayı denir.
+ÖRNEK 1
+
+Aşağıdaki sayı çiftlerinin her birini < veya > kullanarak sıralayın: a) 14___ 6b) -1___ 9c) -1___ -4d) 2___ -20.
+
+Çözüm
+Gösterilen sayı doğrusuna bakmak faydalı olabilir.
+
+-20 ile 15 arasında, sayılar arasında işaret çizgileri bulunan bir sayı doğrusu çizilmiştir. Her beşinci işaret çizgisi bir sayı ile etiketlenmiştir. -20, -4, -1, 2, 6, 9 ve 14 noktalarına noktalar yerleştirilmiştir.
+
+a) 14, sayı doğrusunda 6'nın sağındadır.	14___ 6  14>6
+b) −1, sayı doğrusunda 9'un solundadır.	-1___9  -1<9
+c) −1, sayı doğrusunda −4'ün sağındadır.	-1___-4
+d) 2, sayı doğrusunda -20'nin sağındadır.	2___ -20 2>-20
+DENEYİN 1.1
+
+Aşağıdaki sayı çiftlerinin her birini < veya > kullanarak sıralayın: \metin{:}a) 15___ 7b) -2___ 5c) -3___ -7
+d) 5___ -17.
+
+Yanıtı göster
+DENEYİN 1.2
+
+Aşağıdaki sayı çiftlerinin her birini < veya > kullanarak sıralayın: \metin{:}a) 8___ 13b) 3___ -4c) -5___ -2
+d) 9___ -21.
+
+Yanıtı göster
+Sayı doğrusunda negatif sayıların, ortada sıfır olacak şekilde pozitif sayıların ayna görüntüsü olduğunu fark etmiş olabilirsiniz . 2 ve √2 sayıları sıfırdan aynı uzaklıkta oldukları için zıt sayılar-2 olarak adlandırılırlar . 2'nin zıtı √2 , √2'nin zıtı ise 2'dir .-2-2
+
+Zıt
+
+Bir sayının zıtı , sayı doğrusunda sıfırdan aynı uzaklıkta olan ancak sıfırın karşı tarafında bulunan sayıdır.
+
+(Şekil 4) tanımı göstermektedir.
+
+3'ün tersi 'dir -3.
+
+Sayı doğrusu -4'ten 4'e kadar uzanmaktadır. Sayı doğrusunun üzerinde iki parantez bulunmaktadır. Soldaki parantez -3'ten 0'a kadar uzanır. Sağdaki parantez ise 0'dan 3'e kadar uzanır. Hem -3 hem de 3 noktalarına işaretler konmuştur.
+Şekil 4
+Cebirde bazen aynı sembolün farklı anlamları olabilir. İngilizcedeki bazı kelimeler gibi, belirli anlamı kullanım şekline bakarak anlaşılır. "−" sembolünün üç farklı şekilde kullanıldığını gördünüz.
+
+\begin{array}{cccc}10-4\hfill & & & \text{İki sayı arasında, çıkarma işlemini gösterir.\hfill \\ & & & \text{10-4 ifadesini 10 eksi 4 olarak okuruz.\hfill \\ -8\hfill & & & Bir sayının önünde, negatif bir sayıyı gösterir. -8'i "eksi sekiz" olarak okuruz. Bir değişkenin önünde, tersini gösterir. -x'i "x'in tersi" olarak okuruz. -(-2) Burada iki tane - işareti var. Parantez içindeki ifade bize sayının negatif olduğunu söyler. Parantez dışındaki ifade ise -2'nin tersini almamızı söyler. \text{\phantom{\rule{0.2em}{0ex}}-\left(-2\right)\phantom{\rule{0.2em}{0ex}} ifadesini "eksi ikinin tersi" olarak okuyoruz.''}\hfill \end{array}
+
+10-4	İki sayı arasında çıkarma işlemini gösterir . "10 eksi 4" şeklinde
+okunur.10-4
+-8	Bir sayının önüne getirildiğinde negatif bir sayıyı belirtir .
+−8'i "eksi sekiz" olarak okuruz.
+-X	Bir değişkenin önüne geldiğinde, zıttını belirtir . -XBunu "zıttı" olarak okuruz X.
+-\left(-2\right)	Burada iki tane “−” işareti var. Parantez içindeki işaret, sayının -2 olduğunu gösteriyor. Parantez dışındaki işaret ise -2'nin tersini almamızı söylüyor. Bunu “eksi ikinin tersi” olarak
+okuyoruz .-\left(-2\right)
+Ters Gösterim
+
+-A"a" sayısının tersini ifade eder .
+
+Bu gösterim “ birinin zıttı ” -Aolarak okunur .
+
+ÖRNEK 2
+
+Bulunuz: a) 7'nin zıtı b) -10c) ' nin zıtı -\left(-6\right).
+
+Çözüm
+a) −7, 0'a olan uzaklığı 7 ile aynıdır, ancak 0'ın zıt tarafındadır.	.
+7'nin zıttı -7'dir.
+b) 10, 0'a olan uzaklığı -10 ile aynıdır, ancak 0'ın zıt tarafındadır.	.
+-10'un tersi 10'dur.
+c) −(−6)	.
+−(−6)'nın tersi −6'dır.
+DENEYİN 2.1
+
+Şunları bulun: a) 4'ün tersi b) -3c) ' nin tersi -\left(-1\right).
+
+Yanıtı göster
+ 
+
+DENEYİN 2.2
+
+Bulun: a) 8'in tersi b) -5c) ' nin tersi -\left(-5\right).
+
+Yanıtı göster
+ 
+
+Zıt sayılarla yaptığımız çalışma, tam sayıları tanımlamanın bir yolunu sunar. Tam sayılar ve bunların zıt sayılarına tamsayılar denir. Tamsayılar, sayılardır.\text{…}-3,-2,-1,0,1,2,3\text{…}
+
+Tamsayılar
+
+Tam sayılar ve bunların zıtları, tamsayılar olarak adlandırılır .
+
+Tamsayılar sayılardır.
+
+\text{…}-3,-2,-1,0,1,2,3\text{…}
+Bir değişkenin tersini hesaplarken çok dikkatli olmalıyız. Değişkenin pozitif mi yoksa negatif mi bir sayıyı temsil ettiğini bilmeden, 'nin pozitif mi yoksa negatif mi olduğunu bilemeyiz . Bunu Örnek 3'te-X görebiliriz .
+
+ÖRNEK 3
+
+a) -X, ve x=8b) -X, durumlarını değerlendirin x=-8.
+
+Çözüm
+.	
+− x
+.	.
+8'in tersini yazın.	.
+ 
+
+.	
+− x
+.	.
+-8'in tersini yazın.	8
+DENEYİN 3.1
+
+a) ve b) -Ndurumlarında değerlendirin .n=4n=-4
+
+Yanıtı göster
+DENEYİN 3.2
+
+a) ve b) -Mdurumlarında değerlendirin .m=11m=-11
+
+Yanıtı göster
+Basitleştirme: Mutlak Değer İçeren İfadeler
+Gördüğümüz gibi, 2\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}-20 gibi sayılar sayı doğrusunda 0'dan aynı uzaklıkta oldukları için zıt sayılardır. Her ikisi de 0'dan iki birim uzaklıktadır. Sayı doğrusunda 0 ile herhangi bir sayı arasındaki mesafeye o sayının mutlak değeri denir.
+
+Mutlak Değer
+
+Bir sayının mutlak değeri, sayı doğrusunda 0 noktasından olan uzaklığıdır.
+
+Bir n sayısının mutlak değeri şeklinde yazılır |n|.
+
+Örneğin,
+
+-5\phantom{\rule{0.2em}{0ex}}\text{is}\phantom{\rule{0.2em}{0ex}}5birim uzaklıkta 0, yani |-5|=5.
+\phantom{\rule{0.65em}{0ex}}5\phantom{\rule{0.2em}{0ex}}\text{is}\phantom{\rule{0.2em}{0ex}}5birim uzaklıkta 0, yani |5|=5.
+Şekil 5 bu fikri göstermektedir.
+
+5\phantom{\rule{0.2em}{0ex}}\text{ve şunlardır}\phantom{\rule{0.2em}{0ex}}5'den uzak tamsayı birimleri 0.
+
+-5'ten 5'e kadar uzanan bir sayı doğrusu gösterilmiştir. "5 birim" yazılı bir parantez, -5 ile 0 arasındaki noktaların üzerinde yer almaktadır. Bu parantezin üzerinde "-5, 0'dan 5 birim uzaklıktadır, dolayısıyla -5'in mutlak değeri 5'e eşittir." yazılı bir ok bulunmaktadır. "5 birim" yazılı bir parantez, "0" ile "5" arasındaki noktaların üzerinde yer almaktadır. Bu parantezin üzerinde "5, 0'dan 5 birim uzaklıktadır, dolayısıyla 5'in mutlak değeri 5'e eşittir." yazılı bir ok bulunmaktadır.
+Şekil 5
+Bir sayının mutlak değeri asla negatif olamaz (çünkü mesafe negatif olamaz). Mutlak değeri sıfır olan tek sayı, sıfırın kendisidir, çünkü 0\phantom{\rule{0.2em}{0ex}}\text{to}\phantom{\rule{0.2em}{0ex}}0sayı doğrusunda sıfırdan uzaklık sıfır birimdir.
+
+Mutlak Değer Özelliği
+
+|n|\ge 0tüm sayılar için
+
+Mutlak değerler her zaman sıfırdan büyük veya sıfıra eşittir!
+
+ 
+
+Matematikçiler bunu daha doğru bir şekilde şöyle ifade eder: "Mutlak değerler her zaman negatif olmayan değerlerdir." Negatif olmayan, sıfırdan büyük veya sıfıra eşit anlamına gelir.
+
+ÖRNEK 4
+
+Basitleştirin: a)  |3| b)  |-44| c)  |0|.
+
+Çözüm
+Bir sayının mutlak değeri, o sayı ile sıfır arasındaki mesafedir. Mesafe asla negatif olamaz, bu nedenle mutlak değer de asla negatif olamaz.
+
+A)|3|
+\phantom{\rule{1.2em}{0ex}}3
+
+B)|-44|
+\phantom{\rule{1.5em}{0ex}}44
+
+C)|0|
+0\phantom{\rule{1.5em}{0ex}}
+
+DENEYİN 4.1
+
+Basitleştirin: a)  |4| b)  |-28| c)  |0|.
+
+Yanıtı göster
+DENEYİN 4.2
+
+Basitleştirin: a)  |-13| b)  |47| c)  |0|.
+
+Yanıtı göster
+Bir sonraki örnekte, mutlak değerlere sahip ifadeleri sıralayacağız. Unutmayın, pozitif sayılar her zaman negatif sayılardan büyüktür!
+
+ÖRNEK 5
+
+\phantom{\rule{0.2em}{0ex}}\text{veya}\phantom{\rule{0.2em}{0ex}}=Aşağıdaki sayı çiftlerinin her biri için <, >, işaretlerini kullanın :
+
+a) |-5|___ -|-5|b) 8___ -|-8|c) -9___ -|-9|d) – -16___-|-16|
+
+Çözüm
+|-5|___ –|-5|
+a) Basitleştirin.
+Düzenleyin.	5 ___ -5
+5 > -5
+|-5|  > –|-5|
+b) Basitleştirin.
+Düzenleyin.	8___ –|-8|
+8 ___ -8
+8 > -8
+8 > –|-8|
+c) Basitleştirin.
+Düzenleyin.	9 ___ –|-9|
+-9 ___ -9
+
+-9 = -9
+
+-9 = –|-9|
+
+d) Basitleştirin.
+Düzenleyin.	– (-16)___ –|-16|
+16 ____ -16
+
+16 > -16
+
+– (-16)> –|-16|
+
+DENEYİN 5.1
+
+=Aşağıdaki sayı çiftlerinin her biri için <, >, veya işaretlerini doldurun : a) |-9|___- |-9|b) 2___- |-2|c) -8___ |-8|
+d) \-(-9___ -|-9|.
+
+Yanıtı göster
+DENEYİN 5.2
+
+=Aşağıdaki sayı çiftlerinin her biri için <, >, veya işaretlerini doldurun : a) 7___- |-7|b) \-(-10___- |-10|
+c) |-4|___ -|-4|d) -1___ |-1|.
+
+Yanıtı göster
+Şimdi gruplandırma sembolleri listemize mutlak değer çubuklarını ekliyoruz. İşlem önceliği kurallarını kullandığımızda, önce mutlak değer çubuklarının içindeki ifadeleri olabildiğince sadeleştiriyoruz, ardından elde edilen sayının mutlak değerini alıyoruz.
+
+Gruplandırma Sembolleri
+Parantez	( )
+Parantezler	[ ]
+Diş telleri	{ }
+Mutlak değer	| |
+Bir sonraki örnekte, tıpkı parantezlerde yaptığımız gibi, önce mutlak değer çubukları içindeki ifadeleri basitleştiriyoruz.
+
+ÖRNEK 6
+
+Basitleştirin: 24-|19-3\left(6-2\right)|.
+
+Çözüm
+24-|19-3\left(6-2\right)|
+Önce parantez içindeki işlemleri yapın: 6'dan 2 çıkarın.	24-|19-3\left(4\right)|
+3(4) ile çarpın.	24-|19-12|
+Mutlak değer çubuklarının içinden çıkarma işlemi yapın.	24-|7|
+Mutlak değeri alın.	7/24
+Çıkarma işlemi.	17
+DENEYİN 6.1
+
+Basitleştirin: 19-|11-4\left(3-1\right)|.
+
+Yanıtı göster
+DENEYİN 6.2
+
+Basitleştirin: 9-|8-4\left(7-5\right)|.
+
+Yanıtı göster
+ÖRNEK 7
+
+Değerlendirin: a) |x|\phantom{\rule{0.2em}{0ex}}\text{ne zaman}\phantom{\rule{0.2em}{0ex}}x=-35b) |-y|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}y=-20c) -|u|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}u=12d) -|p|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}p=-14.
+
+Çözüm
+A)|x|\phantom{\rule{0.2em}{0ex}}\text{ne zaman}\phantom{\rule{0.2em}{0ex}}x=-35
+
+|x|
+.	.
+Mutlak değeri alın.	35
+B)|-y|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}y=-20
+
+|-y|
+.	.
+Basitleştirin.	|20|
+Mutlak değeri alın.	20
+C)-|u|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}u=12
+
+-|u|
+.	.
+Mutlak değeri alın.	-12
+D)-|p|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}p=-14
+
+-|p|
+.	.
+Mutlak değeri alın.	-14
+DENEYİN 7.1
+
+Değerlendirin: a) |x|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}x=-17b) |-y|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}y=-39c) -|m|\phantom{\rule{0.2em}{0ex}}\text{m=22 olduğunda}\phantom{\rule{0.2em}{0ex}}d) -|p|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}p=-11.
+
+Yanıtı göster
+DENEYİN 7.2
+
+Değerlendirin: a) |y|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}y=-23b) |-y|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}y=-21c) -|n|\phantom{\rule{0.2em}{0ex}}\text{n=37 olduğunda}\phantom{\rule{0.2em}{0ex}}d) -|q|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}q=-49.
+
+Yanıtı göster
+Tamsayıları Topla
+Öğrencilerin çoğu pozitif sayılarla toplama ve çıkarma işlemlerini rahatlıkla yapabilir. Ancak hem pozitif hem de negatif sayılarla toplama veya çıkarma yapmak daha zorlayıcı olabilir.
+
+Negatif sayıların toplama ve çıkarma işlemlerini modellemek için iki renkli sayaç kullanacağız, böylece kuralları ezberlemek yerine işlemleri görselleştirebileceksiniz.
+
+Pozitif değerleri temsil etmek için bir rengi (mavi), negatif değerleri temsil etmek için ise diğer rengi (kırmızı) kullanalım. Eğer bir pozitif ve bir negatif sayıcımız varsa, bu çiftin değeri sıfırdır. Nötr bir çift oluştururlar. Bu nötr çiftin değeri sıfırdır.
+
+Bu resimde, altta mavi, altta kırmızı ve ikisinin etrafında daire bulunan iki sayaç görülmektedir. Sağdaki denklem 1 + -1 = 0'dır.
+
+5,-5Sayıları ve kullanarak dört toplama işleminin nasıl yapılacağını göstermek için sayma araçlarını kullanacağız 3,-3.
+
+\begin{array}{cccccccccc}\hfill 5+3\hfill & & & \hfill -5+\left(-3\right)\hfill & & & \hfill -5+3\hfill & & & \hfill 5+\left(-3\right)\hfill \end{array}
+
+Toplarsak , bunun 5 ve 3'ün toplamı anlamına geldiğini 5+3anlarız.5+3
+
+5 olumlu noktayla başlıyoruz.	.
+Ve sonra 3 olumlu madde ekliyoruz.	.
+Şu anda 8 pozitif sonucumuz var. 5 ile 3'ün toplamı 8'dir.	.
+Şimdi şunu ekleyeceğiz -5+\left(-3\right). Son örnekle benzerliklere dikkat edin 5+3=8.
+
+Ek olarak -5+\left(-3\right), bunun toplamı anlamına geldiğini fark ediyoruz -5\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}-3.
+
+5 olumsuz maddeyle başlıyoruz.	.
+Sonra da 3 tane negatif ekliyoruz.	.
+Şimdi elimizde 8 tane negatif sayı var. -5 ve -3'ün toplamı -8'dir.	.
+Bu ilk iki örnek hangi açılardan birbirine benziyordu?
+
+Birinci örnekte 5 pozitif ve 3 pozitif olmak üzere her ikisi de pozitiftir.
+İkinci örnekte 5 negatif ve 3 negatif (ikisi de negatif) eklenmiştir.
+Her durumda 8 sonuç aldık; ya 8 pozitif ya da 8 negatif.
+
+Levhalar aynı olduğunda, sayaçların hepsi aynı renkteydi, bu yüzden onları ekledik.
+
+Bu şekil iki sütuna bölünmüştür. Sol sütunda yatay bir sıra halinde sekiz mavi sayaç bulunmaktadır. Bunların altında "8 pozitif" yazısı yer almaktadır. Bunun altında ortalanmış olarak 5 artı 3 eşittir 8 denklemi verilmiştir. Sağ sütunda ise yatay bir sıra halinde sekiz kırmızı sayaç bulunmaktadır ve bunların altında "8 negatif" ifadesi yer almaktadır. Bunun altında ortalanmış olarak -5 artı -3 eşittir -8 denklemi verilmiştir; burada -3 parantez içindedir.
+
+ÖRNEK 8
+
+Ekle: a)  1+4 b)  -1+\left(-4\right).
+
+Çözüm
+A)
+
+.
+1 pozitif artı 4 pozitif, 5 pozitif eder.
+ 
+
+B)
+
+.
+1 negatif sayıya 4 negatif sayı eklersek 5 negatif sayı elde ederiz.
+DENEYİN 8.1
+
+Ekle: a)  2+4 b)  -2+\left(-4\right).
+
+Yanıtı göster
+DENEYİN 8.2
+
+Ekle: a)  2+5 b)  -2+\left(-5\right).
+
+Yanıtı göster
+Peki ya işaretler farklı olduğunda ne olur? 'yi ekleyelim -5+3. Bunun ve 3'ün toplamı anlamına geldiğini fark ediyoruz. -5Sayaçlar aynı renkte olduğunda, onları yan yana koyuyoruz. Sayaçlar farklı renkte olduğunda ise, onları alt alta diziyoruz.
+
+−5 + 3 ifadesi, −5 ve 3'ün toplamı anlamına gelir.
+5 olumsuz maddeyle başlıyoruz.	.
+Ve sonra 3 olumlu madde ekliyoruz.	.
+Nötr çiftleri kaldırıyoruz.	.
+Geriye 2 negatif sonuç kaldı.	.
+-5 ile 3'ün toplamı -2'dir.	−5 + 3 = −2
+Dikkat ederseniz, olumlu sonuçlardan daha fazla olumsuz sonuç vardı, bu nedenle sonuç olumsuz oldu.
+
+Şimdi son kombinasyonu ekleyelim, 5+\left(-3\right).
+
+5 + (−3), 5 ve −3'ün toplamı anlamına gelir.
+5 olumlu noktayla başlıyoruz.	.
+Sonra da 3 tane negatif ekliyoruz.	.
+Nötr çiftleri kaldırıyoruz.	.
+Geriye 2 pozitif vaka kaldı.	.
+5 ile -3'ün toplamı 2'dir.	5 + (−3) = 2
+Pozitif ve negatif tamsayıların toplamasını modellemek için sayaçlar kullandığımızda, daha fazla pozitif mi yoksa daha fazla negatif sayaç mı olduğunu görmek kolaydır. Bu nedenle toplamın pozitif mi yoksa negatif mi olacağını biliyoruz.
+
+İki resim gösterilmiş ve etiketlenmiştir. Soldaki resimde, yatay bir sıra halinde çizilmiş beş kırmızı sayıcı, yatay bir sıra halinde çizilmiş üç mavi sayıcının üzerinde gösterilmektedir; ilk üç kırmızı ve mavi sayıcı çifti daire içine alınmıştır. Bu diyagramın üstünde “-5 artı 3” ve altında “Daha fazla negatif – toplam negatiftir” yazmaktadır. Sağdaki resimde, yatay bir sıra halinde çizilmiş beş mavi sayıcı, yatay bir sıra halinde çizilmiş üç kırmızı sayıcının üzerinde gösterilmektedir; ilk üç kırmızı ve mavi sayıcı çifti daire içine alınmıştır. Bu diyagramın üstünde “5 artı -3” ve altında “Daha fazla pozitif – toplam pozitiftir” yazmaktadır.
+
+ÖRNEK 9
+
+Ekle: a) -1+5b) 1+\left(-5\right).
+
+Çözüm
+A)
+
+−1 + 5
+.
+Daha fazla olumlu sonuç var, dolayısıyla toplam da olumlu.	4
+B)
+
+1 + (−5)
+.
+Negatif sayı daha fazla, dolayısıyla toplam negatif.	−4
+DENEYİN 9.1
+
+Ekle: a)  -2+4 b)  2+\left(-4\right).
+
+Yanıtı göster
+DENEYİN 9.2
+
+Ekle: a)  -2+5 b)  2+\left(-5\right).
+
+Yanıtı göster
+Artık modelimize küçük pozitif ve negatif tamsayıları eklediğimize göre, herhangi bir sayıyla ilgili problemleri basitleştirmek için modeli zihnimizde canlandırabiliriz.
+
+Örneğin 37+\left(-53\right), 37 mavi ve 53 kırmızı pulu tek tek saymak istemezsiniz. Aklınızdaki modelle, bu problemi çözmek için ne yapacağınızı görselleştirebilir misiniz?
+
+Altlarında 53 kırmızı pulun sıralandığı 37 mavi pulu hayal edin. Kırmızı (negatif) pulların sayısı mavi (pozitif) pullardan daha fazla olacağından, toplam negatif olacaktır . Kaç tane daha kırmızı pul olurdu? Çünkü 53-37=1616 tane daha fazla kırmızı pul var.
+
+Dolayısıyla, toplamı 37+\left(-53\right)şudur: -16.
+
+37 + (-53) = -16
+Bir tane daha deneyelim. ekleyelim -74+\left(-27\right). Yine, 74 kırmızı pul ve 27 kırmızı pul daha hayal edin, yani 101 kırmızı pulumuz olur. Bu da toplamın olduğu anlamına gelir -101.
+
+-74 + (-27) = -101
+
+5,-5ve'nin farklı kombinasyonlarının toplanmasının sonuçlarına tekrar bakalım 3,-3.
+
+Pozitif ve Negatif Tamsayıların Toplanması
+
+\begin{array}{cccc}\hfill 5+3\hfill & & & \hfill -5+\left(-3\right)\hfill \\ \hfill 8\hfill & & & \hfill -8\hfill \\ \hfill \text{ikisi de pozitif, toplam pozitif}\hfill & & & \hfill \text{ikisi de negatif, toplam negatif}\hfill \end{array}
+İşaretler aynı olduğunda, sayaçların hepsi aynı renkte olur, bu yüzden onları ekleyin.
+
+\begin{array}{cccc}\hfill -5+3\hfill & & & \hfill 5+\left(-3\right)\hfill \\ \hfill -2\hfill & & & \hfill 2\hfill \\ \hfill \text{farklı işaretler, daha fazla negatif, toplam negatif}\hfill & & & \hfill \text{farklı işaretler, daha fazla pozitif, toplam pozitif}\hfill \end{array}
+
+İşaretler farklı olduğunda, bazı sayaçlar nötr çiftler oluşturacaktır, bu nedenle geriye kaç tane kaldığını görmek için çıkarma işlemi yapın.
+
+Aşağıdaki örneklerdeki ifadeleri basitleştirirken modeli görselleştirin.
+
+ÖRNEK 10
+
+Basitleştirin: a)  19+\left(-47\right) b)  -14+\left(-36\right).
+
+Çözüm
+ İşaretler farklı olduğu için çıkarma işlemi yapıyoruz. 47'den 19.Negatif sayıların pozitif sayılardan daha fazla olması nedeniyle sonuç negatif olacaktır.
+\begin{array}{cccc}& & & \hfill \phantom{\rule{0.3em}{0ex}}19+\left(-47\right)\hfill \\ \text{Ekle.}\hfill & & & \hfill \phantom{\rule{0.3em}{0ex}}-28\hfill \end{array}
+ İşaretler aynı olduğundan toplarız. Sadece negatif sayılar olduğu için sonuç negatif olacaktır.
+\begin{array}{cccc}& & & \hfill -14+\left(-36\right)\hfill \\ \text{Ekle.}\hfill & & & \hfill -50\hfill \end{array}
+DENEYİN 10.1
+
+Basitleştirin: a)  -31+\left(-19\right) b)  15+\left(-32\right).
+
+Yanıtı göster
+DENEYİN 10.2
+
+Basitleştirin: a)  -42+\left(-28\right) b)  25+\left(-61\right).
+
+Yanıtı göster
+Şimdiye kadar kullanılan teknikler, daha önce gördüğümüz gibi daha karmaşık problemlere de uygulanabilir. İşlem önceliğine uymayı unutmayın!
+
+ÖRNEK 11
+
+Basitleştirin: -5+3\left(-2+7\right).
+
+Çözüm
+-5+3\left(-2+7\right)
+Parantez içindeki ifadeyi sadeleştirin.	-5+3\left(5\right)
+Çarpma işlemi.	-5+15
+Soldan sağa ekleyin.	10
+DENEYİN 11.1
+
+Basitleştirin: -2+5\left(-4+7\right).
+
+Yanıtı göster
+DENEYİN 11.2
+
+Basitleştirin: -4+2\left(-3+5\right).
+
+Yanıtı göster
+Tam sayıları çıkarın
+Çıkarma işlemini modellemek için sayma çubuklarını kullanmaya devam edeceğiz. Unutmayın, mavi sayma çubukları pozitif sayıları, kırmızı sayma çubukları ise negatif sayıları temsil eder.
+
+Belki daha gençken "çıkarma" \text{``}5-3\text{'#039;}olarak okuyordunuz. Sayma çubukları kullanırken, çıkarma işlemini de aynı şekilde düşünebilirsiniz!\text{``}53.\text{''}
+
+5Dört çıkarma işlemini ve sayılarını kullanarak modelleyeceğiz 3.
+
+\begin{array}{cccccccccc}\hfill 5-3\hfill & & & \hfill -5-\left(-3\right)\hfill & & & \hfill -5-3\hfill & & & \hfill 5-\left(-3\right)\hfill \end{array}
+Çıkarma işlemini yapmak için 5-3problemi " \text{``}5çıkar" şeklinde yeniden ifade ederiz.3.\text{''}
+
+5 olumlu noktayla başlıyoruz.	.
+3 olumlu sonuç çıkarıyoruz.	.
+Geriye 2 pozitif vaka kaldı.	
+5 ile 3 arasındaki fark 2'dir.	2
+Şimdi çıkarma işlemini yapacağız -5-\left(-3\right). Son örnekle benzerliklere dikkat edin 5-3=2.
+
+Çıkarma işlemini yapmak için -5-\left(-3\right)bunu " \text{``}-5çıkarma" olarak yeniden ifade ederiz.-3\text{''}
+
+5 olumsuz maddeyle başlıyoruz.	.
+3 olumsuz noktayı ortadan kaldırıyoruz.	.
+Geriye 2 negatif sonuç kaldı.	
+-5 ile -3'ün farkı -2'dir.	−2
+Dikkat ederseniz, bu iki örnek birbirine çok benziyor: Birinci örnekte, 5 pozitiften 3 pozitifi çıkarıyoruz ve sonuç olarak 2 pozitif elde ediyoruz.
+
+İkinci örnekte, 5 negatif sayıdan 3 negatif sayıyı çıkarıyoruz ve sonuç olarak 2 negatif sayı elde ediyoruz.
+
+Her örnekte yalnızca tek renkli sayaçlar kullanılmış ve çıkarma işleminin "çıkarma" modeli kolayca uygulanabilmiştir.
+
+İki resim gösterilmiş ve etiketlenmiştir. Birinci resimde beş mavi sayaç gösterilmektedir; bunlardan üçü okla daire içine alınmıştır. Sayaçların üzerinde “5 eksi 3 eşittir 2” denklemi yer almaktadır. İkinci resimde beş kırmızı sayaç gösterilmektedir; bunlardan üçü okla daire içine alınmıştır. Sayaçların üzerinde “eksi 5 eksi eksi 3 eşittir eksi 2” denklemi yer almaktadır.
+
+ÖRNEK 12
+
+Çıkarma işlemi: a)  7-5 b)  -7-\left(-5\right).
+
+Çözüm
+a)
+7 pozitif sonuçtan 5'ini pozitif olarak alın ve 2 pozitif sonuç elde edin.	\begin{array}{c}7-5\\ 2\end{array}
+b)
+7 negatif sayıdan 5 negatif sayı alın ve 2 negatif sayı elde edin.	\begin{array}{c}-7-\left(-5\right)\\ -2\end{array}
+DENEYİN 12.1
+
+Çıkarma işlemi: a)  6-4 b)  -6-\left(-4\right).
+
+Yanıtı göster
+DENEYİN 12.2
+
+Çıkarma işlemi: a)  7-4 b)  -7-\left(-4\right).
+
+ 
+
+Yanıtı göster
+Bir pozitif ve bir negatif sayıyı çıkarmamız gerektiğinde ne olur? Hem beyaz hem de kırmızı sayma pullarının yanı sıra bazı nötr çiftlere de ihtiyacımız olacak . Nötr bir çift eklemek değeri değiştirmez. Bu, çeyrekleri beş kuruşla değiştirmeye benzer; değer aynıdır, ancak görünüm farklıdır.
+
+Çıkarma işlemini yapmak için -5-3, bunu -53'ü çıkar şeklinde yeniden ifade ederiz.
+5 olumsuzlukla başlıyoruz. 3 olumluyu ortadan kaldırmamız gerekiyor, ancak ortadan kaldırabileceğimiz hiçbir olumlu şeyimiz yok.
+
+Unutmayın, nötr bir çiftin değeri sıfırdır. 5'e 0 eklersek değeri yine 5 olur. Çıkarabileceğimiz 3 pozitif elde edene kadar 5 negatife nötr çiftler ekleriz.
+
+−5 − 3 ifadesi, −5'ten 3 çıkarıldığında elde edilen sonucu ifade eder.
+5 olumsuz maddeyle başlıyoruz.	.
+Şimdi 3 pozitif elde etmek için gereken nötrleri ekliyoruz.	.
+3 pozitif sonucu çıkarıyoruz.	.
+Geriye 8 negatif sonuç kaldı.	.
+-5 ile 3 arasındaki fark -8'dir.	−5 − 3 = −8
+Ve şimdi, dördüncü durum 5-\left(-3\right). 5 pozitif ile başlıyoruz. 3 negatifi çıkarmamız gerekiyor, ancak çıkarabileceğimiz negatif yok. Bu yüzden, çıkarabileceğimiz 3 negatif olana kadar nötr çiftler ekliyoruz.
+
+5 − (−3) ifadesi, 5'ten −3 çıkarılması anlamına gelir.
+5 olumlu noktayla başlıyoruz.	.
+Şimdi gerekli nötr çiftleri ekliyoruz.	.
+3 olumsuzluğu kaldırıyoruz.	.
+Elde ettiğimiz 8 pozitif sonuç var.	.
+5 ile -3 arasındaki fark 8'dir.	5 − (−3) = 8
+ÖRNEK 13
+
+Çıkarma işlemi: a)  -3-1 b)  3-\left(-1\right).
+
+Çözüm
+A)
+
+Eklenen nötr çiftin birinden bir pozitif değer alın.	.
+.	−3 − 1
+−4
+
+B)
+
+Eklenen nötr çiftin birinden bir negatif alın.	.
+.	3 − (−1)
+4
+
+DENEYİN 13.1
+
+Çıkarma işlemi: a)  -6-4 b)  6-\left(-4\right).
+
+Yanıtı göster
+DENEYİN 13.2
+
+Çıkarma işlemi: a)  -7-4 b)  7-\left(-4\right).
+
+Yanıtı göster
+İşaretli sayıların çıkarılmasının, ters işaretli sayıların eklenmesiyle yapılabildiğini fark ettiniz mi ? Örnek 13'te , -3-1ile aynıdır -3+\left(-1\right)ve 3-\left(-1\right)ile aynıdır 3+1. Bu fikri, yani çıkarma özelliğini, genellikle şu şekilde yazılmış olarak göreceksiniz:
+
+Çıkarma Özelliği
+
+ab=a+\left(-b\right)
+Bir sayıdan bir sayıyı çıkarmak, o sayının tersini eklemekle aynı şeydir.
+Şu iki örneğe bakın.
+
+İki resim gösterilmiş ve etiketlenmiştir. Birinci resimde, dört gri küre yan yana çizilmiş ve kırmızı daire içine alınmış, sol alt köşeye doğru kırmızı bir okla gösterilen iki gri küre bulunmaktadır. Bu çizimin üst kısmı “6 eksi 4”, alt kısmı ise “2” olarak etiketlenmiştir. İkinci resimde, üst üste çizilmiş ve kırmızı daire içine alınmış dört gri küre ve dört kırmızı küre, sol alt köşeye doğru kırmızı bir okla gösterilen ve dört gri kürenin yanına çizilmiş iki gri küre bulunmaktadır. Bu çizimin üst kısmı “6 artı, açık parantez, eksi 4, kapalı parantez”, alt kısmı ise “2” olarak etiketlenmiştir.
+
+6-4\phantom{\rule{0.2em}{0ex}}\text{aynı cevabı verir}\phantom{\rule{0.2em}{0ex}}6+\left(-4\right).
+Elbette, yalnızca pozitif sayılar içeren bir çıkarma probleminiz olduğunda, örneğin 6-4, sadece çıkarma işlemini yaparsınız. Çıkarma işlemini 6-4çoktan öğrenmiştiniz zaten. Ancak, çıkarma işleminin aynı sonucu verdiğini bilmek , negatif sayıları çıkarırken de yardımcı olur. ve işlemlerinin nasıl aynı sonucu verdiğini anladığınızdan emin olun!6-46+\left(-4\right)6-46+\left(-4\right)
+
+ÖRNEK 14
+
+Basitleştirin: a)  13-8ve 13+\left(-8\right) b)  -17-9ve -17+\left(-9\right).
+
+Çözüm
+a)
+Çıkarma işlemi.	\begin{array}{c}13-8\\ 5\end{array}	\begin{array}{c}13+\left(-8\right)\\ 5\end{array}
+b)
+Çıkarma işlemi.	\begin{array}{c}-17-9\\ -29\end{array}	\begin{array}{c}-17+\left(-9\right)\\ -26\end{array}
+DENEYİN 14.1
+
+Basitleştirin: a)  21-13ve 21+\left(-13\right) b)  -11-7ve -11+\left(-7\right).
+
+Yanıtı göster
+DENEYİN 14.2
+
+Basitleştirin: a)  15-7ve 15+\left(-7\right) b)  -14-8ve -14+\left(-8\right).
+
+Yanıtı göster
+Negatif bir sayıyı çıkardığımızda ne olduğuna bakın.
+
+Bu şekil dikey olarak ikiye bölünmüştür. Şeklin sol kısmı, -5'in parantez içinde olduğu 8 eksi -5 ifadesini içerir. Bu ifade, yan yana dizilmiş 8 mavi pul grubunun üzerinde, aralarında boşluk bulunan 5 mavi pul grubunun yanında yer almaktadır. 5 mavi pul grubunun altında, daire içine alınmış 5 kırmızı pul grubu bulunmaktadır. Dairenin sol alt köşesine doğru işaret eden bir ok vardır ve bu ok çıkarma işlemini simgeler. Pulların altında 13 sayısı yer almaktadır. Şeklin sağ kısmı ise 8 artı 5 ifadesini içerir. Bu ifade, yan yana dizilmiş 8 mavi pul grubunun üzerinde, aralarında boşluk bulunan 5 mavi pul grubunun yanında yer almaktadır. Pulların altında 13 sayısı yer almaktadır.
+
+8-\left(-5\right)\phantom{\rule{0.2em}{0ex}}\text{aynı cevabı verir}\phantom{\rule{0.2em}{0ex}}8+5
+Negatif bir sayıyı çıkarmak, pozitif bir sayıyı eklemek gibidir!
+
+Bu ifadeyi genellikle şu şekilde yazılmış olarak göreceksiniz a-\left(-b\right)=a+b: .
+
+Bu durum diğer sayılar için de geçerli mi? Aşağıdaki örneği yapalım ve görelim.
+
+ÖRNEK 15
+
+Basitleştirin: a)  9-\left(-15\right)ve 9+15 b)  -7-\left(-4\right)ve -7+4.
+
+Çözüm
+A)
+\begin{array}{ccccccccc}& & & & & \hfill 9-\left(-15\right)\hfill & & & \hfill 9+15\hfill \\ \text{Çıkar.}\hfill & & & & & \hfill 24\hfill & & & \hfill 24\hfill \end{array}
+
+B)
+\begin{array}{ccccccccc}& & & & & \hfill -7-\left(-4\right)\hfill & & & \hfill -7+4\hfill \\ \text{Çıkarma işlemi.}\hfill & & & & & \hfill -3\hfill & & & \hfill -3\hfill \end{array}
+
+a)
+Çıkarma işlemi.	\begin{array}{c}9-\left(-15\right)\\ 24\end{array}	\begin{array}{c}9+15\\ 24\end{array}
+b)
+Çıkarma işlemi.	\begin{array}{c}-7-\left(-4\right)\\ -3\end{array}	\begin{array}{c}-7+4\\ -3\end{array}
+DENEYİN 15.1
+
+Basitleştirin: a)  6-\left(-13\right)ve 6+13 b)  -5-\left(-1\right)ve -5+1.
+
+Yanıtı göster
+DENEYİN 15.2
+
+Basitleştirin: a)  4-\left(-19\right)ve 4+19 b)  -4-\left(-7\right)ve -4+7.
+
+Yanıtı göster
+5,-5ve'nin farklı kombinasyonlarının çıkarılmasının sonuçlarına tekrar bakalım 3,-3.
+
+Tam Sayıların Çıkarma İşlemi
+
+\begin{array}{cccc}\hfill 5-3\hfill & & & \hfill -5-\left(-3\right)\hfill \\ \hfill 2\hfill & & & \hfill -2\hfill \\ \hfill 5\phantom{\rule{0.2em}{0ex}}\text{pozitifler}\phantom{\rule{0.2em}{0ex}}3\phantom{\rule{0.2em}{0ex}}\text{pozitifleri}\hfill & & & \hfill 5\phantom{\rule{0.2em}{0ex}}\text{negatifler}\phantom{\rule{0.2em}{0ex}}3\phantom{\rule{0.2em}{0ex}}\text{negatifleri}\hfill \\ \hfill 2\phantom{\rule{0.2em}{0ex}}\text{pozitifler}\hfill & & & \hfill 2\phantom{\rule{0.2em}{0ex}}\text{negatifler}\hfill \end{array}
+
+Çıkarılacak renkte yeterli sayıda sayaç olduğunda, çıkarma işlemini gerçekleştirin.\begin{array}{cccc}\hfill -5-3\hfill & & & \hfill 5-\left(-3\right)\hfill \\ \hfill -8\hfill & & & \hfill 8\hfill \\ \hfill 5\phantom{\rule{0.2em}{0ex}}\text{negatifleri, çıkarmak istiyorum}\phantom{\rule{0.2em}{0ex}}3\phantom{\rule{0.2em}{0ex}}\text{pozitifleri}\hfill & & & \hfill 5\phantom{\rule{0.2em}{0ex}}\text{olumlu, 3\phantom{\rule{0.2em}{0ex}}olumsuzu ortadan kaldırmak istiyoruz}\hfill \\ \hfill \text{nötr çiftlere ihtiyacımız var}\hfill & & & \hfill \text{nötr çiftlere ihtiyacımız var}\hfill \end{array}
+
+Çıkarılacak renk miktarı yeterli olmadığında, ekleme yapın.
+
+Üçten fazla tamsayı olduğunda ne olur? Her zamanki gibi işlem önceliği kurallarını kullanırız.
+
+ÖRNEK 16
+
+Basitleştirin: 7-\left(-4-3\right)-9.
+
+Çözüm
+7-\left(-4-3\right)-9
+Önce parantez içindeki ifadeyi sadeleştirin.	7-\left(-7\right)-9
+Soldan sağa doğru çıkarın.	14-9
+Çıkarma işlemi.	5
+DENEYİN 16.1
+
+Basitleştirin: 8-\left(-3-1\right)-9.
+
+Yanıtı göster
+DENEYİN 16.2
+
+Basitleştirin: 12-\left(-9-6\right)-14.
+
+Yanıtı göster
+Tam sayıları toplama ve çıkarma konusunda ek eğitim ve alıştırma için bu çevrimiçi kaynaklara erişin. Uygulamaları kullanmak için web tarayıcınızda Java'yı etkinleştirmeniz gerekecektir.
+
+Renkli çip ekleyin
+Renkli Çipi Çıkarma
+Temel Kavramlar
+Pozitif ve Negatif Tamsayıların Toplanması
+\begin{array}{cccc}5+3\hfill & & & \phantom{\rule{2.5em}{0ex}}-5+\left(-3\right)\hfill \\ \phantom{\rule{0.95em}{0ex}}8\hfill & & & \phantom{\rule{3.45em}{0ex}}-8\hfill \\ \text{ikisi de pozitif,}\hfill & & & \phantom{\rule{2.5em}{0ex}}\text{ikisi de negatif,}\hfill \\ \text{toplam pozitif}\hfill & & & \phantom{\rule{2.5em}{0ex}}\text{toplam negatif}\hfill \\ \\ \\ -5+3\hfill & & & \phantom{\rule{2.5em}{0ex}}5+\left(-3\right)\hfill \\ \phantom{\rule{0.95em}{0ex}}-2\hfill & & & \phantom{\rule{3.45em}{0ex}}2\hfill \\ \text{farklı işaretler,}\hfill & & & \phantom{\rule{2.5em}{0ex}}\text{farklı işaretler,}\hfill \\ \text{daha fazla negatif}\hfill & & & \phantom{\rule{2.5em}{0ex}}\text{daha fazla pozitif}\hfill \\ \text{negatiflerin toplamı}\hfill & & & \phantom{\rule{2.5em}{0ex}}\text{pozitiflerin toplamı}\hfill \end{array}
+Mutlak Değer Özelliği : |n|\ge 0Tüm sayılar için geçerlidir. Mutlak değerler her zaman sıfırdan büyük veya sıfıra eşittir!
+Tam Sayıların Çıkarma İşlemi
+\begin{array}{cccc}5-3\hfill & & & -5-\left(-3\right)\hfill \\ \phantom{\rule{0.95em}{0ex}}2\hfill & & & \phantom{\rule{0.95em}{0ex}}-2\hfill \\ 5\phantom{\rule{0.2em}{0ex}}\text{pozitifler}\hfill & & & 5\phantom{\rule{0.2em}{0ex}}\text{negatifler}\hfill \\ \text{çıkarın}\phantom{\rule{0.2em}{0ex}}3\phantom{\rule{0.2em}{0ex}}\text{pozitifler}\hfill & & & \text{3 negatifi çıkarın}\hfill \\ \text{2 pozitif}\hfill & & & 2 negatif}\hfill \\ \\ \\ -5-3\hfill & & & 5-\left(-3\right)\hfill \\ \phantom{\rule{0.95em}{0ex}}-8\hfill & & & 8\hfill \\ 5 negatif, istiyorum}\hfill & & & 5 pozitif, 3 pozitifi çıkarmak istiyorum ve 3 negatifi çıkarmak istiyorum. Nötr çiftlere ihtiyacım var.
+Çıkarma Özelliği: Bir sayıdan bir sayıyı çıkarmak, o sayının tersini eklemekle aynıdır.
+Sözlük
+mutlak değer
+Bir sayının mutlak değeri, sayı doğrusunda 0'dan olan uzaklığıdır. Bir sayının mutlak değeri Nşeklinde yazılır |n|.
+tamsayılar
+Tam sayılar ve bunların zıtları tamsayılar olarak adlandırılır: …−3, −2, −1, 0, 1, 2, 3…
+zıt
+Bir sayının zıttı, sayı doğrusunda sıfırdan aynı uzaklıkta ancak sıfırın zıt tarafında bulunan sayıdır: "Z", -Asayının zıttı anlamına gelir. Gösterim -A" 'nin zıttı A" şeklinde okunur.
+Pratik mükemmelliği getirir.
+Tam sayıların negatiflerini ve zıt işaretlilerini kullanın.
+Aşağıdaki alıştırmalarda, aşağıdaki sayı çiftlerinin her birini < veya > işaretlerini kullanarak sıralayın.
+
+1.
+a) 9___ 4
+b) -3___ 6
+c) -8___ -2
+d) 1___-10	2.
+a) -7___ 3
+b) -10___ -5
+c) 2___ -6
+d) 8___9
+Aşağıdaki alıştırmalarda, her sayının zıtını bulun.
+
+3.
+a) 2
+b)-6	4.
+a) 9
+b)-4
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+5.-\left(-4\right)	6.-\left(-8\right)
+7.-\left(-15\right)	8.-\left(-11\right)
+Aşağıdaki alıştırmaları değerlendirin.
+
+9. - Cne zaman
+a) c=12
+b)c=-12	10. - Dne zaman
+a) d=21
+b)d=-21
+Mutlak Değer İçeren İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+11.
+a) |-32|
+b) |0|
+c)|16|	12.
+a) |0|
+b) |-40|
+c)|22|
+Aşağıdaki alıştırmalarda, =aşağıdaki sayı çiftlerinin her biri için <, >, veya işaretlerini doldurun.
+
+13.
+a) -6___ |-6|
+b) -|-3|___-3	14.
+a) |-5|___ -|-5|
+b) 9___-|-9|
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+15.-\left(-5\right)\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}-|-5|	16.-|-9|\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}-\left(-9\right)
+17.8|-7|	18.5|-5|
+19.|15-7|-|14-6|	20.|17-8|-|13-4|
+21.18-|2\left(8-3\right)|	22.18-|3\left(8-5\right)|
+Aşağıdaki alıştırmaları değerlendirin.
+
+23.
+a) -|p|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}p=19
+b)-|q|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}q=-33	24.
+a) -|a|\phantom{\rule{0.2em}{0ex}}\text{ne zaman}\phantom{\rule{0.2em}{0ex}}a=60
+b)-|b|\phantom{\rule{0.2em}{0ex}}\text{when}\phantom{\rule{0.2em}{0ex}}b=-12
+Tamsayıları Topla
+Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.
+
+25.-21+\left(-59\right)	26.-35+\left(-47\right)
+27.48+\left(-16\right)	28.34+\left(-19\right)
+29.-14+\left(-12\right)+4	30.-17+\left(-18\right)+6
+31.135+\left(-110\right)+83	32. 6-38+27+\left(-8\right)+126
+33.19+2\left(-3+8\right)	34.24+3\left(-5+9\right)
+Tam sayıları çıkarın
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+35.8-2	36.-6-\left(-4\right)
+37.-5-4	38.-7-2
+39.8-\left(-4\right)	40.7-\left(-3\right)
+41.
+a) 44-28
+b)44+\left(-28\right)	42.
+a) 35-16
+b)35+\left(-16\right)
+43.
+a) 27-\left(-18\right)
+b)27+18	44.
+a) 46-\left(-37\right)
+b)46+37
+Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.
+
+45.15-\left(-12\right)	46.14-\left(-11\right)
+47.48-87	48.45-69
+49.-17-42	50.-19-46
+51.-103-\left(-52\right)	52.-105-\left(-68\right)
+53.-45-\left(54\right)	54.-58-\left(-67\right)
+55.8-3-7	56.9-6-5
+57.-5-4+7	58.-3-8+4
+59.-14-\left(-27\right)+9	60.64+\left(-17\right)-9
+61.\left(2-7\right)-\left(3-8\right)\left(2\right)	62.\left(1-8\right)-\left(2-9\right)
+63.-\left(6-8\right)-\left(2-4\right)	64.-\left(4-5\right)-\left(7-8\right)
+65.25-\left[10-\left(3-12\right)\right]	66.32-\left[5-\left(15-20\right)\right]
+67.6.3-4.3-7.2	68.5.7-8.2-4.9
+69.{5}^{2}-{6}^{2}	70.{6}^{2}-{7}^{2}
+Günlük Matematik
+71. Rakım Kuzey Amerika'daki en yüksek rakım, deniz seviyesinden 20.320 feet yükseklikteki Alaska'daki McKinley Dağı'dır. En düşük rakım ise deniz seviyesinden 282 feet aşağıda bulunan Kaliforniya'daki Ölüm Vadisi'dir.
+
+Aşağıdaki yapıların yüksekliklerini tamsayılar kullanarak yazın:
+
+a) McKinley Dağı.
+b) Ölüm Vadisi.
+
+72. Aşırı Sıcaklıklar Yeryüzünde kaydedilen en yüksek sıcaklık 58, 1922'de Sahra Çölü'nde kaydedilen °C'dir. Kaydedilen en düşük sıcaklık ise 1983'te Antarktika'da kaydedilen °C'nin 90altındadır .0
+
+Aşağıdakileri tamsayılar kullanarak yazın:
+
+a) Kaydedilen en yüksek sıcaklık.
+
+b) Kaydedilen en düşük sıcaklık.
+
+73. Eyalet bütçeleri 2019 yılı için Quebec eyaleti 5,6 milyon dolarlık bütçe fazlası tahmininde bulunmuştur. Aynı yıl Alberta ise 7,5 milyon dolarlık bütçe açığı tahmininde bulunmuştur.
+
+Bütçeyi tam sayılar kullanarak yazın:
+
+a) Quebec.
+b) Alberta.
+
+74. Üniversite Kayıtları Kanada'daki yükseköğretim kurumlarına kayıtlı uluslararası öğrenci sayısı son yirmi yıldır artış gösteriyor ve bu artış oranı Kanadalı öğrencilere göre daha yüksek. Uluslararası öğrenci kayıtları 2015'ten 2017'ye 24.315 artarken, aynı mali yıllarda Kanadalı öğrenci sayısında 912'lik hafif bir düşüş yaşandı.
+Para üstünü tam sayılarla yazın:
+
+a) 2015 Sonbahar döneminden 2017 Sonbahar dönemine kadar uluslararası öğrenci kayıtlarında.
+
+b) 2015 Sonbaharından 2017 Sonbaharına kadar Kanada'daki öğrenci kayıtlarında.
+
+75. Borsa 15 Eylül 2008 haftası, ABD borsası için şimdiye kadarki en dalgalı haftalardan biriydi. Dow Jones Sanayi Endeksi'nin her günkü kapanış rakamları şöyleydi:
+
+Pazartesi	-504
+Salı	+142
+Çarşamba	-449
+Perşembe	+410
+Cuma	+369
+Hafta boyunca genel değişim ne oldu? Olumlu muydu, olumsuz muydu?
+
+76. Borsa 22 Haziran 2009 haftasında, Dow Jones Sanayi Endeksi'nin her günkü kapanış rakamları şöyleydi:
+
+Pazartesi	-201
+Salı	-16
+Çarşamba	-23
+Perşembe	+172
+Cuma	-34
+Hafta boyunca genel değişim ne oldu? Olumlu muydu, olumsuz muydu?
+
+Yazma Alıştırmaları
+77. Hayatınızdan bir negatif sayı örneği verin.	\text{``}-\text{''}78. Cebirde işaretin üç kullanım alanı nedir ? Aralarındaki farkları açıklayın.
+79. 1 ve 2'nin toplamının -8negatif, 8 ve 2'nin toplamının ise -2pozitif olmasının nedenini açıklayın.	80. Hayatınızdan iki negatif sayıyı toplama örneği verin.
+Cevaplar
+1. a) > b) < c) < d) >	3. a) -2b) 6	5. 4
+7. 15	9. a) -12b) 12	11. a) 32 b) 0 c) 16
+13. a) < b)=	15.5,-5	17. 56
+19. 0	21. 8	23. a) -19b)-33
+25.-80	27. 32	29.-22
+31. 108	33. 29	35. 6
+37.-9	39. 12	41. a) 16 b) 16
+43. a) 45 b) 45	45. 27	47.-39
+49.-59	51.-51	53. -99
+55.-2	57.-2	59. 22
+61.-15	63.0	65. 6
+67.-5.2	69.-11	71. a) 20.320 b)-282
+73. a) 5,6 milyon dolar b) -7,5 dolarmilyon	75.-32	77. Cevaplar farklılık gösterebilir.
+79. Cevaplar farklılık gösterebilir.		
+Atıflar
+Bu bölüm, Lynn Marecek ve MaryAnne Anthony-Smith'in " Elementary Algebra " (OpenStax) adlı eserindeki "Tam Sayıları Toplama ve Çıkarma" bölümünden uyarlanmıştır ve CC BY 4.0 Lisansı altındadır . Uyarlayan: Izabela Mazur. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+5
+1.5 Tam Sayıları Çarpma ve Bölme
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Tam sayıları çarpmak
+Tam sayıları bölmek
+Tamsayı içeren ifadeleri sadeleştirin.
+Tamsayılarla değişken ifadelerini değerlendirin.
+İngilizce ifadeleri cebirsel ifadelere çevirin
+Uygulamalarda tamsayılar kullanın.
+Tam sayıları çarpmak
+Çarpma işlemi, tekrarlı toplamanın matematiksel kısaltması olduğundan, modelimiz tam sayıların çarpımını göstermek için kolaylıkla uygulanabilir . Bu somut modele bakalım ve hangi örüntüleri fark ettiğimizi görelim. Toplama ve çıkarma için kullandığımız örneklerin aynısını burada da kullanacağız. Burada, modeli sadece örüntüyü keşfetmemize yardımcı olması için kullanacağız.
+
+Bunun , a'yı ba \cdot b kez eklemek anlamına geldiğini hatırlıyoruz . Burada modeli sadece örüntüyü keşfetmemize yardımcı olması için kullanıyoruz.
+
+Yan yana iki resim gösterilmiştir. Soldaki resimde üstte beş çarpı üç denklemi yer almaktadır. Bunun altında "5'i 3 kez ekle" yazmaktadır. Bunun altında, her sırada beş tane olmak üzere üç sıra mavi sayıcı gösterilmektedir. Bunun altında "15 pozitif" yazmaktadır. Bunun altında ise "5 çarpı 3 eşittir 15" denklemi yer almaktadır. Sağdaki resimde ise "eksi 5 çarpı üç" yazmaktadır. Üç rakamı parantez içindedir. Bunun altında "eksi beşi üç kez ekle" yazmaktadır. Bunun altında, her sırada beş tane olmak üzere on beş kırmızı sayıcı bulunmaktadır. Bunun altında "15 negatif" yazmaktadır. Bunun altında ise "eksi beş çarpı 3 eşittir eksi 15" denklemi yer almaktadır.
+
+Sonraki iki örnek daha ilginç.
+
+5'i ile çarpmak ne anlama gelir? -3?5'i 3 kez çıkarmak anlamına gelir. Çıkarma işlemini "çıkarma" olarak düşünürsek, 5'i 3 kez çıkarmak demektir. Ancak çıkarılacak bir şey yok, bu yüzden çalışma alanına nötr çiftler ekleyerek başlıyoruz. Sonra 5'i üç kez çıkarıyoruz.
+
+Bu şekilde iki sütun bulunmaktadır. Üst satırda, sol sütunda 5 çarpı -3 ifadesi yer almaktadır. Bu, 5'i üç kez çıkarmak anlamına gelir. Bunun altında, beşerli üç grup kırmızı negatif sayaç ve her kırmızı sayaç grubunun altında da aynı beşerli mavi pozitif sayaç grubu bulunmaktadır. Geriye kalanlar, 15 kırmızı sayaçla temsil edilen on beş negatiftir. Sayaçların altında 5 çarpı -3 eşittir -15 denklemi yer almaktadır. Üst satırda, sağ sütunda -5 çarpı -3 ifadesi yer almaktadır. Bu, -5'i üç kez çıkarmak anlamına gelir. Bunun altında, beşerli üç grup mavi pozitif sayaç ve her mavi sayaç grubunun altında da aynı beşerli kırmızı negatif sayaç grubu bulunmaktadır. Geriye kalanlar, 15 mavi sayaçla temsil edilen on beş pozitiftir. Mavi sayaçların altında ise -5 çarpı -3 eşittir 15 denklemi yer almaktadır.
+
+Özetle:
+
+\begin{array}{cccccccc}\hfill 5 \cdot 3& =\hfill & 15\hfill & & & \hfill -5\left(3\right)& =\hfill & -15\hfill \\ \hfill 5\left(-3\right)& =\hfill & -15\hfill & & & \hfill \left(-5\right)\left(-3\right)& =\hfill & 15\hfill \end{array}
+İki işaretli sayının çarpımında, aşağıdaki durumlara dikkat edin:
+
+İşaretler aynı , ürün pozitif .
+İşaretler farklı , sonuç negatif .
+Tüm bunları aşağıdaki tabloda bir araya getireceğiz.
+
+İşaretli Sayıların Çarpımı
+
+İki işaretli sayının çarpımı için:
+
+Aynı işaretler	Ürün	Örnek
+İki olumlu,
+iki olumsuz	Olumlu
+Olumlu	\begin{array}{ccc}\hfill 7\cdot4& =\hfill & 28\hfill \\ \hfill -8\left(-6\right)& =\hfill & 48\hfill \end{array}
+Farklı işaretler	Ürün	Örnek
+Pozitif ⋅ negatif
+Negatif ⋅ pozitif	Olumsuz
+Olumsuz	\begin{array}{ccc}\hfill 7\left(-9\right)& =\hfill & -63\hfill \\ \hfill -5\cdot10& =\hfill & -50\hfill \end{array}
+ÖRNEK 1
+
+Çarpma işlemi: a) -9\cdot3b) -2\left(-5\right)c) 4\left(-8\right)d) 7\cdot6.
+
+Çözüm
+a)
+İşaretlerin farklı olduğunu ve dolayısıyla çarpımın negatif olduğunu dikkate alarak çarpın.	\begin{array}{c}-9\cdot3\\ -27\end{array}
+b)
+İşaretlerin aynı olduğunu ve dolayısıyla çarpımın pozitif olduğunu dikkate alarak çarpın.	\begin{array}{c}-2\left(-5\right)\\ 10\end{array}
+c)
+Farklı işaretlerle çarpın.	\begin{array}{c}4\left(-8\right)\\ -32\end{array}
+d)
+Aynı işaretle çarpın.	\begin{array}{c}7\cdot6\\ 42\end{array}
+DENEYİN 1.1
+
+Çarpma işlemi: a) -6\cdot8b) -4(-7)c) 9\left(-7\right)d) 5\cdot12.
+
+Yanıtı göster
+DENEYİN 1.2
+
+Çarpma işlemi: a) -8\cdot7b) -6\left(-9\right)c) 7\left(-4\right)d) 3\cdot13.
+
+Yanıtı göster
+Bir sayıyı 1 ile çarptığımızda sonuç aynı sayı olur. Peki bir sayıyı ile çarptığımızda ne olur ? Ne elde ettiğimizi görmek için -1önce pozitif bir sayıyı, sonra da negatif bir sayıyı ile çarpalım .-1
+
+\begin{array}{ccccccc}& & & \hfill -1\cdot 4\hfill & & & \hfill -1\left(-3\right)\hfill \\ \text{Çarpma.}\hfill & & & \hfill -4\hfill & & & \hfill 3\hfill \\ & & & \hfill -4\phantom{\rule{0.2em}{0ex}}\text{4'ün tersidir.}\phantom{\rule{0.2em}{0ex}}\text{-3'ün tersidir.}\hfill \end{array}
+
+Bir sayıyı ile her çarptığımızda -1, o sayının tersini elde ederiz!
+
+Çarpma ile-1
+
+-1a=\text{-}a
+
+Bir sayıyı ile çarpmak, -1o sayının tersini verir.
+
+ÖRNEK 2
+
+Çarpma işlemi: a) -1\cdot7b) -1\left(-11\right).
+
+Çözüm
+a)
+İşaretlerin farklı olduğunu ve dolayısıyla çarpımın negatif olduğunu dikkate alarak çarpın.	\begin{array}{c}-1\cdot7\\ -7\\ -7\phantom{\rule{0.2em}{0ex}}\text{7'nin tersidir.\end{array}
+b)
+İşaretlerin aynı olduğunu ve dolayısıyla çarpımın pozitif olduğunu dikkate alarak çarpın.	\begin{array}{c}-1\left(-11\right)\\ 11\\ 11\phantom{\rule{0.2em}{0ex}}\text{-11'in tersidir.\end{array}
+DENEYİN 2.1
+
+Çarpma işlemi: a) -1\cdot9b) -1 ⋅ (-17).
+
+Yanıtı göster
+DENEYİN 2.2
+
+Çarpma işlemi: a) -1\cdot8b) -1 ⋅ (-16).
+
+Yanıtı göster
+Tamsayıları Bölme
+Peki ya bölme ? Bölme, çarpmanın ters işlemidir. Yani 15\div 3=5, 5\cdot3=1515 = 15 - 15 olduğundan, 15'in her biri beşten oluşan üç gruba bölünebileceğini söyler. Tam sayıların bölme kurallarını anlamak için tam sayıların çarpımına dair bazı örneklere bakalım.
+
+\begin{array}{cccccccccccccc}\hfill 5\cdot3& =\hfill & 15\phantom{\rule{0.2em}{0ex}}\text{so}\phantom{\rule{0.2em}{0ex}}15\div 3\hfill & =\hfill & 5\hfill & & & & & \hfill -5\left(3\right)& =\hfill & -15\phantom{\rule{0.2em}{0ex}}\text{so}\phantom{\rule{0.2em}{0ex}}-15\div3\hfill & =\hfill & -5\hfill \\ \hfill \left(-5\right)\left(-3\right)& =\hfill & 15\phantom{\rule{0.2em}{0ex}}\text{so}\phantom{\rule{0.2em}{0ex}}15\div \left(-3\right)\hfill & =\hfill & -5\hfill & & & & & \hfill 5\left(-3\right)& =\hfill & -15\phantom{\rule{0.2em}{0ex}}\text{so}\phantom{\rule{0.2em}{0ex}}-15\div \left(-3\right)\hfill & =\hfill & 5\hfill \end{array}
+
+Bölme işlemi de çarpma işlemiyle aynı kurallara tabidir!
+
+İki işaretli sayının bölme işleminde, aşağıdaki durumlarda:
+
+İşaretler aynı , bölüm pozitif .
+İşaretler farklı , bölüm negatif .
+Unutmayın ki, bölme işlemlerinin sonucunu her zaman çarpma yoluyla kontrol edebiliriz.
+
+İşaretli Sayıların Çarpımı ve Bölmesi
+
+İki işaretli sayının çarpımı ve bölmesi için:
+
+İşaretler aynıysa sonuç olumludur.
+İşaretler farklıysa sonuç negatiftir.
+Aynı işaretler	Sonuç
+İki olumlu	Pozitif
+İki olumsuz	Pozitif
+İşaretler aynıysa sonuç olumludur.
+
+Farklı işaretler	Sonuç
+Olumlu ve olumsuz	Negatif
+Negatif ve pozitif	Negatif
+İşaretler farklıysa sonuç negatiftir.
+
+ÖRNEK 3
+
+Bölme: a) -27\div 3b) -100\div \left(-4\right).
+
+Çözüm
+a)
+Bölme işlemi. İşaretleri farklı olduğundan bölüm negatiftir.	\begin{array}{c}-27\div 3\\ -9\end{array}
+b)
+Bölme işlemi. İşaretleri aynı olan sayılarda bölüm pozitiftir.	\begin{array}{c}-100\div\left(-4\right)\\ 25\end{array}
+DENEYİN 3.1
+
+Bölme: a) -42\div 6b) -117\div\left(-3\right).
+
+Yanıtı göster
+DENEYİN 3.2
+
+Bölme: a) -63\div 7b) -115\div\left(-5\right).
+
+Yanıtı göster
+Tamsayılarla İfadeleri Basitleştirme
+Bir ifadede ikiden fazla sayı olduğunda ne olur? Negatif sayılar da dahil olduğunda işlem önceliği kuralları geçerliliğini korur. "Sevgili Teyzem Sally" filmini hatırlıyor musunuz?
+
+Şimdi birkaç örnek deneyelim. Toplama, çıkarma, çarpma ve bölme olmak üzere tam sayılarla yapılan dört işlemi de içeren ifadeleri basitleştireceğiz. İşlem önceliğine uymayı unutmayın.
+
+ÖRNEK 4
+
+Basitleştirin: 7\left(-2\right)+4\left(-7\right)-6.
+
+Çözüm
+7\left(-2\right)+4\left(-7\right)-6
+Önce çarpma işlemini yapın.	-14+\left(-28\right)-6
+Eklemek.	-42-6
+Çıkarma işlemi.	-48
+DENEYİN 4.1
+
+Basitleştirin: 8\left(-3\right)+5\left(-7\right)-4.
+
+Yanıtı göster
+DENEYİN 4.2
+
+Basitleştirin: 9\left(-3\right)+7\left(-8\right)-1.
+
+Yanıtı göster
+ÖRNEK 5
+
+Basitleştirin: a) {\left(-2\right)}^{4}b) \text{-}{2}^{4}.
+
+Çözüm
+a)
+Açılmış biçimde yazın.
+Çarpın.
+Çarpın.
+Çarpın.	\begin{array}{c}{\left(-2\right)}^{4}\\ \left(-2\right)\left(-2\right)\left(-2\right)\left(-2\right)\\ 4\left(-2\right)\left(-2\right)\\ -8\left(-2\right)\\ 16\end{array}
+b)
+Açılmış biçimde yazın. ifadesinin tersini bulmamız isteniyor \phantom{\rule{0.2em}{0ex}}{2}^{4}.
+Çarpın.
+Çarpın.
+Çarpın.	\begin{array}{c}\text{-}{2}^{4}\\ \text{-}\left(2\cdot2\cdot2\cdot2\right)\\ \text{-}\left(4\cdot2\cdot2\right)\\ \text{-}\left(8\cdot2\right)\\ 16\end{array}
+a) ve b) şıkları arasındaki farka dikkat edin. a) şıkkında üs, parantez içindeki ifadeyi, yani \left(-2\right)2'yi {4}^{\text{th}}üs almak anlamına gelir. b) şıkkında ise üs, sadece 2'yi üs almak {4}^{\text{th}}ve ardından tersini almak anlamına gelir.
+
+DENEYİN 5.1
+
+Basitleştirin: a) {\left(-3\right)}^{4}b) \text{-}{3}^{4}.
+
+Yanıtı göster
+DENEYİN 5.2
+
+Basitleştirin: a) {\left(-7\right)}^{2}b) \text{-}{7}^{2}.
+
+Yanıtı göster
+Bir sonraki örnek, öncelikle parantez içindeki ifadeleri sadeleştirmemiz gerektiğini hatırlatıyor.
+
+ÖRNEK 6
+
+Basitleştirin: 12-3\left(9-12\right).
+
+Çözüm
+12-3\left(9-12\right)
+Önce parantez içindeki işlemleri çıkarın.	12-3\left(-3\right)
+Çarpma işlemi.	12-\left(-9\right)
+Çıkarma işlemi.	21
+DENEYİN 6.1
+
+Basitleştirin: 17-4\left(8-11\right).
+
+Yanıtı göster
+DENEYİN 6.2
+
+Basitleştirin: 16-6\left(7-13\right).
+
+Yanıtı göster
+ÖRNEK 7
+
+Basitleştirin: 8\left(-9\right)\div{\left(-2\right)}^{3}.
+
+Çözüm
+8\left(-9\right)\div{\left(-2\right)}^{3}
+Önce üslü sayılar.	8\left(-9\right)\div\left(-8\right)
+Çarpma işlemi.	-72\div \left(-8\right)
+Bölmek.	9
+DENEYİN 7.1
+
+Basitleştirin: 12\left(-9\right)\div{\left(-3\right)}^{3}.
+
+Yanıtı göster
+DENEYİN 7.2
+
+Basitleştirin: 18\left(-4\right)\div{\left(-2\right)}^{3}.
+
+Yanıtı göster
+ÖRNEK 8
+
+Basitleştirin: -30\div 2+\left(-3\right)\left(-7\right).
+
+Çözüm
+-30\div 2+\left(-3\right)\left(-7\right)
+Çarpma ve bölme işlemleri soldan sağa yapılır, bu nedenle önce bölme işlemini yapın.	-15+\left(-3\right)\left(-7\right)
+Çarpma işlemi.	-15+21
+Eklemek.	6
+DENEYİN 8.1
+
+Basitleştirin: -27\div 3+\left(-5\right)\left(-6\right).
+
+Yanıtı göster
+DENEYİN 8.2
+
+Basitleştirin: -32\div 4+\left(-2\right)\left(-7\right).
+
+Yanıtı göster
+Tamsayılarla Değişken İfadelerini Değerlendirme
+Unutmayın ki, bir ifadeyi değerlendirmek, ifadedeki değişkenin yerine bir sayı koymak anlamına gelir. Artık pozitif sayıların yanı sıra negatif sayıları da kullanabiliriz.
+
+ÖRNEK 9
+
+Şu durumlarda n=-5değerlendirin: a) n+1b) \text{-}n+1.
+
+Çözüm
+A)
+
+.
+.	.
+Basitleştirin.	−4
+B)
+
+.
+.	.
+Basitleştirin.	.
+Eklemek.	6
+DENEYİN 9.1
+
+Ne zaman n=-8, a) n+2b)' yi değerlendirin \text{-}n+2.
+
+Yanıtı göster
+DENEYİN 9.2
+
+Ne zaman y=-9, a) y+8b)' yi değerlendirin \text{-}y+8.
+
+Yanıtı göster
+ÖRNEK 10
+
+{\left(x+y\right)}^{2}Ne zaman x=-18ve nasıl değerlendirilir y=24?
+
+Çözüm
+.
+.	{\left(-18+24\right)}^{2}
+Parantez içine ekleyin.	(6) 2
+Basitleştirin.	36
+DENEYİN 10.1
+
+{\left(x+y\right)}^{2}Ne zaman x=-15ve nasıl değerlendirilir y=29?
+
+Yanıtı göster
+DENEYİN 10.2
+
+{\left(x+y\right)}^{3}Ne zaman x=-8ve nasıl değerlendirilir y=10?
+
+Yanıtı göster
+ÖRNEK 11
+
+20-za) z=12ve b) durumlarını değerlendirin z=-12.
+
+Çözüm
+A)
+
+.
+.	.
+Çıkarma işlemi.	8
+B)
+
+.
+.	.
+Çıkarma işlemi.	32
+DENEYİN 11.1
+
+Değerlendirin: 17-ka) k=19ve b) durumları için k=-19.
+
+Yanıtı göster
+DENEYİN 11.2
+
+Değerlendirin: -5-ba) b=14ve b) durumları için b=-14.
+
+Yanıtı göster
+ÖRNEK 12
+
+Değerlendirin: 2x²+3x+8ne zaman x=4.
+
+Çözüm
+Yerine koyma işlemi 4\phantom{\rule{0.2em}{0ex}}\text{için}\phantom{\rule{0.2em}{0ex}}x. Çarpma işlemini göstermek için parantez kullanın.
+
+.
+Yerine geçmek.	.
+Üslü ifadeleri değerlendirin.	.
+Çarpma işlemi.	.
+Eklemek.	52
+DENEYİN 12.1
+
+Değerlendirin: 3x²-2x+6ne zaman x=-3.
+
+Yanıtı göster
+DENEYİN 12.2
+
+Değerlendirin: 4x²-x-5ne zaman x=-2.
+
+Yanıtı göster
+Cümleleri Tam Sayılarla İfadelere Çevir
+İngilizceyi cebire çevirme konusundaki önceki çalışmalarımız, hem pozitif hem de negatif sayıları içeren ifadeler için de geçerlidir.
+
+ÖRNEK 13
+
+Çevir ve sadeleştir: 8 ve sayılarının toplamına -123 eklenmiş hali.
+
+Çözüm
+8 ve sayılarının toplamına 3 -12eklenmiş hali.
+Çevir.	\left[8+\left(-12\right)\right]+3
+Basitleştirin. Parantez içindeki ifadeleri mutlak değer işaretiyle karıştırmamaya dikkat edin.	\left(-4\right)+3
+Eklemek.	-1
+DENEYİN 13.1
+
+9 ve sayılarının toplamını -16, 4 ile artırılmış haliyle, sadeleştirin ve tercüme edin.
+
+Yanıtı göster
+DENEYİN 13.2
+
+-8ve 'nin toplamını -127 ile artırarak tercüme edin ve sadeleştirin.
+
+Yanıtı göster
+İşlem sembollerini ilk tanıttığımızda, ifadenin çeşitli şekillerde okunabileceğini gördük. Bunlar aşağıdaki tabloda listelenmiştir.
+
+ab
+Aeksi B
+farkı Ave B
+Bçıkarıldığında A
+Bdaha azA
+a ve b'yi doğru sırayla almaya dikkat edin !
+
+ÖRNEK 14
+
+Önce çevirip sonra sadeleştirin: a) 13 ile -21b) 24'ü 'den çıkarın -19.
+
+Çözüm
+a)
+Çevirin.
+Basitleştirin.	\begin{array}{c}\text{13\phantom{\rule{0.2em}{0ex}}\mathbf\text{farkı}}\phantom{\rule{0.2em}{0ex}}\mathit\text{ve}}\phantom{\rule{0.2em}{0ex}}-21\text{arasındaki fark\\ 13-\left(-21\right)\\ 34\end{array}
+b)
+Çevirin. Unutmayın, "çıkarma işlemi" Bbasitleştirme anlamına Agelir ab.
+\begin{array}{c}\mathbf{\text{-19'dan 24'ü çıkarın}\phantom{\rule{0.2em}{0ex}}\mathbf\text{-19'dan}\\ -19-24\\ -43\end{array}
+DENEYİN 14.1
+
+-23a) 14 ile b) 21'in farkını çevirin ve sadeleştirin -17.
+
+Yanıtı göster
+DENEYİN 14.2
+
+-19a) 11 ile b) 18 arasındaki farkı çevirin ve sadeleştirin -11.
+
+Yanıtı göster
+Daha önce İngilizceyi cebire çevirme çalışmalarımız, tam sayıların hem çarpma hem de bölme işlemlerini içeren ifadelere de uygulanabilir. Çarpma için anahtar kelimenin " çarpım ", bölme için ise " bölüm " olduğunu hatırlayın.
+
+ÖRNEK 15
+
+-2Cebirsel bir ifadeye çevirin ve mümkünse sadeleştirin: ve 14'ün çarpımı
+
+Çözüm
+\text{-2\phantom{\rule{0.2em}{0ex}}-2\phantom{\rule{0.2em}{0ex}}\mathit{\text{ve}}\phantom{\rule{0.2em}{0ex}}14'ün çarpımı
+Çevir.	\left(-2\right)\left(14\right)
+Basitleştirin.	-28
+DENEYİN 15.1
+
+-5Cebirsel bir ifadeye çevirin ve mümkünse sadeleştirin: ve 12'nin çarpımı
+
+Yanıtı göster
+DENEYİN 15.2
+
+8 ile 'nin çarpımını cebirsel bir ifadeye çevirin ve mümkünse sadeleştirin -13.
+
+Yanıtı göster
+ÖRNEK 16
+
+-56ve ' nin bölümünü cebirsel bir ifadeye çevirin ve mümkünse sadeleştirin -7.
+
+Çözüm
+\text{-56\phantom{\rule{0.2em}{0ex}} ve -7'nin bölümü}\phantom{\rule{0.2em}{0ex}}\mathit{\text{ve}}\phantom{\rule{0.2em}{0ex}}-7
+Çevir.	-56\div \left(-7\right)
+Basitleştirin.	8
+DENEYİN 16.1
+
+-63ve ' nin bölümünü cebirsel bir ifadeye çevirin ve mümkünse sadeleştirin -9.
+
+Yanıtı göster
+DENEYİN 16.2
+
+-72ve ' nin bölümünü cebirsel bir ifadeye çevirin ve mümkünse sadeleştirin -9.
+
+Yanıtı göster
+Uygulamalarda Tamsayı Kullanımı
+Uygulamaları çözmek için bir plan taslağı oluşturacağız. Ne aradığımızı veya ona ne ad vereceğimizi bilmiyorsak bir şeyi bulmak zordur! Bu nedenle, bir uygulamayı çözerken öncelikle problemin bizden neyi bulmamızı istediğini belirlememiz gerekir. Ardından, onu bulmak için gereken bilgiyi veren bir ifade yazacağız. İfadeyi bir cümleye çevireceğiz ve ardından cevabı elde etmek için cümleyi basitleştireceğiz. Son olarak, anlamlı olduğundan emin olmak için cevabı bir cümlede özetleyeceğiz.
+
+ÖRNEK 17
+
+Britanya Kolombiyası'ndaki Sparwood'da bir sabah sıcaklık 11 dereceydi. Öğleden sonra ise sıcaklık 2 -9dereceye düştü. Sabah ve öğleden sonraki sıcaklıklar arasındaki fark nedir?
+
+Çözüm
+Bu, iki sütunlu bir tablodur. Sol sütun, problemi çözme adımlarını içerir. Sağ sütun ise problemi çözmek için gereken matematiksel işlemleri içerir. İlk satırda, sol sütunda “Adım 1. Problemi okuyun. Tüm kelimelerin ve fikirlerin anlaşıldığından emin olun.” yazmaktadır. Sağ sütun boştur.İkinci satırda, sol sütunda “Adım 2. Bizden ne bulmamız isteniyor?” yazıyor. Sağ sütunda ise “sabah ve öğleden sonra sıcaklıkları arasındaki fark” yazıyor.Üçüncü satırda, sol sütunda “3. Adım. Bulmak için gereken bilgiyi veren bir ifade yazın.” yazıyor. Bunun yanında, sağ sütunda ise “11 ile -9'un farkı” yazıyor.Dördüncü satırda, sol sütunda "Adım 4. İfadeyi bir söz öbeğine çevirin." yazıyor. Sağ sütunda ise 11 eksi -9 yer alıyor.Beşinci satırda, sol sütunda “Adım 5. İfadeyi sadeleştirin.” yazıyor. Sağ sütunda ise 20 sayısı bulunuyor.Son satırda, “Beşinci adım. Soruyu yanıtlayan tam bir cümle yazın.” yazıyor. Bunun yanında, sağ sütunda, “Sıcaklık farkı 20 dereceydi.” yazıyor.
+
+DENEYİN 17.1
+
+Yukon'daki Whitehorse kasabasında bir sabah sıcaklık 15 dereceydi. Öğleden sonra ise sıcaklık eksi 30 dereceye düştü. Sabah ve öğleden sonraki sıcaklıklar arasındaki fark nedir?
+
+Yanıtı göster
+DENEYİN 17.2
+
+Britanya Kolombiyası'ndaki Quesnel şehrinde öğle saatlerinde sıcaklık -680 dereceydi. Gün batımına doğru sıcaklık -1520 dereceye düştü. Öğle ve gün batımı sıcaklıkları arasındaki fark nedir?
+
+Yanıtı göster
+NASIL YAPILIR: Tamsayılarla İlgili Uygulamaları Çözmek İçin Bir Strateji Uygulamak
+
+Soruyu okuyun. Tüm kelimelerin ve fikirlerin anlaşıldığından emin olun.
+Bizden neyi bulmamız istendiğini belirleyin.
+Bulunması için gereken bilgiyi veren bir ifade yazın.
+Bu ifadeyi bir deyime çevirin.
+İfadeyi sadeleştirin.
+Soruyu tam bir cümleyle cevaplayın.
+ÖRNEK 18
+
+Mustangs futbol takımı üçüncü çeyrekte üç ceza aldı. Her ceza onlara on beş yarda kayıp getirdi. Kaybedilen toplam yarda sayısı kaçtır?
+
+Çözüm
+Adım 1. Problemi okuyun. Tüm kelimelerin ve fikirlerin anlaşıldığından emin olun.	
+2. Adım. Bizden ne bulmamız istendiğini belirleyin.	kaybedilen yarda sayısı
+3. Adım. Bulmak için gereken bilgiyi veren bir ifade yazın.	üç kez 15 yardalık ceza
+4. Adım. İfadeyi bir deyime çevirin.	3\left(-15\right)
+Adım 5. İfadeyi sadeleştirin.	-45
+Adım 6. Soruyu tam bir cümleyle cevaplayın.	Takım 45 yarda kaybetti.
+DENEYİN 18.1
+
+Bears takımı kötü oynadı ve maçta yedi faul yaptı. Her faul 15 yarda kayba neden oldu. Fauller nedeniyle kaybedilen toplam yarda sayısı kaçtır?
+
+Yanıtı göster
+DENEYİN 18.2
+
+Bill, kampüs içindeki ATM'yi uygun olduğu için kullanıyor. Ancak her kullanımda 2 dolarlık bir ücret ödüyor. Geçen ay ATM'yi sekiz kez kullandı. ATM kullanımı için toplamda ne kadar ücret ödedi?
+
+Yanıtı göster
+Temel Kavramlar
+İki İşaretli Sayının Çarpımı ve Bölmesi
+Aynı işaretler—Ürün olumlu
+Farklı işaretler—Ürün negatif
+Uygulamalar için Strateji
+Ne bulmanız istendiğini belirleyin.
+Bulunması için gereken bilgiyi veren bir ifade yazın.
+Bu ifadeyi bir deyime çevirin.
+İfadeyi sadeleştirin.
+Soruyu tam bir cümleyle cevaplayın.
+Pratik mükemmelliği getirir.
+Tam sayıları çarpmak
+Aşağıdaki alıştırmalarda çarpma işlemi yapın.
+
+1.-4\cdot8	2.-3\cdot9
+3.9\left(-7\right)	4.13\left(-5\right)
+5.-1\cdot6	6.-1\cdot3
+7.-1\left(-14\right)	8.-1\left(-19\right)
+Tamsayıları Bölme
+Aşağıdaki alıştırmalarda, bölme işlemi yapın.
+
+9.-24\div6	10.35\div\left(-7\right)
+11.-52\div\left(-4\right)	12.-84\div\left(-6\right)
+13.-180\div15	14.-192\div12
+Tamsayılarla İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.
+
+15.5\left(-6\right)+7\left(-2\right)-3	16.8\left(-4\right)+5\left(-4\right)-6
+17.{\left(-2\right)}^{6}	18.{\left(-3\right)}^{5}
+19.\text{-}{4}^{2}	20.\text{-}{6}^{2}
+21.-3\left(-5\right)\left(6\right)	22.-4\left(-6\right)\left(3\right)
+23.\left(8-11\right)\left(9-12\right)	24.\left(6-11\right)\left(8-13\right)
+25.26-3\left(2-7\right)	26.23-2\left(4-6\right)
+27.65\div\left(-5\right)+\left(-28\right)\div\left(-7\right)	28.52\div\left(-4\right)+\left(-32\right)\div\left(-8\right)
+29.9-2\left[3-8\left(-2\right)\right]	30.11-3\left[7-4\left(-2\right)\right]
+31.{\left(-3\right)}^{2}-24\div\left(8-2\right)	32.{\left(-4\right)}^{2}-32\div\left(12-4\right)
+Tamsayılarla Değişken İfadelerini Değerlendirme
+Aşağıdaki alıştırmalarda her bir ifadeyi değerlendirin.
+
+33. y+\left(-14\right)ne zaman
+a) y=-33
+b)y=30	34. x+\left(-21\right)ne zaman
+a) x=-27
+b)x=44
+35.
+a) a+3ne zaman a=-7
+b) \text{-}a+3ne zamana=-7	36.
+a) d+\left(-9\right)ne zaman d=-8
+b) \text{-}d+\left(-9\right)ne zamand=-8
+37.  m+nne zaman
+m=-15,n=7	38. p+qne zaman
+p=-9,q=17
+39. r+sne zamanr=-9,s=-7	40. t+une zamant=-6,u=-5
+41. {\left(x+y\right)}^{2}ne zaman
+x=-3,y=14	42. {\left(y+z\right)}^{2}ne zaman
+y=-3,z=15
+43. -2x+17ne zaman
+a) x=8
+b)x=-8	44. -5y+14ne zaman
+a) y=9
+b)y=-9
+45. 10-3mne zaman
+a) m=5
+b)m=-5	46. 18-4n​​ne zaman
+a) n=3
+b)n=-3
+47. 2w²-3w+7ne zaman
+w=-2	48. 3{u}^{2}-4u+5ne zamanu=-3
+49. 9a-2b-8ne zaman
+a=-6\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}b=-3	50. 7m-4n-2ne zaman
+m=-4\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}n=-9
+İngilizce İfadeleri Cebirsel İfadelere Çevir
+Aşağıdaki alıştırmalarda, ifadeleri cebirsel bir ifadeye çevirin ve mümkünse sadeleştirin.
+
+51. 3 ve 'nin toplamına -157 eklenmiş hali.	-852. ve'nin toplamı -9, 23 ile artırılmış hali.
+53. 10 ile ... arasındaki fark-18	54. 11'i çıkarın-25
+-555. ve arasındaki fark-30	56. -6çıkarın-13
+-357. ve'nin ürünü15	-458. ve'nin ürünü16
+-6059. ve'nin bölümü-20	-4060. ve'nin bölümü-20
+61. a ve b'nin-6 toplamının bölümü	62. m ve n'nin-7 toplamının bölümü
+63. çarpımı -10ve farkıp\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}q	64. çarpımı -13ve farkıc\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}d
+Uygulamalarda Tamsayı Kullanımı
+Aşağıdaki alıştırmaları çözün.
+
+65. Sıcaklık Ocak ayında 15, Britanya Kolombiyası'ndaki Lytton'da en yüksek sıcaklık 84°C idi. Aynı gün, Britanya Kolombiyası'ndaki Fort Nelson'da en yüksek sıcaklık -12°C idi. Lytton'daki sıcaklık ile Embarrass'taki sıcaklık arasındaki fark nedir?	66. Sıcaklık Ocak ayında 21, Kaliforniya'daki Palm Springs'te en yüksek sıcaklık 89°C, New Hampshire'daki Whitefield'da ise en yüksek sıcaklık -31°C idi. Palm Springs ve Whitefield'daki sıcaklıklar arasındaki fark nedir?
+67. Amerikan Futbolu İlk hücumda, Chargers takımı topu kendi 25 yard çizgisinde tutuyordu. Sonraki üç hücumda 6 yard kaybettiler, 10 yard kazandılar ve 8 yard kaybettiler. Dördüncü hücumun sonunda yard çizgisi kaç yarda idi?	68. Amerikan Futbolu İlk hücumda Steelers topu kendi 30 yard çizgisinde tutuyordu. Sonraki üç hücumda sırasıyla 9 yard kazandılar, 14 yard kaybettiler ve 2 yard kaybettiler. Dördüncü hücumun sonunda saha çizgisi kaç yarddı?
+69. Banka Hesabı: Ester'in banka hesabında 124 dolar var. 152 dolarlık bir çek yazıyor. Banka hesabındaki yeni bakiye ne kadardır?	70. Banka Hesabı: Selina'nın banka hesabında 165 dolar var. 207 dolarlık bir çek yazıyor. Banka hesabındaki yeni bakiye ne kadardır?
+71. Vadesiz Hesap Kevin'in vadesiz hesabında 225 dolar bakiyesi var -38 dolar. Hesaba 225 dolar yatırıyor. Yeni bakiye ne olur?	72. Reymonte'nin vadesiz hesabında 281 dolar bakiyesi bulunmaktadır -49 dolar. Hesaba 281 dolar yatırıyor. Yeni bakiye ne olur?
+Günlük Matematik
+73. Hisse Senedi Piyasası: Javier'in bir şirkette 300 hissesi bulunmaktadır. Salı günü hisse senedi fiyatı hisse başına 12 dolar düştü. Bu düşüşün Javier'in portföyü üzerindeki toplam etkisi ne oldu?	74. Kilo kaybı: Bir diyet programının ilk haftasında, sekiz kadın ortalama 1,5 kg (3 pound) kaybetti. Sekiz kadının toplam kilo değişimi ne kadardı?
+Yazma Alıştırmaları
+75. Tam sayıların çarpım kurallarını kendi kelimelerinizle ifade edin.	76. Tam sayıları bölme kurallarını kendi kelimelerinizle ifade edin.
+77. Neden?-{2}^{4}\ne {\left(-2\right)}^{4}?	78. Neden?-{4}^{3}={\left(-4\right)}^{3}?
+Cevaplar
+1.-32	3.-63	5.-6
+7. 14	9.-4	11. 13
+13.-12	15.-47	17. 64
+19.-16	21. 90	23. 9
+25. 41	27.-9	29.-29
+31. 5	33. a) -47b) 16	35. a) -4b) 10
+37.-8	39.-16	41. 121
+43. a) 1 b) 33	45. a) -5b) 25	47. 21
+49.-56	51.\left(3+\left(-15\right)\right)+7;-5	53.10-\left(-18\right);28
+55.-5-\left(-30\right);25	57.-3\cdot 15;-45	59.-60\div\left(-20\right);3
+61.\frac{-6}{a+b}	63.-10\left(pq\right)	65. 96°
+67. 21	69.\text{-}\$28	71. 187 dolar
+73.\text{-}\$3600	75. Cevaplar farklılık gösterebilir.	77. Cevaplar farklılık gösterebilir.
+Atıflar
+Bu bölüm, Lynn Marecek ve MaryAnne Anthony-Smith'in " Elementary Algebra " (OpenStax) adlı eserindeki "Tam Sayıları Çarpma ve Bölme" bölümünden uyarlanmıştır ve CC BY 4.0 Lisansı altındadır . Uyarlamayı Izabela Mazur yapmıştır. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+
+6
+1.6 Bölüm Özeti
+Tekrar Alıştırmaları
+Tam sayılarla basamak değerini kullanın.
+Aşağıdaki alıştırmalarda her rakamın basamak değerini bulun.
+
+1. 26.915
+a) 1
+b) 2
+c) 9
+d) 5
+e) 6
+
+2. 359.417
+
+a) 9
+b) 3
+c) 4
+d) 7
+e) 1
+
+3. 58.129.304
+
+a) 5
+b) 0
+c) 1
+d) 8
+e) 2
+
+4. 9.430.286.157
+
+a) 6
+b) 4
+c) 9
+d) 0
+e) 5
+
+Aşağıdaki alıştırmalarda her bir sayıyı adlandırın.
+
+5. 6.104	6. 493.068
+7. 3.975.284	8. 85.620.435
+Aşağıdaki alıştırmalarda, her sayıyı rakamlar kullanarak tam sayı olarak yazın.
+
+9. üç yüz on beş	10. altmış beş bin dokuz yüz on iki
+11. doksan milyon dört yüz yirmi beş bin on altı	12. bir milyar, kırk üç milyon, dokuz yüz yirmi iki bin, üç yüz on bir
+Aşağıdaki alıştırmalarda, belirtilen basamak değerine yuvarlama yapınız.
+
+En yakın onluğa yuvarlayın.
+
+13. a) 407 b) 8.564
+
+En yakın yüze yuvarlayın.
+
+14. a) 25.846 b) 25.864
+
+Aşağıdaki alıştırmalarda, her sayıyı en yakın a) yüzlüğe b) bine c) on bine yuvarlayın.
+
+15. 864.951	16. 3.972.849
+Katları ve Çarpanları Belirleyin
+Aşağıdaki alıştırmalarda, bölünebilirlik testlerini kullanarak her sayının 2'ye, 3'e, 5'e, 6'ya ve 10'a bölünebilir olup olmadığını belirleyin.
+
+17. 168	18. 264
+19. 375	20. 750
+21. 1430	22. 1080
+Asal Çarpanlara Ayırma ve En Küçük Ortak Katları Bulma
+Aşağıdaki alıştırmalarda, sayıların asal çarpanlarına ayrılmış halini bulun.
+
+23. 420	24. 115
+25. 225	26. 2475
+27. 1560	28. 56
+29. 72	30. 168
+31. 252	32. 391
+Aşağıdaki alıştırmalarda, katlar yöntemini kullanarak aşağıdaki sayıların en küçük ortak katını bulun.
+
+33. 6,15	34. 60, 75
+Aşağıdaki alıştırmalarda, asal çarpanlar yöntemini kullanarak aşağıdaki sayıların en küçük ortak katını bulun.
+
+35. 24, 30	36. 70, 84
+Değişkenleri ve Cebirsel Sembolleri Kullanın
+Aşağıdaki alıştırmalarda, aşağıdaki cebirsel ifadeleri İngilizceye çevirin.
+
+37. 25 – 7	38. 5 · 6
+39. 45 ÷ 5	40. x + 8
+41. 42 ≥ 27	42. 3n = 24
+43. 3 ≤ 20 ÷ 4	44. a ≠ 7 · 4
+Aşağıdaki alıştırmalarda, her birinin bir ifade mi yoksa bir denklem mi olduğunu belirleyin.
+
+45. 6 · 3 + 5	46. ​​y – 8 = 32
+İşlem Önceliği Kurallarını Kullanarak İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.
+
+47. 3 5	48. 10 8
+Aşağıdaki alıştırmalarda sadeleştirin.
+
+49. 6 + 10/2 + 2	50. 9 + 12/3 + 4
+51. 20 ÷ (4 + 6) · 5	52. 33 · (3 + 8) · 2
+53. 4 2 +5 2	54. (4 + 5) 2
+Bir ifadeyi değerlendirin
+Aşağıdaki alıştırmalarda, aşağıdaki ifadeleri değerlendirin.
+
+55. 9x + 7, x = 3 iken	56. 5x – 4, x = 6 iken
+57. x = 3 olduğunda x 4	58. 3 x, x = 3 olduğunda
+59. x² +  5x – 8, x = 6 iken	60. 2x + 4y – 5, x = 7, y = 8 iken
+Benzer terimleri birleştirerek ifadeleri basitleştirin.
+Aşağıdaki alıştırmalarda, her terimin katsayısını belirleyiniz.
+
+61. 12n	62. 9x 2
+Aşağıdaki alıştırmalarda benzer terimleri belirleyin.
+
+63. 3n, n2 , 12, 12p2 , 3, 3n2	64. 5, 18r 2 , 9s, 9r, 5r 2 , 5s
+Aşağıdaki alıştırmalarda, her bir ifadede yer alan terimleri belirleyiniz.
+
+65. 11x 2  + 3x + 6	66. 22y 3 + y + 15
+Aşağıdaki alıştırmalarda, benzer terimleri birleştirerek aşağıdaki ifadeleri sadeleştirin.
+
+67. 17a + 9a	68. 18z + 9z
+69. 9x + 3x + 8	70. 8a + 5a + 9
+71. 7p + 6 + 5p – 4	72. 8x + 7 + 4x – 5
+İngilizce bir ifadeyi cebirsel bir ifadeye çevirin.
+Aşağıdaki alıştırmalarda, aşağıdaki ifadeleri cebirsel ifadelere çevirin.
+
+73. 8 ve 12'nin toplamı	74. 9 ve 1'in toplamı
+75. x ve 4'ün farkı	76. x ve 3'ün farkı
+77. 6 ve y'nin çarpımı	78. 9 ve y'nin çarpımı
+79. Derek bir etek ve bir bluz satın aldı. Eteğin fiyatı bluzun fiyatından 15 dolar daha fazlaydı. Bluzun fiyatını b ile gösterelim. Eteğin fiyatını ifade eden bir denklem yazın.	80. Marcella'nın kız kuzenlerinden 6 tane daha az erkek kuzeni vardır. Kız kuzenlerinin sayısını g ile gösterelim. Erkek kuzenlerinin sayısını ifade eden bir denklem yazın.
+Tam sayıların negatiflerini ve zıt işaretlilerini kullanın.
+Aşağıdaki alıştırmalarda, aşağıdaki sayı çiftlerinin her birini < veya > işaretlerini kullanarak sıralayın.
+
+81.
+a) 6___2
+b) -7___4
+c) -9___-1
+d) 9___-3	82.
+a) -5___1
+b) -4___-9
+c) 6___10
+d) 3___-8
+Aşağıdaki alıştırmalarda, her sayının zıtını bulun.
+
+83. a) -8 b) 1	84. a) -2 b) 6
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+85. (–19)	86. (–53)
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+
+87. −m, a) m = 3
+b) m = -3 olduğunda	
+88. −p, a) p = 6
+b) p = -6 olduğunda
+Mutlak Değer İçeren İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda, sadeleştirin.
+
+89. a) |7| b) |-25| c) |0|	90. a) |5| b) |0| c) |-19|
+Aşağıdaki alıştırmalarda, aşağıdaki sayı çiftlerinin her biri için <, >, veya = işaretlerinden birini kullanın.
+
+91.
+a) – 8 ___ |–8|
+b) – |–2|___ –2	92.
+a) –3|___ – | –3|
+b) 4 ___ – | –4|
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+93. |8 – 4|	94. |9 – 6|
+95. 8 (14 – 2 |- 2|)	96. 6(13 – 4 |-2|)
+Aşağıdaki alıştırmaları değerlendirin.
+
+97. a) x = -28 iken |x| b) x = -15 iken |-x|	98. a) y = -37 iken |y| b) z = -24 iken |-z|
+Tamsayıları Topla
+Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.
+
+99. -200 + 65	100. -150 + 45
+101. 2 + (-8) + 6	102. 4 + (-9) + 7
+103. 140 + (-75) + 67	104. -32 + 24 + (-6) + 10
+Tam sayıları çıkarın
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+105. 9 – 3	106. -5 – (-1)
+107. a) 15 – 6 b) 15 + (-6)	108. a) 12 – 9 b) 12 + (-9)
+109. a) 8 – (-9) b) 8 + 9	110. a) 4 – (-4) b) 4 + 4
+Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.
+
+111. 10 – (-19)	112. 11 – ( -18)
+113. 31 – 79	114. 39 – 81
+115. -31 – 11	116. -32 – 18
+117. -15 – (-28) + 5	118. 71 + (-10) – 8
+119. -16 – (-4 + 1) – 7	120. -15 – (-6 + 4) – 3
+Tam sayıları çarpmak
+Aşağıdaki alıştırmalarda çarpma işlemi yapın.
+
+121. -5 (7)	122. -8 (6)
+123. -18(-2)	124. -10 (-6)
+Tamsayıları Bölme
+Aşağıdaki alıştırmalarda, bölme işlemi yapın.
+
+125. -28 ÷ 7	126. 56 ÷ ( -7)
+127. -120 ÷ -20)	128. -200 ÷ 25
+Tamsayılarla İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.
+
+129. -8 (-2) -3 (-9)	130. -7 (-4) – 5(-3)
+131. (-5)3	132. (-4)3
+133. -4 · 2 · 11	134. -5 · 3 · 10
+135. -10(-4) ÷ (-8)	136. -8(-6) ÷ (-4)
+137. 31 – 4(3-9)	138. 24 – 3(2 – 10)
+Tamsayılarla Değişken İfadelerini Değerlendirme
+Aşağıdaki alıştırmalarda her bir ifadeyi değerlendirin.
+
+139. x + 8,
+a) x = -26
+b) x = -95 olduğunda	140. y + 9,
+a) y = -29
+b) y = -84 olduğunda
+141. b = -11 iken aşağıdakileri hesaplayın:
+a) b + 6
+b) −b + 6	142. c = -9 olduğunda, aşağıdakileri hesaplayın:
+a) c + (-4)
+b) −c + (-4)
+143. p2 – 5p + 2, p = -1 iken	144. q² – 2q + 9, q = -2 iken
+145. 6x – 5y + 15, x = 3 ve y = -1 iken	146. 3p – 2q + 9, p = 8 ve q = -2 iken
+İngilizce İfadeleri Cebirsel İfadelere Çevir
+Aşağıdaki alıştırmalarda, ifadeleri cebirsel bir ifadeye çevirin ve mümkünse sadeleştirin.
+
+147. -4 ve -17'nin toplamı, 32 ile artırılmış hali.	148. a) 15 ile -7'nin farkı b) -7'den 15'i çıkarın
+149. -45 ve -9'un bölümü	150. -12 ile c ve d'nin farkının çarpımı.
+Uygulamalarda Tamsayı Kullanımı
+Aşağıdaki alıştırmaları çözün.
+
+151. Sıcaklık Bir gün Miami Beach, Florida'da en yüksek sıcaklık 76°F (24°C) idi. Aynı gün, Buffalo, New York'ta en yüksek sıcaklık -8°F (-27°C) idi. Miami Beach ve Buffalo'daki sıcaklıklar arasındaki fark nedir?	152. Banka Hesabı Adrianne'nin banka hesabında -22$ bakiyesi var. Hesaba 301$ yatırıyor. Yeni bakiye ne olur?
+Alıştırma Cevaplarını Gözden Geçirin
+1. a) onlar b) on binler c) yüzler d) birler e) binler	3. a) on milyonlar b) onlar c) yüz binler d) milyonlar e) on binler	5. altı bin yüz dört
+7. üç milyon dokuz yüz yetmiş beş bin iki yüz seksen dört	9. 315	11. 90.425.016
+13. a)410 b)8.560	15. a) 865.000 b) 865.000 c) 860.000	17. 2,3,6 ile
+19. 3,5 ile	21. 2,5,10 ile	23. 2 · 2 · 3 · 5 · 7
+25. 3 · 3 · 5 · 5	27. 2 · 2 · 2 · 3 · 5 · 13	29. 2 · 2 · 2 · 3 · 3
+31. 2 · 2 · 3 · 3 · 7	33. 30	35. 120
+37. 25 eksi 7, yirmi beş ile yedinin farkı	39. 45 bölü 5, kırk beşin beşe bölümünün sonucu.	41. Kırk iki, yirmi yediden büyük veya ona eşittir.
+43. 3, 20'nin 4'e bölünmesinden küçük veya ona eşittir; üç, yirmi ve dördün bölümünden küçük veya ona eşittir.	45. ifade	47. 243
+49. 13	51. 10	53. 41
+55. 34	57. 81	59. 58
+61. 12	63. 12 ve 3, n2 ve 3n2	65. 11×2, 3x, 6
+67. 26a	69. 12x + 8	71. 12p + 2
+73. 8 + 12	75. x – 4	77. 6y
+79. b + 15	81. a) > b) < c) < d) >	83. a) 8 b) -1
+85. 19	87. a) -3 b) 3	89. a) 7 b) 25 c) 0
+91. a) < b) =	93. 4	95. 80
+97. a) 28 b) 15	99. -135	101. 0
+103. 132	105. 6	107. a) 9 b) 9
+109. a) 17 b) 17	111. 29	113. -48
+115. -42	117. 18	119. -20
+121. -35	123. 36	125. -4
+127. 6	129. 43	131. -125
+133. -88	135. -5	137. 55
+139. a) -18 b) -87	141. a) -5 b) 17	143. 8
+145. 38	147. (-4 + (-17)) + 32; 11	149. \dfrac{-45}{-9};5
+151,84 derece Fahrenheit		
+Uygulama Testi
+1. İki yüz beş bin altı yüz on yedi sayısını rakamlarla tam sayı olarak yazın.	2. 504 sayısının asal çarpanlarına ayrılmış halini bulun.
+3. 18 ve 24'ün En Küçük Ortak Katını bulun.	4. Benzer terimleri birleştirin: 5n + 8 + 2n – 1.
+Aşağıdaki alıştırmaları değerlendirin.
+
+5. −|x| x = -2 olduğunda	6. 11 – a, a = -3 olduğunda
+7. Cebirsel ifadeye çevirin ve sadeleştirin: -7'den yirmi eksik.	8. Monique'in çek hesabında -18 dolar bakiyesi var. Hesaba 152 dolar yatırıyor. Yeni bakiye ne olur?
+9. 677.1348 sayısını en yakın yüzdeye yuvarlayın.	10. -6 (-2) – 3 · 4 ÷ (-6) ifadesini sadeleştirin.
+11. 4(-2) + 4 ·2 ifadesini sadeleştirin.  {(-3)}^{3}	12. -8(-3) ÷ (-6) ifadesini sadeleştirin.
+13. 21 – 5(2 – 7) ifadesini sadeleştirin.	14. 2 + 2(3 – 10) ifadesini sadeleştirin.{(2)}^{3}
+Deneme Sınavı Cevapları
+1. 205.617	2. 2 · 2 · 2 · 3 · 3 · 7	3. 72
+4. 7n + 7	5. -2	6. 14
+7. -7 – 20; -27	8. 134 dolar	9. 677.13
+10. 10	11. 27	12. -4
+13. 46	14. -20	
+Ders dizini
+Önceki cebir
+Sonraki bölüm
+Rasyonel ve gerçek sayılar

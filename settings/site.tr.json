@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "logoBackground": "#00ed9a",
+    "footerBackground": "#003d54"
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@turanarican",
+    "handle": "@turanarican"
+  },
+  "home": {
+    "heroImage": "heros/anasayfa.png",
+    "eyebrow": "her seviyeden matematik dersleri",
+    "title": "Herkes için Ücretsiz",
+    "aboutTitle": "Hakkında",
+    "aboutText": "Matematiği çok sever, çok da iyi anlar. Bu site ve YouTube kanalı birlikte çalışmak üzere dizayn edilmiştir. Amacı insanların matematiği daha iyi anlamasına destek olmaktır. LGS, TYT/AYT gibi sınavların soru tiplerinden bağımsızdır. Temelini kavratmaya yöneliktir. Eğitim materyalleri, yabancı üniversiteler ve açık eğitim kuruluşları tarafından yayımlanan açık kaynak lisanslı ve kolayca elde edilebilen kitapların Türkçe çevirileridir. Kullanımı, YouTube kanalındaki katılımcılara özel içerik haricinde tamamen ücretsizdir.",
+    "licensesTitle": "Lisanslar",
+    "licensesText": "Kitap sayfalarında kitaplara ve ilgili YouTube videolarına özel lisans ve kaynak bilgileri verilmiştir. Türkçeleştirilmiş içeriğin ve sunumun tüm hakları orijinal lisanslar uyarınca saklı tutulabilmektedir.",
+    "disclaimerTitle": "Sorumluluk reddi",
+    "disclaimerText": "Bu sitedeki dersler genel eğitim amacıyla sunulur. İçeriğin hatasız olduğu, belirli bir sınavın veya öğretim programının tüm gerekliliklerini karşıladığı ya da bireysel öğrenme ihtiyaçları için tek başına yeterli olduğu garanti edilmez. Öğrenciler önemli akademik kararlarında resmî kaynakları ve öğretmenlerinin yönlendirmesini de dikkate almalıdır."
+  },
+  "ui": {
+    "video": "video",
+    "preparing": "hazırlanıyor",
+    "noCourses": "Şu anda yayımlanmış bir ders bulunmuyor.",
+    "settingsError": "Ders ayarları yüklenemedi."
+  },
+  "footer": {
+    "email": "turan@turanarican.com"
+  }
+}

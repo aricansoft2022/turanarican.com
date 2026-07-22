@@ -1,0 +1,12 @@
+{
+  "courses": [
+    { "id": "prealgebra", "enabled": true, "order": 1, "title": "prealgebra", "videos": 78, "cover": "covers/on-cebir.jpg", "href": "en/courses/prealgebra/" },
+    { "id": "algebra", "enabled": true, "order": 2, "title": "algebra", "videos": null, "cover": "covers/cebir.jpg", "href": null },
+    { "id": "intermediate-algebra", "enabled": true, "order": 3, "title": "intermediate algebra", "videos": null, "cover": "covers/orta-cebir.jpg", "href": null },
+    { "id": "college-algebra", "enabled": true, "order": 4, "title": "college algebra", "videos": null, "cover": "covers/cebir.jpg", "href": null },
+    { "id": "trigonometry", "enabled": true, "order": 5, "title": "trigonometry", "videos": null, "cover": "covers/orta-cebir.jpg", "href": null },
+    { "id": "precalculus", "enabled": true, "order": 6, "title": "precalculus", "videos": null, "cover": "covers/on-cebir.jpg", "href": null },
+    { "id": "calculus", "enabled": true, "order": 7, "title": "calculus", "videos": null, "cover": "covers/cebir.jpg", "href": null },
+    { "id": "differential-equations", "enabled": true, "order": 8, "title": "differential equations", "videos": null, "cover": "covers/orta-cebir.jpg", "href": null }
+  ]
+}
