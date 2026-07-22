@@ -59,8 +59,8 @@ REPEATED_WORDS = re.compile(
 )
 
 EXACT_TRANSLATIONS = {
-    "Whole Numbers": "Bütün Sayılar",
-    "Whole Number": "Bütün Sayı",
+    "Whole Numbers": "Doğal Sayılar",
+    "Whole Number": "Doğal Sayı",
     "Integers": "Tam Sayılar",
     "Integer": "Tam Sayı",
     "Fractions": "Kesirler",
@@ -313,6 +313,7 @@ def write_fixes(
         "scope": "All book chapters: untranslated, repeated, and accessible Turkish text",
         "parts": parts,
         "attributes": attributes,
+        "part_attributes": existing.get("part_attributes", {}),
     }
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

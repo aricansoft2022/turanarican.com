@@ -91,6 +91,30 @@ Aynı özgün medya URL’si iki dilde tek yerel dosyaya karşılık gelir; İng
    python3 tools/check_site.py
    ```
 
+### Tarayıcı destekli Türkçe çeviri geldiğinde
+
+Tarayıcıdan dışa aktarılan düz metinler `sources/ön-cebir-chapter-{bölüm}-tr-by-browser.txt`
+adıyla saklanır. Düz metin HTML yapısını, formüllerin sınırlarını ve gizli yanıtları
+taşımadığı için ders sayfasına doğrudan yapıştırılmaz. İlgili bölümün görünür satırlarıyla
+eşleştirilip kalıcı çeviri tablosuna aktarılır:
+
+```sh
+python3 tools/import_browser_translation.py \
+  sources/ön-cebir-chapter-1-tr-by-browser.txt \
+  --chapter 1
+```
+
+Araç yalnız tek bir metin yuvasına veya erişilebilir görsel açıklamasına güvenle bağlanan
+satırları yazar; formülleri, bağlantıları, tabloları ve gizli yanıtları korur. Eşleşme eşiği
+ancak sonuçlar elle karşılaştırıldıktan sonra `--min-confidence` ile düşürülmelidir.
+Genel görsel çevirileri `attributes`, yalnız ilgili bölüme ait tarayıcı çevirileri ise
+`part_attributes` altında tutulur. Aktarımdan sonra Türkçe dersleri yeniden üretip site
+kontrolünü çalıştırın. Yalnız ilgili bölümü yeniden üretmek için:
+
+```sh
+python3 tools/build_lessons.py --locale tr --chapter 1
+```
+
 Mevcut taban 22 sayfa, 18 üretilen bölüm, 54 alt ders ve 11.431 benzersiz yerel ders medyasıdır. Kaynak değişince sayılar değişebilir; üretilen derslerde uzak `img/src` kalmaması esastır.
 
 ## Figma ve ekran görüntüleri güncellendiğinde

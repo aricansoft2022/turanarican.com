@@ -42,11 +42,11 @@ CHAPTERS = {
             "number": 1,
             "source_id": "part-whole-numbers-wrapper",
             "slug": "bolum-1",
-            "title": "Bütün Sayılar, Tam Sayılar ve Cebire Giriş",
+            "title": "Doğal Sayılar, Tam Sayılar ve Cebire Giriş",
             "short_title": "Sayılar ve cebire giriş",
             "description": "Doğal sayılar, cebir dili, ifadeler ve tam sayılarla işlemler.",
             "sections": (
-                ("chapter-whole-numbers", "1.1 Bütün Sayılar"),
+                ("chapter-whole-numbers", "1.1 Doğal Sayılar"),
                 ("chapter-use-the-language-of-algebra", "1.2 Cebir Dilini Kullanma"),
                 ("chapter-evaluate-simplify-and-translate-expressions", "1.3 İfadeleri Değerlendirme, Sadeleştirme ve Çevirme"),
                 ("chapter-add-and-subtract-integers", "1.4 Tam Sayılarda Toplama ve Çıkarma"),
@@ -379,6 +379,7 @@ LOCALES = {
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--locale", choices=("all", "tr", "en"), default="all")
+    parser.add_argument("--chapter", type=int, choices=range(1, 10))
     parser.add_argument("--no-download", action="store_true")
     parser.add_argument("--refresh", action="store_true")
     parser.add_argument("--keep-unused", action="store_true")
@@ -434,7 +435,10 @@ def apply_translation_fixes(fragment: str, part_id: str, fixes: dict[str, object
         text_slot += 1
     fragment = "".join(tokens)
 
-    attribute_fixes = fixes.get("attributes", {})
+    attribute_fixes = {
+        **fixes.get("attributes", {}),
+        **fixes.get("part_attributes", {}).get(part_id, {}),
+    }
 
     def replace_attribute(match: re.Match[str]) -> str:
         current = html.unescape(match.group("value"))
@@ -1051,6 +1055,8 @@ def main() -> int:
         course_dir = config["course_dir"]
         course_dir.mkdir(parents=True, exist_ok=True)
         for chapter in CHAPTERS[locale]:
+            if args.chapter is not None and int(chapter["number"]) != args.chapter:
+                continue
             number = int(chapter["number"])
             source_id = str(chapter["source_id"])
             localized = localize_fragment(
