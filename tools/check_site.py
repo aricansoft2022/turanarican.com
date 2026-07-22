@@ -9,9 +9,11 @@ import sys
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+from xml.etree import ElementTree
 
 
 ROOT = Path(__file__).resolve().parents[1]
+SEO_SETTINGS_PATH = ROOT / "settings" / "seo.json"
 TR_CHAPTER_PAGES = tuple(
     ROOT / "dersler" / "on-cebir" / f"bolum-{number}" / "index.html"
     for number in range(1, 10)
@@ -47,9 +49,30 @@ class ReferenceParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.references: list[tuple[str, str, str]] = []
         self.ids: set[str] = set()
+        self.html_lang = ""
+        self.links: list[dict[str, str | None]] = []
+        self.metadata: dict[str, list[str]] = {}
+        self.title_parts: list[str] = []
+        self.json_ld_parts: list[list[str]] = []
+        self._in_title = False
+        self._in_json_ld = False
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attributes = dict(attrs)
+        if tag == "html":
+            self.html_lang = str(attributes.get("lang") or "")
+        elif tag == "title":
+            self._in_title = True
+        elif tag == "script" and attributes.get("type") == "application/ld+json":
+            self._in_json_ld = True
+            self.json_ld_parts.append([])
+        elif tag == "link":
+            self.links.append(attributes)
+        elif tag == "meta":
+            key = attributes.get("name") or attributes.get("property")
+            content = attributes.get("content")
+            if key and content is not None:
+                self.metadata.setdefault(str(key), []).append(str(content))
         if attributes.get("id"):
             self.ids.add(str(attributes["id"]))
         for attribute in ("src", "href"):
@@ -61,6 +84,26 @@ class ReferenceParser(HTMLParser):
                 url = candidate.strip().split()[0]
                 if url:
                     self.references.append((tag, "srcset", url))
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "title":
+            self._in_title = False
+        elif tag == "script" and self._in_json_ld:
+            self._in_json_ld = False
+
+    def handle_data(self, data: str) -> None:
+        if self._in_title:
+            self.title_parts.append(data)
+        if self._in_json_ld:
+            self.json_ld_parts[-1].append(data)
+
+    @property
+    def title(self) -> str:
+        return "".join(self.title_parts).strip()
+
+    @property
+    def json_ld(self) -> list[str]:
+        return ["".join(parts).strip() for parts in self.json_ld_parts]
 
 
 def is_remote(url: str) -> bool:
@@ -82,10 +125,52 @@ def resolve_local(owner: Path, url: str) -> Path | None:
     return path
 
 
+def page_seo_identity(page: Path, base_url: str) -> tuple[str, str, dict[str, str], set[str]]:
+    base_url = base_url.rstrip("/")
+    if page == ROOT / "index.html":
+        locale, canonical_path, tr_path, en_path = "tr", "/", "/", "/en/"
+        schema_types = {"WebSite", "WebPage", "Person"}
+    elif page == ROOT / "en" / "index.html":
+        locale, canonical_path, tr_path, en_path = "en", "/en/", "/", "/en/"
+        schema_types = {"WebSite", "WebPage", "Person"}
+    elif page == ROOT / "dersler" / "on-cebir" / "index.html":
+        locale = "tr"
+        canonical_path = tr_path = "/dersler/on-cebir/"
+        en_path = "/en/courses/prealgebra/"
+        schema_types = {"WebPage", "Course", "BreadcrumbList"}
+    elif page == ROOT / "en" / "courses" / "prealgebra" / "index.html":
+        locale = "en"
+        canonical_path = en_path = "/en/courses/prealgebra/"
+        tr_path = "/dersler/on-cebir/"
+        schema_types = {"WebPage", "Course", "BreadcrumbList"}
+    elif page in TR_CHAPTER_PAGES:
+        number = TR_CHAPTER_PAGES.index(page) + 1
+        locale = "tr"
+        canonical_path = tr_path = f"/dersler/on-cebir/bolum-{number}/"
+        en_path = f"/en/courses/prealgebra/chapter-{number}/"
+        schema_types = {"WebPage", "LearningResource", "BreadcrumbList"}
+    elif page in EN_CHAPTER_PAGES:
+        number = EN_CHAPTER_PAGES.index(page) + 1
+        locale = "en"
+        canonical_path = en_path = f"/en/courses/prealgebra/chapter-{number}/"
+        tr_path = f"/dersler/on-cebir/bolum-{number}/"
+        schema_types = {"WebPage", "LearningResource", "BreadcrumbList"}
+    else:
+        raise ValueError(f"unknown public page: {page}")
+    absolute = lambda path: f"{base_url}{path}"
+    alternates = {
+        "tr": absolute(tr_path),
+        "en": absolute(en_path),
+        "x-default": absolute(tr_path),
+    }
+    return locale, absolute(canonical_path), alternates, schema_types
+
+
 def main() -> int:
     errors: list[str] = []
     reference_count = 0
     local_image_count = 0
+    canonical_urls: set[str] = set()
 
     settings_paths = (
         ROOT / "settings" / "site.tr.json",
@@ -94,6 +179,7 @@ def main() -> int:
         ROOT / "settings" / "courses.en.json",
         ROOT / "settings" / "books" / "on-cebir.tr.json",
         ROOT / "settings" / "books" / "prealgebra.en.json",
+        SEO_SETTINGS_PATH,
     )
     settings: dict[Path, object] = {}
     for settings_path in settings_paths:
@@ -102,6 +188,18 @@ def main() -> int:
         except (OSError, json.JSONDecodeError) as error:
             errors.append(f"invalid settings file {settings_path.relative_to(ROOT)}: {error}")
 
+    seo_settings = settings.get(SEO_SETTINGS_PATH, {})
+    base_url = (
+        str(seo_settings.get("baseUrl", "")).rstrip("/")
+        if isinstance(seo_settings, dict)
+        else ""
+    )
+    site_name = str(seo_settings.get("siteName", "")) if isinstance(seo_settings, dict) else ""
+    author = seo_settings.get("author", {}) if isinstance(seo_settings, dict) else {}
+    author_name = str(author.get("name", "")) if isinstance(author, dict) else ""
+    if not re.fullmatch(r"https://[^/]+", base_url):
+        errors.append(f"invalid SEO baseUrl in {SEO_SETTINGS_PATH.relative_to(ROOT)}: {base_url}")
+
     for page in PAGES:
         if not page.exists():
             errors.append(f"missing page: {page.relative_to(ROOT)}")
@@ -109,10 +207,92 @@ def main() -> int:
         parser = ReferenceParser()
         page_source = page.read_text(encoding="utf-8")
         parser.feed(page_source)
+        page_label = str(page.relative_to(ROOT))
         if not re.search(r'class="[^"]*\blanguage-switcher\b', page_source):
-            errors.append(f"language switcher missing in {page.relative_to(ROOT)}")
+            errors.append(f"language switcher missing in {page_label}")
         if 'hreflang="tr"' not in page_source or 'hreflang="en"' not in page_source:
-            errors.append(f"language alternates missing in {page.relative_to(ROOT)}")
+            errors.append(f"language alternates missing in {page_label}")
+
+        if base_url:
+            locale, expected_canonical, expected_alternates, expected_schema_types = (
+                page_seo_identity(page, base_url)
+            )
+            canonical_urls.add(expected_canonical)
+            if parser.html_lang != locale:
+                errors.append(f"wrong html/lang in {page_label}: {parser.html_lang!r}")
+            if not parser.title:
+                errors.append(f"title missing in {page_label}")
+
+            description_values = parser.metadata.get("description", [])
+            description = description_values[0] if len(description_values) == 1 else ""
+            if len(description_values) != 1 or not description.strip():
+                errors.append(f"expected one non-empty meta description in {page_label}")
+
+            canonical_links = [
+                str(link.get("href") or "")
+                for link in parser.links
+                if link.get("rel") == "canonical"
+            ]
+            if canonical_links != [expected_canonical]:
+                errors.append(
+                    f"wrong canonical in {page_label}: {canonical_links} != {[expected_canonical]}"
+                )
+
+            alternates = {
+                str(link.get("hreflang")): str(link.get("href") or "")
+                for link in parser.links
+                if link.get("rel") == "alternate" and link.get("hreflang")
+            }
+            if alternates != expected_alternates:
+                errors.append(f"wrong hreflang set in {page_label}: {alternates}")
+
+            expected_meta = {
+                "author": author_name,
+                "og:title": parser.title,
+                "og:description": description,
+                "og:type": "website",
+                "og:url": expected_canonical,
+                "og:site_name": site_name,
+                "og:locale": "tr_TR" if locale == "tr" else "en_US",
+                "og:locale:alternate": "en_US" if locale == "tr" else "tr_TR",
+                "twitter:card": "summary",
+                "twitter:title": parser.title,
+                "twitter:description": description,
+            }
+            for key, expected_value in expected_meta.items():
+                values = parser.metadata.get(key, [])
+                if values != [expected_value]:
+                    errors.append(
+                        f"wrong {key} metadata in {page_label}: {values} != {[expected_value]}"
+                    )
+            robots_values = parser.metadata.get("robots", [])
+            if len(robots_values) != 1 or not {"index", "follow"}.issubset(
+                {value.strip() for value in robots_values[0].split(",")}
+            ):
+                errors.append(f"index/follow robots metadata missing in {page_label}")
+
+            if len(parser.json_ld) != 1:
+                errors.append(f"expected one JSON-LD block in {page_label}")
+            else:
+                try:
+                    structured_data = json.loads(parser.json_ld[0])
+                except json.JSONDecodeError as error:
+                    errors.append(f"invalid JSON-LD in {page_label}: {error}")
+                else:
+                    graph = structured_data.get("@graph", [])
+                    schema_types = {
+                        node.get("@type") for node in graph if isinstance(node, dict)
+                    }
+                    if structured_data.get("@context") != "https://schema.org":
+                        errors.append(f"wrong JSON-LD context in {page_label}")
+                    if not expected_schema_types.issubset(schema_types):
+                        errors.append(
+                            f"JSON-LD types missing in {page_label}: "
+                            f"{sorted(expected_schema_types - schema_types)}"
+                        )
+                    if expected_canonical not in json.dumps(structured_data, ensure_ascii=False):
+                        errors.append(f"canonical URL missing from JSON-LD in {page_label}")
+
         reference_count += len(parser.references)
         for tag, attribute, url in parser.references:
             if tag == "img" and is_remote(url):
@@ -125,6 +305,33 @@ def main() -> int:
                 )
             if tag == "img" and target is not None:
                 local_image_count += 1
+
+    sitemap_path = ROOT / "sitemap.xml"
+    if not sitemap_path.is_file():
+        errors.append("missing sitemap.xml")
+    else:
+        try:
+            sitemap_root = ElementTree.parse(sitemap_path).getroot()
+        except (ElementTree.ParseError, OSError) as error:
+            errors.append(f"invalid sitemap.xml: {error}")
+        else:
+            sitemap_urls = {
+                str(element.text or "").strip()
+                for element in sitemap_root.findall(".//{*}loc")
+                if str(element.text or "").strip()
+            }
+            if sitemap_urls != canonical_urls:
+                errors.append(
+                    "sitemap URL set does not match public canonicals: "
+                    f"missing={sorted(canonical_urls - sitemap_urls)}, "
+                    f"extra={sorted(sitemap_urls - canonical_urls)}"
+                )
+
+    robots_path = ROOT / "robots.txt"
+    if not robots_path.is_file():
+        errors.append("missing robots.txt")
+    elif f"Sitemap: {base_url}/sitemap.xml" not in robots_path.read_text(encoding="utf-8"):
+        errors.append("robots.txt does not reference the canonical sitemap URL")
 
     for stylesheet in (ROOT / "assets" / "css").glob("*.css"):
         for match in CSS_URL_RE.finditer(stylesheet.read_text(encoding="utf-8")):

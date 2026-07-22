@@ -40,6 +40,22 @@ Türkçe:
 
 Her sayfada TR/EN dil seçici bulunur. Dil bağlantısı aynı içeriğin diğer dildeki karşılığına gitmelidir; ana sayfaya geri düşürülmemelidir. Her iki karşılık ayrıca `rel="alternate"` ve `hreflang` ile tanımlanır.
 
+## SEO ve sosyal paylaşım
+
+- Canonical alan adı `https://turanarican.com` olup `settings/seo.json` içinde tek noktadan yönetilir.
+- Her genel sayfa kendisini gösteren mutlak bir `rel="canonical"` bağlantısı taşır.
+- Türkçe ve İngilizce eşler her iki sayfada da mutlak `tr`, `en` ve Türkçe karşılığı gösteren `x-default` bağlantılarıyla tanımlanır.
+- Sayfa başlığı ve açıklaması; Open Graph ve Twitter kart metinleriyle aynı, sayfaya özel ve ilgili dilde tutulur.
+- Ana sayfalarda `WebSite` ve `Person`, ders dizinlerinde `Course`, bölümlerde `LearningResource`; ders ve bölüm sayfalarında ayrıca `BreadcrumbList` JSON-LD verisi bulunur.
+- `robots.txt` taramaya izin verir ve kökteki `sitemap.xml` dosyasını bildirir.
+- Sayfa URL yapısı değiştiğinde veya genel bir sayfa eklendiğinde sitemap canonical etiketlerinden yeniden üretilir:
+
+  ```sh
+  python3 tools/build_sitemap.py
+  ```
+
+Bu aşamada özel OG görseli bilinçli olarak eklenmemiştir. Görsel hazırlandığında sayfa türlerine göre `og:image`, boyut, MIME türü ve erişilebilir açıklama; Twitter için de kart ve görsel etiketleri birlikte eklenmeli, ardından SEO denetimi buna göre genişletilmelidir.
+
 ## Ayar sistemi
 
 Elle düzenlenebilen yerelleştirilmiş ayarlar:
@@ -48,8 +64,9 @@ Elle düzenlenebilen yerelleştirilmiş ayarlar:
 - `settings/courses.tr.json`, `settings/courses.en.json`
 - `settings/books/on-cebir.tr.json`
 - `settings/books/prealgebra.en.json`
+- `settings/seo.json`
 
-`site.<dil>.json` içinde marka, YouTube, ana sayfa, alt bilgi, arayüz metinleri ve sorumluluk reddi bulunur. `courses.<dil>.json` ana sayfa kartlarını; `books/<kitap>.<dil>.json` kitap hero’sunu ve kaynak/lisans bağlantılarını yönetir. JSON dosyalarında sonda fazladan virgül kullanılmaz.
+`site.<dil>.json` içinde marka, YouTube, ana sayfa, alt bilgi, arayüz metinleri ve sorumluluk reddi bulunur. `courses.<dil>.json` ana sayfa kartlarını; `books/<kitap>.<dil>.json` kitap hero’sunu ve kaynak/lisans bağlantılarını yönetir. `seo.json` canonical alan adını, site adını, yazarı ve sosyal ağ kimliğini yönetir. JSON dosyalarında sonda fazladan virgül kullanılmaz.
 
 Sorumluluk reddi her dilin kendi `site` ayarında tutulur ve ana sayfa ile kitap sayfasında görünür. Metin değiştirildiğinde iki dil birlikte güncellenmelidir.
 
@@ -133,7 +150,8 @@ Elle düzenlenen ana dosyalar:
 - `index.html`, `en/index.html`
 - `dersler/on-cebir/index.html`, `en/courses/prealgebra/index.html`
 - `settings/`, `assets/css/`, `assets/js/`
-- `tools/build_lessons.py`, `tools/complete_translation.py`, `tools/check_site.py`
+- `robots.txt`, `sitemap.xml`
+- `tools/build_lessons.py`, `tools/build_sitemap.py`, `tools/complete_translation.py`, `tools/check_site.py`
 - `docs/UPDATE_GUIDE.md`
 
 Otomatik üretilenler:
@@ -164,6 +182,9 @@ Temel kontrol adresleri:
 ## Son kontrol listesi
 
 - 22 sayfanın tamamında doğru TR/EN seçici ve `hreflang` karşılıkları var.
+- Her sayfada tek ve mutlak canonical; `tr`, `en`, `x-default`; OG/Twitter metinleri ve geçerli JSON-LD var.
+- `sitemap.xml` sayfa canonical kümesiyle aynı ve `robots.txt` tarafından bildiriliyor.
+- Özel OG görseli hazırlanana kadar `og:image` eklenmiyor.
 - Türkçe ve İngilizce metin, kart, hero ve arayüz ayarları kendi yerel JSON dosyasından yükleniyor.
 - İki dilde sorumluluk reddi görünür durumda.
 - İngilizce dersler `incalg.html`, Türkçe dersler `incalg-TR.html` içeriğini eksiksiz kullanıyor.

@@ -21,6 +21,10 @@ ROOT = Path(__file__).resolve().parents[1]
 MEDIA_DIR = ROOT / "assets" / "lessons" / "media"
 MANIFEST_DIR = ROOT / "assets" / "lessons" / "manifests"
 TRANSLATION_FIXES_PATH = ROOT / "sources" / "translation-fixes-tr.json"
+SEO_SETTINGS_PATH = ROOT / "settings" / "seo.json"
+
+SEO_SETTINGS = json.loads(SEO_SETTINGS_PATH.read_text(encoding="utf-8"))
+SITE_URL = str(SEO_SETTINGS["baseUrl"]).rstrip("/")
 
 PART_START_RE = re.compile(
     r'<div class="part-wrapper"\s+id="(?P<id>part-[^"]+-wrapper)">', re.I
@@ -44,7 +48,7 @@ CHAPTERS = {
             "slug": "bolum-1",
             "title": "Doğal Sayılar, Tam Sayılar ve Cebire Giriş",
             "short_title": "Sayılar ve cebire giriş",
-            "description": "Doğal sayılar, cebir dili, ifadeler ve tam sayılarla işlemler.",
+            "description": "Doğal sayıları, işlem sırasını, cebirsel ifadeleri ve pozitif-negatif tam sayılarla dört işlemi örnekler ve alıştırmalarla öğrenin.",
             "sections": (
                 ("chapter-whole-numbers", "1.1 Doğal Sayılar"),
                 ("chapter-use-the-language-of-algebra", "1.2 Cebir Dilini Kullanma"),
@@ -60,7 +64,7 @@ CHAPTERS = {
             "slug": "bolum-2",
             "title": "Rasyonel Sayılarla İşlemler ve Gerçek Sayılara Giriş",
             "short_title": "Rasyonel ve gerçek sayılar",
-            "description": "Kesirler, ondalık sayılar ve gerçek sayıların temel özellikleri.",
+            "description": "Kesirleri, ondalık sayıları, rasyonel ve gerçek sayıları; temel özellikleri ve dört işlem uygulamalarıyla öğrenin.",
             "sections": (
                 ("chapter-visualize-fractions", "2.1 Kesirleri Görselleştirme"),
                 ("chapter-add-and-subtract-fractions", "2.2 Kesirlerde Toplama ve Çıkarma"),
@@ -76,7 +80,7 @@ CHAPTERS = {
             "slug": "bolum-3",
             "title": "Ölçme, Çevre, Alan ve Hacim",
             "short_title": "Ölçme ve geometri",
-            "description": "Ölçme sistemleri, düzlemsel şekiller, alan, yüzey alanı ve hacim.",
+            "description": "ABD ve metrik ölçü sistemlerini; çevre, alan, yüzey alanı ve hacim hesaplarını çözümlü geometri uygulamalarıyla öğrenin.",
             "sections": (
                 ("chapter-systems-of-measurement", "3.1 Ölçme Sistemleri"),
                 ("chapter-use-properties-of-rectangles-triangles-and-trapezoids", "3.2 Dikdörtgen, Üçgen ve Yamuklar"),
@@ -91,7 +95,7 @@ CHAPTERS = {
             "slug": "bolum-4",
             "title": "Oran, Orantı ve Yüzde",
             "short_title": "Oran, orantı ve yüzde",
-            "description": "Oranlar, birim oranlar, orantılar, yüzde kavramı ve yüzde problemleri.",
+            "description": "Oran, birim oran, orantı ve yüzde kavramlarını; günlük yaşam problemleri ve adım adım çözümlerle öğrenin.",
             "sections": (
                 ("chapter-ratios-and-rate", "4.1 Oranlar ve Birim Oran"),
                 ("chapter-understand-percent", "4.2 Yüzde Kavramı"),
@@ -106,7 +110,7 @@ CHAPTERS = {
             "slug": "bolum-5",
             "title": "Tek Değişkenli Birinci Dereceden Denklemleri Çözme",
             "short_title": "Birinci dereceden denklemler",
-            "description": "Doğrusal denklemler, formüller ve problem çözme stratejileri.",
+            "description": "Tek değişkenli birinci dereceden denklemleri, kesirli ve ondalık katsayıları, formülleri ve problem çözme stratejilerini öğrenin.",
             "sections": (
                 ("chapter-introduction-to-solving-linear-equations", "Giriş"),
                 ("chapter-solve-equations-using-the-subtraction-and-addition-properties-of-equality", "5.1 Eşitliğin Çıkarma ve Toplama Özellikleri"),
@@ -125,7 +129,7 @@ CHAPTERS = {
             "slug": "bolum-6",
             "title": "Doğrusal Denklemler ve Grafikler",
             "short_title": "Doğrusal denklemler ve grafikler",
-            "description": "Koordinat sistemi, iki değişkenli doğrusal denklemler, eğim ve doğru denklemleri.",
+            "description": "Dik koordinat sistemini, iki değişkenli doğrusal denklemlerin grafiklerini, eğimi ve doğru denklemlerini örneklerle öğrenin.",
             "sections": (
                 ("chapter-use-the-rectangular-coordinate-system", "6.1 Dik Koordinat Sistemini Kullanma"),
                 ("chapter-graph-linear-equations-in-two-variables", "6.2 İki Değişkenli Doğrusal Denklemlerin Grafikleri"),
@@ -142,7 +146,7 @@ CHAPTERS = {
             "slug": "bolum-7",
             "title": "Üsler, Kökler ve Bilimsel Gösterim",
             "short_title": "Üsler, kökler ve bilimsel gösterim",
-            "description": "Üs kuralları, bilimsel gösterim ve kare köklerle işlemler.",
+            "description": "Üslerin çarpma ve bölme kurallarını, tam sayı üslerini, bilimsel gösterimi ve kare köklerle işlemleri adım adım öğrenin.",
             "sections": (
                 ("chapter-use-multiplication-properties-of-exponents", "7.1 Üslerin Çarpma Özellikleri"),
                 ("chapter-divide-monomials", "7.2 Üslerin Bölme Özelliği"),
@@ -158,7 +162,7 @@ CHAPTERS = {
             "slug": "bolum-8",
             "title": "Polinomlar",
             "short_title": "Polinomlar",
-            "description": "Polinomlarla işlemler, özdeşlikler ve çarpanlara ayırma.",
+            "description": "Polinomlarda toplama, çıkarma, çarpma ve bölmeyi; özel çarpımları ve çarpanlara ayırma yöntemlerini öğrenin.",
             "sections": (
                 ("chapter-add-and-subtract-polynomials", "8.1 Polinomlarda Toplama ve Çıkarma"),
                 ("chapter-multiply-polynomials", "8.2 Polinomlarda Çarpma"),
@@ -175,7 +179,7 @@ CHAPTERS = {
             "slug": "bolum-9",
             "title": "Trigonometri",
             "short_title": "Trigonometri",
-            "description": "Açılar, üçgenler, Pisagor teoremi ve temel trigonometrik oranlar.",
+            "description": "Açı ve üçgen özelliklerini, Pisagor teoremini; sinüs, kosinüs ve tanjant oranlarıyla geometri problemlerini öğrenin.",
             "sections": (
                 ("chapter-use-properties-of-angles-triangles-and-the-pythagorean-theorem", "9.1 Açılar, Üçgenler ve Pisagor Teoremi"),
                 ("chapter-solve-geometry-application", "9.2 Sinüs, Kosinüs ve Tanjant Uygulamaları"),
@@ -190,7 +194,7 @@ CHAPTERS = {
             "slug": "chapter-1",
             "title": "Whole Numbers, Integers, and an Introduction to Algebra",
             "short_title": "Numbers and algebra",
-            "description": "Whole numbers, the language of algebra, expressions, and operations with integers.",
+            "description": "Learn whole numbers, order of operations, algebraic expressions, and arithmetic with positive and negative integers through examples and exercises.",
             "sections": (
                 ("chapter-whole-numbers", "1.1 Whole Numbers"),
                 ("chapter-use-the-language-of-algebra", "1.2 Use the Language of Algebra"),
@@ -206,7 +210,7 @@ CHAPTERS = {
             "slug": "chapter-2",
             "title": "Operations with Rational Numbers and an Introduction to Real Numbers",
             "short_title": "Rational and real numbers",
-            "description": "Fractions, decimals, and the fundamental properties of real numbers.",
+            "description": "Learn fractions, decimals, rational and real numbers, their fundamental properties, and arithmetic through worked examples and practice exercises.",
             "sections": (
                 ("chapter-visualize-fractions", "2.1 Visualize Fractions"),
                 ("chapter-add-and-subtract-fractions", "2.2 Add and Subtract Fractions"),
@@ -222,7 +226,7 @@ CHAPTERS = {
             "slug": "chapter-3",
             "title": "Measurement, Perimeter, Area, and Volume",
             "short_title": "Measurement and geometry",
-            "description": "Systems of measurement, plane figures, area, surface area, and volume.",
+            "description": "Learn US and metric measurement systems and solve geometry applications involving perimeter, area, surface area, and volume.",
             "sections": (
                 ("chapter-systems-of-measurement", "3.1 Systems of Measurement"),
                 ("chapter-use-properties-of-rectangles-triangles-and-trapezoids", "3.2 Rectangles, Triangles, and Trapezoids"),
@@ -237,7 +241,7 @@ CHAPTERS = {
             "slug": "chapter-4",
             "title": "Ratio, Proportion, and Percent",
             "short_title": "Ratio, proportion, and percent",
-            "description": "Ratios, rates, proportions, percent concepts, and percent applications.",
+            "description": "Learn ratios, unit rates, proportions, and percent concepts through step-by-step solutions and practical applications.",
             "sections": (
                 ("chapter-ratios-and-rate", "4.1 Ratios and Rate"),
                 ("chapter-understand-percent", "4.2 Understand Percent"),
@@ -252,7 +256,7 @@ CHAPTERS = {
             "slug": "chapter-5",
             "title": "Solving First Degree Equations in One Variable",
             "short_title": "First degree equations",
-            "description": "Linear equations, formulas, and problem-solving strategies.",
+            "description": "Learn to solve first-degree equations in one variable, including fractional and decimal coefficients, formulas, and word problems.",
             "sections": (
                 ("chapter-introduction-to-solving-linear-equations", "Introduction"),
                 ("chapter-solve-equations-using-the-subtraction-and-addition-properties-of-equality", "5.1 Subtraction and Addition Properties of Equality"),
@@ -271,7 +275,7 @@ CHAPTERS = {
             "slug": "chapter-6",
             "title": "Linear Equations and Graphing",
             "short_title": "Linear equations and graphing",
-            "description": "The coordinate system, linear equations in two variables, slope, and equations of lines.",
+            "description": "Learn the rectangular coordinate system, graphs of linear equations in two variables, slope, intercepts, and equations of lines.",
             "sections": (
                 ("chapter-use-the-rectangular-coordinate-system", "6.1 The Rectangular Coordinate System"),
                 ("chapter-graph-linear-equations-in-two-variables", "6.2 Graph Linear Equations in Two Variables"),
@@ -288,7 +292,7 @@ CHAPTERS = {
             "slug": "chapter-7",
             "title": "Powers, Roots, and Scientific Notation",
             "short_title": "Powers, roots, and scientific notation",
-            "description": "Exponent rules, scientific notation, and operations with square roots.",
+            "description": "Learn multiplication and division rules for exponents, integer exponents, scientific notation, and operations with square roots.",
             "sections": (
                 ("chapter-use-multiplication-properties-of-exponents", "7.1 Multiplication Properties of Exponents"),
                 ("chapter-divide-monomials", "7.2 Quotient Property of Exponents"),
@@ -304,7 +308,7 @@ CHAPTERS = {
             "slug": "chapter-8",
             "title": "Polynomials",
             "short_title": "Polynomials",
-            "description": "Polynomial operations, special products, and factoring.",
+            "description": "Learn polynomial addition, subtraction, multiplication, and division, along with special products and essential factoring methods.",
             "sections": (
                 ("chapter-add-and-subtract-polynomials", "8.1 Add and Subtract Polynomials"),
                 ("chapter-multiply-polynomials", "8.2 Multiply Polynomials"),
@@ -321,7 +325,7 @@ CHAPTERS = {
             "slug": "chapter-9",
             "title": "Trigonometry",
             "short_title": "Trigonometry",
-            "description": "Angles, triangles, the Pythagorean theorem, and fundamental trigonometric ratios.",
+            "description": "Learn angle and triangle properties, the Pythagorean theorem, and geometry applications using sine, cosine, and tangent.",
             "sections": (
                 ("chapter-use-properties-of-angles-triangles-and-the-pythagorean-theorem", "9.1 Angles, Triangles, and the Pythagorean Theorem"),
                 ("chapter-solve-geometry-application", "9.2 Sine, Cosine, and Tangent Applications"),
@@ -336,12 +340,19 @@ LOCALES = {
     "tr": {
         "source": ROOT / "sources" / "incalg-TR.html",
         "course_dir": ROOT / "dersler" / "on-cebir",
+        "book_settings": ROOT / "settings" / "books" / "on-cebir.tr.json",
         "root_prefix": "../../..",
         "home_rel": "index.html",
         "course_rel": "dersler/on-cebir",
         "course_name": "Ön Cebir",
         "home_anchor": "dersler",
         "about_anchor": "hakkinda",
+        "og_locale": "tr_TR",
+        "alternate_og_locale": "en_US",
+        "schema": {
+            "resource_type": "Ders bölümü", "level": "Başlangıç",
+            "home": "Ana sayfa", "course": "Ön Cebir", "chapter": "Bölüm",
+        },
         "ui": {
             "skip": "İçeriğe geç", "home_aria": "Turan Arıcan ana sayfa",
             "all_courses": "Tüm dersler", "contact": "İletişim", "menu": "Bölüm menüsünü aç",
@@ -356,12 +367,19 @@ LOCALES = {
     "en": {
         "source": ROOT / "sources" / "incalg.html",
         "course_dir": ROOT / "en" / "courses" / "prealgebra",
+        "book_settings": ROOT / "settings" / "books" / "prealgebra.en.json",
         "root_prefix": "../../../..",
         "home_rel": "en/index.html",
         "course_rel": "en/courses/prealgebra",
         "course_name": "Prealgebra",
         "home_anchor": "courses",
         "about_anchor": "about",
+        "og_locale": "en_US",
+        "alternate_og_locale": "tr_TR",
+        "schema": {
+            "resource_type": "Course chapter", "level": "Beginner",
+            "home": "Home", "course": "Prealgebra", "chapter": "Chapter",
+        },
         "ui": {
             "skip": "Skip to content", "home_aria": "Turan Arıcan home page",
             "all_courses": "All courses", "contact": "Contact", "menu": "Open chapter menu",
@@ -890,26 +908,175 @@ def pager(locale: str, chapter: dict[str, object], root_prefix: str) -> str:
     return f"{previous_html}\n{following_html}"
 
 
-def render_page(locale: str, chapter: dict[str, object], fragment: str) -> str:
+def absolute_url(path: str) -> str:
+    normalized = path if path.startswith("/") else f"/{path}"
+    return f"{SITE_URL}{normalized}"
+
+
+def json_ld_script(data: dict[str, object]) -> str:
+    payload = json.dumps(data, ensure_ascii=False, indent=2).replace("</", "<\\/")
+    indented = "\n".join(f"      {line}" for line in payload.splitlines())
+    return f'    <script type="application/ld+json">\n{indented}\n    </script>'
+
+
+def render_seo_head(
+    locale: str,
+    page_title: str,
+    description: str,
+    canonical_path: str,
+    tr_path: str,
+    en_path: str,
+    structured_data: dict[str, object],
+) -> str:
+    config = LOCALES[locale]
+    canonical_url = absolute_url(canonical_path)
+    tr_url = absolute_url(tr_path)
+    en_url = absolute_url(en_path)
+    escaped_title = html.escape(page_title, quote=True)
+    escaped_description = html.escape(description, quote=True)
+    return f"""    <title>{escaped_title}</title>
+    <meta name="description" content="{escaped_description}">
+    <meta name="author" content="{html.escape(str(SEO_SETTINGS['author']['name']), quote=True)}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="{canonical_url}">
+    <link rel="alternate" hreflang="tr" href="{tr_url}">
+    <link rel="alternate" hreflang="en" href="{en_url}">
+    <link rel="alternate" hreflang="x-default" href="{tr_url}">
+    <meta property="og:title" content="{escaped_title}">
+    <meta property="og:description" content="{escaped_description}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{canonical_url}">
+    <meta property="og:site_name" content="{html.escape(str(SEO_SETTINGS['siteName']), quote=True)}">
+    <meta property="og:locale" content="{config['og_locale']}">
+    <meta property="og:locale:alternate" content="{config['alternate_og_locale']}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{escaped_title}">
+    <meta name="twitter:description" content="{escaped_description}">
+{json_ld_script(structured_data)}"""
+
+
+def lesson_structured_data(
+    locale: str,
+    chapter: dict[str, object],
+    canonical_path: str,
+    book_settings: dict[str, object],
+) -> dict[str, object]:
+    config = LOCALES[locale]
+    schema_labels = config["schema"]
+    number = int(chapter["number"])
+    canonical_url = absolute_url(canonical_path)
+    home_path = "/" if locale == "tr" else "/en/"
+    course_path = "/dersler/on-cebir/" if locale == "tr" else "/en/courses/prealgebra/"
+    home_url = absolute_url(home_path)
+    course_url = absolute_url(course_path)
+    resource_name = f"{schema_labels['chapter']} {number}: {chapter['title']}"
+    author = {
+        "@type": "Person",
+        "@id": f"{SITE_URL}/#person",
+        **SEO_SETTINGS["author"],
+    }
+    course = {
+        "@type": "Course",
+        "@id": f"{course_url}#course",
+        "name": config["course_name"],
+        "url": course_url,
+    }
+    learning_resource = {
+        "@type": "LearningResource",
+        "@id": f"{canonical_url}#learning-resource",
+        "url": canonical_url,
+        "name": resource_name,
+        "description": chapter["description"],
+        "inLanguage": locale,
+        "learningResourceType": schema_labels["resource_type"],
+        "educationalLevel": schema_labels["level"],
+        "interactivityType": "mixed",
+        "isAccessibleForFree": True,
+        "teaches": [label for _, label in chapter["sections"]],
+        "isPartOf": course,
+        "isBasedOn": book_settings["originalWorkUrl"],
+        "license": book_settings["sourceLicenseUrl"],
+        "publisher": author,
+    }
+    breadcrumb = {
+        "@type": "BreadcrumbList",
+        "@id": f"{canonical_url}#breadcrumb",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": schema_labels["home"],
+                "item": home_url,
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": schema_labels["course"],
+                "item": course_url,
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": resource_name,
+                "item": canonical_url,
+            },
+        ],
+    }
+    webpage = {
+        "@type": "WebPage",
+        "@id": f"{canonical_url}#webpage",
+        "url": canonical_url,
+        "name": resource_name,
+        "description": chapter["description"],
+        "inLanguage": locale,
+        "isPartOf": {"@id": f"{SITE_URL}/#website"},
+        "breadcrumb": {"@id": breadcrumb["@id"]},
+        "mainEntity": {"@id": learning_resource["@id"]},
+    }
+    return {
+        "@context": "https://schema.org",
+        "@graph": [webpage, learning_resource, breadcrumb],
+    }
+
+
+def render_page(
+    locale: str,
+    chapter: dict[str, object],
+    fragment: str,
+    book_settings: dict[str, object],
+) -> str:
     config = LOCALES[locale]
     ui = config["ui"]
     root_prefix = str(config["root_prefix"])
     asset_prefix = f"{root_prefix}/assets"
     home_url = f"{root_prefix}/{config['home_rel']}"
-    title = html.escape(str(chapter["title"]))
-    description = html.escape(str(chapter["description"]))
+    title_text = str(chapter["title"])
+    title = html.escape(title_text)
+    description = str(chapter["description"])
     number = int(chapter["number"])
-    tr_alternate = f"{root_prefix}/dersler/on-cebir/bolum-{number}/"
-    en_alternate = f"{root_prefix}/en/courses/prealgebra/chapter-{number}/"
+    canonical_path = (
+        f"/dersler/on-cebir/bolum-{number}/"
+        if locale == "tr"
+        else f"/en/courses/prealgebra/chapter-{number}/"
+    )
+    tr_path = f"/dersler/on-cebir/bolum-{number}/"
+    en_path = f"/en/courses/prealgebra/chapter-{number}/"
+    page_title = f"{ui['chapter']} {number}: {title_text} | Turan Arıcan"
+    seo_head = render_seo_head(
+        locale,
+        page_title,
+        description,
+        canonical_path,
+        tr_path,
+        en_path,
+        lesson_structured_data(locale, chapter, canonical_path, book_settings),
+    )
     return f"""<!doctype html>
 <html lang="{locale}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{description}">
-    <title>{ui['chapter']} {number}: {title} | Turan Arıcan</title>
-    <link rel="alternate" hreflang="tr" href="{tr_alternate}">
-    <link rel="alternate" hreflang="en" href="{en_alternate}">
+{seo_head}
     <link rel="icon" type="image/png" href="{asset_prefix}/images/brand/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1053,6 +1220,7 @@ def main() -> int:
     for locale in locale_names:
         config = LOCALES[locale]
         course_dir = config["course_dir"]
+        book_settings = json.loads(config["book_settings"].read_text(encoding="utf-8"))
         course_dir.mkdir(parents=True, exist_ok=True)
         for chapter in CHAPTERS[locale]:
             if args.chapter is not None and int(chapter["number"]) != args.chapter:
@@ -1064,7 +1232,9 @@ def main() -> int:
             )
             destination = course_dir / str(chapter["slug"]) / "index.html"
             destination.parent.mkdir(parents=True, exist_ok=True)
-            destination.write_text(render_page(locale, chapter, localized), encoding="utf-8")
+            destination.write_text(
+                render_page(locale, chapter, localized, book_settings), encoding="utf-8"
+            )
             write_manifest(locale, chapter, chapter_urls[(locale, number)], mapping)
             print(f"wrote {destination.relative_to(ROOT)} ({len(localized):,} characters)")
 
