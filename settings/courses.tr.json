@@ -1,0 +1,12 @@
+{
+  "courses": [
+    { "id": "on-cebir", "enabled": true, "order": 1, "title": "ön cebir", "videos": 78, "cover": "covers/on-cebir.jpg", "href": "dersler/on-cebir/" },
+    { "id": "cebir", "enabled": true, "order": 2, "title": "cebir", "videos": null, "cover": "covers/cebir.jpg", "href": null },
+    { "id": "orta-cebir", "enabled": true, "order": 3, "title": "orta cebir", "videos": null, "cover": "covers/orta-cebir.jpg", "href": null },
+    { "id": "universite-cebiri", "enabled": true, "order": 4, "title": "üniversite cebiri", "videos": null, "cover": "covers/cebir.jpg", "href": null },
+    { "id": "trigonometri", "enabled": true, "order": 5, "title": "trigonometri", "videos": null, "cover": "covers/orta-cebir.jpg", "href": null },
+    { "id": "on-kalkulus", "enabled": true, "order": 6, "title": "ön kalkülüs", "videos": null, "cover": "covers/on-cebir.jpg", "href": null },
+    { "id": "kalkulus", "enabled": true, "order": 7, "title": "kalkülüs", "videos": null, "cover": "covers/cebir.jpg", "href": null },
+    { "id": "diferansiyel-denklemler", "enabled": true, "order": 8, "title": "diferansiyel denklemler", "videos": null, "cover": "covers/orta-cebir.jpg", "href": null }
+  ]
+}

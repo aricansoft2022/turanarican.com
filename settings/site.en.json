@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "logoBackground": "#00ed9a",
+    "footerBackground": "#003d54"
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@turanarican",
+    "handle": "@turanarican"
+  },
+  "home": {
+    "heroImage": "heros/anasayfa.png",
+    "eyebrow": "mathematics lessons at every level",
+    "title": "Free for Everyone",
+    "aboutTitle": "About",
+    "aboutText": "He loves mathematics and understands it deeply. This website and the YouTube channel are designed to work together. Their purpose is to help people understand mathematics more clearly. The lessons focus on foundations rather than the question formats of particular exams. The learning materials are based on openly licensed books published by universities and open education organizations. Except for content reserved for YouTube channel members, access is completely free.",
+    "licensesTitle": "Licenses",
+    "licensesText": "Book pages provide source and license information specific to each book and its related YouTube videos. Rights in translations, adaptations, and presentation may be reserved as permitted by the original licenses.",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerText": "The lessons on this website are provided for general educational purposes. They are not guaranteed to be error-free, to satisfy every requirement of a particular examination or curriculum, or to be sufficient on their own for an individual learner’s needs. Students should also consult official sources and their teachers when making important academic decisions."
+  },
+  "ui": {
+    "video": "videos",
+    "preparing": "in preparation",
+    "noCourses": "There are no published courses at this time.",
+    "settingsError": "Course settings could not be loaded."
+  },
+  "footer": {
+    "email": "turan@turanarican.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "prealgebra",
+  "title": "Prealgebra",
+  "eyebrow": "Free course series · 9 chapters",
+  "description": "Complete lessons ranging from number systems and algebraic language to equations, graphs, polynomials, and trigonometry, with examples, exercises, and answers.",
+  "heroImage": "heros/on-cebir.png",
+  "originalWorkUrl": "https://opentextbc.ca/introalgebra/",
+  "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+}
