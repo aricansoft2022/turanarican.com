@@ -7,6 +7,8 @@ import argparse
 import hashlib
 import html
 import json
+import mimetypes
+import os
 import re
 import sys
 import time
@@ -20,6 +22,14 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA_DIR = ROOT / "assets" / "lessons" / "media"
 MANIFEST_DIR = ROOT / "assets" / "lessons" / "manifests"
+
+# MEDIA_DIR is now a local download cache only — it is not committed to git
+# and is not what the site serves. Rendered pages point straight at R2.
+MEDIA_PUBLIC_BASE = "https://cdn.turanarican.com/lessons/media"
+R2_BUCKET = os.environ.get("R2_BUCKET", "turanarican-media")
+R2_ACCOUNT_ID = os.environ.get("R2_ACCOUNT_ID")
+R2_ACCESS_KEY_ID = os.environ.get("R2_ACCESS_KEY_ID")
+R2_SECRET_ACCESS_KEY = os.environ.get("R2_SECRET_ACCESS_KEY")
 TRANSLATION_FIXES_PATH = ROOT / "sources" / "translation-fixes-tr.json"
 SEO_SETTINGS_PATH = ROOT / "settings" / "seo.json"
 ATTRIBUTIONS_PATH = ROOT / "settings" / "attributions.json"
@@ -403,9 +413,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--locale", choices=("all", "tr", "en"), default="all")
     parser.add_argument("--chapter", type=int, choices=range(1, 10))
     parser.add_argument("--no-download", action="store_true")
+    parser.add_argument("--no-upload", action="store_true", help="skip pushing media to R2")
     parser.add_argument("--refresh", action="store_true")
     parser.add_argument("--keep-unused", action="store_true")
     parser.add_argument("--workers", type=int, default=16)
+    parser.add_argument("--upload-workers", type=int, default=16)
     return parser.parse_args()
 
 
@@ -790,7 +802,6 @@ def repair_turkish_terms(fragment: str) -> str:
 def localize_fragment(
     fragment: str,
     mapping: dict[str, str],
-    asset_prefix: str,
     locale: str,
     part_id: str,
     fixes: dict[str, object],
@@ -801,11 +812,11 @@ def localize_fragment(
 
     def replace_src(match: re.Match[str]) -> str:
         url = match.group("url")
-        return f'{match.group("prefix")}{asset_prefix}/assets/lessons/media/{mapping[url]}{match.group("suffix")}'
+        return f'{match.group("prefix")}{MEDIA_PUBLIC_BASE}/{mapping[url]}{match.group("suffix")}'
 
     def replace_srcset(match: re.Match[str]) -> str:
         value = REMOTE_URL_RE.sub(
-            lambda url_match: f"{asset_prefix}/assets/lessons/media/{mapping[url_match.group(0)]}",
+            lambda url_match: f"{MEDIA_PUBLIC_BASE}/{mapping[url_match.group(0)]}",
             match.group("value"),
         )
         return f'{match.group("prefix")}{value}{match.group("suffix")}'
@@ -928,6 +939,50 @@ def download_one(url: str, destination: Path, refresh: bool) -> tuple[str, int, 
             if attempt < 3:
                 time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"could not download {request_url}: {last_error}")
+
+
+def r2_client():
+    if not (R2_ACCOUNT_ID and R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY):
+        raise RuntimeError(
+            "R2_ACCOUNT_ID, R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY must be set "
+            "(pass --no-upload to skip uploading and only refresh the local cache)"
+        )
+    import boto3  # local import: not needed for --no-upload runs
+    from botocore.config import Config
+
+    return boto3.client(
+        "s3",
+        endpoint_url=f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com",
+        aws_access_key_id=R2_ACCESS_KEY_ID,
+        aws_secret_access_key=R2_SECRET_ACCESS_KEY,
+        config=Config(signature_version="s3v4"),
+        region_name="auto",
+    )
+
+
+def upload_one(client, key: str, local_path: Path, refresh: bool) -> str:
+    from botocore.exceptions import ClientError
+
+    if not refresh:
+        try:
+            client.head_object(Bucket=R2_BUCKET, Key=key)
+            return "cached"
+        except ClientError as error:
+            if error.response.get("Error", {}).get("Code") not in ("404", "NoSuchKey"):
+                raise
+    content_type = mimetypes.guess_type(local_path.name)[0] or "application/octet-stream"
+    client.upload_file(
+        str(local_path),
+        R2_BUCKET,
+        key,
+        ExtraArgs={
+            "ContentType": content_type,
+            # Filenames are content-hash prefixed (see media_filename), so a
+            # given key's bytes never change — safe to cache forever.
+            "CacheControl": "public, max-age=31536000, immutable",
+        },
+    )
+    return "uploaded"
 
 
 def language_switcher(locale: str, root_prefix: str, number: int, label: str) -> str:
@@ -1244,7 +1299,7 @@ def write_manifest(locale: str, chapter: dict[str, object], urls: set[str], mapp
         "chapter": chapter["number"],
         "source_part_id": chapter["source_id"],
         "asset_count": len(urls),
-        "assets": {url: f"assets/lessons/media/{mapping[url]}" for url in sorted(urls)},
+        "assets": {url: f"lessons/media/{mapping[url]}" for url in sorted(urls)},
     }
     path = MANIFEST_DIR / f'{locale}-chapter-{chapter["number"]}.json'
     path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -1299,6 +1354,33 @@ def main() -> int:
             print("\n".join(failures), file=sys.stderr)
             return 1
 
+    if not args.no_upload:
+        client = r2_client()
+        failures = []
+        uploaded = cached = 0
+        with ThreadPoolExecutor(max_workers=max(1, args.upload_workers)) as pool:
+            futures = {
+                pool.submit(
+                    upload_one, client, f"lessons/media/{filename}", MEDIA_DIR / filename, args.refresh
+                ): filename
+                for filename in sorted(set(mapping.values()))
+            }
+            total = len(futures)
+            for complete, future in enumerate(as_completed(futures), start=1):
+                filename = futures[future]
+                try:
+                    state = future.result()
+                    uploaded += state == "uploaded"
+                    cached += state == "cached"
+                except Exception as error:
+                    failures.append(f"{filename}: {error}")
+                if complete % 200 == 0 or complete == total:
+                    print(f"r2 {complete}/{total} — uploaded {uploaded}, already in bucket {cached}")
+        if failures:
+            print("\nR2 upload failures:", file=sys.stderr)
+            print("\n".join(failures), file=sys.stderr)
+            return 1
+
     fixes = load_translation_fixes()
     for locale in locale_names:
         config = LOCALES[locale]
@@ -1311,7 +1393,7 @@ def main() -> int:
             number = int(chapter["number"])
             source_id = str(chapter["source_id"])
             localized = localize_fragment(
-                sources[locale][source_id], mapping, str(config["root_prefix"]), locale, source_id, fixes
+                sources[locale][source_id], mapping, locale, source_id, fixes
             )
             destination = course_dir / str(chapter["slug"]) / "index.html"
             destination.parent.mkdir(parents=True, exist_ok=True)

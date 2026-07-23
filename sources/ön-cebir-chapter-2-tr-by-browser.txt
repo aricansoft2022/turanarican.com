@@ -1,0 +1,3283 @@
+İçeriğe atla
+
+turanarican.com
+Önceki cebir
+Tüm kurslar
+Temas etmek
+TR
+TR
+Önceki cebir
+
+01
+Sayılar ve cebir
+02
+Rasyonel ve gerçek sayılar
+03
+Ölçme ve geometri
+04
+Oran, orantı ve yüzde
+05
+Birinci dereceden denklemler
+06
+Doğrusal denklemler ve grafik çizimi
+07
+Üslü sayılar, kökler ve bilimsel gösterim
+08
+Polinomlar
+09
+Trigonometri
+Bu bölümde
+
+2.1 Kesirleri Görselleştirme
+2.2 Kesirleri Toplama ve Çıkarma
+2.3 Ondalık Basamak
+2.4 Gerçek Sayılar
+2.5 Gerçek Sayıların Özellikleri
+2.6 Bölüm İncelemesi
+Ev
+/
+Önceki cebir
+/
+Bölüm 2
+Bölüm 2 · 6 ders
+
+Rasyonel Sayılarla İşlemler ve Gerçek Sayılara Giriş
+II
+
+BÖLÜM 2 Rasyonel Sayılarla İşlemler ve Gerçek Sayılara Giriş
+Orta düzey cebir dersinde kullandığımız tüm sayılar gerçek sayılardır. Aşağıdaki tablo, cebirde kullandığımız sayı kümelerinin nasıl bir araya geldiğini göstermektedir. Bu bölümde rasyonel sayılarla çalışacağız, ancak irrasyonel sayılarla da tanışacaksınız. Rasyonel sayılar kümesi ile irrasyonel sayılar kümesi birlikte gerçek sayılar kümesini oluşturur.
+
+Bu şekil bir Venn diyagramından oluşmaktadır. Başlangıçta, Gerçek Sayılar olarak işaretlenmiş büyük bir dikdörtgen bulunmaktadır. Dikdörtgenin sağ yarısı İrrasyonel Sayılardan, sol yarısı ise Rasyonel Sayılardan oluşmaktadır. Rasyonel Sayılar dikdörtgeninin içinde, tam sayılar (…, -2, -1, 0, 1, 2, …) yer almaktadır. Tam sayılar dikdörtgeninin içinde, tam sayılar (0, 1, 2, 3, …) yer almaktadır. Tam sayılar dikdörtgeninin içinde ise, sayma sayıları (1, 2, 3, …) yer almaktadır.
+
+7
+2.1 Kesirleri Görselleştirme
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Eşdeğer kesirleri bulun.
+Kesirleri sadeleştirin
+Kesirleri çarpın
+Kesirleri bölmek
+Kesir çizgisiyle yazılmış ifadeleri sadeleştirin.
+Cümleleri kesirli ifadelere çevirin
+Eşdeğer Kesirleri Bulun
+Kesirler, bir bütünün parçalarını temsil etmenin bir yoludur. Kesir, \frac{1}{3}bir bütünün 3 eşit parçaya bölündüğünü ve her parçanın bu üç eşit parçadan biri olduğunu ifade eder. (Şekil 1) 'e bakınız . Kesir, \frac{2}{3}üç eşit parçadan ikisini temsil eder. Kesirde \frac{2}{3}, 2 pay, 3 ise payda olarak adlandırılır.
+
+İki daire gösterilmiştir, her biri çizgilerle üç eşit parçaya bölünmüştür. Soldaki daire her bölümünde "üçte bir" olarak etiketlenmiştir. Her bölüm gölgelendirilmiştir. Sağdaki daire ise üç bölümünden ikisinde gölgelendirilmiştir.
+Şekil 1.
+Soldaki daire 3 eşit parçaya bölünmüştür. Her parça, \frac{1}{3}3 eşit parçanın bir kısmını temsil eder. Sağdaki dairede ise \frac{2}{3}dairenin bir kısmı (3 eşit parçanın 2'si) gölgelendirilmiştir.
+
+Kesir
+
+Kesir , ve olmak üzere, şeklinde yazılır .\frac{a}{b}b\ne 0
+
+a pay , b ise paydadır .​
+Kesir, bir bütünün parçalarını temsil eder. Payda ( b) , bütünün bölündüğü eşit parça sayısını, pay ( a) ise kaç parçanın dahil olduğunu gösterir.
+
+Eğer bir bütün pasta 6 parçaya bölünmüşse ve biz bu 6 parçanın hepsini yersek, \frac{6}{6}parça yemiş oluruz; başka bir deyişle, bir bütün pasta yemiş oluruz.
+
+Şekilde bir daire gösterilmiş ve altı bölüme ayrılmıştır. Tüm bölümler gölgelendirilmiştir.
+
+Bu \frac{6}{6}=1da bizi, sıfır hariç herhangi bir sayının kendisine bölünmesinin 1 olduğunu söyleyen 1 özelliğine götürür.
+
+Bir Kişinin Mülkiyeti
+
+\begin{array}{cccc}\frac{a}{a}=1\hfill & & & \left(a\ne 0\right)\hfill \end{array}
+
+Sıfır hariç herhangi bir sayının kendisine bölünmesi bir sonucunu verir.
+
+Eğer bir pasta dilimlere ayrılmış olsaydı 6ve biz 6 dilimin tamamını yeseydik, \frac{6}{6}dilimler yemiş olurduk, yani bir bütün pasta yemiş olurduk. Eğer pasta 8 dilime ayrılmış olsaydı ve biz 8 dilimin tamamını yeseydik, \frac{8}{8}dilimler yemiş olurduk, yani bir bütün pasta yemiş olurduk. Aynı miktarda, yani bir bütün pasta yemiş olurduk.
+
+\frac{6}{6}ve kesirlerinin \frac{8}{8}değeri 1 olduğundan, bunlara eşdeğer kesirler denir. Eşdeğer kesirler , aynı değere sahip kesirlerdir.
+
+Bu sefer pizzaları düşünelim. (Şekil 2) iki görsel göstermektedir: solda iki eşit parçaya bölünmüş tek bir pizza ve sağda aynı boyutta sekiz parçaya bölünmüş ikinci bir pizza. Bu, ' \frac{1}{2}nin 'ye eşdeğer olduğunu göstermenin bir yoludur \frac{4}{8}. Başka bir deyişle, bunlar eşdeğer kesirlerdir .
+
+Şekilde, çizgilerle sekiz eşit dilime ayrılmış bir daire gösterilmiştir. Dairenin sol tarafı, dört dilimden oluşan bir pizza şeklindedir. Sağ tarafta ise dört gölgeli bölüm bulunmaktadır. Şemanın altında dörtte sekiz kesri yer almaktadır.
+Şekil 2.
+Her pizzanın aynı miktarı gölgelendirildiğinden, bunun \frac{1}{2}'ye eşdeğer olduğunu görüyoruz \frac{4}{8}. Bunlar eşdeğer kesirlerdir.
+
+Eşdeğer Kesirler
+
+Eşdeğer kesirler, aynı değere sahip kesirlerdir.
+
+\frac{1}{2}Matematiği kullanarak nasıl bir dönüşüm gerçekleştirebiliriz? \frac{4}{8}?İki parçaya bölünmüş bir pizzayı nasıl sekiz parçaya bölebiliriz? Her iki büyük parçayı da dörder küçük parçaya bölebiliriz! Böylece pizzanın tamamı, 8sadece iki parça yerine, parçalara bölünmüş olur. Matematiksel olarak, tarif ettiğimiz şey şu şekilde yazılabilir : . (Şekil 3)'\frac{1\cdot 4}{2\cdot 4}=\frac{4}{8} e bakınız .
+
+Bir daire gösterilmiştir ve dikey siyah bir çizgiyle ikiye bölünmüştür. Ayrıca noktalı kırmızı çizgiler eklenerek sekiz parçaya ayrılmıştır.
+Şekil 3.
+Pizzanın her iki yarısını da 4dilimlere ayırdığımızda, 8 parçaya bölünmüş bir pizza elde ederiz: \frac{1\cdot4}{2\cdot4}=\frac{4}{8}.
+
+Bu model aşağıdaki özelliğe yol açar:
+
+Eşdeğer Kesirler Özelliği
+
+Eğer ABCsayılar ise b ≠ 0, c ≠ 0, o zaman
+
+\frac{a}{b}=\frac{a\cdot c}{b\cdot c}
+
+Pizzayı farklı şekilde kesmiş olsaydık, şunları elde edebilirdik:
+
+Bir resimde üç satır kesir gösterilmektedir. Birinci satırda “1 x 2, bölü 2 x 2, eşittir iki/dörtte bir” kesirleri yer almaktadır. Bunun yanında “yani” kelimesi ve “bir/ikisi, eşittir iki/dörtte bir” kesri bulunmaktadır. İkinci satırda “1 x 3, bölü 2 x 3, eşittir üç/altıda bir” yazmaktadır. Bunun yanında “yani” kelimesi ve “bir/ikisi, eşittir üç/altıda bir” kesri bulunmaktadır. Üçüncü satırda “1 x 10, bölü 2 x 10, eşittir on/yirmide bir” yazmaktadır. Bunun yanında “yani” kelimesi ve “bir/ikisi, eşittir on/yirmide bir” kesri bulunmaktadır.
+
+Dolayısıyla, bunların eşdeğer kesirler olduğunu söylüyoruz \frac{1}{2},\frac{2}{4},\frac{3}{6},\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}\frac{10}{20}.
+
+ÖRNEK 1
+
+'ye eşdeğer üç kesir bulun \frac{2}{5}.
+
+Çözüm
+'ye eşdeğer bir kesir bulmak için \frac{2}{5}, payı ve paydayı aynı sayıyla çarparız. Sıfır hariç herhangi bir sayı seçebiliriz. Bunları sırasıyla 2, 3 ve 5 ile çarpalım.
+
+Kesirlerden oluşan bir satırda “2 kere 2, bölü 5 kere 2, eşittir dört onda bir” yazıyor. Bunun yanında “2 kere 3, bölü 5 kere 3, eşittir altı on beşte bir” yazıyor. Bunun yanında da “2 kere 5, bölü 5 kere 5, eşittir on yirmi beşte bir” yazıyor.
+
+Dolayısıyla, \frac{4}{10},\frac{6}{15},\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}\frac{10}{25}bunlar birbirine eşdeğerdir \frac{2}{5}.
+
+DENEYİN 1.1
+
+'ye eşdeğer üç kesir bulun \frac{3}{5}.
+
+Yanıtı göster
+DENEYİN 1.2
+
+'ye eşdeğer üç kesir bulun \frac{4}{5}.
+
+Yanıtı göster
+Kesirleri Sadeleştirme
+Bir kesrin payında ve paydasında 1'den başka ortak çarpan yoksa, o kesir sadeleştirilmiş kabul edilir .
+
+Örneğin,
+
+\frac{2}{3}2 ve 3'ün ortak çarpanları olmadığı için ifade basitleştirilmiştir.
+\frac{10}{15}510 ve 15'in ortak çarpanı olduğu için sadeleştirilmemiştir .
+Basitleştirilmiş Kesir
+
+Bir kesrin payında ve paydasında ortak çarpan yoksa, o kesir sadeleştirilmiş kabul edilir.
+
+"Kesiri sadeleştirmek" ifadesi , kesiri basitleştirmek anlamına gelir. Bir kesiri sadeleştirmek veya sadeleştirmek, pay ve paydanın ortak çarpanlarını kaldırmakla olur. Tüm ortak çarpanlar kaldırılana kadar bir kesir sadeleştirilmiş sayılmaz. Bir ifadede kesirler varsa, kesirler sadeleştirilene kadar ifade tamamen sadeleştirilmiş sayılmaz.
+
+Örnek 1'de , eşdeğer kesirler özelliğini kullanarak eşdeğer kesirler bulduk. Şimdi ise eşdeğer kesirler özelliğini tersine kullanarak kesirleri sadeleştireceğiz. Özelliği, her iki formu birlikte gösterecek şekilde yeniden yazabiliriz.
+
+Eşdeğer Kesirler Özelliği
+
+Eğer ABCsayılar ise b ≠ 0, c ≠ 0,
+
+\text{o halde}\phantom{\rule{1em}{0ex}}\frac{a}{b}=\frac{a \cdot c}{b \cdot c}\phantom{\rule{1em}{0ex}}\text{ve}\phantom{\rule{1em}{0ex}}\frac{a \cdot c}{b \cdot c}=\frac{a}{b}
+
+ÖRNEK 2
+
+Basitleştirin: -\phantom{\rule{0.2em}{0ex}}\frac{32}{56}.
+
+Çözüm
+-\phantom{\rule{0.2em}{0ex}}\frac{32}{56}
+Pay ve paydayı ortak çarpanları gösterecek şekilde yeniden yazın.	.
+Eşdeğer kesirler özelliğini kullanarak sadeleştirin.	-\phantom{\rule{0.2em}{0ex}}\frac{4}{7}
+Dikkat ederseniz, kesirde -\phantom{\rule{0.2em}{0ex}}\frac{4}{7}artık ortak çarpan kalmadığı için sadeleşmiştir.
+
+DENEYİN 2.1
+
+Basitleştirin: -\phantom{\rule{0.2em}{0ex}}\frac{42}{54}.
+
+Yanıtı göster
+DENEYİN 2.2
+
+Basitleştirin: -\phantom{\rule{0.2em}{0ex}}\frac{45}{81}.
+
+Yanıtı göster
+Bazen pay ve paydanın ortak çarpanlarını bulmak kolay olmayabilir. Bu durumda, pay ve paydayı asal sayılara ayırmak iyi bir fikirdir . Daha sonra, eşdeğer kesirler özelliğini kullanarak ortak çarpanları sadeleştirebilirsiniz.
+
+ÖRNEK 3
+
+Kesir Nasıl Sadeleştirilir?
+Basitleştirin: -\phantom{\rule{0.2em}{0ex}}\frac{210}{385}.
+
+Çözüm
+Üç sütun ve üç satırdan oluşan bir tablo gösterilmiştir. Sol sütunun ilk satırında “Adım 1. Ortak çarpanları göstermek için pay ve paydayı yeniden yazın. Gerekirse, çarpan ağacı kullanın” yazmaktadır. Bunun yanında, orta sütunda “210 ve 285'i asal sayıların çarpımı olarak yeniden yazın” yazmaktadır. Bunun yanında, sağ sütunda “eksi 210 bölü 385” yazmaktadır. Bunun altında ise “iki çarpı üç çarpı beş çarpı yedi” denklemi yer almaktadır. Beş ve yedi rakamları sırasıyla mavi ve kırmızı renktedir.Bir sonraki satırda “Adım 2. Eşdeğer kesirler özelliğini kullanarak ortak çarpanları sadeleştirin.” yazıyor. Bunun yanında, orta sütunda, “Ortak çarpanlar 5 ve 7’yi işaretleyin.” yazıyor. Bunun yanında, sağ sütunda, 2 çarpı üç çarpı beş çarpı yedi bölü 5 çarpı yedi çarpı 11 denklemi var. Hem 5 hem de 7 ortak çarpan olarak işaretlenmiş. Bunun altında ise “eksi iki çarpı 3 bölü 11” denklemi yer alıyor.Bir sonraki satırda, “3. Adım. Gerekirse kalan çarpanları çarpın.” yazıyor. Bunun yanında, sağ sütunda eksi altı on birler yer alıyor.
+
+DENEYİN 3.1
+
+Basitleştirin: -\phantom{\rule{0.2em}{0ex}}\frac{69}{120}.
+
+Yanıtı göster
+DENEYİN 3.2
+
+Basitleştirin: -\phantom{\rule{0.2em}{0ex}}\frac{120}{192}.
+
+Yanıtı göster
+Kesirleri sadeleştirmek için izlemeniz gereken adımları şimdi özetliyoruz.
+
+Kesirleri Sadeleştirme Nasıl Yapılır?
+
+Pay ve paydadaki ortak çarpanları gösterecek şekilde yeniden yazın.
+Gerekirse, önce pay ve paydayı asal sayılara ayırın.
+Eşdeğer kesirler özelliğini kullanarak, ortak çarpanları sadeleştirin.
+Gerekirse kalan çarpanları çarpın.
+ÖRNEK 4
+
+Basitleştirin: \frac{5x}{5y}.
+
+
+Çözüm
+\frac{5x}{5y}
+Ortak çarpanları göstererek yeniden yazın, ardından ortak çarpanları sadeleştirin.	.
+Basitleştirin.	\frac{x}{y}
+DENEYİN 4.1
+
+Basitleştirin: \frac{7x}{7y}.
+
+Yanıtı göster
+DENEYİN 4.2
+
+Basitleştirin: \frac{7x}{7y}.
+
+Yanıtı göster
+Kesirleri Çarpma
+Birçok insan kesirleri çarpmayı ve bölmeyi, kesirleri toplama ve çıkarma işlemlerinden daha kolay bulur. Bu nedenle kesir çarpımıyla başlayacağız.
+
+İki kesri nasıl çarpacağınızı göstermek ve işlemi hatırlamanıza yardımcı olmak için bir model kullanacağız. ile başlayalım \frac{3}{4}.
+
+Yan yana dizilmiş dört kareden oluşan bir dikdörtgen. İlk üç kare gölgelendirilmiştir.
+
+\frac{1}{2}Şimdi bununla ilgileneceğiz \frac{3}{4}.
+
+Bir sıra halinde dizilmiş dört kareden oluşan bir dikdörtgen. İlk üç kare gölgelendirilmiştir. İlk üç karenin alt yarıları, çapraz çizgilerle daha koyu renkte gölgelendirilmiştir.
+
+Şimdi bütünün 8 eşit parçaya bölündüğüne dikkat edin. Yani \frac{1}{2}\cdot\frac{3}{4}=\frac{3}{8}...
+
+Kesirleri çarpmak için payları ve paydaları çarparız.
+
+Kesir Çarpımı
+
+Eğer a,b,c\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}dsayılar ise b\ne 0\phantom{\rule{0.2em}{0ex}}\text{and}\phantom{\rule{0.2em}{0ex}}d\ne 0, o zaman
+
+\frac{a}{b}\cdot\frac{c}{d}=\frac{ac}{bd}
+
+Kesirleri çarpmak için, payları çarpın ve paydaları çarpın.
+
+Kesirleri çarparken , pozitif ve negatif sayıların özellikleri elbette hala geçerlidir. İlk adım olarak çarpımın işaretini belirlemek iyi bir fikirdir. Örnek 5'te , negatif bir sayıyı pozitif bir sayıyla çarpacağız, bu nedenle sonuç negatif olacaktır.
+
+ÖRNEK 5
+
+Çarpma işlemi: -\phantom{\rule{0.2em}{0ex}}\frac{11}{12}\cdot \frac{5}{7}.
+
+Çözüm
+İlk adım, çarpımın işaretini bulmaktır. İşaretler farklı olduğundan, çarpım negatiftir.
+
+-\phantom{\rule{0.2em}{0ex}}\frac{11}{12}\cdot\frac{5}{7}
+Çarpımın işaretini belirleyin; çarpın.	-\phantom{\rule{0.2em}{0ex}}\frac{11\cdot5}{12\cdot7}
+Pay ve paydada ortak çarpan var mı? Hayır.	-\phantom{\rule{0.2em}{0ex}}\frac{55}{84}
+DENEYİN 5.1
+
+Çarpma işlemi: -\phantom{\rule{0.2em}{0ex}}\frac{10}{28}\cdot\frac{8}{15}.
+
+Yanıtı göster
+DENEYİN 5.2
+
+Çarpma işlemi: -\phantom{\rule{0.2em}{0ex}}\frac{9}{20}\cdot\frac{5}{12}.
+
+Yanıtı göster
+Bir kesri bir tam sayıyla çarparken, tam sayıyı kesir olarak yazmak faydalı olabilir. Herhangi bir tam sayı, a , şeklinde yazılabilir \frac{a}{1}. Örneğin, 3=\frac{3}{1}.
+
+ÖRNEK 6
+
+Çarpma işlemi: -\phantom{\rule{0.2em}{0ex}}\frac{12}{5}\cdot \left(-20x\right).
+
+Çözüm
+Çarpımın işaretini belirleyin. İşaretler aynı olduğundan, çarpım pozitiftir.
+
+-\phantom{\rule{0.2em}{0ex}}\frac{12}{5}\cdot \left(-20x\right)
+20xKesir olarak yazın .	\frac{12}{5}\cdot \left(\frac{20x}{1}\right)
+Çarpma işlemi.	
+20 sayısını yeniden yazarak ortak çarpan olan 5'i gösterin ve sadeleştirin.	.
+Basitleştirin.	48x
+DENEYİN 6.1
+
+Çarpma işlemi: \frac{11}{3}\cdot \left(-9a\right).
+
+Yanıtı göster
+DENEYİN 6.2
+
+Çarpma işlemi: \frac{13}{7}\cdot \left(-14b\right).
+
+Yanıtı göster
+Kesirleri Bölme
+Kesirleri nasıl çarpacağımızı öğrendiğimize göre, artık bölmeye de neredeyse hazırız. Bunu yapmadan önce, bazı terimlere ihtiyacımız var.
+
+Bir kesrin tersi, kesri ters çevirerek, payı paydaya, paydayı da paya yerleştirerek bulunur. 'nin tersi ' \frac{2}{3}dir \frac{3}{2}.
+
+Dikkat edin ki \frac{2}{3}\cdot \frac{3}{2}=1, bir sayı ve tersinin çarpımı 1'dir.
+
+İki sayıyı çarptığımızda sonucun +1 olması için sayıların aynı işarete sahip olması gerekir. Dolayısıyla, sayıların terslerinin de aynı işarete sahip olması şarttır.
+
+'nin tersi 'dir -\phantom{\rule{0.2em}{0ex}}\frac{10}{7}, -\phantom{\rule{0.2em}{0ex}}\frac{7}{10}çünkü -\phantom{\rule{0.2em}{0ex}}\frac{10}{7}\cdot \left(-\phantom{\rule{0.2em}{0ex}}\frac{7}{10}\right)=1.
+
+Karşılıklı
+
+'nin tersi '\frac{a}{b} dir \frac{b}{a}.
+
+Bir sayı ile tersinin çarpımı birdir \frac{a}{b}\cdot \frac{b}{a}=1.
+
+Kesirleri bölmek için, birinci kesri ikinci kesrin tersiyle çarparız.
+
+Kesirli Bölümleme
+
+Eğer a,b,c\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}dsayılar ise b\ne 0,c\ne 0\phantom{\rule{0.2em}{0ex}}\text{and}\phantom{\rule{0.2em}{0ex}}d\ne 0, o zaman
+
+\frac{a}{b}\div \frac{c}{d}=\frac{a}{b}\cdot \frac{d}{c}
+
+b\ne 0,c\ne 0\phantom{\rule{0.2em}{0ex}}\text{and}\phantom{\rule{0.2em}{0ex}}d\ne 0Sıfıra bölmemeye dikkat etmeliyiz !
+
+ÖRNEK 7
+
+Bölmek: -\phantom{\rule{0.2em}{0ex}}\frac{2}{3}\div \frac{n}{5}.
+
+Çözüm
+-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}\div \frac{n}{5}
+Bölme işlemi için, birinci kesri ikinci kesrin tersiyle çarpın.	-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}\cdot \frac{5}{n}
+Çarpma işlemi.	-\phantom{\rule{0.2em}{0ex}}\frac{10}{3n}
+DENEYİN 7.1
+
+Bölmek: -\phantom{\rule{0.2em}{0ex}}\frac{3}{5}\div \frac{p}{7}.
+
+Yanıtı göster
+DENEYİN 7.2
+
+Bölmek: -\phantom{\rule{0.2em}{0ex}}\frac{5}{8}\div \frac{q}{3}.
+
+Yanıtı göster
+ÖRNEK 8
+
+Bölümü bulun: -\phantom{\rule{0.2em}{0ex}}\frac{7}{8}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{14}{27}\right).
+
+Çözüm
+-\phantom{\rule{0.2em}{0ex}}\frac{7}{18}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{14}{27}\right)
+Bölme işlemi için, birinci kesri ikinci kesrin tersiyle çarpın.	-\phantom{\rule{0.2em}{0ex}}\frac{7}{18}\cdot -\phantom{\rule{0.2em}{0ex}}\frac{27}{14}
+Çarpımın işaretini belirleyin ve ardından çarpın.	\frac{7\cdot 27}{18\cdot 14}
+Ortak faktörleri göstererek yeniden yazın.	.
+Ortak faktörleri ortadan kaldırın.	\frac{3}{2\cdot 2}
+Basitleştirin.	\frac{3}{4}
+DENEYİN 8.1
+
+Bölümü bulun: -\phantom{\rule{0.2em}{0ex}}\frac{7}{27}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{35}{36}\right).
+
+Yanıtı göster
+DENEYİN 8.2
+
+Bölümü bulun: -\phantom{\rule{0.2em}{0ex}}\frac{5}{14}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{15}{28}\right).
+
+Yanıtı göster
+Kesirleri çarpmak veya bölmek için hangi adımları izleyeceğinizi hatırlamanın birkaç yolu vardır. Bunlardan biri, adımları kendi kendinize tekrarlamaktır. Bunu her alıştırma yaptığınızda yaparsanız, adımları ezberlemiş olursunuz.
+
+Kesirleri çarpmak için payları ve paydaları çarpın.
+“Kesirleri bölmek için, birinci kesri ikinci kesrin tersiyle çarpın.”
+Bir diğer yöntem ise iki örneği aklınızda tutmaktır:
+
+Bu, iki sütunlu bir resimdir. Birinci sütunda “İki pizzanın dörtte biri, bir pizzanın yarısıdır” yazmaktadır. Bunun altında, her birinin ortasından bir çizgi geçirilmiş iki pizza yan yana yer almaktadır. Bu çizgiler, pizzanın yarısını temsil etmektedir. Yarım pizzalar “bir yarım” olarak etiketlenmiştir. Bunun altında “2 çarpı 1/4” denklemi yer almaktadır. Bunun altında başka bir denklem olan “2 bölü 1 çarpı 1/4” yer almaktadır. Bunun altında kesir olarak “2/4” ve bunun altında kesir olarak “bir yarım” yazmaktadır. Sonraki sütunda “İki dolarda sekiz çeyrek vardır” yazmaktadır. Bunun altında, dörderli iki sıra halinde sekiz çeyrek bulunmaktadır. Bunun altında kesir denklemi olarak “2 bölü 1 bölü 1/4” yazmaktadır. Bunun altında “2 bölü 1 çarpı 4 bölü 1” yazmaktadır. Bunun altında ise “8” cevabı yer almaktadır.
+
+Bazı kesirlerin payları veya paydaları kendileri de kesir içerir. Payı veya paydası kesir olan bir kesire karmaşık kesir denir .
+
+Karmaşık Kesir
+
+Karmaşık kesir, payında veya paydasında kesir içeren bir kesirdir.
+
+Karmaşık kesirlere bazı örnekler şunlardır:
+
+\frac{\frac{6}{7}}{3}\phantom{\rule{1em}{0ex}}\frac{\frac{3}{4}}{\frac{5}{8}}\phantom{\rule{1em}{0ex}}\frac{\frac{x}{2}}{\frac{5}{6}}
+
+Karmaşık bir kesri sadeleştirmek için, kesir çizgisinin bölme işlemini ifade ettiğini hatırlarız . Örneğin, karmaşık kesir \frac{\frac{3}{4}}{\frac{5}{8}}şu anlama gelir \frac{3}{4}\div \frac{5}{8}: .
+
+ÖRNEK 9
+
+Basitleştirin: \frac{\frac{3}{4}}{\frac{5}{8}}.
+
+Çözüm
+\frac{\frac{3}{4}}{\frac{5}{8}}
+Bölme işlemi olarak yeniden yazın.	\frac{3}{4}\div \frac{5}{8}
+Birinci kesri ikinci kesrin tersiyle çarpın.	\frac{3}{4}\cdot \frac{8}{5}
+Çarpma işlemi.	\frac{3\cdot 8}{4\cdot 5}
+Ortak noktaları arayın.	.
+Ortak çarpanları ayırın ve sadeleştirin.	\frac{6}{5}
+DENEYİN 9.1
+
+Basitleştirin: \frac{\frac{2}{3}}{\frac{5}{6}}.
+
+Yanıtı göster
+DENEYİN 9.2
+
+Basitleştirin: \frac{\frac{3}{7}}{\frac{6}{11}}.
+
+Yanıtı göster
+ÖRNEK 10
+
+Basitleştirin: \frac{\frac{x}{2}}{\frac{xy}{6}}.
+
+Çözüm
+\frac{\frac{x}{2}}{\frac{xy}{6}}
+Bölme işlemi olarak yeniden yazın.	\frac{x}{2}\div\frac{xy}{6}
+Birinci kesri ikinci kesrin tersiyle çarpın.	\frac{x}{2}\cdot \frac{6}{xy}
+Çarpma işlemi.	\frac{x\cdot 6}{2\cdot xy}
+Ortak noktaları arayın.	.
+Ortak çarpanları ayırın ve sadeleştirin.	\frac{3}{y}
+DENEYİN 10.1
+
+Basitleştirin: \frac{\frac{a}{8}}{\frac{ab}{6}}.
+
+Yanıtı göster
+DENEYİN 10.2
+
+Basitleştirin: \dfrac{\dfrac{p}{2}}{\dfrac{pq}{8}}.
+
+Yanıtı göster
+Kesir Çizgisi İçeren İfadeleri Basitleştirme
+Bir kesirde payı paydadan ayıran çizgiye kesir çizgisi denir. Kesir çizgisi gruplandırma sembolü görevi görür. İşlem önceliği kuralları bize önce payı, sonra paydayı sadeleştirmemizi söyler. Sonra bölme işlemini yaparız.
+
+İfadeyi sadeleştirmek için \frac{5-3}{7+1}önce payı ve paydayı ayrı ayrı sadeleştiriyoruz. Sonra bölme işlemini yapıyoruz.
+
+\frac{5-3}{7+1}
+\frac{2}{8}
+\frac{1}{4}
+Kesir çizgisi içeren bir ifadeyi nasıl sadeleştirebilirsiniz?
+
+Paydaki ifadeyi sadeleştirin. Paydadaki ifadeyi sadeleştirin.
+Kesri sadeleştirin.
+ÖRNEK 11
+
+Basitleştirin: \frac{4-2\left(3\right)}{{2}^{2}+2}.
+
+Çözüm
+\frac{4-2\left(3\right)}{{2}^{2}+2}
+İşlem önceliği kurallarını kullanarak pay ve paydayı sadeleştirin.	\frac{4-6}{4+2}
+Pay ve paydayı sadeleştirin.	\frac{-2}{6}
+Basitleştirin. Negatif bir sayının pozitif bir sayıya bölünmesi negatiftir.	-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}
+DENEYİN 11.1
+
+Basitleştirin: \frac{6-3\left(5\right)}{{3}^{2}+3}.
+
+Yanıtı göster
+DENEYİN 11.2
+
+Basitleştirin: \frac{4-4\left(6\right)}{{3}^{2}+3}.
+
+Yanıtı göster
+Kesirlerde eksi işareti nereye gelir? Genellikle eksi işareti kesrin önüne gelir, ancak bazen payı negatif olan veya paydası negatif olan kesirler de görebilirsiniz. Unutmayın ki kesirler bölme işlemini temsil eder. Pay ve paydanın işaretleri farklı olduğunda, bölüm negatiftir.
+\begin{array}{cccccc}\frac{-1}{3}=-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}\hfill & & & & & \frac{\text{negatif}}{\text{pozitif}}=\text{negatif}\hfill \\ \frac{1}{-3}=-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}\hfill & & & & & \frac{\text{pozitif}}{\text{negatif}}=\text{negatif}\hfill \end{array}
+Kesirlerde Negatif İşaretin Yerleştirilmesi
+
+Herhangi pozitif a ve b sayıları için ,
+
+\frac{-a}{b}=\frac{a}{-b}=\phantom{\rule{0.2em}{0ex}}-\frac{a}{b}
+
+ÖRNEK 12
+
+Basitleştirin: \frac{4\left(-3\right)+6\left(-2\right)}{-3\left(2\right)-2}.
+
+Çözüm
+\begin{array}{cccc}& \frac{4\left(-3\right)+6\left(-2\right)}{-3\left(2\right)-2}\end{array}
+Çarpma işlemi.	\frac{-12+\left(-12\right)}{-6-2}
+Basitleştirin.	\frac{-24}{-8}
+Bölmek.	3
+DENEYİN 12.1
+
+Basitleştirin: \frac{8\left(-2\right)+4\left(-3\right)}{-5\left(2\right)+3}.
+
+Yanıtı göster
+DENEYİN 12.2
+
+Basitleştirin: \frac{7\left(-1\right)+9\left(-3\right)}{-5\left(3\right)-2}.
+
+Yanıtı göster
+Kesirli Sayılar İçeren İfadeleri Sözcük Kalıplarına Çevirme
+Kesirlerle biraz çalışma yaptıktan sonra, kesir içeren ifadeler oluşturacak cümleleri çevirmeye hazırız.
+
+İngilizce'deki "quotient" ve " ratio" kelimeleri genellikle kesirleri tanımlamak için kullanılır. "Quotient" kelimesinin bölmeA anlamına geldiğini unutmayın. ve 'nin bölümü, 'yi 'ye veya 'ye Bböldüğümüzde elde ettiğimiz sonuçtur .AB\frac{a}{b}
+
+ÖRNEK 13
+
+İngilizce ifadeyi cebirsel bir ifadeye çevirin: m ve n'nin farkının p'ye bölümü .
+
+Çözüm
+m ve n'nin farkının p'ye bölümünü arıyoruz . Bu , farkının bölümüne bölünmesi anlamına gelir . m\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}n\phantom{\rule{0.2em}{0ex}}\text{ile}\phantom{\rule{0.2em}{0ex}}p
+
+\frac{mn}{p}
+DENEYİN 13.1
+
+İngilizce ifadeyi cebirsel bir ifadeye çevirin: a ve b'nin farkının bölümü ve cd .
+
+Yanıtı göster
+DENEYİN 13.2
+
+Pİngilizce ifadeyi cebirsel bir ifadeye çevirin: ve'nin toplamının bölümü QveR
+
+Yanıtı göster
+Temel Kavramlar
+Eşdeğer Kesirler Özelliği: Eğer ABCve sayılar ise ve b ≠ 0, c ≠ 0, o zaman
+\frac{a}{b}=\frac{a \cdot c}{b \cdot c}ve \frac{a \cdot c}{b \cdot c}=\frac{a}{b}.
+Kesir Bölme: Eğer a,b,c\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}dve sayılar ise ve ise b\ne 0,c\ne 0,\phantom{\rule{0.2em}{0ex}}\text{and}\phantom{\rule{0.2em}{0ex}}d\ne 0, o zaman olur \frac{a}{b}\div \frac{c}{d}=\frac{a}{b}\cdot \frac{d}{c}. Kesirleri bölmek için, birinci kesri ikinci kesrin tersiyle çarpın.
+Kesir Çarpımı: Eğer a,b,c\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}dve sayılar ise ve ise b\ne 0,\phantom{\rule{0.2em}{0ex}}\text{and}\phantom{\rule{0.2em}{0ex}}d\ne 0, o zaman olur \frac{a}{b} \cdot \frac{c}{d}=\frac{ac}{bd}. Kesirleri çarpmak için payları ile, paydaları da ile çarpın.
+Kesirlerde Negatif İşaretin Yerleştirilmesi: Herhangi pozitif sayılar için a\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}b, \frac{-a}{b}=\frac{a}{-b}=-\phantom{\rule{0.2em}{0ex}}\frac{a}{b}.
+Bir olma özelliği:\frac{a}{a}=1; Sıfır hariç herhangi bir sayının kendisine bölünmesi bir sonucunu verir.
+Bir Kesri Sadeleştirme
+Pay ve paydadaki ortak çarpanları gösterecek şekilde yeniden yazın. Gerekirse, önce pay ve paydayı asal sayılara ayırın.
+Eşdeğer kesirler özelliğini kullanarak, ortak çarpanları sadeleştirin.
+Geriye kalan tüm faktörleri çarpın.
+Kesir çizgisi içeren bir ifadeyi sadeleştirme
+Paydaki ifadeyi sadeleştirin. Paydadaki ifadeyi sadeleştirin.
+Kesri sadeleştirin.
+Sözlük
+karmaşık fraksiyon
+Karmaşık kesir, payında veya paydasında kesir içeren bir kesirdir.
+payda
+Payda, kesrin alt kısmında yer alan ve bütünün kaç eşit parçaya bölündüğünü gösteren değerdir.
+eşdeğer kesirler
+Eşdeğer kesirler, aynı değere sahip kesirlerdir.
+kesir
+Kesir, şeklinde yazılır \frac{a}{b}; burada b\ne 0 Apay, paydadır B. Kesir, bir bütünün parçalarını temsil eder. Payda, Bbütünün bölündüğü eşit parça sayısını, pay ise Akaç parçanın dahil olduğunu gösterir.
+pay
+Pay, kesrin üst kısmında yer alan ve bütünün kaç parçasını içerdiğini gösteren değerdir.
+karşılıklı
+'nin tersi ' \frac{a}{b}dir \frac{b}{a}. Bir sayı ve tersinin çarpımı birdir: \frac{a}{b}\cdot \frac{b}{a}=1.
+sadeleştirilmiş kesir
+Bir kesrin payında ve paydasında ortak çarpan yoksa, o kesir sadeleştirilmiş kabul edilir.
+Pratik mükemmelliği getirir.
+Eşdeğer Kesirleri Bulun
+Aşağıdaki alıştırmalarda, verilen kesire denk üç kesir bulun. Çözümlerinizi rakamlar veya cebir kullanarak gösterin.
+
+1.\frac{3}{8}	2.\frac{5}{8}
+3.\frac{5}{9}	4.\frac{1}{8}
+Kesirleri Sadeleştirme
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+5.-\phantom{\rule{0.2em}{0ex}}\frac{40}{88}	6.-\phantom{\rule{0.2em}{0ex}}\frac{63}{99}
+7.-\phantom{\rule{0.2em}{0ex}}\frac{108}{63}	8.-\phantom{\rule{0.2em}{0ex}}\frac{104}{48}
+9.\frac{120}{252}	10.\frac{182}{294}
+11.-\phantom{\rule{0.2em}{0ex}}\frac{3x}{12y}	12.-\phantom{\rule{0.2em}{0ex}}\frac{4x}{32y}
+13.\frac{14{x}^{2}}{21y}	14.\frac{24a}{32{b}^{2}}
+Kesirleri Çarpma
+Aşağıdaki alıştırmalarda çarpma işlemi yapın.
+
+15.\frac{3}{4}\cdot \frac{9}{10}	16.\frac{4}{5}\cdot \frac{2}{7}
+17.-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}\cdot\left(-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}\right)	18.-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}\cdot\left(-\phantom{\rule{0.2em}{0ex}}\frac{4}{9}\right)
+19.-\phantom{\rule{0.2em}{0ex}}\frac{5}{9}\cdot \frac{3}{10}	20.-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}\cdot \frac{4}{15}
+21.\left(-\phantom{\rule{0.2em}{0ex}}\frac{14}{15}\right) \cdot \left(\frac{9}{20}\right)	22.\left(-\phantom{\rule{0.2em}{0ex}}\frac{9}{10}\right) \cdot \left(\frac{25}{33}\right)
+23.\left(-\phantom{\rule{0.2em}{0ex}}\frac{63}{84}\right)\cdot \left(-\phantom{\rule{0.2em}{0ex}}\frac{44}{90}\right)	24.\left(-\phantom{\rule{0.2em}{0ex}}\frac{63}{60}\right) \cdot \left(-\phantom{\rule{0.2em}{0ex}}\frac{40}{88}\right)
+25.4\cdot \frac{5}{11}	26.5\cdot \frac{8}{3}
+27.\frac{3}{7}\cdot 21n	28.\frac{5}{6}\cdot 30m
+29.-8\cdot \left(\frac{17}{4}\right)	30.\left(-1\right)\cdot\left(-\phantom{\rule{0.2em}{0ex}}\frac{6}{7}\right)
+Kesirleri Bölme
+Aşağıdaki alıştırmalarda, bölme işlemi yapın.
+
+31.\frac{3}{4}\div \frac{2}{3}	32.\frac{4}{5}\div \frac{3}{4}
+33.-\phantom{\rule{0.2em}{0ex}}\frac{7}{9}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{7}{4}\right)	34.-\phantom{\rule{0.2em}{0ex}}\frac{5}{6}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{6}\right)
+35.\frac{3}{4}\div \frac{x}{11}	36.\frac{2}{5}\div \frac{y}{9}
+37.\frac{5}{18}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{15}{24}\right)	38.\frac{7}{18}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{14}{27}\right)
+39.\frac{8u}{15}\div \frac{12v}{25}	40.\frac{12r}{25}\div \frac{18s}{35}
+41.-5\div \frac{1}{2}	42.-3\div \frac{1}{4}
+43.\frac{3}{4}\div \left(-12\right)	44.-15\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{3}\right)
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+45.\frac{-\phantom{\rule{0.2em}{0ex}}\frac{8}{21}}{\frac{12}{35}}	46.\frac{-\phantom{\rule{0.2em}{0ex}}\frac{9}{16}}{\frac{33}{40}}
+47.\frac{-\phantom{\rule{0.2em}{0ex}}\frac{4}{5}}{2}	48.\frac{5}{\frac{3}{10}}
+49.\frac{\frac{m}{3}}{\frac{n}{2}}	50.\frac{-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}}{-\phantom{\rule{0.2em}{0ex}}\frac{y}{12}}
+Kesir çizgisiyle yazılmış ifadeleri sadeleştirme
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+51.\frac{22+3}{10}	52.\frac{19-4}{6}
+53.\frac{48}{24-15}	54.\frac{46}{4+4}
+55.\frac{-6+6}{8+4}	56.\frac{-6+3}{17-8}
+57.\frac{4\cdot3}{6\cdot6}	58.\frac{6\cdot6}{9\cdot2}
+59.\frac{{4}^{2}-1}{25}	60.\frac{{7}^{2}+1}{60}
+61.\frac{8\cdot3+2\cdot9}{14+3}	62.\frac{9\cdot6-4\cdot7}{22+3}
+63.\frac{5\cdot6-3\cdot4}{4\cdot5-2\cdot3}	64.\frac{8\cdot9-7\cdot6}{5\cdot6-9\cdot2}
+65.\frac{{5}^{2}-{3}^{2}}{3-5}	66.\frac{{6}^{2}-{4}^{2}}{4-6}
+67.\frac{7\cdot4-2\left(8-5\right)}{9\cdot3-3\cdot5}	68.\frac{9\cdot7-3\left(12-8\right)}{8\cdot7-6\cdot6}
+69.\frac{9\left(8-2\right)-3\left(15-7\right)}{6\left(7-1\right)-3\left(17-9\right)}	70.\frac{8\left(9-2\right)-4\left(14-9\right)}{7\left(8-3\right)-3\left(16-9\right)}
+Kesirli Sayılar İçeren İfadeleri Sözcük Kalıplarına Çevirme
+Aşağıdaki alıştırmalarda, her İngilizce ifadeyi cebirsel bir ifadeye çevirin.
+
+71. r'nin s ve 10'un toplamına oranı	72. A'nın , 3 ile B'nin farkına oranı
+73. farkın bölümüx\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}y,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}-3	74. toplamın bölümüm\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}n,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}4q
+Günlük Matematik
+75. Pişirme. Çikolatalı kurabiye tarifi için \frac{3}{4}1 su bardağı esmer şeker gerekiyor. Imelda tarifi iki katına çıkarmak istiyor. a) Imelda'nın ne kadar esmer şekere ihtiyacı olacak? Hesaplamanızı gösterin. b) Ölçü kapları genellikle \frac{1}{4},\frac{1}{3},\frac{1}{2},\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}11/2 su bardağı setler halinde gelir. Imelda'nın kurabiye tarifini iki katına çıkarmak için gereken esmer şekeri ölçebileceği iki farklı yolu gösteren bir diyagram çizin.	76. Pişirme. Nina, müzik resitalinden sonra servis etmek üzere 4 tepsi şekerleme yapıyor. Her tepsi için \frac{2}{3}1 su bardağı yoğunlaştırılmış süte ihtiyacı var. a) Nina'nın ne kadar yoğunlaştırılmış süte ihtiyacı olacak? Hesaplamanızı gösterin. b) Ölçü kapları genellikle setler halinde gelir . Nina'nın şekerleme tepsileri \frac{1}{4},\frac{1}{3},\frac{1}{2},\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}1için gereken yoğunlaştırılmış sütü ölçebileceği iki farklı yöntemi gösteren bir diyagram çizin .4
+77. Don , ağırlığı 1 pound olan büyük bir paket şekerleme satın aldı 5. Şekerlemeyi 1 poundluk küçük poşetlerde satmak istiyor \frac{1}{4}. Bu büyük paketten kaç tane küçük poşet şekerleme doldurabilir?	78. Kristen'in kızının 6 bebeği için saç kurdelesi yapmak üzere eşit parçalara \frac{3}{4}ayırmak istediği metrelerce kurdelesi var . Her bebeğin saç kurdelesi ne kadar uzun olacak?6
+Yazma Alıştırmaları
+79. Rafael bir restoranda orta boy pizzanın yarısını sipariş etmek istedi. Garson ona orta boy pizzanın 6 veya 8 dilime bölünebileceğini söyledi. 6 dilimden 3'ünü mü yoksa 8 dilimden 4'ünü mü tercih ederdi? Rafael çok aç olmadığı için 6 dilimden 3'ünü tercih edeceğini söyledi. Rafael'in bu düşüncesinde yanlış olan yeri açıklayın.	80. Bunu nasıl gösterdiğini günlük hayattan bir örnekle açıklayın \frac{1}{2}\cdot \frac{2}{3}\phantom{\rule{0.2em}{0ex}}\text{is}\phantom{\rule{0.2em}{0ex}}\frac{1}{3}.
+81. Bir kesrin tersini nasıl bulduğunuzu açıklayın.	82. Negatif bir sayının tersini nasıl bulacağınızı açıklayın.
+Cevaplar
+1. \frac{6}{16},\frac{9}{24},\frac{12}{32}Cevaplar farklılık gösterebilir.	3. \frac{10}{18},\frac{15}{27},\frac{20}{36}Cevaplar farklılık gösterebilir.	5.-\phantom{\rule{0.2em}{0ex}}\frac{5}{11}
+7.-\phantom{\rule{0.2em}{0ex}}\frac{12}{7}	9.\frac{10}{21}	11.-\phantom{\rule{0.2em}{0ex}}\frac{x}{4y}
+13.\frac{2{x}^{2}}{3y}	15.\frac{27}{40}	17.\frac{1}{4}
+19.-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}	21.-\phantom{\rule{0.2em}{0ex}}\frac{21}{50}	23.\frac{11}{30}
+25.\frac{20}{11}	27. 9 n	29.-34
+31.\frac{9}{8}	33.1	35.\frac{33}{4x}
+37.-\phantom{\rule{0.2em}{0ex}}\frac{4}{9}	39.\frac{10u}{9v}	41.-10
+43.-\phantom{\rule{0.2em}{0ex}}\frac{1}{16}	45.-\phantom{\rule{0.2em}{0ex}}\frac{10}{9}	47.-\phantom{\rule{0.2em}{0ex}}\frac{2}{5}
+49.\frac{2m}{3n}	51.\frac{5}{2}	53.\frac{16}{3}
+55. 0	57.\frac{1}{3}	59.\frac{3}{5}
+61.2\frac{8}{17}	63.\frac{3}{5}	65.-8
+67.\frac{11}{6}	69.\frac{5}{2}	71.\frac{r}{s+10}
+73.\frac{xy}{-3}	75. a) 1\frac{1}{2}bardak b) cevaplar değişebilir	77. 20 poşet
+79. Cevaplar farklılık gösterebilir.	81. Cevaplar farklılık gösterebilir.	
+Atıflar
+Bu bölüm, Lynn Marecek ve MaryAnne Anthony-Smith'in " Temel Cebir " (OpenStax) adlı eserindeki "Kesirleri Görselleştirme" bölümünden uyarlanmıştır ve CC BY 4.0 Lisansı altındadır . Uyarlamayı Izabela Mazur yapmıştır. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+8
+2.2 Kesirleri Toplama ve Çıkarma
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Ortak paydalı kesirleri toplama veya çıkarma
+Farklı paydalara sahip kesirleri toplama veya çıkarma
+Karmaşık kesirleri sadeleştirmek için işlem önceliği kurallarını kullanın.
+Kesirli değişkenler içeren ifadeleri değerlendirin.
+Ortak Paydalı Kesirleri Toplama veya Çıkarma
+Kesirleri çarptığımızda, payları ve paydaları doğrudan çarpardık. Kesirleri toplamak veya çıkarmak için ortak bir paydaya sahip olmaları gerekir.
+
+Kesirlerin Toplanması ve Çıkarılması
+
+Eğer a,b,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}csayılar ise c\ne 0, o zaman
+
+\frac{a}{c}+\frac{b}{c}=\frac{a+b}{c}\phantom{\rule{1em}{0ex}}\text{ve}\phantom{\rule{1em}{0ex}}\frac{a}{c}-\phantom{\rule{0.2em}{0ex}}\frac{b}{c}=\frac{ab}{c}
+
+Kesirleri toplamak veya çıkarmak için, payları toplayın veya çıkarın ve sonucu ortak paydanın üzerine yazın.
+
+ÖRNEK 1
+
+Toplamı bulun: \frac{x}{3}+\frac{2}{3}.
+
+Çözüm
+\frac{x}{3}+\frac{2}{3}
+Payları toplayın ve toplamı ortak paydanın üzerine yazın.	\frac{x+2}{3}
+DENEYİN 1.1
+
+Toplamı bulun: \frac{x}{4}+\frac{3}{4}.
+
+Yanıtı göster
+DENEYİN 1.2
+
+Toplamı bulun: \frac{y}{8}+\frac{5}{8}.
+
+Yanıtı göster
+ÖRNEK 2
+
+Farkı bulun: -\phantom{\rule{0.2em}{0ex}}\frac{23}{24}-\phantom{\rule{0.2em}{0ex}}\frac{13}{24}.
+
+Çözüm
+-\phantom{\rule{0.2em}{0ex}}\frac{23}{24}-\phantom{\rule{0.2em}{0ex}}\frac{13}{24}
+Payları birbirinden çıkarın ve farkı ortak paydanın üzerine yazın.	\frac{-23-13}{24}
+Basitleştirin.	\frac{-36}{24}
+Basitleştirin. Unutmayın, -\phantom{\rule{0.2em}{0ex}}\frac{a}{b}=\frac{-a}{b}.	-\phantom{\rule{0.2em}{0ex}}\frac{3}{2}
+DENEYİN 2.1
+
+Farkı bulun: -\phantom{\rule{0.2em}{0ex}}\frac{19}{28}-\phantom{\rule{0.2em}{0ex}}\frac{7}{28}.
+
+Yanıtı göster
+DENEYİN 2.2
+
+Farkı bulun: -\phantom{\rule{0.2em}{0ex}}\frac{27}{32}-\phantom{\rule{0.2em}{0ex}}\frac{1}{32}.
+
+Yanıtı göster
+ÖRNEK 3
+
+Basitleştirin: -\phantom{\rule{0.2em}{0ex}}\frac{10}{x}-\phantom{\rule{0.2em}{0ex}}\frac{4}{x}.
+
+Çözüm
+-\phantom{\rule{0.2em}{0ex}}\frac{10}{x}-\phantom{\rule{0.2em}{0ex}}\frac{4}{x}
+Payları birbirinden çıkarın ve farkı ortak paydanın üzerine yazın.	\frac{-14}{x}
+Kesir işaretini kesrin önüne koyarak yeniden yazın.	-\phantom{\rule{0.2em}{0ex}}\frac{14}{x}
+DENEYİN 3.1
+
+Farkı bulun: -\phantom{\rule{0.2em}{0ex}}\frac{9}{x}-\phantom{\rule{0.2em}{0ex}}\frac{7}{x}.
+
+Yanıtı göster
+DENEYİN 3.2
+
+Farkı bulun: -\phantom{\rule{0.2em}{0ex}}\frac{17}{a}-\phantom{\rule{0.2em}{0ex}}\frac{5}{a}.
+
+Yanıtı göster
+Şimdi hem toplama hem de çıkarma içeren bir örnek yapacağız.
+
+ÖRNEK 4
+
+Basitleştirin: \frac{3}{8}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{8}\right)-\phantom{\rule{0.2em}{0ex}}\frac{1}{8}.
+
+Çözüm
+Kesirleri toplayıp çıkarırsak, ortak paydaları var mıdır? Evet.	\frac{3}{8}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{8}\right)-\phantom{\rule{0.2em}{0ex}}\frac{1}{8}
+Payları toplayıp çıkarın ve farkı ortak paydanın üzerine yazın.	\frac{3+\left(-5\right)-1}{8}
+Soldan sağa doğru sadeleştirin.	\frac{-2-1}{8}
+Basitleştirin.	-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}
+DENEYİN 4.1
+
+Basitleştirin: \frac{2}{9}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{4}{9}\right)-\phantom{\rule{0.2em}{0ex}}\frac{7}{9}.
+
+Yanıtı göster
+DENEYİN 4.2
+
+Basitleştirin: \frac{5}{9}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{4}{9}\right)-\phantom{\rule{0.2em}{0ex}}\frac{7}{9}.
+
+Yanıtı göster
+Farklı Paydalı Kesirleri Toplama veya Çıkarma
+Gördüğümüz gibi, kesirleri toplamak veya çıkarmak için paydalarının aynı olması gerekir. İki kesrin en küçük ortak paydası (EBOB), kesirlerin ortak paydası olarak kullanılabilecek en küçük sayıdır . İki kesrin EBOB'u, paydalarının en küçük ortak katıdır (EKOK).
+
+En Küçük Ortak Payda
+
+İki kesrin en küçük ortak paydası (EKOP), paydalarının en küçük ortak katıdır (EKOK).
+
+İki kesrin en küçük ortak paydasını bulduktan sonra, kesirleri en küçük ortak payda ile eşdeğer kesirlere dönüştürürüz. Bu adımları bir araya getirdiğimizde, paydaları aynı olacağı için kesirleri toplayıp çıkarabiliriz!
+
+ÖRNEK 5
+
+Eklemek: \frac{7}{12}+\frac{5}{18}.
+
+Çözüm
+Bu şekilde, solda talimatlar, ortada ipuçları veya açıklamalar ve sağda matematiksel ifadeler bulunan bir tablo görüyoruz. İlk satırda, “Adım 1. Ortak paydaları var mı? Hayır – her kesri en küçük ortak payda (EKOK) ile yeniden yazın.” ifadesi yer alıyor. Bunun sağında, “Hayır. EKOK'u bulun: 12, 18.” ifadesi bulunuyor. Bunun sağında ise 12, 2 x 2 x 3'e ve 18, 2 x 3 x 3'e eşittir. Dolayısıyla EKOK, 2 x 2 x 3 x 3'tür ve bu da 36'ya eşittir. Başka bir ipucu olarak, “EKOK ile eşdeğer kesirlere dönüştürün. Eşdeğer kesirleri sadeleştirmeyin! Sadeleştirirseniz, orijinal kesirlere geri döner ve ortak paydayı kaybedersiniz!” ifadesi yer alıyor. Bunun sağında 7/12 artı 5/18 var, bu da (7 x 3) miktarı bölü (12 x 3) miktarı artı (5 x 2) miktarı bölü (18 x 2) miktarı anlamına gelir ve 21/36 artı 10/36 olur.Sonraki adımda “Adım 2. Kesirleri toplayın veya çıkarın.” yazıyor. İpucu “Toplayın.” diyor. Ve elimizde 31/36 var.Son adımda “3. Adım. Mümkünse sadeleştirin.” yazıyor. Açıklamada ise “31 asal bir sayı olduğu için 36 ile ortak çarpanı yoktur. Cevap sadeleştirilmiştir.” deniyor.
+
+DENEYİN 5.1
+
+Eklemek: \frac{7}{12}+\frac{11}{15}.
+
+Yanıtı göster
+DENEYİN 5.2
+
+Eklemek: \frac{13}{15}+\frac{17}{20}.
+
+Yanıtı göster
+Kesirleri Toplama veya Çıkarma Nasıl Yapılır?
+
+Ortak bir paydaları var mı?
+Evet, 2. adıma geçin.
+Hayır—her kesri en küçük ortak payda (EKOK) ile yeniden yazın. EKOK'u bulun. Her kesri, paydası EKOK olan eşdeğer bir kesre dönüştürün.
+Kesirleri toplayın veya çıkarın.
+Mümkünse basitleştirin.
+Ortak paydaları oluşturmak için gereken eşdeğer kesirleri bulurken, hem payı hem de paydayı çarpmamız gereken sayıyı bulmanın hızlı bir yolu vardır. Bu yöntem, en küçük ortak katı asal çarpanlara ayırarak bulduğumuzda işe yarar.
+
+En küçük ortak katın (EKOK) çarpanlarına ve ardından bu çarpanların üzerindeki her sütuna bakın. Her paydanın "eksik" çarpanları, ihtiyacımız olan sayılardır.
+
+12 sayısı 2 x 2 x 3 şeklinde çarpanlarına ayrılmıştır (3'ten sonra fazladan bir boşluk bırakılmıştır) ve 18 sayısı 2 x 3 x 3 şeklinde çarpanlarına ayrılmıştır (2 ile ilk 3 arasında fazladan bir boşluk bırakılmıştır). Bu fazladan boşlukları gösteren oklar vardır ve bunlar "eksik çarpanlar" olarak işaretlenmiştir. En küçük ortak kat (EKOK) 2 x 2 x 3 x 3 olarak işaretlenmiştir ve bu da 36'ya eşittir. EKOK'u oluşturan sayılar, 12 ve 18'in çarpanlarıdır ve ortak çarpanlar yalnızca bir kez sayılmıştır (yani, ilk 2 ve ilk 3).
+
+(Örnek 5) 'te , en küçük ortak kat olan 36'nın iki tane 2 çarpanı ve iki tane de çarpanı vardır 3.
+
+Paydaki 12 sayısının iki tane 2 çarpanı var ama sadece bir tane 3 çarpanı var; yani bir tane 3 eksik. Bu yüzden payı ve paydayı 3 ile çarpıyoruz.
+
+Paydaki 18 sayısında 2 çarpanı eksik; bu nedenle payı ve paydayı 2 ile çarpıyoruz.
+
+(Örnek 6)' daki kesirleri çıkarırken bu yöntemi uygulayacağız .
+
+ÖRNEK 6
+
+Çıkarma işlemi: \frac{7}{15}-\phantom{\rule{0.2em}{0ex}}\frac{19}{24}.
+
+Çözüm
+Kesirlerin ortak paydası var mı? Hayır, bu yüzden en küçük ortak katı bulmamız gerekiyor.
+
+LCD'yi bulun.\phantom{\rule{5em}{0ex}}.	
+Dikkat ederseniz, 15'te 2'nin üç çarpanı "eksik" ve 24'te ise en küçük ortak katın çarpanlarından 5 "eksik". Bu nedenle, en küçük ortak katı bulmak için birinci kesirde 8'i, ikinci kesirde ise 5'i çarparız.	
+En küçük ortak katı (EKOK) kullanarak eşdeğer kesirler şeklinde yeniden yazın.	.
+Basitleştirin.	.
+Çıkarma işlemi.	\phantom{\rule{2em}{0ex}}-\phantom{\rule{0.2em}{0ex}}\frac{39}{120}
+Cevabın basitleştirilip basitleştirilemeyeceğine bakın.	\phantom{\rule{2em}{0ex}}-\phantom{\rule{0.2em}{0ex}}\frac{13\cdot 3}{40\cdot 3}
+Hem 39 hem de 120'nin çarpanı 3'tür.	
+Basitleştirin.	\phantom{\rule{2em}{0ex}}-\phantom{\rule{0.2em}{0ex}}\frac{13}{40}
+Eşdeğer kesirleri sadeleştirmeyin! Sadeleştirirseniz, orijinal kesirlere geri dönersiniz ve ortak paydayı kaybedersiniz!
+
+DENEYİN 6.1
+
+Çıkarma işlemi: \frac{13}{24}-\phantom{\rule{0.2em}{0ex}}\frac{17}{32}.
+
+Yanıtı göster
+DENEYİN 6.2
+
+Çıkarma işlemi: \frac{21}{32}-\phantom{\rule{0.2em}{0ex}}\frac{9}{28}.
+
+Yanıtı göster
+Bir sonraki örnekte, kesirlerden birinin payında değişken bir ifade bulunmaktadır. Her iki pay da sayı olduğunda yaptığımız adımların aynısını burada da yaptığımıza dikkat edin.
+
+ÖRNEK 7
+
+Eklemek: \frac{3}{5}+\frac{x}{8}.
+
+Çözüm
+Kesirlerin paydaları farklıdır.
+
+\phantom{\rule{2em}{0ex}}.
+LCD'yi bulun.\phantom{\rule{4em}{0ex}}.		
+En küçük ortak katı (EKOK) kullanarak eşdeğer kesirler şeklinde yeniden yazın.		\phantom{\rule{2em}{0ex}}.
+Basitleştirin.		\phantom{\rule{2em}{0ex}}.
+Eklemek.		\phantom{\rule{2em}{0ex}}.
+ 
+
+DENEYİN 7.1
+
+Eklemek: \frac{y}{6}+\frac{7}{9}.
+
+Yanıtı göster
+DENEYİN 7.2
+
+Eklemek: \frac{x}{6}+\frac{7}{15}.
+
+Yanıtı göster
+Kesirler için dört işlemin tamamını artık biliyoruz. Aşağıdaki tablo kesir işlemlerini özetlemektedir .
+
+Kesir İşlemlerinin Özeti
+Kesirli İşlem	Örnek Denklem	Ne yapalım
+Kesir çarpımı	\frac{a}{b} \cdot \frac{c}{d}=\frac{ac}{bd}	Payları çarpın ve paydaları çarpın.
+Kesirli bölme	\frac{a}{b} \div \frac{c}{d}=\frac{a}{b}\cdot \frac{d}{c}	Birinci kesri ikinci kesrin tersiyle çarpın.
+Kesirlerin eklenmesi	\frac{a}{c}+\frac{b}{c}=\frac{a+b}{c}	Payları toplayın ve toplamı ortak paydanın üzerine yazın.
+Kesir çıkarma	\frac{a}{c}-\phantom{\rule{0.2em}{0ex}}\frac{b}{c}=\frac{ab}{c}	Payları birbirinden çıkarın ve farkı ortak paydanın üzerine yazın.
+Kesirleri çarpmak veya bölmek için en küçük ortak kat (EKOK) gerekmez. Kesirleri toplamak veya çıkarmak için ise EKOK gereklidir.
+
+ÖRNEK 8
+
+Basitleştirin: a) \frac{5x}{6}-\phantom{\rule{0.2em}{0ex}}\frac{3}{10}b) \frac{5x}{6}\cdot\frac{3}{10}.
+
+
+Çözüm
+Öncelikle, "İşlem nedir?" diye sorun. İşlemi belirledikten sonra, ortak paydaya ihtiyacımız olup olmadığını anlayacağız. Unutmayın, toplama veya çıkarma için ortak paydaya ihtiyacımız var, ancak çarpma veya bölme için gerek yok.
+
+a) İşlem nedir? İşlem çıkarma işlemidir.	
+Kesirlerin ortak paydası var mı? Hayır.	\frac{5x}{6}-\frac{3}{10}
+Her bir kesri, en küçük ortak katı (EKOK) içeren eşdeğer bir kesir olarak yeniden yazın.	\frac{5x\cdot5}{6\cdot5}-\frac{3\cdot3}{10\cdot3}
+\frac{25x}{30}-\frac{9}{30}
+
+Payları birbirinden çıkarın ve farkı ortak paydaların üzerine yazın.	\frac{25x-9}{30}
+Mümkünse basitleştirin.	Ortak çarpan yok. Kesir sadeleştirilmiştir.
+b) İşlem nedir? Çarpma.	\frac{5x}{6}\cdot\frac{3}{10}
+Kesirleri çarpmak için, payları çarpın ve paydaları çarpın.	\frac{5x\cdot3}{6\cdot10}
+Ortak noktaları göstererek yeniden yazın. Ortak noktaları kaldırın.	\frac{\overline{)5}x \cdot \overline{)3}}{2\cdot\overline{)3}\cdot2\cdot\overline{)5}}
+Basitleştirin.	\frac{x}{4}
+Dikkat ederseniz, toplama işlemi için LCD'ye ihtiyacımız vardı \frac{5x}{6}-\phantom{\rule{0.2em}{0ex}}\frac{3}{10}, ancak çarpma işlemi için gerek yoktu \frac{5x}{6}\cdot\frac{3}{10}.
+
+DENEYİN 8.1
+
+Basitleştirin. a) \frac{9a}{12}-\frac{8}9}b)\frac{14a}{21}
+
+Yanıtı göster
+DENEYİN 8.2
+
+Basitleştirin: a) \frac{4k}{5}-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}b) \frac{4k}{5}\cdot \frac{1}{6}.
+
+Yanıtı göster
+İşlem Önceliği Kurallarını Kullanarak Karmaşık Kesirleri Sadeleştirin
+Karmaşık kesirlerin, pay veya paydasında kesir bulunan kesirler olduğunu gördük. Kesir çizgisi bölme işlemini gösterir. Karmaşık kesri ile \frac{\frac{3}{4}}{\frac{5}{8}}bölerek sadeleştirdik .\frac{3}{4}\frac{5}{8}
+
+Şimdi pay veya paydasında sadeleştirilebilen bir ifade bulunan karmaşık kesirlere bakacağız. Bu nedenle öncelikle işlem önceliği kurallarını kullanarak payı ve paydayı ayrı ayrı tamamen sadeleştirmeliyiz. Ardından payı paydaya bölmeliyiz.
+
+ÖRNEK 9
+
+Basitleştirin: \frac{{\left(\frac{1}{2}\right)}^{2}}{4+{3}^{2}}.
+
+Çözüm
+Bu şekilde, solda talimatlar, sağda ise matematiksel ifadeler içeren bir tablo bulunmaktadır. İlk satırda, “Adım 1. Payı sadeleştirin. Unutmayın, yarım karesi, yarım çarpı yarım demektir.” yazmaktadır. Bunun sağında, (4 artı 3 karesi) miktarı üzerinde (1/2) karesi yer almaktadır. Ardından, (4 artı 3 karesi) miktarı üzerinde 1/4 bulunmaktadır.Bir sonraki satırdaki yönerge "Adım 2. Paydayı sadeleştirin." şeklindedir. Bunun sağında, (4 artı 9) miktarının 1/4'ü, altında ise 13'ün 1/4'ü yer almaktadır.Son adım "3. Adım. Payı paydaya bölün. Mümkünse sadeleştirin. Unutmayın, on üç, on üç bölü 1'e eşittir." Sağ tarafta 1/4'ü 13'e bölüyoruz. Sonra 1/4'ü 1/13 ile çarpıyoruz, bu da 1/52'ye eşittir.
+
+DENEYİN 9.1
+
+Basitleştirin: \frac{{\left(\frac{1}{3}\right)}^{2}}{{2}^{3}+2}.
+
+Yanıtı göster
+DENEYİN 9.2
+
+Basitleştirin: \frac{1+{4}^{2}}{{\left(\frac{1}{4}\right)}^{2}}.
+
+Yanıtı göster
+Karmaşık Kesirleri Sadeleştirme Yöntemi
+
+Pay kısmını sadeleştirin.
+Paydayı sadeleştirin.
+Payı paydaya bölün. Mümkünse sadeleştirin.
+ÖRNEK 10
+
+Basitleştirin: \frac{\frac{1}{2}+\frac{2}{3}}{\frac{3}{4}-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}}.
+
+Çözüm
+Pay ve paydayı parantez içine almak faydalı olabilir.
+
+\frac{\left(\frac{1}{2}+\frac{2}{3}\right)}{\left(\frac{3}{4}-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}\right)}
+Payı sadeleştirin (EKOK = 6) ve paydayı sadeleştirin (EKOK = 12).	\frac{\left(\frac{3}{6}+\frac{4}{6}\right)}{\left(\frac{9}{12}-\phantom{\rule{0.2em}{0ex}}\frac{2}{12}\right)}
+Basitleştirin.	\frac{\left(\frac{7}{6}\right)}{\left(\frac{7}{12}\right)}
+Payı paydaya bölün.	\frac{7}{6}\div \frac{7}{12}
+Basitleştirin.	\frac{7}{6}\cdot\frac{12}{7}
+Ortak çarpanları ayırın.	\frac{7\cdot6\cdot2}{6\cdot7}
+Basitleştirin.	2
+DENEYİN 10.1
+
+Basitleştirin: \frac{\frac{1}{3}+\frac{1}{2}}{\frac{3}{4}-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}}.
+
+Yanıtı göster
+DENEYİN 10.2
+
+Basitleştirin: \frac{\frac{2}{3}-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}}{\frac{1}{4}+\frac{1}{3}}.
+
+Yanıtı göster
+Kesirli Değişken İfadelerini Değerlendirme
+Daha önce ifadeleri değerlendirmiştik, şimdi ise kesirli ifadeleri değerlendirebiliriz. Unutmayın, bir ifadeyi değerlendirmek için değişkenin değerini ifadeye yerleştirir ve ardından sadeleştiririz.
+
+ÖRNEK 11
+
+a) ve b) x+\frac{1}{3}durumlarını değerlendirin .x=-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}x=-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}
+
+Çözüm
+x+\frac{1}{3}Ne zaman olduğunu değerlendirmek için x=-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}, ifadede yerine -\phantom{\rule{0.2em}{0ex}}\frac{1}{3}koyun .X
+.
+.	.
+Basitleştirin.\phantom{\rule{18em}{0ex}}	0
+ 
+
+x+\frac{1}{3}Ne zaman olduğunu değerlendirmek için , ifadede x yerine x=-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}başka bir değer koyarız .-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}
+.
+.	.
+En küçük ortak kat olan 12'yi kullanarak, ifadeleri eşdeğer kesirler şeklinde yeniden yazın.	.
+Basitleştirin.	.
+Eklemek.	-\phantom{\rule{0.2em}{0ex}}\frac{5}{12}
+DENEYİN 11.1
+
+a) ve b) x+\frac{3}{4}durumlarını değerlendirin .x=-\phantom{\rule{0.2em}{0ex}}\frac{7}{4}x=-\phantom{\rule{0.2em}{0ex}}\frac{5}{4}
+
+Yanıtı göster
+DENEYİN 11.2
+
+a) ve b) y+\frac{1}{2}durumlarını değerlendirin .y=\frac{2}{3}y=-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}
+
+Yanıtı göster
+ÖRNEK 12
+
+-\phantom{\rule{0.2em}{0ex}}\frac{5}{6}-yNe zaman değerlendirme yapılır y=-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}?
+
+Çözüm
+.
+.	.
+En küçük ortak kat olan 6'yı kullanarak, ifadeleri eşdeğer kesirler şeklinde yeniden yazın.	.
+Çıkarma işlemi.	.
+Basitleştirin.	-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}
+DENEYİN 12.1
+
+-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}-yNe zaman değerlendirme yapılır y=-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}?
+
+Yanıtı göster
+DENEYİN 12.2
+
+-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}-yNe zaman değerlendirme yapılır x=-\phantom{\rule{0.2em}{0ex}}\frac{5}{2}?
+
+Yanıtı göster
+ÖRNEK 13
+
+2{x}^{2}yNe zaman x=\frac{1}{4}ve nasıl değerlendirilir y=-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}?
+
+Çözüm
+Değerleri ifadeye yerleştirin.
+
+2{x}^{2}y
+.	.
+Önce üslü ifadeleri sadeleştirin.	2\left(\frac{1}{16}\right)\left(-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}\right)
+2⋅2⋅4Çarpma işlemini yapın. Ortak çarpanları sadeleştirin. Ortak çarpanları sadeleştirmeyi kolaylaştırmak için 16'yı bu şekilde yazdığımıza dikkat edin .	-\phantom{\rule{0.2em}{0ex}}\frac{\overline{)2}\cdot 1\cdot \overline{)2}}{\overline{)2}\cdot \overline{)2}\cdot 4\cdot 3}
+Basitleştirin.	-\phantom{\rule{0.2em}{0ex}}\frac{1}{12}
+DENEYİN 13.1
+
+3a{b}^{2}Ne zaman a=-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}ve nasıl değerlendirilir b=-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}?
+
+Yanıtı göster
+DENEYİN 13.2
+
+4{c}^{3}dNe zaman c=-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}ve nasıl değerlendirilir d=-\phantom{\rule{0.2em}{0ex}}\frac{4}{3}?
+
+Yanıtı göster
+Bir sonraki örnekte yalnızca değişkenler olacak, sabitler olmayacak.
+
+ÖRNEK 14
+
+\frac{p+q}{r}Ne zaman değerlendirme yapılır p=-4,q=-2,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}r=8?
+
+Çözüm
+\frac{p+q}{r}Ne zaman olduğunu değerlendirmek için p=-4,q=-2,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}r=8, değerleri ifadeye yerleştiririz.
+
+\frac{p+q}{r}
+.	.
+Önce payı ekleyin.	\frac{-6}{8}
+Basitleştirin.	-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}
+DENEYİN 14.1
+
+\frac{a+b}{c}Ne zaman değerlendirme yapılır a=-8,b=-7,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}c=6?
+
+Yanıtı göster
+DENEYİN 14.2
+
+\frac{x+y}{z}Ne zaman değerlendirme yapılır x=9,y=-18,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}z=-6?
+
+Yanıtı göster
+Temel Kavramlar
+Kesir Toplama ve Çıkarma: Eğer a,b,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}cve sayılar ise ve c\ne 0ise, o zaman
+\frac{a}{c}+\frac{b}{c}=\frac{a+b}{c}ve olur \frac{a}{c}-\phantom{\rule{0.2em}{0ex}}\frac{b}{c}=\frac{ab}{c}.
+Kesirleri toplamak veya çıkarmak için payları toplayın veya çıkarın ve sonucu ortak paydanın üzerine yazın.
+Kesirleri Toplama veya Çıkarma Stratejisi
+Ortak paydaları var mı?
+Evet ise 2. adıma geçin.
+Hayır ise her kesri en küçük ortak payda (EKOK) ile yeniden yazın. EKOK'u bulun. Her kesri, EKOK'u payda olarak kullanan eşdeğer bir kesre dönüştürün.
+Kesirleri toplayın veya çıkarın.
+Mümkünse sadeleştirin. Kesirleri çarpmak veya bölmek için en küçük ortak kat (EKOK) GEREKMEZ. Kesirleri toplamak veya çıkarmak için ise en küçük ortak kat (EKOK) GEREKİR.
+Karmaşık Kesirleri Sadeleştirme
+Pay kısmını sadeleştirin.
+Paydayı sadeleştirin.
+Payı paydaya bölün. Mümkünse sadeleştirin.
+Sözlük
+en küçük ortak payda
+İki kesrin en küçük ortak paydası (EKOP), paydalarının en küçük ortak katıdır (EKOK).
+Pratik mükemmelliği getirir.
+Ortak Paydalı Kesirleri Toplama ve Çıkarma
+Aşağıdaki alıştırmalarda, eklemeler yapın.
+
+1.\frac{6}{13}+\frac{5}{13}	2.\frac{4}{15}+\frac{7}{15}
+3.\frac{x}{4}+\frac{3}{4}	4.\frac{8}{q}+\frac{6}{q}
+5.-\phantom{\rule{0.2em}{0ex}}\frac{3}{16}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{7}{16}\right)	6.-\phantom{\rule{0.2em}{0ex}}\frac{5}{16}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{9}{16}\right)
+7.-\phantom{\rule{0.2em}{0ex}}\frac{8}{17}+\frac{15}{17}	8.-\phantom{\rule{0.2em}{0ex}}\frac{9}{19}+\frac{17}{19}
+9.\frac{6}{13}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{10}{13}\right)+\left(-\phantom{\rule{0.2em}{0ex}}\frac{12}{13}\right)	10.\frac{5}{12}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{7}{12}\right)+\left(-\phantom{\rule{0.2em}{0ex}}\frac{11}{12}\right)
+Aşağıdaki alıştırmalarda çıkarma işlemi yapın.
+11.\frac{11}{15}-\phantom{\rule{0.2em}{0ex}}\frac{7}{15}	12.\frac{9}{13}-\phantom{\rule{0.2em}{0ex}}\frac{4}{13}
+13.\frac{11}{12}-\phantom{\rule{0.2em}{0ex}}\frac{5}{12}	14.\frac{7}{12}-\phantom{\rule{0.2em}{0ex}}\frac{5}{12}
+15.\frac{19}{21}-\phantom{\rule{0.2em}{0ex}}\frac{4}{21}	16.\frac{17}{21}-\phantom{\rule{0.2em}{0ex}}\frac{8}{21}
+17.\frac{5y}{8}-\phantom{\rule{0.2em}{0ex}}\frac{7}{8}	18.\frac{11z}{13}-\phantom{\rule{0.2em}{0ex}}\frac{8}{13}
+19.-\phantom{\rule{0.2em}{0ex}}\frac{23}{u}-\phantom{\rule{0.2em}{0ex}}\frac{15}{u}	20.-\phantom{\rule{0.2em}{0ex}}\frac{29}{v}-\phantom{\rule{0.2em}{0ex}}\frac{26}{v}
+21.-\phantom{\rule{0.2em}{0ex}}\frac{3}{5}-\left(-\phantom{\rule{0.2em}{0ex}}\frac{4}{5}\right)	22.-\phantom{\rule{0.2em}{0ex}}\frac{3}{7}-\left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{7}\right)
+23.-\phantom{\rule{0.2em}{0ex}}\frac{7}{9}-\left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{9}\right)	24.-\phantom{\rule{0.2em}{0ex}}\frac{8}{11}-\left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{11}\right)
+Karma Uygulama
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+25.-\phantom{\rule{0.2em}{0ex}}\frac{5}{18}\cdot \frac{9}{10}	26.-\phantom{\rule{0.2em}{0ex}}\frac{3}{14}\cdot \frac{7}{12}
+27.\frac{n}{5}-\phantom{\rule{0.2em}{0ex}}\frac{4}{5}	28.\frac{6}{11}-\phantom{\rule{0.2em}{0ex}}\frac{s}{11}
+29.-\phantom{\rule{0.2em}{0ex}}\frac{7}{24}+\frac{2}{24}	30.-\phantom{\rule{0.2em}{0ex}}\frac{5}{18}+\frac{1}{18}
+31.\frac{8}{15}\div \frac{12}{5}	32.\frac{7}{12}\div\frac{9}{28}
+Farklı Paydalı Kesirleri Toplama veya Çıkarma
+Aşağıdaki alıştırmalarda toplama veya çıkarma işlemleri yapın.
+
+33.\frac{1}{2}+\frac{1}{7}	34.\frac{1}{3}+\frac{1}{8}
+35.\frac{1}{3}-\left(-\phantom{\rule{0.2em}{0ex}}\frac{1}{9}\right)	36.\frac{1}{4}-\left(-\phantom{\rule{0.2em}{0ex}}\frac{1}{8}\right)
+37.\frac{7}{12}+\frac{5}{8}	38.\frac{5}{12}+\frac{3}{8}
+39.\frac{7}{12}-\phantom{\rule{0.2em}{0ex}}\frac{9}{16}	40.\frac{7}{16}-\phantom{\rule{0.2em}{0ex}}\frac{5}{12}
+41.\frac{2}{3}-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}	42.\frac{5}{6}-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}
+43.-\phantom{\rule{0.2em}{0ex}}\frac{11}{30}+\frac{27}{40}	44.-\phantom{\rule{0.2em}{0ex}}\frac{9}{20}+\frac{17}{30}
+45.-\phantom{\rule{0.2em}{0ex}}\frac{13}{30}+\frac{25}{42}	46.-\phantom{\rule{0.2em}{0ex}}\frac{23}{30}+\frac{5}{48}
+47.-\phantom{\rule{0.2em}{0ex}}\frac{39}{56}-\phantom{\rule{0.2em}{0ex}}\frac{22}{35}	48.-\phantom{\rule{0.2em}{0ex}}\frac{33}{49}-\phantom{\rule{0.2em}{0ex}}\frac{18}{35}
+49.-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}-\left(-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}\right)	50.-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}-\left(-\phantom{\rule{0.2em}{0ex}}\frac{4}{5}\right)
+51.1+\frac{7}{8}	52.1-\phantom{\rule{0.2em}{0ex}}\frac{3}{10}
+53.\frac{x}{3}+\frac{1}{4}	54.\frac{y}{2}+\frac{2}{3}
+55.\frac{y}{4}-\phantom{\rule{0.2em}{0ex}}\frac{3}{5}	56.\frac{x}{5}-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}
+Karma Uygulama
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+57. a) \frac{2}{3}+\frac{1}{6}b)\frac{2}{3}\div \frac{1}{6}	58. a) -\phantom{\rule{0.2em}{0ex}}\frac{2}{5}-\phantom{\rule{0.2em}{0ex}}\frac{1}{8}b)-\phantom{\rule{0.2em}{0ex}}\frac{2}{5}\cdot \frac{1}{8}
+59. a) \frac{5n}{6}\div \frac{8}{15}b)\frac{5n}{6}-\phantom{\rule{0.2em}{0ex}}\frac{8}{15}	60. a) \frac{3a}{8}\div \frac{7}{12}b)\frac{3a}{8}-\phantom{\rule{0.2em}{0ex}}\frac{7}{12}
+61.-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{3}{10}\right)	62.-\phantom{\rule{0.2em}{0ex}}\frac{5}{12}\div \left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{9}\right)
+63.-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}+\frac{5}{12}	64.-\phantom{\rule{0.2em}{0ex}}\frac{1}{8}+\frac{7}{12}
+65.\frac{5}{6}-\phantom{\rule{0.2em}{0ex}}\frac{1}{9}	66.\frac{5}{9}-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}
+67.-\phantom{\rule{0.2em}{0ex}}\frac{7}{15}-\phantom{\rule{0.2em}{0ex}}\frac{y}{4}	68.-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}-\phantom{\rule{0.2em}{0ex}}\frac{x}{11}
+69.\frac{11}{12a}\cdot \frac{9a}{16}	70.\frac{10y}{13}\cdot \frac{8}{15y}
+İşlem Önceliği Kurallarını Kullanarak Karmaşık Kesirleri Sadeleştirin
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+71.\frac{{2}^{3}+{4}^{2}}{{\left(\frac{2}{3}\right)}^{2}}	72.\frac{{3}^{3}-{3}^{2}}{{\left(\frac{3}{4}\right)}^{2}}
+73.\frac{{\left(\frac{3}{5}\right)}^{2}}{{\left(\frac{3}{7}\right)}^{2}}	74.\frac{{\left(\frac{3}{4}\right)}^{2}}{{\left(\frac{5}{8}\right)}^{2}}
+75.\frac{2}{\frac{1}{3}+\frac{1}{5}}	76.\frac{5}{\frac{1}{4}+\frac{1}{3}}
+77.\frac{\frac{7}{8}-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}}{\frac{1}{2}+\frac{3}{8}}	78.\frac{\frac{3}{4}-\phantom{\rule{0.2em}{0ex}}\frac{3}{5}}{\frac{1}{4}+\frac{2}{5}}
+79.\frac{1}{2}+\frac{2}{3}\cdot \frac{5}{12}	80.\frac{1}{3}+\frac{2}{5}\cdot \frac{3}{4}
+81.1-\phantom{\rule{0.2em}{0ex}}\frac{3}{5}\div \frac{1}{10}	82.1-\phantom{\rule{0.2em}{0ex}}\frac{5}{6}\div \frac{1}{12}
+83.\frac{2}{3}+\frac{1}{6}+\frac{3}{4}	84.\frac{2}{3}+\frac{1}{4}+\frac{3}{5}
+85.\frac{3}{8}-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}+\frac{3}{4}	86.\frac{2}{5}+\frac{5}{8}-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}
+87.12\left(\frac{9}{20}-\phantom{\rule{0.2em}{0ex}}\frac{4}{15}\right)	88.8\left(\frac{15}{16}-\phantom{\rule{0.2em}{0ex}}\frac{5}{6}\right)
+89.\frac{\frac{5}{8}+\frac{1}{6}}{\frac{19}{24}}	90.\frac{\frac{1}{6}+\frac{3}{10}}{\frac{14}{30}}
+91.\left(\frac{5}{9}+\frac{1}{6}\right)\div \left(\frac{2}{3}-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}\right)	92.\left(\frac{3}{4}+\frac{1}{6}\right)\div \left(\frac{5}{8}-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}\right)
+Kesirli Değişken İfadelerini Değerlendirme
+Aşağıdaki alıştırmaları değerlendirin.
+
+93. x+\left(-\phantom{\rule{0.2em}{0ex}}\frac{5}{6}\right)ne zaman
+a) x=\frac{1}{3}
+b)x=-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}	94. x+\left(-\phantom{\rule{0.2em}{0ex}}\frac{11}{12}\right)ne zaman
+a) x=\frac{11}{12}
+b)x=\frac{3}{4}
+95. x-\phantom{\rule{0.2em}{0ex}}\frac{2}{5}ne zaman
+a) x=\frac{3}{5}
+b)x=-\phantom{\rule{0.2em}{0ex}}\frac{3}{5}	96. x-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}ne zaman
+a) x=\frac{2}{3}
+b)x=-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}
+97. \frac{7}{10}-wne zaman
+a) w=\frac{1}{2}
+b)w=-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}	98. \frac{5}{12}-wne zaman
+a) w=\frac{1}{4}
+b)w=-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}
+99. 2{x}^{2}{y}^{3}ne zaman x=-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}vey=-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}	100. 8{u}^{2}{v}^{3}ne zaman u=-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}vev=-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}
+101. \frac{a+b}{ab}ne zamana=-3,b=8	102. \frac{rs}{r+s}ne zamanr=10,s=-5
+Günlük Matematik
+103. Dekorasyon Laronda, kanepesindeki dekoratif yastıklar için kılıflar dikiyor. Her yastık kılıfı için \frac{1}{2}bir metre desenli kumaş ve \frac{3}{8}bir metre düz kumaşa ihtiyacı var. Laronda'nın her yastık kılıfı için toplamda ne kadar kumaşa ihtiyacı var?	104. Kurabiye Yapma: Samuel çikolatalı kurabiye ve yulaf ezmeli kurabiye yapıyor. \frac{1}{2}Çikolatalı kurabiye için su bardağı şeker, \frac{1}{4}yulaf ezmeli kurabiye için ise su bardağı şeker gerekiyor. Toplamda ne kadar şekere ihtiyacı var?
+Yazma Alıştırmaları
+105. Kesirleri toplamak veya çıkarmak için neden ortak paydaya ihtiyaç duyulur? Açıklayın.	106. İki kesrin en küçük ortak katını nasıl bulursunuz?
+Cevaplar
+1.\frac{11}{13}	3.\frac{x+3}{4}	5.-\phantom{\rule{0.2em}{0ex}}\frac{5}{8}
+7.\frac{7}{17}	9.-\phantom{\rule{0.2em}{0ex}}\frac{16}{13}	11.\frac{4}{15}
+13.\frac{1}{2}	15.\frac{5}{7}	17.\frac{5y-7}{8}
+19.-\phantom{\rule{0.2em}{0ex}}\frac{38}{u}	21.\frac{1}{5}	23.-\phantom{\rule{0.2em}{0ex}}\frac{2}{9}
+25.-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}	27.\frac{n-4}{5}	29.-\phantom{\rule{0.2em}{0ex}}\frac{5}{24}
+31.\frac{2}{9}	33.\frac{9}{14}	35.\frac{4}{9}
+37.\frac{29}{24}	39.\frac{1}{48}	41.\frac{7}{24}
+43.\frac{37}{120}	45.\frac{17}{105}	47.-\phantom{\rule{0.2em}{0ex}}\frac{53}{40}
+49.\frac{1}{12}	51.\frac{15}{8}	53.\frac{4x+3}{12}
+55.\frac{4y-12}{20}	57. a) \frac{5}{6}b) 4	59. a) \frac{25n}{16}b)\frac{25n-16}{30}
+61.\frac{5}{4}	63.\frac{1}{24}	65.\frac{13}{18}
+67.\frac{-28-15y}{60}	69.\frac{33}{64}	71. 54
+73.\frac{49}{25}	75.\frac{15}{4}	77.\frac{5}{21}
+79.\frac{7}{9}	81.-5	83.\frac{19}{12}
+85.\frac{23}{24}	87.\frac{11}{5}	89. 1
+91.\frac{13}{3}	93. a) -\phantom{\rule{0.2em}{0ex}}\frac{1}{2}b)-1	95. a) \frac{1}{5}b)-1
+97. a) \frac{1}{5}b)\frac{6}{5}	99.-\phantom{\rule{0.2em}{0ex}}\frac{1}{9}	101.-\phantom{\rule{0.2em}{0ex}}\frac{5}{11}
+103 \frac{7}{8}yarda	105. Cevaplar farklılık gösterebilir.	
+Atıflar
+Bu bölüm, Lynn Marecek ve MaryAnne Anthony-Smith'in " Temel Cebir " (OpenStax) adlı eserindeki "Kesirleri Toplama ve Çıkarma" bölümünden uyarlanmıştır ve CC BY 4.0 Lisansı altındadır . Uyarlayan: Izabela Mazur. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+
+9
+2.3 Ondalık Basamak
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Ondalık sayıları adlandırın ve yazın.
+ondalık sayıları yuvarlayın
+Ondalık sayıları toplama ve çıkarma
+Ondalık sayıları çarpma ve bölme
+Ondalık sayıları, kesirleri ve yüzdeleri dönüştürün
+İsimlendirin ve Ondalık Sayıları Yazın
+Ondalık sayılar, paydaları 10'un kuvvetleri olan kesirleri yazmanın başka bir yoludur .
+
+\begin{array}{cccccccc}\hfill 0.1& =\hfill & \frac{1}{10}\hfill & & & & & 0.1\phantom{\rule{0.2em}{0ex}}\text{onda biridir.\hfill \\ \hfill 0.01& =\hfill & \frac{1}{100}\hfill & & & & & 0.01\phantom{\rule{0.2em}{0ex}}\text{yüzde biridir.\hfill \\ \hfill 0.001& =\hfill & \frac{1}{1,000}\hfill & & & & \text{0.001, binde birdir}\hfill \\ \hfill 0.0001& =\hfill & \frac{1}{10,000}\hfill & & & & \text{0.0001, on binde birdir}\hfill \end{array}
+
+Dikkat edin, "on bin" birden büyük bir sayıdır, ancak "on binde bir " birden küçük bir sayıdır. İsmin sonundaki "bir" eki, sayının birden küçük olduğunu gösterir.
+
+Bir tam sayıyı adlandırdığımızda, bu ad onluk basamağın ondalık değerlerine karşılık gelir. 10.000'i "on bin" ve 10.000.000'u "on milyon" olarak okuruz. Benzer şekilde, ondalık basamakların adları kesir değerlerine karşılık gelir. Şekil 1, ondalık noktasının solunda ve sağında yer alan basamak değerlerinin adlarını göstermektedir .
+
+Ondalık sayıların basamak değerleri, ondalık noktasının solunda ve sağında gösterilir.
+Tabloda "Basamak Değeri" başlığı altında bir tablo gösterilmektedir. Soldan sağa doğru satırlar sırasıyla "Yüz binler", "On binler", "Binler", "Yüzler", "Onlar" ve "Birler" şeklindedir. Ardından boş bir hücre ve altında bir ondalık nokta bulunmaktadır. Bunun sağındaki hücrelerde ise "Onda birler", "Yüzde birler", "Binde birler", "On binde birler" ve "Yüz binde birler" yazmaktadır.
+Şekil 1
+ÖRNEK 1
+
+4.3 ondalık sayısının adını söyleyin.
+
+Çözüm
+Dört adımdan oluşan bir tablo verilmiştir. Ayrıca 4,3 sayısı da verilmiştir. Birinci adımda “Adım 1. Ondalık noktasının solundaki sayıyı yazın.” yazmaktadır. Bunun sağında ise “4, ondalık noktasının solundadır.” ifadesi yer almaktadır. Bunun sağında ise “dört” yazısının ardından büyük bir boşluk bulunmaktadır.İkinci adımda “Adım 2. Ondalık nokta için 've' yazın.” yazıyor. Bunun sağında ise “dört ve” yazısı ve ardından boş bir alan bulunuyor.Üçüncü adımda “Adım 3. Ondalık noktasının sağındaki 'sayı' kısmını tam sayıymış gibi adlandırın.” yazıyor. Bunun sağında “Ondalık noktasının sağında 3 var.” yazıyor. Bunun sağında ise “dört ve üç” yazıyor ve ardından boşluk geliyor.Son olarak, son adımda “Adım 4. Ondalık basamağı belirtin.” yazıyor. Bunun sağında ise “dört tam üç onda bir” yazıyor.
+
+DENEYİN 1.1
+
+Ondalık sayının adını yazın: 6.7.
+
+Yanıtı göster
+DENEYİN 1.2
+
+Ondalık sayının adını yazın: 5.8.
+
+Yanıtı göster
+Aşağıda bir ondalık sayıyı adlandırmak için gereken adımları özetliyoruz.
+
+NASIL YAPILIR: Ondalık Sayıya İsim Verme
+
+Ondalık noktasının solundaki sayıyı adlandırın.
+Ondalık nokta yerine “ve” yazın.
+Ondalık noktasının sağındaki "sayı" kısmını, sanki tam sayıymış gibi adlandırın.
+Son rakamın ondalık basamak sayısını belirtin.
+ÖRNEK 2
+
+Ondalık sayının adını yazın: -15.571.
+
+Çözüm
+-15.571
+Ondalık noktasının solundaki sayıyı adlandırın.	eksi on beş __________________________________
+Ondalık nokta yerine “ve” yazın.	eksi on beş ve ______________________________
+Ondalık noktasının sağındaki sayıyı adlandırın.	eksi on beş ve beş yüz yetmiş bir __________
+1 rakamı binde birler basamağındadır.	eksi on beş ve beş yüz yetmiş bir binde bir
+DENEYİN 2.1
+
+Ondalık sayının adını yazın: -13.461.
+
+Yanıtı göster
+DENEYİN 2.2
+
+Ondalık sayının adını yazın: -2.053.
+
+Yanıtı göster
+Çek yazarken hem rakamları hem de sayının adını yazarız. Şimdi de sayıdan ondalık kısmını nasıl yazacağımıza bakalım.
+
+ÖRNEK 3
+
+“On dört tam yirmi dört binde bir” ifadesini ondalık sayı olarak yazın.
+
+Çözüm
+Dört adımdan oluşan bir tablo verilmiştir. Birinci adım şu şekildedir: “Adım 1. 'Ve' kelimesini bulun – bu, ondalık noktayı gösterir. 'Ve' kelimesinin altına bir ondalık nokta koyun. 'Ve' kelimesinden önceki kelimeleri tam sayıya çevirin ve ondalık noktanın soluna yerleştirin.” Bunun sağında “on dört ve yirmi dört binde bir” kelimeleri yer almaktadır. Bu kelimenin altında, “on dört ve yirmi dört binde bir” ifadesi ve “ve” kelimesinin altı çizilmiştir. Bu kelimenin altında, ondalık nokta ile ayrılmış daha büyük bir boşluktan oluşan küçük bir boşluk bulunmaktadır. Bunun altında, küçük boşlukta 14, ardından ondalık nokta ve daha büyük boşluk yer almaktadır.İkinci adımda “Adım 2. Son kelimenin belirttiği basamak değerini not ederek ondalık noktasının sağında gereken ondalık basamak sayısını işaretleyin.” yazıyor. Bunun sağında “Son kelime binde birler” yazıyor. Bunun sağında 14 sayısı, ardından bir ondalık nokta ve üç küçük boşluk bulunuyor. Boşlukların altında ise “onda birler”, “yüzde birler” ve “binde birler” kelimeleri yazılı.Üçüncü adımda şu ifade yer alıyor: “Adım 3. 'Ve' kelimesinden sonraki kelimeleri ondalık noktasının sağındaki sayıya çevirin. Sayıyı boşluklara yazın – son rakamı en sona yerleştirin.” Bunun sağında, 14'ün ardından bir ondalık sayı, ardından bir boşluk ve daha önceki iki boşluğa sırasıyla 2 ve 4 yazılıyor.Son olarak, son adımda “Adım 4. Gerektiğinde boş yer tutuculara sıfır yazın.” yazıyor. Bunun sağında, “Onda birler basamağına sıfır yazılmalıdır.” yazıyor. Bunun sağında, boşluklara sırasıyla 0, 2 ve 4 yazıldıktan sonra 14, ardından ondalık nokta yer alıyor. Bunun altında ise “on dört ve yirmi dört binde birler 14.024 olarak yazılır.” yazıyor.
+
+DENEYİN 3.1
+
+Ondalık sayı olarak yazın: on üç ve altmış sekiz binde bir.
+
+Yanıtı göster
+DENEYİN 3.2
+
+Ondalık sayı olarak yazın: beş tam doksan dört binde bir.
+
+Yanıtı göster
+Ondalık sayı yazma adımlarını özetliyoruz .
+
+NASIL YAPILIR: Ondalık Sayı Yazma
+
+"Ve" kelimesini arayın; bu kelime ondalık noktayı belirtir.
+“Ve” kelimesinin altına bir ondalık nokta koyun. “Ve” kelimesinden önceki kelimeleri tam sayıya çevirin ve ondalık noktanın soluna yerleştirin.
+Eğer "ve" bağlacı yoksa, sağına ondalık nokta koyarak "0" yazın.
+Ondalık noktasının sağında gereken ondalık basamak sayısını, son kelimenin gösterdiği basamak değerini not ederek belirtin.
+“Ve” kelimesinden sonraki kelimeleri ondalık noktasının sağındaki sayıya çevirin. Sayıyı boşluklara yazın; son rakamı en sona yerleştirin.
+Gerektiğinde yer tutuculara sıfır girin.
+Ondalık Sayıları Yuvarla
+Ondalık sayıları yuvarlamak, tam sayıları yuvarlamaya çok benzer. Ondalık sayıları yuvarlarken, tam sayıları yuvarlamak için kullandığımız yönteme benzer bir yöntem kullanacağız.
+
+ÖRNEK 4
+
+18.379 sayısını en yakın yüzdeye yuvarlayın.
+Çözüm
+Dört adımdan oluşan bir tablo verilmiştir. Birinci adımda “Adım 1: Verilen basamak değerini bulun ve bir okla işaretleyin” yazmaktadır. Bunun sağında 18.379 sayısı yer almaktadır; üstünde ise yüzler basamağı yazısı bulunmaktadır ve 7'ye doğru bir ok işareti vardır.İkinci adımda “Adım 2. Verilen basamak değerinin sağındaki rakamın altını çizin.” yazıyor. Bunun sağında, 9'un altı çizilmiş olarak 18.379 yazmaktadır.Üçüncü adımda “Adım 3. Bu rakam 5'ten büyük veya eşit mi?” yazıyor. Bunun altında, “Evet: Verilen basamaktaki rakama 1 ekleyin.” yazıyor. Bunun altında, “Hayır: Verilen basamaktaki rakamı değiştirmeyin.” yazıyor. Bunun sağında, “Çünkü 9, 5'ten büyük veya eşittir.” yazıyor. Bunun sağında ise 9'u “sil” ve 7'si “1 ekle” olarak işaretlenmiş 18.379 sayısı yer alıyor.Son olarak, son adımda “Adım 4. Yuvarlama basamağının sağındaki tüm rakamları kaldırarak sayıyı yeniden yazın.” ifadesi yer alıyor. Bunun sağında ise 18.38 ve ardından “18.38, en yakın yüzdeye yuvarlandığında 18.379'dur.” ifadesi bulunuyor.
+
+DENEYİN 4.1
+
+En yakın yüzdeye yuvarlayın: 1.047.
+
+Yanıtı göster
+DENEYİN 4.2
+
+En yakın yüzdeye yuvarlayın: 9.173.
+
+Yanıtı göster
+Ondalık sayıları yuvarlama adımlarını burada özetliyoruz.
+
+NASIL YAPILIR: Ondalıklı Sayıları Yuvarlama
+
+Verilen basamak değerini bulun ve bir okla işaretleyin.
+Basamak değerinin sağındaki rakamın altını çiziniz.
+Bu rakam 5'ten büyük mü yoksa 5'e eşit mi?
+Evet—verilen basamak değerindeki rakama 1 ekleyin.
+Hayır, verilen basamak değerindeki rakamı değiştirmeyin .
+Yuvarlama basamağının sağındaki tüm rakamları silerek sayıyı yeniden yazın.
+ÖRNEK 5
+
+18.379 sayısını en yakın a) onda birine b) tam sayıya yuvarlayın.
+
+Çözüm
+Tur 18.379
+
+a) en yakın onda birine yuvarlanmış
+
+Onluk basamağı bir okla işaretleyin.	.
+Verilen basamak değerinin sağındaki rakamın altını çiziniz.	.
+7, 5'ten büyük veya eşit olduğundan, 3'e 1 ekleyin.	.
+Yuvarlama basamağının sağındaki tüm rakamları silerek sayıyı yeniden yazın.	.
+Silinen rakamların sıfırlarla değiştirilmediğine dikkat edin.	Dolayısıyla, 18.379'un en yakın onda birine yuvarlanması 18.4'tür.
+ 
+
+b) en yakın tam sayıya yuvarlanmış
+
+Okla işaretlenmiş yeri bulun.	.
+Verilen basamak değerinin sağındaki rakamın altını çiziniz.	.
+3, 5'ten büyük veya eşit olmadığı için 8'e 1 eklemeyin.	.
+Yuvarlama basamağının sağındaki tüm rakamları silerek sayıyı yeniden yazın.	.
+Dolayısıyla, 18.379 en yakın tam sayıya yuvarlandığında 18 elde edilir.
+DENEYİN 5.1
+
+6.582a) Yüzde birler b) Onda birler c) Tam sayıya yuvarlayın .
+
+Yanıtı göster
+DENEYİN 5.2
+
+15.2175En yakın a) binde birine b) yüzde birine c) onda birine yuvarlayın .
+
+Yanıtı göster
+Ondalık Sayıları Toplama ve Çıkarma
+Ondalık sayıları toplamak veya çıkarmak için, ondalık noktalarını hizalarız. Ondalık noktalarını bu şekilde hizalayarak, karşılık gelen basamak değerlerini toplayabilir veya çıkarabiliriz . Daha sonra sayıları tam sayıymış gibi toplar veya çıkarır ve ardından ondalık noktayı toplama işlemine yerleştiririz.
+
+NASIL YAPILIR: Ondalıklı Sayıları Toplama veya Çıkarma
+
+Ondalık noktaları dikey olarak hizalanacak şekilde sayıları yazın.
+Gerektiğinde yer tutucu olarak sıfır kullanın.
+Sayıları tam sayıymış gibi toplayın veya çıkarın. Ardından, verilen sayılardaki ondalık noktalarının altına cevabın ondalık noktasını yerleştirin.
+ÖRNEK 6
+
+Eklemek: 23.5+41.38.
+
+Çözüm
+Ondalık noktaları dikey olarak hizalanacak şekilde sayıları yazın.	\underline{\begin{array}{c}\phantom{\rule{0.7em}{0ex}}23.5\hfill \\ +41.38\hfill \end{array}}
+23.5'teki 5'ten sonra yer tutucu olarak 0 koyun.
+Unutmayın, \frac{5}{10}=\frac{50}{100}\phantom{\rule{0.5em}{0ex}}\text{yani}\phantom{\rule{0.5em}{0ex}}0.5=0.50.	\begin{array}{c}\underline{\begin{array}{c}\phantom{\rule{0.7em}{0ex}}23.50\hfill \\ +41.38\hfill \end{array}}\end{array}
+Sayıları tam sayıymış gibi toplayın.
+Ardından toplama işleminde ondalık noktayı yerleştirin.	\begin{array}{c}\underline{\begin{array}{c}\phantom{\rule{0.7em}{0ex}}23.50\hfill \\ +41.38\hfill \end{array}}\hfill \\ \phantom{\rule{0.7em}{0ex}}64.88\hfill \end{array}
+DENEYİN 6.1
+
+Eklemek: 4.8+11.69.
+
+Yanıtı göster
+DENEYİN 6.2
+
+Eklemek: 5.123+18.47.
+
+Yanıtı göster
+ÖRNEK 7
+
+Çıkarma işlemi: 20-14.65.
+
+Çözüm
+20-14.65
+Ondalık noktaları dikey olarak hizalanacak şekilde sayıları yazın.
+Unutmayın, 20 tam sayıdır, bu nedenle ondalık noktayı 0'dan sonra koyun.	\underline{\begin{array}{c}\phantom{\rule{0.7em}{0ex}}20.\hfill \\ -14.65\end{array}}
+Sağ tarafa yer tutucu olarak sıfırlar koyun.	\begin{array}{c}\phantom{\rule{0.7em}{0ex}}20.00\hfill \\ \underline{-14.65}\hfill \end{array}
+Çıkarma işlemini yapın ve ondalık noktayı cevaba yerleştirin.	\begin{array}{c}\underline{\begin{array}{c}\phantom{\rule{0.8em}{0ex}}\stackrel{1}{\overline{)2}}\stackrel{\stackrel{9}{\overline{)10}}}{\overline{)0}}.\stackrel{\stackrel{9}{\overline{)10}}}{\overline{)0}}\stackrel{\overline{)10}}{\overline{)0}}\hfill \\ -\phantom{\rule{0.2em}{0ex}}1\phantom{\rule{0.2em}{0ex}}4\phantom{\rule{0.4em}{0ex}}.\phantom{\rule{0.2em}{0ex}}6\phantom{\rule{0.4em}{0ex}}5\hfill \end{array}}\hfill \begin{array}
+DENEYİN 7.1
+
+Çıkarma işlemi: 10-9.58.
+
+Yanıtı göster
+DENEYİN 7.2
+
+Çıkarma işlemi: 50-37.42.
+
+Yanıtı göster
+Ondalıklı Sayıları Çarpma ve Bölme
+Ondalık sayıları çarpmak, tam sayıları çarpmaya çok benzer; sadece ondalık noktayı nereye koyacağımızı belirlememiz gerekir. Ondalık sayıları önce kesirlere dönüştürüp sonra çarparsak, çarpma işlemi daha anlaşılır olacaktır.
+
+Şimdi, ondalık sayıları önce kesirlere dönüştürerek elde edeceğimiz sonuçlara bakalım . İki örneği yan yana yapacağız. Bir örüntü arayın!
+
+.
+Kesirlere dönüştürün.\phantom{\rule{8em}{0ex}}	.
+Çarpma işlemi.	.
+Ondalık sayıya dönüştürün.	.
+Dikkat ederseniz, ilk örnekte, her birinin ondalık noktasından sonra bir basamağı olan iki sayıyı çarptık ve sonuç iki ondalık basamağa sahipti. İkinci örnekte ise, bir ondalık basamağı olan bir sayıyı iki ondalık basamağı olan bir sayıyla çarptık ve sonuç üç ondalık basamağa sahipti.
+
+Sayıları tıpkı tam sayılarla çarptığımız gibi çarparız, ancak ondalık noktayı geçici olarak görmezden geliriz. Daha sonra çarpanlardaki ondalık basamak sayısını sayarız ve bu toplam bize çarpımın ondalık basamak sayısını verir.
+
+Pozitif ve negatif sayıları çarpma kuralları, elbette ondalık sayılar için de geçerlidir!
+
+İki sayıyı çarparken ,
+
+Eğer işaretleri aynıysa ürün pozitiftir .
+İşaretleri farklıysa sonuç negatiftir .
+İşaretli ondalık sayıları çarptığımızda, önce çarpımın işaretini belirleriz ve ardından sayıların her ikisi de pozitifmiş gibi çarparız. Son olarak, çarpımı uygun işaretle yazarız.
+
+NASIL YAPILIR: Ondalıklı Sayıları Çarpma
+
+Ürünün işaretini belirleyin.
+Sayıları dikey formatta, sağ tarafa hizalayarak yazın. Ondalık noktalarını geçici olarak göz ardı ederek, sayıları tam sayıymış gibi çarpın.
+Ondalık noktayı yerleştirin. Çarpımın ondalık basamak sayısı, çarpanların ondalık basamak sayılarının toplamıdır.
+Ürünü uygun işaretle yazın.
+ÖRNEK 8
+
+Çarpma işlemi: \left(-3.9\right)\left(4.075\right).
+
+Çözüm
+(−3.9)(4.075)
+İşaretler farklı. Ürün negatif olacak.	
+Rakamları dikey olarak, sağ tarafa hizalayarak yazın.	.
+Çarpma işlemi.	.
+Çarpanlardaki ondalık basamak sayısını toplayın (1 + 3).
+.
+Ondalık noktayı sağdan 4 basamak ileriye yerleştirin.
+
+.
+İşaretler farklı, bu yüzden sonuç negatif.	(−3,9)(4,075) = −15,8925
+DENEYİN 8.1
+
+Çarpma işlemi: -4.5\left(6.107\right).
+
+Yanıtı göster
+DENEYİN 8.2
+
+Çarpma işlemi: -10.79\left(8.12\right).
+
+Yanıtı göster
+Diğer birçok dersinizde, özellikle fen bilimlerinde, ondalık sayıları 10'un kuvvetleriyle (10, 100, 1000, vb.) çarpacaksınız. Kağıt üzerinde birkaç çarpım yaparsanız, 10'un kuvvetlerindeki sıfır sayısı ile çarpımı elde etmek için ondalık noktayı sağa kaydırdığımız ondalık basamak sayısı arasında bir ilişki olduğunu fark edebilirsiniz.
+
+NASIL YAPILIR: Bir Ondalık Sayıyı Onun Kuvvetiyle Çarpma
+
+Ondalık noktayı, 10'un kuvvetlerindeki sıfır sayısı kadar basamak sağa kaydırın.
+Gerektiği kadar sayının sonuna sıfır ekleyin.
+ÖRNEK 9
+
+5,63'ü a) 10 ile b) 100 ile c) 1.000 ile çarpın.
+
+Çözüm
+On katlarındaki sıfır sayısına bakarak, ondalık virgülü sağa doğru kaç basamak kaydırmamız gerektiğini görebiliriz.
+
+A)
+
+5.63(10)
+10'da 1 sıfır vardır, bu nedenle ondalık noktayı 1 basamak sağa kaydırın.	.
+B)
+
+5.63(100)
+100 sayısında 2 sıfır var, bu yüzden ondalık noktayı 2 basamak sağa kaydırın.	.
+C)
+
+5.63(1,000)
+1000'de 3 sıfır vardır, bu nedenle ondalık noktayı 3 basamak sağa kaydırın.	.
+Sonuna bir sıfır eklenmelidir.	.
+DENEYİN 9.1
+
+2,58'i a) 10 ile b) 100 ile c) 1.000 ile çarpın.
+
+Yanıtı göster
+DENEYİN 9.2
+
+14,2'yi a) 10 ile b) 100 ile c) 1.000 ile çarpın.
+
+Yanıtı göster
+Çarpma işleminde olduğu gibi, ondalık sayıların bölmesi de tam sayıların bölünmesine çok benzer. Sadece ondalık noktasının nereye konulması gerektiğini bulmamız gerekiyor.
+
+Ondalıklı sayıları bölmek için, paydayı tam sayı yapmak için hangi 10'un kuvvetiyle çarpmanız gerektiğini belirleyin. Ardından payı aynı 10'un kuvvetiyle çarpın 10. Eşdeğer kesirler özelliği sayesinde, kesrin değerini değiştirmedik! Sonuç olarak, pay ve paydadaki ondalık noktalar aynı sayıda basamak sağa kayar. Örneğin:
+
+\begin{array}{c}\hfill \frac{0.8}{0.4}\hfill \\ \hfill \frac{0.8\left(10\right)}{0.4\left(10\right)}\hfill \\ \hfill \frac{8}{4}\hfill \end{array}
+
+Pozitif ve negatif ondalık sayıları bölme kurallarını, işaretli ondalık sayılar için de kullanırız. İşaretli ondalık sayıları bölerken, önce bölümün işaretini belirleyin ve ardından sayıların her ikisi de pozitifmiş gibi bölme işlemini gerçekleştirin. Son olarak, bölümü uygun işaretle yazın.
+
+Bölme işlemine ilişkin gösterim ve terminolojiyi gözden geçiriyoruz:
+
+\underset{\text{dividend}}{a}\div \underset{\text{divisor}}{b}=\underset{\text{quotient}}{\text{c}}\phantom{\rule{5em}{0ex}}\underset{\text{divisor}}{b}\begin{array}{c}\hfill \underset{\text{quotient}}{\text{c}}\\ \hfill \overline{)\underset{\text{dividend}}{a}}\end{array}
+
+Kolay başvurulabilmesi için ondalık sayıları bölme işlemini yaparken izlenecek adımları yazacağız.
+
+NASIL YAPILIR: Ondalıklı Sayıları Bölme
+
+Bölümün işaretini belirleyin.
+Böleni tam sayı yapmak için ondalık noktayı tamamen sağa "kaydırın". Bölünenin ondalık noktasını da aynı sayıda basamak "kaydırın" (gerektiğinde sıfır ekleyin).
+Bölme işlemini yapın. Bölümün ondalık noktasını, bölünenin ondalık noktasının üstüne yerleştirin.
+Bölümü uygun işaretle yazın.
+ÖRNEK 10
+
+Bölmek: -25.56\div\left(-0.06\right).
+
+Çözüm
+Unutmayın, Eşdeğer Kesirler Özelliği sayesinde bölen ve bölünenin ondalık noktalarını "kaydırabilirsiniz".
+
+-25.65\div\left(-0.06\right)
+İşaretler aynı.	Bölüm pozitiftir.
+Böleni tam sayı yapmak için ondalık noktayı tamamen sağa "kaydırın".	
+Bölünen sayının ondalık noktasını aynı sayıda basamak "kaydırın".	.
+Bölme işlemini yapın.
+Bölümün ondalık noktasını, bölünenin ondalık noktasının üstüne yerleştirin.	.
+Bölümü uygun işaretle yazın.	-25.65\div\left(-0.06\right)=427.5
+DENEYİN 10.1
+
+Bölmek: -23.492\div\left(-0.04\right).
+
+Yanıtı göster
+DENEYİN 10.2
+
+Bölmek: -4.11\div\left(-0.12\right).
+
+Yanıtı göster
+Tam sayıları ondalık sayılara bölmenin yaygın bir uygulaması, çoklu paket halinde satılan bir ürünün fiyatını bulmak istediğimiz zamandır. Örneğin, 24 su şişesinin fiyatı 3,99 dolar olsun. Bir su şişesinin fiyatını bulmak için 3,99 doları 24'e böleriz. Bu bölme işlemini Örnek 11'de gösteriyoruz . Para ile yapılan hesaplamalarda, sonucu en yakın kuruşa (yüzde birine) yuvarlarız.
+
+ÖRNEK 11
+
+Bölmek: $3.99\div24.
+
+Çözüm
+$3.99\div24
+Bölümün ondalık noktasını, bölünenin ondalık noktasının üstüne yerleştirin.	
+Bölme işlemini her zamanki gibi yapalım.
+Ne zaman duracağız? Bu bölme işlemi para içerdiği için, sonucu en yakın kuruşa (yüzde birine) yuvarlayacağız. Bunu yapmak için, bölme işlemini binde birler basamağına taşımamız gerekir.	.
+En yakın sente yuvarlayın.	0,166$ yaklaşık 0,17$
+3,99 $ / 24 ≈ 0,17 $
+DENEYİN 11.1
+
+Bölmek: $6.99\div 36.
+
+Yanıtı göster
+DENEYİN 11.2
+
+Bölmek: $4.99\div12.
+
+Yanıtı göster
+Ondalık Sayıları ve Kesirleri Dönüştürme
+Ondalık sayıları kesirlere dönüştürmek için son (en sağdaki) basamağın basamak değerini belirleriz. 0,03 ondalık sayısında 3, yüzde birler basamağındadır, bu nedenle 0,03'e denk gelen kesrin paydası 100'dür.
+
+0\phantom{\rule{0.2em}{0ex}}0.03=\frac{3}{100}
+
+Dikkat ederseniz, ondalık noktasının solundaki sayı sıfır olduğunda, payı paydasından küçük olan bir kesir elde ederiz. Bu tür kesirlere basit kesirler denir .
+
+Ondalık sayıyı kesire dönüştürmek için izlenecek adımlar işlem kutusunda özetlenmiştir.
+
+NASIL YAPILIR: Ondalık Sayıyı Basit Kesire Çevirme
+
+Son rakamın basamak değerini belirleyin.
+Kesri yazın.
+pay—ondalık noktasının sağındaki "rakamlar"
+payda—son rakama karşılık gelen basamak değeri
+ÖRNEK 12
+
+0.374'ü kesir olarak yazın.
+
+Çözüm
+0.374
+Son rakamın basamak değerini belirleyin.	.
+0.374 için kesirli ifadeyi yazın:
+Pay 374'tür.
+Payda 1.000'dir.
+\frac{374}{1000}
+Kesri sadeleştirin.	\frac{2\cdot 187}{2\cdot 500}
+Ortak çarpanları ayırın.	\frac{187}{500}
+Bu yüzden,0.374=\frac{187}{500}
+Paydadaki sıfır sayısının, \frac{374}{1,000}0.374 sayısının ondalık basamak sayısıyla aynı olduğunu fark ettiniz mi?
+
+DENEYİN 12.1
+
+0.234'ü kesir olarak yazın.
+
+Yanıtı göster
+DENEYİN 12.2
+
+0.024'ü kesir olarak yazın.
+
+Yanıtı göster
+Ondalık sayıları kesirlere çevirmeyi öğrendik. Şimdi tersini yapacağız—kesirleri ondalık sayılara çevireceğiz. Kesir çizgisinin bölme anlamına geldiğini unutmayın. Yani veya \frac{4}{5}şeklinde yazılabilir . Bu da bir kesri ondalık sayıya çevirmek için aşağıdaki yönteme yol açar.4\div55\overline{)4}
+
+Kesirli Sayıyı Ondalık Sayıya Çevirme Nasıl Yapılır?
+
+Bir kesri ondalık sayıya çevirmek için, kesrin payını paydasına bölün.
+
+ÖRNEK 13
+
+-\phantom{\rule{0.2em}{0ex}}\frac{5}{8}Ondalık sayı olarak yazın .
+
+Çözüm
+\frac{5}{8}Kesir çizgisi bölme işlemini ifade ettiğinden, önce şeklinde yazarak başlıyoruz 8\overline{)5}. Şimdi bölme işlemini gerçekleştiriyoruz.
+
+Bu, 8'in 5.000'i böldüğü ve bölümün 0.625 olduğu bir uzun bölme problemidir. 5.000'in altında 48, düz yatay çizgi, 20, 16, düz yatay çizgi, 40, 40 ve son bir yatay çizgi bulunmaktadır. Dolayısıyla beşte sekiz, 0.625'e eşittir.
+
+DENEYİN 13.1
+
+-\phantom{\rule{0.2em}{0ex}}\frac{7}{8}Ondalık sayı olarak yazın .
+
+Yanıtı göster
+DENEYİN 13.2
+
+-\phantom{\rule{0.2em}{0ex}}\frac{3}{8}Ondalık sayı olarak yazın .
+
+Yanıtı göster
+Bölme işleminde her zaman sıfır kalan elde etmeyiz. Bazen bölümün sonucu tekrarlayan bir ondalık sayı olur. Tekrarlayan ondalık sayı, son rakamın veya rakam grubunun sonsuza kadar tekrar ettiği bir ondalık sayıdır. Tekrarlayan rakam bloğunun üzerine bir çizgi konularak tekrarlandığı belirtilir.
+
+Tekrarlayan Ondalık Sayı
+
+Tekrarlayan ondalık sayı , son rakamın veya rakam grubunun sonsuza kadar tekrar ettiği bir ondalık sayıdır.
+
+Tekrarlayan rakam bloğunun üzerine bir çizgi yerleştirilerek tekrarlandığı belirtilir.
+
+ÖRNEK 14
+
+\frac{43}{22}Ondalık sayı olarak yazın .
+
+Çözüm
+43/22 sayısı verilmiştir. "43'ü 22'ye bölün" talimatı verilmiştir. 22'nin 43.00000'ı böldüğü ve bölümün 1.95454 olduğu uzun bir bölme problemi verilmiştir. 43.00000'ın altında 22, düz yatay çizgi, 210, 198, düz yatay çizgi, 120, 110, yatay çizgi, 100, 88, düz yatay çizgi, 120, 110, düz yatay çizgi, 100, 88, düz yatay çizgi ve ardından üç nokta bulunmaktadır. 120'nin ve 100'ün tekrarlandığına dikkat edilmiştir. Bu durum, "Örüntü tekrarlandığı için bölümdeki sayılar da tekrarlanacaktır. Sonunda, 43/22'nin 1,954'e eşit olduğu ve 54'ün üzerinde küçük bir yatay çizgi bulunduğu ifadesi veriliyor." şeklinde daha ayrıntılı olarak açıklanmaktadır.
+
+DENEYİN 14.1
+
+\frac{27}{11}Ondalık sayı olarak yazın .
+
+Yanıtı göster
+DENEYİN 14.2
+
+\frac{51}{22}Ondalık sayı olarak yazın .
+
+Yanıtı göster
+Bazen kesirli ve ondalıklı ifadeleri birlikte sadeleştirmemiz gerekebilir.
+
+ÖRNEK 15
+
+Basitleştirin: \frac{7}{8}+6.4.
+
+Çözüm
+Öncelikle, her iki sayının da aynı biçimde olması için sayılardan birini değiştirmemiz gerekiyor. Kesri ondalık sayıya çevirebilir veya ondalık sayıyı kesre çevirebiliriz. Genellikle kesri ondalık sayıya çevirmek daha kolaydır.
+
+\frac{7}{8}+6.4
+\frac{7}{8}Ondalık sayıya çevirin .	.	
+Eklemek.		0.875+6.4
+7.275
+Bu yüzden,\frac{7}{8}+6.4=7.275
+DENEYİN 15.1
+
+Basitleştirin: \frac{3}{8}+4.9.
+
+Yanıtı göster
+DENEYİN 15.2
+
+Basitleştirin: 5.7+\frac{13}{20}.
+
+Yanıtı göster
+Temel Kavramlar
+Bir ondalık sayı adı verin.
+Ondalık noktasının solundaki sayıyı adlandırın.
+Ondalık nokta yerine "ve" yazın.
+Ondalık noktasının sağındaki "sayı" kısmını, sanki tam sayıymış gibi adlandırın.
+Son rakamın ondalık basamak sayısını belirtin.
+Ondalık sayı yazın
+'Ve' kelimesini arayın; bu kelime ondalık noktayı gösterir. 'Ve' kelimesinin altına bir ondalık nokta koyun. 'Ve' kelimesinden önceki kelimeleri tam sayıya çevirin ve ondalık noktanın soluna yerleştirin. Eğer "ve" yoksa, sağına bir ondalık nokta koyarak "0" yazın.
+Ondalık noktasının sağında gereken ondalık basamak sayısını, son kelimenin gösterdiği basamak değerini not ederek belirtin.
+'Ve' kelimesinden sonraki kelimeleri ondalık noktasının sağındaki sayıya çevirin. Sayıyı boşluklara yazın; son rakamı en sona yazın.
+Gerektiğinde yer tutuculara sıfır girin.
+Ondalık sayıyı yuvarla
+Verilen basamak değerini bulun ve bir okla işaretleyin.
+Basamak değerinin sağındaki rakamın altını çiziniz.
+Bu rakam 5'ten büyük veya 5'e eşit mi? Evet ise, verilen basamaktaki rakama 1 ekleyin. Hayır ise, verilen basamaktaki rakamı değiştirmeyin .
+Yuvarlama basamağının sağındaki tüm rakamları silerek sayıyı yeniden yazın.
+Ondalık Sayıları Toplama veya Çıkarma
+Ondalık noktaları dikey olarak hizalanacak şekilde sayıları yazın.
+Gerektiğinde yer tutucu olarak sıfır kullanın.
+Sayıları tam sayıymış gibi toplayın veya çıkarın. Ardından, verilen sayılardaki ondalık noktalarının altına cevabın ondalık kısmını yerleştirin.
+Ondalık Sayıları Çarpma
+Ürünün işaretini belirleyin.
+Sayıları dikey formatta, sağ tarafa hizalayarak yazın. Ondalık noktalarını geçici olarak göz ardı ederek, sayıları tam sayıymış gibi çarpın.
+Ondalık noktayı yerleştirin. Çarpımın ondalık basamak sayısı, çarpanların ondalık basamak sayılarının toplamıdır.
+Ürünü uygun işaretle yazın.
+Bir ondalık sayıyı onluk kuvvetiyle çarpmak
+Ondalık noktayı, 10'un kuvvetlerindeki sıfır sayısı kadar basamak sağa kaydırın.
+Gerektiği kadar sayının sonuna sıfır ekleyin.
+Ondalık sayıları bölme
+Bölümün işaretini belirleyin.
+Böleni tam sayı yapmak için ondalık noktayı tamamen sağa "kaydırın". Bölünenin ondalık noktasını da aynı sayıda basamak "kaydırın" - gerekirse sıfır ekleyin.
+Bölme işlemini yapın. Bölümün ondalık noktasını, bölünenin ondalık noktasının üstüne yerleştirin.
+Bölümü uygun işaretle yazın.
+Ondalık sayıyı basit kesre çevirme
+Son rakamın basamak değerini belirleyin.
+Kesri şu şekilde yazın: pay—ondalık noktasının sağındaki 'rakamlar'; payda—son basamağa karşılık gelen basamak değeri.
+Kesri Ondalık Sayıya Çevirme: Kesrin payını paydasına bölün.
+Pratik mükemmelliği getirir.
+İsimlendirin ve Ondalık Sayıları Yazın
+Aşağıdaki alıştırmalarda, sayıları ondalık sayı olarak yazın.
+
+1. Yirmi dokuz ve seksen bir yüzdelik	2. Altmış bir ve yetmiş dört yüzde bir
+3. Onda yedi	4. Onda altı
+5. Yirmi dokuz bininci	6. Otuz beş binde bir
+7. Eksi on bir ve dokuz on binde bir	8. Eksi elli dokuz ve iki on binde bir
+Aşağıdaki alıştırmalarda her ondalık sayının adını yazınız.
+
+9. 5.5	10. 14.02
+11. 8.71	12. 2.64
+13. 0.002	14. 0.479
+15.\text{-}17\text{.9}\phantom{\rule{0.2em}{0ex}}	16.\text{-}31\text{.4}
+Ondalık Sayıları Yuvarla
+Aşağıdaki alıştırmalarda, her sayıyı en yakın onda birine yuvarlayın.
+
+17. 0.67	18. 0.49
+19. 2.84	20. 4.63
+Aşağıdaki alıştırmalarda, her sayıyı en yakın yüzde birine yuvarlayın.
+
+21. 0.845	22. 0.761
+23. 0.299	24. 0.697
+25. 4.098	26. 7.096
+Aşağıdaki alıştırmalarda, her sayıyı en yakın a) yüzde birine b) onda birine c) tam sayıya yuvarlayın.
+27. 5.781	28. 1.6381
+29. 63.479	30.84\text{.281}\phantom{\rule{0.2em}{0ex}}
+Ondalık Sayıları Toplama ve Çıkarma
+Aşağıdaki alıştırmalarda toplama veya çıkarma işlemleri yapın.
+
+31.16.92+7.56	32.248.25-91.29
+33.21.76-30.99	34.38.6+13.67
+35.-16.53-24.38	36.-19.47-32.58
+37.-38.69+31.47	38.29.83+19.76
+39.72,5-100	40.86.2-100
+41.15+0.73	42.27+0.87
+43.91.95-\left(-10.462\right)	44.94.69-\left(-12.678\right)
+45.55.01-3.7	46.59.08-4.6
+47.2.51-7.4	48.3.84-6.1
+Ondalıklı Sayıları Çarpma ve Bölme
+Aşağıdaki alıştırmalarda çarpma işlemi yapın.
+
+49.\left(0.24\right)\left(0.6\right)	50.\left(0.81\right)\left(0.3\right)
+51.\left(5.9\right)\left(7.12\right)	52.\left(2.3\right)\left(9.41\right)
+53.\left(-4.3\right)\left(2.71\right)	54.\left(-8.5\right)\left(1.69\right)
+55.\left(-5.18\right)\left(-65.23\right)	56.\left(-9.16\right)\left(-68.34\right)
+57.\left(0.06\right)\left(21.75\right)	58.\left(0.08\right)\left(52.45\right)
+59.\left(9.24\right)\left(10\right)	60.\left(6.531\right)\left(10\right)
+61.\left(55.2\right)\left(1000\right)	62.\left(99.4\right)\left(1000\right)
+Aşağıdaki alıştırmalarda, bölme işlemi yapın.
+63.4.75\div 25	64.12.04\div 43
+65.$117.25\div 48	66.$109.24\div 36
+67.0.6\div 0.2	68.0.8\div 0.4
+69.1.44\div \left(-0.3\right)	70.1.25\div \left(-0.5\right)
+71.-1.75\div \left(-0.05\right)	72.-1.15\div \left(-0.05\right)
+73.5.2\div 2.5	74.6.5\div 3.25
+75.11\div 0.55	76.14\div 0.35
+Ondalık Sayıları ve Kesirleri Dönüştürme
+Aşağıdaki alıştırmalarda, her ondalık sayıyı kesir olarak yazın.
+
+77. 0.04	78. 0.19
+79. 0.52	80. 0.78
+81. 1.25	82. 1.35
+83. 0.375	84. 0.464
+85. 0.095	86. 0.085
+Aşağıdaki alıştırmalarda, her kesri ondalık sayıya çevirin.
+87.\frac{17}{20}	88.\frac{13}{20}
+89.\frac{11}{4}	90.\frac{17}{4}
+91.-\phantom{\rule{0.2em}{0ex}}\frac{310}{25}	92.-\phantom{\rule{0.2em}{0ex}}\frac{284}{25}
+93.\frac{15}{11}	94.\frac{18}{11}
+95.\frac{15}{111}	96.\frac{25}{111}
+97.2.4+\frac{5}{8}	98.3.9+\frac{9}{20}
+Günlük Matematik
+99. Maaş Artışı Danny zam aldı ve şimdi yılda 58.965,95 dolar kazanıyor. Bu rakamı en yakın
+a) dolara
+b) bin dolara
+c) on bin dolara yuvarlayın.	100. Yeni Araba Alımı Selena'nın yeni arabasının maliyeti 23.795,95 dolardır. Bu rakamı en yakın
+a) dolara
+b) bin dolara
+c) on bin dolara yuvarlayın.
+101. Satış Vergisi Hyo Jin Vancouver'da yaşıyor. 1.624,99 dolara bir buzdolabı satın aldı ve kasiyer satış vergisini hesapladığında tam olarak 142,186625 dolar çıktı. Satış vergisini en yakın
+a) kuruşa ve
+b) dolara yuvarlayın.	102. Satış Vergisi Jennifer, Burnaby'deki evi için 1.038,99 dolarlık bir yemek odası takımı satın aldı. Satış vergisini tam olarak 67,53435 dolar olarak hesapladı. Satış vergisini en yakın
+a) kuruşa ve
+b) dolara yuvarlayın.
+103. Maaş: Annie'nin iki işi var. Topluluk Koleji'nde özel ders vererek saatte 14,04 dolar, bir kahve dükkanında çalışarak ise saatte 8,75 dolar kazanıyor. Geçen hafta 8 saat özel ders verdi ve 15 saat kahve dükkanında çalıştı.
+a) Ne kadar kazandı?
+b) Eğer her iki işte de çalışmak yerine 23 saatin tamamını özel ders vererek geçirmiş olsaydı, ne kadar daha fazla kazanırdı?	104. Maaş Çeki Jake'in iki işi var. Üniversite kafeteryasında saatte 7,95 dolar, sanat galerisinde ise saatte 20,25 dolar kazanıyor. Geçen hafta kafeteryada 12 saat, sanat galerisinde ise 5 saat çalıştı.
+a) Ne kadar kazandı?
+b) Eğer her iki işte de çalışmak yerine 17 saatin tamamını sanat galerisinde çalışsaydı, ne kadar daha fazla kazanırdı?
+Yazma Alıştırmaları
+105. Kanada parası hakkında bilgi sahibi olmak, ondalık sayılar hakkında bilgi edinmenize nasıl yardımcı olur?	106. “Üç tam dokuz yüzde bir” ifadesini ondalık sayı olarak nasıl yazacağınızı açıklayın.
+Sözlük
+ondalık
+Ondalık sayı, paydası on'un kuvveti olan bir kesri yazmanın başka bir yoludur.
+yüzde
+Yüzde, paydası 100 olan bir orandır.
+tekrarlayan ondalık sayı
+Tekrarlayan ondalık sayı, son rakamın veya rakam grubunun sonsuza kadar tekrar ettiği bir ondalık sayıdır.
+Cevaplar
+1. 29.81	3. 0.7	5. 0.029
+7.-11.0009	9. beş ve beş onda bir	11. sekiz tam yetmiş bir yüzdelik
+13. iki binde bir	15. eksi on yedi ve dokuz onda bir	17. 0.7
+19. 2.8	21. 0.85	23. 0.30
+25. 4.10	27. a) 5,78 b) 5,8 c) 6	29. a) 63.48 b) 63.5 c) 63
+31.24.48	33.-9.23	35.-40.91
+37.-7.22	39.-27.5	41. 15.73
+43. 102.212	45. 51.31	47.-4.89
+49. 0.144	51. 42.008	53.-11.653
+55. 337.8914	57. 1.305	59. 92.4
+61. 55.200	63. 0.19	65. 2,44 dolar
+67. 3	69.-4.8	71. 35
+73. 2.08	75. 20	77.\frac{1}{25}
+79.\frac{13}{25}	81.\frac{5}{4}	83.\frac{3}{8}
+85.\frac{19}{200}	87. 0.85	89. 2.75
+91.-12.4	93.1.\stackrel{\text{—}}{36}	95.0.\stackrel{\text{—}}{135}
+97. 3.025	99. a) 58.966 $ b) 59.000 $ c) 60.000 $	101. a) 142,19 dolar; b) 142 dolar
+103. a) 243,57 $ b) 79,35 $	105. Cevaplar farklılık gösterebilir.	107. Cevaplar farklılık gösterebilir.
+Atıflar
+Bu bölüm, Lynn Marecek ve MaryAnne Anthony-Smith'in " Elementary Algebra " (OpenStax) adlı eserinden uyarlanmıştır ve CC BY 4.0 Lisansı altındadır . Uyarlamayı Izabela Mazur yapmıştır. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+10
+2.4 Gerçek Sayılara Giriş
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Tam sayıları, rasyonel sayıları, irrasyonel sayıları ve gerçek sayıları tanımlayın.
+Kesirleri sayı doğrusunda bulun.
+Ondalık sayıları sayı doğrusunda bulun.
+Tam sayıları, rasyonel sayıları, irrasyonel sayıları ve gerçek sayıları tanımlayın.
+Sayıları daha önce sayma sayıları , tam sayılar ve tamsayılar olarak tanımlamıştık . Bu sayı türleri arasındaki fark nedir?
+
+\begin{array}{cccccc}\text{Sayma sayıları}\hfill & & & & & 1,2,3,4,\text{…}\hfill \\ \text{Tam sayılar}\hfill & & & & & 0,1,2,3,4,\text{…}\hfill \\ \text{Tamsayılar}\hfill & & & & & \text{…}-3,-2,-1,0,1,2,3,\text{…}\hfill \end{array}
+
+Tüm tamsayılarla başlayıp, kesirli sayıları da dahil edersek ne tür sayılar elde ederiz? Elde edeceğimiz sayılar rasyonel sayılar kümesini oluşturur. Rasyonel sayı, iki tamsayının oranı olarak yazılabilen bir sayıdır.
+
+Rasyonel sayı
+
+Rasyonel sayı\frac{p}{q} , p ve q'nun tamsayı olduğu ve şeklinde tanımlanan bir sayıdır q ≠ 0.
+
+Rasyonel bir sayı, iki tamsayının oranı olarak yazılabilir.
+
+√(x, y \frac{4}{5},-\phantom{\rule{0.2em}{0ex}}\frac{7}{8},\frac{13}{4},-\phantom{\rule{0.2em}{0ex}}\frac{20}{3}...
+
+Tam sayılar rasyonel sayılar mıdır? Bir tam sayının rasyonel sayı olup olmadığını belirlemek için, onu iki tam sayının oranı olarak yazmaya çalışırız. Her tam sayı, birçok farklı şekilde tam sayıların oranı olarak yazılabilir. Örneğin, 3, şu şekilde ifade edilebilir:\frac{3}{1},\frac{6}{2},\frac{9}{3},\frac{12}{4},\frac{15}{5}\text{…}
+
+Bir tamsayıyı tamsayıların oranı olarak yazmanın kolay bir yolu, onu paydası bir olan bir kesir olarak yazmaktır.
+
+\begin{array}{ccccccc}\hfill 3=\frac{3}{1}\hfill & & & \hfill -8=-\phantom{\rule{0.2em}{0ex}}\frac{8}{1}\hfill & & & \hfill 0=\frac{0}{1}\hfill \end{array}
+
+Herhangi bir tam sayı, iki tam sayının oranı olarak yazılabildiğinden, tüm tam sayılar rasyonel sayılardır ! Sayma sayıları ve tam sayıların da tam sayı olduğunu ve dolayısıyla onların da rasyonel olduğunu unutmayın.
+
+Peki ya ondalık sayılar? Onlar rasyonel midir? Her birini iki tamsayının oranı olarak yazıp yazamayacağımıza bakmak için birkaçına göz atalım.
+
+Tam sayıların rasyonel sayılar olduğunu zaten gördük. Tam sayı -8ondalık sayı olarak da yazılabilir -8.0. Dolayısıyla, bazı ondalık sayıların rasyonel olduğu açıktır.
+
+7.3 ondalık sayısını düşünün. Bunu iki tam sayının oranı olarak yazabilir miyiz? 7.3, 10/2 anlamına geldiği için 7\frac{3}{10}, bunu bileşik kesir olarak yazabiliriz \frac{73}{10}. Yani 7.3, 73 ve 10 tam sayılarının oranıdır. Rasyonel bir sayıdır.
+
+Genel olarak, 7,3 veya 100 gibi belirli bir basamak sayısından sonra biten her ondalık sayı -1.2684rasyonel bir sayıdır. Ondalık sayıyı kesir olarak yazarken son basamağın basamak değerini payda olarak kullanabiliriz.
+
+ÖRNEK 1
+
+İki tamsayının oranı olarak yazın: a) -27b) 7.31
+
+Çözüm
+a)
+Paydası 1 olan bir kesir olarak yazın.	\begin{array}{c}-27\\ \frac{-27}{1}\end{array}
+b)
+Bunu tam sayılı kesir olarak yazın. Unutmayın, 7 tam sayıdır ve ondalık kısım olan 0,31, yüzde birleri gösterir.
+Kesri bileşik kesre çevirin.	\begin{array}{c}7.31\\ 7\frac{31}{100}\\ \frac{731}{100}\end{array}
+Dolayısıyla, 7.31 ve 8.31'in her ikisinin de rasyonel sayılar olduğunu görüyoruz -27, çünkü bunlar iki tamsayının oranı olarak yazılabilir.
+
+DENEYİN 1.1
+
+İki tamsayının oranı olarak yazın: a) -24b) 3,57
+
+Yanıtı göster
+DENEYİN 1.2
+
+İki tamsayının oranı olarak yazın: a) -19b) 8.41
+
+Yanıtı göster
+Rasyonel olduğunu bildiğimiz sayıların ondalık gösterimine bakalım.
+
+Her tamsayının rasyonel bir sayı olduğunu gördük , çünkü a=\frac{a}{1}herhangi bir tamsayı için a = 1/ 2'dir. Ayrıca, herhangi bir tamsayıya ondalık nokta ve sıfır ekleyerek onu ondalık sayıya dönüştürebiliriz.
+
+Tamsayı	-2	-1	0	1	2	3
+Ondalık biçim	-2.0	-1.0	0.0	1.0	2.0	3.0
+Bu ondalık sayılar burada sona eriyor.
+Ayrıca her kesrin rasyonel bir sayı olduğunu da gördük . Yukarıda ele aldığımız kesirlerin ondalık gösterimine bakalım.
+
+Tam sayıların oranı	\frac{4}{5}	–\frac{7}{8}	\frac{13}{4}	–\frac{20}{3}
+ondalık biçim	0.8	-0.875	3.25	-6.666...
+Bu ondalık sayılar ya durur ya da tekrarlanır.
+Bu örnekler bize ne anlatıyor?
+
+Her rasyonel sayı, hem p ve q'nun tamsayı olduğu tamsayıların oranı , \frac{p}{q}, şeklinde , hem de duran veya tekrarlayan bir ondalık sayı olarak yazılabilir .q ≠ 0
+
+Yukarıda incelediğimiz sayılar, tam sayılar oranı ve ondalık sayı olarak aşağıda verilmiştir:
+
+Kesirler	Tamsayılar
+Sayı	\frac{4}{5}	-\phantom{\rule{0.2em}{0ex}}\frac{7}{8}	\frac{13}{4}	-\phantom{\rule{0.2em}{0ex}}\frac{20}{3}	-2	-1	0	1	2	3
+Tamsayıların Oranı	\frac{4}{5}	-\phantom{\rule{0.2em}{0ex}}\frac{7}{8}	\frac{13}{4}	-\phantom{\rule{0.2em}{0ex}}\frac{20}{3}	-\phantom{\rule{0.2em}{0ex}}\frac{2}{1}	-\phantom{\rule{0.2em}{0ex}}\frac{1}{1}	\frac{0}{1}	\frac{1}{1}	\frac{2}{1}	\frac{3}{1}
+Ondalık Biçim	0.8	-0.875	3.25	-6.\stackrel{\text{-}}{6}	-2.0	-1.0	0.0	1.0	2.0	3.0
+Rasyonel sayı
+
+Rasyonel sayı\frac{p}{q} , p ve q'nun tamsayı olduğu ve şeklinde tanımlanan bir sayıdır q ≠ 0.
+
+Ondalık sayı sistemi durur veya tekrarlanır.
+
+Ondalık sayılar arasında durmayan veya tekrarlamayanlar var mı? Evet!
+
+Daireleri tanımlamada çok önemli olan sayı π(Yunanca pi harfi , "pi" olarak telaffuz edilir), ondalık biçimde durmaz veya tekrar etmez.
+
+π = 3.141592654...
+
+Hatta durmayan veya tekrarlanmayan bir ondalık desen bile oluşturabiliriz, örneğin:
+
+2.01001000100001\dots
+
+Ondalık gösterimi durmayan veya tekrarlamayan sayılar, tam sayıların kesirleri olarak yazılamaz. Bu sayılara irrasyonel sayılar diyoruz. İrrasyonel sayılar hakkında daha fazla bilgiyi bu dersin ilerleyen bölümlerinde ele alacağız.
+
+İrrasyonel Sayı
+
+İrrasyonel sayı, iki tamsayının oranı olarak yazılamayan sayıdır.
+
+Ondalık sayı sistemi durmaz ve tekrar etmez.
+
+Bir sayının rasyonel mi yoksa irrasyonel mi olduğunu belirlemek için kullanabileceğimiz bir yöntemi özetleyelim.
+
+Akılcı mı, yoksa akıl dışı mı?
+
+Bir sayının ondalık biçimi
+
+Tekrar ediyorsa veya duruyorsa , sayı rasyoneldir .
+Tekrarlanmaz ve durmaz , sayı irrasyoneldir.
+ÖRNEK 2
+
+Verilen sayılara göre 0.58\stackrel{\text{-}}{3},0.47,3.605551275.., a) rasyonel sayıları b) irrasyonel sayıları listeleyiniz.
+
+Çözüm
+a)
+Tekrarlayan veya sonlanan ondalık sayıları arayın.	3 rakamı tekrar ediyor 0.58\stackrel{\text{-}}{3}.
+0.47 ondalık sayısı 7'den sonra duruyor.
+Dolayısıyla 0.58\stackrel{\text{-}}{3}ve 0.47 rasyonel sayılardır.
+b)
+Durmayan veya tekrarlamayan ondalık sayıları arayın.	3.605551275\text{…}Tekrarlayan rakam bloğu içermez ve durmaz.
+Bu nedenle 3.605551275\text{…}irrasyoneldir.
+DENEYİN 2.1
+
+Verilen sayılar için a) rasyonel sayıları b) irrasyonel sayıları listeleyiniz: 0.29,0.81\stackrel{\text{-}}{6},2.515115111\text{…}.
+
+Yanıtı göster
+DENEYİN 2.2
+
+Verilen sayılar için a) rasyonel sayıları b) irrasyonel sayıları listeleyiniz:2.6\stackrel{\text{-}}{3},0.125,0.418302\text{…}
+
+Yanıtı göster
+Gördüğümüz gibi, tüm sayma sayıları tam sayıdır, tüm tam sayılar tamsayılardır ve tüm tamsayılar rasyonel sayılardır. İrrasyonel sayılar ise ondalık gösterimi durmayan ve tekrarlamayan sayılardır. Rasyonel sayıları ve irrasyonel sayıları bir araya getirdiğimizde, gerçek sayılar kümesini elde ederiz .
+
+Gerçek Sayı
+
+Gerçek sayı, rasyonel veya irrasyonel olabilen bir sayıdır.
+
+Cebirde kullandığımız tüm sayılar gerçek sayılardır.  Şekil 1, bu bölümde ele aldığımız sayı kümelerinin nasıl bir araya geldiğini göstermektedir.
+
+Bu şekil bir Venn diyagramından oluşmaktadır. Başlangıçta, Gerçek Sayılar olarak işaretlenmiş büyük bir dikdörtgen bulunmaktadır. Dikdörtgenin sağ yarısı İrrasyonel Sayılardan, sol yarısı ise Rasyonel Sayılardan oluşmaktadır. Rasyonel Sayılar dikdörtgeninin içinde, tam sayılar (…, -2, -1, 0, 1, 2, …) yer almaktadır. Tam sayılar dikdörtgeninin içinde, tam sayılar (0, 1, 2, 3, …) yer almaktadır. Tam sayılar dikdörtgeninin içinde ise, sayma sayıları (1, 2, 3, …) yer almaktadır.
+Şekil 1 Bu grafik, gerçek sayılar kümesini oluşturan sayı kümelerini göstermektedir. "Gerçek sayılar" terimi size garip geliyor mu? "Gerçek" olmayan sayılar var mı ve varsa bunlar neler olabilir?
+ÖRNEK 3
+
+Verilen sayılara göre -7,\frac{14}{5},8,0,5.9,\text{-}{6.457...}, a) tam sayıları b) tamsayıları c) rasyonel sayıları d) irrasyonel sayıları e) gerçek sayıları listeleyin.
+
+Çözüm
+a) Unutmayın, tam sayılar 0, 1, 2, 3, …'dir. Dolayısıyla verilen tam sayılar sadece 0 ve 8'dir.
+b) Tamsayılar, tam sayılar, bunların tersleri ve 0'dır. Dolayısıyla 0 ve 8 tamsayıdır ve 0 -7da bir tam sayının tersi olduğundan tamsayıdır. Bu nedenle tamsayılar şunlardır -7, 0 ve 8: .
+c) Tüm tamsayılar rasyonel olduğundan, -7, 0, 8, rasyoneldir. Rasyonel sayılar ayrıca tekrarlayan veya duran kesirleri ve ondalık sayıları da içerir, bu nedenle rasyoneldir \frac{14}{5}\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}5.9. Dolayısıyla rasyonel sayılar listesi şöyledir -7, 0,\frac{14}{5},8,5.9: , . d) Unutmayın ki 6.457… tekrarlamayan ve durmayan
+bir ondalık sayıdır , bu nedenle 6.457… irrasyoneldir. e) Listelenen tüm sayılar gerçek sayılardır.
+
+DENEYİN 3.1
+
+Verilen sayılar için, a) tam sayıları b) tamsayıları c) rasyonel sayıları d) irrasyonel sayıları e) gerçek sayıları listeleyin: -3,\text{-}\sqrt{2.97294...},\frac{0}{5}\stackrel{\text{-}}{3},\frac{9}{5},4,\sqrt{49}.
+
+Yanıtı göster
+DENEYİN 3.2
+
+Verilen sayılar için aşağıdakileri listeleyin: a) tam sayılar b) tamsayılar c) rasyonel sayılar d) irrasyonel sayılar e) gerçek sayılar:\text{-}{0.25},-\phantom{\rule{0.2em}{0ex}}\frac{3}{8},-1,6,2.041975\text{…}
+
+Yanıtı göster
+Kesirleri Sayı Doğrusunda Bulun
+Sayı doğrusuna en son baktığımızda , üzerinde yalnızca pozitif ve negatif tam sayılar vardı. Şimdi ise kesirleri ve ondalık sayıları da dahil etmek istiyoruz .
+
+Kesirlerle başlayalım ve bunları \frac{1}{5},-\phantom{\rule{0.2em}{0ex}}\frac{4}{5},3,\frac{7}{4},-\phantom{\rule{0.2em}{0ex}}\frac{9}{2},-5,\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}\frac{8}{3}sayı doğrusunda bulalım.
+
+En kolay çizilebilen sayılar oldukları için tam sayılarla başlayacağız. 3Şekil 2'ye bakın .-5
+
+Listelenen basit kesirler şunlardır : . Basit kesrin değerinin birden küçük olduğunu \frac{1}{5}\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}-\phantom{\rule{0.2em}{0ex}}\frac{4}{5}biliyoruz , bu nedenle 0 ile 1 arasındaki payda 5'tir, bu yüzden 0 ile 1 arasındaki birimi 5 eşit parçaya bölüyoruz . 'yi çiziyoruz . Şekil 2'ye bakın .\frac{1}{5}0 ve 1.\frac{1}{5},\frac{2}{5},\frac{3}{5},\frac{4}{5}\frac{1}{5}
+
+Benzer şekilde, -\phantom{\rule{0.2em}{0ex}}\frac{4}{5}0 ile arasındadır -1. Birimi 5 eşit parçaya böldükten sonra grafiğini çiziyoruz -\phantom{\rule{0.2em}{0ex}}\frac{4}{5}. Şekil 2'ye bakın .
+
+Son olarak, bileşik kesirlere bakalım \frac{7}{4},-\phantom{\rule{0.2em}{0ex}}\frac{9}{2},\frac{8}{3}. Bunlar, payın paydadan büyük olduğu kesirlerdir. Her birini tam sayılı kesre çevirirseniz, bu noktaları bulmak daha kolay olabilir. Şekil 2'ye bakın .
+
+\begin{array}{ccccccc}\hfill \frac{7}{4}=1\frac{3}{4}\hfill & & & \hfill -\phantom{\rule{0.2em}{0ex}}\frac{9}{2}=-4\frac{1}{2}\hfill & & & \hfill \frac{8}{3}=2\frac{2}{3}\hfill \end{array}
+
+Şekil 2, tüm noktaların işaretlendiği sayı doğrusunu göstermektedir.
+
+-6'dan +6'ya uzanan bir sayı doğrusu gösterilmiştir. Soldan sağa doğru işaretlenen sayılar -5, -9/2, -4/5, 1/5, 4/5, 8/3 ve 3'tür. -9/2 sayısı -5 ile -4'ün tam ortasındadır. -4/5 sayısı -1'in biraz sağındadır. 1/5 sayısı 0'ın biraz sağındadır. 4/5 sayısı 1'in biraz solundadır. 8/3 sayısı 2 ile 3 arasındadır, ancak 3'e biraz daha yakındır.
+Şekil 2
+ÖRNEK 4
+
+Aşağıdakileri sayı doğrusu üzerinde bulun ve etiketleyin: 4,\frac{3}{4},-\phantom{\rule{0.2em}{0ex}}\frac{1}{4},-3,\frac{6}{5},-\phantom{\rule{0.2em}{0ex}}\frac{5}{2},\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}\frac{7}{3}.
+
+Çözüm
+Tamsayıları bulun ve grafiğe çizin 4,-3.
+
+Öncelikle uygun kesri bulun \frac{3}{4}. Kesir \frac{3}{4}0 ile 1 arasındadır. 0 ile 1 arasındaki mesafeyi dört eşit parçaya bölün, ardından grafiğini çizin \frac{3}{4}. Benzer şekilde grafiğini çizin -\phantom{\rule{0.2em}{0ex}}\frac{1}{4}.
+
+Şimdi bileşik kesirleri bulun \frac{6}{5},-\phantom{\rule{0.2em}{0ex}}\frac{5}{2},\frac{7}{3}. Bunları tam sayılı kesirlere dönüştürüp yukarıda açıklandığı gibi grafiğe dökersek, grafiğe dökmek daha kolay olacaktır: \frac{6}{5}=1\frac{1}{5},-\phantom{\rule{0.2em}{0ex}}\frac{5}{2}=-2\frac{1}{2},\frac{7}{3}=2\frac{1}{3}.
+
+-6'dan +6'ya uzanan bir sayı doğrusu gösterilmiştir. Soldan sağa doğru işaretlenen sayılar -3, -5/2, -1/4, 3/4, 6/5, 7/3 ve 4'tür. -5/2 sayısı -3 ve -2'nin tam ortasındadır. -1/4 sayısı 0'ın biraz solundadır. 3/4 sayısı 1'in biraz solundadır. 6/5 sayısı 1'in biraz sağındadır. 7/3 sayısı 2 ve 3 arasındadır, ancak 2'ye biraz daha yakındır.
+
+DENEYİN 4.1
+
+Aşağıdakileri sayı doğrusu üzerinde bulun ve etiketleyin: -1,\frac{1}{3},\frac{6}{5},-\phantom{\rule{0.2em}{0ex}}\frac{7}{4},\frac{9}{2},5,-\phantom{\rule{0.2em}{0ex}}\frac{8}{3}.
+
+Yanıtı göster
+DENEYİN 4.2
+
+Aşağıdakileri sayı doğrusu üzerinde bulun ve etiketleyin: -2,\frac{2}{3},\frac{7}{5},-\phantom{\rule{0.2em}{0ex}}\frac{7}{4},\frac{7}{2},3,-\phantom{\rule{0.2em}{0ex}}\frac{7}{3}.
+
+Yanıtı göster
+Örnek 5'te , kesirleri sıralamak için eşitsizlik sembollerini kullanacağız. Önceki bölümlerde sayıları sıralamak için sayı doğrusunu kullanmıştık.
+
+a < b ifadesi, sayı doğrusunda a'nın b'nin solunda yer alması durumunda " a , b'den küçüktür " anlamına gelir.
+a > b ifadesi, sayı doğrusunda a'nın b'nin sağında yer alması durumunda " a , b'den büyüktür " anlamına gelir.
+Sayı doğrusunda soldan sağa doğru ilerledikçe değerler artar.
+
+ÖRNEK 5
+
+Aşağıdaki sayı çiftlerinin her birini < veya > kullanarak sıralayın. Şekil 3'e bakmak faydalı olabilir .
+
+a) – \frac{2}{3}____ -1b) -3 \frac{1}{2}____ -3c) \frac{3}{4}____ – \frac{1}{4}d) -2____ –\frac{8}{3}
+
+-4'ten +4'e uzanan bir sayı doğrusu gösterilmiştir. Soldan sağa doğru işaretlenen sayılar sırasıyla -3 ve 1/2, -3, -8/3, -2, -1, -3/4, -2/3 ve -1/4'tür. -3 ve 1/2 sayısı -4 ile -3 arasındadır. -8/3 sayısı -3 ile -2 arasındadır, ancak -3'e daha yakındır. -3/4, -2/3 ve -1/4 sayıları ise -1 ile 0 arasındadır.
+Şekil 3
+\begin{array}{c} \text{-3} \frac{1}{2} \rule{2em}{0.4pt} -3 \\ -3 \frac{1}{2} < -3 \end{array}
+Çözüm
+a)
+– sayı doğrusunda \frac{2}{3}sağ taraftadır .-1	– \frac{2}{3}___-1
+– \frac{2}{3}> -1
+
+b)
+– sayı doğrusunda 3\frac{1}{2}sağ taraftadır .-3	\begin{array}{c}-3\frac{1}{2}\rule{2em}{0.4pt}-3 \\ -3\frac{1}{2}<-3\end{array}
+c) sayı doğrusunda
+-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}sağ taraftadır .-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}	\begin{array}{c}-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}\\ -\phantom{\rule{0.2em}{0ex}}\frac{3}{4}<-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}\end{array}
+d) sayı doğrusunda
+-2sağ taraftadır .-\phantom{\rule{0.2em}{0ex}}\frac{8}{3}	-2, -8'in 3'e bölünmesinden daha büyüktür.
+DENEYİN 5.1
+
+Aşağıdaki sayı çiftlerinin her birini < veya > kullanarak sıralayın:
+
+a) -\phantom{\rule{0.2em}{0ex}}\frac{1}{3}\rule{2em}{0.4pt}-1b) -1\frac{1}{2}\rule{2em}{0.4pt}-2c) -\phantom{\rule{0.2em}{0ex}}\frac{2}{3}\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}d) -3\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{7}{3}.
+
+Yanıtı göster
+DENEYİN 5.2
+
+Aşağıdaki sayı çiftlerinin her birini < veya > kullanarak sıralayın:
+
+a) -1\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{2}{3}b) -2\frac{1}{4}\rule{2em}{0.4pt}-2c) -\phantom{\rule{0.2em}{0ex}}\frac{3}{5}\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{4}{5}d) -4\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{10}{3}.
+
+Yanıtı göster
+Ondalık sayıları sayı doğrusunda bulun.
+Ondalık sayılar kesirlerin bir biçimi olduğundan, ondalık sayıları sayı doğrusunda bulmak, kesirleri sayı doğrusunda bulmaya benzer.
+
+ÖRNEK 6
+
+0.4'ü sayı doğrusunda bulun.
+
+Çözüm
+Basit kesir, birden küçük değere sahip olan kesirdir. 0,4 ondalık sayısı, basit bir kesir olan 1/2'ye eşdeğerdir \frac{4}{10}, bu nedenle 0,4, 0 ile 1 arasındadır. Bir sayı doğrusunda, 0 ile 1 arasındaki aralığı 10 eşit parçaya bölün. Şimdi parçaları 0,1, 0,2, 0,3, 0,4, 0,5, 0,6, 0,7, 0,8, 0,9, 1,0 olarak etiketleyin. Sayıların tutarlı bir şekilde onda birler basamağında olması için 0'ı 0,0 ve 1'i 1,0 olarak yazıyoruz. Son olarak, 0,4'ü sayı doğrusunda işaretleyin. Şekil 4'e bakın .
+
+0,0'dan 1'e uzanan bir sayı doğrusu gösterilmiştir. Verilen tek nokta 0,4'tür ve bu nokta 0,3 ile 0,5 arasındadır.
+Şekil 4
+DENEYİN 6.1
+
+Sayı doğrusunda 0,6'yı bulun.
+
+Yanıtı göster
+DENEYİN 6.2
+
+Sayı doğrusunda 0,9'u bulun.
+
+Yanıtı göster
+ÖRNEK 7
+
+-0.74Sayı doğrusu üzerinde bulun .
+
+Çözüm
+Ondalık sayı -0.74'ye eşdeğerdir -\phantom{\rule{0.2em}{0ex}}\frac{74}{100}, dolayısıyla 0 ile arasında yer alır -1. Bir sayı doğrusunda, 0 ile arasındaki aralıktaki yüzde birler basamağını işaretleyin ve etiketleyin . Şekil 5'e-1 bakın .
+
+-1,00'dan 0,00'a kadar uzanan bir sayı doğrusu gösterilmiştir. Verilen tek nokta -0,74'tür ve bu nokta -0,8 ile -0,7 arasındadır.
+Şekil 5
+DENEYİN 7.1
+
+Sayı doğrusunda bulun: -0.6.
+
+Yanıtı göster
+DENEYİN 7.2
+
+Sayı doğrusunda bulun: -0.7.
+
+Yanıtı göster
+Hangisi daha büyük, 0,04 mü yoksa 0,40 mı? Bunu para olarak düşünürsek, 0,40 £'un (kırk sent) 0,04 £'dan (dört sent) daha büyük olduğunu anlarsınız. Yani,
+
+0,40>0,04
+
+Yine, sayıları sıralamak için sayı doğrusunu kullanabiliriz.
+
+a < b ifadesi, sayı doğrusunda a'nın b'nin solunda yer alması durumunda " a , b'den küçüktür " anlamına gelir.
+a > b ifadesi, sayı doğrusunda a'nın b'nin sağında yer alması durumunda " a , b'den büyüktür " anlamına gelir.
+0,04 ve 0,40 sayıları sayı doğrusunda nerede yer almaktadır? Şekil 6'ya bakınız .
+
+-0,0'dan 1,0'a uzanan bir sayı doğrusu gösterilmiştir. Soldan sağa doğru 0,04 ve 0,4 noktaları işaretlenmiştir. 0,04 noktası 0,0 ile 0,1 arasındadır. 0,4 noktası ise 0,3 ile 0,5 arasındadır.
+Şekil 6
+Sayı doğrusunda 0,40'ın 0,04'ün sağında olduğunu görüyoruz. Bu, 0,40 > 0,04 olduğunu göstermenin başka bir yoludur.
+
+0,31 ile 0,308'i nasıl karşılaştırabiliriz? Bu rakamlar para birimine çevrilmediği için karşılaştırmayı kolaylaştırmıyor. Ancak 0,31 ve 0,308'i kesirlere dönüştürürsek, hangisinin daha büyük olduğunu anlayabiliriz.
+
+0.31	0.308
+Kesirlere dönüştürün.	\frac{31}{100}	\frac{308}{1000}
+Bunları karşılaştırmak için ortak bir paydaya ihtiyacımız var.	.	.
+\frac{310}{1000}	\frac{308}{1000}
+\frac{310}{1000}310 > 308 olduğundan, > olduğunu biliyoruz \frac{308}{1000}. Dolayısıyla, 0,31 > 0,308
+
+0,31'i kesire çevirirken ne yaptığımıza dikkat edin—kesirle başladık \frac{31}{100}ve eşdeğer kesirle bitirdik \frac{310}{1000}. \frac{310}{1000}Ondalık sayıya geri çevirirsek 0,310 elde ederiz. Yani 0,31, 0,310'a eşdeğerdir. Ondalık sayının sonuna sıfır eklemek değerini değiştirmez!
+
+\frac{31}{100}=\frac{310}{1000}\phantom{\rule{1em}{0ex}}\text{ve}\phantom{\rule{1em}{0ex}}0.31=0.310
+0.31 ve 0.310'un eşdeğer ondalık sayılar olduğunu söylüyoruz.
+
+Eşdeğer Ondalık Sayılar
+
+İki ondalık sayı, eşdeğer kesirlere dönüştürülebiliyorsa birbirine eşdeğerdir.
+
+Ondalık sayıları sıralarken eşdeğer ondalık sayılar kullanırız.
+
+Ondalık sayıları sıralamak için izlediğimiz adımlar burada özetlenmiştir.
+
+NASIL YAPILIR: Ondalıklı Sayıları Sıralama.
+
+Sayıları ondalık noktalarını hizalayarak alt alta yazın.
+İki sayının da aynı sayıda basamağa sahip olup olmadığını kontrol edin. Değilse, basamak sayısı daha az olan sayının sonuna sıfırlar ekleyerek basamak sayılarını eşleştirin.
+Sayıları tam sayıymış gibi karşılaştırın.
+Sayıları uygun eşitsizlik işaretini kullanarak sıralayın.
+ÖRNEK 8
+
+0.64\rule{2em}{0.4pt}0.6< veya > kullanarak sıralayın .
+
+Çözüm
+Sayıları ondalık noktalarını hizalayarak alt alta yazın.	\begin{array}{c}0.64\\ 0.6\end{array}
+0,6'ya bir sıfır ekleyerek 2 ondalık basamaklı bir ondalık sayı yapın.
+Şimdi ikisi de yüzde birler basamağıdır.	\begin{array}{c}0.64\\ 0.60\end{array}
+64, 60'tan büyüktür.	64>60
+64 yüzde bir, 60 yüzde birden büyüktür.	0,64>0,60
+0,64>0.6
+DENEYİN 8.1
+
+Aşağıdaki sayı çiftlerinin her birini <\phantom{\rule{0.2em}{0ex}}\text{veya}\phantom{\rule{0.2em}{0ex}}> operatörünü kullanarak sıralayın \phantom{\rule{0.2em}{0ex}}\text{:}\phantom{\rule{0.2em}{0ex}}0.42\rule{2em}{0.4pt}0.4.
+
+Yanıtı göster
+DENEYİN 8.2
+
+Aşağıdaki sayı çiftlerinin her birini <\phantom{\rule{0.2em}{0ex}}\text{veya}\phantom{\rule{0.2em}{0ex}}> operatörünü kullanarak sıralayın \phantom{\rule{0.2em}{0ex}}\text{:}\phantom{\rule{0.2em}{0ex}}0.18\rule{2em}{0.4pt}0.1.
+
+Yanıtı göster
+ÖRNEK 9
+
+0.83\rule{2em}{0.4pt}0.803< veya > kullanarak sıralayın .
+
+Çözüm
+0.83\rule{2em}{0.4pt}0.803
+Sayıları ondalık virgülleri hizalayarak alt alta yazın.	\begin{array}{c}0.83\\ 0.803\end{array}
+Rakam sayıları aynı değil.
+0.83'ün sonuna bir sıfır ekleyin.	\begin{array}{c}0.830\\ 0.803\end{array}
+830> olduğundan 803, 830 binde bir, 803 binde birden büyüktür.	0.830>0.803
+0.83>0.803
+DENEYİN 9.1
+
+Aşağıdaki sayı çiftini <\phantom{\rule{0.2em}{0ex}}\text{veya}\phantom{\rule{0.2em}{0ex}}> operatörünü kullanarak sıralayın \phantom{\rule{0.2em}{0ex}}\text{:}\phantom{\rule{0.2em}{0ex}}0.76\rule{2em}{0.4pt}0.706.
+
+Yanıtı göster
+DENEYİN 9.2
+
+Aşağıdaki sayı çiftini < \phantom{\rule{0.2em}{0ex}}\text{veya}\phantom{\rule{0.2em}{0ex}}> kullanarak sıralayın \phantom{\rule{0.2em}{0ex}}\text{:}\phantom{\rule{0.2em}{0ex}}0.305\rule{2em}{0.4pt}0.35.
+
+Yanıtı göster
+Negatif ondalık sayıları sıralarken, negatif tam sayıları nasıl sıralayacağımızı hatırlamak önemlidir. Sayı doğrusunda daha büyük sayıların sağda olduğunu hatırlayın. Örneğin, sayı doğrusunda -2'nin sağında olduğu için > -3olduğunu biliyoruz . Benzer şekilde, daha küçük sayılar sayı doğrusunda solda yer alır. Örneğin, sayı doğrusunda 'nin solunda olduğu için olduğunu biliyoruz . Şekil 7'ye bakın .-2-3-9-6-9<-6
+
+-10'dan 0'a kadar uzanan bir sayı doğrusu gösterilmiştir. Noktalar verilmemiştir ve -10 ile 0 arasındaki her tam sayıda sayıya işaretler konmuştur.
+Şekil 7
+Örnek 10'da-1 gösterildiği gibi, 0 ile arasındaki aralığa yakınlaştırırsak , aynı şekilde > olduğunu görürüz .-0.2-0.3\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}-0.9<-0.6
+
+ÖRNEK 10
+
+Sipariş vermek için < veya > işaretlerini kullanın -0.1\rule{2em}{0.4pt}-0.8.
+
+Çözüm
+-0.1\rule{2em}{0.4pt}-0.8
+Rakamları ondalık noktalarını hizalayarak alt alta yazın.
+Rakamların basamak sayıları aynı olmalıdır.	\begin{array}{c}-0.1\\ -0.8\end{array}
+-1> olduğundan -8, −1 onda bir, −8 onda birden büyüktür.	-0.1>-0.8
+DENEYİN 10.1
+
+Aşağıdaki sayı çiftini < veya > kullanarak sıralayın: -0.3\rule{2em}{0.4pt}-0.5.
+
+Yanıtı göster
+DENEYİN 10.2
+
+Aşağıdaki sayı çiftini < veya > kullanarak sıralayın: -0.6\rule{2em}{0.4pt}-0.7.
+
+Yanıtı göster
+Temel Kavramlar
+Ondalık Sayıları Sırala
+Sayıları ondalık noktalarını hizalayarak alt alta yazın.
+İki sayının da aynı sayıda basamağa sahip olup olmadığını kontrol edin. Değilse, basamak sayısı daha az olan sayının sonuna sıfırlar ekleyerek basamak sayılarını eşleştirin.
+Sayıları tam sayıymış gibi karşılaştırın.
+Sayıları uygun eşitsizlik işaretini kullanarak sıralayın.
+Sözlük
+eşdeğer ondalık sayılar
+İki ondalık sayı, eşdeğer kesirlere dönüştürülebiliyorsa birbirine eşdeğerdir.
+irrasyonel sayı
+İrrasyonel sayı, iki tamsayının oranı olarak yazılamayan bir sayıdır. Ondalık gösterimi bitmez ve tekrar etmez.
+rasyonel sayı
+\frac{p}{q}Rasyonel sayı , p ve q'nun tamsayılar olduğu ve şeklinde ifade edilen bir sayıdır q ≠ 0. Rasyonel bir sayı, iki tamsayının oranı olarak da yazılabilir. Ondalık gösteriminde sayılar biter veya tekrarlanır.
+gerçek sayı
+Gerçek sayı, rasyonel veya irrasyonel olabilen bir sayıdır.
+Pratik mükemmelliği getirir.
+Tam sayıları, rasyonel sayıları, irrasyonel sayıları ve gerçek sayıları tanımlayın.
+Aşağıdaki alıştırmalarda, iki tamsayının oranını yazın.
+
+1. a) 5 b) 3.19	2. a) 8 b) 1.61
+3. a) -12\phantom{\rule{0.2em}{0ex}}b) 9.279	4. a) -16b) 4.399
+Aşağıdaki alıştırmalarda, a) rasyonel sayıları, b) irrasyonel sayıları listeleyiniz.
+5.0.75,0.22\stackrel{-}{3},1.39174	6.0.36,0.94729\text{…},2.52\stackrel{-}{8}
+7.0.4\stackrel{-}{5},1.919293\text{…},3.59	8.0.1\stackrel{-}{3},0.42982\text{…},1.875
+Aşağıdaki alıştırmalarda, her sayı kümesi için a) tam sayıları, b) tamsayıları, c) rasyonel sayıları, d) irrasyonel sayıları, e) gerçek sayıları listeleyin.
+9.-8,0,1.95286\text{…},\frac{12}{5},9	10.-9,-3\frac{4}{9},0.40\stackrel{-}{9},\frac{11}{6},7
+11.-7,-\phantom{\rule{0.2em}{0ex}}\frac{8}{3},-1,0.77,3\frac{1}{4}	12.-6,-\phantom{\rule{0.2em}{0ex}}\frac{5}{2},0,0.\stackrel{\text{———}}{714285},2\frac{1}{5}
+Kesirleri Sayı Doğrusunda Bulun
+Aşağıdaki alıştırmalarda, sayıları sayı doğrusu üzerinde bulun.
+
+13.\frac{3}{4},\frac{8}{5},\frac{10}{3}	14.\frac{1}{4},\frac{9}{5},\frac{11}{3}
+15.\frac{3}{10},\frac{7}{2},\frac{11}{6},4	16.\frac{7}{10},\frac{5}{2},\frac{13}{8},3
+17.\frac{2}{5},-\phantom{\rule{0.2em}{0ex}}\frac{2}{5}	18.\frac{3}{4},-\phantom{\rule{0.2em}{0ex}}\frac{3}{4}
+19.\frac{3}{4},-\phantom{\rule{0.2em}{0ex}}\frac{3}{4},1\frac{2}{3},-1\frac{2}{3},\frac{5}{2},-\phantom{\rule{0.2em}{0ex}}\frac{5}{2}	20.\frac{1}{5},-\phantom{\rule{0.2em}{0ex}}\frac{2}{5},1\frac{3}{4},-1\frac{3}{4},\frac{8}{3},-\phantom{\rule{0.2em}{0ex}}\frac{8}{3}
+Aşağıdaki alıştırmalarda, sayı çiftlerinin her birini < veya > işaretlerini kullanarak sıralayın.
+21.-1\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}	22.-1\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}
+23.-2\frac{1}{2}\rule{2em}{0.4pt}-3	24.-1\frac{3}{4}\rule{2em}{0.4pt}-2
+25.-\phantom{\rule{0.2em}{0ex}}\frac{5}{12}\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{7}{12}	26.-\phantom{\rule{0.2em}{0ex}}\frac{9}{10}\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{3}{10}
+27.-3\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{13}{5}	28.-4\rule{2em}{0.4pt}-\phantom{\rule{0.2em}{0ex}}\frac{23}{6}
+Ondalıklı Sayıları Sayı Doğrusunda Bulunma Aşağıdaki alıştırmalarda, sayıyı sayı doğrusunda bulun.
+29. 0.8	30.-0.9
+31.-1.6	32. 3.1
+Aşağıdaki alıştırmalarda, her sayı çiftini < veya > kullanarak sıralayın.
+33.0.37\rule{2em}{0.4pt}0.63	34.0.86\rule{2em}{0.4pt}0.69
+35.0.91\rule{2em}{0.4pt}0.901	36.0.415\rule{2em}{0.4pt}0.41
+37.-0.5\rule{2em}{0.4pt}-0.3	38.-0.1\rule{2em}{0.4pt}-0.4
+39.-0.62\rule{2em}{0.4pt}-0.619	40.-7.31\rule{2em}{0.4pt}-7.3
+Günlük Matematik
+41. Gezi. Lord Selkirk İlkokulu'ndaki tüm 5. sınıf öğrencileri bilim müzesine geziye gidecekler. Çocuklar, öğretmenler ve refakatçiler dahil toplam 147 kişi olacak. Her otobüs 44 kişi kapasitelidir.
+
+a) Kaç otobüse ihtiyaç duyulacak?
+b) Cevabın neden tam sayı olması gerekiyor?
+c) Cevabı, tam cevaba en yakın tam sayıyı seçerek normal şekilde yuvarlamamanızın nedeni nedir?
+
+42. Çocuk bakımı. Serena, lisanslı bir çocuk bakım merkezi açmak istiyor. Eyaleti, her öğretmen için en fazla 12 çocuk olmasını şart koşuyor. Serena, çocuk bakım merkezinin 40 çocuğa hizmet vermesini istiyor.
+
+a) Kaç öğretmene ihtiyaç duyulacak?
+b) Cevabın neden tam sayı olması gerekiyor?
+c) Cevabı, tam cevaba en yakın tam sayıyı seçerek normal şekilde yuvarlamamanızın nedeni nedir?
+
+Yazma Alıştırmaları
+43. Kendi kelimelerinizle rasyonel sayı ile irrasyonel sayı arasındaki farkı açıklayın.	44. Sayı kümelerinin (sayılabilir sayılar, tam sayılar, tamsayılar, rasyonel sayılar, irrasyonel sayılar, gerçek sayılar) birbirleriyle nasıl ilişkili olduğunu açıklayın.
+Cevaplar
+1. a) \frac{5}{1}b)\frac{319}{100}	3. a) \frac{-12}{1}b)\frac{9297}{1000}	5. a) 0.75,0.22\stackrel{-}{3}b)1.39174\text{…}
+7. a) 0.4\stackrel{-}{5},3.59b)1.919293\text{…}	9. a) 0,9b) -8,9c) -8,0,\frac{12}{5},9d) 1.95286\text{…}e)-8,0,1.95286\text{…},\frac{12}{5},9	11. a) hiçbiri b) -7,-1c) -7, -\phantom{\rule{0.2em}{0ex}}\frac{8}{3},-1,0.77,3\frac{1}{4}d) hiçbiri e)-7,-\phantom{\rule{0.2em}{0ex}}\frac{8}{3},-1,0.77,3\frac{1}{4}
+13.Şekilde 0'dan 6'ya uzanan bir sayı doğrusu gösterilmiştir. Soldan sağa doğru noktalar 3/4, 8/5 ve 10/3'tür. 3/4 noktası 0 ile 1 arasındadır. 8/5 noktası 1 ile 2 arasındadır. 10/3 noktası ise 3 ile 4 arasındadır.	15.Şekilde 0'dan 6'ya uzanan bir sayı doğrusu gösterilmiştir. Soldan sağa doğru noktalar 3/10, 11/6, 7/2 ve 4'tür. 3/10 noktası 0 ile 1 arasındadır. 11/6 noktası 1 ile 2 arasındadır. 7/2 noktası ise 3 ile 4 arasındadır.	17.Eksi 1'den 1'e uzanan bir sayı doğrusu gösterilmiştir. Soldan sağa doğru noktalar eksi 2/5 ve 2/5 olarak okunmaktadır. Eksi 2/5 noktası eksi 1 ile 0 arasındadır. 2/5 noktası ise 0 ile 1 arasındadır.
+19.-4'ten 4'e uzanan bir sayı doğrusu gösterilmiştir. Soldan sağa doğru noktalar sırasıyla -5/2, -1 ve 2/3, -3/4, ¾, 1 ve 2/3 ve 5/2'dir. -5/2 noktası -3 ile -2 arasındadır. -1 ve 2/3 noktası -2 ile -1 arasındadır. -3/4 noktası -1 ile 0 arasındadır. 3/4 noktası 0 ile 1 arasındadır. 1 ve 2/3 noktası 1 ile 2 arasındadır. 5/2 noktası 2 ile 3 arasındadır.	21. <	23. >
+25. >	27. <	29.-4'ten 4'e uzanan bir sayı doğrusu gösterilmiştir. 0,8 noktası 0 ile 1 arasındadır.
+31.Eksi 4'ten 4'e uzanan bir sayı doğrusu gösterilmiştir. Eksi 1,6 noktası eksi 2 ve eksi 1 arasındadır.	33. <	35. >
+37. <	39. <	41. a) 4 otobüs b) cevaplar değişebilir c) cevaplar değişebilir
+43. Cevaplar farklılık gösterebilir.		
+Atıflar
+Bu bölüm, Lynn Marecek ve MaryAnne Anthony-Smith'in " Elementary Algebra " (OpenStax) adlı eserindeki "Gerçek Sayılar" bölümünden uyarlanmıştır ve CC BY 4.0 Lisansı altındadır . Uyarlamayı Izabela Mazur yapmıştır. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+
+11
+2.5 Gerçek Sayıların Özellikleri
+Öğrenme Hedefleri
+
+Bu bölümün sonunda şunları yapabileceksiniz:
+
+Değişme ve birleşme özelliklerini kullanın.
+Toplama ve çarpma işlemlerinin etkisiz eleman ve ters eleman özelliklerini kullanın.
+Sıfırın özelliklerini kullanın.
+Dağılma özelliğini kullanarak ifadeleri sadeleştirin.
+Değişme ve birleşme özelliklerini kullanın.
+İki sayıyı, örneğin 5 ve 3'ü toplamayı düşünün. Toplama sırası sonucu etkilemez, değil mi?
+
+\begin{array}{cccc}\hfill 5+3\hfill & & & \hfill 3+5\hfill \\ \hfill 8\hfill & & & \hfill 8\hfill \end{array}
+
+5+3=3+5
+Sonuçlar aynı.
+
+Gördüğümüz gibi, ekleme sırasının hiçbir önemi yok!
+
+Çarpma işlemine ne dersiniz?5\phantom{\rule{0.2em}{0ex}}\text{ve}\phantom{\rule{0.2em}{0ex}}3?
+
+\begin{array}{cccc}\hfill 5\cdot3\hfill & & & \hfill 3\cdot5\hfill \\ \hfill 15\hfill & & & \hfill 15\hfill \end{array}
+5\cdot3=3\cdot5
+Sonuçlar yine aynı!
+
+Çarpma işleminin sırası önemli değil!
+
+Bu örnekler, değişme özelliğini göstermektedir. Toplama veya çarpma işlemlerinde, sırayı değiştirmek aynı sonucu verir.
+
+Değişme Özelliği
+
+\begin{array}{ccccccccc}\mathbf{\text{Toplama İşlemi}}\hfill & & & \text{Eğer}\phantom{\rule{0.2em}{0ex}}a,b\phantom{\rule{0.2em}{0ex}}\text{gerçek sayılar ise, o zaman}\hfill & & & \hfill a+b& =\hfill & b+a\hfill \\ \mathbf{\text{Çarpma İşlemi}}\hfill & & & \text{Eğer}\phantom{\rule{0.2em}{0ex}}a,b\phantom{\rule{0.2em}{0ex}}\text{gerçek sayılar ise, o zaman}\hfill & & & \hfill a\cdot b& =\hfill & b\cdot a\hfill \end{array}
+
+Toplama veya çarpma işlemlerinde, işlemlerin sırasını değiştirmek aynı sonucu verir.
+
+Değişme özelliği, sayıların sırasıyla ilgilidir. Toplama veya çarpma işlemlerinde sayıların sırasını değiştirirseniz, sonuç aynı kalır.
+
+Peki ya çıkarma işlemi? Sayıları çıkarırken sıra önemli mi? 7-3Aynı sonucu verir mi?3-7?
+
+\begin{array}{c}\hfill \begin{array}{cc}\hfill 7-3\hfill & \hfill \phantom{\rule{1em}{0ex}}3-7\hfill \\ \hfill 4\hfill & \hfill \phantom{\rule{1em}{0ex}}-4\hfill \end{array}\hfill \\ \\ \\ \hfill \phantom{\rule{0.5em}{0ex}}4\ne -4\hfill \\ \hfill 7-3\ne 3-7\hfill \end{array}
+Sonuçlar aynı değil.
+
+Çıkarma işleminin sırasını değiştirmek aynı sonucu vermediğinden, çıkarma işleminin değişme özelliğine sahip olmadığını biliyoruz .
+
+İki sayıyı böldüğümüzde ne olduğunu görelim. Bölme işlemi değişme özelliğine sahip midir?
+
+\begin{array}{c}\\ \hfill \begin{array}{cc}\hfill 12\div 4\hfill & \hfill \phantom{\rule{1em}{0ex}}4\div 12\hfill \\ \hfill \frac{12}{4}\hfill & \hfill \phantom{\rule{1em}{0ex}}\frac{4}{12}\hfill \\ \hfill 3\hfill & \hfill \phantom{\rule{1em}{0ex}}\frac{1}{3}\hfill \end{array}\hfill \\ \hfill 3\ne \frac{1}{3}\hfill \\ \hfill 12\div 4\ne 4\div 12\hfill \end{array}
+Sonuçlar aynı değil.
+
+Bölme işleminin sırasını değiştirmek aynı sonucu vermediğinden, bölme işlemi değişme özelliğine sahip değildir . Değişme özelliği yalnızca toplama ve çarpma işlemleri için geçerlidir!
+
+Toplama ve çarpma işlemleri değişme özelliğine sahiptir .
+Çıkarma ve bölme işlemleri değişme özelliğine sahip değildir .
+Bu ifadeyi sadeleştirmeniz istenseydi, nasıl yapardınız ve cevabınız ne olurdu?
+
+7+8+2
+
+Bazıları şöyle düşünürdü: 7+8\phantom{\rule{0.2em}{0ex}}\text{is}\phantom{\rule{0.2em}{0ex}}15ve sonra 15+2\phantom{\rule{0.2em}{0ex}}\text{is}\phantom{\rule{0.2em}{0ex}}17... Diğerleri ise şöyle başlayabilir: 8+2\phantom{\rule{0.2em}{0ex}}\text{10 yapar}\phantom{\rule{0.2em}{0ex}}10ve sonra 7+10\phantom{\rule{0.2em}{0ex}}\text{17 yapar}\phantom{\rule{0.2em}{0ex}}17...
+
+Her iki yöntem de aynı sonucu verir. Unutmayın, hangi işlemin önce yapılması gerektiğini belirtmek için parantezleri gruplandırma sembolü olarak kullanıyoruz.
+
+Ekle 7+8.
+Ekle.	\begin{array}{c}\left(7+8\right)+2\\ 15+2\\ 17\end{array}
+Ekle 8+2.
+Ekle.	\begin{array}{c}7+\left(8+2\right)\\ 7+10\\ 17\end{array}
+\left(7+8\right)+2=7+\left(8+2\right)
+Üç sayıyı toplarken, sayıların gruplandırmasını değiştirmek aynı sonucu verir.
+
+Bu durum çarpma işlemi için de geçerlidir.
+
+Çarpın. 5\cdot\frac{1}{3}
+Çarpın.	\begin{array}{c}\phantom{\rule{2em}{0ex}}\left(5\cdot\frac{1}{3}\right)\cdot3\\ \frac{5}{3}\cdot3\\ 5\end{array}
+Çarpın. \frac{1}{3}\cdot3.
+Çarpın.	\begin{array}{c}5\cdot\left(\frac{1}{3}\cdot3\right)\\ 5\cdot1\\ 5\end{array}
+\left(5\cdot\frac{1}{3}\right)\cdot3=5\cdot\left(\frac{1}{3}\cdot3\right)
+Üç sayıyı çarparken, sayıların gruplandırılmasını değiştirmek aynı sonucu verir.
+
+Bunu muhtemelen biliyorsunuzdur, ancak terminoloji sizin için yeni olabilir. Bu örnekler, birleşme özelliğini göstermektedir.
+
+Birleşme Özelliği
+
+\begin{array}{cccc}\mathbf{\text{Toplama}}\hfill & & & \text{Eğer}\phantom{\rule{0.2em}{0ex}}a,b,c\phantom{\rule{0.2em}{0ex}}\text{gerçek sayılar ise, o zaman}\phantom{\rule{0.2em}{0ex}}\left(a+b\right)+c=a+\left(b+c\right)\hfill \\ \mathbf{\text{Çarpma}}\hfill & & & Eğer a, b ve c gerçek sayılar ise, o zaman (a ⋅ b) ⋅ c = a ⋅ (b ⋅ c)
+
+Toplama veya çarpma işlemlerinde gruplandırmayı değiştirmek aynı sonucu verir.
+
+Çarpma işlemini tekrar düşünelim 5\cdot \frac{1}{3}\cdot 3. Her iki şekilde de aynı sonucu elde ettik, peki hangi yol daha kolaydı? Yukarıda sağ tarafta gösterildiği gibi önce \frac{1}{3}ve'yi çarpmak 3, ilk adımda kesri ortadan kaldırır. Birleşme özelliğini kullanmak matematiği kolaylaştırabilir!
+
+Birleştirme özelliği gruplama ile ilgilidir. Sayıların gruplanma şeklini değiştirirsek, sonuç aynı olacaktır. Dikkat edin, aynı üç sayı aynı sırada; tek fark gruplama şekli.
+
+Çıkarma ve bölme işlemlerinin değişme özelliğine sahip olmadığını gördük. Aynı şekilde birleşme özelliğine de sahip değiller.
+
+Bir ifadeyi sadeleştirirken, adımların ne olacağını planlamak her zaman iyi bir fikirdir. Bir sonraki örnekte benzer terimleri birleştirmek için, toplamanın değişme özelliğini kullanarak benzer terimleri birlikte yazacağız.
+
+ÖRNEK 1
+
+Basitleştirin: 18p+6q+15p+5q.
+
+Çözüm
+18p+6q+15p+5q
+Toplama işleminin değişme özelliğini kullanarak, benzer terimleri bir araya getirecek şekilde yeniden sıralayın.	18p+15p+6q+5q
+Benzer terimleri ekleyin.	33p+11q
+DENEYİN 1.1
+
+Basitleştirin: 23r+14s+9r+15s.
+
+Yanıtı göster
+DENEYİN 1.2
+
+Basitleştirin: 37m+21n+4m-15n.
+
+Yanıtı göster
+Cebirsel ifadeleri sadeleştirmemiz gerektiğinde , işlem önceliği kurallarına otomatik olarak uymak yerine, öncelikle değişme veya birleşme özelliğini uygulayarak işi kolaylaştırabiliriz. Kesirleri toplarken veya çıkarırken, önce ortak paydaya sahip olanları birleştirin.
+
+ÖRNEK 2
+
+Basitleştirin: \left(\frac{5}{13}+\frac{3}{4}\right)+\frac{1}{4}.
+
+Çözüm
+\left(\frac{5}{13}+\frac{3}{4}\right)+\frac{1}{4}
+Son iki terimin ortak paydası olduğuna dikkat edin, bu nedenle gruplandırmayı değiştirin.	\frac{5}{13}+\left(\frac{3}{4}+\frac{1}{4}\right)
+Önce parantez içine ekleyin.	\frac{5}{13}+\left(\frac{4}{4}\right)
+Kesri sadeleştirin.	\frac{5}{13}+1
+Eklemek.	1\frac{5}{13}
+Bileşik kesre dönüştürün.	\frac{18}{13}
+DENEYİN 2.1
+
+Basitleştirin: \left(\frac{7}{15}+\frac{5}{8}\right)+\frac{3}{8}.
+
+Yanıtı göster
+DENEYİN 2.2
+
+Basitleştirin: \left(\frac{2}{9}+\frac{7}{12}\right)+\frac{5}{12}.
+
+Yanıtı göster
+ÖRNEK 3
+
+Basitleştirmek için birleşme özelliğini kullanın 6\left(3x\right).
+
+Çözüm
+6\left(3x\right)
+Gruplandırmayı değiştirin.	\left(6 \cdot 3\right)x
+Parantez içindeki işlemleri çarpın.	18x
+Dikkat ederseniz, çarpma işlemi yapabiliriz ancak x'in bir değerini bilmeden 3x'i6\cdot 3 çarpamayız .
+
+DENEME 3.1
+
+Birleşme özelliğini kullanarak 8(4 x ) ifadesini sadeleştirin .
+
+Yanıtı göster
+DENEYİN 3.2
+
+Basitleştirmek için birleşme özelliğini kullanın -9\left(7y\right).
+
+Yanıtı göster
+Toplama ve Çarpma İşlemlerinin Ters ve Etkisiz Eleman Özelliklerini Kullanın
+Herhangi bir sayıya 0 eklediğimizde ne olur? 0 eklemek sayının değerini değiştirmez. Bu nedenle 0'a toplama işleminde etkisiz eleman denir.
+
+Örneğin,
+
+\begin{array}{cccccccc}\hfill 13+0\hfill & & & \hfill -14+0\hfill & & & \hfill 0+\left(-8\right)\hfill \\ \hfill 13\hfill & & & \hfill -14\hfill & & & \hfill -8\hfill \end{array}
+
+Bu örnekler , herhangi bir gerçek sayı için ve Ageçerli olan Toplamanın Birim Eleman Özelliğini göstermektedir .a+0=a0+a=a
+
+Herhangi bir sayıyı 1 ile çarptığımızda ne olur? 1 ile çarpmak sayının değerini değiştirmez. Bu nedenle 1'e çarpma işleminde etkisiz eleman diyoruz.
+
+Örneğin,
+
+\begin{array}{cccccccc}\hfill 43\cdot1\hfill & & & \hfill -27\cdot1\hfill & & & \hfill 1\cdot\frac{3}{5}\hfill \\ \hfill 43\hfill & & & \hfill -27\hfill & & & \hfill \frac{3}{5}\hfill \end{array}
+
+Bu örnekler , herhangi bir gerçek sayı için ve Ageçerli olan Çarpmanın Etkisiz Eleman Özelliğini göstermektedir .a\cdot1=a1\cdot a=a
+
+Aşağıda Kimlik Özelliklerini özetliyoruz.
+
+Kimlik Özelliği
+
+\begin{array}{ccccc}\text{toplama işlemi}\phantom{\rule{0.2em}{0ex}}\text{Herhangi bir gerçek sayı}\phantom{\rule{0.2em}{0ex}}a\text{için:}\hfill & & \hfill a+0=a& & \hfill 0+a=a\\ \hfill 0\phantom{\rule{0.2em}{0ex}}\text{toplama etkisiz elemanıdır}\hfill & & & & \\ \\ \\ \text{çarpma işlemi}\phantom{\rule{0.2em}{0ex}}\text{Herhangi bir gerçek sayı}\phantom{\rule{0.2em}{0ex}}a\text{için:}\hfill & & \hfill a\cdot 1=a& & \hfill 1\cdot a=a\\ \hfill 1\phantom{\rule{0.2em}{0ex}}\text{çarpımsal özdeşliktir}\hfill \end{array}
+
+Bu şeklin en üst satırında, "5'e hangi sayı eklendiğinde toplama işlemi etkisiz elemanı, yani 0 elde edilir?" sorusu yer almaktadır. Bir sonraki satırda, 5 artı boşluk eşittir 0 yazmaktadır. Ardından "5 artı -5 eşittir 0 olduğunu biliyoruz." ifadesi yer almaktadır. Bir sonraki satırda, "Eksi 6'ya hangi sayı eklendiğinde toplama işlemi etkisiz elemanı, yani 0 elde edilir?" sorusu yer almaktadır. Bir sonraki satırda, -6 artı boşluk eşittir 0 yazmaktadır. Ardından "Eksi 6 artı 6 eşittir 0 olduğunu biliyoruz." ifadesi yer almaktadır.
+
+Dikkat edin, her durumda eksik olan sayı, eksik olan sayının tersiydi!
+
+Bir-A sayının toplamsal tersine diyoruz . Bir sayının zıtı, onun toplamsal tersidir. Bir sayı ve zıtının toplamı sıfırdır, bu da toplamsal etkisiz elemandır. Bu, herhangi bir gerçek sayı için ifadesini veren Toplamanın Ters Özelliğine yol açar . Unutmayın, bir sayı ve zıtının toplamı sıfırdır.a,a+\left(-a\right)=0
+
+Hangi sayı ile çarpıldığında \frac{2}{3}çarpma işleminde etkisiz eleman olan 1 elde edilir? Başka bir deyişle, \frac{2}{3}hangi sayı ile çarpıldığında 1 sonucu elde edilir?
+
+"Boşluğun 2/3 katının 1'e eşit olduğu" ifadesi verilmiştir. Ardından "2/3'ün 3/2 ile çarpımının 1'e eşit olduğunu biliyoruz" ifadesi yer almaktadır.
+
+Hangi sayı 2 ile çarpıldığında çarpma işleminde etkisiz eleman olan 1'i verir? Başka bir deyişle, hangi sayının 2 ile çarpımı 1 sonucunu verir?
+
+"Boşluğun 2 katının 1'e eşit olduğu" ifadesi verilmiştir. Ardından "1/2'nin 2 katının 1'e eşit olduğunu biliyoruz" ifadesi yer almaktadır.
+
+Dikkat edin, her durumda eksik olan sayı, sayının tersiydi !
+
+Bir\frac{1}{a} sayının çarpımsal tersine, bir sayının tersi denir . Bir sayının tersi , onun çarpımsal tersidir. Bir sayı ve tersi çarpıldığında bir olur, bu da çarpımsal etkisiz elemandır. Bu, herhangi bir gerçek sayı için ≠ ...Aa,a\ne 0,a\cdot \frac{1}{a}=1
+
+Ters özelliklerini burada resmen ifade edeceğiz:
+
+Ters Özellik
+
+ilavesinin	Herhangi bir gerçek sayı için A, 'nin toplamsal tersidir
+-A . Bir sayı ve zıt işaretlisinin toplamı sıfırdır.A
+a+\left(-a\right)=0
+çarpma işlemi	Herhangi bir gerçek sayı için A, 'nin çarpımsal tersidir
+\frac{1}{a} . Bir sayı ve onun tersinin çarpımı birdir.A
+a \cdot \frac{1}{a}=1
+ÖRNEK 4
+
+\frac{5}{8}a) b) 0.6c) -8d) fonksiyonlarının toplamsal tersini bulun -\phantom{\rule{0.2em}{0ex}}\frac{4}{3}.
+
+Çözüm
+Toplamsal tersini bulmak için, tersini buluruz.
+
+'nin toplamsal tersi, \frac{5}{8}'nin tersidir \frac{5}{8}. 'nin toplamsal tersi ' \frac{5}{8}dir -\phantom{\rule{0.2em}{0ex}}\frac{5}{8}.
+0,6'nın toplamsal tersi, 0,6'nın zıt işaretidir. 0,6'nın toplamsal tersi 'dir -0.6.
+'nin toplamsal tersi, -8'nin zıt işaretidir . 'nin zıt işaretini olarak -8yazıp 8'e sadeleştiririz. Dolayısıyla, 'nin toplamsal tersi 8'dir.-8-\left(-8\right)-8
+'nin toplamsal tersi, -\phantom{\rule{0.2em}{0ex}}\frac{4}{3}'nin tersidir -\phantom{\rule{0.2em}{0ex}}\frac{4}{3}. Bunu olarak yazarız -\left(-\phantom{\rule{0.2em}{0ex}}\frac{4}{3}\right)ve sonra sadeleştiririz \frac{4}{3}. Dolayısıyla, 'nin toplamsal tersi ' -\phantom{\rule{0.2em}{0ex}}\frac{4}{3}dir \frac{4}{3}.
+DENEYİN 4.1
+
+Aşağıdakilerin toplamsal tersini bulun: a) \frac{7}{9}b) 1.2c) -14d) -\phantom{\rule{0.2em}{0ex}}\frac{9}{4}.
+
+Yanıtı göster
+Egzersizler
+
+Aşağıdakilerin toplamsal tersini bulun: a) \frac{7}{13}b) 8.4c) -46d) -\phantom{\rule{0.2em}{0ex}}\frac{5}{2}.
+
+Yanıtı göster
+ÖRNEK 5
+
+9a) b) -\phantom{\rule{0.2em}{0ex}}\frac{1}{9}c) fonksiyonlarının çarpımsal tersini bulun 0.9.
+
+Çözüm
+Çarpımsal tersini bulmak için, önce tersini buluruz.
+
+9'un çarpımsal tersi, 9'un tersidir, yani 'dir \frac{1}{9}. Dolayısıyla, 9'un çarpımsal tersi 'dir \frac{1}{9}.
+'nin çarpımsal tersi , -\phantom{\rule{0.2em}{0ex}}\frac{1}{9}'nin tersidir -\phantom{\rule{0.2em}{0ex}}\frac{1}{9}, yani 'dir -9. Dolayısıyla, 'nin çarpımsal tersi ' -\phantom{\rule{0.2em}{0ex}}\frac{1}{9}dir -9.
+0,9'un çarpımsal tersini bulmak için önce 0,9'u kesir haline getiririz, \frac{9}{10}. Sonra kesrin tersini buluruz. 'nin tersi ' \frac{9}{10}dir \frac{10}{9}. Dolayısıyla 0,9'un çarpımsal tersi 'dir \frac{10}{9}.
+DENEYİN 5.1
+
+4a) b) -\phantom{\rule{0.2em}{0ex}}\frac{1}{7}c) fonksiyonlarının çarpımsal tersini bulun.0.3
+
+Yanıtı göster
+DENEYİN 5.2
+
+18a) b) -\phantom{\rule{0.2em}{0ex}}\frac{4}{5}c) fonksiyonlarının çarpımsal tersini bulun 0.6.
+
+Yanıtı göster
+Sıfırın Özelliklerini Kullanın
+Toplama işleminin etkisiz eleman özelliği, herhangi bir sayıya 0 eklediğimizde sonucun yine o sayı olacağını söyler. Peki bir sayıyı 0 ile çarptığımızda ne olur? 0 ile çarpmak, sonucu sıfır yapar.
+
+Sıfırla Çarpma
+
+Herhangi bir gerçek sayı a için .
+
+a\cdot 0=0\phantom{\rule{6em}{0ex}}0\cdot a=0
+
+Herhangi bir gerçek sayının 0 ile çarpımı 0'dır.
+
+Sıfır içeren bölme işlemlerine ne dersiniz? 0\div 3?Gerçek bir örnek düşünelim: Kurabiye kavanozunda hiç kurabiye yoksa ve 3 kişi bunları paylaşacaksa, her kişi kaç kurabiye alır? Paylaşılacak kurabiye yok, bu yüzden her kişi 0 kurabiye alır. Yani,
+
+0\div 3=0
+Bölme işlemini, ilgili çarpma işlemiyle kontrol edebiliriz.
+
+12\div 6=2\phantom{\rule{0.2em}{0ex}}\text{çünkü}\phantom{\rule{0.2em}{0ex}}2\cdot 6=12.
+Bunu biliyoruz 0\div 3=0çünkü 0⋅3=0...
+
+Sıfıra Bölme
+
+Herhangi bir gerçek sayı a0 için , \frac{0}{a}=0ve hariç 0\div a=0.
+
+Sıfırın, sıfır dışındaki herhangi bir gerçek sayıya bölünmesi sıfır sonucunu verir.
+
+Şimdi sıfıra bölmeyi düşünün . 4'ü 0'a bölmenin sonucu nedir? İlgili çarpma gerçeğini düşünün: √(4) = √(4) = √(4) 4\div 0=?anlamına gelir ?\cdot 0=4. 0 ile çarpıldığında 4 veren bir sayı var mıdır? Herhangi bir gerçek sayının 0 ile çarpımı 0 verdiğinden, 0 ile çarpıldığında 4 veren hiçbir gerçek sayı yoktur.
+
+Sıfıra bölmenin tanımsız olduğu sonucuna varıyoruz ve bu nedenle buna bir cevap olmadığını 4\div 0söylüyoruz.
+
+Sıfıra Bölme
+
+0 hariç herhangi bir gerçek sayı a\frac{a}{0} için ve a\div 0tanımsızdır.
+
+Sıfıra bölme tanımsızdır.
+
+Aşağıda sıfırın özelliklerini özetliyoruz.
+
+Sıfırın Özellikleri
+
+Sıfırla Çarpma: Herhangi bir gerçek sayı a için ,
+
+a\cdot 0=0\phantom{\rule{1em}{0ex}}0\cdot a=0	Herhangi bir sayının 0 ile çarpımı 0'dır.
+Sıfıra Bölme: Herhangi bir gerçek sayı içina,a\ne 0
+
+\frac{0}{a}=0	Sıfırın kendisi dışındaki herhangi bir gerçek sayıya bölümü sıfırdır.
+\frac{a}{0}\phantom{\rule{0.2em}{0ex}}\text{tanımlanmamıştır}	Sıfıra bölme tanımsızdır.
+ÖRNEK 6
+
+Basitleştirin: a) -8\cdot 0b) \frac{0}{-2}c) \frac{-32}{0}.
+
+Çözüm
+a)
+Herhangi bir gerçek sayının 0 ile çarpımı 0'dır.	\begin{array}{c}-8\cdot 0\\ 0\end{array}
+b)
+Herhangi bir gerçek sayının 0 ile çarpımı 0'dır.	\begin{array}{c}\frac{0}{-2}\\ 0\end{array}
+c)
+Sıfıra bölme tanımsızdır.	\begin{array}{c}\frac{-32}{0}\\ \text{Tanımlanmamış}\end{array}
+DENEYİN 6.1
+
+Basitleştirin: a) -14\cdot 0b) \frac{0}{-6}c) \frac{-2}{0}.
+
+Yanıtı göster
+DENEYİN 6.2
+
+Basitleştirin: a) 0\left(-17\right)b) \frac{0}{-10}c) \frac{-5}{0}.
+
+Yanıtı göster
+Şimdi özdeşliklerin, ters elemanların ve sıfırın özelliklerini kullanarak ifadeleri basitleştirme alıştırması yapacağız.
+
+ÖRNEK 7
+
+Basitleştirin: a) \frac{0}{n+5}, burada n\ne -5b) \frac{10-3p}{0}, burada 10-3p\ne 0.
+
+Çözüm
+a)
+Sıfırın kendisi dışındaki herhangi bir gerçek sayıya bölümü 0'dır.	\begin{array}{c}\frac{0}{n+5}\\ 0\end{array}
+b)
+Sıfıra bölme tanımsızdır.	\begin{array}{c}\frac{10-3p}{0}\\ \text{Tanımlanmamış}\end{array}
+DENEYİN 7.1
+
+Basitleştirin: a) \frac{0}{m+7}, burada m\ne -7b) \frac{18-6c}{0}, burada 18-6c\ne 0.
+
+Yanıtı göster
+DENEYİN 7.2
+
+Basitleştirin: a) \frac{0}{d-4},\text{burada}\phantom{\rule{0.2em}{0ex}}d\ne 4b) \frac{15-4q}{0},\text{burada}\phantom{\rule{0.2em}{0ex}}15-4q\ne 0.
+
+Yanıtı göster
+ÖRNEK 8
+
+Basitleştirin: -84n+\left(-73n\right)+84n.
+
+Çözüm
+-84n+\left(-73n\right)+84n
+Birinci ve üçüncü terimlerin birbirinin zıtı olduğuna dikkat edin;
+toplama işleminin değişme özelliğini kullanarak terimleri yeniden sıralayın.	-84n+84n+\left(-73n\right)
+Soldan sağa ekleyin.	0+\left(-73\right)
+Eklemek.	-73n
+DENEYİN 8.1
+
+Basitleştirin: -27a+\left(-48a\right)+27a.
+
+Yanıtı göster
+DENEYİN 8.2
+
+Basitleştirin: 39x+\left(-92x\right)+\left(-39x\right).
+
+Yanıtı göster
+Şimdi, ters sayıları tanımanın ne kadar faydalı olduğunu göreceğiz. Soldan sağa çarpmadan önce, ters sayıları arayın; bunların çarpımı 1'dir.
+
+ÖRNEK 9
+
+Basitleştirin: \frac{7}{15}\cdot \frac{8}{23}\cdot \frac{15}{7}.
+
+Çözüm
+\frac{7}{15}\cdot \frac{8}{23}\cdot \frac{15}{7}
+Birinci ve üçüncü terimlerin birbirinin tersi olduğuna dikkat edin, bu nedenle
+çarpmanın değişme özelliğini kullanarak çarpanları yeniden sıralayın.	\frac{7}{15}\cdot \frac{15}{7}\cdot \frac{8}{23}
+Soldan sağa doğru çarpın.	1\cdot \frac{8}{23}
+Çarpma işlemi.	\frac{8}{23}
+DENEYİN 9.1
+
+Basitleştirin: \frac{9}{16}\cdot \frac{5}{49}\cdot \frac{16}{9}.
+
+Yanıtı göster
+DENEYİN 9.2
+
+Basitleştirin: \frac{6}{17}\cdot \frac{11}{25}\cdot \frac{17}{6}.
+
+Yanıtı göster
+ÖRNEK 10
+
+Basitleştirin: \frac{3}{4}\cdot \frac{4}{3}\left(6x+12\right).
+
+Çözüm
+\frac{3}{4}\cdot \frac{4}{3}\left(6x+12\right)
+Parantez içindeki işlemlerde yapılacak bir şey yok, bu yüzden
+önce iki kesri çarpın—dikkat edin, bunlar birbirinin tersi.	1\left(6x+12\right)
+Çarpma işleminde etkisiz elemanı bularak sadeleştirin.	6x+12
+DENEYİN 10.1
+
+Basitleştirin: \frac{2}{5}\cdot \frac{5}{2}\left(20y+50\right).
+
+Yanıtı göster
+DENEYİN 10.2
+
+Basitleştirin: \frac{3}{8}\cdot \frac{8}{3}\left(12z+16\right).
+
+Yanıtı göster
+Dağılma Özelliğini Kullanarak İfadeleri Basitleştirme
+Üç arkadaşın sinemaya gideceğini varsayalım. Her birinin bilet parası için 9,25 dolara (9 dolar ve 1 çeyrek) ihtiyacı var. Toplamda ne kadar paraya ihtiyaçları var?
+
+Dolarları ve çeyrekleri ayrı ayrı düşünebilirsiniz. 9 doların 3 katı yani 27 dolar ve 1 çeyrek doların 3 katı yani 75 sent gerekiyor. Toplamda 27,75 dolara ihtiyaçları var. Matematiği bu şekilde düşünürseniz, dağılma özelliğini kullanmış olursunuz .
+
+Dağılım Özelliği
+
+\begin{array}{cccc}\text{Eğer}\phantom{\rule{0.2em}{0ex}}a,b,c\phantom{\rule{0.2em}{0ex}}\text{gerçek sayılar ise, o zaman}\hfill & & & a\left(b+c\right)=ab+ac\hfill \\ \\ \\ \hfill \text{Ayrıca,}& & & \left(b+c\right)a=ba+ca\hfill \\ & & & a\left(bc\right)=ab-ac\hfill \\ & & & \left(bc\right)a=ba-ca\hfill \end{array}
+
+Sinemadaki arkadaşlarımıza dönecek olursak, ihtiyaç duydukları toplam para miktarını şu şekilde bulabiliriz:
+
+3(9.25)
+3(9 + 0.25)
+3(9) + 3(0.25)
+27 + 0,75
+27.75
+Cebirde, ifadeleri sadeleştirirken parantezleri kaldırmak için dağılma özelliğini kullanırız.
+
+Örneğin, ifadeyi sadeleştirmemiz istenirse , işlem önceliği önce parantez içindeki işlemleri yapmamızı söyler. Ancak x ve 4 aynı terim olmadığından bunları 3\left(x+4\right)toplayamayız . Bu nedenle, (Örnek 11) 'de gösterildiği gibi dağılma özelliğini kullanırız .
+
+ÖRNEK 11
+
+Basitleştirin: 3\left(x+4\right).
+
+Çözüm
+3\left(x+4\right)
+Dağıtın.	3⋅x+3⋅4
+Çarpma işlemi.	3x+12
+DENEYİN 11.1
+
+Basitleştirin: 4\left(x+2\right).
+
+Yanıtı göster
+DENEYİN 11.2
+
+Basitleştirin: 6\left(x+7\right).
+
+Yanıtı göster
+Bazı öğrenciler, dağılma özelliğini nasıl kullanacaklarını hatırlatmak için oklar çizmeyi faydalı bulmaktadır. O zaman (Örnek 11) 'deki ilk adım şöyle görünür:
+
+3 çarpı (x artı 4) ifadesinde 3'ten çıkan iki ok var. Oklardan biri x'e, diğeri 4'e doğru yöneliyor.
+
+ÖRNEK 12
+
+Basitleştirin: 8\left(\frac{3}{8}x+\frac{1}{4}\right).
+
+Çözüm
+.
+Dağıtın.	.
+Çarpma işlemi.	.
+DENEYİN 12.1
+
+Basitleştirin: 6\left(\frac{5}{6}y+\frac{1}{2}\right).
+
+Yanıtı göster
+DENEYİN 12.2
+
+Basitleştirin: 12\left(\frac{1}{3}n+\frac{3}{4}\right).
+
+Yanıtı göster
+(Örnek 13)' te gösterildiği gibi dağılma özelliğini kullanmak, sonraki bölümlerde para uygulamalarını çözerken çok faydalı olacaktır.
+
+ÖRNEK 13
+
+Basitleştirin: 100\left(0.3+0.25q\right).
+
+Çözüm
+.
+Dağıtın.	.
+Çarpma işlemi.	.
+DENEYİN 13.1
+
+Basitleştirin: 100\left(0.7+0.15p\right).
+
+Yanıtı göster
+DENEYİN 13.2
+
+Basitleştirin: 100\left(0.04+0.35d\right).
+
+Yanıtı göster
+Negatif bir sayıyı dağıtırken, işaretlerin doğru olmasına özellikle dikkat etmeliyiz!
+
+ÖRNEK 14
+
+Basitleştirin: -2\left(4y+1\right).
+
+Çözüm
+.
+Dağıtın.	.
+Çarpma işlemi.	.
+DENEYİN 14.1
+
+Basitleştirin: -3\left(6m+5\right).
+
+Yanıtı göster
+DENEYİN 14.2
+
+Basitleştirin: -6\left(8n+11\right).
+
+Yanıtı göster
+ÖRNEK 15
+
+Basitleştirin: -11\left(4-3a\right).
+
+Çözüm
+Dağıtın.	.
+Çarpma işlemi.	.
+Basitleştirin.	.
+Sonucu şu şekilde de yazabileceğinizi fark ettiniz mi 33a-44: . Bunun nedenini biliyor musunuz?
+
+DENEYİN 15.1
+
+Basitleştirin: -5\left(2-3a\right).
+
+Yanıtı göster
+DENEYİN 15.2
+
+Basitleştirin: -7\left(8-15y\right).
+
+Yanıtı göster
+(Örnek 16), dağılma özelliğinin bir ifadenin tersini bulmak için nasıl kullanılacağını gösterecektir.
+
+ÖRNEK 16
+
+Basitleştirin: -\left(y+5\right).
+
+Çözüm
+\left(y+5\right)
+-1 ile çarpmak tersini verir.	-1\left(y+5\right)
+Dağıtın.	-1\cdot y+\left(-1\right)\cdot 5
+Basitleştirin.	-y+\left(-5\right)
+-y-5
+DENEYİN 16.1
+
+Basitleştirin: -\left(z-11\right).
+
+Yanıtı göster
+DENEYİN 16.2
+
+Basitleştirin: -\left(x-4\right).
+
+Yanıtı göster
+İşlem önceliği kurallarının bir parçası olarak dağılma özelliğini kullanmamız gereken zamanlar olacaktır. Öncelikle parantezlere bakalım. Parantez içindeki ifade sadeleştirilemiyorsa, bir sonraki adım parantezleri kaldıran dağılma özelliğini kullanarak çarpmak olacaktır. Sonraki iki örnek bunu gösterecektir.
+
+ÖRNEK 17
+
+Basitleştirin: 8-2\left(x+3\right).
+
+İşlem önceliğine dikkat edin. Çarpma işlemi çıkarma işleminden önce gelir, bu nedenle önce 2'yi dağıtacağız, sonra çıkarma işlemini yapacağız.
+
+Çözüm
+8-2\left(x+3\right)
+Dağıtın.	8-2\cdot x-2\cdot 3
+Çarpma işlemi.	8-2x-6
+Benzer terimleri birleştirin.	-2x+2
+DENEYİN 17.1
+
+Basitleştirin: 9-3\left(x+2\right).
+
+Yanıtı göster
+DENEYİN 17.2
+
+Basitleştirin: 7x-5\left(x+4\right).
+
+Yanıtı göster
+ÖRNEK 18
+
+Basitleştirin: 4\left(x-8\right)-\left(x+3\right).
+
+Çözüm
+4\left(x-8\right)-\left(x+3\right)
+Dağıtın.	4x32x3
+Benzer terimleri birleştirin.	3x-35
+DENEYİN 18.1
+
+Basitleştirin: 6\left(x-9\right)-\left(x+12\right).
+
+Yanıtı göster
+DENEYİN 18.2
+
+Basitleştirin: 8\left(x-1\right)-\left(x+5\right).
+
+Yanıtı göster
+Bu bölümde kullandığımız gerçek sayıların tüm özellikleri aşağıdaki tabloda özetlenmiştir.
+
+Değişme Özelliği	Toplama işleminde,  eğer a,bgerçek sayılar ise, o zaman	a+b=b+a
+Çarpma işleminde,  eğer a,bgerçek sayılar ise, o zaman	a⋅b = b⋅a
+Birleşme Özelliği	Toplama işleminde,  eğer ABCgerçek sayılar ise, o zaman	\left(a+b\right)+c=a+\left(b+c\right)
+Çarpma işleminde,  eğer ABCgerçek sayılar ise, o zaman	\left(a\cdot b\right)\cdot c=a\cdot \left(b\cdot c\right)
+Dağılım Özelliği	Eğer ABCgerçek sayılar ise, o zaman	a\left(b+c\right)=ab+ac
+Kimlik Özelliği	Toplama işleminde,  herhangi bir gerçek sayı için a\text{:}
+0, toplama işleminde etkisiz elemandır .	\begin{array}{c}\\ \hfill a+0=a\hfill \\ \hfill 0+a=a\hfill \end{array}
+Çarpma işleminin etkisiz elemanı  , herhangi bir gerçek sayı için a\text{:}
+1geçerlidir.	\begin{array}{c}\hfill a\cdot 1=a\hfill \\ \hfill 1\cdot a=a\hfill \end{array}
+Ters Özellik	 Herhangi bir gerçek sayı için A, toplama işleminin tersi , 'nin toplamsal
+-A tersidir.A	a+\left(-a\right)=0
+Çarpma işleminin tersi,  herhangi bir gerçek sayı için, 'nin çarpımsala,a\ne 0
+\frac{1}{a} tersidir .A	a\cdot \frac{1}{a}=1
+Sıfırın Özellikleri	Herhangi bir gerçek sayı a için ,
+Herhangi bir gerçek sayı içina,a\ne 0
+
+Herhangi bir gerçek sayı içina,a\ne 0
+
+\begin{array}{c}\\ \hfill a\cdot 0=0\hfill \\ \hfill 0\cdot a=0\hfill \end{array}
+\frac{0}{a}=0
+
+\frac{a}{0}tanımsızdır
+
+Temel Kavramlar
+Değişme Özelliği
+Toplama: Eğer a,bgerçek sayılar ise, o zaman a+b=b+a.
+Çarpma: Eğer a,bgerçek sayılar ise, o zaman a⋅b = b⋅a. Toplama veya çarpma işlemlerinde, sırayı değiştirmek aynı sonucu verir.
+Birleşme Özelliği
+Toplama: Eğer ABCgerçek sayılar ise, o zaman \left(a+b\right)+c=a+\left(b+c\right).
+Çarpma: Eğer ABCgerçek sayılar ise, o zaman \left(a\cdot b\right)\cdot c=a\cdot \left(b\cdot c\right).
+Toplama veya çarpma işleminde, gruplandırmayı değiştirmek aynı sonucu verir.
+Dağılma Özelliği: Eğer ABCgerçek sayılar ise, o zaman
+a\left(b+c\right)=ab+ac
+\left(b+c\right)a=ba+ca
+a\left(bc\right)=ab-ac
+\left(bc\right)a=ba-ca
+Kimlik Özelliği
+Toplama İşlemi: Herhangi bir gerçek sayı için a\text{:}\phantom{\rule{0.2em}{0ex}}a+0=a\phantom{\rule{0.6em}{0ex}}0+a=a
+0, toplama işleminde etkisiz elemandır .
+Çarpma İşleminin Etkisi: Herhangi bir gerçek sayı için çarpma işleminde etkisiz elemana\text{:}\phantom{\rule{0.2em}{0ex}}a\cdot 1=a\phantom{\rule{0.6em}{0ex}}1\cdot a=a
+1 şöyledir:
+Ters Özellik
+Toplama İşlemi: Herhangi bir gerçek sayı için a,a+\left(-a\right)=0, bir sayı ile zıt işaretlisinin toplamı sıfırdır. 'nin toplamsal-A tersidir .A
+Çarpma İşlemi: Herhangi bir gerçek sayı için a,\left(a\ne 0\right)\phantom{\rule{0.2em}{0ex}}a\cdot \frac{1}{a}=1, bir sayı ile tersinin çarpımı birdir. 'nin çarpımsal\frac{1}{a} tersidir .A
+Sıfırın Özellikleri
+Herhangi bir gerçek sayı için A,
+a\cdot 0=0\phantom{\rule{0.5em}{0ex}}0\cdot a=0herhangi bir gerçek sayının 0 ile çarpımı 0'dır.
+\frac{0}{a}=0sıfırın a\ne 0, sıfır dışındaki herhangi bir gerçek sayıya bölünmesi sıfırdır.
+\frac{a}{0}Tanımsızdır – Sıfıra bölme tanımsızdır.
+Sözlük
+katkısal kimlik
+Toplama işleminde etkisiz eleman 0 sayısıdır; herhangi bir sayıya 0 eklemek, o sayının değerini değiştirmez.
+toplamsal ters
+Bir sayının tersi, toplamsal tersidir. Bir sayı ve toplamsal tersinin toplamı 0'dır.
+çarpımsal özdeşlik
+Çarpma işleminde etkisiz eleman 1'dir; 1'i herhangi bir sayıyla çarpmak, sayının değerini değiştirmez.
+çarpımsal ters
+Bir sayının tersi, o sayının çarpımsal tersidir. Bir sayı ve onun çarpımsal tersi çarpıldığında bire eşittir.
+Pratik mükemmelliği getirir.
+Değişme ve birleşme özelliklerini kullanın.
+Aşağıdaki alıştırmalarda, sadeleştirme yapmak için birleşme özelliğini kullanın.
+
+1. 3(4 x )	2. 4(7 m )
+3.\left(y+12\right)+28	4.\left(n+17\right)+33
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+5.\frac{1}{2}+\frac{7}{8}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}\right)	6.\frac{2}{5}+\frac{5}{12}+\left(-\phantom{\rule{0.2em}{0ex}}\frac{2}{5}\right)
+7.\frac{3}{20}\cdot\frac{49}{11}\cdot\frac{20}{3}	8.\frac{13}{18}\cdot\frac{25}{7}\cdot\frac{18}{13}
+9.-24\cdot 7 \cdot\frac{3}{8}	10.-36\cdot 11\cdot\frac{4}{9}
+11.\left(\frac{5}{6}+\frac{8}{15}\right)+\frac{7}{15}	12.\left(\frac{11}{12}+\frac{4}{9}\right)+\frac{5}{9}
+13. 17(0.25)(4)	14. 36(0.2)(5)
+15. [2.48(12)](0.5)	16. [9.731(4)](0.75)
+17. 7(4 a )	18. 9(8 w )
+19.-15\left(5m\right)	20.-23\left(2n\right)
+21.12\left(\frac{5}{6}p\right)	22.20\left(\frac{3}{5}q\right)
+23.43m+\left(-12n\right)+\left(-16m\right)+\left(-9n\right)	24.-22p+17q+\left(-35p\right)+\left(-27q\right)
+25.\frac{3}{8}g+\frac{1}{12}h+\frac{7}{8}g+\frac{5}{12}h	26.\frac{5}{6}a+\frac{3}{10}b+\frac{1}{6}a+\frac{9}{10}b
+27.6.8p+9.14q+\left(-4.37p\right)+\left(-0.88q\right)	28.9.6m+7.22n+\left(-2.19m\right)+\left(-0.65n\right)
+Toplama ve Çarpma İşlemlerinin Ters ve Etkisiz Eleman Özelliklerini Kullanın
+Aşağıdaki alıştırmalarda, her sayının toplamsal tersini bulun.
+
+29.
+a) \frac{2}{5}
+b) 4.3
+c) -8
+d)-\phantom{\rule{0.2em}{0ex}}\frac{10}{3}	30.
+a) \frac{5}{9}
+b) 2.1
+c) -3
+d)-\phantom{\rule{0.2em}{0ex}}\frac{9}{5}
+31.
+a) -\phantom{\rule{0.2em}{0ex}}\frac{7}{6}
+b) -0.075
+c) 23
+d)\frac{1}{4}	32.
+a) -\phantom{\rule{0.2em}{0ex}}\frac{8}{3}
+b) -0.019
+c) 52
+d)\frac{5}{6}
+Aşağıdaki alıştırmalarda, her sayının çarpımsal tersini bulun.
+33. a) 6 b) -\phantom{\rule{0.2em}{0ex}}\frac{3}{4}c) 0.7	34. a) 12 b) -\phantom{\rule{0.2em}{0ex}}\frac{9}{2}c) 0.13
+35. a) \frac{11}{12}b) -1.1c)-4	36. a) \frac{17}{20}b) -1.5c)-3
+Sıfırın Özelliklerini Kullanın
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+37.\frac{0}{6}	38.\frac{3}{0}
+39.0\div \frac{11}{12}	40.\frac{6}{0}
+41.\frac{0}{3}	42.0\cdot \frac{8}{15}
+43.\left(-3.14\right)\left(0\right)	44.\frac{\frac{1}{10}}{0}
+Karma Uygulama
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+45.19a+44-19a	46.27c+16-27c
+47.10\left(0.1d\right)	48.100\left(0.01p\right)
+49. \frac{0}{u-4.99}, buradau\ne 4.99	50. \frac{0}{v-65.1}, buradav\ne 65.1
+51. 0\div\left(x-\phantom{\rule{0.2em}{0ex}}\frac{1}{2}\right), buradax\ne \frac{1}{2}	52. 0\div\left(y-\phantom{\rule{0.2em}{0ex}}\frac{1}{6}\right), buradax\ne \frac{1}{6}
+53. \frac{32-5a}{0}, burada32-5a\ne 0	54. \frac{28-9b}{0}, burada28-9b\ne 0
+55. \left(\frac{3}{4}+\frac{9}{10}m\right)\div 0nerede\frac{3}{4}+\frac{9}{10}m\ne 0	56. \left(\frac{5}{16}n-\phantom{\rule{0.2em}{0ex}}\frac{3}{7}\right)\div 0nerede\frac{5}{16}n-\phantom{\rule{0.2em}{0ex}}\frac{3}{7}\ne 0
+57.15\cdot\frac{3}{5}\left(4d+10\right)	58.18\cdot\frac{5}{6}\left(15h+24\right)
+Dağılma Özelliğini Kullanarak İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda, dağılma özelliğini kullanarak sadeleştirme yapın.
+
+59.8\left(4y+9\right)	60.9\left(3w+7\right)
+61.6\left(c-13\right)	62.7\left(y-13\right)
+63.\frac{1}{4}\left(3q+12\right)	64.\frac{1}{5}\left(4m+20\right)
+65.9\left(\frac{5}{9}y-\phantom{\rule{0.2em}{0ex}}\frac{1}{3}\right)	66.10\left(\frac{3}{10}x-\phantom{\rule{0.2em}{0ex}}\frac{2}{5}\right)
+67.12\left(\frac{1}{4}+\frac{2}{3}r\right)	68.12\left(\frac{1}{6}+\frac{3}{4}s\right)
+69.r\left(s-18\right)	70.u\left(v-10\right)
+71.\left(y+4\right)p	72.\left(a+7\right)x
+73.-7\left(4p+1\right)	74.-9\left(9a+4\right)
+75.-3\left(x-6\right)	76.-4\left(q-7\right)
+77.-\left(3x-7\right)	78.-\left(5p-4\right)
+79.16-3\left(y+8\right)	80.18-4\left(x+2\right)
+81.4-11\left(3c-2\right)	82.9-6\left(7n-5\right)
+83.22-\left(a+3\right)	84.8-\left(r-7\right)
+85.\left(5m-3\right)-\left(m+7\right)	86.\left(4y-1\right)-\left(y-2\right)
+87.5\left(2n+9\right)+12\left(n-3\right)	88.9\left(5u+8\right)+2\left(u-6\right)
+89.9\left(8x-3\right)-\left(-2\right)	90.4\left(6x-1\right)-\left(-8\right)
+91.14\left(c-1\right)-8\left(c-6\right)	92.11\left(n-7\right)-5\left(n-1\right)
+93.6\left(7y+8\right)-\left(30y-15\right)	94.7\left(3n+9\right)-\left(4n-13\right)
+Günlük Matematik
+95. Sigorta Katılım Payı: Carrie'nin 5 dolgu yaptırması gerekiyordu. Her dolgu 80 dolardı. Diş sigortası, maliyetin %20'sini katılım payı olarak ödemesini gerektiriyordu. Carrie'nin katılım payını hesaplayın:
+
+a) Öncelikle, her bir dolgu için ödeyeceği katkı payını bulmak için 0,20'yi 80 ile çarpın, ardından bulduğunuz sonucu 5 ile çarparak 5 dolgu için toplam katkı payını bulun.
+
+b) Ardından, [5(0.20)](80) ile çarparak
+
+c) Gerçek sayıların hangi özelliği, (a) şıkkında 5[(0.20)(80)]'i çarptığınız ve (b) şıkkında [5(0.20)](80)'i çarptığınız cevapların birbirine eşit olması gerektiğini söyler?
+
+96. Pişirme Süresi  Matt, ailesinin Şükran Günü yemeği için 24 kiloluk bir hindi aldı ve hindiyi fırına ne zaman koyması gerektiğini öğrenmek istiyor. Kilogram başına 20 dakika pişirme süresi ayırmak istiyor. Hindiyi pişirmek için gereken süreyi hesaplayın:
+
+a) Öncelikle, 24\cdot 20toplam dakika sayısını bulmak için çarpma işlemi yapılır, ardından \frac{1}{60}dakikaları saate çevirmek için elde edilen sonuç ile çarpılır.
+
+b) Ardından, çarparak 24\left(20\cdot \frac{1}{60}\right).
+
+c) Gerçek sayıların hangi özelliği, (a) şıkkında çarptığınız \left(24\cdot 20\right)\frac{1}{60}ve (b) şıkkında çarptığınız sonuçların 24\left(20\cdot \frac{1}{60}\right)birbirine eşit olması gerektiğini söyler?
+
+97. Koli halinde satın alma. Trader Joe's marketleri bir kutu Coca-Cola Zero'yu 1,99 dolara satıyordu. 12 kutuluk bir koliyi ise 23,88 dolara satıyorlardı. 1,99 dolardan 12 kutunun maliyetini bulmak için, 1,99'un ... olduğunu fark edin 2-0.01.
+
+a) Dağılma özelliğini kullanarak 12(1.99)'u çarpın 12\left(2-0.01\right).
+
+b) Koli halinde Coca-Cola Zero almak karlı bir iş miydi?
+
+98. Çoklu paket satın alma. Adele'in şampuanı markette şişe başına 3,99 dolara satılıyor. Toptan satış mağazasında ise aynı şampuan 3'lü paket halinde 10,49 dolara satılıyor. 3 şişenin 3,99 dolarlık fiyattan maliyetini bulmak için, 3,99'un ... olduğunu fark edin 4-0.01.
+
+a) Dağılma özelliğini kullanarak 3(3.99)'u çarpın 3\left(4-0.01\right).
+
+b) Adele, market yerine toptan satış mağazasından 3 şişe alarak ne kadar tasarruf ederdi?
+
+Yazma Alıştırmaları
+99. Toplama işleminin değişme özelliğini kendi kelimelerinizle ifade edin.	100. Bir sayının toplamsal tersi ile çarpımsal tersi arasındaki fark nedir?
+101. 8\left(x-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}\right)Dağılma özelliğini kullanarak sadeleştirin ve her adımı açıklayın.	6-0.03102. 5,97$'ı √(5,97$) olarak düşünerek ve dağılma özelliğini kullanarak 4(5,97$)'yi kağıt veya hesap makinesi kullanmadan nasıl çarpabileceğinizi açıklayın .
+Cevaplar
+1. 12 x	3.y+40	5.\frac{7}{8}
+7.\frac{49}{11}	9.-63	11.1\frac{5}{6}
+13. 17	15. 14.88	17. 28 a
+19.-75m	21. 10 s	23.27m+\left(-21n\right)
+25.\frac{5}{4}g+\frac{1}{2}h	27.2,43p+8,26q	29. a) -\phantom{\rule{0.2em}{0ex}}\frac{2}{5}b) -4.3c) 8 d)\frac{10}{3}
+31. a) \frac{7}{6}b) 0,075 c) -23d)-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}	33. a) \frac{1}{6}b) -\phantom{\rule{0.2em}{0ex}}\frac{4}{3}c)\frac{10}{7}	35. a) \frac{12}{11}b) -\phantom{\rule{0.2em}{0ex}}\frac{10}{11}c)-\phantom{\rule{0.2em}{0ex}}\frac{1}{4}
+37. 0	39. 0	41. 0
+43. 0	45. 44	47. d
+49. 0	51. 0	53. tanımsız
+55. tanımsız	57.36d+90	59.32y+72
+61.6c-78	63.\frac{3}{4}q+3	65.5y-3
+67.3+8r	69.rs-18r	71.yp+4p
+73.-28p-7	75.-3x+18	77.-3x+7
+79.-3y-8	81.-33c+26	83.-a+19
+85.4m-10	87.22n+9	89.72x-25
+91.6c+34	93.12y+63	95. a) 80$ b) 80$ c) Cevaplar değişebilir
+97. a) 23,88 $ b) Hayır, fiyat aynı	99. Cevaplar farklılık gösterebilir.	101. Cevaplar farklılık gösterebilir.
+Atıflar
+Bu bölüm, Lynn Marecek ve MaryAnne Anthony-Smith'in " Elementary Algebra " (OpenStax) adlı eserindeki "Gerçek Sayıların Özellikleri" bölümünden uyarlanmıştır ve CC BY 4.0 Lisansı altındadır . Uyarlamayı Izabela Mazur yapmıştır. Daha fazla bilgi için Telif Hakkı sayfasına bakınız.
+
+12
+2.6 Bölüm İncelemesi
+Tekrar Alıştırmaları
+Eşdeğer Kesirleri Bulun
+Aşağıdaki alıştırmalarda, verilen kesire denk üç kesir bulun. Çözümlerinizi rakamlar veya cebir kullanarak gösterin.
+
+1.\dfrac{1}{4}	2.\dfrac{1}{3}
+3.\dfrac{5}{6}	4.\dfrac{2}{7}
+Kesirleri Sadeleştirme
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+5.\dfrac{7}{21}	6.\dfrac{8}{24}
+7.\dfrac{15}{20}	8.\dfrac{12}{18}
+9.-\dfrac{168}{192}	10.-\dfrac{140}{224}
+11.\dfrac{11x}{11y}	12.\dfrac{15a}{15b}
+Kesirleri Çarpma
+Aşağıdaki alıştırmalarda çarpma işlemi yapın.
+
+13.\dfrac{2}{5}\cdot \dfrac{1}{3}	14.\dfrac{1}{2}\cdot \dfrac{3}{8}
+15.\dfrac{7}{12}(-\dfrac{8}{21})	16.\dfrac{5}{12}(-\dfrac{8}{15})
+17.-28p(-\dfrac{1}{4})	18.-51q(-\dfrac{1}{3})
+19.\dfrac{14}{5}(-15)	20.-1(-\dfrac{3}{8})
+Kesirleri Bölme
+Aşağıdaki alıştırmalarda, bölme işlemi yapın.
+
+21. \dfrac{1}{2}÷\dfrac{1}{4}	22. \dfrac{1}{2}÷\dfrac{1}{8}
+23. -\dfrac{4}{5}÷\dfrac{4}{7}	24. -\dfrac{3}{4}÷\dfrac{3}{5}
+25. \dfrac{5}{8}÷\dfrac{a}{10}	26. \dfrac{5}{6}÷\dfrac{c}{15}
+27. \dfrac{7p}{12}÷\dfrac{21p}{8}	28. \dfrac{5q}{12}÷\dfrac{15q}{8}
+29. \dfrac{2}{5}÷\left(-10\right)	30. -18÷-\left(\dfrac{9}{2}\right)
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+31.\dfrac{\dfrac{2}{3}}{\dfrac{8}{9}}	32.\dfrac{\dfrac{4}{5}}{\dfrac{8}{15}}
+33.\dfrac{-\dfrac{9}{10}}{3}	34.\dfrac{2}{\dfrac{5}{8}}
+35.\dfrac{\dfrac{r}{5}}{\dfrac{s}{3}}	36.\dfrac{-\dfrac{x}{6}}{-\dfrac{8}{9}}
+Kesir çizgisiyle yazılmış ifadeleri sadeleştirme
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+37.\dfrac{4+11}{8}	38.\dfrac{9+3}{7}
+39.\dfrac{30}{7-12}	40.\dfrac{15}{4-9}
+41.\dfrac{22-14}{19-13}	42.\dfrac{15+9}{18+12}
+43.\dfrac{5\cdot 8}{-10}	44.\dfrac{3\cdot 4}{-24}
+45.\dfrac{15\cdot 5-{5}^{2}}{2\cdot 10}	46.\dfrac{12 \cdot 9-{3}^{2}}{3\cdot 18}
+47.\dfrac{2+4\left(3\right)}{-3-{2}^{2}}	48.\dfrac{7+3\left(5\right)}{-2-{3}^{2}}
+Kesirli Sayılar İçeren İfadeleri Sözcük Kalıplarına Çevirme
+Aşağıdaki alıştırmalarda, her İngilizce ifadeyi cebirsel bir ifadeye çevirin.
+
+49. c'nin d ve 9'un toplamına oranı .	50. h ve k'nin farkının bölümü ve -5.
+Ortak Paydalı Kesirleri Toplama ve Çıkarma
+Aşağıdaki alıştırmalarda, eklemeler yapın.
+
+51.\dfrac{4}{9}+\dfrac{1}{9}	52.\dfrac{2}{9}+\dfrac{5}{9}
+53.\dfrac{y}{3}+\dfrac{2}{3}	54.\dfrac{7}{p}+\dfrac{9}{p}
+55.-\dfrac{1}{8}+\left(-\dfrac{3}{8}\right)	56.-\dfrac{1}{8}+\left(-\dfrac{5}{8}\right)
+Aşağıdaki alıştırmalarda çıkarma işlemi yapın.
+
+57.\dfrac{4}{5}-\dfrac{1}{5}	58.\dfrac{4}{5}-\dfrac{3}{5}
+59.\dfrac{y}{17}-\dfrac{9}{17}	60.\dfrac{x}{19}-\dfrac{8}{19}
+61.-\dfrac{8}{d}-\dfrac{3}{d}	62.-\dfrac{7}{c}-\dfrac{7}{c}
+Farklı Paydalı Kesirleri Toplama veya Çıkarma
+Aşağıdaki alıştırmalarda toplama veya çıkarma işlemleri yapın.
+
+63.\dfrac{1}{3}+\dfrac{1}{5}	64.\dfrac{1}{4}+\dfrac{1}{5}
+65.\dfrac{1}{5}-\left(-\dfrac{1}{10}\right)	66.\dfrac{1}{2}-\left(-\dfrac{1}{6}\right)
+67.\dfrac{2}{3}+\dfrac{3}{4}	68.\dfrac{3}{4}+\dfrac{2}{5}
+69.\dfrac{11}{12}-\dfrac{3}{8}	70.\dfrac{5}{8}-\dfrac{7}{12}
+71.-\dfrac{9}{16}-\left(-\dfrac{4}{5}\right)	72.-\dfrac{7}{20}-\left(-\dfrac{5}{8}\right)
+73.1+\dfrac{5}{6}	74.1-\dfrac{5}{9}
+İşlem Önceliği Kurallarını Kullanarak Karmaşık Kesirleri Sadeleştirin
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+75.\dfrac{{\left(\dfrac{1}{5}\right)}^{2}}{2+{3}^{2}}	76.\dfrac{{\left(\dfrac{1}{3}\right)}^{2}}{5+{2}^{2}}
+77.\dfrac{\dfrac{2}{3}+\dfrac{1}{2}}{\dfrac{3}{4}-\dfrac{2}{3}}	78.\dfrac{\dfrac{3}{4}+\dfrac{1}{2}}{\dfrac{5}{6}-\dfrac{2}{3}}
+Kesirli Değişken İfadelerini Değerlendirme
+Aşağıdaki alıştırmaları değerlendirin.
+
+79. x+\dfrac{1}{2}ne zaman
+a) x=-\dfrac{1}{8}
+b)x=-\dfrac{1}{2}	80. x+\dfrac{2}{3}ne zaman
+a) x=-\dfrac{1}{6}
+b)x=-\dfrac{5}{3}
+81. 4{p}^{2}qne zaman p=-\dfrac{1}{2}veq=\dfrac{5}{9}	82. 5{m}^{2}nne zaman m=-\dfrac{2}{5}ven=\dfrac{1}{3}
+83. \dfrac{u+v}{w}ne zaman
+u=-4,v=-8,w=2	84. \dfrac{m+n}{p}ne zaman
+m=-6,n=-2,p=4
+ İsimlendirin ve Ondalık Sayıları Yazın
+Aşağıdaki alıştırmalarda, sayıları ondalık sayı olarak yazın.
+
+85. Sekiz tam üç yüzdelik	86. Dokuz tam yedi yüzde bir
+87. Binde bir	88. Dokuz binde bir
+Aşağıdaki alıştırmalarda her ondalık sayının adını yazınız.
+
+89. 7.8	90. 5.01
+91. 0.005	92. 0.381
+Ondalık Sayıları Yuvarla
+Aşağıdaki alıştırmalarda, her sayıyı en yakın a) yüzde birine b) onda birine c) tam sayıya yuvarlayın.
+
+93. 5.7932	94. 3.6284
+95. 12.4768	96. 25.8449
+Ondalık Sayıları Toplama ve Çıkarma
+Aşağıdaki alıştırmalarda toplama veya çıkarma işlemleri yapın.
+
+97.18.37+9.36	98.256.37-85.49
+99.15.35-20.88	100.37.5+12.23
+101.-4.2+\left(-9.3\right)	102.-8.6+\left(-8.6\right)
+103.100-64.2	104.100-65.83
+105.2.51+40	106.9.38+60
+Ondalıklı Sayıları Çarpma ve Bölme
+Aşağıdaki alıştırmalarda çarpma işlemi yapın.
+
+107.\left(0.3\right)\left(0.4\right)	108.\left(0.6\right)\left(0.7\right)
+109.\left(8.52\right)\left(3.14\right)	110.\left(5.32\right)\left(4.86\right)
+111.\left(0.09\right)\left(24.78\right)	112.\left(0.04\right)\left(36.89\right)
+Aşağıdaki alıştırmalarda, bölme işlemi yapın.
+
+113. 0.15 ÷ 5	114. 0.27 ÷ 3
+115. $8.49 ÷ 12	116. $16.99 ÷ 9
+117. 12 ÷ 0.08	118.5 ÷ 0.04
+Ondalık Sayıları ve Kesirleri Dönüştürme
+Aşağıdaki alıştırmalarda, her ondalık sayıyı kesir olarak yazın.
+
+119. 0.08	120. 0.17
+121. 0.425	122. 0.184
+123. 1.75	124. 0.035
+Aşağıdaki alıştırmalarda, her kesri ondalık sayıya çevirin.
+
+125.\dfrac{2}{5}	126.\dfrac{4}{5}
+127.-\dfrac{3}{8}	128.-\dfrac{5}{8}
+129.\dfrac{5}{9}	130.\dfrac{2}{9}
+131.\dfrac{1}{2}+6.5	132.\dfrac{1}{4}+10.75
+Tam sayıları, rasyonel sayıları, irrasyonel sayıları ve gerçek sayıları tanımlayın.
+Aşağıdaki alıştırmalarda, iki tamsayının oranını yazın.
+
+133. a) 9 b) 8.47	134. a) -15b) 3.591
+Aşağıdaki alıştırmalarda, a) rasyonel sayıları, b) irrasyonel sayıları listeleyiniz.
+
+135.0.84,0.79132\text{…},1.\stackrel{\text{-}}{3}	136.2.3\stackrel{\text{-}}{8},0.572,4.93814\text{…}
+Aşağıdaki alıştırmalarda, her sayı kümesi için a) tam sayıları, b) tamsayıları, c) rasyonel sayıları, d) irrasyonel sayıları, e) gerçek sayıları listeleyin.
+
+137.-4,0,\dfrac{5}{6} ,17 ,5.2537\text{…}	138.-2, 0.\stackrel{\text{-}}{36},\dfrac{13}{3},6.9152\text{…},10\dfrac{1}{2}
+Kesirleri Sayı Doğrusunda Bulun
+Aşağıdaki alıştırmalarda, sayıları sayı doğrusu üzerinde bulun.
+
+139.\dfrac{2}{3},\dfrac{5}{4},\dfrac{12}{5}	140.\dfrac{1}{3},\dfrac{7}{4},\dfrac{13}{5}
+141.2\dfrac{1}{3},-2\dfrac{1}{3}	142.1\dfrac{3}{5},-1\dfrac{3}{5}
+Aşağıdaki alıştırmalarda, aşağıdaki sayı çiftlerinin her birini < veya > işaretlerini kullanarak sıralayın.
+
+143. -1___-\dfrac{1}{8}	144. -3\dfrac{1}{4}___-4
+145. -\dfrac{7}{9}___-\dfrac{4}{9}	146. -2___-\dfrac{19}{8}
+Ondalık sayıları sayı doğrusunda bulun.
+Aşağıdaki alıştırmalarda, sayıların sayı doğrusu üzerindeki yerlerini bulunuz.
+
+147. 0.3	148. -0.2
+149. -2.5	150. 2.7
+Aşağıdaki alıştırmalarda, aşağıdaki sayı çiftlerinin her birini < veya > işaretlerini kullanarak sıralayın.
+
+151. 0.9 ___ 0.6	152. 0.7 ___ 0.8
+153. -0.6 ___ -0.59	154. -0.27 ___ -0.3
+Değişme ve birleşme özelliklerini kullanın.
+Aşağıdaki alıştırmalarda, sadeleştirme yapmak için birleşme özelliğini kullanın.
+
+155.-12\left(4m\right)	156.30\left(\dfrac{5}{6}q\right)
+157.\left(a+16\right)+31	158.\left(c+0.2\right)+0.7
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+159.6y+37+\left(-6y\right)	160.\dfrac{1}{4}+\dfrac{11}{15}+\left(-\dfrac{1}{4}\right)
+161.\dfrac{14}{11}\cdot \dfrac{35}{9}\cdot \dfrac{14}{11}	162.-18\cdot 15 \cdot \dfrac{2}{9}
+163.\left(\dfrac{7}{12}+\dfrac{4}{5}\right)+\dfrac{1}{5}	164.\left(3.98d+0.75d\right)+1.25d
+165.11x+8y+16x+15y	166.52m+\left(-20n\right)+\left(-18m\right)+\left(-5n\right)
+Toplama ve Çarpma İşlemlerinin Ters ve Etkisiz Eleman Özelliklerini Kullanın
+Aşağıdaki alıştırmalarda, her sayının toplamsal tersini bulun.
+
+167.
+
+a) \dfrac{1}{3}
+b) 5.1
+c) -14
+d)-\dfrac{8}{5}
+
+168.
+a) -\dfrac{7}{8}
+b) -0.03
+c) 17
+d)\dfrac{12}{5}
+Aşağıdaki alıştırmalarda, her sayının çarpımsal tersini bulun.
+
+169. a) 10 b) -\dfrac{4}{9}c) 0,6	170. a) -\dfrac{9}{2}b) -7c) 2.1
+Sıfırın Özelliklerini Kullanın
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+171.83\cdot 0	172.\dfrac{0}{9}
+173.\dfrac{5}{0}	174. 0\div\dfrac{2}{3}
+Aşağıdaki alıştırmalarda sadeleştirme yapın.
+
+175.43+39+\left(-43\right)	176.\left(n+6.75\right)+0.25
+177.\dfrac{5}{13}\cdot 57 \cdot \dfrac{13}{5}	178.\dfrac{1}{6}\cdot17\cdot12
+179.\dfrac{2}{3}\cdot 28 \cdot \dfrac{3}{7}	180.9\left(6x-11\right)+15
+Dağılma Özelliğini Kullanarak İfadeleri Basitleştirme
+Aşağıdaki alıştırmalarda, Dağılma Özelliğini kullanarak sadeleştirme yapın.
+
+181.7\left(x+9\right)	182.9\left(u-4\right)
+183.-3\left(6m-1\right)	184.-8\left(-7a-12\right)
+185.\dfrac{1}{3}\left(15n-6\right)	186.\left(y+10\right)\cdot p
+187.\left(a-4\right)-\left(6a+9\right)	188.4\left(x+3\right)-8\left(x-7\right)
+Alıştırma Cevaplarını Gözden Geçirin
+1. \dfrac{2}{8},\dfrac{3}{12},\dfrac{4}{16}Cevaplar farklılık gösterebilir.	3. \dfrac{10}{12},\dfrac{15}{18},\dfrac{20}{24}Cevaplar farklılık gösterebilir.	5.\dfrac{1}{3}
+7.\dfrac{3}{4}	9.-\dfrac{7}{8}	11.\dfrac{x}{y}
+13.\dfrac{2}{15}	15.-\dfrac{2}{9}	17.7p
+19.-42	21. 2	23.-\dfrac{7}{5}
+25.\dfrac{25}{4a}	27.\dfrac{2}{9}	29.-\dfrac{1}{25}
+31.\dfrac{3}{4}	33.-\dfrac{3}{10}	35.\dfrac{3r}{5s}
+37.\dfrac{15}{8}	39.-6	41.\dfrac{4}{3}
+43.-4	45.\dfrac{5}{21}	47.-2
+49.\dfrac{c}{d+9}	51.\dfrac{5}{9}	53.\dfrac{y+2}{3}
+55.-\dfrac{1}{2}	57.\dfrac{3}{5}	59.\dfrac{y-9}{17}
+61.-\dfrac{11}{d}	63.\dfrac{8}{15}	65.\dfrac{3}{10}
+67.\dfrac{17}{12}	69.\dfrac{13}{24}	71.\dfrac{19}{80}
+73.\dfrac{11}{6}	75.\dfrac{1}{275}	77. 14
+79. a) \dfrac{3}{8}b) 0	81.\dfrac{5}{9}	83.-6
+85. 8.03	87. 0.001	89. yedi ve sekiz onda bir
+91. beş binde bir	93. a) 5,79 b) 5,8 c) 6	95. a) 12.48 b) 12.5 c) 12
+97. 27.73	99. −5.53	101. −13.5
+103. 35.8	105. 42.51	107. 0.12
+109. 26.7528	111. 2.2302	113. 0.03
+115. 0,71 dolar	117. 150	119.\dfrac{2}{25}
+121.\dfrac{17}{40}	123.\dfrac{7}{4}	125. 0.4
+127.-0.375	129.0.\stackrel{\text{-}}{5}	131. 7
+133. a) \dfrac{9}{1}b)\dfrac{847}{100}	
+135. a) 0.84,1.\stackrel{\text{-}}{3}b) 0.79132\text{…},
+137. a) 0, 17 b) -4,0,17 c) -4,0,\dfrac{5}{6},17d) 5.2537\text{…}e)-4,0,17,\dfrac{5}{6}, 5.2537\text{…}
+139.Bu şekil, 0'dan 6'ya kadar her tam sayı için işaretlenmiş bir sayı doğrusudur. 2/3, 5/4 ve 12/5 değerleri çizilmiştir.	141.Bu şekil, eksi 4'ten 4'e kadar uzanan ve her tam sayı için işaret çizgileri bulunan bir sayı doğrusudur. Eksi 2 ve 1/3 ile 2 ve 1/3 değerleri çizilmiştir.	143. <
+145. >	147.Bu şekil, 0'dan 1'e kadar uzanan ve her bir tam sayının onda birini gösteren işaretlere sahip bir sayı doğrusudur. 0,3 değeri işaretlenmiştir.	149.Bu şekil, -5'ten 5'e kadar uzanan ve her tam sayı için işaret çizgileri bulunan bir sayı doğrusudur. -2,5 değeri de çizilmiştir.
+151. >	153. >	155.-48m
+157.a+47	159. 37	161.\dfrac{35}{9}
+163.1\dfrac{7}{12}	165.27x+23y	167. a) -\dfrac{1}{3}b) -5.1c) 14 d)\dfrac{8}{5}
+169. a) \dfrac{1}{10}b) -\dfrac{9}{4}c)\dfrac{5}{3}	171. 0	173. tanımlanmamış
+175. 39	177. 57	179. 8
+181.7x+63	183.-18m+3	185.5n-2
+187.-5a-13		
+Uygulama Testi
+1. 1,85 sayısını kesirli hale getirin ve sadeleştirin.	2. \dfrac{2}{3},-1.5, ve \dfrac{9}{4}sayılarını sayı doğrusu üzerinde bulun.
+Aşağıdaki alıştırmalarda her ifadeyi sadeleştirin.
+
+3.4+10\left(3+9\right)-{5}^{2}	4. -85+42
+5.-19-25	6.{\left(-2\right)}^{4}
+7. -5\left(-9\right)÷15	8.\dfrac{3}{8}\cdot \dfrac{11}{12}
+9. \dfrac{4}{5}÷\dfrac{9}{20}	10.\dfrac{12+3\cdot 5}{15-6}
+11.\dfrac{m}{7}+\dfrac{10}{7}	12.\dfrac{7}{12}-\dfrac{3}{8}
+13.-5.8+\left(-4.7\right)	14.100-64.25
+15.\left(0.07\right)\left(31.95\right)	16. 9 ÷ 0.05
+17.-14\left(\dfrac{5}{7}p\right)	18.\left(u+8\right)-9
+19.6x+\left(-4y\right)+9x+8y	20.\dfrac{0}{23}
+21.\dfrac{75}{0}	22.-2\left(13q-5\right)
+Deneme Sınavı Cevapları
+1.\dfrac{37}{20}		3. 99
+4.-43	5.-44	6.16
+7.  3	8.\dfrac{11}{32}	9.\dfrac{16}{9}
+103	11.\dfrac{m+10}{7}	12.\dfrac{5}{24}
+13.-10.5	14. 35.75	15. 2.2365
+16.180	17.-10p	18.u -1
+19.15x+4y	20. 0	21. tanımsız
+22.-26q + 10		
+Önceki bölüm
+Sayılar ve cebir
+Sonraki bölüm
+Ölçme ve geometri
+
+kurslar
+hakkında
+temas etmek
+İletişim: turan@turanarican.com
