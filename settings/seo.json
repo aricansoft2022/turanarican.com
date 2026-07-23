@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://turanarican.com",
+  "siteName": "Turan Arıcan",
+  "defaultLocale": "tr",
+  "author": {
+    "name": "Turan Arıcan",
+    "url": "https://turanarican.com/",
+    "sameAs": [
+      "https://www.youtube.com/@turanarican"
+    ]
+  },
+  "locales": {
+    "tr": {
+      "ogLocale": "tr_TR",
+      "alternateOgLocale": "en_US"
+    },
+    "en": {
+      "ogLocale": "en_US",
+      "alternateOgLocale": "tr_TR"
+    }
+  }
+}
