@@ -65,8 +65,9 @@ Elle düzenlenebilen yerelleştirilmiş ayarlar:
 - `settings/books/on-cebir.tr.json`
 - `settings/books/prealgebra.en.json`
 - `settings/seo.json`
+- `settings/attributions.json`
 
-`site.<dil>.json` içinde marka, YouTube, ana sayfa, alt bilgi, arayüz metinleri ve sorumluluk reddi bulunur. `courses.<dil>.json` ana sayfa kartlarını; `books/<kitap>.<dil>.json` kitap hero’sunu ve kaynak/lisans bağlantılarını yönetir. `seo.json` canonical alan adını, site adını, yazarı ve sosyal ağ kimliğini yönetir. JSON dosyalarında sonda fazladan virgül kullanılmaz.
+`site.<dil>.json` içinde marka, YouTube, ana sayfa, alt bilgi, arayüz metinleri ve sorumluluk reddi bulunur. `courses.<dil>.json` ana sayfa kartlarını; `books/<kitap>.<dil>.json` kitap hero’sunu ve kaynak/lisans bağlantılarını yönetir. `attributions.json` bölüm kaynak özetlerini ve yalnız kullanılan özel görsellerin iki dilli atıflarını tek noktada tutar. `seo.json` canonical alan adını, site adını, yazarı ve sosyal ağ kimliğini yönetir. JSON dosyalarında sonda fazladan virgül kullanılmaz.
 
 Sorumluluk reddi her dilin kendi `site` ayarında tutulur ve ana sayfa ile kitap sayfasında görünür. Metin değiştirildiğinde iki dil birlikte güncellenmelidir.
 
@@ -94,7 +95,15 @@ Aynı özgün medya URL’si iki dilde tek yerel dosyaya karşılık gelir; İng
 
    Araç mevcut `sources/translation-fixes-tr.json` dosyasını korur, yalnız yeni bulunan slotları ekler ve her başarılı çeviri grubundan sonra ilerlemeyi kaydeder. Ağ çağrısı yapmadan sayıyı görmek için `--dry-run` kullanılabilir. Çevrimiçi servis kota verirse Argos İngilizce→Türkçe modeli kurulmuş bir Python ortamında `--engine argos` kullanılır; sonuçta site yine dış servise bağımlı olmaz.
 
-3. On sekiz ders sayfasını ve manifestleri üret:
+3. Kitap sayfalarındaki kapalı merkezi kaynak/atıf alanını üret:
+
+   ```sh
+   python3 tools/build_attributions.py
+   ```
+
+   `settings/attributions.json` içindeki özel görsel kaydı, ilgili dosya adı o dilin kitap kaynağında gerçekten bulunuyorsa merkezi listede gösterilir. Kitap sayfalarındaki `attribution-resources:start/end` işaretleri arasını elle düzenlemeyin.
+
+4. On sekiz ders sayfasını ve manifestleri üret:
 
    ```sh
    python3 tools/build_lessons.py
@@ -102,7 +111,7 @@ Aynı özgün medya URL’si iki dilde tek yerel dosyaya karşılık gelir; İng
 
    Yalnız bir dili üretmek için `--locale tr` veya `--locale en` verilebilir. Araç yalnız eksik medyayı indirir. Uzak görsel aynı URL altında değiştiyse `--refresh`, geçici olarak kullanılmayan medyayı korumak gerekiyorsa `--keep-unused` kullanılır.
 
-4. Son kontrolü çalıştır:
+5. Son kontrolü çalıştır:
 
    ```sh
    python3 tools/check_site.py
@@ -152,6 +161,7 @@ Elle düzenlenen ana dosyalar:
 - `settings/`, `assets/css/`, `assets/js/`
 - `robots.txt`, `sitemap.xml`
 - `tools/build_lessons.py`, `tools/build_sitemap.py`, `tools/complete_translation.py`, `tools/check_site.py`
+- `tools/build_attributions.py`
 - `docs/UPDATE_GUIDE.md`
 
 Otomatik üretilenler:
@@ -191,4 +201,6 @@ Temel kontrol adresleri:
 - Bölüm menüsü, tablolar, cevap blokları, pager ve okuma ilerleme çubuğu çalışıyor.
 - Chapter 1 öncesindeki ön bölümler üretilen sayfalara girmiyor; Chapter 1–9’un tamamı mevcut.
 - Ders içi görseller yerel ve iki dil arasında ortak; kırık yerel link veya eksik ayar yok.
+- Her ders altbilgisinde merkezi kaynak/lisans bağlantısı var; özel görsel atıfları yalnız eşleşen görselle birlikte semantik `figure`/`figcaption` olarak üretiliyor.
+- Izabela Mazur’un özgün kapağı kullanılmadığı sürece mevcut özel kapak/hero görsellerine kaynak kitap kapağı atfı eklenmiyor.
 - `*:Zone.Identifier`, `.part`, `__pycache__` ve eski manifests repoda kalmıyor.

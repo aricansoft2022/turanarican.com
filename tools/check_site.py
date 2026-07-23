@@ -14,6 +14,7 @@ from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parents[1]
 SEO_SETTINGS_PATH = ROOT / "settings" / "seo.json"
+ATTRIBUTIONS_PATH = ROOT / "settings" / "attributions.json"
 TR_CHAPTER_PAGES = tuple(
     ROOT / "dersler" / "on-cebir" / f"bolum-{number}" / "index.html"
     for number in range(1, 10)
@@ -179,6 +180,7 @@ def main() -> int:
         ROOT / "settings" / "courses.en.json",
         ROOT / "settings" / "books" / "on-cebir.tr.json",
         ROOT / "settings" / "books" / "prealgebra.en.json",
+        ATTRIBUTIONS_PATH,
         SEO_SETTINGS_PATH,
     )
     settings: dict[Path, object] = {}
@@ -380,6 +382,95 @@ def main() -> int:
     for page, expected_id in expected_parts:
         if page.exists() and f'id="{expected_id}"' not in page.read_text(encoding="utf-8"):
             errors.append(f"expected source wrapper missing in {page.relative_to(ROOT)}: {expected_id}")
+
+    attribution_data = settings.get(ATTRIBUTIONS_PATH, {})
+    if isinstance(attribution_data, dict):
+        attribution_images = attribution_data.get("images", [])
+        for locale, pages, course_page, source_path, anchor, footer_href in (
+            (
+                "tr",
+                TR_CHAPTER_PAGES,
+                ROOT / "dersler" / "on-cebir" / "index.html",
+                ROOT / "sources" / "incalg-TR.html",
+                "kaynaklar-ve-lisanslar",
+                "../../../dersler/on-cebir/#kaynaklar-ve-lisanslar",
+            ),
+            (
+                "en",
+                EN_CHAPTER_PAGES,
+                ROOT / "en" / "courses" / "prealgebra" / "index.html",
+                ROOT / "sources" / "incalg.html",
+                "sources-and-licenses",
+                "../../../../en/courses/prealgebra/#sources-and-licenses",
+            ),
+        ):
+            course_source = course_page.read_text(encoding="utf-8")
+            source_html = source_path.read_text(encoding="utf-8")
+            if f'id="{anchor}"' not in course_source or "<details" not in course_source:
+                errors.append(f"central attribution disclosure missing in {course_page.relative_to(ROOT)}")
+            section_sources = attribution_data.get("sectionSources", {})
+            localized_sections = (
+                section_sources.get(locale, []) if isinstance(section_sources, dict) else []
+            )
+            for section_source in localized_sections:
+                if not isinstance(section_source, dict) or not all(
+                    str(section_source.get(key, "")) in course_source for key in ("label", "text")
+                ):
+                    errors.append(f"central chapter-source summary missing for locale {locale}")
+            all_lesson_sources = [page.read_text(encoding="utf-8") for page in pages]
+            for lesson_page in pages:
+                lesson_source = lesson_page.read_text(encoding="utf-8")
+                if lesson_source.count(f'href="{footer_href}"') != 1:
+                    errors.append(
+                        f"expected one central attribution footer link in {lesson_page.relative_to(ROOT)}"
+                    )
+            for item in attribution_images if isinstance(attribution_images, list) else []:
+                if not isinstance(item, dict):
+                    errors.append("settings/attributions.json contains a non-object image record")
+                    continue
+                image_id = str(item.get("id", ""))
+                filename = str(item.get("filename", ""))
+                chapter = item.get("chapter")
+                used = bool(filename and filename in source_html)
+                occurrence_count = sum(
+                    source.count(f'data-attribution-id="{image_id}"')
+                    for source in all_lesson_sources
+                )
+                if not used:
+                    if occurrence_count or f'id="{image_id}"' in course_source:
+                        errors.append(f"unused attribution rendered for {filename} ({locale})")
+                    continue
+                if not isinstance(chapter, int) or chapter not in range(1, 10):
+                    errors.append(f"invalid attribution chapter for {filename}")
+                    continue
+                expected_source = all_lesson_sources[chapter - 1]
+                if occurrence_count != 1:
+                    errors.append(
+                        f"expected one lesson attribution for {filename} ({locale}), found {occurrence_count}"
+                    )
+                figure_pattern = re.compile(
+                    rf'<figure\b[^>]*data-attribution-id="{re.escape(image_id)}"[^>]*>'
+                    rf'(?:(?!</figure>).)*{re.escape(filename)}(?:(?!</figure>).)*'
+                    rf'<figcaption\b[^>]*class="[^"]*lesson-attribution-caption[^"]*"[^>]*>',
+                    re.I | re.S,
+                )
+                if not figure_pattern.search(expected_source):
+                    errors.append(f"semantic figure attribution missing for {filename} ({locale})")
+                caption = item.get("caption", {})
+                expected_caption = caption.get(locale) if isinstance(caption, dict) else None
+                if not isinstance(expected_caption, str) or expected_caption not in expected_source:
+                    errors.append(f"localized caption missing for {filename} ({locale})")
+                if f'id="{image_id}"' not in course_source:
+                    errors.append(f"central image attribution missing for {filename} ({locale})")
+    else:
+        errors.append("invalid settings/attributions.json root")
+
+    calatrava_wrong_license = re.compile(
+        r"Bert Kaufmann(?:(?!</p>).)*CC BY 4\.0", re.I | re.S
+    )
+    for page in (TR_CHAPTER_PAGES[2], EN_CHAPTER_PAGES[2]):
+        if page.exists() and calatrava_wrong_license.search(page.read_text(encoding="utf-8")):
+            errors.append(f"incorrect Calatrava CC BY 4.0 credit in {page.relative_to(ROOT)}")
 
     for locale in ("tr", "en"):
         for number in range(1, 10):
