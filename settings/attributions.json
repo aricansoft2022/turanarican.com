@@ -1,0 +1,81 @@
+{
+  "sectionSources": {
+    "tr": [
+      {
+        "label": "Elementary Algebra kaynaklı bölümler",
+        "text": "1.1, 1.4–1.5, 2.1–2.5, 3.1, Bölüm 5 girişi, 5.5–5.8, Bölüm 6 girişi, 6.1–6.7, 7.2–7.5 ve 8.3–8.6."
+      },
+      {
+        "label": "Prealgebra kaynaklı bölümler",
+        "text": "1.2–1.3, Bölüm 3 girişi, 3.2–3.4, 4.1–4.4, 5.1–5.4, 7.1, 8.1–8.2 ve 9.1."
+      }
+    ],
+    "en": [
+      {
+        "label": "Sections sourced from Elementary Algebra",
+        "text": "1.1, 1.4–1.5, 2.1–2.5, 3.1, the Chapter 5 introduction, 5.5–5.8, the Chapter 6 introduction, 6.1–6.7, 7.2–7.5, and 8.3–8.6."
+      },
+      {
+        "label": "Sections sourced from Prealgebra",
+        "text": "1.2–1.3, the Chapter 3 introduction, 3.2–3.4, 4.1–4.4, 5.1–5.4, 7.1, 8.1–8.2, and 9.1."
+      }
+    ]
+  },
+  "images": [
+    {
+      "id": "chapter-1-2-bernard-goldbach",
+      "filename": "CNX_BMath_Figure_02_01_003-1.jpg",
+      "chapter": 1,
+      "section": {"tr": "1.2 Cebir Dilini Kullanma", "en": "1.2 Use the Language of Algebra"},
+      "caption": {
+        "tr": "Görsel, Bernard Goldbach’ın Wikimedia Commons’taki çalışmasından uyarlanmıştır.",
+        "en": "Image adapted from Bernard Goldbach’s work on Wikimedia Commons."
+      }
+    },
+    {
+      "id": "chapter-3-introduction-calatrava",
+      "filename": "CNX_BMath_Figure_09_00_001.jpg",
+      "chapter": 3,
+      "section": {"tr": "Bölüm 3 girişi", "en": "Chapter 3 introduction"},
+      "caption": {
+        "tr": "<a href=\"https://commons.wikimedia.org/wiki/File:Li%C3%A8ge-Guillemins_Station,_Calatrava.jpg\" target=\"_blank\" rel=\"noopener noreferrer\"><cite>Calatrava fantasy</cite></a> — Bert Kaufmann, <a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 2.0</a>.",
+        "en": "<a href=\"https://commons.wikimedia.org/wiki/File:Li%C3%A8ge-Guillemins_Station,_Calatrava.jpg\" target=\"_blank\" rel=\"noopener noreferrer\"><cite>Calatrava fantasy</cite></a> — Bert Kaufmann, <a href=\"https://creativecommons.org/licenses/by/2.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY 2.0</a>."
+      }
+    },
+    {
+      "id": "chapter-4-2-playing-cards",
+      "filename": "CNX_BMath_Figure_06_01_002.jpg",
+      "chapter": 4,
+      "section": {"tr": "4.2 Yüzde Kavramı", "en": "4.2 Understand Percent"},
+      "caption": {
+        "tr": "Fotoğraf: <a href=\"https://commons.wikimedia.org/wiki/File:Playing_Cards.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Riles32807, Wikimedia Commons</a> — kamu malı.",
+        "en": "Photo: <a href=\"https://commons.wikimedia.org/wiki/File:Playing_Cards.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Riles32807, Wikimedia Commons</a> — public domain."
+      }
+    },
+    {
+      "id": "chapter-4-4-marta-oraniewicz",
+      "filename": "Chapter4.3Figure1-300x255.png",
+      "chapter": 4,
+      "captionId": "caption-attachment-723",
+      "section": {"tr": "4.4 Yüzde Problemleri", "en": "4.4 Solve General Applications of Percent"},
+      "caption": {"tr": "Görsel: Marta Oraniewicz.", "en": "Image: Marta Oraniewicz."}
+    },
+    {
+      "id": "chapter-5-introduction-paurian",
+      "filename": "CNX_BMath_Figure_08_00_001-2.jpg",
+      "chapter": 5,
+      "section": {"tr": "Bölüm 5 girişi", "en": "Chapter 5 introduction"},
+      "caption": {"tr": "Fotoğraf: paurian, Flickr.", "en": "Photo: paurian, Flickr."}
+    },
+    {
+      "id": "chapter-6-introduction-steve-jurvetson",
+      "filename": "CNX_ElemAlg_Figure_04_00_001_img_new.jpg",
+      "chapter": 6,
+      "section": {"tr": "Bölüm 6 girişi", "en": "Chapter 6 introduction"},
+      "caption": {
+        "tr": "Görsel/grafik kaynağı: Steve Jurvetson, Flickr.",
+        "en": "Image/graph source: Steve Jurvetson, Flickr."
+      }
+    }
+  ]
+}

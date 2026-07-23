@@ -22,8 +22,10 @@ MEDIA_DIR = ROOT / "assets" / "lessons" / "media"
 MANIFEST_DIR = ROOT / "assets" / "lessons" / "manifests"
 TRANSLATION_FIXES_PATH = ROOT / "sources" / "translation-fixes-tr.json"
 SEO_SETTINGS_PATH = ROOT / "settings" / "seo.json"
+ATTRIBUTIONS_PATH = ROOT / "settings" / "attributions.json"
 
 SEO_SETTINGS = json.loads(SEO_SETTINGS_PATH.read_text(encoding="utf-8"))
+ATTRIBUTIONS = json.loads(ATTRIBUTIONS_PATH.read_text(encoding="utf-8"))
 SITE_URL = str(SEO_SETTINGS["baseUrl"]).rstrip("/")
 
 PART_START_RE = re.compile(
@@ -361,6 +363,7 @@ LOCALES = {
             "pager": "Bölümler arası gezinme", "previous": "Önceki bölüm", "next": "Sonraki bölüm",
             "course_index": "Ders dizini", "continue": "Devam et", "back_home": "Ana sayfaya dön",
             "footer": "Alt menü", "courses": "dersler", "about": "hakkında", "contact_lower": "iletişim",
+            "sources_licenses": "Kaynaklar ve lisanslar",
             "contact_prefix": "iletişim:", "language": "Dil seçimi",
         },
     },
@@ -388,6 +391,7 @@ LOCALES = {
             "pager": "Chapter navigation", "previous": "Previous chapter", "next": "Next chapter",
             "course_index": "Course index", "continue": "Continue", "back_home": "Return home",
             "footer": "Footer navigation", "courses": "courses", "about": "about", "contact_lower": "contact",
+            "sources_licenses": "Sources and licenses",
             "contact_prefix": "contact:", "language": "Language selector",
         },
     },
@@ -822,10 +826,82 @@ def localize_fragment(
         r"<h1(?P<attrs>\b[^>]*)>(?P<body>.*?)</h1>",
         r"<h3\g<attrs>>\g<body></h3>", fragment, flags=re.I | re.S,
     )
-    return re.sub(
+    fragment = re.sub(
         r"<img(?![^>]*\bloading=)(?P<attrs>[^>]*)>",
         r'<img loading="lazy" decoding="async"\g<attrs>>', fragment, flags=re.I,
     )
+    return apply_image_attributions(fragment, locale)
+
+
+def apply_image_attributions(fragment: str, locale: str) -> str:
+    """Replace legacy image credits with semantic, localized figure captions."""
+    records = [
+        item for item in ATTRIBUTIONS["images"]
+        if str(item["filename"]) in fragment
+    ]
+    if not records:
+        return fragment
+
+    legacy_credit_names = "|".join(
+        re.escape(name)
+        for name in ("Bernard Goldbach", "Riles32807", "Marta Oraniewicz", "paurian")
+    )
+    fragment = re.sub(
+        rf'<div\b[^>]*class="[^"]*(?:bc-figcaption|wp-caption-text)[^"]*"[^>]*>'
+        rf'(?:(?!</div>).)*(?:{legacy_credit_names})(?:(?!</div>).)*</div>\s*',
+        "",
+        fragment,
+        flags=re.I | re.S,
+    )
+    fragment = re.sub(
+        r'<p\b[^>]*>(?:(?!</p>).)*Bert Kaufmann(?:(?!</p>).)*</p>\s*',
+        "",
+        fragment,
+        flags=re.I | re.S,
+    )
+    fragment = re.sub(
+        r"\s*\((?:credit|kredi):\s*Steve Jurvetson,\s*Flickr\)",
+        "",
+        fragment,
+        flags=re.I,
+    )
+
+    for item in records:
+        filename = re.escape(str(item["filename"]))
+        image_pattern = rf'<img\b(?=[^>]*\bsrc="[^"]*{filename}")[^>]*>'
+        match = re.search(image_pattern, fragment, flags=re.I)
+        if not match:
+            raise RuntimeError(f"attribution image tag not found: {item['filename']}")
+        caption_id = (
+            f' id="{html.escape(str(item["captionId"]), quote=True)}"'
+            if item.get("captionId")
+            else ""
+        )
+        figure = (
+            f'<figure class="lesson-attribution-figure" '
+            f'data-attribution-id="{html.escape(str(item["id"]), quote=True)}">'
+            f'{match.group(0)}'
+            f'<figcaption class="lesson-attribution-caption"{caption_id}>'
+            f'{item["caption"][locale]}</figcaption></figure>'
+        )
+
+        direct_paragraph = re.compile(
+            rf'<p\b[^>]*>\s*(?:<span\b[^>]*>\s*)?{image_pattern}'
+            rf'(?:\s*</span>)?\s*</p>',
+            flags=re.I,
+        )
+        if direct_paragraph.search(fragment):
+            fragment = direct_paragraph.sub(figure, fragment, count=1)
+            continue
+
+        paragraph_start = re.compile(rf'<p\b[^>]*>\s*{image_pattern}', flags=re.I)
+        if paragraph_start.search(fragment):
+            fragment = paragraph_start.sub(f"{figure}<p>", fragment, count=1)
+            continue
+
+        fragment = re.sub(image_pattern, figure, fragment, count=1, flags=re.I)
+
+    return fragment
 
 
 def download_one(url: str, destination: Path, refresh: bool) -> tuple[str, int, str]:
@@ -1050,6 +1126,11 @@ def render_page(
     root_prefix = str(config["root_prefix"])
     asset_prefix = f"{root_prefix}/assets"
     home_url = f"{root_prefix}/{config['home_rel']}"
+    sources_url = (
+        f"{root_prefix}/dersler/on-cebir/#kaynaklar-ve-lisanslar"
+        if locale == "tr"
+        else f"{root_prefix}/en/courses/prealgebra/#sources-and-licenses"
+    )
     title_text = str(chapter["title"])
     title = html.escape(title_text)
     description = str(chapter["description"])
@@ -1071,7 +1152,7 @@ def render_page(
         en_path,
         lesson_structured_data(locale, chapter, canonical_path, book_settings),
     )
-    return f"""<!doctype html>
+    page = f"""<!doctype html>
 <html lang="{locale}">
   <head>
     <meta charset="utf-8">
@@ -1144,6 +1225,7 @@ def render_page(
           <nav aria-label="{ui['footer']}">
             <a href="{home_url}#{config['home_anchor']}">{ui['courses']}</a>
             <a href="{home_url}#{config['about_anchor']}">{ui['about']}</a>
+            <a href="{sources_url}">{ui['sources_licenses']}</a>
             <a href="#contact">{ui['contact_lower']}</a>
           </nav>
           <a class="site-footer__contact" data-contact-link href="mailto:turan@turanarican.com">{ui['contact_prefix']} <span data-setting-text="footer.email">turan@turanarican.com</span></a>
@@ -1153,6 +1235,7 @@ def render_page(
   </body>
 </html>
 """
+    return "\n".join(line.rstrip() for line in page.splitlines()) + "\n"
 
 
 def write_manifest(locale: str, chapter: dict[str, object], urls: set[str], mapping: dict[str, str]) -> None:

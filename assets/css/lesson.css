@@ -562,6 +562,40 @@
   line-height: 1.55;
 }
 
+.lesson-content .lesson-attribution-figure {
+  width: fit-content;
+  max-width: 100%;
+  margin: 28px auto;
+}
+
+.lesson-content .wp-caption .lesson-attribution-figure {
+  margin: 0 auto;
+}
+
+.lesson-content .lesson-attribution-figure > img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.lesson-content .lesson-attribution-caption {
+  max-width: 74ch;
+  margin: 10px auto 0;
+  color: #4b4b4b;
+  font-size: 13px;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.lesson-content .lesson-attribution-caption a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
 .lesson-content .table-scroll {
   width: 100%;
   margin: 26px 0;
