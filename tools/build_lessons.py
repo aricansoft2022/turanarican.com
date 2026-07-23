@@ -1270,9 +1270,14 @@ def render_seo_head(
     <meta property="og:site_name" content="{html.escape(str(SEO_SETTINGS['siteName']), quote=True)}">
     <meta property="og:locale" content="{config['og_locale']}">
     <meta property="og:locale:alternate" content="{config['alternate_og_locale']}">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="{SEO_SETTINGS['baseUrl']}/assets/images/og/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{escaped_title}">
     <meta name="twitter:description" content="{escaped_description}">
+    <meta name="twitter:image" content="{SEO_SETTINGS['baseUrl']}/assets/images/og/og-image.jpg">
 {json_ld_script(structured_data)}"""
 
 
