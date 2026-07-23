@@ -50,6 +50,195 @@ HTML_TOKEN_RE = re.compile(r'(<(?:!--.*?--|[^>]+)>)', re.S)
 TRANSLATABLE_ATTR_RE = re.compile(
     r'(?P<prefix>\b(?:alt|data-alt|title)=")(?P<value>[^"]*)(?P<suffix>")', re.I
 )
+IMG_TAG_RE = re.compile(r"<img\b[^>]*>", re.I)
+IMG_ALT_RE = re.compile(r'alt="([^"]*)"')
+
+# --- LaTeX-sourced alt text cleanup -----------------------------------
+# quicklatex.com renders each formula to an SVG and the import step used
+# the raw LaTeX source as the alt attribute. Two problems that creates:
+#   1. Pure spacing hacks (\phantom{\rule{...}{...}}) carry zero visual
+#      content but still expose LaTeX source to screen readers.
+#   2. Real formulas expose raw backslash-LaTeX ("15\div 3") instead of
+#      readable text, which is meaningless to both screen readers and
+#      search engines.
+# _latex_alt() converts what it can to natural TR/EN phrasing and falls
+# back to a generic label for constructs it can't safely handle (mainly
+# \begin{array}/\begin{pmatrix} tables — a few hundred across the site).
+PHANTOM_RE = re.compile(r"^\\phantom\{\\rule\{[^}]*\}\{[^}]*\}\}?$")
+
+_ALT_WORDS = {
+    "tr": {
+        "cdot": " çarpı ", "times": " çarpı ", "div": " bölü ",
+        "pm": " artı eksi ", "mp": " eksi artı ",
+        "approx": " yaklaşık ", "neq": " eşit değil ", "ne": " eşit değil ",
+        "leq": " küçük eşit ", "le": " küçük eşit ",
+        "geq": " büyük eşit ", "ge": " büyük eşit ",
+        "sim": " benzer ", "propto": " orantılı ", "infty": "sonsuz",
+        "pi": "pi", "circ": " derece",
+        "sup_join": " üzeri ", "sub_join": " alt indis ",
+        "sqrt_wrap": lambda x: f"{x} sayısının karekökü",
+        "frac_join": " bölü ",
+        "fallback": "matematiksel ifade",
+    },
+    "en": {
+        "cdot": " times ", "times": " times ", "div": " divided by ",
+        "pm": " plus or minus ", "mp": " minus or plus ",
+        "approx": " approximately ", "neq": " not equal to ", "ne": " not equal to ",
+        "leq": " less than or equal to ", "le": " less than or equal to ",
+        "geq": " greater than or equal to ", "ge": " greater than or equal to ",
+        "sim": " similar to ", "propto": " proportional to ", "infty": "infinity",
+        "pi": "pi", "circ": " degrees",
+        "sup_join": " to the ", "sub_join": " sub ",
+        "sqrt_wrap": lambda x: f"the square root of {x}",
+        "frac_join": " over ",
+        "fallback": "mathematical expression",
+    },
+}
+
+
+def _latex_find_matching_brace(s: str, start: int) -> int:
+    depth = 0
+    for i in range(start, len(s)):
+        if s[i] == "{":
+            depth += 1
+        elif s[i] == "}":
+            depth -= 1
+            if depth == 0:
+                return i
+    return -1
+
+
+def _latex_extract_group(s: str, pos: int):
+    end = _latex_find_matching_brace(s, pos)
+    if end == -1:
+        return None, pos + 1
+    return s[pos + 1:end], end + 1
+
+
+def _latex_alt(alt: str, locale: str) -> str:
+    stripped = alt.strip()
+    if PHANTOM_RE.match(stripped):
+        return ""
+    if "\\" not in alt and alt.count("{") == 0:
+        return alt  # already plain text, e.g. a descriptive figure caption
+
+    w = _ALT_WORDS[locale]
+    s = alt.replace("\\left", "").replace("\\right", "")
+    s = s.replace("\\$", "$").replace("\\%", "%").replace("\\metin", "\\text")
+    s = s.replace("\\çarpı", "\\cdot")  # translation-fix bug leaking into LaTeX source
+
+    for _ in range(3):
+        s = re.sub(r"\\(?:text|mathrm)\{([^{}]*)\}", lambda m: m.group(1), s)
+
+    def repl_stackrel(text: str) -> str:
+        out, i = [], 0
+        while i < len(text):
+            m = re.match(r"\\stackrel", text[i:])
+            if m and i + m.end() < len(text) and text[i + m.end()] == "{":
+                _top, after1 = _latex_extract_group(text, i + m.end())
+                if after1 < len(text) and text[after1] == "{":
+                    bottom, after2 = _latex_extract_group(text, after1)
+                    out.append(bottom or "")
+                    i = after2
+                    continue
+            out.append(text[i])
+            i += 1
+        return "".join(out)
+    for _ in range(3):
+        s = repl_stackrel(s)
+
+    def repl_sqrt(text: str) -> str:
+        out, i = [], 0
+        while i < len(text):
+            m = re.match(r"\\sqrt", text[i:])
+            if m and i + m.end() < len(text) and text[i + m.end()] == "{":
+                inner, after = _latex_extract_group(text, i + m.end())
+                out.append(w["sqrt_wrap"](inner or ""))
+                i = after
+            else:
+                out.append(text[i])
+                i += 1
+        return "".join(out)
+    for _ in range(3):
+        s = repl_sqrt(s)
+
+    def repl_frac(text: str) -> str:
+        out, i = [], 0
+        while i < len(text):
+            m = re.match(r"\\d?frac", text[i:])
+            if m and i + m.end() < len(text) and text[i + m.end()] == "{":
+                num, after1 = _latex_extract_group(text, i + m.end())
+                if after1 < len(text) and text[after1] == "{":
+                    den, after2 = _latex_extract_group(text, after1)
+                    out.append(f"{num}{w['frac_join']}{den}")
+                    i = after2
+                    continue
+            out.append(text[i])
+            i += 1
+        return "".join(out)
+    for _ in range(4):
+        s = repl_frac(s)
+
+    for macro, word in sorted(w.items(), key=lambda kv: -len(kv[0])):
+        if macro in ("sup_join", "sub_join", "sqrt_wrap", "frac_join", "fallback"):
+            continue
+        s = re.sub(r"\\" + macro + r"(?![a-zA-Z])", word, s)
+
+    def repl_sup(text: str) -> str:
+        out, i = [], 0
+        while i < len(text):
+            if text[i] == "^":
+                if i + 1 < len(text) and text[i + 1] == "{":
+                    inner, after = _latex_extract_group(text, i + 1)
+                    out.append(w["sup_join"] + (inner or ""))
+                    i = after
+                elif i + 1 < len(text):
+                    out.append(w["sup_join"] + text[i + 1])
+                    i += 2
+                else:
+                    i += 1
+            else:
+                out.append(text[i])
+                i += 1
+        return "".join(out)
+    s = repl_sup(s)
+
+    def repl_sub(text: str) -> str:
+        out, i = [], 0
+        while i < len(text):
+            if text[i] == "_":
+                if i + 1 < len(text) and text[i + 1] == "{":
+                    inner, after = _latex_extract_group(text, i + 1)
+                    out.append(w["sub_join"] + (inner or ""))
+                    i = after
+                elif i + 1 < len(text):
+                    out.append(w["sub_join"] + text[i + 1])
+                    i += 2
+                else:
+                    i += 1
+            else:
+                out.append(text[i])
+                i += 1
+        return "".join(out)
+    s = repl_sub(s)
+
+    s = s.replace("{", "").replace("}", "")
+    s = re.sub(r"\s{2,}", " ", s).strip()
+
+    if "\\" in s:
+        return w["fallback"]
+    return s
+
+
+def clean_media_alt_text(fragment: str, locale: str) -> str:
+    def repl(match: re.Match[str]) -> str:
+        tag = match.group(0)
+        alt_match = IMG_ALT_RE.search(tag)
+        if not alt_match:
+            return tag
+        new_alt = _latex_alt(html.unescape(alt_match.group(1)), locale)
+        return tag[: alt_match.start(1)] + html.escape(new_alt, quote=True) + tag[alt_match.end(1):]
+    return IMG_TAG_RE.sub(repl, fragment)
 
 
 CHAPTERS = {
@@ -823,6 +1012,7 @@ def localize_fragment(
 
     fragment = IMG_SRC_RE.sub(replace_src, fragment)
     fragment = SRCSET_RE.sub(replace_srcset, fragment)
+    fragment = clean_media_alt_text(fragment, locale)
     fragment = fragment.replace(
         'href="/contents/ba42b46c-de39-4f91-a515-06bfd7a16c6b"',
         'href="#chapter-understand-slope-of-a-line"',
